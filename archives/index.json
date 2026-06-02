@@ -1,0 +1,129 @@
+{
+  "generatedAt": "2026-06-01T15:15:14.945Z",
+  "availableDates": [
+    "2026-06-01"
+  ],
+  "summary": {
+    "totalReports": 1,
+    "totalArticles": 15,
+    "highPriority": 9,
+    "mediumPriority": 6,
+    "lowPriority": 0,
+    "averageArticlesPerReport": 15,
+    "latestReportDate": "2026-06-01",
+    "dominantCategory": "Seguridad",
+    "mostActiveSource": "The Hacker News",
+    "highestRiskDay": "2026-06-01",
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 10
+      },
+      {
+        "name": "IA para Desarrolladores",
+        "count": 4
+      },
+      {
+        "name": "Java/Spring Boot",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 7
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "count": 5
+      },
+      {
+        "name": "Krebs on Security",
+        "count": 3
+      }
+    ]
+  },
+  "priorityTrend": [
+    {
+      "date": "2026-06-01",
+      "high": 9,
+      "medium": 6,
+      "low": 0
+    }
+  ],
+  "reports": [
+    {
+      "date": "2026-06-01",
+      "generatedAt": "2026-06-01T15:15:14.944Z",
+      "totalArticles": 15,
+      "highPriority": 9,
+      "mediumPriority": 6,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 10
+        },
+        {
+          "name": "IA para Desarrolladores",
+          "count": 4
+        },
+        {
+          "name": "Java/Spring Boot",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 7
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 5
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 3
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware",
+          "url": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Actores maliciosos alineados con Bielorrusia, conocidos como Ghostwriter, están utilizando señuelos relacionados con Prometheus (una plataforma de aprendizaje online ucraniana) para atacar a organizaciones gubernamentales en Ucrania. El método implica el envío de correos electrónicos de phishing a entidades gubernamentales utilizando cuentas comprometidas.",
+          "whyItMatters": "Este ataque destaca la sofisticación y las tácticas de ingeniería social empleadas por actores de amenazas patrocinados por estados, lo que representa un riesgo directo para la seguridad de las infraestructuras críticas y los datos gubernamentales.",
+          "recommendedAction": "Mantente alerta ante correos electrónicos de phishing sospechosos, especialmente aquellos que intentan hacerse pasar por plataformas legítimas o que provienen de fuentes inesperadas. Verifica siempre la autenticidad de las comunicaciones antes de hacer clic en enlaces o descargar archivos adjuntos."
+        },
+        {
+          "title": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective",
+          "url": "https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Este artículo analiza técnicamente cómo los controladores de modo kernel de Windows pueden ser interactuados desde el modo de usuario sin el hardware para el que fueron desarrollados. Esto es relevante para la investigación de vulnerabilidades y la evaluación de la explotabilidad de hallazgos de seguridad.",
+          "whyItMatters": "Comprender cómo se pueden explotar vulnerabilidades en drivers, incluso sin hardware específico, es crucial para identificar y mitigar riesgos de seguridad en sistemas Windows. Permite a los desarrolladores y profesionales de seguridad anticipar y defenderse contra ataques que aprovechan estas debilidades.",
+          "recommendedAction": "Revisa las prácticas de desarrollo de drivers para asegurar la robustez y la falta de vulnerabilidades. Mantén actualizados los sistemas operativos y los drivers, y considera herramientas de análisis de seguridad para identificar posibles puntos débiles."
+        },
+        {
+          "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
+          "url": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
+          "source": "Krebs on Security",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una empresa brasileña especializada en protección contra ataques DDoS fue descubierta facilitando una botnet responsable de campañas masivas de ataques DDoS contra otros operadores de red en Brasil. El CEO de la firma afirma que la actividad maliciosa fue el resultado de una brecha de seguridad, posiblemente obra de un competidor.",
+          "whyItMatters": "Este incidente revela la complejidad de la seguridad en el ecosistema de la protección DDoS y cómo las herramientas de defensa pueden ser mal utilizadas. Subraya la importancia de la diligencia debida y la seguridad interna para las empresas que ofrecen servicios de seguridad.",
+          "recommendedAction": "Evalúa la confiabilidad y las prácticas de seguridad de los proveedores de servicios de ciberseguridad. Mantente informado sobre las tácticas empleadas en ataques DDoS y asegúrate de tener planes de mitigación adecuados en tu infraestructura."
+        }
+      ]
+    }
+  ]
+}

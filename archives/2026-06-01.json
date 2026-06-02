@@ -1,0 +1,205 @@
+{
+  "date": "2026-06-01",
+  "generatedAt": "2026-06-01T15:15:14.944Z",
+  "totalArticles": 15,
+  "summary": {
+    "highPriority": 9,
+    "mediumPriority": 6,
+    "lowPriority": 0,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 10
+      },
+      {
+        "name": "IA para Desarrolladores",
+        "count": 4
+      },
+      {
+        "name": "Java/Spring Boot",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 7
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "count": 5
+      },
+      {
+        "name": "Krebs on Security",
+        "count": 3
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware",
+      "url": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Actores maliciosos alineados con Bielorrusia, conocidos como Ghostwriter, están utilizando señuelos relacionados con Prometheus (una plataforma de aprendizaje online ucraniana) para atacar a organizaciones gubernamentales en Ucrania. El método implica el envío de correos electrónicos de phishing a entidades gubernamentales utilizando cuentas comprometidas.",
+      "whyItMatters": "Este ataque destaca la sofisticación y las tácticas de ingeniería social empleadas por actores de amenazas patrocinados por estados, lo que representa un riesgo directo para la seguridad de las infraestructuras críticas y los datos gubernamentales.",
+      "recommendedAction": "Mantente alerta ante correos electrónicos de phishing sospechosos, especialmente aquellos que intentan hacerse pasar por plataformas legítimas o que provienen de fuentes inesperadas. Verifica siempre la autenticidad de las comunicaciones antes de hacer clic en enlaces o descargar archivos adjuntos."
+    },
+    {
+      "title": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective",
+      "url": "https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Este artículo analiza técnicamente cómo los controladores de modo kernel de Windows pueden ser interactuados desde el modo de usuario sin el hardware para el que fueron desarrollados. Esto es relevante para la investigación de vulnerabilidades y la evaluación de la explotabilidad de hallazgos de seguridad.",
+      "whyItMatters": "Comprender cómo se pueden explotar vulnerabilidades en drivers, incluso sin hardware específico, es crucial para identificar y mitigar riesgos de seguridad en sistemas Windows. Permite a los desarrolladores y profesionales de seguridad anticipar y defenderse contra ataques que aprovechan estas debilidades.",
+      "recommendedAction": "Revisa las prácticas de desarrollo de drivers para asegurar la robustez y la falta de vulnerabilidades. Mantén actualizados los sistemas operativos y los drivers, y considera herramientas de análisis de seguridad para identificar posibles puntos débiles."
+    },
+    {
+      "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
+      "url": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
+      "source": "Krebs on Security",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una empresa brasileña especializada en protección contra ataques DDoS fue descubierta facilitando una botnet responsable de campañas masivas de ataques DDoS contra otros operadores de red en Brasil. El CEO de la firma afirma que la actividad maliciosa fue el resultado de una brecha de seguridad, posiblemente obra de un competidor.",
+      "whyItMatters": "Este incidente revela la complejidad de la seguridad en el ecosistema de la protección DDoS y cómo las herramientas de defensa pueden ser mal utilizadas. Subraya la importancia de la diligencia debida y la seguridad interna para las empresas que ofrecen servicios de seguridad.",
+      "recommendedAction": "Evalúa la confiabilidad y las prácticas de seguridad de los proveedores de servicios de ciberseguridad. Mantente informado sobre las tácticas empleadas en ataques DDoS y asegúrate de tener planes de mitigación adecuados en tu infraestructura."
+    },
+    {
+      "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
+      "url": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
+      "source": "Krebs on Security",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Hackers vinculados a la inteligencia militar rusa están explotando fallos conocidos en routers antiguos para robar tokens de autenticación de usuarios de Microsoft Office a gran escala. La campaña permitió a los hackers del estado ruso recopilar silenciosamente tokens de autenticación de usuarios en más de 18,000 redes sin desplegar software malicioso.",
+      "whyItMatters": "Esta táctica demuestra una forma de ataque sigilosa y de amplio alcance que no requiere la infección directa de endpoints, sino que se centra en la infraestructura de red. La apropiación de tokens de autenticación puede llevar a accesos no autorizados a sistemas y datos sensibles.",
+      "recommendedAction": "Asegura la red de tu organización actualizando el firmware de los routers y deshabilitando las características innecesarias. Implementa la autenticación multifactor (MFA) para proteger las cuentas de usuario, incluso si los tokens son comprometidos."
+    },
+    {
+      "title": "When the Sensor Starts Thinking: SnortML, Agentic AI, and the Evolving Architecture of Intrusion Detection",
+      "url": "https://stackoverflow.blog/2026/05/11/when-the-sensor-starts-thinking-snortml-agentic-ai-and-the-evolving-architecture-of-intrusion-detection/",
+      "source": "Stack Overflow Blog",
+      "category": "IA para Desarrolladores",
+      "priority": "medium",
+      "score": 8,
+      "summary": "El artículo explora cómo el Machine Learning y los agentes autónomos están transformando la detección de intrusiones. Se pasa de la pregunta \"¿coincide esto con un patrón conocido?\" a \"¿esto tiene sentido en el contexto actual?\", cambiando la arquitectura de la detección de seguridad.",
+      "whyItMatters": "La integración de IA en la seguridad, como se describe con SnortML, representa una evolución significativa en la protección de sistemas. Comprender estos cambios arquitectónicos ayuda a los desarrolladores a anticipar cómo se construirán y asegurarán las futuras aplicaciones.",
+      "recommendedAction": "Familiarízate con los conceptos de IA aplicados a la seguridad y la detección de anomalías. Considera cómo estos enfoques podrían integrarse en tus propios proyectos para mejorar la seguridad y la detección proactiva de amenazas."
+    },
+    {
+      "title": "OAuth 2.0 – Device flow explained for Engineers, especially for Backend Engineers",
+      "url": "https://stackoverflow.blog/2026/05/11/oauth-2-0-device-flow-explained-for-engineers-especially-for-backend-engineers/",
+      "source": "Stack Overflow Blog",
+      "category": "Java/Spring Boot",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Este artículo explica el flujo de dispositivo de OAuth 2.0, un método de autenticación diseñado para dispositivos con capacidades de entrada limitadas, como televisores inteligentes o consolas de juegos. Se enfoca en cómo los ingenieros, especialmente los de backend, pueden implementarlo.",
+      "whyItMatters": "El conocimiento de flujos de autenticación alternativos como el flujo de dispositivo de OAuth 2.0 es valioso para construir aplicaciones seguras y accesibles en diversas plataformas, especialmente aquellas que no tienen una interfaz de navegador web estándar.",
+      "recommendedAction": "Considera la implementación del flujo de dispositivo de OAuth 2.0 si tu aplicación necesita autenticar usuarios en dispositivos sin entrada de navegador fácil. Asegúrate de seguir las mejores prácticas de seguridad para la gestión de tokens y la autorización."
+    },
+    {
+      "title": "No country left behind with sovereign AI",
+      "url": "https://stackoverflow.blog/2026/04/17/no-country-left-behind-with-sovereign-ai/",
+      "source": "Stack Overflow Blog",
+      "category": "IA para Desarrolladores",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Una discusión sobre la soberanía digital y la IA soberana con Stephen Watt, ingeniero distinguido y VP de la Oficina del CTO de Red Hat. El tema explora cómo asegurar que los beneficios de la IA sean accesibles globalmente y de manera controlada.",
+      "whyItMatters": "La IA soberana es un concepto emergente con implicaciones importantes sobre cómo se desarrolla, implementa y controla la IA, especialmente en contextos empresariales y gubernamentales. Entenderlo puede influir en las decisiones de arquitectura y cumplimiento.",
+      "recommendedAction": "Infórmate sobre los conceptos de IA soberana y cómo podrían afectar las regulaciones y el desarrollo de IA en tu región o industria. Considera las implicaciones de la soberanía de datos y la infraestructura en tus proyectos de IA."
+    },
+    {
+      "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
+      "url": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "El actor de amenazas patrocinado por el estado de Corea del Norte, Kimsuky, ha sido atribuido a un nuevo conjunto de ciberataques contra entidades militares y corporativas surcoreanas. Utilizaron tácticas de ingeniería social, como páginas de instalación de software de seguridad falsas y una página de reunión Webex comprometida, desplegando herramientas como HTTPSpy, HelloDoor y túneles de VS Code.",
+      "whyItMatters": "Este artículo detalla las tácticas avanzadas utilizadas por un grupo de amenazas persistente y avanzado (APT), mostrando cómo explotan herramientas legítimas como VS Code para mantener el acceso. Es crucial para entender las amenazas actuales dirigidas a organizaciones.",
+      "recommendedAction": "Mantente actualizado sobre las últimas tácticas y herramientas empleadas por grupos APT. Revisa las políticas de seguridad relacionadas con el uso de herramientas de desarrollo y acceso remoto, y asegúrate de que las defensas estén configuradas para detectar comportamientos anómalos."
+    },
+    {
+      "title": "GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure",
+      "url": "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "CrowdStrike, en colaboración con Google y la Shadowserver Foundation, ha desarticulado los canales de mando y control (C2) asociados con GlassWorm. Este malware ha estado llevando a cabo una campaña de ataque a la cadena de suministro de desarrolladores mediante paquetes y extensiones maliciosas desde principios de 2025.",
+      "whyItMatters": "Los ataques a la cadena de suministro de desarrolladores son una amenaza significativa, ya que pueden comprometer a múltiples usuarios o empresas a través de una única vulnerabilidad o distribución maliciosa. La desarticulación de GlassWorm es una buena noticia, pero subraya la importancia de la seguridad en el desarrollo de software.",
+      "recommendedAction": "Sé extremadamente cauteloso con las dependencias de código abierto y las extensiones de desarrollo. Utiliza herramientas de análisis de seguridad para escanear dependencias y mantén un inventario de software actualizado. Considera la posibilidad de utilizar repositorios de paquetes de confianza o internos."
+    },
+    {
+      "title": "Iranian Hackers Deploy MiniFast and MiniJunk V2 via Phishing and SEO Poisoning",
+      "url": "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Un actor de amenazas patrocinado por el estado iraní, Nimbus Manticore, está llevando a cabo una nueva campaña utilizando señuelos que suplantan organizaciones en los sectores de aviación y software. Emplean técnicas como phishing y envenenamiento de SEO para distribuir malware como MiniFast y MiniJunk V2.",
+      "whyItMatters": "Demuestra las tácticas de ciberespionaje y ataque continuo dirigidas a sectores críticos. El uso combinado de ingeniería social (phishing) y manipulación de motores de búsqueda (SEO poisoning) para la distribución de malware es una táctica preocupante que puede afectar a un amplio rango de objetivos.",
+      "recommendedAction": "Ten cuidado con los resultados de búsqueda sospechosos o que parezcan inusuales. Evita hacer clic en enlaces de correos electrónicos o fuentes no verificadas. Implementa soluciones de seguridad de correo electrónico y web para filtrar contenido malicioso."
+    },
+    {
+      "title": "Patch Tuesday, April 2026 Edition",
+      "url": "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
+      "source": "Krebs on Security",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Microsoft lanzó actualizaciones para corregir 167 vulnerabilidades de seguridad en sus sistemas operativos y software, incluyendo un día cero en SharePoint Server y una debilidad en Windows Defender ('BlueHammer'). Google Chrome también corrigió su cuarto día cero del año, y Adobe Reader recibió una actualización de emergencia para una vulnerabilidad explotada activamente.",
+      "whyItMatters": "Las actualizaciones de seguridad regulares son fundamentales para protegerse contra las amenazas. Este informe destaca la importancia de aplicar parches rápidamente, especialmente cuando se tratan vulnerabilidades de día cero y aquellas que se explotan activamente.",
+      "recommendedAction": "Asegúrate de que tus sistemas operativos y software, incluidos navegadores y aplicaciones de lectura de PDF, estén siempre actualizados. Prioriza la aplicación de parches de seguridad críticos tan pronto como estén disponibles."
+    },
+    {
+      "title": "Breaking your AI storage bottlenecks",
+      "url": "https://stackoverflow.blog/2026/05/22/breaking-your-ai-storage-bottlenecks/",
+      "source": "Stack Overflow Blog",
+      "category": "IA para Desarrolladores",
+      "priority": "medium",
+      "score": 8,
+      "summary": "Una conversación con los cofundadores de MinIO sobre cómo eliminar los cuellos de botella de almacenamiento que dejan subutilizadas las GPUs en IA. Se discute su asociación con NVIDIA en la nueva arquitectura de referencia STX y por qué la infraestructura moderna de IA converge hacia almacenamiento de objetos compatible con S3.",
+      "whyItMatters": "El rendimiento del almacenamiento es un factor crítico para el desarrollo y la implementación eficientes de modelos de IA. Comprender cómo optimizar el almacenamiento puede mejorar significativamente los tiempos de entrenamiento y los costos operativos.",
+      "recommendedAction": "Explora soluciones de almacenamiento optimizadas para cargas de trabajo de IA, especialmente si utilizas GPUs. Investiga arquitecturas de almacenamiento compatibles con S3 y considera cómo pueden integrarse en tus pipelines de datos de IA."
+    },
+    {
+      "title": "Turning scattered knowledge into trusted intelligence: Stack Internal 2026.3",
+      "url": "https://stackoverflow.blog/2026/04/28/turn-scattered-knowledge-into-trusted-intelligence/",
+      "source": "Stack Overflow Blog",
+      "category": "IA para Desarrolladores",
+      "priority": "medium",
+      "score": 8,
+      "summary": "La nueva versión 2026.3 de Stack Internal introduce una función de 'Ingestión' que transforma contenido disperso en conocimiento estructurado y verificado, optimizado tanto para equipos como para IA. Esto facilita la conversión de información no estructurada en inteligencia útil.",
+      "whyItMatters": "La capacidad de procesar y estructurar grandes volúmenes de información no estructurada es fundamental para aprovechar el poder de la IA en la toma de decisiones y la automatización. Esta herramienta puede ser útil para organizar documentación técnica y datos internos.",
+      "recommendedAction": "Considera la integración de herramientas que puedan estructurar y organizar el conocimiento disperso en tu organización. Esto puede mejorar la accesibilidad de la información y potenciar las capacidades de IA para análisis y resúmenes."
+    },
+    {
+      "title": "The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools",
+      "url": "https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 7,
+      "summary": "El artículo discute la evolución de las herramientas para proveedores de servicios gestionados (MSPs) en el ámbito de la ciberseguridad. Se argumenta que el concepto de 'plataforma de crecimiento de seguridad' es más adecuado que las antiguas 'herramientas vCISO' para las necesidades actuales.",
+      "whyItMatters": "Entender las tendencias en las herramientas y plataformas de seguridad que utilizan los MSPs puede ofrecer información sobre cómo se presta el soporte de seguridad en la industria y qué tipo de soluciones son más efectivas.",
+      "recommendedAction": "Mantente informado sobre las tendencias en la prestación de servicios de ciberseguridad. Si trabajas con MSPs, evalúa si sus herramientas y enfoques se alinean con las mejores prácticas actuales para la protección."
+    },
+    {
+      "title": "Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts",
+      "url": "https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Los actores de amenazas están explotando activamente una vulnerabilidad crítica en WP Maps Pro, un plugin de WordPress con más de 15,000 ventas, para crear cuentas de administrador maliciosas en sitios web vulnerables. El plugin permite incrustar mapas personalizables en sitios de WordPress.",
+      "whyItMatters": "Esta vulnerabilidad afecta a una herramienta ampliamente utilizada en el ecosistema de WordPress, lo que representa un riesgo significativo para muchos sitios web. La explotación activa para obtener privilegios de administrador es una táctica común y peligrosa.",
+      "recommendedAction": "Si utilizas el plugin WP Maps Pro en algún sitio de WordPress, actualízalo inmediatamente a la última versión segura. Realiza auditorías de seguridad en tus sitios de WordPress y asegúrate de que todos los plugins y temas estén actualizados."
+    }
+  ]
+}
