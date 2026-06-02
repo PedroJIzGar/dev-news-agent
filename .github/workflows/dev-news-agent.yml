@@ -13,8 +13,10 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout agent repository
         uses: actions/checkout@v4
+        with:
+          path: agent
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
@@ -26,14 +28,18 @@ jobs:
         with:
           node-version: 22
           cache: "pnpm"
+          cache-dependency-path: agent/pnpm-lock.yaml
 
       - name: Install dependencies
+        working-directory: agent
         run: pnpm install --frozen-lockfile
 
       - name: Build project
+        working-directory: agent
         run: pnpm build
 
       - name: Run agent
+        working-directory: agent
         run: pnpm start
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -42,10 +48,32 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           ENABLE_TELEGRAM_NOTIFICATIONS: ${{ secrets.ENABLE_TELEGRAM_NOTIFICATIONS }}
 
-      - name: Commit generated archive
+      - name: Commit generated archive and history in agent repo
+        working-directory: agent
         run: |
           git config user.name "dev-news-agent"
           git config user.email "dev-news-agent@users.noreply.github.com"
           git add archives data
           git commit -m "chore: add daily dev news archive" || echo "No changes to commit"
+          git push
+
+      - name: Checkout dashboard repository
+        uses: actions/checkout@v4
+        with:
+          repository: PedroJIzGar/dev-new-dashboard
+          token: ${{ secrets.DASHBOARD_REPO_TOKEN }}
+          path: dashboard
+
+      - name: Sync JSON archives to dashboard
+        run: |
+          mkdir -p dashboard/public/archives
+          cp agent/archives/*.json dashboard/public/archives/
+
+      - name: Commit dashboard archive update
+        working-directory: dashboard
+        run: |
+          git config user.name "dev-news-agent"
+          git config user.email "dev-news-agent@users.noreply.github.com"
+          git add public/archives
+          git commit -m "chore: sync dev news archives" || echo "No changes to commit"
           git push
