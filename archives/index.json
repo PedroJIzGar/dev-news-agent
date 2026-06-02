@@ -1,58 +1,54 @@
 {
-  "generatedAt": "2026-06-02T10:23:16.878Z",
+  "generatedAt": "2026-06-02T10:33:14.989Z",
   "availableDates": [
     "2026-06-02",
     "2026-06-01"
   ],
   "summary": {
     "totalReports": 2,
-    "totalArticles": 28,
-    "highPriority": 13,
-    "mediumPriority": 13,
-    "lowPriority": 2,
-    "averageArticlesPerReport": 14,
+    "totalArticles": 30,
+    "highPriority": 17,
+    "mediumPriority": 12,
+    "lowPriority": 1,
+    "averageArticlesPerReport": 15,
     "latestReportDate": "2026-06-02",
-    "dominantCategory": "Seguridad",
-    "mostActiveSource": "The Hacker News",
+    "dominantCategory": "AI",
+    "mostActiveSource": "Stack Overflow Blog",
     "highestRiskDay": "2026-06-01",
     "topCategories": [
       {
+        "name": "AI",
+        "count": 13
+      },
+      {
         "name": "Seguridad",
         "count": 10
-      },
-      {
-        "name": "Security",
-        "count": 8
-      },
-      {
-        "name": "AI for Developers",
-        "count": 4
       },
       {
         "name": "IA para Desarrolladores",
         "count": 4
       },
       {
-        "name": "Developer Culture",
+        "name": "Security",
+        "count": 1
+      },
+      {
+        "name": "Developer Tools",
         "count": 1
       }
     ],
     "topSources": [
       {
-        "name": "The Hacker News",
-        "count": 11
+        "name": "Stack Overflow Blog",
+        "count": 20
       },
       {
-        "name": "Stack Overflow Blog",
-        "count": 10
+        "name": "The Hacker News",
+        "count": 7
       },
       {
         "name": "Krebs on Security",
-        "count": 6
-      },
-      {
-        "name": "Spring Blog",
-        "count": 1
+        "count": 3
       }
     ]
   },
@@ -65,86 +61,74 @@
     },
     {
       "date": "2026-06-02",
-      "high": 4,
-      "medium": 7,
-      "low": 2
+      "high": 8,
+      "medium": 6,
+      "low": 1
     }
   ],
   "reports": [
     {
       "date": "2026-06-02",
-      "generatedAt": "2026-06-02T10:23:16.870Z",
-      "totalArticles": 13,
-      "highPriority": 4,
-      "mediumPriority": 7,
-      "lowPriority": 2,
-      "topCategory": "Security",
+      "generatedAt": "2026-06-02T10:33:14.980Z",
+      "totalArticles": 15,
+      "highPriority": 8,
+      "mediumPriority": 6,
+      "lowPriority": 1,
+      "topCategory": "AI",
       "topSource": "Stack Overflow Blog",
       "topCategories": [
         {
+          "name": "AI",
+          "count": 13
+        },
+        {
           "name": "Security",
-          "count": 8
+          "count": 1
         },
         {
-          "name": "AI for Developers",
-          "count": 4
-        },
-        {
-          "name": "Developer Culture",
+          "name": "Developer Tools",
           "count": 1
         }
       ],
       "topSources": [
         {
           "name": "Stack Overflow Blog",
-          "count": 5
-        },
-        {
-          "name": "The Hacker News",
-          "count": 4
-        },
-        {
-          "name": "Krebs on Security",
-          "count": 3
-        },
-        {
-          "name": "Spring Blog",
-          "count": 1
+          "count": 15
         }
       ],
       "topArticles": [
         {
-          "title": "Spring and Security In The Times Of AI",
-          "url": "https://spring.io/blog/2026/06/01/spring_and_security_in_the_times_of_ai",
-          "source": "Spring Blog",
-          "category": "Security",
+          "title": "Dispatches from O'Reilly: The accidental orchestrator",
+          "url": "https://stackoverflow.blog/2026/05/22/dispatches-from-o-reilly-the-accidental-orchestrator/",
+          "source": "Stack Overflow Blog",
+          "category": "AI",
           "priority": "high",
           "score": 9,
-          "summary": "Este artículo explora la intersección entre Spring, la seguridad y la Inteligencia Artificial. Analiza cómo las nuevas capacidades de IA están impactando las prácticas de seguridad en el ecosistema Spring y qué desafíos y oportunidades presenta esto para los desarrolladores.",
-          "whyItMatters": "Dado que el usuario trabaja con Java y Spring Boot, entender cómo la IA afecta la seguridad en este framework es crucial para desarrollar aplicaciones robustas y seguras en el futuro.",
-          "recommendedAction": "Leer el artículo para comprender las implicaciones de la IA en la seguridad de Spring y evaluar cómo adaptar las estrategias de desarrollo y seguridad actuales."
+          "summary": "Artículo que explora los experimentos en ingeniería de agentes y el desarrollo impulsado por IA.",
+          "whyItMatters": "Este artículo aborda las últimas tendencias en el desarrollo impulsado por IA, específicamente en la ingeniería de agentes, un área de rápido crecimiento que podría transformar la forma en que se crea el software. Es relevante para los desarrolladores interesados en las nuevas herramientas y metodologías.",
+          "recommendedAction": "Leer el artículo para entender las implicaciones de la ingeniería de agentes y cómo la IA está cambiando el panorama del desarrollo de software."
         },
         {
-          "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
-          "url": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
-          "source": "The Hacker News",
-          "category": "Security",
+          "title": "Coding agents are giving everyone decision fatigue",
+          "url": "https://stackoverflow.blog/2026/05/21/coding-agents-are-giving-everyone-decision-fatigue/",
+          "source": "Stack Overflow Blog",
+          "category": "AI",
           "priority": "high",
-          "score": 9,
-          "summary": "Un ataque de cadena de suministro llamado Miasma ha comprometido paquetes npm de Red Hat, robando credenciales y secretos de las máquinas de los desarrolladores y propagándose como un gusano.",
-          "whyItMatters": "Los ataques a la cadena de suministro son una amenaza significativa para los desarrolladores. Este incidente, que afecta a paquetes utilizados en entornos CI/CD y potentially a la nube, es de alta relevancia para mantener la seguridad del entorno de desarrollo y producción.",
-          "recommendedAction": "Revisar las dependencias de npm, especialmente las relacionadas con Red Hat, y fortalecer las prácticas de seguridad en los flujos de CI/CD para mitigar riesgos de la cadena de suministro."
+          "score": 8,
+          "summary": "Analiza cómo los agentes de codificación, a pesar de sus beneficios, pueden generar fatiga en la toma de decisiones para los desarrolladores, haciendo el día a día más intenso.",
+          "whyItMatters": "Plantea un desafío importante en la adopción de herramientas de IA: la sobrecarga de decisiones. Comprender cómo gestionar esta fatiga es crucial para mantener la productividad y el bienestar de los desarrolladores a medida que estas herramientas se vuelven más comunes.",
+          "recommendedAction": "Explorar las estrategias para mitigar la fatiga de decisión al trabajar con agentes de codificación y evaluar su impacto en el flujo de trabajo personal."
         },
         {
-          "title": "MFA Prompt Bombing: Why Your Second Factor Isn't Saving You",
-          "url": "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
-          "source": "The Hacker News",
+          "title": "Your fridge could be a threat to national security",
+          "url": "https://stackoverflow.blog/2026/05/19/your-fridge-could-be-a-threat-to-national-security/",
+          "source": "Stack Overflow Blog",
           "category": "Security",
           "priority": "high",
-          "score": 9,
-          "summary": "Los atacantes están empleando la técnica de 'MFA prompt bombing' para abrumar a los usuarios con solicitudes de autenticación multifactor, forzándolos a aprobar un inicio de sesión malicioso.",
-          "whyItMatters": "La autenticación multifactor (MFA) es una piedra angular de la seguridad, pero esta técnica demuestra una nueva forma en que puede ser eludida. Comprender estas tácticas es vital para proteger cuentas y datos.",
-          "recommendedAction": "Educarse y educar a los equipos sobre los ataques de 'MFA prompt bombing' y considerar la implementación de límites de tasa o aprobaciones más estrictas para las solicitudes MFA."
+          "score": 8,
+          "summary": "Informa sobre el reporte de Crowdstrike que identifica amenazas a la seguridad nacional provenientes de dispositivos IoT, incluyendo electrodomésticos inteligentes.",
+          "whyItMatters": "Este artículo es vital para entender el panorama de amenazas de seguridad en el mundo conectado. La proliferación de dispositivos IoT y su potencial para ser puntos de entrada a redes críticas o para ser utilizados en ataques a gran escala es una preocupación creciente.",
+          "recommendedAction": "Prestar atención a las tendencias en seguridad de IoT y considerar las implicaciones para la seguridad de redes corporativas y personales."
         }
       ]
     },
