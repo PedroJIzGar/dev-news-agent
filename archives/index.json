@@ -1,16 +1,17 @@
 {
-  "generatedAt": "2026-06-01T15:15:14.945Z",
+  "generatedAt": "2026-06-02T10:23:16.878Z",
   "availableDates": [
+    "2026-06-02",
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 1,
-    "totalArticles": 15,
-    "highPriority": 9,
-    "mediumPriority": 6,
-    "lowPriority": 0,
-    "averageArticlesPerReport": 15,
-    "latestReportDate": "2026-06-01",
+    "totalReports": 2,
+    "totalArticles": 28,
+    "highPriority": 13,
+    "mediumPriority": 13,
+    "lowPriority": 2,
+    "averageArticlesPerReport": 14,
+    "latestReportDate": "2026-06-02",
     "dominantCategory": "Seguridad",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-01",
@@ -20,26 +21,38 @@
         "count": 10
       },
       {
+        "name": "Security",
+        "count": 8
+      },
+      {
+        "name": "AI for Developers",
+        "count": 4
+      },
+      {
         "name": "IA para Desarrolladores",
         "count": 4
       },
       {
-        "name": "Java/Spring Boot",
+        "name": "Developer Culture",
         "count": 1
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 7
+        "count": 11
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 5
+        "count": 10
       },
       {
         "name": "Krebs on Security",
-        "count": 3
+        "count": 6
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
       }
     ]
   },
@@ -49,9 +62,92 @@
       "high": 9,
       "medium": 6,
       "low": 0
+    },
+    {
+      "date": "2026-06-02",
+      "high": 4,
+      "medium": 7,
+      "low": 2
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-02",
+      "generatedAt": "2026-06-02T10:23:16.870Z",
+      "totalArticles": 13,
+      "highPriority": 4,
+      "mediumPriority": 7,
+      "lowPriority": 2,
+      "topCategory": "Security",
+      "topSource": "Stack Overflow Blog",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 8
+        },
+        {
+          "name": "AI for Developers",
+          "count": 4
+        },
+        {
+          "name": "Developer Culture",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "Stack Overflow Blog",
+          "count": 5
+        },
+        {
+          "name": "The Hacker News",
+          "count": 4
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 3
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Spring and Security In The Times Of AI",
+          "url": "https://spring.io/blog/2026/06/01/spring_and_security_in_the_times_of_ai",
+          "source": "Spring Blog",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Este artículo explora la intersección entre Spring, la seguridad y la Inteligencia Artificial. Analiza cómo las nuevas capacidades de IA están impactando las prácticas de seguridad en el ecosistema Spring y qué desafíos y oportunidades presenta esto para los desarrolladores.",
+          "whyItMatters": "Dado que el usuario trabaja con Java y Spring Boot, entender cómo la IA afecta la seguridad en este framework es crucial para desarrollar aplicaciones robustas y seguras en el futuro.",
+          "recommendedAction": "Leer el artículo para comprender las implicaciones de la IA en la seguridad de Spring y evaluar cómo adaptar las estrategias de desarrollo y seguridad actuales."
+        },
+        {
+          "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
+          "url": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un ataque de cadena de suministro llamado Miasma ha comprometido paquetes npm de Red Hat, robando credenciales y secretos de las máquinas de los desarrolladores y propagándose como un gusano.",
+          "whyItMatters": "Los ataques a la cadena de suministro son una amenaza significativa para los desarrolladores. Este incidente, que afecta a paquetes utilizados en entornos CI/CD y potentially a la nube, es de alta relevancia para mantener la seguridad del entorno de desarrollo y producción.",
+          "recommendedAction": "Revisar las dependencias de npm, especialmente las relacionadas con Red Hat, y fortalecer las prácticas de seguridad en los flujos de CI/CD para mitigar riesgos de la cadena de suministro."
+        },
+        {
+          "title": "MFA Prompt Bombing: Why Your Second Factor Isn't Saving You",
+          "url": "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Los atacantes están empleando la técnica de 'MFA prompt bombing' para abrumar a los usuarios con solicitudes de autenticación multifactor, forzándolos a aprobar un inicio de sesión malicioso.",
+          "whyItMatters": "La autenticación multifactor (MFA) es una piedra angular de la seguridad, pero esta técnica demuestra una nueva forma en que puede ser eludida. Comprender estas tácticas es vital para proteger cuentas y datos.",
+          "recommendedAction": "Educarse y educar a los equipos sobre los ataques de 'MFA prompt bombing' y considerar la implementación de límites de tasa o aprobaciones más estrictas para las solicitudes MFA."
+        }
+      ]
+    },
     {
       "date": "2026-06-01",
       "generatedAt": "2026-06-01T15:15:14.944Z",
