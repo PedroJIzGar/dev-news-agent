@@ -1,17 +1,18 @@
 {
-  "generatedAt": "2026-06-02T10:33:14.989Z",
+  "generatedAt": "2026-06-03T06:54:51.155Z",
   "availableDates": [
+    "2026-06-03",
     "2026-06-02",
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 2,
-    "totalArticles": 30,
-    "highPriority": 17,
-    "mediumPriority": 12,
-    "lowPriority": 1,
+    "totalReports": 3,
+    "totalArticles": 44,
+    "highPriority": 21,
+    "mediumPriority": 18,
+    "lowPriority": 5,
     "averageArticlesPerReport": 15,
-    "latestReportDate": "2026-06-02",
+    "latestReportDate": "2026-06-03",
     "dominantCategory": "AI",
     "mostActiveSource": "Stack Overflow Blog",
     "highestRiskDay": "2026-06-01",
@@ -25,30 +26,38 @@
         "count": 10
       },
       {
+        "name": "Security",
+        "count": 6
+      },
+      {
         "name": "IA para Desarrolladores",
         "count": 4
       },
       {
-        "name": "Security",
-        "count": 1
-      },
-      {
-        "name": "Developer Tools",
-        "count": 1
+        "name": "AI for Developers",
+        "count": 3
       }
     ],
     "topSources": [
       {
         "name": "Stack Overflow Blog",
-        "count": 20
+        "count": 27
       },
       {
         "name": "The Hacker News",
-        "count": 7
+        "count": 12
       },
       {
         "name": "Krebs on Security",
         "count": 3
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 1
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
       }
     ]
   },
@@ -64,9 +73,100 @@
       "high": 8,
       "medium": 6,
       "low": 1
+    },
+    {
+      "date": "2026-06-03",
+      "high": 4,
+      "medium": 6,
+      "low": 4
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-03",
+      "generatedAt": "2026-06-03T06:54:51.147Z",
+      "totalArticles": 14,
+      "highPriority": 4,
+      "mediumPriority": 6,
+      "lowPriority": 4,
+      "topCategory": "Security",
+      "topSource": "Stack Overflow Blog",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 5
+        },
+        {
+          "name": "AI for Developers",
+          "count": 3
+        },
+        {
+          "name": "Professional Development",
+          "count": 2
+        },
+        {
+          "name": "Dev Tools",
+          "count": 1
+        },
+        {
+          "name": "Backend",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "Stack Overflow Blog",
+          "count": 7
+        },
+        {
+          "name": "The Hacker News",
+          "count": 5
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It.",
+          "url": "https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "La explotación impulsada por IA está acelerando la ventana entre la divulgación de vulnerabilidades y su explotación, volviendo ineficaz la gestión tradicional de vulnerabilidades.",
+          "whyItMatters": "Como desarrolladores, debemos entender cómo la IA está siendo utilizada para explotar vulnerabilidades más rápido que nunca, lo que impacta directamente en la seguridad de nuestras aplicaciones y sistemas.",
+          "recommendedAction": "Revisar y mejorar las estrategias de gestión de vulnerabilidades, priorizando la rápida aplicación de parches y la monitorización continua ante el aumento de ataques automatizados por IA."
+        },
+        {
+          "title": "Gamaredon Exploits WinRAR to Deliver GammaWorm and GammaSteel Against Ukraine",
+          "url": "https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "El grupo de hackers ruso Gamaredon está explotando activamente una vulnerabilidad en WinRAR (CVE-2025-48595) para distribuir malware como GammaWorm y GammaSteel, con el objetivo de robar datos y propagarse.",
+          "whyItMatters": "Esta noticia destaca la importancia crítica de mantener actualizado el software que utilizamos, incluso herramientas comunes como WinRAR, ya que las vulnerabilidades no parcheadas pueden ser aprovechadas por actores maliciosos para comprometer sistemas.",
+          "recommendedAction": "Asegurarse de que todos los desarrolladores y sistemas utilicen versiones actualizadas y seguras de WinRAR, y considerar alternativas si el software no recibe parches de seguridad de manera oportuna."
+        },
+        {
+          "title": "Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation",
+          "url": "https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "La CISA ha añadido la vulnerabilidad CVE-2024-21182 en Oracle WebLogic Server a su catálogo de Vulnerabilidades Explotadas Conocidas (KEV) debido a su explotación activa. Permite a atacantes sin autenticar tomar control de servidores vulnerables.",
+          "whyItMatters": "Las vulnerabilidades en servidores de aplicaciones como WebLogic son críticas para la infraestructura empresarial. La explotación activa de esta CVE significa que los sistemas que utilizan esta tecnología están en riesgo inmediato.",
+          "recommendedAction": "Si se utiliza Oracle WebLogic, verificar si los sistemas son vulnerables a CVE-2024-21182 y aplicar los parches o mitigaciones necesarias de forma prioritaria."
+        }
+      ]
+    },
     {
       "date": "2026-06-02",
       "generatedAt": "2026-06-02T10:33:14.980Z",
