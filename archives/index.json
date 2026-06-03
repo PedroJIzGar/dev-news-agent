@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T06:54:51.155Z",
+  "generatedAt": "2026-06-03T11:57:34.566Z",
   "availableDates": [
     "2026-06-03",
     "2026-06-02",
@@ -7,11 +7,11 @@
   ],
   "summary": {
     "totalReports": 3,
-    "totalArticles": 44,
-    "highPriority": 21,
-    "mediumPriority": 18,
+    "totalArticles": 38,
+    "highPriority": 19,
+    "mediumPriority": 14,
     "lowPriority": 5,
-    "averageArticlesPerReport": 15,
+    "averageArticlesPerReport": 13,
     "latestReportDate": "2026-06-03",
     "dominantCategory": "AI",
     "mostActiveSource": "Stack Overflow Blog",
@@ -27,37 +27,29 @@
       },
       {
         "name": "Security",
-        "count": 6
+        "count": 4
       },
       {
         "name": "IA para Desarrolladores",
         "count": 4
       },
       {
-        "name": "AI for Developers",
-        "count": 3
+        "name": "Developer Culture",
+        "count": 2
       }
     ],
     "topSources": [
       {
         "name": "Stack Overflow Blog",
-        "count": 27
+        "count": 25
       },
       {
         "name": "The Hacker News",
-        "count": 12
+        "count": 10
       },
       {
         "name": "Krebs on Security",
         "count": 3
-      },
-      {
-        "name": "GitHub Blog",
-        "count": 1
-      },
-      {
-        "name": "Spring Blog",
-        "count": 1
       }
     ]
   },
@@ -76,94 +68,86 @@
     },
     {
       "date": "2026-06-03",
-      "high": 4,
-      "medium": 6,
+      "high": 2,
+      "medium": 2,
       "low": 4
     }
   ],
   "reports": [
     {
       "date": "2026-06-03",
-      "generatedAt": "2026-06-03T06:54:51.147Z",
-      "totalArticles": 14,
-      "highPriority": 4,
-      "mediumPriority": 6,
+      "generatedAt": "2026-06-03T11:57:34.557Z",
+      "totalArticles": 8,
+      "highPriority": 2,
+      "mediumPriority": 2,
       "lowPriority": 4,
       "topCategory": "Security",
       "topSource": "Stack Overflow Blog",
       "topCategories": [
         {
           "name": "Security",
-          "count": 5
-        },
-        {
-          "name": "AI for Developers",
           "count": 3
         },
         {
-          "name": "Professional Development",
+          "name": "Developer Culture",
           "count": 2
         },
         {
-          "name": "Dev Tools",
+          "name": "Web Development",
           "count": 1
         },
         {
-          "name": "Backend",
+          "name": "Programming Languages",
+          "count": 1
+        },
+        {
+          "name": "DevOps",
           "count": 1
         }
       ],
       "topSources": [
         {
           "name": "Stack Overflow Blog",
-          "count": 7
-        },
-        {
-          "name": "The Hacker News",
           "count": 5
         },
         {
-          "name": "GitHub Blog",
-          "count": 1
-        },
-        {
-          "name": "Spring Blog",
-          "count": 1
+          "name": "The Hacker News",
+          "count": 3
         }
       ],
       "topArticles": [
         {
-          "title": "AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It.",
-          "url": "https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html",
+          "title": "New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy & Cloudflare",
+          "url": "https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html",
           "source": "The Hacker News",
           "category": "Security",
           "priority": "high",
           "score": 9,
-          "summary": "La explotación impulsada por IA está acelerando la ventana entre la divulgación de vulnerabilidades y su explotación, volviendo ineficaz la gestión tradicional de vulnerabilidades.",
-          "whyItMatters": "Como desarrolladores, debemos entender cómo la IA está siendo utilizada para explotar vulnerabilidades más rápido que nunca, lo que impacta directamente en la seguridad de nuestras aplicaciones y sistemas.",
-          "recommendedAction": "Revisar y mejorar las estrategias de gestión de vulnerabilidades, priorizando la rápida aplicación de parches y la monitorización continua ante el aumento de ataques automatizados por IA."
+          "summary": "Una nueva vulnerabilidad denominada \"HTTP/2 Bomb\" afecta a servidores web populares como NGINX, Apache, IIS, Envoy y Cloudflare, permitiendo ataques remotos de denegación de servicio (DoS). La vulnerabilidad reside en la configuración predeterminada de HTTP/2 de estos servidores. Curiosamente, fue descubierta mediante el uso de OpenAI Codex.",
+          "whyItMatters": "Esta vulnerabilidad puede causar indisponibilidad de servicios críticos. Dado que afecta a componentes de infraestructura web tan comunes, es vital para desarrolladores backend y de sistemas que gestionan la disponibilidad de aplicaciones.",
+          "recommendedAction": "Revisar y actualizar las configuraciones de HTTP/2 en los servidores web. Aplicar parches tan pronto como estén disponibles y monitorizar la red en busca de patrones de ataque DoS."
         },
         {
-          "title": "Gamaredon Exploits WinRAR to Deliver GammaWorm and GammaSteel Against Ukraine",
-          "url": "https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html",
+          "title": "Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes",
+          "url": "https://thehackernews.com/2026/06/unpatched-windows-search-uri.html",
           "source": "The Hacker News",
           "category": "Security",
           "priority": "high",
-          "score": 9,
-          "summary": "El grupo de hackers ruso Gamaredon está explotando activamente una vulnerabilidad en WinRAR (CVE-2025-48595) para distribuir malware como GammaWorm y GammaSteel, con el objetivo de robar datos y propagarse.",
-          "whyItMatters": "Esta noticia destaca la importancia crítica de mantener actualizado el software que utilizamos, incluso herramientas comunes como WinRAR, ya que las vulnerabilidades no parcheadas pueden ser aprovechadas por actores maliciosos para comprometer sistemas.",
-          "recommendedAction": "Asegurarse de que todos los desarrolladores y sistemas utilicen versiones actualizadas y seguras de WinRAR, y considerar alternativas si el software no recibe parches de seguridad de manera oportuna."
+          "score": 8,
+          "summary": "Investigadores de seguridad han descubierto una vulnerabilidad sin parchear en el manejador URI search: de Windows que podría permitir a atacantes robar hashes NTLMv2 de los usuarios. Este fallo es similar a una vulnerabilidad previa en la Herramienta Recortes de Windows.",
+          "whyItMatters": "Las vulnerabilidades de seguridad que permiten el robo de credenciales son críticas. Esta afecta a sistemas Windows y es importante para cualquier desarrollador que trabaje en entornos empresariales o maneje datos sensibles.",
+          "recommendedAction": "Mantener los sistemas Windows actualizados. Estar atento a los parches de seguridad y aplicar las medidas necesarias para proteger las credenciales de usuario."
         },
         {
-          "title": "Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation",
-          "url": "https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html",
-          "source": "The Hacker News",
-          "category": "Security",
-          "priority": "high",
-          "score": 9,
-          "summary": "La CISA ha añadido la vulnerabilidad CVE-2024-21182 en Oracle WebLogic Server a su catálogo de Vulnerabilidades Explotadas Conocidas (KEV) debido a su explotación activa. Permite a atacantes sin autenticar tomar control de servidores vulnerables.",
-          "whyItMatters": "Las vulnerabilidades en servidores de aplicaciones como WebLogic son críticas para la infraestructura empresarial. La explotación activa de esta CVE significa que los sistemas que utilizan esta tecnología están en riesgo inmediato.",
-          "recommendedAction": "Si se utiliza Oracle WebLogic, verificar si los sistemas son vulnerables a CVE-2024-21182 y aplicar los parches o mitigaciones necesarias de forma prioritaria."
+          "title": "Building a Google Drive Sync Engine that Survives MV3 Service Workers",
+          "url": "https://stackoverflow.blog/2026/05/12/building-a-google-drive-sync-engine-that-survives-mv3-service-workers/",
+          "source": "Stack Overflow Blog",
+          "category": "Web Development",
+          "priority": "medium",
+          "score": 7,
+          "summary": "El artículo detalla el proceso de construcción de un motor de sincronización para Google Drive que sea compatible con las Service Workers de la Manifest V3 (MV3).",
+          "whyItMatters": "La compatibilidad con MV3 es crucial para las extensiones de Chrome y las aplicaciones web progresivas. Comprender cómo manejar la sincronización de datos en este contexto es valioso para desarrolladores frontend y full-stack.",
+          "recommendedAction": "Explorar las implicaciones de Manifest V3 en el desarrollo de extensiones y aplicaciones web. Investigar patrones para la sincronización de datos en entornos con Service Workers limitados."
         }
       ]
     },
