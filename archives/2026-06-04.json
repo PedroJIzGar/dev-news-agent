@@ -1,0 +1,164 @@
+{
+  "date": "2026-06-04",
+  "generatedAt": "2026-06-04T10:39:37.067Z",
+  "totalArticles": 12,
+  "summary": {
+    "highPriority": 6,
+    "mediumPriority": 5,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 11
+      },
+      {
+        "name": "Frontend",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 11
+      },
+      {
+        "name": "Angular Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "One-Click GitHub Dev Attack Lets Attackers Steal Full GitHub OAuth Tokens",
+      "url": "https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Investigadores de seguridad han descubierto un ataque de un solo clic en Visual Studio Code que permite a los atacantes robar tokens de GitHub, otorgándoles acceso completo a repositorios privados y públicos.",
+      "whyItMatters": "Este es un riesgo de seguridad crítico para cualquier desarrollador que use GitHub y VS Code. El acceso no autorizado a los repositorios puede llevar a la exfiltración de código, inyecciones de malware o interrupciones del servicio.",
+      "recommendedAction": "Mantente alerta ante enlaces sospechosos y considera revisar y revocar los tokens de acceso de tu cuenta de GitHub si has hecho clic en enlaces desconocidos recientemente. Mantén VS Code y sus extensiones actualizadas."
+    },
+    {
+      "title": "Autonomous AI Tool Finds 2-Year-Old RCE Flaw in Redis (CVE-2026-23479)",
+      "url": "https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una herramienta de IA autónoma ha descubierto una vulnerabilidad de ejecución remota (RCE) de dos años en Redis (CVE-2026-23479), que permite a un usuario autenticado ejecutar comandos arbitrarios en el sistema.",
+      "whyItMatters": "Redis es una base de datos en memoria ampliamente utilizada. Una vulnerabilidad RCE no parcheada puede ser catastrófica, permitiendo a los atacantes tomar control total de los servidores que alojan la base de datos.",
+      "recommendedAction": "Asegúrate de que tus instancias de Redis estén actualizadas a la última versión parcheada. Revisa las configuraciones de seguridad de acceso a tu base de datos."
+    },
+    {
+      "title": "CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog",
+      "url": "https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "La CISA ha añadido una vulnerabilidad crítica de ejecución remota (RCE) en una extensión popular de Magento (CVE-2026-45247) a su catálogo de Vulnerabilidades Explotadas Conocidas (KEV), indicando que está siendo activamente explotada.",
+      "whyItMatters": "Si utilizas Magento con esta extensión, tu sitio de comercio electrónico está en riesgo. Las vulnerabilidades RCE explotadas activamente pueden llevar a la toma de control del servidor, robo de datos de clientes y otras consecuencias graves.",
+      "recommendedAction": "Si utilizas Magento y la extensión Mirasvit Cache Warmer, actualízala inmediatamente o desactívala hasta que se pueda aplicar el parche. Monitorea tu entorno en busca de signos de compromiso."
+    },
+    {
+      "title": "Google DoubleClick Abused in New Malspam Campaign to Deliver DesckVB RAT",
+      "url": "https://thehackernews.com/2026/06/google-doubleclick-abused-in-new.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Se ha detectado una nueva campaña de malspam que abusa del dominio DoubleClick de Google para evadir la detección y entregar un troyano de acceso remoto (RAT) llamado DesckVB.",
+      "whyItMatters": "Los atacantes están utilizando servicios legítimos y de confianza como DoubleClick para disfrazar sus actividades maliciosas. Esto resalta la importancia de la inspección profunda de paquetes y el análisis de comportamiento, además de la reputación de dominio, para la detección de amenazas.",
+      "recommendedAction": "Educa a los usuarios sobre los peligros del phishing y el malspam. Asegúrate de que tus filtros de correo electrónico y soluciones de seguridad de red estén configurados para detectar y bloquear este tipo de amenazas."
+    },
+    {
+      "title": "Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS",
+      "url": "https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Una operación a gran escala está creando sitios web falsos que imitan herramientas de código abierto para engañar a los usuarios y entregarles malware a través de un Sistema de Distribución de Tráfico (TDS).",
+      "whyItMatters": "Los atacantes explotan la confianza en proyectos de código abierto y la visibilidad de Google para distribuir malware. Esto puede afectar a desarrolladores y usuarios que buscan herramientas legítimas en línea.",
+      "recommendedAction": "Verifica siempre la URL y la fuente de las descargas de software. Prefiere descargar herramientas de sus repositorios oficiales (como GitHub) o sitios web conocidos y confiables."
+    },
+    {
+      "title": "Hackers Spied on a Stock Exchange Executive's Outlook Mailbox for Five Months",
+      "url": "https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Actores de amenazas desconocidos espiaron durante al menos cinco meses el buzón de Outlook de un ejecutivo de una bolsa de valores global, extrayendo datos de forma discreta a través de servicios en la nube.",
+      "whyItMatters": "Este incidente subraya las sofisticadas tácticas de espionaje utilizadas contra objetivos de alto valor. El uso de servicios en la nube legítimos para exfiltrar datos dificulta la detección de este tipo de ataques.",
+      "recommendedAction": "Implementa monitoreo de seguridad avanzado y análisis de comportamiento para detectar actividades anómalas, incluso cuando utilizan canales legítimos. Asegura el acceso a cuentas de correo electrónico críticas con autenticación multifactor."
+    },
+    {
+      "title": "Announcing Angular v22",
+      "url": "https://blog.angular.dev/announcing-angular-v22-c52bb83a4664?source=rss----447683c3d9a3---4",
+      "source": "Angular Blog",
+      "category": "Frontend",
+      "priority": "high",
+      "score": 9,
+      "summary": "Anuncio oficial del lanzamiento de Angular v22, detallando las nuevas características, mejoras y cambios introducidos en esta versión.",
+      "whyItMatters": "Angular es un framework frontend popular. Las nuevas versiones suelen traer mejoras de rendimiento, nuevas APIs y correcciones de seguridad que son cruciales para mantener las aplicaciones actualizadas y seguras.",
+      "recommendedAction": "Lee las notas de la versión de Angular v22 para entender las novedades. Planifica la actualización de tus proyectos Angular a esta nueva versión para aprovechar las últimas mejoras y parches de seguridad."
+    },
+    {
+      "title": "DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets",
+      "url": "https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 3,
+      "summary": "El Departamento de Justicia de EE. UU. ha desmantelado redes de fraude de criptomonedas en el Sudeste Asiático y congelado 3.8 millones de dólares en activos como parte de una operación contra el cibercrimen.",
+      "whyItMatters": "Aunque no está directamente relacionado con el stack tecnológico del usuario, muestra la acción contra el cibercrimen y el fraude financiero digital, un área de creciente preocupación.",
+      "recommendedAction": "Mantente informado sobre las tendencias del cibercrimen y las estafas, especialmente aquellas relacionadas con criptomonedas."
+    },
+    {
+      "title": "Microsoft 365 Android Apps Let Any App Steal Account Tokens via Leftover Debug Flag",
+      "url": "https://thehackernews.com/2026/06/microsoft-365-android-apps-let-any-app.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Varias aplicaciones de Microsoft 365 para Android tienen un error de desarrollo que permite que cualquier otra aplicación en el dispositivo robe los tokens de acceso de la cuenta, permitiendo el acceso a correos, archivos y calendarios sin contraseña.",
+      "whyItMatters": "Esta es una vulnerabilidad grave que afecta a millones de usuarios de Android que utilizan aplicaciones de Microsoft 365. El robo de tokens puede comprometer datos sensibles y la identidad del usuario.",
+      "recommendedAction": "Mantén actualizadas tus aplicaciones de Microsoft 365 en Android. Revisa los permisos de las aplicaciones instaladas en tu dispositivo y considera revocar el acceso a aplicaciones no confiables."
+    },
+    {
+      "title": "Beyond the Zero-Day: See Your Network Like an Attacker | Webinar with HD Moore",
+      "url": "https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Un webinar con HD Moore (creador de Metasploit) discute la importancia de pensar como un atacante para asegurar la red, especialmente ante la creciente velocidad de los exploits y la IA.",
+      "whyItMatters": "Este enfoque proactivo de la seguridad, conocido como 'asumir la brecha', es crucial en el panorama actual de amenazas. Comprender cómo los atacantes ven y explotan las redes es fundamental para una defensa efectiva.",
+      "recommendedAction": "Considera asistir al webinar o buscar recursos sobre 'threat modeling' y seguridad ofensiva. Adopta una mentalidad de 'asumir la brecha' en tus estrategias de seguridad."
+    },
+    {
+      "title": "WhatsApp, Slack Notifications Could Hijack Google Gemini on Android",
+      "url": "https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Una notificación maliciosa de aplicaciones como WhatsApp o Slack podría secuestrar a Google Gemini en Android, permitiendo a los atacantes realizar acciones no deseadas o manipular la memoria del asistente.",
+      "whyItMatters": "Esta vulnerabilidad podría permitir que atacantes sin acceso físico o a una app maliciosa en el dispositivo tomen control de funcionalidades importantes del asistente de IA, afectando la privacidad y seguridad del usuario.",
+      "recommendedAction": "Mantén actualizadas tus aplicaciones de mensajería, el asistente de Google y el sistema operativo Android. Revisa la configuración de permisos de notificaciones para las aplicaciones de mensajería."
+    },
+    {
+      "title": "Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP)",
+      "url": "https://thehackernews.com/2026/06/shrinking-iam-attack-surface-through.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "El artículo discute el creciente problema de la fragmentación de la identidad en las empresas y cómo las Plataformas de Visibilidad e Inteligencia de Identidad (IVIP) pueden ayudar a reducir la superficie de ataque de IAM.",
+      "whyItMatters": "La gestión de identidades y accesos (IAM) es fundamental para la seguridad. La visibilidad y el control sobre todas las identidades (humanas y de máquina) son esenciales para prevenir accesos no autorizados.",
+      "recommendedAction": "Evalúa tus prácticas actuales de IAM y considera la implementación de herramientas que mejoren la visibilidad y la inteligencia sobre la gestión de identidades en tu organización."
+    }
+  ]
+}

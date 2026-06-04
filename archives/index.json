@@ -1,22 +1,27 @@
 {
-  "generatedAt": "2026-06-03T11:57:34.566Z",
+  "generatedAt": "2026-06-04T10:39:37.076Z",
   "availableDates": [
+    "2026-06-04",
     "2026-06-03",
     "2026-06-02",
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 3,
-    "totalArticles": 38,
-    "highPriority": 19,
-    "mediumPriority": 14,
-    "lowPriority": 5,
+    "totalReports": 4,
+    "totalArticles": 50,
+    "highPriority": 25,
+    "mediumPriority": 19,
+    "lowPriority": 6,
     "averageArticlesPerReport": 13,
-    "latestReportDate": "2026-06-03",
-    "dominantCategory": "AI",
+    "latestReportDate": "2026-06-04",
+    "dominantCategory": "Security",
     "mostActiveSource": "Stack Overflow Blog",
     "highestRiskDay": "2026-06-01",
     "topCategories": [
+      {
+        "name": "Security",
+        "count": 15
+      },
       {
         "name": "AI",
         "count": 13
@@ -24,10 +29,6 @@
       {
         "name": "Seguridad",
         "count": 10
-      },
-      {
-        "name": "Security",
-        "count": 4
       },
       {
         "name": "IA para Desarrolladores",
@@ -45,11 +46,15 @@
       },
       {
         "name": "The Hacker News",
-        "count": 10
+        "count": 21
       },
       {
         "name": "Krebs on Security",
         "count": 3
+      },
+      {
+        "name": "Angular Blog",
+        "count": 1
       }
     ]
   },
@@ -71,9 +76,80 @@
       "high": 2,
       "medium": 2,
       "low": 4
+    },
+    {
+      "date": "2026-06-04",
+      "high": 6,
+      "medium": 5,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-04",
+      "generatedAt": "2026-06-04T10:39:37.067Z",
+      "totalArticles": 12,
+      "highPriority": 6,
+      "mediumPriority": 5,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 11
+        },
+        {
+          "name": "Frontend",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 11
+        },
+        {
+          "name": "Angular Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "One-Click GitHub Dev Attack Lets Attackers Steal Full GitHub OAuth Tokens",
+          "url": "https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Investigadores de seguridad han descubierto un ataque de un solo clic en Visual Studio Code que permite a los atacantes robar tokens de GitHub, otorgándoles acceso completo a repositorios privados y públicos.",
+          "whyItMatters": "Este es un riesgo de seguridad crítico para cualquier desarrollador que use GitHub y VS Code. El acceso no autorizado a los repositorios puede llevar a la exfiltración de código, inyecciones de malware o interrupciones del servicio.",
+          "recommendedAction": "Mantente alerta ante enlaces sospechosos y considera revisar y revocar los tokens de acceso de tu cuenta de GitHub si has hecho clic en enlaces desconocidos recientemente. Mantén VS Code y sus extensiones actualizadas."
+        },
+        {
+          "title": "Autonomous AI Tool Finds 2-Year-Old RCE Flaw in Redis (CVE-2026-23479)",
+          "url": "https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una herramienta de IA autónoma ha descubierto una vulnerabilidad de ejecución remota (RCE) de dos años en Redis (CVE-2026-23479), que permite a un usuario autenticado ejecutar comandos arbitrarios en el sistema.",
+          "whyItMatters": "Redis es una base de datos en memoria ampliamente utilizada. Una vulnerabilidad RCE no parcheada puede ser catastrófica, permitiendo a los atacantes tomar control total de los servidores que alojan la base de datos.",
+          "recommendedAction": "Asegúrate de que tus instancias de Redis estén actualizadas a la última versión parcheada. Revisa las configuraciones de seguridad de acceso a tu base de datos."
+        },
+        {
+          "title": "Announcing Angular v22",
+          "url": "https://blog.angular.dev/announcing-angular-v22-c52bb83a4664?source=rss----447683c3d9a3---4",
+          "source": "Angular Blog",
+          "category": "Frontend",
+          "priority": "high",
+          "score": 9,
+          "summary": "Anuncio oficial del lanzamiento de Angular v22, detallando las nuevas características, mejoras y cambios introducidos en esta versión.",
+          "whyItMatters": "Angular es un framework frontend popular. Las nuevas versiones suelen traer mejoras de rendimiento, nuevas APIs y correcciones de seguridad que son cruciales para mantener las aplicaciones actualizadas y seguras.",
+          "recommendedAction": "Lee las notas de la versión de Angular v22 para entender las novedades. Planifica la actualización de tus proyectos Angular a esta nueva versión para aprovechar las últimas mejoras y parches de seguridad."
+        }
+      ]
+    },
     {
       "date": "2026-06-03",
       "generatedAt": "2026-06-03T11:57:34.557Z",
