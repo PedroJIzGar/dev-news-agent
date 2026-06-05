@@ -1,26 +1,27 @@
 {
-  "generatedAt": "2026-06-04T10:39:37.076Z",
+  "generatedAt": "2026-06-05T10:47:27.130Z",
   "availableDates": [
+    "2026-06-05",
     "2026-06-04",
     "2026-06-03",
     "2026-06-02",
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 4,
-    "totalArticles": 50,
-    "highPriority": 25,
-    "mediumPriority": 19,
-    "lowPriority": 6,
+    "totalReports": 5,
+    "totalArticles": 63,
+    "highPriority": 33,
+    "mediumPriority": 23,
+    "lowPriority": 7,
     "averageArticlesPerReport": 13,
-    "latestReportDate": "2026-06-04",
+    "latestReportDate": "2026-06-05",
     "dominantCategory": "Security",
-    "mostActiveSource": "Stack Overflow Blog",
+    "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-01",
     "topCategories": [
       {
         "name": "Security",
-        "count": 15
+        "count": 24
       },
       {
         "name": "AI",
@@ -35,18 +36,18 @@
         "count": 4
       },
       {
-        "name": "Developer Culture",
+        "name": "Frontend",
         "count": 2
       }
     ],
     "topSources": [
       {
-        "name": "Stack Overflow Blog",
-        "count": 25
+        "name": "The Hacker News",
+        "count": 30
       },
       {
-        "name": "The Hacker News",
-        "count": 21
+        "name": "Stack Overflow Blog",
+        "count": 26
       },
       {
         "name": "Krebs on Security",
@@ -54,6 +55,10 @@
       },
       {
         "name": "Angular Blog",
+        "count": 2
+      },
+      {
+        "name": "Spring Blog",
         "count": 1
       }
     ]
@@ -82,9 +87,104 @@
       "high": 6,
       "medium": 5,
       "low": 1
+    },
+    {
+      "date": "2026-06-05",
+      "high": 8,
+      "medium": 4,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-05",
+      "generatedAt": "2026-06-05T10:47:27.122Z",
+      "totalArticles": 13,
+      "highPriority": 8,
+      "mediumPriority": 4,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 9
+        },
+        {
+          "name": "Backend",
+          "count": 1
+        },
+        {
+          "name": "Frontend",
+          "count": 1
+        },
+        {
+          "name": "Dev Tools",
+          "count": 1
+        },
+        {
+          "name": "AI for Developers",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 9
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "Angular Blog",
+          "count": 1
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites",
+          "url": "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Actores de amenazas están explotando activamente una falla crítica de seguridad en Everest Forms Pro, un plugin de WordPress con aproximadamente 4.000 instalaciones activas, para ejecutar código arbitrario, lo que lleva a un compromiso total del sitio.",
+          "whyItMatters": "Esta vulnerabilidad de Ejecución Remota de Código (RCE) con una puntuación CVSS de 9.8 afecta a un plugin popular y puede resultar en la toma de control completa de sitios web. Es crucial para cualquier desarrollador o administrador de sistemas que utilice este plugin estar al tanto y actualizarlo.",
+          "recommendedAction": "Verificar si se utiliza Everest Forms Pro y actualizarlo inmediatamente a la última versión. Monitorear los registros del servidor para actividades sospechosas."
+        },
+        {
+          "title": "Angular in 2026: Mid-Year Reality Check, Signals, and AI Code Quality!",
+          "url": "https://blog.angular.dev/angular-in-2026-mid-year-reality-check-signals-and-ai-code-quality-ff37df480574?source=rss----447683c3d9a3---4",
+          "source": "Angular Blog",
+          "category": "Frontend",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una revisión a mitad de año del estado de Angular, destacando las novedades en Signals y el uso de IA para mejorar la calidad del código.",
+          "whyItMatters": "Es fundamental para los desarrolladores de Angular estar al día con las últimas características como Signals, que prometen mejorar el rendimiento, y entender cómo la IA se está integrando para optimizar el proceso de desarrollo y la calidad del código.",
+          "recommendedAction": "Leer el artículo para comprender los desarrollos recientes y futuros de Angular, prestando especial atención a la implementación de Signals y las herramientas de IA para la calidad del código."
+        },
+        {
+          "title": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories",
+          "url": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una falla en la GitHub Action de Claude Code permitía a un atacante secuestrar repositorios vulnerables con solo abrir un issue malicioso.",
+          "whyItMatters": "Esta vulnerabilidad de seguridad en una herramienta de integración continua (CI/CD) utilizada en GitHub es crítica. Expone cómo las dependencias y las acciones de terceros pueden introducir riesgos significativos en los repositorios, afectando la cadena de suministro de software.",
+          "recommendedAction": "Revisar las GitHub Actions utilizadas en los proyectos y asegurarse de que provienen de fuentes confiables y están actualizadas. Auditar los permisos y el alcance de las acciones de terceros."
+        }
+      ]
+    },
     {
       "date": "2026-06-04",
       "generatedAt": "2026-06-04T10:39:37.067Z",

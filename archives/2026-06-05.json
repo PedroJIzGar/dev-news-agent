@@ -1,0 +1,199 @@
+{
+  "date": "2026-06-05",
+  "generatedAt": "2026-06-05T10:47:27.122Z",
+  "totalArticles": 13,
+  "summary": {
+    "highPriority": 8,
+    "mediumPriority": 4,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 9
+      },
+      {
+        "name": "Backend",
+        "count": 1
+      },
+      {
+        "name": "Frontend",
+        "count": 1
+      },
+      {
+        "name": "Dev Tools",
+        "count": 1
+      },
+      {
+        "name": "AI for Developers",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 9
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      },
+      {
+        "name": "Angular Blog",
+        "count": 1
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 1
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites",
+      "url": "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Actores de amenazas están explotando activamente una falla crítica de seguridad en Everest Forms Pro, un plugin de WordPress con aproximadamente 4.000 instalaciones activas, para ejecutar código arbitrario, lo que lleva a un compromiso total del sitio.",
+      "whyItMatters": "Esta vulnerabilidad de Ejecución Remota de Código (RCE) con una puntuación CVSS de 9.8 afecta a un plugin popular y puede resultar en la toma de control completa de sitios web. Es crucial para cualquier desarrollador o administrador de sistemas que utilice este plugin estar al tanto y actualizarlo.",
+      "recommendedAction": "Verificar si se utiliza Everest Forms Pro y actualizarlo inmediatamente a la última versión. Monitorear los registros del servidor para actividades sospechosas."
+    },
+    {
+      "title": "A Bootiful Podcast: JetBrains' Marit van Dijk",
+      "url": "https://spring.io/blog/2026/06/04/a-bootiful-podcast-marit-van-dijk",
+      "source": "Spring Blog",
+      "category": "Backend",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Episodio de podcast centrado en JetBrains y su impacto en el desarrollo de software, con una discusión que incluye IA.",
+      "whyItMatters": "Ofrece información sobre las herramientas y tendencias en el ecosistema de desarrollo, con un enfoque en Spring y la posible integración de IA. Puede proporcionar perspectivas sobre cómo las herramientas como las de JetBrains están evolucionando.",
+      "recommendedAction": "Escuchar el podcast para obtener información sobre las novedades de JetBrains y su relación con Spring y la IA en el desarrollo."
+    },
+    {
+      "title": "Angular in 2026: Mid-Year Reality Check, Signals, and AI Code Quality!",
+      "url": "https://blog.angular.dev/angular-in-2026-mid-year-reality-check-signals-and-ai-code-quality-ff37df480574?source=rss----447683c3d9a3---4",
+      "source": "Angular Blog",
+      "category": "Frontend",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una revisión a mitad de año del estado de Angular, destacando las novedades en Signals y el uso de IA para mejorar la calidad del código.",
+      "whyItMatters": "Es fundamental para los desarrolladores de Angular estar al día con las últimas características como Signals, que prometen mejorar el rendimiento, y entender cómo la IA se está integrando para optimizar el proceso de desarrollo y la calidad del código.",
+      "recommendedAction": "Leer el artículo para comprender los desarrollos recientes y futuros de Angular, prestando especial atención a la implementación de Signals y las herramientas de IA para la calidad del código."
+    },
+    {
+      "title": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories",
+      "url": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una falla en la GitHub Action de Claude Code permitía a un atacante secuestrar repositorios vulnerables con solo abrir un issue malicioso.",
+      "whyItMatters": "Esta vulnerabilidad de seguridad en una herramienta de integración continua (CI/CD) utilizada en GitHub es crítica. Expone cómo las dependencias y las acciones de terceros pueden introducir riesgos significativos en los repositorios, afectando la cadena de suministro de software.",
+      "recommendedAction": "Revisar las GitHub Actions utilizadas en los proyectos y asegurarse de que provienen de fuentes confiables y están actualizadas. Auditar los permisos y el alcance de las acciones de terceros."
+    },
+    {
+      "title": "PCPJack Hijacks 230 AWS, Google Cloud, and Azure Servers for Covert SMTP Relay Network",
+      "url": "https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "El actor de amenazas PCPJack ha secuestrado más de 230 servidores en la nube (AWS, Google Cloud, Azure) para crear una red encubierta de retransmisión SMTP.",
+      "whyItMatters": "Demuestra cómo los servidores en la nube, incluso aquellos utilizados por organizaciones legítimas, pueden ser comprometidos y reutilizados para actividades maliciosas. Es un recordatorio de la importancia de la seguridad en la infraestructura cloud.",
+      "recommendedAction": "Implementar medidas de seguridad robustas en la infraestructura cloud, incluyendo monitoreo constante, gestión de acceso y segmentación de red."
+    },
+    {
+      "title": "GitHub Universe is back: All together now, in the agentic era",
+      "url": "https://github.blog/news-insights/company-news/github-universe-is-back-all-together-now-in-the-agentic-era/",
+      "source": "GitHub Blog",
+      "category": "Dev Tools",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Anuncio del regreso de GitHub Universe, un evento enfocado en el futuro del desarrollo de software, incluyendo la era 'agentic' (IA).",
+      "whyItMatters": "Este evento es una oportunidad clave para conocer las últimas innovaciones y la dirección de GitHub, una plataforma esencial para el desarrollo de software colaborativo. La mención de la era 'agentic' sugiere un enfoque en la IA y sus aplicaciones en el desarrollo.",
+      "recommendedAction": "Prestar atención a los anuncios y temas que se tratarán en GitHub Universe, especialmente aquellos relacionados con IA, flujos de trabajo y nuevas herramientas para desarrolladores."
+    },
+    {
+      "title": "Making the OWASP top ten in the vibe code era",
+      "url": "https://stackoverflow.blog/2026/06/05/making-the-owasp-top-ten-in-the-vibe-code-era/",
+      "source": "Stack Overflow Blog",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Discusión sobre los cambios en el OWASP Top 10, el enfoque en la cadena de suministro de software, la seguridad de memoria y la calidad del código asistida por IA.",
+      "whyItMatters": "El OWASP Top 10 es una lista fundamental para entender las vulnerabilidades de seguridad web más críticas. Comprender los cambios y las nuevas adiciones, como la seguridad de memoria y el impacto de la IA en la calidad del código, es vital para desarrollar aplicaciones seguras.",
+      "recommendedAction": "Revisar la última lista OWASP Top 10 y las implicaciones de los temas discutidos, especialmente en relación con la seguridad de la cadena de suministro y la IA."
+    },
+    {
+      "title": "FIFA World Cup 2026 Scams Are Already Live: Fake Sites, Banking Malware, and Stolen Logins",
+      "url": "https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 4,
+      "summary": "Investigadores de seguridad y el FBI advierten sobre una ola de fraudes relacionados con la Copa Mundial de la FIFA 2026, incluyendo sitios falsos, malware bancario y robo de credenciales.",
+      "whyItMatters": "Si bien es específico de un evento, ilustra cómo los grandes eventos pueden ser explotados por estafadores. Es un recordatorio general sobre la vigilancia en línea y la detección de sitios y ofertas sospechosas.",
+      "recommendedAction": "Mantenerse alerta ante ofertas o sitios web sospechosos, especialmente aquellos relacionados con grandes eventos o promociones."
+    },
+    {
+      "title": "Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public",
+      "url": "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Cisco ha parcheado una vulnerabilidad (CVE-2026-20230) en Unified Communications Manager que permitía a un atacante no autenticado escribir archivos en el sistema y escalar privilegios hasta root. El código de explotación ya es público.",
+      "whyItMatters": "La publicación de código de explotación público para una vulnerabilidad crítica en un producto de Cisco aumenta el riesgo de ataques. Es crucial para las organizaciones que utilizan este software aplicar el parche de inmediato.",
+      "recommendedAction": "Si se utiliza Cisco Unified Communications Manager, aplicar el parche para CVE-2026-20230 lo antes posible. Monitorear los sistemas en busca de signos de explotación."
+    },
+    {
+      "title": "Agentic AI Is Transforming Defense, But Only Secure IT Infrastructure Will Maximize It",
+      "url": "https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html",
+      "source": "The Hacker News",
+      "category": "AI for Developers",
+      "priority": "high",
+      "score": 9,
+      "summary": "La IA agentic está revolucionando la defensa, pero solo una infraestructura de TI segura permitirá maximizar su potencial.",
+      "whyItMatters": "Este artículo aborda la intersección crítica de la IA avanzada (agentic AI) y la seguridad. Subraya la necesidad de una base sólida de infraestructura segura para implementar y beneficiarse de estas tecnologías emergentes, lo cual es relevante para cualquier desarrollador que trabaje con IA.",
+      "recommendedAction": "Considerar la seguridad como un pilar fundamental al desarrollar e implementar soluciones de IA. Asegurarse de que la infraestructura subyacente sea robusta y esté protegida."
+    },
+    {
+      "title": "ThreatsDay Bulletin: AI Agents Gone Wrong, Sketchy C2 Tools, ClickFix Tricks, JS Backdoors & 20+ New Stories",
+      "url": "https://thehackernews.com/2026/06/threatsday-bulletin-ai-agents-gone.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Boletín de seguridad que cubre una variedad de amenazas, incluyendo agentes de IA que funcionan mal, herramientas de Comando y Control (C2) sospechosas, y backdoors en JavaScript.",
+      "whyItMatters": "Proporciona una visión general de las amenazas de ciberseguridad actuales, con un énfasis particular en los riesgos emergentes asociados con la IA y las herramientas de desarrollo. Ayuda a los desarrolladores a estar al tanto de las tácticas de ataque.",
+      "recommendedAction": "Revisar el boletín para identificar las amenazas más relevantes para su entorno de desarrollo y tomar medidas preventivas. Prestar atención a las nuevas vulnerabilidades y técnicas de ataque."
+    },
+    {
+      "title": "China-Linked TA4922 Expands Phishing Attacks to U.K., Germany, Italy, and South Africa",
+      "url": "https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 5,
+      "summary": "Un nuevo grupo cibercriminal vinculado a China, TA4922, ha expandido sus ataques de phishing a organizaciones en el Reino Unido, Alemania, Italia y Sudáfrica, utilizando malware evolucionado.",
+      "whyItMatters": "Informa sobre la actividad de grupos de amenazas persistentes avanzadas (APT) y la evolución de sus tácticas. Comprender estas campañas ayuda a las organizaciones a mejorar sus defensas contra el phishing y el malware.",
+      "recommendedAction": "Fortalecer las defensas contra el phishing y asegurarse de que las herramientas de seguridad de correo electrónico estén actualizadas. Educar a los usuarios sobre las tácticas de ingeniería social."
+    },
+    {
+      "title": "FlutterShell Backdoor Spreads to macOS via Malicious Google and YouTube Ads",
+      "url": "https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Una campaña de malvertising dirigida a macOS está distribuyendo un nuevo backdoor llamado FlutterShell a través de anuncios maliciosos en Google y YouTube.",
+      "whyItMatters": "Esta amenaza destaca cómo los atacantes utilizan plataformas publicitarias legítimas para distribuir malware. Es un recordatorio para los usuarios y desarrolladores de tener precaución con los anuncios en línea y la descarga de software.",
+      "recommendedAction": "Ser cauteloso con los anuncios en línea, especialmente aquellos que ofrecen software o descargas. Mantener actualizado el sistema operativo y el software antivirus."
+    }
+  ]
+}
