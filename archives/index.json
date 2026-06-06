@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-06-05T10:47:27.130Z",
+  "generatedAt": "2026-06-06T09:26:46.552Z",
   "availableDates": [
+    "2026-06-06",
     "2026-06-05",
     "2026-06-04",
     "2026-06-03",
@@ -8,13 +9,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 5,
-    "totalArticles": 63,
-    "highPriority": 33,
-    "mediumPriority": 23,
+    "totalReports": 6,
+    "totalArticles": 73,
+    "highPriority": 39,
+    "mediumPriority": 27,
     "lowPriority": 7,
-    "averageArticlesPerReport": 13,
-    "latestReportDate": "2026-06-05",
+    "averageArticlesPerReport": 12,
+    "latestReportDate": "2026-06-06",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-01",
@@ -24,26 +25,26 @@
         "count": 24
       },
       {
-        "name": "AI",
-        "count": 13
+        "name": "Seguridad",
+        "count": 17
       },
       {
-        "name": "Seguridad",
-        "count": 10
+        "name": "AI",
+        "count": 13
       },
       {
         "name": "IA para Desarrolladores",
         "count": 4
       },
       {
-        "name": "Frontend",
+        "name": "IA/Seguridad",
         "count": 2
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 30
+        "count": 39
       },
       {
         "name": "Stack Overflow Blog",
@@ -54,12 +55,12 @@
         "count": 3
       },
       {
-        "name": "Angular Blog",
+        "name": "Spring Blog",
         "count": 2
       },
       {
-        "name": "Spring Blog",
-        "count": 1
+        "name": "Angular Blog",
+        "count": 2
       }
     ]
   },
@@ -93,9 +94,84 @@
       "high": 8,
       "medium": 4,
       "low": 1
+    },
+    {
+      "date": "2026-06-06",
+      "high": 6,
+      "medium": 4,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-06",
+      "generatedAt": "2026-06-06T09:26:46.543Z",
+      "totalArticles": 10,
+      "highPriority": 6,
+      "mediumPriority": 4,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 7
+        },
+        {
+          "name": "IA/Seguridad",
+          "count": 2
+        },
+        {
+          "name": "Java/IA",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 9
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Spring AI 2.0.0-RC1 Available Now",
+          "url": "https://spring.io/blog/2026/06/06/spring-ai-2-0-0-RC1-available-now",
+          "source": "Spring Blog",
+          "category": "Java/IA",
+          "priority": "high",
+          "score": 10,
+          "summary": "La versión Release Candidate 1 de Spring AI 2.0.0 ya está disponible. Esta versión introduce nuevas funcionalidades y mejoras para la integración de modelos de IA en aplicaciones Spring.",
+          "whyItMatters": "Spring AI es una herramienta crucial para los desarrolladores de Java/Spring Boot que desean incorporar capacidades de IA en sus aplicaciones. Las nuevas versiones traen mejoras de rendimiento, nuevas características y correcciones importantes, facilitando la adopción de IA.",
+          "recommendedAction": "Actualizar a la versión 2.0.0-RC1 de Spring AI si se está utilizando en proyectos existentes o comenzar a explorarla para nuevos desarrollos que requieran integración con IA. Revisar las notas de la versión para entender los cambios."
+        },
+        {
+          "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available",
+          "url": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una vulnerabilidad crítica (CVE-2026-20245) en Cisco Catalyst SD-WAN Manager que está siendo explotada activamente. La vulnerabilidad tiene una puntuación CVSS de 7.8 y afecta a varias configuraciones de despliegue. Aún no hay parche disponible.",
+          "whyItMatters": "Las vulnerabilidades explotadas activamente representan un riesgo inmediato para la seguridad de la infraestructura de red. Dado que no hay un parche disponible, las organizaciones deben tomar medidas de mitigación para proteger sus sistemas.",
+          "recommendedAction": "Revisar la configuración de Cisco Catalyst SD-WAN Manager e implementar controles de seguridad adicionales como firewalls o segmentación de red. Estar atento a futuros avisos de Cisco para la disponibilidad de parches."
+        },
+        {
+          "title": "Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack",
+          "url": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Los repositorios de GitHub de Microsoft han sido el objetivo de un ataque a la cadena de suministro de software. El gusano Miasma ha afectado a 73 repositorios, llevando a GitHub a deshabilitar el acceso a ellos. El ataque se centra en la propagación a través de código.",
+          "whyItMatters": "Los ataques a la cadena de suministro son una amenaza significativa para el desarrollo de software. Comprometer repositorios de desarrolladores, especialmente aquellos de grandes empresas como Microsoft, puede tener un impacto generalizado en la seguridad del software que utilizan otros.",
+          "recommendedAction": "Mantener las dependencias y las herramientas de desarrollo actualizadas. Implementar escaneos de seguridad en los repositorios y considerar prácticas de desarrollo seguro. Estar atento a las notificaciones de seguridad relacionadas con las herramientas y plataformas utilizadas."
+        }
+      ]
+    },
     {
       "date": "2026-06-05",
       "generatedAt": "2026-06-05T10:47:27.122Z",

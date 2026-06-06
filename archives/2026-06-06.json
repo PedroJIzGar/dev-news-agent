@@ -1,0 +1,146 @@
+{
+  "date": "2026-06-06",
+  "generatedAt": "2026-06-06T09:26:46.543Z",
+  "totalArticles": 10,
+  "summary": {
+    "highPriority": 6,
+    "mediumPriority": 4,
+    "lowPriority": 0,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 7
+      },
+      {
+        "name": "IA/Seguridad",
+        "count": 2
+      },
+      {
+        "name": "Java/IA",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 9
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available",
+      "url": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se ha descubierto una vulnerabilidad crítica (CVE-2026-20245) en Cisco Catalyst SD-WAN Manager que está siendo explotada activamente. La vulnerabilidad tiene una puntuación CVSS de 7.8 y afecta a varias configuraciones de despliegue. Aún no hay parche disponible.",
+      "whyItMatters": "Las vulnerabilidades explotadas activamente representan un riesgo inmediato para la seguridad de la infraestructura de red. Dado que no hay un parche disponible, las organizaciones deben tomar medidas de mitigación para proteger sus sistemas.",
+      "recommendedAction": "Revisar la configuración de Cisco Catalyst SD-WAN Manager e implementar controles de seguridad adicionales como firewalls o segmentación de red. Estar atento a futuros avisos de Cisco para la disponibilidad de parches."
+    },
+    {
+      "title": "Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI",
+      "url": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Una investigación revela que algunas aplicaciones gratuitas para smart TVs y otros dispositivos incorporan SDKs que los convierten en nodos de salida para redes de web scraping utilizadas por empresas de datos, muchas enfocadas en la industria de la IA. Esto ocurre sin el conocimiento explícito del usuario.",
+      "whyItMatters": "Esto expone la privacidad del usuario y el uso no autorizado de recursos de dispositivos. La recopilación masiva de datos para la IA a través de estos medios plantea preocupaciones éticas y de seguridad.",
+      "recommendedAction": "Ser cauteloso con las aplicaciones gratuitas, especialmente en dispositivos conectados. Revisar los permisos de las aplicaciones y considerar el uso de soluciones de seguridad de red que puedan detectar tráfico anómalo."
+    },
+    {
+      "title": "Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack",
+      "url": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Los repositorios de GitHub de Microsoft han sido el objetivo de un ataque a la cadena de suministro de software. El gusano Miasma ha afectado a 73 repositorios, llevando a GitHub a deshabilitar el acceso a ellos. El ataque se centra en la propagación a través de código.",
+      "whyItMatters": "Los ataques a la cadena de suministro son una amenaza significativa para el desarrollo de software. Comprometer repositorios de desarrolladores, especialmente aquellos de grandes empresas como Microsoft, puede tener un impacto generalizado en la seguridad del software que utilizan otros.",
+      "recommendedAction": "Mantener las dependencias y las herramientas de desarrollo actualizadas. Implementar escaneos de seguridad en los repositorios y considerar prácticas de desarrollo seguro. Estar atento a las notificaciones de seguridad relacionadas con las herramientas y plataformas utilizadas."
+    },
+    {
+      "title": "Spring AI 2.0.0-RC1 Available Now",
+      "url": "https://spring.io/blog/2026/06/06/spring-ai-2-0-0-RC1-available-now",
+      "source": "Spring Blog",
+      "category": "Java/IA",
+      "priority": "high",
+      "score": 10,
+      "summary": "La versión Release Candidate 1 de Spring AI 2.0.0 ya está disponible. Esta versión introduce nuevas funcionalidades y mejoras para la integración de modelos de IA en aplicaciones Spring.",
+      "whyItMatters": "Spring AI es una herramienta crucial para los desarrolladores de Java/Spring Boot que desean incorporar capacidades de IA en sus aplicaciones. Las nuevas versiones traen mejoras de rendimiento, nuevas características y correcciones importantes, facilitando la adopción de IA.",
+      "recommendedAction": "Actualizar a la versión 2.0.0-RC1 de Spring AI si se está utilizando en proyectos existentes o comenzar a explorarla para nuevos desarrollos que requieran integración con IA. Revisar las notas de la versión para entender los cambios."
+    },
+    {
+      "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog",
+      "url": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "La CISA ha añadido una vulnerabilidad de denegación de servicio (DoS) en SolarWinds Serv-U al catálogo de Vulnerabilidades Explotadas Conocidas (KEV). La vulnerabilidad (CVE-2026-28318) tiene una puntuación CVSS de 7.5 y está siendo explotada activamente.",
+      "whyItMatters": "Las vulnerabilidades que se encuentran en el catálogo KEV de CISA son un objetivo principal para los atacantes. La explotación activa de esta falla en un software de servidor de archivos multi-protocolo representa un riesgo significativo.",
+      "recommendedAction": "Si se utiliza SolarWinds Serv-U, verificar si el sistema es vulnerable y aplicar las actualizaciones recomendadas por SolarWinds lo antes posible. Monitorizar el tráfico de red en busca de actividades sospechosas relacionadas con DoS."
+    },
+    {
+      "title": "IronWorm and New Miasma Worm Variant Hit npm in Supply Chain Attacks",
+      "url": "https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Se han detectado ataques a la cadena de suministro en el ecosistema npm, afectando a más de 50 paquetes legítimos. Estos ataques distribuyen un ladrón de información basado en Rust y una variante del gusano Miasma.",
+      "whyItMatters": "Los ataques a la cadena de suministro que afectan a gestores de paquetes como npm son una amenaza directa para los desarrolladores. La infección de dependencias puede comprometer la seguridad de las aplicaciones y los datos de los desarrolladores.",
+      "recommendedAction": "Revisar cuidadosamente las dependencias de los proyectos npm. Utilizar herramientas de escaneo de vulnerabilidades y dependencias. Considerar el uso de 'lock files' para asegurar versiones específicas de las dependencias."
+    },
+    {
+      "title": "Android Spyware Asin Targets Arabic Users via Fake News, PDF and War Map Apps",
+      "url": "https://thehackernews.com/2026/06/android-spyware-asin-targets-arabic.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Un nuevo spyware para Android, denominado Asin, está atacando a usuarios de habla árabe a través de aplicaciones falsas que imitan noticias, mapas de guerra y documentos PDF. El malware fue detectado por primera vez a principios de 2025.",
+      "whyItMatters": "Aunque se enfoca en una región específica, demuestra cómo los atacantes utilizan temas de actualidad (como conflictos bélicos) y formatos comunes (PDF, noticias) para distribuir malware. Es un recordatorio de la importancia de la vigilancia en la descarga de aplicaciones.",
+      "recommendedAction": "Ser escéptico ante aplicaciones de fuentes no oficiales, especialmente aquellas que solicitan permisos excesivos. Mantener el sistema operativo Android actualizado y utilizar software antivirus de confianza."
+    },
+    {
+      "title": "Only 10% of SOCs Say They’re Getting Excellent Value From AI. Here’s What the Second Wave Has to Deliver",
+      "url": "https://thehackernews.com/2026/06/only-10-of-socs-say-theyre-getting.html",
+      "source": "The Hacker News",
+      "category": "IA/Seguridad",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Solo el 10% de los equipos de operaciones de seguridad (SOC) considera que está obteniendo un valor excelente de la IA. El artículo discute las expectativas para la 'segunda ola' de herramientas de IA en ciberseguridad y el progreso desde el 'marketing' inicial.",
+      "whyItMatters": "Este artículo ofrece una perspectiva realista sobre la adopción de IA en ciberseguridad. Es importante para los desarrolladores entender las capacidades actuales y las expectativas futuras de la IA en este campo, más allá del 'hype'.",
+      "recommendedAction": "Mantenerse informado sobre las tendencias y las aplicaciones prácticas de la IA en ciberseguridad. Evaluar críticamente las herramientas de IA y no basarse únicamente en las promesas de marketing. Considerar cómo la IA puede mejorar la eficiencia en el desarrollo y la seguridad."
+    },
+    {
+      "title": "AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs",
+      "url": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
+      "source": "The Hacker News",
+      "category": "IA/Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Un agente de IA autónomo ha descubierto 21 vulnerabilidades 'zero-day' en FFmpeg, una librería multimedia crucial. Casi simultáneamente, Chrome lanzó una actualización con 429 parches de seguridad, aunque la mayoría no fueron descubiertos por IA.",
+      "whyItMatters": "Demuestra el poder de la IA para identificar vulnerabilidades complejas en software ampliamente utilizado. Esto es directamente relevante para desarrolladores que trabajan con librerías como FFmpeg o que integran IA en sus procesos de aseguramiento de calidad.",
+      "recommendedAction": "Prestar atención a las actualizaciones de seguridad para librerías críticas como FFmpeg. Investigar cómo las herramientas de IA pueden ser integradas en los flujos de trabajo de desarrollo y pruebas para mejorar la detección de vulnerabilidades."
+    },
+    {
+      "title": "New Threat Cluster OP-512 Targets Microsoft IIS Servers with Custom Web Shell Framework",
+      "url": "https://thehackernews.com/2026/06/new-threat-cluster-op-512-targets.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Investigadores han identificado un nuevo grupo de amenazas, OP-512, que se dirige a servidores Microsoft IIS utilizando un framework de 'web shell' personalizado. Se sospecha que la actividad está vinculada a China y tiene fines de espionaje.",
+      "whyItMatters": "El uso de frameworks de 'web shell' personalizados indica un nivel de sofisticación en los atacantes. La seguridad de los servidores web es fundamental, y la aparición de nuevas amenazas dirigidas a tecnologías específicas requiere atención.",
+      "recommendedAction": "Asegurar la configuración de los servidores IIS. Mantener el software del servidor actualizado y monitorizar la actividad de red y de archivos en busca de indicadores de compromiso. Implementar soluciones de seguridad web robustas."
+    }
+  ]
+}
