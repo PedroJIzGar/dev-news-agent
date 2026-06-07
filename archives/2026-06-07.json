@@ -1,0 +1,35 @@
+{
+  "date": "2026-06-07",
+  "generatedAt": "2026-06-07T10:05:45.600Z",
+  "totalArticles": 1,
+  "summary": {
+    "highPriority": 1,
+    "mediumPriority": 0,
+    "lowPriority": 0,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
+      "url": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "OpenAI ha introducido un nuevo Modo de Bloqueo para ChatGPT en cuentas personales elegibles para minimizar el riesgo de fuga de datos causado por ataques de inyección de prompts.",
+      "whyItMatters": "Esta función es crucial para desarrolladores que utilizan ChatGPT para tareas sensibles o manejan datos confidenciales, ya que protege contra ataques de seguridad que buscan extraer información.",
+      "recommendedAction": "Evalúa la implementación del Modo de Bloqueo en tus interacciones con ChatGPT si trabajas con datos sensibles o quieres fortalecer la seguridad en el uso de IA."
+    }
+  ]
+}
