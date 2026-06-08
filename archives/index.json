@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-06-07T10:05:45.608Z",
+  "generatedAt": "2026-06-08T11:58:40.995Z",
   "availableDates": [
+    "2026-06-08",
     "2026-06-07",
     "2026-06-06",
     "2026-06-05",
@@ -10,20 +11,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 7,
-    "totalArticles": 74,
-    "highPriority": 40,
-    "mediumPriority": 27,
+    "totalReports": 8,
+    "totalArticles": 77,
+    "highPriority": 41,
+    "mediumPriority": 29,
     "lowPriority": 7,
-    "averageArticlesPerReport": 11,
-    "latestReportDate": "2026-06-07",
+    "averageArticlesPerReport": 10,
+    "latestReportDate": "2026-06-08",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-01",
     "topCategories": [
       {
         "name": "Security",
-        "count": 25
+        "count": 28
       },
       {
         "name": "Seguridad",
@@ -45,7 +46,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 40
+        "count": 43
       },
       {
         "name": "Stack Overflow Blog",
@@ -66,12 +67,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-01",
-      "high": 9,
-      "medium": 6,
-      "low": 0
-    },
     {
       "date": "2026-06-02",
       "high": 8,
@@ -107,9 +102,72 @@
       "high": 1,
       "medium": 0,
       "low": 0
+    },
+    {
+      "date": "2026-06-08",
+      "high": 1,
+      "medium": 2,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-08",
+      "generatedAt": "2026-06-08T11:58:40.987Z",
+      "totalArticles": 3,
+      "highPriority": 1,
+      "mediumPriority": 2,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 3
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 3
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "VS Code Adds 2-Hour Extension Auto-Update Delay to Limit Supply Chain Attacks",
+          "url": "https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Microsoft ha implementado un retraso de dos horas en las actualizaciones automáticas de extensiones de VS Code para mitigar las amenazas a la cadena de suministro de software.",
+          "whyItMatters": "Los desarrolladores que usan VS Code deben estar al tanto de esta medida de seguridad que añade una capa de protección contra software malicioso en las extensiones.",
+          "recommendedAction": "Mantén tus extensiones de VS Code actualizadas, pero sé consciente de este nuevo retraso y de su propósito para entender mejor las posibles implicaciones de seguridad."
+        },
+        {
+          "title": "VerdantBamboo Deploys BSD Variant of BRICKSTORM on Linux Appliances",
+          "url": "https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "medium",
+          "score": 7,
+          "summary": "Un grupo de espionaje cibernético chino ha sido detectado desplegando una variante BSD de la puerta trasera BRICKSTORM y otras familias de malware en sistemas Linux.",
+          "whyItMatters": "El conocimiento de las tácticas de actores de amenazas que apuntan a sistemas Linux es importante para la seguridad general de las infraestructuras basadas en estos sistemas operativos.",
+          "recommendedAction": "Asegúrate de que tus sistemas Linux estén debidamente protegidos y actualizados contra las últimas amenazas conocidas, prestando atención a las campañas dirigidas por actores de amenazas específicos."
+        },
+        {
+          "title": "UNC3753 Used Vishing and Physical Intrusions in U.S. Data Theft Extortion Campaign",
+          "url": "https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "medium",
+          "score": 7,
+          "summary": "Investigadores de ciberseguridad han detallado una campaña de extorsión por robo de datos que utiliza vishing e intrusiones físicas, afectando a organizaciones en EE.UU.",
+          "whyItMatters": "Esta noticia destaca las tácticas sofisticadas y multifacéticas empleadas por actores de amenazas para obtener datos y extorsionar, lo cual es relevante para comprender el panorama de amenazas actual.",
+          "recommendedAction": "Refuerza las defensas contra ataques de ingeniería social como el vishing y considera la seguridad física de tus instalaciones si manejas datos sensibles."
+        }
+      ]
+    },
     {
       "date": "2026-06-07",
       "generatedAt": "2026-06-07T10:05:45.600Z",
