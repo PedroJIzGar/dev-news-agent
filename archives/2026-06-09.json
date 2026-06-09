@@ -1,0 +1,191 @@
+{
+  "date": "2026-06-09",
+  "generatedAt": "2026-06-09T10:35:24.628Z",
+  "totalArticles": 13,
+  "summary": {
+    "highPriority": 5,
+    "mediumPriority": 8,
+    "lowPriority": 0,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 7
+      },
+      {
+        "name": "Backend",
+        "count": 4
+      },
+      {
+        "name": "Herramientas de Desarrollo",
+        "count": 1
+      },
+      {
+        "name": "Base de Datos",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 7
+      },
+      {
+        "name": "Spring Blog",
+        "count": 4
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 1
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Spring LDAP 2026.06 Releases - Contains CVE Fix",
+      "url": "https://spring.io/blog/2026/06/08/spring-ldap-releases-2026-06",
+      "source": "Spring Blog",
+      "category": "Backend",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se lanzan las versiones 2026.06 de Spring LDAP, que incluyen correcciones de seguridad importantes y parches para vulnerabilidades conocidas (CVEs).",
+      "whyItMatters": "Mantener las dependencias actualizadas es crucial para la seguridad. Las vulnerabilidades en bibliotecas como Spring LDAP pueden ser puntos de entrada para ataques.",
+      "recommendedAction": "Revisa las notas de la versión y actualiza Spring LDAP a la última versión en tus proyectos Spring Boot si lo utilizas."
+    },
+    {
+      "title": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 10,
+      "summary": "Una vulnerabilidad crítica en LiteLLM (CVE-2026-42271) está siendo activamente explotada. Permite ejecución remota de código (RCE) sin autenticación, representando un riesgo grave.",
+      "whyItMatters": "Esta vulnerabilidad afecta a herramientas de IA y LLMs que se están volviendo cada vez más comunes en el desarrollo. La explotación activa significa que los sistemas son vulnerables ahora.",
+      "recommendedAction": "Si utilizas LiteLLM o dependes de él, aplica los parches de seguridad inmediatamente y monitoriza tu entorno en busca de signos de compromiso."
+    },
+    {
+      "title": "⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More",
+      "url": "https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 8,
+      "summary": "Recopilación semanal de incidentes de seguridad, incluyendo ataques a cuentas, vulnerabilidades zero-day en Android, y un gusano que afectó repositorios de GitHub. Destaca la persistencia de errores básicos.",
+      "whyItMatters": "Ofrece una visión general de las amenazas actuales y recuerda la importancia de las prácticas de seguridad fundamentales, incluso en entornos de IA y repositorios de código.",
+      "recommendedAction": "Mantente al tanto de las últimas noticias de seguridad y revisa las prácticas de seguridad en tus proyectos y flujos de trabajo, especialmente en GitHub."
+    },
+    {
+      "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
+      "url": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una falla aparentemente menor en el kernel de Linux (CVE-2026-23111) permite a usuarios locales sin privilegios escalar a root y evadir contenedores. Existen exploits públicos.",
+      "whyItMatters": "Las vulnerabilidades en el kernel de Linux son críticas ya que afectan la base de muchos sistemas, incluyendo servidores y contenedores Docker. La existencia de exploits públicos aumenta el riesgo.",
+      "recommendedAction": "Asegúrate de que tus sistemas Linux y tus contenedores Docker estén actualizados con los últimos parches del kernel."
+    },
+    {
+      "title": "Spring Retry 2.0.13 available now",
+      "url": "https://spring.io/blog/2026/06/08/spring-retry-2",
+      "source": "Spring Blog",
+      "category": "Backend",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Se ha publicado la versión 2.0.13 de Spring Retry, una biblioteca que facilita la implementación de reintentos para operaciones que pueden fallar.",
+      "whyItMatters": "Una gestión de reintentos robusta es fundamental para la resiliencia de las aplicaciones, especialmente en sistemas distribuidos como los que suelen usar Spring Boot y microservicios.",
+      "recommendedAction": "Considera actualizar a la versión 2.0.13 de Spring Retry para beneficiarte de las últimas mejoras y correcciones."
+    },
+    {
+      "title": "Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups",
+      "url": "https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una vulnerabilidad crítica en VPNs de Check Point (CVE-2026-50751) permite a atacantes remotos no autenticados eludir la validación de contraseñas en configuraciones IKEv1.",
+      "whyItMatters": "Las VPNs son un punto de acceso crítico a las redes corporativas. Una vulnerabilidad que permite eludir la autenticación es de máxima gravedad.",
+      "recommendedAction": "Revisa la configuración de tus VPNs, especialmente si utilizas Check Point y IKEv1. Prioriza la actualización a protocolos más seguros y aplica los parches de seguridad."
+    },
+    {
+      "title": "Spring HATEOAS 3.1 GA, 3.0.7, and 2.5.3 released",
+      "url": "https://spring.io/blog/2026/06/08/spring-hateoas-3-1-GA-3-0-7-and-2-5-3-released",
+      "source": "Spring Blog",
+      "category": "Backend",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Se han lanzado nuevas versiones de Spring HATEOAS (3.1 GA, 3.0.7, y 2.5.3), una biblioteca que ayuda a implementar APIs RESTful siguiendo los principios HATEOAS.",
+      "whyItMatters": "Mantener actualizadas las bibliotecas de Spring es importante para beneficiarse de las últimas características y correcciones de errores, contribuyendo a un desarrollo más robusto.",
+      "recommendedAction": "Actualiza tu dependencia de Spring HATEOAS a la última versión disponible si la utilizas en tus proyectos Spring Boot."
+    },
+    {
+      "title": "This Week in Spring - June 9th, 2026",
+      "url": "https://spring.io/blog/2026/06/09/this-week-in-spring-june-9-2026",
+      "source": "Spring Blog",
+      "category": "Backend",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Resumen semanal de noticias y novedades del ecosistema Spring, incluyendo lanzamientos, artículos y discusiones relevantes para desarrolladores de Spring.",
+      "whyItMatters": "Permite a los desarrolladores estar al día con las últimas tendencias, actualizaciones y mejores prácticas dentro del ecosistema Spring, crucial para quienes trabajan con Spring Boot.",
+      "recommendedAction": "Revisa este resumen semanal para mantenerte informado sobre el estado y futuro de Spring."
+    },
+    {
+      "title": "GitHub for Beginners: Answers to some common questions",
+      "url": "https://github.blog/developer-skills/github/github-for-beginners-answers-to-some-common-questions/",
+      "source": "GitHub Blog",
+      "category": "Herramientas de Desarrollo",
+      "priority": "medium",
+      "score": 8,
+      "summary": "Este artículo responde a preguntas frecuentes sobre GitHub, dirigido a principiantes, cubriendo conceptos y usos básicos de la plataforma.",
+      "whyItMatters": "GitHub es una herramienta esencial para cualquier desarrollador. Comprender sus fundamentos es clave para la colaboración y la gestión de código fuente.",
+      "recommendedAction": "Si eres nuevo en GitHub, lee este artículo para aclarar dudas comunes y mejorar tu uso de la plataforma."
+    },
+    {
+      "title": "Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order",
+      "url": "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Meta ha detectado y bloqueado intentos de phishing sofisticados vinculados al grupo NSO, que buscaban explotar usuarios de WhatsApp.",
+      "whyItMatters": "Demuestra cómo actores maliciosos utilizan técnicas avanzadas para el phishing y destaca la importancia de la vigilancia continua y la colaboración entre empresas para la seguridad.",
+      "recommendedAction": "Mantente alerta ante intentos de phishing, incluso aquellos que parecen provenir de fuentes confiables, y utiliza herramientas de seguridad robustas."
+    },
+    {
+      "title": "AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload",
+      "url": "https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Los ataques de phishing potenciados por IA están generando un volumen abrumador de alertas en los centros de operaciones de seguridad (SOC), dificultando la detección de amenazas reales.",
+      "whyItMatters": "La IA está siendo utilizada por atacantes para crear correos de phishing más convincentes y a mayor escala. Los desarrolladores deben ser conscientes de estas amenazas y cómo pueden afectar a sus organizaciones.",
+      "recommendedAction": "Considera implementar o mejorar las defensas contra phishing, incluyendo la formación de usuarios y el uso de herramientas de seguridad avanzadas que puedan filtrar mejor las amenazas generadas por IA."
+    },
+    {
+      "title": "The Hardest Fork",
+      "url": "https://thehackernews.com/2026/06/the-hardest-fork.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 8,
+      "summary": "Artículo que discute la complejidad y gravedad de ciertas vulnerabilidades descubiertas, incluso cuando provienen de combinaciones de problemas más pequeños, afectando la seguridad general de los sistemas.",
+      "whyItMatters": "Subraya que incluso las vulnerabilidades que parecen triviales o comunes, cuando se combinan de forma creativa, pueden llevar a brechas de seguridad significativas. La IA puede estar jugando un papel en la identificación de estas cadenas.",
+      "recommendedAction": "Presta atención a las configuraciones de seguridad y a la cadena de dependencias en tus proyectos, y considera herramientas de análisis de seguridad que puedan detectar combinaciones de vulnerabilidades."
+    },
+    {
+      "title": "Creating checkpoints by gaslighting a Postgres database​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍‌‌‍​﻿‌‍​‍​﻿​​‌‍​﻿‌‍​‍​﻿​﻿​﻿‍‌​‍﻿‌‌‍‌‍‌‍​﻿‌‍​﻿​﻿‍‌​‍﻿‌​﻿‌​‌‍​‍​﻿​​​﻿‍‌​‍﻿‌​﻿‍‌​﻿​‍‌‍‌‌​﻿‌‍​‍﻿‌​﻿‌‍‌‍​‌​﻿‍​‌‍​‌‌‍‌​‌‍‌‌‌‍‌‍​﻿‍​‌‍‌​‌‍​﻿​﻿​​​﻿​‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/06/09/checkpoints-by-gaslighting-postgres-database/",
+      "source": "Stack Overflow Blog",
+      "category": "Base de Datos",
+      "priority": "medium",
+      "score": 8,
+      "summary": "Artículo técnico que explora cómo crear puntos de control ('checkpoints') en una base de datos PostgreSQL, utilizando técnicas avanzadas de 'gaslighting' (engaño) para gestionar la concurrencia y el estado.",
+      "whyItMatters": "Aborda técnicas avanzadas para la gestión de bases de datos PostgreSQL, especialmente relevantes en el contexto de bases de datos impulsadas por IA y agentes, que pueden generar cargas de trabajo impredecibles.",
+      "recommendedAction": "Si trabajas con PostgreSQL, especialmente en entornos con alta concurrencia o integraciones con IA, revisa las estrategias de gestión de puntos de control y concurrencia descritas en el artículo."
+    }
+  ]
+}

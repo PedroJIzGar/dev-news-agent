@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-06-08T11:58:40.995Z",
+  "generatedAt": "2026-06-09T10:35:24.636Z",
   "availableDates": [
+    "2026-06-09",
     "2026-06-08",
     "2026-06-07",
     "2026-06-06",
@@ -11,13 +12,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 8,
-    "totalArticles": 77,
-    "highPriority": 41,
-    "mediumPriority": 29,
+    "totalReports": 9,
+    "totalArticles": 90,
+    "highPriority": 46,
+    "mediumPriority": 37,
     "lowPriority": 7,
     "averageArticlesPerReport": 10,
-    "latestReportDate": "2026-06-08",
+    "latestReportDate": "2026-06-09",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-01",
@@ -28,51 +29,45 @@
       },
       {
         "name": "Seguridad",
-        "count": 17
+        "count": 24
       },
       {
         "name": "AI",
         "count": 13
       },
       {
-        "name": "IA para Desarrolladores",
-        "count": 4
+        "name": "Backend",
+        "count": 5
       },
       {
-        "name": "IA/Seguridad",
-        "count": 2
+        "name": "IA para Desarrolladores",
+        "count": 4
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 43
+        "count": 50
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 26
+        "count": 27
+      },
+      {
+        "name": "Spring Blog",
+        "count": 6
       },
       {
         "name": "Krebs on Security",
         "count": 3
       },
       {
-        "name": "Spring Blog",
-        "count": 2
-      },
-      {
-        "name": "Angular Blog",
+        "name": "GitHub Blog",
         "count": 2
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-02",
-      "high": 8,
-      "medium": 6,
-      "low": 1
-    },
     {
       "date": "2026-06-03",
       "high": 2,
@@ -108,9 +103,96 @@
       "high": 1,
       "medium": 2,
       "low": 0
+    },
+    {
+      "date": "2026-06-09",
+      "high": 5,
+      "medium": 8,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-09",
+      "generatedAt": "2026-06-09T10:35:24.628Z",
+      "totalArticles": 13,
+      "highPriority": 5,
+      "mediumPriority": 8,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 7
+        },
+        {
+          "name": "Backend",
+          "count": 4
+        },
+        {
+          "name": "Herramientas de Desarrollo",
+          "count": 1
+        },
+        {
+          "name": "Base de Datos",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 7
+        },
+        {
+          "name": "Spring Blog",
+          "count": 4
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE",
+          "url": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 10,
+          "summary": "Una vulnerabilidad crítica en LiteLLM (CVE-2026-42271) está siendo activamente explotada. Permite ejecución remota de código (RCE) sin autenticación, representando un riesgo grave.",
+          "whyItMatters": "Esta vulnerabilidad afecta a herramientas de IA y LLMs que se están volviendo cada vez más comunes en el desarrollo. La explotación activa significa que los sistemas son vulnerables ahora.",
+          "recommendedAction": "Si utilizas LiteLLM o dependes de él, aplica los parches de seguridad inmediatamente y monitoriza tu entorno en busca de signos de compromiso."
+        },
+        {
+          "title": "Spring LDAP 2026.06 Releases - Contains CVE Fix",
+          "url": "https://spring.io/blog/2026/06/08/spring-ldap-releases-2026-06",
+          "source": "Spring Blog",
+          "category": "Backend",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se lanzan las versiones 2026.06 de Spring LDAP, que incluyen correcciones de seguridad importantes y parches para vulnerabilidades conocidas (CVEs).",
+          "whyItMatters": "Mantener las dependencias actualizadas es crucial para la seguridad. Las vulnerabilidades en bibliotecas como Spring LDAP pueden ser puntos de entrada para ataques.",
+          "recommendedAction": "Revisa las notas de la versión y actualiza Spring LDAP a la última versión en tus proyectos Spring Boot si lo utilizas."
+        },
+        {
+          "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
+          "url": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una falla aparentemente menor en el kernel de Linux (CVE-2026-23111) permite a usuarios locales sin privilegios escalar a root y evadir contenedores. Existen exploits públicos.",
+          "whyItMatters": "Las vulnerabilidades en el kernel de Linux son críticas ya que afectan la base de muchos sistemas, incluyendo servidores y contenedores Docker. La existencia de exploits públicos aumenta el riesgo.",
+          "recommendedAction": "Asegúrate de que tus sistemas Linux y tus contenedores Docker estén actualizados con los últimos parches del kernel."
+        }
+      ]
+    },
     {
       "date": "2026-06-08",
       "generatedAt": "2026-06-08T11:58:40.987Z",
