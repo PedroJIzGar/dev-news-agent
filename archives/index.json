@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-06-09T10:35:24.636Z",
+  "generatedAt": "2026-06-10T10:56:53.379Z",
   "availableDates": [
+    "2026-06-10",
     "2026-06-09",
     "2026-06-08",
     "2026-06-07",
@@ -12,24 +13,24 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 9,
-    "totalArticles": 90,
-    "highPriority": 46,
-    "mediumPriority": 37,
-    "lowPriority": 7,
-    "averageArticlesPerReport": 10,
-    "latestReportDate": "2026-06-09",
-    "dominantCategory": "Security",
+    "totalReports": 10,
+    "totalArticles": 105,
+    "highPriority": 55,
+    "mediumPriority": 42,
+    "lowPriority": 8,
+    "averageArticlesPerReport": 11,
+    "latestReportDate": "2026-06-10",
+    "dominantCategory": "Seguridad",
     "mostActiveSource": "The Hacker News",
-    "highestRiskDay": "2026-06-01",
+    "highestRiskDay": "2026-06-10",
     "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 32
+      },
       {
         "name": "Security",
         "count": 28
-      },
-      {
-        "name": "Seguridad",
-        "count": 24
       },
       {
         "name": "AI",
@@ -40,14 +41,14 @@
         "count": 5
       },
       {
-        "name": "IA para Desarrolladores",
+        "name": "Java/Spring",
         "count": 4
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 50
+        "count": 60
       },
       {
         "name": "Stack Overflow Blog",
@@ -55,11 +56,11 @@
       },
       {
         "name": "Spring Blog",
-        "count": 6
+        "count": 10
       },
       {
         "name": "Krebs on Security",
-        "count": 3
+        "count": 4
       },
       {
         "name": "GitHub Blog",
@@ -68,12 +69,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-03",
-      "high": 2,
-      "medium": 2,
-      "low": 4
-    },
     {
       "date": "2026-06-04",
       "high": 6,
@@ -109,9 +104,96 @@
       "high": 5,
       "medium": 8,
       "low": 0
+    },
+    {
+      "date": "2026-06-10",
+      "high": 9,
+      "medium": 5,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-10",
+      "generatedAt": "2026-06-10T10:56:53.371Z",
+      "totalArticles": 15,
+      "highPriority": 9,
+      "mediumPriority": 5,
+      "lowPriority": 1,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 8
+        },
+        {
+          "name": "Java/Spring",
+          "count": 4
+        },
+        {
+          "name": "Seguridad/Desarrollo",
+          "count": 1
+        },
+        {
+          "name": "Privacidad/IA",
+          "count": 1
+        },
+        {
+          "name": "IA/Seguridad",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 10
+        },
+        {
+          "name": "Spring Blog",
+          "count": 4
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Six Proto6 Vulnerabilities in protobuf.js Expose Node.js Apps to RCE and DoS",
+          "url": "https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se han descubierto seis vulnerabilidades en protobuf.js, una implementación de Protocol Buffers para JavaScript y TypeScript, que podrían permitir la ejecución remota de código (RCE) y ataques de denegación de servicio (DoS) en aplicaciones Node.js.",
+          "whyItMatters": "Estas vulnerabilidades afectan a una biblioteca comúnmente utilizada en el ecosistema Node.js, lo que representa un riesgo significativo para las aplicaciones que la utilizan y podría ser explotada para comprometer servidores.",
+          "recommendedAction": "Revisar si tu aplicación Node.js utiliza protobuf.js y aplicar las actualizaciones de seguridad tan pronto como estén disponibles. Evaluar la necesidad de mitigar el riesgo si las actualizaciones no son inmediatas."
+        },
+        {
+          "title": "Microsoft Restores Some GitHub Repos, Keeps Others Offline as Miasma Probe Continues",
+          "url": "https://thehackernews.com/2026/06/microsoft-restores-some-github-repos.html",
+          "source": "The Hacker News",
+          "category": "Seguridad/Desarrollo",
+          "priority": "high",
+          "score": 9,
+          "summary": "Microsoft ha restaurado algunos repositorios en GitHub tras un incidente de seguridad que comprometió 73 proyectos de código abierto, inyectando un 'information stealer' en el código.",
+          "whyItMatters": "Este incidente destaca la importancia de la seguridad en las plataformas de desarrollo como GitHub y la necesidad de proteger los repositorios de código contra la inyección de malware, lo cual podría afectar a toda la cadena de suministro de software.",
+          "recommendedAction": "Revisar la seguridad de tus propios repositorios en GitHub, implementar escaneos de seguridad en el código y estar atento a las prácticas de seguridad recomendadas por Microsoft y GitHub."
+        },
+        {
+          "title": "Spring gRPC 1.1.0 available now",
+          "url": "https://spring.io/blog/2026/06/10/spring-grpc-1-1-0-available-now",
+          "source": "Spring Blog",
+          "category": "Java/Spring",
+          "priority": "high",
+          "score": 9,
+          "summary": "La versión 1.1.0 de Spring gRPC ya está disponible, trayendo consigo mejoras y posiblemente nuevas funcionalidades para la integración de gRPC con aplicaciones Spring.",
+          "whyItMatters": "gRPC es un framework de RPC de alto rendimiento, y su integración con Spring Boot es crucial para muchos desarrolladores de Java que buscan construir microservicios eficientes y escalables. Las nuevas versiones suelen incluir correcciones y optimizaciones.",
+          "recommendedAction": "Revisar las notas de la versión para Spring gRPC 1.1.0 y considerar actualizar si se está utilizando en el proyecto para beneficiarse de las últimas mejoras y correcciones."
+        }
+      ]
+    },
     {
       "date": "2026-06-09",
       "generatedAt": "2026-06-09T10:35:24.628Z",
