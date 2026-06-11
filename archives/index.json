@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-06-10T10:56:53.379Z",
+  "generatedAt": "2026-06-11T11:23:08.685Z",
   "availableDates": [
+    "2026-06-11",
     "2026-06-10",
     "2026-06-09",
     "2026-06-08",
@@ -13,24 +14,24 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 10,
-    "totalArticles": 105,
-    "highPriority": 55,
-    "mediumPriority": 42,
-    "lowPriority": 8,
+    "totalReports": 11,
+    "totalArticles": 120,
+    "highPriority": 62,
+    "mediumPriority": 49,
+    "lowPriority": 9,
     "averageArticlesPerReport": 11,
-    "latestReportDate": "2026-06-10",
-    "dominantCategory": "Seguridad",
+    "latestReportDate": "2026-06-11",
+    "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-10",
     "topCategories": [
       {
-        "name": "Seguridad",
-        "count": 32
+        "name": "Security",
+        "count": 35
       },
       {
-        "name": "Security",
-        "count": 28
+        "name": "Seguridad",
+        "count": 32
       },
       {
         "name": "AI",
@@ -41,14 +42,14 @@
         "count": 5
       },
       {
-        "name": "Java/Spring",
+        "name": "Java/Spring Boot",
         "count": 4
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 60
+        "count": 68
       },
       {
         "name": "Stack Overflow Blog",
@@ -56,25 +57,19 @@
       },
       {
         "name": "Spring Blog",
-        "count": 10
+        "count": 14
       },
       {
         "name": "Krebs on Security",
-        "count": 4
+        "count": 5
       },
       {
         "name": "GitHub Blog",
-        "count": 2
+        "count": 4
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-04",
-      "high": 6,
-      "medium": 5,
-      "low": 1
-    },
     {
       "date": "2026-06-05",
       "high": 8,
@@ -110,9 +105,100 @@
       "high": 9,
       "medium": 5,
       "low": 1
+    },
+    {
+      "date": "2026-06-11",
+      "high": 7,
+      "medium": 7,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-11",
+      "generatedAt": "2026-06-11T11:23:08.680Z",
+      "totalArticles": 15,
+      "highPriority": 7,
+      "mediumPriority": 7,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 7
+        },
+        {
+          "name": "Java/Spring Boot",
+          "count": 3
+        },
+        {
+          "name": "AI/GitHub",
+          "count": 2
+        },
+        {
+          "name": "Security/GitHub",
+          "count": 1
+        },
+        {
+          "name": "Java/Spring Boot/Security",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 8
+        },
+        {
+          "name": "Spring Blog",
+          "count": 4
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 2
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Spring Boot 3.5.15 available now",
+          "url": "https://spring.io/blog/2026/06/10/spring-boot-3-5-15-available-now",
+          "source": "Spring Blog",
+          "category": "Java/Spring Boot",
+          "priority": "high",
+          "score": 10,
+          "summary": "Ya está disponible la versión 3.5.15 de Spring Boot, que incluye correcciones de errores y mejoras de rendimiento.",
+          "whyItMatters": "Mantenerse al día con las últimas versiones de Spring Boot es crucial para beneficiarse de las correcciones de seguridad, mejoras de rendimiento y nuevas funcionalidades que pueden optimizar el desarrollo de aplicaciones Java.",
+          "recommendedAction": "Actualiza tus proyectos Spring Boot a la versión 3.5.15 para incorporar las últimas mejoras y correcciones."
+        },
+        {
+          "title": "Spring Boot 4.0.7 available now",
+          "url": "https://spring.io/blog/2026/06/10/spring-boot-4-0-7-available-now",
+          "source": "Spring Blog",
+          "category": "Java/Spring Boot",
+          "priority": "high",
+          "score": 10,
+          "summary": "Se ha lanzado la versión 4.0.7 de Spring Boot, que proporciona correcciones y actualizaciones importantes.",
+          "whyItMatters": "Las nuevas versiones de Spring Boot a menudo incluyen parches de seguridad críticos y optimizaciones. Mantenerse actualizado garantiza que tus aplicaciones sean robustas y estén protegidas contra vulnerabilidades conocidas.",
+          "recommendedAction": "Asegúrate de que tus aplicaciones Spring Boot estén actualizadas a la versión 4.0.7 o posterior para aprovechar las últimas correcciones y mejoras."
+        },
+        {
+          "title": "Unpatched Langflow Flaw CVE-2026-5027 Exploited for Unauthenticated RCE",
+          "url": "https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una vulnerabilidad crítica de seguridad en Langflow, una plataforma de código bajo para crear aplicaciones de IA, está siendo explotada activamente. La falla (CVE-2026-5027) permite a un atacante escribir archivos en ubicaciones arbitrarias, lo que podría llevar a la ejecución remota de código sin autenticación.",
+          "whyItMatters": "Dado que Langflow se utiliza para construir aplicaciones de IA, una vulnerabilidad explotada activamente representa un riesgo significativo para los desarrolladores que utilizan esta herramienta. La ejecución remota de código puede tener graves consecuencias de seguridad.",
+          "recommendedAction": "Si utilizas Langflow, asegúrate de aplicar los parches disponibles lo antes posible y monitoriza tus sistemas en busca de actividades sospechosas. Considera la posibilidad de revisar las configuraciones de seguridad y el acceso de los usuarios."
+        }
+      ]
+    },
     {
       "date": "2026-06-10",
       "generatedAt": "2026-06-10T10:56:53.371Z",

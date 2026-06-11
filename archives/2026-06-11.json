@@ -1,0 +1,217 @@
+{
+  "date": "2026-06-11",
+  "generatedAt": "2026-06-11T11:23:08.680Z",
+  "totalArticles": 15,
+  "summary": {
+    "highPriority": 7,
+    "mediumPriority": 7,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 7
+      },
+      {
+        "name": "Java/Spring Boot",
+        "count": 3
+      },
+      {
+        "name": "AI/GitHub",
+        "count": 2
+      },
+      {
+        "name": "Security/GitHub",
+        "count": 1
+      },
+      {
+        "name": "Java/Spring Boot/Security",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 8
+      },
+      {
+        "name": "Spring Blog",
+        "count": 4
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 2
+      },
+      {
+        "name": "Krebs on Security",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Unpatched Langflow Flaw CVE-2026-5027 Exploited for Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una vulnerabilidad crítica de seguridad en Langflow, una plataforma de código bajo para crear aplicaciones de IA, está siendo explotada activamente. La falla (CVE-2026-5027) permite a un atacante escribir archivos en ubicaciones arbitrarias, lo que podría llevar a la ejecución remota de código sin autenticación.",
+      "whyItMatters": "Dado que Langflow se utiliza para construir aplicaciones de IA, una vulnerabilidad explotada activamente representa un riesgo significativo para los desarrolladores que utilizan esta herramienta. La ejecución remota de código puede tener graves consecuencias de seguridad.",
+      "recommendedAction": "Si utilizas Langflow, asegúrate de aplicar los parches disponibles lo antes posible y monitoriza tus sistemas en busca de actividades sospechosas. Considera la posibilidad de revisar las configuraciones de seguridad y el acceso de los usuarios."
+    },
+    {
+      "title": "Spring Boot 3.5.15 available now",
+      "url": "https://spring.io/blog/2026/06/10/spring-boot-3-5-15-available-now",
+      "source": "Spring Blog",
+      "category": "Java/Spring Boot",
+      "priority": "high",
+      "score": 10,
+      "summary": "Ya está disponible la versión 3.5.15 de Spring Boot, que incluye correcciones de errores y mejoras de rendimiento.",
+      "whyItMatters": "Mantenerse al día con las últimas versiones de Spring Boot es crucial para beneficiarse de las correcciones de seguridad, mejoras de rendimiento y nuevas funcionalidades que pueden optimizar el desarrollo de aplicaciones Java.",
+      "recommendedAction": "Actualiza tus proyectos Spring Boot a la versión 3.5.15 para incorporar las últimas mejoras y correcciones."
+    },
+    {
+      "title": "Spring Boot 4.0.7 available now",
+      "url": "https://spring.io/blog/2026/06/10/spring-boot-4-0-7-available-now",
+      "source": "Spring Blog",
+      "category": "Java/Spring Boot",
+      "priority": "high",
+      "score": 10,
+      "summary": "Se ha lanzado la versión 4.0.7 de Spring Boot, que proporciona correcciones y actualizaciones importantes.",
+      "whyItMatters": "Las nuevas versiones de Spring Boot a menudo incluyen parches de seguridad críticos y optimizaciones. Mantenerse actualizado garantiza que tus aplicaciones sean robustas y estén protegidas contra vulnerabilidades conocidas.",
+      "recommendedAction": "Asegúrate de que tus aplicaciones Spring Boot estén actualizadas a la versión 4.0.7 o posterior para aprovechar las últimas correcciones y mejoras."
+    },
+    {
+      "title": "Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities",
+      "url": "https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Ivanti, Fortinet y SAP han lanzado parches para corregir múltiples vulnerabilidades críticas que podrían permitir la ejecución de código arbitrario y la divulgación de información.",
+      "whyItMatters": "Estas vulnerabilidades afectan a productos de seguridad ampliamente utilizados, y su explotación activa representa una amenaza directa. No parchear estos sistemas puede exponer a las organizaciones a ataques graves.",
+      "recommendedAction": "Revisa urgentemente si utilizas productos de Ivanti, Fortinet o SAP afectados por estas vulnerabilidades y aplica los parches de seguridad correspondientes de inmediato."
+    },
+    {
+      "title": "GitHub to Disable npm Install Scripts by Default to Stop Supply Chain Attacks",
+      "url": "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html",
+      "source": "The Hacker News",
+      "category": "Security/GitHub",
+      "priority": "high",
+      "score": 9,
+      "summary": "GitHub deshabilitará por defecto los scripts de instalación de npm en la versión 12 para mitigar ataques a la cadena de suministro de software.",
+      "whyItMatters": "Los ataques a la cadena de suministro son una amenaza creciente. Esta medida de seguridad en GitHub afectará directamente a cómo se manejan las dependencias de npm, reduciendo el riesgo de ejecución de código malicioso durante la instalación de paquetes.",
+      "recommendedAction": "Prepárate para el cambio en npm v12 y revisa tus flujos de trabajo de CI/CD y la gestión de dependencias de npm. Adapta tus procesos si dependen de scripts de instalación automáticos."
+    },
+    {
+      "title": "CISA Adds Cisco, Chrome, and Arista Flaws to KEV Catalog Amid Active Exploitation",
+      "url": "https://thehackernews.com/2026/06/cisa-adds-cisco-chrome-and-arista-flaws.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "La CISA ha añadido tres nuevas vulnerabilidades, incluyendo fallos en Cisco, Chrome y Arista, a su catálogo de Vulnerabilidades Conocidas Explotadas (KEV) debido a su explotación activa.",
+      "whyItMatters": "Las vulnerabilidades en el catálogo KEV de CISA son una prioridad alta para la remediación, ya que están siendo atacadas activamente en la naturaleza. Ignorarlas aumenta significativamente el riesgo de compromiso.",
+      "recommendedAction": "Verifica si tus sistemas utilizan productos de Cisco, Chrome o Arista afectados por las CVEs mencionadas y prioriza la aplicación de parches o mitigaciones."
+    },
+    {
+      "title": "A Bootiful Podcast: Spring Security lead Rob Winch answers some security questions for me",
+      "url": "https://spring.io/blog/2026/06/11/a-bootiful-podcast-rob-winch-answers-everything",
+      "source": "Spring Blog",
+      "category": "Java/Spring Boot/Security",
+      "priority": "medium",
+      "score": 8,
+      "summary": "En este episodio del podcast, Rob Winch, líder de Spring Security, responde preguntas sobre seguridad.",
+      "whyItMatters": "Obtener información directamente de los responsables de Spring Security es invaluable para comprender y aplicar las mejores prácticas de seguridad en aplicaciones Spring Boot.",
+      "recommendedAction": "Escucha este episodio para obtener información actualizada y consejos prácticos sobre cómo asegurar tus aplicaciones Spring."
+    },
+    {
+      "title": "Spring Batch 6.0.4 and 5.2.6 available now",
+      "url": "https://spring.io/blog/2026/06/10/spring-batch-6-0-4-and-5-2-6-available-now",
+      "source": "Spring Blog",
+      "category": "Java/Spring Boot",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Las versiones 6.0.4 de Spring Batch y 5.2.6 ya están disponibles, ofreciendo correcciones y mejoras.",
+      "whyItMatters": "Spring Batch es una herramienta clave para el procesamiento por lotes en aplicaciones Java. Mantenerlo actualizado asegura la estabilidad y el rendimiento de tus trabajos batch.",
+      "recommendedAction": "Considera actualizar tus proyectos que usan Spring Batch a estas nuevas versiones para beneficiarte de las últimas correcciones."
+    },
+    {
+      "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
+      "url": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+      "source": "Krebs on Security",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Un análisis investiga la posible identidad detrás del grupo de ransomware 'The Gentlemen', que se ha convertido en uno de los más activos.",
+      "whyItMatters": "Comprender quién está detrás de los grupos de ransomware puede ofrecer información sobre sus tácticas, objetivos y posibles debilidades, lo que es útil para las estrategias de defensa y ciberinteligencia.",
+      "recommendedAction": "Mantente informado sobre las operaciones y la posible identidad de grupos de ransomware como 'The Gentlemen' para mejorar tu conciencia situacional de las amenazas."
+    },
+    {
+      "title": "Hades PyPI Attack: 19 Packages Poisoned to Auto-Run Bun Credential Stealer",
+      "url": "https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Se ha descubierto un ataque a la cadena de suministro en PyPI llamado Hades, que ha comprometido 19 paquetes con artefactos maliciosos diseñados para robar credenciales.",
+      "whyItMatters": "Este ataque a PyPI es una clara advertencia sobre los riesgos de la cadena de suministro en el ecosistema de Python. La ejecución automática de código malicioso al instalar paquetes es una táctica preocupante.",
+      "recommendedAction": "Ten extremo cuidado al instalar paquetes de PyPI, especialmente aquellos de fuentes menos conocidas. Revisa tus dependencias y considera herramientas de escaneo de seguridad de la cadena de suministro."
+    },
+    {
+      "title": "Give GitHub Copilot CLI real code intelligence with language servers",
+      "url": "https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/",
+      "source": "GitHub Blog",
+      "category": "AI/GitHub",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Este artículo explica cómo integrar servidores de lenguaje (LSP) con GitHub Copilot CLI para mejorar su comprensión del código y proporcionar una inteligencia más profunda.",
+      "whyItMatters": "Mejorar la inteligencia de herramientas de IA como GitHub Copilot CLI puede aumentar significativamente la productividad del desarrollador, permitiendo una interacción más precisa y útil con el código.",
+      "recommendedAction": "Explora la configuración de servidores de lenguaje con GitHub Copilot CLI para potenciar sus capacidades de asistencia de código en tu flujo de trabajo."
+    },
+    {
+      "title": "From one-off prompts to workflows: How to use custom agents in GitHub Copilot CLI",
+      "url": "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli/",
+      "source": "GitHub Blog",
+      "category": "AI/GitHub",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Aprende a utilizar agentes personalizados en GitHub Copilot CLI para transformar prompts puntuales en flujos de trabajo repetibles y eficientes.",
+      "whyItMatters": "La capacidad de crear flujos de trabajo personalizados con IA puede automatizar tareas repetitivas y mejorar la consistencia en el desarrollo, haciendo que herramientas como Copilot CLI sean aún más potentes.",
+      "recommendedAction": "Investiga la creación de agentes personalizados en GitHub Copilot CLI para optimizar tus flujos de trabajo de línea de comandos y aumentar la eficiencia."
+    },
+    {
+      "title": "OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack",
+      "url": "https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "El actor de amenazas OceanLotus ha dirigido a inversores vietnamitas y entidades de infraestructura con el backdoor SPECTRALVIPER como parte de campañas de ciberespionaje y ataques a la cadena de suministro.",
+      "whyItMatters": "Este informe destaca las tácticas sofisticadas utilizadas por actores de amenazas estatales o patrocinados por estados, incluyendo ataques a la cadena de suministro, que pueden tener implicaciones para la seguridad global.",
+      "recommendedAction": "Mantente al tanto de las tácticas avanzadas de los actores de amenazas y fortalece tus defensas contra ataques a la cadena de suministro y campañas de ciberespionaje dirigidas."
+    },
+    {
+      "title": "Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models",
+      "url": "https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html",
+      "source": "The Hacker News",
+      "category": "AI/Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Investigadores han desarrollado un gusano informático impulsado por IA, capaz de autorreplicarse y operar completamente con modelos de lenguaje de código abierto locales, sin intervención humana.",
+      "whyItMatters": "La creación de un gusano de IA autorreplicante que opera de forma autónoma plantea nuevas y serias preocupaciones de seguridad. Destaca el potencial de la IA para ser utilizada con fines maliciosos de maneras que antes no eran posibles.",
+      "recommendedAction": "Presta atención a las investigaciones sobre IA autónoma y su potencial uso malicioso. Considera las implicaciones de seguridad de los modelos de IA de código abierto y las redes que operan."
+    },
+    {
+      "title": "The Hidden Security Risk in Modern Networks: The Work Between Tools",
+      "url": "https://thehackernews.com/2026/06/the-hidden-security-risk-in-modern.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 3,
+      "summary": "Se discute cómo la complejidad de las pilas tecnológicas modernas y la integración entre diferentes herramientas de seguridad, a pesar del uso de IA y automatización, pueden introducir riesgos de seguridad ocultos.",
+      "whyItMatters": "Aunque el artículo toca un punto válido sobre la complejidad de las redes modernas, la falta de detalles técnicos específicos y la vaguedad sobre las soluciones lo hacen menos práctico para desarrolladores intermedios.",
+      "recommendedAction": "Refuerza la supervisión de la integración entre tus herramientas de seguridad y ten en cuenta la complejidad como un posible vector de riesgo."
+    }
+  ]
+}
