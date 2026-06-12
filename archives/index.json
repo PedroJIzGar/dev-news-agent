@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-06-11T11:23:08.685Z",
+  "generatedAt": "2026-06-12T11:02:26.201Z",
   "availableDates": [
+    "2026-06-12",
     "2026-06-11",
     "2026-06-10",
     "2026-06-09",
@@ -14,24 +15,24 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 11,
-    "totalArticles": 120,
-    "highPriority": 62,
-    "mediumPriority": 49,
-    "lowPriority": 9,
-    "averageArticlesPerReport": 11,
-    "latestReportDate": "2026-06-11",
-    "dominantCategory": "Security",
+    "totalReports": 12,
+    "totalArticles": 138,
+    "highPriority": 65,
+    "mediumPriority": 61,
+    "lowPriority": 12,
+    "averageArticlesPerReport": 12,
+    "latestReportDate": "2026-06-12",
+    "dominantCategory": "Seguridad",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-10",
     "topCategories": [
       {
-        "name": "Security",
-        "count": 35
+        "name": "Seguridad",
+        "count": 45
       },
       {
-        "name": "Seguridad",
-        "count": 32
+        "name": "Security",
+        "count": 35
       },
       {
         "name": "AI",
@@ -39,7 +40,7 @@
       },
       {
         "name": "Backend",
-        "count": 5
+        "count": 8
       },
       {
         "name": "Java/Spring Boot",
@@ -49,7 +50,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 68
+        "count": 81
       },
       {
         "name": "Stack Overflow Blog",
@@ -57,25 +58,19 @@
       },
       {
         "name": "Spring Blog",
-        "count": 14
+        "count": 17
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 6
       },
       {
         "name": "Krebs on Security",
         "count": 5
-      },
-      {
-        "name": "GitHub Blog",
-        "count": 4
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-05",
-      "high": 8,
-      "medium": 4,
-      "low": 1
-    },
     {
       "date": "2026-06-06",
       "high": 6,
@@ -111,9 +106,88 @@
       "high": 7,
       "medium": 7,
       "low": 1
+    },
+    {
+      "date": "2026-06-12",
+      "high": 3,
+      "medium": 12,
+      "low": 3
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-12",
+      "generatedAt": "2026-06-12T11:02:26.192Z",
+      "totalArticles": 18,
+      "highPriority": 3,
+      "mediumPriority": 12,
+      "lowPriority": 3,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 13
+        },
+        {
+          "name": "Backend",
+          "count": 3
+        },
+        {
+          "name": "Herramientas de Desarrollo",
+          "count": 2
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 13
+        },
+        {
+          "name": "Spring Blog",
+          "count": 3
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 2
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "LangGraph Flaw Chain Exposes Self-Hosted AI Agents to Remote Code Execution",
+          "url": "https://thehackernews.com/2026/06/langgraph-flaw-chain-exposes-self.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se han descubierto tres vulnerabilidades en LangGraph, un framework de IA de código abierto, que incluyen una cadena crítica que podría permitir la ejecución remota de código. Una de las vulnerabilidades es una inyección SQL en la funcionalidad del framework.",
+          "whyItMatters": "Esta noticia es crucial ya que afecta directamente a la seguridad de los agentes de IA autoalojados que utilizan LangGraph. La ejecución remota de código es una vulnerabilidad grave que puede comprometer completamente un sistema. Dada la creciente adopción de herramientas de IA en el desarrollo, es vital estar al tanto de estas brechas.",
+          "recommendedAction": "Revisar y aplicar las actualizaciones de seguridad para LangGraph inmediatamente. Evaluar la exposición de los agentes de IA autoalojados a estas vulnerabilidades y tomar medidas correctivas."
+        },
+        {
+          "title": "AI Broke Vulnerability Management. That's Why CISOs Are Moving Budget to BAS.",
+          "url": "https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 8,
+          "summary": "La IA ha eliminado el margen de tiempo que antes existía entre el descubrimiento de una vulnerabilidad y su explotación, obligando a los CISO a replantearse la gestión de vulnerabilidades y mover presupuestos hacia la simulación de ataques (BAS).",
+          "whyItMatters": "Este artículo destaca cómo la IA está cambiando el panorama de la ciberseguridad, acelerando el ciclo de vida de las amenazas. Para los desarrolladores, esto significa que la velocidad de parcheo y la proactividad en la seguridad son más importantes que nunca. Entender esta dinámica es clave para desarrollar software más seguro.",
+          "recommendedAction": "Familiarizarse con las implicaciones de la IA en la gestión de vulnerabilidades. Investigar las herramientas y metodologías de Breach and Attack Simulation (BAS) y considerar cómo integrarlas en los flujos de trabajo de seguridad."
+        },
+        {
+          "title": "New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets",
+          "url": "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 8,
+          "summary": "Se han descubierto nuevas formas de atacar a OpenClaw, un agente de IA popular autoalojado, para que ejecute código malicioso o filtre información sensible a través de entradas aparentemente inofensivas.",
+          "whyItMatters": "Este artículo señala una vulnerabilidad específica en un agente de IA común. La posibilidad de engañar a agentes de IA para que ejecuten código o revelen secretos es una preocupación de seguridad importante, especialmente a medida que más desarrolladores integran estas herramientas en sus sistemas.",
+          "recommendedAction": "Si utilizas OpenClaw o agentes de IA similares, revisa las últimas recomendaciones de seguridad y aplica parches. Implementa validaciones y sanitizaciones robustas para las entradas que procesan los agentes de IA."
+        }
+      ]
+    },
     {
       "date": "2026-06-11",
       "generatedAt": "2026-06-11T11:23:08.680Z",
