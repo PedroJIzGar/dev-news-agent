@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-06-12T11:02:26.201Z",
+  "generatedAt": "2026-06-13T09:56:50.126Z",
   "availableDates": [
+    "2026-06-13",
     "2026-06-12",
     "2026-06-11",
     "2026-06-10",
@@ -15,13 +16,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 12,
-    "totalArticles": 138,
-    "highPriority": 65,
-    "mediumPriority": 61,
-    "lowPriority": 12,
+    "totalReports": 13,
+    "totalArticles": 153,
+    "highPriority": 72,
+    "mediumPriority": 68,
+    "lowPriority": 13,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-06-12",
+    "latestReportDate": "2026-06-13",
     "dominantCategory": "Seguridad",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-10",
@@ -32,15 +33,15 @@
       },
       {
         "name": "Security",
-        "count": 35
+        "count": 44
       },
       {
         "name": "AI",
-        "count": 13
+        "count": 14
       },
       {
         "name": "Backend",
-        "count": 8
+        "count": 10
       },
       {
         "name": "Java/Spring Boot",
@@ -50,19 +51,19 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 81
+        "count": 90
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 27
+        "count": 30
       },
       {
         "name": "Spring Blog",
-        "count": 17
+        "count": 19
       },
       {
         "name": "GitHub Blog",
-        "count": 6
+        "count": 7
       },
       {
         "name": "Krebs on Security",
@@ -71,12 +72,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-06",
-      "high": 6,
-      "medium": 4,
-      "low": 0
-    },
     {
       "date": "2026-06-07",
       "high": 1,
@@ -112,9 +107,100 @@
       "high": 3,
       "medium": 12,
       "low": 3
+    },
+    {
+      "date": "2026-06-13",
+      "high": 7,
+      "medium": 7,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-13",
+      "generatedAt": "2026-06-13T09:56:50.118Z",
+      "totalArticles": 15,
+      "highPriority": 7,
+      "mediumPriority": 7,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 9
+        },
+        {
+          "name": "Backend",
+          "count": 2
+        },
+        {
+          "name": "Developer Experience",
+          "count": 2
+        },
+        {
+          "name": "Dev Tools",
+          "count": 1
+        },
+        {
+          "name": "AI",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 9
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 3
+        },
+        {
+          "name": "Spring Blog",
+          "count": 2
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Agentjacking Attack Tricks AI Coding Agents Into Running Malicious Code",
+          "url": "https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Investigadores de seguridad han descrito una nueva clase de ataque llamada Agentjacking que puede engañar a los agentes de codificación de IA para que ejecuten código arbitrario en las máquinas de los desarrolladores. El ataque se puede desencadenar mediante un informe de error falso creado con Sentry.",
+          "whyItMatters": "Este ataque representa una amenaza directa para la seguridad de los desarrolladores que utilizan herramientas de IA para la codificación. Es crucial estar al tanto de estas vulnerabilidades para proteger los sistemas contra la ejecución de código malicioso.",
+          "recommendedAction": "Mantente informado sobre las últimas técnicas de ataque contra herramientas de IA para desarrolladores. Asegúrate de que las herramientas de monitorización y seguridad que utilizas estén actualizadas y configuradas correctamente."
+        },
+        {
+          "title": "Spring AI 2.0.0 GA Available Now",
+          "url": "https://spring.io/blog/2026/06/12/spring-ai-2-0-0-GA-available-now",
+          "source": "Spring Blog",
+          "category": "Backend",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha lanzado la versión GA (General Availability) 2.0.0 de Spring AI. Esta versión trae consigo mejoras y nuevas funcionalidades para integrar modelos de IA en aplicaciones Spring.",
+          "whyItMatters": "Para los desarrolladores que usan Spring Boot, esta es una actualización importante. Spring AI facilita la integración de IA en aplicaciones Java, y la nueva versión probablemente incluye correcciones y características que mejorarán la experiencia de desarrollo y las capacidades de las aplicaciones.",
+          "recommendedAction": "Actualiza a la versión 2.0.0 de Spring AI si estás utilizando este framework. Revisa las notas de la versión para entender las nuevas características y posibles cambios."
+        },
+        {
+          "title": "U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals",
+          "url": "https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "El gobierno de EE. UU. ha ordenado a Anthropic suspender el acceso a sus modelos de IA más avanzados, Claude Fable 5 y Mythos 5, para ciudadanos extranjeros, citando preocupaciones de seguridad nacional.",
+          "whyItMatters": "Esto subraya las crecientes preocupaciones sobre la seguridad nacional y la regulación en torno a la IA avanzada. Las implicaciones para las empresas que desarrollan o utilizan estas tecnologías, especialmente en contextos internacionales, son significativas.",
+          "recommendedAction": "Presta atención a las regulaciones gubernamentales sobre el uso y acceso a modelos de IA avanzados, especialmente si trabajas con equipos o clientes internacionales."
+        }
+      ]
+    },
     {
       "date": "2026-06-12",
       "generatedAt": "2026-06-12T11:02:26.192Z",
