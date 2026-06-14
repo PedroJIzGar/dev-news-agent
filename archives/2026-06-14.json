@@ -1,0 +1,84 @@
+{
+  "date": "2026-06-14",
+  "generatedAt": "2026-06-14T10:25:22.032Z",
+  "totalArticles": 4,
+  "summary": {
+    "highPriority": 1,
+    "mediumPriority": 1,
+    "lowPriority": 2,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 1
+      },
+      {
+        "name": "Desarrollo",
+        "count": 1
+      },
+      {
+        "name": "Cultura de Desarrollo",
+        "count": 1
+      },
+      {
+        "name": "Herramientas para Desarrolladores",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "Stack Overflow Blog",
+        "count": 3
+      },
+      {
+        "name": "The Hacker News",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication",
+      "url": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se ha descubierto una vulnerabilidad crítica en Splunk Enterprise (CVE-2026-20253) que permite a atacantes no autenticados realizar operaciones de archivo y ejecución remota de código. La puntuación CVSS es de 9.8.",
+      "whyItMatters": "Esta vulnerabilidad es extremadamente grave ya que permite a atacantes externos tomar control de sistemas sin necesidad de autenticación, lo que puede llevar a accesos no autorizados y compromiso total del sistema.",
+      "recommendedAction": "Actualizar inmediatamente Splunk Enterprise a las versiones 10.2.4 o 10.0.7 o superiores para mitigar el riesgo."
+    },
+    {
+      "title": "Designing CherryScript: Optimizing Data-Driven Workflows via Custom Python-Based Interpreters",
+      "url": "https://stackoverflow.blog/2026/06/12/designing-cherryscript-optimizing-data-driven-workflows-via-custom-python-based-interpreters/",
+      "source": "Stack Overflow Blog",
+      "category": "Desarrollo",
+      "priority": "low",
+      "score": 3,
+      "summary": "Este artículo explora el diseño de CherryScript, un intérprete personalizado basado en Python, para optimizar flujos de trabajo impulsados por datos.",
+      "whyItMatters": "Ofrece una perspectiva sobre cómo se pueden crear lenguajes de scripting personalizados para mejorar la eficiencia en flujos de trabajo de datos, lo cual puede ser de interés para desarrolladores que trabajan con sistemas complejos o buscan optimizar procesos.",
+      "recommendedAction": "Leer el artículo para entender los principios de diseño de lenguajes de scripting personalizados y su aplicación en flujos de datos."
+    },
+    {
+      "title": "What's the facts, Charity? How do I get my leaders to stop running teams Into the ground?",
+      "url": "https://stackoverflow.blog/2026/06/12/what-s-the-facts-charity-how-do-i-get-my-leaders-to-stop-running-teams-into-the-ground/",
+      "source": "Stack Overflow Blog",
+      "category": "Cultura de Desarrollo",
+      "priority": "low",
+      "score": 2,
+      "summary": "El artículo aborda el problema de la sobrecarga de equipos y cómo la falta de capacidad puede afectar negativamente el rendimiento y el bienestar de los desarrolladores.",
+      "whyItMatters": "Aunque trata temas de gestión y cultura, puede ofrecer reflexiones sobre cómo la presión excesiva impacta en la productividad y la moral de los equipos de desarrollo, un tema relevante para entender el entorno laboral.",
+      "recommendedAction": "Considerar las dinámicas de equipo y gestión de la capacidad si se experimentan situaciones similares en el entorno laboral."
+    },
+    {
+      "title": "Announcing Stack Overflow for Agents",
+      "url": "https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents/",
+      "source": "Stack Overflow Blog",
+      "category": "Herramientas para Desarrolladores",
+      "priority": "medium",
+      "score": 5,
+      "summary": "Se anuncia la beta de Stack Overflow for Agents, una nueva herramienta diseñada para ayudar a los agentes de IA a encontrar respuestas en la plataforma de Stack Overflow.",
+      "whyItMatters": "La integración de IA en las herramientas de desarrollo es una tendencia creciente. Esta noticia es interesante para entender cómo las plataformas como Stack Overflow están adaptándose para soportar la asistencia basada en IA para desarrolladores.",
+      "recommendedAction": "Explorar esta herramienta si se trabaja con o se está interesado en agentes de IA para el desarrollo de software."
+    }
+  ]
+}

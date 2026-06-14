@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-06-13T09:56:50.126Z",
+  "generatedAt": "2026-06-14T10:25:22.044Z",
   "availableDates": [
+    "2026-06-14",
     "2026-06-13",
     "2026-06-12",
     "2026-06-11",
@@ -16,20 +17,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 13,
-    "totalArticles": 153,
-    "highPriority": 72,
-    "mediumPriority": 68,
-    "lowPriority": 13,
-    "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-06-13",
+    "totalReports": 14,
+    "totalArticles": 157,
+    "highPriority": 73,
+    "mediumPriority": 69,
+    "lowPriority": 15,
+    "averageArticlesPerReport": 11,
+    "latestReportDate": "2026-06-14",
     "dominantCategory": "Seguridad",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-10",
     "topCategories": [
       {
         "name": "Seguridad",
-        "count": 45
+        "count": 46
       },
       {
         "name": "Security",
@@ -51,11 +52,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 90
+        "count": 91
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 30
+        "count": 33
       },
       {
         "name": "Spring Blog",
@@ -72,12 +73,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-07",
-      "high": 1,
-      "medium": 0,
-      "low": 0
-    },
     {
       "date": "2026-06-08",
       "high": 1,
@@ -113,9 +108,88 @@
       "high": 7,
       "medium": 7,
       "low": 1
+    },
+    {
+      "date": "2026-06-14",
+      "high": 1,
+      "medium": 1,
+      "low": 2
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-14",
+      "generatedAt": "2026-06-14T10:25:22.032Z",
+      "totalArticles": 4,
+      "highPriority": 1,
+      "mediumPriority": 1,
+      "lowPriority": 2,
+      "topCategory": "Seguridad",
+      "topSource": "Stack Overflow Blog",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 1
+        },
+        {
+          "name": "Desarrollo",
+          "count": 1
+        },
+        {
+          "name": "Cultura de Desarrollo",
+          "count": 1
+        },
+        {
+          "name": "Herramientas para Desarrolladores",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "Stack Overflow Blog",
+          "count": 3
+        },
+        {
+          "name": "The Hacker News",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication",
+          "url": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una vulnerabilidad crítica en Splunk Enterprise (CVE-2026-20253) que permite a atacantes no autenticados realizar operaciones de archivo y ejecución remota de código. La puntuación CVSS es de 9.8.",
+          "whyItMatters": "Esta vulnerabilidad es extremadamente grave ya que permite a atacantes externos tomar control de sistemas sin necesidad de autenticación, lo que puede llevar a accesos no autorizados y compromiso total del sistema.",
+          "recommendedAction": "Actualizar inmediatamente Splunk Enterprise a las versiones 10.2.4 o 10.0.7 o superiores para mitigar el riesgo."
+        },
+        {
+          "title": "Announcing Stack Overflow for Agents",
+          "url": "https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents/",
+          "source": "Stack Overflow Blog",
+          "category": "Herramientas para Desarrolladores",
+          "priority": "medium",
+          "score": 5,
+          "summary": "Se anuncia la beta de Stack Overflow for Agents, una nueva herramienta diseñada para ayudar a los agentes de IA a encontrar respuestas en la plataforma de Stack Overflow.",
+          "whyItMatters": "La integración de IA en las herramientas de desarrollo es una tendencia creciente. Esta noticia es interesante para entender cómo las plataformas como Stack Overflow están adaptándose para soportar la asistencia basada en IA para desarrolladores.",
+          "recommendedAction": "Explorar esta herramienta si se trabaja con o se está interesado en agentes de IA para el desarrollo de software."
+        },
+        {
+          "title": "Designing CherryScript: Optimizing Data-Driven Workflows via Custom Python-Based Interpreters",
+          "url": "https://stackoverflow.blog/2026/06/12/designing-cherryscript-optimizing-data-driven-workflows-via-custom-python-based-interpreters/",
+          "source": "Stack Overflow Blog",
+          "category": "Desarrollo",
+          "priority": "low",
+          "score": 3,
+          "summary": "Este artículo explora el diseño de CherryScript, un intérprete personalizado basado en Python, para optimizar flujos de trabajo impulsados por datos.",
+          "whyItMatters": "Ofrece una perspectiva sobre cómo se pueden crear lenguajes de scripting personalizados para mejorar la eficiencia en flujos de trabajo de datos, lo cual puede ser de interés para desarrolladores que trabajan con sistemas complejos o buscan optimizar procesos.",
+          "recommendedAction": "Leer el artículo para entender los principios de diseño de lenguajes de scripting personalizados y su aplicación en flujos de datos."
+        }
+      ]
+    },
     {
       "date": "2026-06-13",
       "generatedAt": "2026-06-13T09:56:50.118Z",
