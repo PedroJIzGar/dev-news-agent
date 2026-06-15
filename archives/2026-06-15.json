@@ -1,0 +1,98 @@
+{
+  "date": "2026-06-15",
+  "generatedAt": "2026-06-15T13:15:18.989Z",
+  "totalArticles": 6,
+  "summary": {
+    "highPriority": 3,
+    "mediumPriority": 2,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 5
+      },
+      {
+        "name": "Java/Spring Boot",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 5
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw",
+      "url": "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Palo Alto Networks ha advertido sobre la explotación activa de una vulnerabilidad en PAN-OS, afectando al componente GlobalProtect VPN. Un actor de amenazas desconocido está utilizando esta falla (CVE-2026-0257) para obtener acceso no autorizado a los portales VPN.",
+      "whyItMatters": "Esta vulnerabilidad permite a los atacantes eludir la autenticación y acceder a sistemas internos. Para desarrolladores que trabajan con VPNs o gestionan infraestructuras que dependen de estas soluciones, es crucial estar al tanto de tales brechas para proteger sus propios sistemas.",
+      "recommendedAction": "Revisar inmediatamente si su organización utiliza GlobalProtect VPN y aplicar los parches de seguridad recomendados por Palo Alto Networks. Evaluar la configuración de seguridad y monitorizar los logs en busca de actividades sospechosas."
+    },
+    {
+      "title": "Popular WordPress Plugin Scripts Tampered to Plant Hidden Backdoors on Sites",
+      "url": "https://thehackernews.com/2026/06/popular-wordpress-plugin-scripts.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Se ha descubierto que scripts de plugins populares de WordPress, incluyendo PushEngage, OptinMonster y TrustPulse, han sido manipulados para instalar puertas traseras ocultas en sitios web. El código malicioso crea cuentas de administrador no autorizadas cuando un administrador del sitio está logueado.",
+      "whyItMatters": "Aunque el enfoque principal son sitios WordPress, la técnica de compromiso de scripts de terceros es una amenaza generalizada. Los desarrolladores deben ser conscientes de cómo la confianza en librerías o plugins externos puede ser explotada.",
+      "recommendedAction": "Mantener actualizados todos los plugins y temas de WordPress. Realizar auditorías de seguridad periódicas y considerar el uso de herramientas de análisis de código para detectar anomalías en los scripts, incluso en los de terceros."
+    },
+    {
+      "title": "Spring Tools 5.2.0 released",
+      "url": "https://spring.io/blog/2026/06/15/spring-tools-5-2-0-released",
+      "source": "Spring Blog",
+      "category": "Java/Spring Boot",
+      "priority": "high",
+      "score": 10,
+      "summary": "Se ha lanzado la versión 5.2.0 de Spring Tools, una actualización importante para el ecosistema de desarrollo de Spring.",
+      "whyItMatters": "Para los desarrolladores que usan Spring Boot, las nuevas versiones de las herramientas asociadas son cruciales para aprovechar las últimas características, mejoras de rendimiento y correcciones de seguridad. Mantenerse actualizado con estas herramientas facilita el desarrollo y la mantenibilidad de las aplicaciones.",
+      "recommendedAction": "Actualizar a la versión 5.2.0 de Spring Tools si se está trabajando con el ecosistema Spring. Revisar las notas de la versión para entender las nuevas funcionalidades y posibles cambios que afecten al desarrollo."
+    },
+    {
+      "title": "The Onboarding Password Mistake That Creates Unnecessary Risk",
+      "url": "https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Un error común durante el proceso de incorporación de nuevos empleados es el uso de contraseñas temporales iniciales que no se cambian o se comparten de forma insegura. Esto crea un riesgo de seguridad innecesario y puede facilitar accesos no autorizados.",
+      "whyItMatters": "La seguridad en la gestión de identidades y accesos es fundamental. Este artículo destaca un punto débil en el ciclo de vida del usuario que puede ser explotado. Como desarrolladores, a menudo somos responsables de implementar o integrar sistemas de autenticación.",
+      "recommendedAction": "Revisar las políticas y procedimientos de gestión de contraseñas en la incorporación de usuarios. Implementar mecanismos que fuercen el cambio de contraseñas iniciales y asegurar que se transmitan de forma segura. Considerar soluciones de gestión de identidades más robustas."
+    },
+    {
+      "title": "152 Chrome Wallpaper Extensions with 105K Installs Linked to Adware and Fake Traffic",
+      "url": "https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Investigadores han descubierto 152 extensiones de Chrome para fondos de pantalla que distribuyen software publicitario (adware) y generan tráfico falso. Estas extensiones, instaladas más de 105,000 veces, provienen de múltiples cuentas de editor y backends.",
+      "whyItMatters": "Este es un ejemplo de cómo extensiones aparentemente inofensivas pueden ser maliciosas. Los desarrolladores, especialmente los que trabajan con front-end o integran funcionalidades en el navegador, deben ser cautelosos con las dependencias y las herramientas que utilizan.",
+      "recommendedAction": "Ser extremadamente selectivo al instalar extensiones del navegador. Evaluar la reputación del desarrollador y los permisos solicitados. Informar sobre extensiones sospechosas si se detectan."
+    },
+    {
+      "title": "Sniper Dz Scams Target MENA Users via Fake Facebook Offers and Browser Alerts",
+      "url": "https://thehackernews.com/2026/06/sniper-dz-scams-target-mena-users-via.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 4,
+      "summary": "Investigadores han expuesto estafas denominadas 'Sniper Dz' dirigidas a usuarios en Oriente Medio y Norte de África. Utilizan perfiles falsos de Facebook y alertas del navegador para promocionar ofertas fraudulentas, como internet móvil gratuito o subsidios gubernamentales.",
+      "whyItMatters": "Aunque la geografía y el método son específicos, la táctica de ingeniería social a través de ofertas falsas y alertas de navegador es una técnica común. Es un recordatorio de la importancia de la educación del usuario y de no hacer clic en enlaces o aceptar ofertas sospechosas.",
+      "recommendedAction": "Educarse y educar a otros sobre las tácticas de phishing y estafas en línea. Ser escéptico ante ofertas demasiado buenas para ser verdad y verificar la autenticidad de las fuentes antes de interactuar o proporcionar información."
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-06-14T10:25:22.044Z",
+  "generatedAt": "2026-06-15T13:15:18.999Z",
   "availableDates": [
+    "2026-06-15",
     "2026-06-14",
     "2026-06-13",
     "2026-06-12",
@@ -17,24 +18,24 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 14,
-    "totalArticles": 157,
-    "highPriority": 73,
-    "mediumPriority": 69,
-    "lowPriority": 15,
+    "totalReports": 15,
+    "totalArticles": 163,
+    "highPriority": 76,
+    "mediumPriority": 71,
+    "lowPriority": 16,
     "averageArticlesPerReport": 11,
-    "latestReportDate": "2026-06-14",
-    "dominantCategory": "Seguridad",
+    "latestReportDate": "2026-06-15",
+    "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-10",
     "topCategories": [
       {
-        "name": "Seguridad",
-        "count": 46
+        "name": "Security",
+        "count": 49
       },
       {
-        "name": "Security",
-        "count": 44
+        "name": "Seguridad",
+        "count": 46
       },
       {
         "name": "AI",
@@ -46,13 +47,13 @@
       },
       {
         "name": "Java/Spring Boot",
-        "count": 4
+        "count": 5
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 91
+        "count": 96
       },
       {
         "name": "Stack Overflow Blog",
@@ -60,7 +61,7 @@
       },
       {
         "name": "Spring Blog",
-        "count": 19
+        "count": 20
       },
       {
         "name": "GitHub Blog",
@@ -73,12 +74,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-08",
-      "high": 1,
-      "medium": 2,
-      "low": 0
-    },
     {
       "date": "2026-06-09",
       "high": 5,
@@ -114,9 +109,80 @@
       "high": 1,
       "medium": 1,
       "low": 2
+    },
+    {
+      "date": "2026-06-15",
+      "high": 3,
+      "medium": 2,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-15",
+      "generatedAt": "2026-06-15T13:15:18.989Z",
+      "totalArticles": 6,
+      "highPriority": 3,
+      "mediumPriority": 2,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 5
+        },
+        {
+          "name": "Java/Spring Boot",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 5
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Spring Tools 5.2.0 released",
+          "url": "https://spring.io/blog/2026/06/15/spring-tools-5-2-0-released",
+          "source": "Spring Blog",
+          "category": "Java/Spring Boot",
+          "priority": "high",
+          "score": 10,
+          "summary": "Se ha lanzado la versión 5.2.0 de Spring Tools, una actualización importante para el ecosistema de desarrollo de Spring.",
+          "whyItMatters": "Para los desarrolladores que usan Spring Boot, las nuevas versiones de las herramientas asociadas son cruciales para aprovechar las últimas características, mejoras de rendimiento y correcciones de seguridad. Mantenerse actualizado con estas herramientas facilita el desarrollo y la mantenibilidad de las aplicaciones.",
+          "recommendedAction": "Actualizar a la versión 5.2.0 de Spring Tools si se está trabajando con el ecosistema Spring. Revisar las notas de la versión para entender las nuevas funcionalidades y posibles cambios que afecten al desarrollo."
+        },
+        {
+          "title": "Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw",
+          "url": "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Palo Alto Networks ha advertido sobre la explotación activa de una vulnerabilidad en PAN-OS, afectando al componente GlobalProtect VPN. Un actor de amenazas desconocido está utilizando esta falla (CVE-2026-0257) para obtener acceso no autorizado a los portales VPN.",
+          "whyItMatters": "Esta vulnerabilidad permite a los atacantes eludir la autenticación y acceder a sistemas internos. Para desarrolladores que trabajan con VPNs o gestionan infraestructuras que dependen de estas soluciones, es crucial estar al tanto de tales brechas para proteger sus propios sistemas.",
+          "recommendedAction": "Revisar inmediatamente si su organización utiliza GlobalProtect VPN y aplicar los parches de seguridad recomendados por Palo Alto Networks. Evaluar la configuración de seguridad y monitorizar los logs en busca de actividades sospechosas."
+        },
+        {
+          "title": "The Onboarding Password Mistake That Creates Unnecessary Risk",
+          "url": "https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un error común durante el proceso de incorporación de nuevos empleados es el uso de contraseñas temporales iniciales que no se cambian o se comparten de forma insegura. Esto crea un riesgo de seguridad innecesario y puede facilitar accesos no autorizados.",
+          "whyItMatters": "La seguridad en la gestión de identidades y accesos es fundamental. Este artículo destaca un punto débil en el ciclo de vida del usuario que puede ser explotado. Como desarrolladores, a menudo somos responsables de implementar o integrar sistemas de autenticación.",
+          "recommendedAction": "Revisar las políticas y procedimientos de gestión de contraseñas en la incorporación de usuarios. Implementar mecanismos que fuercen el cambio de contraseñas iniciales y asegurar que se transmitan de forma segura. Considerar soluciones de gestión de identidades más robustas."
+        }
+      ]
+    },
     {
       "date": "2026-06-14",
       "generatedAt": "2026-06-14T10:25:22.032Z",
