@@ -1,0 +1,228 @@
+{
+  "date": "2026-06-16",
+  "generatedAt": "2026-06-16T12:12:34.399Z",
+  "totalArticles": 16,
+  "summary": {
+    "highPriority": 6,
+    "mediumPriority": 5,
+    "lowPriority": 5,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 8
+      },
+      {
+        "name": "Java/Spring Boot",
+        "count": 2
+      },
+      {
+        "name": "Security/AI",
+        "count": 2
+      },
+      {
+        "name": "AI for Developers/GitHub",
+        "count": 1
+      },
+      {
+        "name": "AI for Developers/Security",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 11
+      },
+      {
+        "name": "Spring Blog",
+        "count": 2
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 2
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Tool Calling in Spring AI 2.0: A Composable, Agentic Architecture",
+      "url": "https://spring.io/blog/2026/06/15/spring-ai-composable-tool-calling",
+      "source": "Spring Blog",
+      "category": "Java/Spring Boot",
+      "priority": "high",
+      "score": 10,
+      "summary": "Spring AI 2.0 introduce la funcionalidad de \"Tool Calling\", permitiendo arquitecturas composables y agentivas para aplicaciones de IA. Facilita la integración de modelos de lenguaje grandes (LLMs) con herramientas externas, permitiendo a los desarrolladores construir agentes más sofisticados y capaces.",
+      "whyItMatters": "Esta actualización es crucial para los desarrolladores de Spring Boot que trabajan con IA. Permite crear aplicaciones más inteligentes y automatizadas al darles la capacidad de interactuar con el mundo exterior a través de herramientas y APIs, mejorando significativamente las capacidades de las aplicaciones basadas en IA.",
+      "recommendedAction": "Explorar la documentación de Spring AI 2.0 sobre Tool Calling y experimentar con ejemplos prácticos para integrar esta funcionalidad en tus proyectos."
+    },
+    {
+      "title": "GitHub Copilot CLI for Beginners: Overview of common slash commands",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/",
+      "source": "GitHub Blog",
+      "category": "AI for Developers/GitHub",
+      "priority": "high",
+      "score": 9,
+      "summary": "Este artículo ofrece una introducción a los comandos de barra diagonal (slash commands) de GitHub Copilot CLI, una herramienta que integra la inteligencia artificial directamente en tu terminal. Aprende a usar estos comandos para interactuar con tu agente de IA y mejorar tu flujo de trabajo de desarrollo.",
+      "whyItMatters": "GitHub Copilot CLI es una herramienta poderosa para mejorar la productividad. Conocer sus comandos básicos te permite aprovechar la IA para tareas comunes de desarrollo directamente desde la línea de comandos, lo cual es muy útil para desarrolladores que usan GitHub y buscan optimizar su tiempo.",
+      "recommendedAction": "Instalar y probar GitHub Copilot CLI. Familiarízate con los comandos de barra diagonal mencionados en el artículo para empezar a usar IA en tus tareas de terminal."
+    },
+    {
+      "title": "LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers",
+      "url": "https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html",
+      "source": "The Hacker News",
+      "category": "Security/AI",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se han descubierto tres vulnerabilidades encadenadas en LiteLLM, un popular gateway de IA de código abierto, que permiten a usuarios con bajos privilegios escalar a control total del servidor. Esto expone las claves de los proveedores de modelos de IA que el gateway maneja.",
+      "whyItMatters": "Dado que LiteLLM es ampliamente utilizado para conectar a múltiples proveedores de modelos de IA, esta vulnerabilidad representa un riesgo de seguridad significativo. Los desarrolladores que utilizan o integran LiteLLM en sus sistemas deben ser conscientes de esta falla para proteger sus aplicaciones y datos sensibles.",
+      "recommendedAction": "Actualizar inmediatamente LiteLLM a la última versión parcheada y revisar la configuración de permisos de los usuarios para mitigar el riesgo de escalada de privilegios."
+    },
+    {
+      "title": "Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week",
+      "url": "https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Actualmente se están explotando tres vulnerabilidades en Fortinet FortiSandbox, una de las cuales fue parcheada recientemente. Las fallas incluyen traversal de directorios y otras debilidades críticas que podrían ser utilizadas por atacantes.",
+      "whyItMatters": "Las vulnerabilidades en dispositivos de seguridad como FortiSandbox son de alta prioridad. Su explotación puede llevar a accesos no autorizados, robo de datos y compromiso de la red. Es vital para los equipos de seguridad y administración de sistemas estar al tanto y aplicar los parches correspondientes.",
+      "recommendedAction": "Verificar si se utilizan productos Fortinet FortiSandbox y aplicar las actualizaciones de seguridad más recientes de Fortinet para mitigar las vulnerabilidades explotadas."
+    },
+    {
+      "title": "CISA Flags LiteSpeed cPanel Plugin Flaw Exploited for Root Privilege Escalation",
+      "url": "https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "La CISA ha añadido una vulnerabilidad crítica en el plugin LiteSpeed para cPanel a su catálogo de Vulnerabilidades Explotadas Conocidas. Esta falla permite la escalada de privilegios a nivel de root, y las agencias federales deben aplicar los parches antes de una fecha límite.",
+      "whyItMatters": "Esta vulnerabilidad es particularmente preocupante ya que afecta a un componente común en servidores web (cPanel) y permite a un atacante obtener control total del sistema. La inclusión en la lista KEV de CISA indica que ya está siendo explotada activamente en el mundo real.",
+      "recommendedAction": "Asegurarse de que los servidores que utilizan cPanel con el plugin LiteSpeed estén actualizados con los últimos parches de seguridad para prevenir la escalada de privilegios."
+    },
+    {
+      "title": "AI agents expose the security checks you never actually wrote​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌‍​﻿​‍‌‍​‌‌‍​‌‌‍​‍​﻿​‌​﻿‌‌‌‍​‌​‍﻿‌​﻿​​​﻿​‌​﻿‌‌‌‍​‌​‍﻿‌​﻿‌​‌‍​‍‌‍‌‍​﻿​‍​‍﻿‌​﻿‍​‌‍​‍​﻿​﻿‌‍‌‌​‍﻿‌‌‍​‍​﻿‍‌​﻿‌​‌‍​﻿‌‍​﻿​﻿​﻿​﻿‌‌​﻿‌‍​﻿‍‌​﻿‌﻿​﻿‌﻿​﻿​​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/06/15/ai-agents-expose-the-security-checks-you-never-actually-wrote/",
+      "source": "Stack Overflow Blog",
+      "category": "AI for Developers/Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Este artículo expone cómo los agentes de IA pueden ser utilizados para eludir controles de seguridad, citando el ejemplo de cómo atacantes comprometieron miles de cuentas de Instagram al interactuar con los sistemas de IA de Meta. Señala que este tipo de fallas se volverán comunes.",
+      "whyItMatters": "Con la creciente adopción de IA, es fundamental entender las nuevas vectores de ataque. Este artículo resalta la importancia de revisar y fortalecer los controles de seguridad, especialmente aquellos que interactúan con sistemas de IA, para prevenir abusos y proteger los datos.",
+      "recommendedAction": "Evaluar los controles de seguridad en tus aplicaciones, especialmente aquellas que integran IA o interactúan con sistemas externos, y considerar la posibilidad de pruebas de penetración enfocadas en la elusión de estos controles."
+    },
+    {
+      "title": "North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels",
+      "url": "https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html",
+      "source": "The Hacker News",
+      "category": "Security/Dev Tools",
+      "priority": "medium",
+      "score": 8,
+      "summary": "Se ha observado a hackers norcoreanos utilizando temas relacionados con el reclutamiento de desarrolladores y revisiones de código en campañas de phishing para distribuir malware. Esto indica un uso sofisticado de la ingeniería social dirigida a profesionales de la tecnología.",
+      "whyItMatters": "Los desarrolladores son a menudo un objetivo valioso. Ser consciente de que las herramientas y procesos de desarrollo pueden ser utilizados como vectores de ataque es crucial para mantener la seguridad. Prestar atención a los correos electrónicos de phishing, incluso si parecen relacionados con el trabajo.",
+      "recommendedAction": "Educarse y educar al equipo sobre las últimas tácticas de phishing dirigidas a desarrolladores. Ser escéptico ante solicitudes inesperadas o inusuales relacionadas con el desarrollo o revisión de código."
+    },
+    {
+      "title": "Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware",
+      "url": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 8,
+      "summary": "Un grupo de hackers norcoreanos (ScarCruft) está utilizando correos electrónicos de phishing que imitan alertas de seguridad de cuentas de Microsoft para distribuir el malware NarwhalRAT. Estos correos buscan generar preocupación en el usuario para que ejecute archivos maliciosos.",
+      "whyItMatters": "La suplantación de identidades de compañías tecnológicas como Microsoft es una táctica común de phishing. Reconocer estas falsas alertas es vital para evitar la instalación de malware y proteger la información sensible.",
+      "recommendedAction": "Ser extremadamente cauto con las alertas de seguridad, especialmente aquellas recibidas por correo electrónico. Verificar la autenticidad de los remitentes y no hacer clic en enlaces ni descargar archivos adjuntos sospechosos."
+    },
+    {
+      "title": "One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes",
+      "url": "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
+      "source": "The Hacker News",
+      "category": "Security/AI",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Se descubrió una cadena de tres vulnerabilidades en Microsoft 365 Copilot Enterprise Search que permitía a un atacante, con un solo clic en un enlace legítimo de Microsoft, exfiltrar correos electrónicos, detalles de calendario y archivos indexados. Incluso podría haber comprometido códigos MFA.",
+      "whyItMatters": "Esta vulnerabilidad, aunque corregida, demuestra el riesgo potencial incluso en características de IA integradas en plataformas populares. La facilidad de explotación (un solo clic) y el impacto (acceso a datos sensibles y códigos MFA) la hacen notable.",
+      "recommendedAction": "Asegurarse de que los entornos de Microsoft 365 y Copilot estén actualizados. Mantenerse informado sobre las notificaciones de seguridad de Microsoft y seguir las mejores prácticas para la autenticación multifactor (MFA)."
+    },
+    {
+      "title": "Accelerating researchers and developers building multilingual AI with a new open dataset",
+      "url": "https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset/",
+      "source": "GitHub Blog",
+      "category": "AI for Developers/Open Source",
+      "priority": "medium",
+      "score": 7,
+      "summary": "GitHub ha publicado un nuevo conjunto de datos abierto (bajo licencia CC0-1.0) diseñado para ayudar a investigadores y desarrolladores a construir modelos de IA multilingües. El dataset facilita el descubrimiento de contenido relevante para desarrolladores en múltiples idiomas.",
+      "whyItMatters": "La IA multilingüe es un campo en crecimiento. Tener acceso a datasets abiertos y bien estructurados acelera la investigación y el desarrollo, permitiendo la creación de herramientas y modelos de IA más inclusivos y accesibles a nivel global.",
+      "recommendedAction": "Explorar el nuevo conjunto de datos publicado por GitHub si estás trabajando en proyectos de IA multilingüe o te interesa el procesamiento del lenguaje natural en diferentes idiomas."
+    },
+    {
+      "title": "This Week in Spring - June 16th, 2026",
+      "url": "https://spring.io/blog/2026/06/16/this-week-in-spring-june-16-2026",
+      "source": "Spring Blog",
+      "category": "Java/Spring Boot",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Un resumen semanal de las últimas noticias, actualizaciones y desarrollos en el ecosistema de Spring. Cubre varios proyectos y componentes dentro del framework.",
+      "whyItMatters": "Mantenerse al día con las novedades de Spring es importante para los desarrolladores que utilizan este framework. Permite conocer las nuevas características, mejoras y posibles cambios que podrían afectar o beneficiar tu trabajo.",
+      "recommendedAction": "Revisar el resumen semanal de 'This Week in Spring' para estar al tanto de las últimas tendencias y actualizaciones del ecosistema Spring."
+    },
+    {
+      "title": "Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Flaw",
+      "url": "https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 5,
+      "summary": "Cisco ha lanzado actualizaciones de seguridad para una vulnerabilidad de gravedad media en su software Catalyst SD-WAN Manager, la cual está siendo explotada activamente. La falla (CVE-2026-20262) permite a un atacante remoto autenticado crear archivos.",
+      "whyItMatters": "Aunque esta vulnerabilidad es de gravedad media y requiere autenticación, su explotación activa la convierte en un riesgo. Los administradores de redes que utilizan soluciones SD-WAN de Cisco deben estar al tanto y aplicar los parches.",
+      "recommendedAction": "Verificar el uso de Cisco Catalyst SD-WAN Manager y aplicar las actualizaciones de seguridad correspondientes si tu infraestructura lo requiere."
+    },
+    {
+      "title": "China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth",
+      "url": "https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 4,
+      "summary": "Se han descubierto variantes para Windows de un backdoor previamente conocido como Linux-only, llamado SprySOCKS, asociado a actores de amenazas vinculados a China. Estas variantes utilizan técnicas de sigilo basadas en drivers.",
+      "whyItMatters": "La expansión de backdoors conocidos a nuevas plataformas es una tendencia preocupante en el ciberespacio. Aunque el impacto directo en desarrolladores individuales puede ser limitado, es un recordatorio de las amenazas persistentes y la evolución de las tácticas de los atacantes.",
+      "recommendedAction": "Mantener actualizados los sistemas operativos y el software antivirus. Estar atento a las alertas de seguridad sobre nuevas variantes de malware y actores de amenazas."
+    },
+    {
+      "title": "Chinese Hackers Abused Google Workspace Rules to Steal Research and Defense Emails",
+      "url": "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 4,
+      "summary": "Un grupo de espionaje vinculado a China comprometió redes de investigación y defensa en Norteamérica durante más de un año, robando correos electrónicos sensibles. Utilizaron un backdoor para robar credenciales y luego reconfiguraron las reglas de Google Workspace de las víctimas para exfiltrar mensajes.",
+      "whyItMatters": "Este incidente destaca cómo los atacantes pueden abusar de funcionalidades legítimas de servicios en la nube (como las reglas de Google Workspace) para llevar a cabo sus operaciones maliciosas. Subraya la importancia de monitorizar la configuración y el uso de servicios cloud.",
+      "recommendedAction": "Revisar periódicamente las configuraciones de seguridad y las reglas de automatización en plataformas como Google Workspace. Implementar monitorización para detectar actividades anómalas."
+    },
+    {
+      "title": "⚡ Weekly Recap: Chrome 0-Day, UniFi Exploits, macOS Stealers, VPN Flaw and More",
+      "url": "https://thehackernews.com/2026/06/weekly-recap-chrome-0-day-unifi.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 3,
+      "summary": "Un resumen semanal de vulnerabilidades y amenazas de seguridad, incluyendo un 0-day en Chrome, exploits en UniFi, malware para macOS, fallas en VPNs, y cómo los kits de phishing y la IA se usan como cebo.",
+      "whyItMatters": "Aunque este resumen cubre una variedad de temas, proporciona una visión general rápida de las amenazas de seguridad más recientes. Puede ser útil para tener una idea general del panorama de amenazas, pero los detalles específicos son limitados.",
+      "recommendedAction": "Utilizar este tipo de resúmenes para identificar áreas de interés y buscar información más detallada sobre las amenazas que puedan afectar tu entorno."
+    },
+    {
+      "title": "⚡ Weekly Recap: Chrome 0-Day, UniFi Exploits, macOS Stealers, VPN Flaw and More",
+      "url": "https://thehackernews.com/2026/06/weekly-recap-chrome-0-day-unifi.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 3,
+      "summary": "Un resumen semanal de vulnerabilidades y amenazas de seguridad, incluyendo un 0-day en Chrome, exploits en UniFi, malware para macOS, fallas en VPNs, y cómo los kits de phishing y la IA se usan como cebo.",
+      "whyItMatters": "Aunque este resumen cubre una variedad de temas, proporciona una visión general rápida de las amenazas de seguridad más recientes. Puede ser útil para tener una idea general del panorama de amenazas, pero los detalles específicos son limitados.",
+      "recommendedAction": "Utilizar este tipo de resúmenes para identificar áreas de interés y buscar información más detallada sobre las amenazas que puedan afectar tu entorno."
+    }
+  ]
+}

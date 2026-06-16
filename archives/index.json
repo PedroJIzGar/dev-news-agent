@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-06-15T13:15:18.999Z",
+  "generatedAt": "2026-06-16T12:12:34.413Z",
   "availableDates": [
+    "2026-06-16",
     "2026-06-15",
     "2026-06-14",
     "2026-06-13",
@@ -18,20 +19,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 15,
-    "totalArticles": 163,
-    "highPriority": 76,
-    "mediumPriority": 71,
-    "lowPriority": 16,
+    "totalReports": 16,
+    "totalArticles": 179,
+    "highPriority": 82,
+    "mediumPriority": 76,
+    "lowPriority": 21,
     "averageArticlesPerReport": 11,
-    "latestReportDate": "2026-06-15",
+    "latestReportDate": "2026-06-16",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-10",
     "topCategories": [
       {
         "name": "Security",
-        "count": 49
+        "count": 57
       },
       {
         "name": "Seguridad",
@@ -47,25 +48,25 @@
       },
       {
         "name": "Java/Spring Boot",
-        "count": 5
+        "count": 7
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 96
+        "count": 107
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 33
+        "count": 34
       },
       {
         "name": "Spring Blog",
-        "count": 20
+        "count": 22
       },
       {
         "name": "GitHub Blog",
-        "count": 7
+        "count": 9
       },
       {
         "name": "Krebs on Security",
@@ -74,12 +75,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-09",
-      "high": 5,
-      "medium": 8,
-      "low": 0
-    },
     {
       "date": "2026-06-10",
       "high": 9,
@@ -115,9 +110,100 @@
       "high": 3,
       "medium": 2,
       "low": 1
+    },
+    {
+      "date": "2026-06-16",
+      "high": 6,
+      "medium": 5,
+      "low": 5
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-16",
+      "generatedAt": "2026-06-16T12:12:34.399Z",
+      "totalArticles": 16,
+      "highPriority": 6,
+      "mediumPriority": 5,
+      "lowPriority": 5,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 8
+        },
+        {
+          "name": "Java/Spring Boot",
+          "count": 2
+        },
+        {
+          "name": "Security/AI",
+          "count": 2
+        },
+        {
+          "name": "AI for Developers/GitHub",
+          "count": 1
+        },
+        {
+          "name": "AI for Developers/Security",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 11
+        },
+        {
+          "name": "Spring Blog",
+          "count": 2
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 2
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Tool Calling in Spring AI 2.0: A Composable, Agentic Architecture",
+          "url": "https://spring.io/blog/2026/06/15/spring-ai-composable-tool-calling",
+          "source": "Spring Blog",
+          "category": "Java/Spring Boot",
+          "priority": "high",
+          "score": 10,
+          "summary": "Spring AI 2.0 introduce la funcionalidad de \"Tool Calling\", permitiendo arquitecturas composables y agentivas para aplicaciones de IA. Facilita la integración de modelos de lenguaje grandes (LLMs) con herramientas externas, permitiendo a los desarrolladores construir agentes más sofisticados y capaces.",
+          "whyItMatters": "Esta actualización es crucial para los desarrolladores de Spring Boot que trabajan con IA. Permite crear aplicaciones más inteligentes y automatizadas al darles la capacidad de interactuar con el mundo exterior a través de herramientas y APIs, mejorando significativamente las capacidades de las aplicaciones basadas en IA.",
+          "recommendedAction": "Explorar la documentación de Spring AI 2.0 sobre Tool Calling y experimentar con ejemplos prácticos para integrar esta funcionalidad en tus proyectos."
+        },
+        {
+          "title": "GitHub Copilot CLI for Beginners: Overview of common slash commands",
+          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/",
+          "source": "GitHub Blog",
+          "category": "AI for Developers/GitHub",
+          "priority": "high",
+          "score": 9,
+          "summary": "Este artículo ofrece una introducción a los comandos de barra diagonal (slash commands) de GitHub Copilot CLI, una herramienta que integra la inteligencia artificial directamente en tu terminal. Aprende a usar estos comandos para interactuar con tu agente de IA y mejorar tu flujo de trabajo de desarrollo.",
+          "whyItMatters": "GitHub Copilot CLI es una herramienta poderosa para mejorar la productividad. Conocer sus comandos básicos te permite aprovechar la IA para tareas comunes de desarrollo directamente desde la línea de comandos, lo cual es muy útil para desarrolladores que usan GitHub y buscan optimizar su tiempo.",
+          "recommendedAction": "Instalar y probar GitHub Copilot CLI. Familiarízate con los comandos de barra diagonal mencionados en el artículo para empezar a usar IA en tus tareas de terminal."
+        },
+        {
+          "title": "LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers",
+          "url": "https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html",
+          "source": "The Hacker News",
+          "category": "Security/AI",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se han descubierto tres vulnerabilidades encadenadas en LiteLLM, un popular gateway de IA de código abierto, que permiten a usuarios con bajos privilegios escalar a control total del servidor. Esto expone las claves de los proveedores de modelos de IA que el gateway maneja.",
+          "whyItMatters": "Dado que LiteLLM es ampliamente utilizado para conectar a múltiples proveedores de modelos de IA, esta vulnerabilidad representa un riesgo de seguridad significativo. Los desarrolladores que utilizan o integran LiteLLM en sus sistemas deben ser conscientes de esta falla para proteger sus aplicaciones y datos sensibles.",
+          "recommendedAction": "Actualizar inmediatamente LiteLLM a la última versión parcheada y revisar la configuración de permisos de los usuarios para mitigar el riesgo de escalada de privilegios."
+        }
+      ]
+    },
     {
       "date": "2026-06-15",
       "generatedAt": "2026-06-15T13:15:18.989Z",
