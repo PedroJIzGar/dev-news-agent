@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-06-16T12:12:34.413Z",
+  "generatedAt": "2026-06-17T11:49:06.045Z",
   "availableDates": [
+    "2026-06-17",
     "2026-06-16",
     "2026-06-15",
     "2026-06-14",
@@ -19,20 +20,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 16,
-    "totalArticles": 179,
-    "highPriority": 82,
-    "mediumPriority": 76,
-    "lowPriority": 21,
+    "totalReports": 17,
+    "totalArticles": 190,
+    "highPriority": 87,
+    "mediumPriority": 81,
+    "lowPriority": 22,
     "averageArticlesPerReport": 11,
-    "latestReportDate": "2026-06-16",
+    "latestReportDate": "2026-06-17",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-10",
     "topCategories": [
       {
         "name": "Security",
-        "count": 57
+        "count": 65
       },
       {
         "name": "Seguridad",
@@ -54,11 +55,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 107
+        "count": 115
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 34
+        "count": 36
       },
       {
         "name": "Spring Blog",
@@ -66,7 +67,7 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 9
+        "count": 10
       },
       {
         "name": "Krebs on Security",
@@ -75,12 +76,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-10",
-      "high": 9,
-      "medium": 5,
-      "low": 1
-    },
     {
       "date": "2026-06-11",
       "high": 7,
@@ -116,9 +111,88 @@
       "high": 6,
       "medium": 5,
       "low": 5
+    },
+    {
+      "date": "2026-06-17",
+      "high": 5,
+      "medium": 5,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-17",
+      "generatedAt": "2026-06-17T11:49:06.037Z",
+      "totalArticles": 11,
+      "highPriority": 5,
+      "mediumPriority": 5,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 8
+        },
+        {
+          "name": "Dev Tools",
+          "count": 2
+        },
+        {
+          "name": "AI for Developers",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 8
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 2
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats",
+          "url": "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Se ha descubierto una campaña de malware coordinada en el JetBrains Marketplace que incluye 15 plugins maliciosos diseñados para robar claves API de proveedores de IA, mientras que extensiones de Chrome capturan conversaciones de chatbots.",
+          "whyItMatters": "Este ataque dirigido a herramientas de desarrollo y a claves de API de IA representa una amenaza directa para la seguridad de los desarrolladores y sus aplicaciones. El robo de credenciales de IA puede tener consecuencias graves.",
+          "recommendedAction": "Ser extremadamente cauteloso con los plugins de IDE y las extensiones de navegador, especialmente aquellos que solicitan acceso a claves API o datos sensibles. Auditar regularmente los plugins instalados y las configuraciones de seguridad."
+        },
+        {
+          "title": "144 Mastra npm Packages Compromised via Hijacked Contributor Account",
+          "url": "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se han visto comprometidos hasta 144 paquetes npm del espacio de nombres Mastra, un popular framework de código abierto para aplicaciones de IA, como parte de un ataque a la cadena de suministro de software.",
+          "whyItMatters": "Este incidente subraya los riesgos de seguridad en la cadena de suministro de software, afectando a paquetes utilizados para desarrollo de IA. Es crucial estar al tanto de estas vulnerabilidades para proteger las aplicaciones.",
+          "recommendedAction": "Revisar la seguridad de las dependencias de npm utilizadas en tus proyectos, especialmente aquellas relacionadas con IA o frameworks populares. Mantener las herramientas de seguridad actualizadas y considerar auditorías de seguridad regulares."
+        },
+        {
+          "title": "Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting",
+          "url": "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una vulnerabilidad en el SDK de Google Cloud Vertex AI para Python permitía a atacantes secuestrar subidas de modelos de aprendizaje automático y ejecutar código en la infraestructura de Google.",
+          "whyItMatters": "Los desarrolladores que trabajan con IA y servicios en la nube deben ser conscientes de las vulnerabilidades en SDKs y APIs. Esta falla específica en Vertex AI destaca los riesgos de seguridad al interactuar con servicios de ML en la nube.",
+          "recommendedAction": "Revisar las configuraciones de seguridad y las prácticas de desarrollo al usar SDKs de servicios en la nube, especialmente aquellos relacionados con IA. Mantener actualizadas las librerías y seguir las mejores prácticas de seguridad de los proveedores."
+        }
+      ]
+    },
     {
       "date": "2026-06-16",
       "generatedAt": "2026-06-16T12:12:34.399Z",

@@ -1,0 +1,161 @@
+{
+  "date": "2026-06-17",
+  "generatedAt": "2026-06-17T11:49:06.037Z",
+  "totalArticles": 11,
+  "summary": {
+    "highPriority": 5,
+    "mediumPriority": 5,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 8
+      },
+      {
+        "name": "Dev Tools",
+        "count": 2
+      },
+      {
+        "name": "AI for Developers",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 8
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "count": 2
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "144 Mastra npm Packages Compromised via Hijacked Contributor Account",
+      "url": "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se han visto comprometidos hasta 144 paquetes npm del espacio de nombres Mastra, un popular framework de código abierto para aplicaciones de IA, como parte de un ataque a la cadena de suministro de software.",
+      "whyItMatters": "Este incidente subraya los riesgos de seguridad en la cadena de suministro de software, afectando a paquetes utilizados para desarrollo de IA. Es crucial estar al tanto de estas vulnerabilidades para proteger las aplicaciones.",
+      "recommendedAction": "Revisar la seguridad de las dependencias de npm utilizadas en tus proyectos, especialmente aquellas relacionadas con IA o frameworks populares. Mantener las herramientas de seguridad actualizadas y considerar auditorías de seguridad regulares."
+    },
+    {
+      "title": "Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats",
+      "url": "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 10,
+      "summary": "Se ha descubierto una campaña de malware coordinada en el JetBrains Marketplace que incluye 15 plugins maliciosos diseñados para robar claves API de proveedores de IA, mientras que extensiones de Chrome capturan conversaciones de chatbots.",
+      "whyItMatters": "Este ataque dirigido a herramientas de desarrollo y a claves de API de IA representa una amenaza directa para la seguridad de los desarrolladores y sus aplicaciones. El robo de credenciales de IA puede tener consecuencias graves.",
+      "recommendedAction": "Ser extremadamente cauteloso con los plugins de IDE y las extensiones de navegador, especialmente aquellos que solicitan acceso a claves API o datos sensibles. Auditar regularmente los plugins instalados y las configuraciones de seguridad."
+    },
+    {
+      "title": "CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution",
+      "url": "https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 7,
+      "summary": "La CISA ha añadido una vulnerabilidad crítica en el editor de contenido Joomla JCE (CVE-2026-48907) a su catálogo de vulnerabilidades explotadas activamente, permitiendo la ejecución de código PHP.",
+      "whyItMatters": "Aunque no está directamente en tu stack principal, esta vulnerabilidad de alta severidad y explotación activa en un CMS popular como Joomla es un recordatorio importante sobre la gestión de vulnerabilidades en cualquier sistema expuesto a internet.",
+      "recommendedAction": "Mantenerse informado sobre las vulnerabilidades críticas publicadas por agencias como CISA y asegurar que los sistemas web, incluyendo CMS, estén actualizados y parcheados."
+    },
+    {
+      "title": "Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting",
+      "url": "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una vulnerabilidad en el SDK de Google Cloud Vertex AI para Python permitía a atacantes secuestrar subidas de modelos de aprendizaje automático y ejecutar código en la infraestructura de Google.",
+      "whyItMatters": "Los desarrolladores que trabajan con IA y servicios en la nube deben ser conscientes de las vulnerabilidades en SDKs y APIs. Esta falla específica en Vertex AI destaca los riesgos de seguridad al interactuar con servicios de ML en la nube.",
+      "recommendedAction": "Revisar las configuraciones de seguridad y las prácticas de desarrollo al usar SDKs de servicios en la nube, especialmente aquellos relacionados con IA. Mantener actualizadas las librerías y seguir las mejores prácticas de seguridad de los proveedores."
+    },
+    {
+      "title": "ClickFix Campaigns Expand Malware Delivery With New Loaders and Fake Update Lures",
+      "url": "https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Se han identificado campañas de ClickFix que utilizan nuevos 'loaders' de malware y señuelos de actualizaciones falsas para distribuir software malicioso, afectando a organizaciones de educación y finanzas.",
+      "whyItMatters": "Estas campañas demuestran las tácticas continuas para engañar a los usuarios e infiltrarse en sistemas, a menudo a través de supuestas actualizaciones o software. Es importante estar alerta ante estas amenazas.",
+      "recommendedAction": "Educarse y concienciar a los equipos sobre técnicas de ingeniería social, como las actualizaciones falsas. Implementar medidas de seguridad en los endpoints y verificar siempre la autenticidad de las actualizaciones de software."
+    },
+    {
+      "title": "What are git worktrees, and why should I use them?",
+      "url": "https://github.blog/ai-and-ml/github-copilot/what-are-git-worktrees-and-why-should-i-use-them/",
+      "source": "GitHub Blog",
+      "category": "Dev Tools",
+      "priority": "medium",
+      "score": 8,
+      "summary": "Este artículo explica qué son los 'git worktrees', una característica de Git que permite tener múltiples ramas de trabajoCheckout simultáneamente, y por qué pueden ser útiles para los desarrolladores.",
+      "whyItMatters": "Los 'git worktrees' pueden mejorar significativamente la eficiencia al permitir trabajar en varias tareas o ramas sin necesidad de hacer 'commit' o 'stash' constantemente. Es una herramienta valiosa para la gestión del flujo de trabajo con Git.",
+      "recommendedAction": "Explorar la documentación sobre 'git worktrees' y experimentar con su uso para gestionar proyectos con múltiples ramas o tareas concurrentes. Considerar integrarlos en tu flujo de trabajo diario si manejas proyectos complejos."
+    },
+    {
+      "title": "The Top 10 Attack Surface Exposures in 2026",
+      "url": "https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "El artículo detalla las 10 principales exposiciones de la superficie de ataque en 2026, enfatizando que muchas brechas no provienen de vulnerabilidades zero-day, sino de configuraciones expuestas o credenciales reutilizadas.",
+      "whyItMatters": "Comprender y mitigar las exposiciones de la superficie de ataque es fundamental para la seguridad. Este artículo ofrece una visión de las amenazas comunes que los desarrolladores deben considerar y proteger.",
+      "recommendedAction": "Realizar auditorías regulares de la superficie de ataque de las aplicaciones y la infraestructura. Asegurarse de que los paneles de administración no estén expuestos innecesariamente y de implementar políticas robustas de gestión de contraseñas."
+    },
+    {
+      "title": "If context is king, architecture is the castle",
+      "url": "https://stackoverflow.blog/2026/06/16/if-context-is-king-architecture-is-the-castle/",
+      "source": "Stack Overflow Blog",
+      "category": "AI for Developers",
+      "priority": "medium",
+      "score": 8,
+      "summary": "Este artículo discute cómo GraphQL y una arquitectura semántica estructurada pueden alimentar datos limpios a agentes de IA, proteger microservicios y controlar costos de tokens al consultar solo el contexto necesario.",
+      "whyItMatters": "La arquitectura es clave para interactuar eficientemente con sistemas de IA. Este enfoque proporciona un marco para gestionar datos y costos en aplicaciones que utilizan agentes de IA, lo cual es relevante dado el auge de la IA.",
+      "recommendedAction": "Considerar la aplicación de arquitecturas estructuradas como GraphQL para mejorar la forma en que las aplicaciones interactúan con sistemas de IA y gestionan el flujo de datos, optimizando el uso de recursos y el control de costos."
+    },
+    {
+      "title": "New Rokarolla Android Malware Steals PINs, SMS Codes, and Crypto Wallet Funds",
+      "url": "https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Investigadores han documentado un nuevo troyano bancario para Android llamado Rokarolla, capaz de robar PINs, códigos SMS y fondos de billeteras de criptomonedas, y controlar hasta 137 comandos remotos.",
+      "whyItMatters": "Este tipo de malware representa un riesgo significativo para los usuarios que manejan información financiera sensible en sus dispositivos móviles. Aunque es específico de Android, muestra las amenazas crecientes en el espacio móvil.",
+      "recommendedAction": "Mantenerse alerta ante las amenazas de malware móvil. Asegurarse de que los dispositivos estén actualizados con los últimos parches de seguridad y tener precaución al instalar aplicaciones de fuentes no confiables."
+    },
+    {
+      "title": "Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive",
+      "url": "https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Una encuesta revela que el 94% de los incidentes de seguridad involucran infraestructura anonimizada y que los equipos de seguridad siguen siendo predominantemente reactivos, a pesar de tener más datos que nunca.",
+      "whyItMatters": "Este hallazgo subraya la brecha entre la disponibilidad de datos de seguridad y la capacidad de actuar de manera proactiva. Destaca la importancia de las estrategias de seguridad proactivas y la gestión eficaz de la información.",
+      "recommendedAction": "Evaluar y mejorar las estrategias de respuesta a incidentes de seguridad, enfocándose en la detección temprana y la proactividad. Considerar la implementación de herramientas que ayuden a filtrar el 'ruido' y a identificar amenazas reales."
+    },
+    {
+      "title": "Selenium vs. Cypress vs Playwright: Choosing your test automation framework",
+      "url": "https://stackoverflow.blog/2026/06/15/selenium-vs-cypress-vs-playwright-choosing-your-test-automation-framework/",
+      "source": "Stack Overflow Blog",
+      "category": "Dev Tools",
+      "priority": "low",
+      "score": 4,
+      "summary": "Comparativa entre Selenium, Cypress y Playwright para la automatización de pruebas, discutiendo sus fortalezas y debilidades para ayudar a los desarrolladores a elegir el framework adecuado.",
+      "whyItMatters": "La elección de un framework de automatización de pruebas es importante para la calidad del software. Aunque no es Java/Spring/Angular directo, conocer estas herramientas es útil para cualquier desarrollador que trabaje en el frontend o backend.",
+      "recommendedAction": "Revisar las características de Selenium, Cypress y Playwright si estás involucrado en la automatización de pruebas. Considera tus necesidades específicas de proyecto al seleccionar una herramienta."
+    }
+  ]
+}
