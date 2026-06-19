@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-06-17T11:49:06.045Z",
+  "generatedAt": "2026-06-19T11:24:23.090Z",
   "availableDates": [
+    "2026-06-19",
     "2026-06-17",
     "2026-06-16",
     "2026-06-15",
@@ -20,13 +21,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 17,
-    "totalArticles": 190,
-    "highPriority": 87,
-    "mediumPriority": 81,
-    "lowPriority": 22,
-    "averageArticlesPerReport": 11,
-    "latestReportDate": "2026-06-17",
+    "totalReports": 18,
+    "totalArticles": 208,
+    "highPriority": 93,
+    "mediumPriority": 90,
+    "lowPriority": 25,
+    "averageArticlesPerReport": 12,
+    "latestReportDate": "2026-06-19",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-10",
@@ -37,7 +38,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 46
+        "count": 54
       },
       {
         "name": "AI",
@@ -49,13 +50,13 @@
       },
       {
         "name": "Java/Spring Boot",
-        "count": 7
+        "count": 8
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 115
+        "count": 126
       },
       {
         "name": "Stack Overflow Blog",
@@ -63,11 +64,11 @@
       },
       {
         "name": "Spring Blog",
-        "count": 22
+        "count": 23
       },
       {
         "name": "GitHub Blog",
-        "count": 10
+        "count": 15
       },
       {
         "name": "Krebs on Security",
@@ -76,12 +77,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-11",
-      "high": 7,
-      "medium": 7,
-      "low": 1
-    },
     {
       "date": "2026-06-12",
       "high": 3,
@@ -117,9 +112,100 @@
       "high": 5,
       "medium": 5,
       "low": 1
+    },
+    {
+      "date": "2026-06-19",
+      "high": 6,
+      "medium": 9,
+      "low": 3
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-19",
+      "generatedAt": "2026-06-19T11:24:23.081Z",
+      "totalArticles": 18,
+      "highPriority": 6,
+      "mediumPriority": 9,
+      "lowPriority": 3,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 8
+        },
+        {
+          "name": "Seguridad/AI",
+          "count": 3
+        },
+        {
+          "name": "AI/Dev Tools",
+          "count": 3
+        },
+        {
+          "name": "Java/Spring Boot",
+          "count": 1
+        },
+        {
+          "name": "Frontend/Angular",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 11
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 5
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "Angular Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "A Bootiful Podcast: DaShaun Carter on patching, Spring Boot 4.1, and security in the world of AI",
+          "url": "https://spring.io/blog/2026/06/18/a-bootiful-podcast-dashaun-carter",
+          "source": "Spring Blog",
+          "category": "Java/Spring Boot",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un episodio de podcast que discute las últimas novedades en Spring Boot 4.1, la importancia del patching y las implicaciones de seguridad de la IA en el desarrollo.",
+          "whyItMatters": "Este artículo es altamente relevante ya que cubre directamente Spring Boot, un framework central para el desarrollo Java. Aborda temas cruciales como el patching y la seguridad, especialmente en el contexto emergente de la IA, lo cual es esencial para mantener las aplicaciones seguras y actualizadas.",
+          "recommendedAction": "Escuchar el episodio para obtener información sobre las nuevas características de Spring Boot y las mejores prácticas de seguridad relacionadas con la IA."
+        },
+        {
+          "title": "F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution",
+          "url": "https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "F5 ha lanzado parches para dos vulnerabilidades críticas en NGINX Open Source que podrían permitir la ejecución remota de código.",
+          "whyItMatters": "Las vulnerabilidades críticas en software de infraestructura como NGINX representan un riesgo significativo. La ejecución remota de código puede llevar al compromiso total de los sistemas. Es fundamental para los desarrolladores que utilizan o administran NGINX estar al tanto y aplicar los parches de seguridad.",
+          "recommendedAction": "Revisar inmediatamente la versión de NGINX utilizada y aplicar las actualizaciones de seguridad proporcionadas por F5 para mitigar el riesgo de ejecución remota de código."
+        },
+        {
+          "title": "Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments",
+          "url": "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
+          "source": "The Hacker News",
+          "category": "Seguridad/AI",
+          "priority": "high",
+          "score": 8,
+          "summary": "Una campaña de malware criptográfico está utilizando reseñas falsas, narradores de IA y comentarios de VirusTotal para propagarse, promoviendo proyectos en GitHub y SourceForge.",
+          "whyItMatters": "Esta noticia destaca cómo las técnicas de IA y las plataformas de desarrollo como GitHub se están utilizando en campañas maliciosas. Comprender estas tácticas ayuda a los desarrolladores a estar alerta ante posibles engaños y a proteger sus proyectos y datos.",
+          "recommendedAction": "Estar atento a la actividad sospechosa en plataformas como GitHub y ser escéptico ante promesas o reseñas excesivamente positivas. Implementar prácticas de seguridad robustas en los repositorios."
+        }
+      ]
+    },
     {
       "date": "2026-06-17",
       "generatedAt": "2026-06-17T11:49:06.037Z",
