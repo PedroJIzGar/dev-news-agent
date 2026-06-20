@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-06-19T11:24:23.090Z",
+  "generatedAt": "2026-06-20T10:09:45.729Z",
   "availableDates": [
+    "2026-06-20",
     "2026-06-19",
     "2026-06-17",
     "2026-06-16",
@@ -21,20 +22,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 18,
-    "totalArticles": 208,
-    "highPriority": 93,
-    "mediumPriority": 90,
-    "lowPriority": 25,
+    "totalReports": 19,
+    "totalArticles": 223,
+    "highPriority": 101,
+    "mediumPriority": 95,
+    "lowPriority": 27,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-06-19",
+    "latestReportDate": "2026-06-20",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-10",
     "topCategories": [
       {
         "name": "Security",
-        "count": 65
+        "count": 76
       },
       {
         "name": "Seguridad",
@@ -56,11 +57,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 126
+        "count": 135
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 36
+        "count": 40
       },
       {
         "name": "Spring Blog",
@@ -68,21 +69,15 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 15
+        "count": 16
       },
       {
         "name": "Krebs on Security",
-        "count": 5
+        "count": 6
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-12",
-      "high": 3,
-      "medium": 12,
-      "low": 3
-    },
     {
       "date": "2026-06-13",
       "high": 7,
@@ -118,9 +113,92 @@
       "high": 6,
       "medium": 9,
       "low": 3
+    },
+    {
+      "date": "2026-06-20",
+      "high": 8,
+      "medium": 5,
+      "low": 2
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-20",
+      "generatedAt": "2026-06-20T10:09:45.720Z",
+      "totalArticles": 15,
+      "highPriority": 8,
+      "mediumPriority": 5,
+      "lowPriority": 2,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 11
+        },
+        {
+          "name": "AI for Developers",
+          "count": 2
+        },
+        {
+          "name": "Developer Culture",
+          "count": 2
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 9
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 4
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution",
+          "url": "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Investigadores de Microsoft han detallado una cadena de exploits llamada AutoJack que permite a un agente de navegación de IA ser utilizado para la ejecución remota de código. Al dirigir al agente a cargar una página web controlada por un atacante, el JavaScript de esa página puede interactuar con un servicio local privilegiado en la misma máquina y lanzar un proceso. Este ataque no requiere credenciales ni interacción adicional del usuario una vez iniciado.",
+          "whyItMatters": "Este tipo de vulnerabilidades son críticas para la seguridad, ya que demuestran cómo las herramientas de IA, que se están integrando cada vez más en flujos de trabajo de desarrollo y operaciones, pueden ser subvertidas para ejecutar código malicioso en sistemas que de otro modo estarían protegidos. Es un recordatorio de que la seguridad debe ser una consideración primordial en el diseño e implementación de agentes de IA.",
+          "recommendedAction": "Mantente informado sobre las investigaciones de seguridad en IA y agentes de navegación. Asegúrate de que las integraciones de IA en tu entorno sigan las mejores prácticas de seguridad, especialmente en lo que respecta a la segregación de privilegios y la validación de entradas/salidas."
+        },
+        {
+          "title": "How we built an internal data analytics agent",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+          "source": "GitHub Blog",
+          "category": "AI for Developers",
+          "priority": "medium",
+          "score": 8,
+          "summary": "GitHub detalla la creación de Qubot, un agente interno impulsado por Copilot que permite a los empleados de GitHub hacer preguntas sobre datos en lenguaje natural. El artículo comparte las lecciones aprendidas durante el proceso de construcción.",
+          "whyItMatters": "Comprender cómo las grandes empresas están utilizando herramientas de IA como Copilot para mejorar la productividad interna y el acceso a datos puede ofrecer ideas valiosas sobre cómo aplicar tecnologías similares en tu propio entorno de desarrollo o en tu organización.",
+          "recommendedAction": "Lee el artículo para entender el proceso de desarrollo y las lecciones aprendidas al construir agentes de análisis de datos basados en IA. Considera cómo podrías aplicar enfoques similares para mejorar el acceso y análisis de datos en tus proyectos."
+        },
+        {
+          "title": "Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain",
+          "url": "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 7,
+          "summary": "Investigadores han descubierto un exploit llamado 'usbliter8' que permite la ejecución de código arbitrario dentro del SecureROM de los chips A12 y A13 de Apple. Este exploit es particularmente preocupante porque afecta al código grabado en el silicio y no puede ser corregido mediante actualizaciones de software.",
+          "whyItMatters": "Aunque no es directamente aplicable a un desarrollador de software estándar de Java/Spring/Angular, este tipo de vulnerabilidades de bajo nivel y no parcheables resaltan la complejidad de la seguridad en el hardware y la cadena de suministro. Entender las implicaciones de tales fallos es importante para una perspectiva de seguridad holística.",
+          "recommendedAction": "Mantente al tanto de las noticias de seguridad de bajo nivel para comprender las amenazas emergentes. Aunque no puedas mitigar esto directamente, ser consciente de estas vulnerabilidades puede informar tus decisiones de arquitectura y seguridad a niveles superiores."
+        }
+      ]
+    },
     {
       "date": "2026-06-19",
       "generatedAt": "2026-06-19T11:24:23.081Z",
