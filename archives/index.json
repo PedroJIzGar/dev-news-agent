@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-06-20T10:09:45.729Z",
+  "generatedAt": "2026-06-21T10:29:55.322Z",
   "availableDates": [
+    "2026-06-21",
     "2026-06-20",
     "2026-06-19",
     "2026-06-17",
@@ -22,13 +23,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 19,
-    "totalArticles": 223,
-    "highPriority": 101,
+    "totalReports": 20,
+    "totalArticles": 224,
+    "highPriority": 102,
     "mediumPriority": 95,
     "lowPriority": 27,
-    "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-06-20",
+    "averageArticlesPerReport": 11,
+    "latestReportDate": "2026-06-21",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-10",
@@ -39,7 +40,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 54
+        "count": 55
       },
       {
         "name": "AI",
@@ -57,7 +58,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 135
+        "count": 136
       },
       {
         "name": "Stack Overflow Blog",
@@ -78,12 +79,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-13",
-      "high": 7,
-      "medium": 7,
-      "low": 1
-    },
     {
       "date": "2026-06-14",
       "high": 1,
@@ -119,9 +114,50 @@
       "high": 8,
       "medium": 5,
       "low": 2
+    },
+    {
+      "date": "2026-06-21",
+      "high": 1,
+      "medium": 0,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-21",
+      "generatedAt": "2026-06-21T10:29:55.314Z",
+      "totalArticles": 1,
+      "highPriority": 1,
+      "mediumPriority": 0,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys",
+          "url": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 4,
+          "summary": "Actores maliciosos están explotando una vulnerabilidad recientemente parcheada en el plugin Gravity SMTP para WordPress, que afecta a unos 100.000 sitios. Esta falla permite a atacantes no autenticados extraer datos sensibles como claves de API, secretos y tokens OAuth.",
+          "whyItMatters": "Aunque el bug afecta a WordPress, la naturaleza de la vulnerabilidad (exposición de claves de API y secretos) es relevante para cualquier desarrollador que maneje credenciales y datos sensibles en sus aplicaciones, independientemente de la tecnología.",
+          "recommendedAction": "Revisar la seguridad de las aplicaciones para la gestión de claves de API y secretos. Mantener actualizados todos los plugins y dependencias, incluso si no son directamente parte de tu stack principal."
+        }
+      ]
+    },
     {
       "date": "2026-06-20",
       "generatedAt": "2026-06-20T10:09:45.720Z",

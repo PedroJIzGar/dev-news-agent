@@ -1,0 +1,35 @@
+{
+  "date": "2026-06-21",
+  "generatedAt": "2026-06-21T10:29:55.314Z",
+  "totalArticles": 1,
+  "summary": {
+    "highPriority": 1,
+    "mediumPriority": 0,
+    "lowPriority": 0,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys",
+      "url": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 4,
+      "summary": "Actores maliciosos están explotando una vulnerabilidad recientemente parcheada en el plugin Gravity SMTP para WordPress, que afecta a unos 100.000 sitios. Esta falla permite a atacantes no autenticados extraer datos sensibles como claves de API, secretos y tokens OAuth.",
+      "whyItMatters": "Aunque el bug afecta a WordPress, la naturaleza de la vulnerabilidad (exposición de claves de API y secretos) es relevante para cualquier desarrollador que maneje credenciales y datos sensibles en sus aplicaciones, independientemente de la tecnología.",
+      "recommendedAction": "Revisar la seguridad de las aplicaciones para la gestión de claves de API y secretos. Mantener actualizados todos los plugins y dependencias, incluso si no son directamente parte de tu stack principal."
+    }
+  ]
+}
