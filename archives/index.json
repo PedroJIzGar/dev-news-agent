@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-06-21T10:29:55.322Z",
+  "generatedAt": "2026-06-22T12:50:56.741Z",
   "availableDates": [
+    "2026-06-22",
     "2026-06-21",
     "2026-06-20",
     "2026-06-19",
@@ -23,20 +24,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 20,
-    "totalArticles": 224,
-    "highPriority": 102,
-    "mediumPriority": 95,
-    "lowPriority": 27,
+    "totalReports": 21,
+    "totalArticles": 230,
+    "highPriority": 105,
+    "mediumPriority": 97,
+    "lowPriority": 28,
     "averageArticlesPerReport": 11,
-    "latestReportDate": "2026-06-21",
+    "latestReportDate": "2026-06-22",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-10",
     "topCategories": [
       {
         "name": "Security",
-        "count": 76
+        "count": 81
       },
       {
         "name": "Seguridad",
@@ -48,7 +49,7 @@
       },
       {
         "name": "Backend",
-        "count": 10
+        "count": 11
       },
       {
         "name": "Java/Spring Boot",
@@ -58,7 +59,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 136
+        "count": 141
       },
       {
         "name": "Stack Overflow Blog",
@@ -66,7 +67,7 @@
       },
       {
         "name": "Spring Blog",
-        "count": 23
+        "count": 24
       },
       {
         "name": "GitHub Blog",
@@ -79,12 +80,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-14",
-      "high": 1,
-      "medium": 1,
-      "low": 2
-    },
     {
       "date": "2026-06-15",
       "high": 3,
@@ -120,9 +115,80 @@
       "high": 1,
       "medium": 0,
       "low": 0
+    },
+    {
+      "date": "2026-06-22",
+      "high": 3,
+      "medium": 2,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-22",
+      "generatedAt": "2026-06-22T12:50:56.729Z",
+      "totalArticles": 6,
+      "highPriority": 3,
+      "mediumPriority": 2,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 5
+        },
+        {
+          "name": "Backend",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 5
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "MongoDB-backed Spring Batch jobs and more in Spring Boot 4.1",
+          "url": "https://spring.io/blog/2026/06/21/spring-boot-41-and-spring-batch",
+          "source": "Spring Blog",
+          "category": "Backend",
+          "priority": "high",
+          "score": 10,
+          "summary": "Se anuncian las nuevas características de Spring Boot 4.1, con énfasis en la integración de trabajos de Spring Batch respaldados por MongoDB y otras mejoras.",
+          "whyItMatters": "Esta actualización trae soporte directo para MongoDB con Spring Batch, una característica muy esperada por los desarrolladores que usan Spring Boot y MongoDB para procesamiento de datos por lotes. Es una mejora significativa para la gestión de datos en aplicaciones Java.",
+          "recommendedAction": "Actualiza a Spring Boot 4.1 para aprovechar la integración mejorada con MongoDB y Spring Batch. Revisa la documentación para implementar y optimizar tus trabajos por lotes."
+        },
+        {
+          "title": "INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific",
+          "url": "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "INTERPOL alerta sobre un aumento drástico del cibercrimen en Asia y el Pacífico Sur, impulsado por la digitalización rápida y el uso de nuevas tecnologías como la IA. El phishing y el ransomware son las amenazas más extendidas.",
+          "whyItMatters": "Dado el creciente uso de IA y la digitalización, es crucial estar al tanto de las amenazas de seguridad emergentes como el phishing y el ransomware. La IA también se está utilizando para potenciar estas estafas, lo que representa un riesgo significativo.",
+          "recommendedAction": "Mantente informado sobre las últimas tácticas de phishing y ransomware. Implementa medidas de seguridad robustas en tus proyectos y ten cuidado con los correos electrónicos o enlaces sospechosos, especialmente aquellos que involucran IA."
+        },
+        {
+          "title": "Stop Your Legacy Infrastructure from Hijacking Your AI Agents",
+          "url": "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se advierte sobre un punto ciego en la seguridad de la IA: la infraestructura heredada puede ser utilizada por atacantes para secuestrar agentes de IA. La adopción de IA supera la capacidad de los programas de seguridad.",
+          "whyItMatters": "La seguridad de la IA es cada vez más importante. Entender cómo la infraestructura heredada puede ser explotada para comprometer agentes de IA es crucial para proteger tus sistemas y datos, especialmente a medida que la adopción de IA se acelera.",
+          "recommendedAction": "Audita tu infraestructura existente para identificar y mitigar vulnerabilidades que podrían ser explotadas. Asegúrate de que tus programas de seguridad estén actualizados para abordar los riesgos asociados con el uso de IA y sistemas heredados."
+        }
+      ]
+    },
     {
       "date": "2026-06-21",
       "generatedAt": "2026-06-21T10:29:55.314Z",

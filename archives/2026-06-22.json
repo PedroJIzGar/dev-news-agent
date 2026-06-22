@@ -1,0 +1,98 @@
+{
+  "date": "2026-06-22",
+  "generatedAt": "2026-06-22T12:50:56.729Z",
+  "totalArticles": 6,
+  "summary": {
+    "highPriority": 3,
+    "mediumPriority": 2,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 5
+      },
+      {
+        "name": "Backend",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 5
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific",
+      "url": "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "INTERPOL alerta sobre un aumento drástico del cibercrimen en Asia y el Pacífico Sur, impulsado por la digitalización rápida y el uso de nuevas tecnologías como la IA. El phishing y el ransomware son las amenazas más extendidas.",
+      "whyItMatters": "Dado el creciente uso de IA y la digitalización, es crucial estar al tanto de las amenazas de seguridad emergentes como el phishing y el ransomware. La IA también se está utilizando para potenciar estas estafas, lo que representa un riesgo significativo.",
+      "recommendedAction": "Mantente informado sobre las últimas tácticas de phishing y ransomware. Implementa medidas de seguridad robustas en tus proyectos y ten cuidado con los correos electrónicos o enlaces sospechosos, especialmente aquellos que involucran IA."
+    },
+    {
+      "title": "MongoDB-backed Spring Batch jobs and more in Spring Boot 4.1",
+      "url": "https://spring.io/blog/2026/06/21/spring-boot-41-and-spring-batch",
+      "source": "Spring Blog",
+      "category": "Backend",
+      "priority": "high",
+      "score": 10,
+      "summary": "Se anuncian las nuevas características de Spring Boot 4.1, con énfasis en la integración de trabajos de Spring Batch respaldados por MongoDB y otras mejoras.",
+      "whyItMatters": "Esta actualización trae soporte directo para MongoDB con Spring Batch, una característica muy esperada por los desarrolladores que usan Spring Boot y MongoDB para procesamiento de datos por lotes. Es una mejora significativa para la gestión de datos en aplicaciones Java.",
+      "recommendedAction": "Actualiza a Spring Boot 4.1 para aprovechar la integración mejorada con MongoDB y Spring Batch. Revisa la documentación para implementar y optimizar tus trabajos por lotes."
+    },
+    {
+      "title": "Stop Your Legacy Infrastructure from Hijacking Your AI Agents",
+      "url": "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se advierte sobre un punto ciego en la seguridad de la IA: la infraestructura heredada puede ser utilizada por atacantes para secuestrar agentes de IA. La adopción de IA supera la capacidad de los programas de seguridad.",
+      "whyItMatters": "La seguridad de la IA es cada vez más importante. Entender cómo la infraestructura heredada puede ser explotada para comprometer agentes de IA es crucial para proteger tus sistemas y datos, especialmente a medida que la adopción de IA se acelera.",
+      "recommendedAction": "Audita tu infraestructura existente para identificar y mitigar vulnerabilidades que podrían ser explotadas. Asegúrate de que tus programas de seguridad estén actualizados para abordar los riesgos asociados con el uso de IA y sistemas heredados."
+    },
+    {
+      "title": "⚡ Weekly Recap: Browser Bugs, EDR Killers, TV Botnet, OpenBSD Flaw, Android Trojan, and More",
+      "url": "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Recopilación semanal de vulnerabilidades y amenazas de seguridad, incluyendo fallos en navegadores, ataques a herramientas de seguridad (EDR), botnets, troyanos de Android y el uso de credenciales débiles.",
+      "whyItMatters": "Estar al día con las amenazas de seguridad recurrentes y las nuevas tácticas de ataque es fundamental para cualquier desarrollador. Este resumen ofrece una visión general de los problemas más recientes que podrían afectar a las aplicaciones y sistemas.",
+      "recommendedAction": "Revisa las amenazas mencionadas y evalúa si tus proyectos o sistemas son vulnerables. Aplica parches y actualiza tus dependencias regularmente para protegerte contra estos ataques comunes."
+    },
+    {
+      "title": "AryStinger Malware Infects 4,300 Legacy Routers to Build Reconnaissance Proxy Network",
+      "url": "https://thehackernews.com/2026/06/arystinger-malware-infects-4300-legacy.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Una nueva familia de malware, AryStinger, está infectando routers domésticos heredados para crear una red de proxies para reconocimiento, en lugar de la típica botnet DDoS. Se han identificado al menos 4,300 routers infectados.",
+      "whyItMatters": "Este tipo de ataques a dispositivos de red de baja seguridad, como routers antiguos, pueden ser un vector para etapas tempranas de ataques más sofisticados. Es un recordatorio de la importancia de asegurar todos los puntos de entrada a una red, incluso los dispositivos IoT.",
+      "recommendedAction": "Asegúrate de que todos los dispositivos de red, especialmente los routers y otros dispositivos IoT, estén actualizados con el último firmware y protegidos con contraseñas seguras. Considera segmentar tu red para limitar el impacto de posibles infecciones."
+    },
+    {
+      "title": "Canada’s Spy Agency Used First-of-Its-Kind Warrant to Clean Botnet-Infected Devices",
+      "url": "https://thehackernews.com/2026/06/canadas-spy-agency-used-first-of-its.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 5,
+      "summary": "La agencia de inteligencia de Canadá utilizó una orden judicial sin precedentes para neutralizar botnets que infectaban dispositivos en su territorio. Es la primera vez que se emplean sus poderes de 'threat reduction warrant'.",
+      "whyItMatters": "Este artículo ilustra la evolución de las herramientas y la legislación para combatir el cibercrimen a nivel estatal. Aunque no es directamente aplicable a un desarrollador junior/intermedio, muestra el alcance y las nuevas capacidades para combatir amenazas.",
+      "recommendedAction": "Mantente al tanto de las tendencias en ciberseguridad y las acciones de las agencias gubernamentales. Comprender el panorama general de la seguridad puede ayudarte a contextualizar la importancia de tu propio trabajo en la protección de sistemas."
+    }
+  ]
+}
