@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-06-22T12:50:56.741Z",
+  "generatedAt": "2026-06-26T10:23:36.036Z",
   "availableDates": [
+    "2026-06-26",
     "2026-06-22",
     "2026-06-21",
     "2026-06-20",
@@ -24,13 +25,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 21,
-    "totalArticles": 230,
-    "highPriority": 105,
-    "mediumPriority": 97,
-    "lowPriority": 28,
+    "totalReports": 22,
+    "totalArticles": 245,
+    "highPriority": 111,
+    "mediumPriority": 104,
+    "lowPriority": 30,
     "averageArticlesPerReport": 11,
-    "latestReportDate": "2026-06-22",
+    "latestReportDate": "2026-06-26",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-10",
@@ -41,7 +42,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 55
+        "count": 62
       },
       {
         "name": "AI",
@@ -53,13 +54,13 @@
       },
       {
         "name": "Java/Spring Boot",
-        "count": 8
+        "count": 9
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 141
+        "count": 151
       },
       {
         "name": "Stack Overflow Blog",
@@ -67,11 +68,11 @@
       },
       {
         "name": "Spring Blog",
-        "count": 24
+        "count": 26
       },
       {
         "name": "GitHub Blog",
-        "count": 16
+        "count": 18
       },
       {
         "name": "Krebs on Security",
@@ -80,12 +81,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-15",
-      "high": 3,
-      "medium": 2,
-      "low": 1
-    },
     {
       "date": "2026-06-16",
       "high": 6,
@@ -121,9 +116,100 @@
       "high": 3,
       "medium": 2,
       "low": 1
+    },
+    {
+      "date": "2026-06-26",
+      "high": 6,
+      "medium": 7,
+      "low": 2
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-26",
+      "generatedAt": "2026-06-26T10:23:36.027Z",
+      "totalArticles": 15,
+      "highPriority": 6,
+      "mediumPriority": 7,
+      "lowPriority": 2,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 7
+        },
+        {
+          "name": "Seguridad/IA",
+          "count": 2
+        },
+        {
+          "name": "Seguridad/DevOps",
+          "count": 1
+        },
+        {
+          "name": "Java/Spring Boot",
+          "count": 1
+        },
+        {
+          "name": "Java/IA",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 10
+        },
+        {
+          "name": "Spring Blog",
+          "count": 2
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 2
+        },
+        {
+          "name": "Angular Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Supply-Chain Attacks",
+          "url": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se han descubierto vulnerabilidades en flujos de trabajo CI/CD que permiten a los atacantes secuestrar estos procesos y comprometer cadenas de suministro de código abierto, afectando a repositorios en organizaciones importantes.",
+          "whyItMatters": "Estas fallas representan un riesgo significativo para la seguridad de la cadena de suministro de software, especialmente para los repositorios alojados en GitHub, que son fundamentales para el desarrollo moderno.",
+          "recommendedAction": "Revisar y asegurar las configuraciones de CI/CD en GitHub Actions, aplicar parches y seguir las mejores prácticas de seguridad para la cadena de suministro."
+        },
+        {
+          "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
+          "url": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
+          "source": "The Hacker News",
+          "category": "Seguridad/IA",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se han descubierto vulnerabilidades en Dify, una plataforma de flujos de trabajo de IA de código abierto, que podrían permitir a atacantes acceder a conversaciones de IA de otros clientes sin autenticación.",
+          "whyItMatters": "La seguridad de las aplicaciones de IA es crucial. Estas vulnerabilidades exponen datos sensibles y la privacidad de las conversaciones de IA, afectando directamente a usuarios de plataformas de IA y desarrolladores que las integran, muchas veces a través de GitHub.",
+          "recommendedAction": "Actualizar Dify a la última versión y revisar la configuración de seguridad para proteger los datos de las conversaciones de IA. Estar atento a las actualizaciones de seguridad de herramientas relacionadas con IA en GitHub."
+        },
+        {
+          "title": "GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns",
+          "url": "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
+          "source": "The Hacker News",
+          "category": "Seguridad/DevOps",
+          "priority": "high",
+          "score": 9,
+          "summary": "GitHub ha actualizado la acción 'actions/checkout' para bloquear ataques de 'pwn request' que explotan flujos de trabajo 'pull_request_target' maliciosos.",
+          "whyItMatters": "Esta actualización mejora la seguridad de la cadena de suministro de software al proteger los flujos de trabajo de CI/CD en GitHub contra ataques comunes, lo cual es fundamental para desarrolladores que usan GitHub para sus proyectos.",
+          "recommendedAction": "Asegurarse de que los repositorios en GitHub estén utilizando la última versión de 'actions/checkout' para mitigar estos riesgos de seguridad en los flujos de trabajo de CI/CD."
+        }
+      ]
+    },
     {
       "date": "2026-06-22",
       "generatedAt": "2026-06-22T12:50:56.729Z",

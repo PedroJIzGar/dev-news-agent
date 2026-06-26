@@ -1,0 +1,217 @@
+{
+  "date": "2026-06-26",
+  "generatedAt": "2026-06-26T10:23:36.027Z",
+  "totalArticles": 15,
+  "summary": {
+    "highPriority": 6,
+    "mediumPriority": 7,
+    "lowPriority": 2,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 7
+      },
+      {
+        "name": "Seguridad/IA",
+        "count": 2
+      },
+      {
+        "name": "Seguridad/DevOps",
+        "count": 1
+      },
+      {
+        "name": "Java/Spring Boot",
+        "count": 1
+      },
+      {
+        "name": "Java/IA",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 10
+      },
+      {
+        "name": "Spring Blog",
+        "count": 2
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 2
+      },
+      {
+        "name": "Angular Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Supply-Chain Attacks",
+      "url": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se han descubierto vulnerabilidades en flujos de trabajo CI/CD que permiten a los atacantes secuestrar estos procesos y comprometer cadenas de suministro de código abierto, afectando a repositorios en organizaciones importantes.",
+      "whyItMatters": "Estas fallas representan un riesgo significativo para la seguridad de la cadena de suministro de software, especialmente para los repositorios alojados en GitHub, que son fundamentales para el desarrollo moderno.",
+      "recommendedAction": "Revisar y asegurar las configuraciones de CI/CD en GitHub Actions, aplicar parches y seguir las mejores prácticas de seguridad para la cadena de suministro."
+    },
+    {
+      "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
+      "url": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
+      "source": "The Hacker News",
+      "category": "Seguridad/IA",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se han descubierto vulnerabilidades en Dify, una plataforma de flujos de trabajo de IA de código abierto, que podrían permitir a atacantes acceder a conversaciones de IA de otros clientes sin autenticación.",
+      "whyItMatters": "La seguridad de las aplicaciones de IA es crucial. Estas vulnerabilidades exponen datos sensibles y la privacidad de las conversaciones de IA, afectando directamente a usuarios de plataformas de IA y desarrolladores que las integran, muchas veces a través de GitHub.",
+      "recommendedAction": "Actualizar Dify a la última versión y revisar la configuración de seguridad para proteger los datos de las conversaciones de IA. Estar atento a las actualizaciones de seguridad de herramientas relacionadas con IA en GitHub."
+    },
+    {
+      "title": "GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns",
+      "url": "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
+      "source": "The Hacker News",
+      "category": "Seguridad/DevOps",
+      "priority": "high",
+      "score": 9,
+      "summary": "GitHub ha actualizado la acción 'actions/checkout' para bloquear ataques de 'pwn request' que explotan flujos de trabajo 'pull_request_target' maliciosos.",
+      "whyItMatters": "Esta actualización mejora la seguridad de la cadena de suministro de software al proteger los flujos de trabajo de CI/CD en GitHub contra ataques comunes, lo cual es fundamental para desarrolladores que usan GitHub para sus proyectos.",
+      "recommendedAction": "Asegurarse de que los repositorios en GitHub estén utilizando la última versión de 'actions/checkout' para mitigar estos riesgos de seguridad en los flujos de trabajo de CI/CD."
+    },
+    {
+      "title": "Spring Boot 3.5.16 available now",
+      "url": "https://spring.io/blog/2026/06/25/spring-boot-3-5-16-available-now",
+      "source": "Spring Blog",
+      "category": "Java/Spring Boot",
+      "priority": "high",
+      "score": 8,
+      "summary": "Ya está disponible la versión 3.5.16 de Spring Boot, con correcciones de errores y mejoras.",
+      "whyItMatters": "Mantenerse al día con las últimas versiones de Spring Boot es esencial para beneficiarse de las correcciones de seguridad, mejoras de rendimiento y nuevas funcionalidades.",
+      "recommendedAction": "Actualizar los proyectos de Spring Boot a la versión 3.5.16 para incorporar las últimas correcciones y mejoras."
+    },
+    {
+      "title": "Self-Correcting Structured Output in Spring AI 2.0",
+      "url": "https://spring.io/blog/2026/06/23/spring-ai-self-correcting-structured-output",
+      "source": "Spring Blog",
+      "category": "Java/IA",
+      "priority": "high",
+      "score": 9,
+      "summary": "Spring AI 2.0 introduce la capacidad de auto-corrección para la salida estructurada, mejorando la fiabilidad de las interacciones con modelos de IA.",
+      "whyItMatters": "Esta característica es muy relevante para desarrolladores que integran IA en aplicaciones Java con Spring Boot, ya que facilita la obtención de datos precisos y estructurados de los modelos de lenguaje, reduciendo la complejidad y mejorando la robustez.",
+      "recommendedAction": "Explorar la nueva funcionalidad de auto-corrección de salida estructurada en Spring AI 2.0 para mejorar las integraciones de IA en aplicaciones Spring."
+    },
+    {
+      "title": "Demystifying A2UI: How to Make AI Agents “Speak UI” in Your App",
+      "url": "https://blog.angular.dev/demystifying-a2ui-how-to-make-ai-agents-speak-ui-in-your-app-e1ffea2303bd?source=rss----447683c3d9a3---4",
+      "source": "Angular Blog",
+      "category": "Angular/IA",
+      "priority": "high",
+      "score": 9,
+      "summary": "El artículo explica cómo hacer que los agentes de IA 'hablen' la interfaz de usuario (UI) en aplicaciones Angular utilizando A2UI, facilitando la interacción.",
+      "whyItMatters": "Para los desarrolladores de Angular interesados en la IA, este artículo ofrece una perspectiva valiosa sobre cómo integrar agentes de IA de manera más efectiva en la UI, mejorando la experiencia del usuario y las capacidades de la aplicación.",
+      "recommendedAction": "Investigar la técnica A2UI para integrar agentes de IA con la interfaz de usuario en proyectos de Angular y mejorar la interacción del usuario con funcionalidades de IA."
+    },
+    {
+      "title": "Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks",
+      "url": "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/",
+      "source": "GitHub Blog",
+      "category": "IA/DevOps",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Se evalúa el rendimiento y la eficiencia del sistema de GitHub Copilot para agentes de IA en diferentes modelos y tareas.",
+      "whyItMatters": "Entender cómo funcionan herramientas como GitHub Copilot y su eficiencia es importante para optimizar su uso y aprovechar al máximo las capacidades de IA en el desarrollo.",
+      "recommendedAction": "Considerar los hallazgos sobre el rendimiento y la eficiencia de GitHub Copilot para optimizar su uso en flujos de trabajo de desarrollo."
+    },
+    {
+      "title": "GitHub joins coalition advocating for fixes to California AI Transparency Act to protect open source",
+      "url": "https://github.blog/news-insights/policy-news-and-insights/github-joins-coalition-advocating-for-fixes-to-california-ai-transparency-act-to-protect-open-source/",
+      "source": "GitHub Blog",
+      "category": "IA/Legal",
+      "priority": "medium",
+      "score": 6,
+      "summary": "GitHub se une a una coalición para solicitar enmiendas a la Ley de Transparencia de IA de California y proteger el software de código abierto.",
+      "whyItMatters": "Las regulaciones sobre IA pueden tener un impacto significativo en el desarrollo de código abierto. Es importante estar al tanto de estas discusiones, especialmente para aquellos que contribuyen o utilizan proyectos de código abierto en GitHub.",
+      "recommendedAction": "Seguir las novedades sobre la legislación de IA y su impacto en el código abierto, y comprender las implicaciones para los proyectos alojados en GitHub."
+    },
+    {
+      "title": "Microsoft Warns of Photo ZIP Phishing Campaign Targeting Hotels with Node.js Implant",
+      "url": "https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Microsoft alerta sobre una campaña de phishing que utiliza archivos ZIP con temática de fotos para distribuir un implante Node.js, dirigida a organizaciones hoteleras.",
+      "whyItMatters": "Aunque el objetivo principal son hoteles, las técnicas de phishing y el uso de implantes como Node.js son relevantes para los desarrolladores, ya que pueden adaptarse y utilizarse en otros contextos.",
+      "recommendedAction": "Mantenerse alerta ante correos electrónicos de phishing, especialmente aquellos que contienen archivos adjuntos inusuales, y asegurar las aplicaciones y sistemas contra posibles ataques que involucren tecnologías como Node.js."
+    },
+    {
+      "title": "New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis",
+      "url": "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
+      "source": "The Hacker News",
+      "category": "Seguridad/IA",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Se ha descubierto un nuevo malware para macOS escrito en Rust que utiliza 'prompt injection' para engañar a las herramientas de análisis asistidas por IA.",
+      "whyItMatters": "Este malware demuestra una técnica de ataque innovadora que se dirige específicamente a las herramientas de IA, lo cual es una preocupación creciente a medida que estas tecnologías se integran más en la ciberseguridad y el análisis.",
+      "recommendedAction": "Estar al tanto de las nuevas técnicas de ataque que involucran IA, como 'prompt injection', y revisar las defensas contra malware en sistemas macOS, prestando atención a cómo las herramientas de seguridad manejan los artefactos sospechosos."
+    },
+    {
+      "title": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
+      "url": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Una vulnerabilidad de día cero (CVE-2026-20245) en Cisco Catalyst SD-WAN ha sido explotada para obtener acceso root, incluso antes de su divulgación pública.",
+      "whyItMatters": "El hecho de que una vulnerabilidad crítica sea explotada como día cero subraya la importancia de la monitorización proactiva y la rápida aplicación de parches en infraestructuras críticas. Aunque no sea directamente de la pila del usuario, es un recordatorio de las amenazas persistentes.",
+      "recommendedAction": "Revisar la seguridad de los dispositivos Cisco Catalyst SD-WAN y estar atento a los avisos de seguridad y parches relacionados con CVE-2026-20245 y otras vulnerabilidades críticas."
+    },
+    {
+      "title": "CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively Exploited",
+      "url": "https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "CISA alerta sobre la explotación activa de una falla crítica (CVE-2025-67038) en dispositivos Lantronix EDS5000, instando a aplicar parches.",
+      "whyItMatters": "La explotación activa de vulnerabilidades críticas, incluso en dispositivos de IoT o infraestructura, es una señal de alerta. Los desarrolladores deben ser conscientes de las amenazas que afectan a diversos tipos de dispositivos conectados.",
+      "recommendedAction": "Verificar la presencia de dispositivos Lantronix EDS5000 en la infraestructura y aplicar los parches de seguridad recomendados por CISA para mitigar el riesgo."
+    },
+    {
+      "title": "Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root",
+      "url": "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Actores maliciosos están explotando activamente una falla crítica (CVE-2026-20230) en Cisco Unified CM, que permite escritura de archivos y escalada de privilegios.",
+      "whyItMatters": "La explotación de sistemas de comunicación empresarial es un riesgo de seguridad significativo. La existencia de pruebas de concepto (PoC) acelera la explotación, haciendo crucial la aplicación rápida de parches.",
+      "recommendedAction": "Auditar y asegurar las instalaciones de Cisco Unified Communications Manager (Unified CM) y aplicar las actualizaciones de seguridad correspondientes a CVE-2026-20230."
+    },
+    {
+      "title": "Russia Used Cellebrite on Jailed Activist's iPhone Months After Sales Cutoff",
+      "url": "https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "low",
+      "score": 3,
+      "summary": "Informes indican que Rusia utilizó herramientas forenses de Cellebrite en un iPhone, a pesar de que Cellebrite supuestamente había cortado las ventas a Rusia.",
+      "whyItMatters": "Este artículo trata sobre el uso de herramientas forenses y las complejidades de las ventas internacionales de tecnología de seguridad, pero tiene un impacto directo limitado en el desarrollo de software diario.",
+      "recommendedAction": "Estar al tanto de las discusiones sobre la cadena de suministro de herramientas de seguridad y las implicaciones de su uso por parte de actores estatales."
+    },
+    {
+      "title": "WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool",
+      "url": "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "low",
+      "score": 3,
+      "summary": "Una campaña de malware utiliza mensajes de WhatsApp para distribuir scripts VBScript que instalan herramientas de gestión remota (RMM) legítimas pero potencialmente maliciosas.",
+      "whyItMatters": "Demuestra cómo las herramientas legítimas pueden ser abusadas en campañas de malware. Si bien no se relaciona directamente con el stack del usuario, es un recordatorio de las tácticas de ingeniería social.",
+      "recommendedAction": "Ser cauteloso con los archivos adjuntos y los enlaces recibidos a través de mensajes, incluso de fuentes conocidas, y educar sobre los riesgos de ejecutar scripts desconocidos."
+    }
+  ]
+}
