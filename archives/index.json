@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-06-26T10:23:36.036Z",
+  "generatedAt": "2026-06-27T09:29:16.667Z",
   "availableDates": [
+    "2026-06-27",
     "2026-06-26",
     "2026-06-22",
     "2026-06-21",
@@ -25,20 +26,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 22,
-    "totalArticles": 245,
-    "highPriority": 111,
-    "mediumPriority": 104,
-    "lowPriority": 30,
+    "totalReports": 23,
+    "totalArticles": 260,
+    "highPriority": 118,
+    "mediumPriority": 109,
+    "lowPriority": 33,
     "averageArticlesPerReport": 11,
-    "latestReportDate": "2026-06-26",
+    "latestReportDate": "2026-06-27",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-10",
     "topCategories": [
       {
         "name": "Security",
-        "count": 81
+        "count": 90
       },
       {
         "name": "Seguridad",
@@ -60,7 +61,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 151
+        "count": 161
       },
       {
         "name": "Stack Overflow Blog",
@@ -68,11 +69,11 @@
       },
       {
         "name": "Spring Blog",
-        "count": 26
+        "count": 28
       },
       {
         "name": "GitHub Blog",
-        "count": 18
+        "count": 21
       },
       {
         "name": "Krebs on Security",
@@ -81,12 +82,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-16",
-      "high": 6,
-      "medium": 5,
-      "low": 5
-    },
     {
       "date": "2026-06-17",
       "high": 5,
@@ -122,9 +117,92 @@
       "high": 6,
       "medium": 7,
       "low": 2
+    },
+    {
+      "date": "2026-06-27",
+      "high": 7,
+      "medium": 5,
+      "low": 3
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-27",
+      "generatedAt": "2026-06-27T09:29:16.659Z",
+      "totalArticles": 15,
+      "highPriority": 7,
+      "mediumPriority": 5,
+      "lowPriority": 3,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 9
+        },
+        {
+          "name": "GitHub",
+          "count": 3
+        },
+        {
+          "name": "Spring Boot",
+          "count": 2
+        },
+        {
+          "name": "AI for Developers",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 10
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 3
+        },
+        {
+          "name": "Spring Blog",
+          "count": 2
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs",
+          "url": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se descubrió una vulnerabilidad crítica (CVE-2026-12957) en Amazon Q Developer que permitía a repositorios maliciosos ejecutar código y robar credenciales de la nube de un desarrollador. El fallo residía en la forma en que el asistente de codificación de IA manejaba los servidores Model Context Protocol (MCP). Amazon ya ha lanzado un parche.",
+          "whyItMatters": "Esta vulnerabilidad destaca los riesgos de seguridad inherentes al uso de asistentes de IA en el desarrollo de software. La capacidad de un repositorio malicioso para ejecutar código y robar credenciales representa una amenaza significativa para la seguridad del desarrollador y la infraestructura de la nube.",
+          "recommendedAction": "Los desarrolladores que utilizan Amazon Q Developer deben actualizar inmediatamente cualquier integración afectada y revisar las configuraciones de sus repositorios. Se recomienda precaución al confiar en repositorios de fuentes desconocidas o no verificadas."
+        },
+        {
+          "title": "Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack",
+          "url": "https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una nueva evolución de ataques a la cadena de suministro que involucra al malware Miasma (parte de la familia Mini Shai-Hulud y Hades). Este malware ha comprometido paquetes npm, incluido LeoPlatform y RStreams, y ha explotado flujos de trabajo de GitHub Actions. El ataque también se ha propagado al ecosistema de Go.",
+          "whyItMatters": "Este incidente subraya la creciente amenaza de los ataques a la cadena de suministro, que comprometen componentes de software legítimos para distribuir malware. La explotación de GitHub Actions y paquetes npm populares afecta directamente a los desarrolladores y sus pipelines de CI/CD.",
+          "recommendedAction": "Los equipos deben auditar sus dependencias de npm y los flujos de trabajo de GitHub Actions en busca de actividad sospechosa. Se recomienda implementar prácticas de seguridad rigurosas en la cadena de suministro, como la verificación de la integridad de los paquetes y la monitorización de los logs de GitHub Actions."
+        },
+        {
+          "title": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws",
+          "url": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
+          "source": "The Hacker News",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 9,
+          "summary": "OpenAI ha lanzado una versión mejorada de su modelo GPT-5.5-Cyber como parte de su iniciativa Daybreak. Este modelo de IA está diseñado para ayudar a los defensores a identificar y parchear vulnerabilidades de software de manera más eficiente, realizando análisis profundos en grandes bases de código.",
+          "whyItMatters": "La aplicación de modelos de IA avanzados como GPT-5.5-Cyber para la seguridad del software es un avance significativo. Permite a los desarrolladores y equipos de seguridad abordar las vulnerabilidades de forma proactiva y rápida, mejorando la postura de seguridad general del software.",
+          "recommendedAction": "Los equipos de desarrollo y seguridad deben explorar cómo herramientas impulsadas por IA como GPT-5.5-Cyber pueden integrarse en sus flujos de trabajo para la detección y remediación de vulnerabilidades. Mantenerse al tanto de estas herramientas puede mejorar la eficiencia y efectividad de las prácticas de seguridad."
+        }
+      ]
+    },
     {
       "date": "2026-06-26",
       "generatedAt": "2026-06-26T10:23:36.027Z",
