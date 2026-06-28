@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-06-27T09:29:16.667Z",
+  "generatedAt": "2026-06-28T09:57:32.723Z",
   "availableDates": [
+    "2026-06-28",
     "2026-06-27",
     "2026-06-26",
     "2026-06-22",
@@ -26,20 +27,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 23,
-    "totalArticles": 260,
-    "highPriority": 118,
-    "mediumPriority": 109,
+    "totalReports": 24,
+    "totalArticles": 275,
+    "highPriority": 131,
+    "mediumPriority": 111,
     "lowPriority": 33,
     "averageArticlesPerReport": 11,
-    "latestReportDate": "2026-06-27",
+    "latestReportDate": "2026-06-28",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
-    "highestRiskDay": "2026-06-10",
+    "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 90
+        "count": 103
       },
       {
         "name": "Seguridad",
@@ -47,7 +48,7 @@
       },
       {
         "name": "AI",
-        "count": 14
+        "count": 15
       },
       {
         "name": "Backend",
@@ -61,7 +62,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 161
+        "count": 175
       },
       {
         "name": "Stack Overflow Blog",
@@ -73,7 +74,7 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 21
+        "count": 22
       },
       {
         "name": "Krebs on Security",
@@ -82,12 +83,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-17",
-      "high": 5,
-      "medium": 5,
-      "low": 1
-    },
     {
       "date": "2026-06-19",
       "high": 6,
@@ -123,9 +118,84 @@
       "high": 7,
       "medium": 5,
       "low": 3
+    },
+    {
+      "date": "2026-06-28",
+      "high": 13,
+      "medium": 2,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-28",
+      "generatedAt": "2026-06-28T09:57:32.714Z",
+      "totalArticles": 15,
+      "highPriority": 13,
+      "mediumPriority": 2,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 13
+        },
+        {
+          "name": "AI",
+          "count": 1
+        },
+        {
+          "name": "Productivity",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 14
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards",
+          "url": "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html",
+          "source": "The Hacker News",
+          "category": "AI",
+          "priority": "high",
+          "score": 9,
+          "summary": "OpenAI ha lanzado tres versiones de GPT-5.6 (Sol, Terra y Luna) en acceso limitado a algunas empresas. GPT-5.6 Sol es el modelo más potente, Terra equilibra eficiencia y potencia, y Luna está optimizado para velocidad y asequibilidad. El despliegue incluye mayores salvaguardas cibernéticas.",
+          "whyItMatters": "Este lanzamiento es importante porque representa un avance significativo en los modelos de lenguaje grandes, con un enfoque explícito en la seguridad. Los desarrolladores que trabajan con IA deben estar al tanto de estas nuevas capacidades y las medidas de seguridad implementadas.",
+          "recommendedAction": "Investigar las capacidades de GPT-5.6 Sol y las nuevas medidas de seguridad de OpenAI. Considerar cómo estas mejoras podrían aplicarse en proyectos de IA propios o afectar la seguridad de las aplicaciones existentes."
+        },
+        {
+          "title": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
+          "url": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "La Inteligencia rusa habría utilizado mensajes de soporte falsos para robar credenciales de mensajería de funcionarios gubernamentales, militares y activistas en Ucrania, Europa y EE. UU., según el Servicio de Seguridad de Ucrania y el FBI.",
+          "whyItMatters": "Este incidente destaca una táctica de ingeniería social sofisticada utilizada por actores estatales. Es crucial para los desarrolladores y organizaciones estar al tanto de estas amenazas para protegerse contra el robo de credenciales y asegurar las comunicaciones.",
+          "recommendedAction": "Revisar y reforzar las políticas de seguridad sobre la verificación de comunicaciones y la autenticación de usuarios. Educar a los equipos sobre los riesgos de phishing y ingeniería social, especialmente aquellos que involucran solicitudes de información sensible."
+        },
+        {
+          "title": "CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue",
+          "url": "https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "La CISA ha añadido una vulnerabilidad crítica de ejecución remota de código (RCE) en el software PTC Windchill a su catálogo de Vulnerabilidades Explotadas Conocidas (KEV), debido a la evidencia de explotación activa.",
+          "whyItMatters": "Las vulnerabilidades RCE son de alta prioridad ya que permiten a los atacantes tomar control total de un sistema. La inclusión en el catálogo KEV de CISA indica que esta falla está siendo activamente explotada, lo que requiere atención inmediata.",
+          "recommendedAction": "Verificar si se utilizan productos PTC Windchill y aplicar los parches o mitigaciones recomendados por PTC y CISA de inmediato. Priorizar la corrección de esta vulnerabilidad para prevenir posibles ataques."
+        }
+      ]
+    },
     {
       "date": "2026-06-27",
       "generatedAt": "2026-06-27T09:29:16.659Z",
