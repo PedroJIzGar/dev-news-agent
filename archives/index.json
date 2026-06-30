@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-06-28T09:57:32.723Z",
+  "generatedAt": "2026-06-30T10:32:01.632Z",
   "availableDates": [
+    "2026-06-30",
     "2026-06-28",
     "2026-06-27",
     "2026-06-26",
@@ -27,20 +28,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 24,
-    "totalArticles": 275,
-    "highPriority": 131,
-    "mediumPriority": 111,
+    "totalReports": 25,
+    "totalArticles": 290,
+    "highPriority": 140,
+    "mediumPriority": 117,
     "lowPriority": 33,
-    "averageArticlesPerReport": 11,
-    "latestReportDate": "2026-06-28",
+    "averageArticlesPerReport": 12,
+    "latestReportDate": "2026-06-30",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 103
+        "count": 116
       },
       {
         "name": "Seguridad",
@@ -52,7 +53,7 @@
       },
       {
         "name": "Backend",
-        "count": 11
+        "count": 12
       },
       {
         "name": "Java/Spring Boot",
@@ -62,7 +63,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 175
+        "count": 187
       },
       {
         "name": "Stack Overflow Blog",
@@ -70,11 +71,11 @@
       },
       {
         "name": "Spring Blog",
-        "count": 28
+        "count": 29
       },
       {
         "name": "GitHub Blog",
-        "count": 22
+        "count": 24
       },
       {
         "name": "Krebs on Security",
@@ -83,12 +84,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-19",
-      "high": 6,
-      "medium": 9,
-      "low": 3
-    },
     {
       "date": "2026-06-20",
       "high": 8,
@@ -124,9 +119,88 @@
       "high": 13,
       "medium": 2,
       "low": 0
+    },
+    {
+      "date": "2026-06-30",
+      "high": 9,
+      "medium": 6,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-06-30",
+      "generatedAt": "2026-06-30T10:32:01.623Z",
+      "totalArticles": 15,
+      "highPriority": 9,
+      "mediumPriority": 6,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 13
+        },
+        {
+          "name": "Dev Tools",
+          "count": 1
+        },
+        {
+          "name": "Backend",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 2
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Progress Kemp LoadMaster Flaw Could Let Attackers Run Root Commands Pre-Auth",
+          "url": "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una vulnerabilidad crítica en Progress Kemp LoadMaster (CVE-2026-8037) permite a atacantes no autenticados ejecutar comandos como root en el dispositivo a través de su API. Tiene una puntuación CVSS de 9.8.",
+          "whyItMatters": "Esta vulnerabilidad de alta criticidad permite la ejecución remota de comandos sin autenticación, lo que podría llevar a un control total del sistema comprometido. Es crucial para la seguridad de los dispositivos de balanceo de carga.",
+          "recommendedAction": "Actualizar inmediatamente las instancias de Progress Kemp LoadMaster que tengan la API habilitada para mitigar el riesgo de explotación."
+        },
+        {
+          "title": "Inside the Advisory Database and what happens when vulnerability volume breaks records",
+          "url": "https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records/",
+          "source": "GitHub Blog",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "El blog de GitHub detalla el aumento en los reportes de vulnerabilidades procesados por la Base de Datos de Avisos de GitHub, explicando las causas y las respuestas del equipo.",
+          "whyItMatters": "Comprender cómo se manejan las vulnerabilidades y el aumento de su volumen es crucial para la seguridad de la cadena de suministro de software. GitHub es una plataforma central para el desarrollo y la seguridad.",
+          "recommendedAction": "Seguir las directrices y estar atento a los avisos de seguridad publicados en la Base de Datos de Avisos de GitHub para gestionar proactivamente los riesgos en tus proyectos."
+        },
+        {
+          "title": "Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild",
+          "url": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una vulnerabilidad crítica (CVE-2026-46817) en Oracle E-Business Suite, específicamente en Oracle Payments, está siendo explotada activamente. Permite la escalada de privilegios y la toma de control de instancias vulnerables.",
+          "whyItMatters": "La explotación activa de una vulnerabilidad crítica en un software empresarial importante como Oracle E-Business Suite representa un riesgo significativo. La falla permite el control de la instancia, lo que puede tener graves consecuencias.",
+          "recommendedAction": "Aplicar los parches y las contramedidas recomendadas por Oracle para CVE-2026-46817 inmediatamente si utilizas Oracle E-Business Suite."
+        }
+      ]
+    },
     {
       "date": "2026-06-28",
       "generatedAt": "2026-06-28T09:57:32.714Z",

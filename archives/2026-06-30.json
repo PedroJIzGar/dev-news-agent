@@ -1,0 +1,205 @@
+{
+  "date": "2026-06-30",
+  "generatedAt": "2026-06-30T10:32:01.623Z",
+  "totalArticles": 15,
+  "summary": {
+    "highPriority": 9,
+    "mediumPriority": 6,
+    "lowPriority": 0,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 13
+      },
+      {
+        "name": "Dev Tools",
+        "count": 1
+      },
+      {
+        "name": "Backend",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 12
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 2
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Progress Kemp LoadMaster Flaw Could Let Attackers Run Root Commands Pre-Auth",
+      "url": "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una vulnerabilidad crítica en Progress Kemp LoadMaster (CVE-2026-8037) permite a atacantes no autenticados ejecutar comandos como root en el dispositivo a través de su API. Tiene una puntuación CVSS de 9.8.",
+      "whyItMatters": "Esta vulnerabilidad de alta criticidad permite la ejecución remota de comandos sin autenticación, lo que podría llevar a un control total del sistema comprometido. Es crucial para la seguridad de los dispositivos de balanceo de carga.",
+      "recommendedAction": "Actualizar inmediatamente las instancias de Progress Kemp LoadMaster que tengan la API habilitada para mitigar el riesgo de explotación."
+    },
+    {
+      "title": "Apple Patches 30+ iOS, macOS, Safari Flaws, Including AI-Discovered WebKit Bugs",
+      "url": "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Apple ha lanzado actualizaciones de seguridad para iOS, macOS y Safari, corrigiendo más de 30 fallos. Cuatro de estas vulnerabilidades en WebKit fueron descubiertas utilizando herramientas de IA como Anthropic Claude y OpenAI Codex Security.",
+      "whyItMatters": "La corrección de vulnerabilidades críticas en sistemas operativos y navegadores es fundamental para la seguridad del usuario. El uso de IA para descubrirlas resalta una nueva frontera en la ciberseguridad.",
+      "recommendedAction": "Aplicar las últimas actualizaciones de seguridad de Apple en todos los dispositivos iOS y macOS, y actualizar Safari para protegerse contra estas fallas."
+    },
+    {
+      "title": "Highlights from Git 2.55",
+      "url": "https://github.blog/open-source/git/highlights-from-git-2-55/",
+      "source": "GitHub Blog",
+      "category": "Dev Tools",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Se detallan las características y cambios más interesantes introducidos en la versión 2.55 de Git, una herramienta esencial para el control de versiones y el desarrollo de software.",
+      "whyItMatters": "Mantenerse al día con las nuevas versiones de herramientas de desarrollo clave como Git es importante para aprovechar las últimas mejoras en funcionalidad y eficiencia.",
+      "recommendedAction": "Revisar las notas de la versión de Git 2.55 para entender las nuevas funcionalidades y considerar la actualización si es relevante para tu flujo de trabajo."
+    },
+    {
+      "title": "236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers",
+      "url": "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Se descubrió que más de 236,000 sitios que utilizan el framework de desarrollo DCloud Uni-App se han empleado en estafas de criptomonedas, phishing y drenaje de billeteras, a menudo usando plantillas de inversión fraudulentas.",
+      "whyItMatters": "Destaca cómo las herramientas legítimas pueden ser abusadas para fines maliciosos. Es importante ser consciente de las posibles vulnerabilidades o usos indebidos de frameworks populares.",
+      "recommendedAction": "Estar alerta ante sitios web que utilicen este framework, especialmente si promocionan oportunidades de inversión sospechosas o solicitan información sensible."
+    },
+    {
+      "title": "Inside the Advisory Database and what happens when vulnerability volume breaks records",
+      "url": "https://github.blog/security/supply-chain-security/inside-the-advisory-database-and-what-happens-when-vulnerability-volume-breaks-records/",
+      "source": "GitHub Blog",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "El blog de GitHub detalla el aumento en los reportes de vulnerabilidades procesados por la Base de Datos de Avisos de GitHub, explicando las causas y las respuestas del equipo.",
+      "whyItMatters": "Comprender cómo se manejan las vulnerabilidades y el aumento de su volumen es crucial para la seguridad de la cadena de suministro de software. GitHub es una plataforma central para el desarrollo y la seguridad.",
+      "recommendedAction": "Seguir las directrices y estar atento a los avisos de seguridad publicados en la Base de Datos de Avisos de GitHub para gestionar proactivamente los riesgos en tus proyectos."
+    },
+    {
+      "title": "Mustang Panda Uses Zoho WorkDrive as Command Channel in Indian Government Attacks",
+      "url": "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "El grupo de espionaje alineado con China, Mustang Panda, está utilizando Zoho WorkDrive como canal de comando en sus campañas contra el gobierno indio, desplegando nuevo malware.",
+      "whyItMatters": "Muestra cómo los servicios en la nube legítimos pueden ser abusados por actores de amenazas avanzados, lo que subraya la importancia de la seguridad en la configuración y el monitoreo de servicios en la nube.",
+      "recommendedAction": "Revisar las configuraciones de seguridad y los logs de auditoría de servicios en la nube como Zoho WorkDrive para detectar actividades sospechosas y patrones de uso inusuales."
+    },
+    {
+      "title": "Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild",
+      "url": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una vulnerabilidad crítica (CVE-2026-46817) en Oracle E-Business Suite, específicamente en Oracle Payments, está siendo explotada activamente. Permite la escalada de privilegios y la toma de control de instancias vulnerables.",
+      "whyItMatters": "La explotación activa de una vulnerabilidad crítica en un software empresarial importante como Oracle E-Business Suite representa un riesgo significativo. La falla permite el control de la instancia, lo que puede tener graves consecuencias.",
+      "recommendedAction": "Aplicar los parches y las contramedidas recomendadas por Oracle para CVE-2026-46817 inmediatamente si utilizas Oracle E-Business Suite."
+    },
+    {
+      "title": "Why Post-Quantum Cryptography Starts With Credentials",
+      "url": "https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Se discute cómo la criptografía post-cuántica es un desafío inminente que comenzará afectando la seguridad de las credenciales, ya que las computadoras cuánticas podrán romper la criptografía de clave pública actual.",
+      "whyItMatters": "La computación cuántica representa una amenaza futura para la seguridad de los datos cifrados hoy en día. Comprender sus implicaciones, especialmente en la gestión de credenciales, es vital para la planificación a largo plazo.",
+      "recommendedAction": "Considerar las implicaciones de la criptografía post-cuántica en las estrategias de seguridad actuales y futuras, especialmente en la protección de credenciales y datos sensibles."
+    },
+    {
+      "title": "Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw",
+      "url": "https://thehackernews.com/2026/06/public-poc-released-for-critical.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Existe un proof-of-concept (PoC) público para CVE-2026-55200, una vulnerabilidad crítica en la librería libssh2 que puede causar corrupción de memoria y posible ejecución de código en el cliente SSH al conectarse a un servidor malicioso.",
+      "whyItMatters": "La disponibilidad de un PoC público para una vulnerabilidad crítica aumenta significativamente el riesgo de explotación. Afecta a la librería cliente de SSH, un componente común en muchas aplicaciones.",
+      "recommendedAction": "Actualizar la librería libssh2 a una versión segura (posteriores a la 1.11.1) y revisar sistemas que dependan de ella para mitigar el riesgo de explotación."
+    },
+    {
+      "title": "Gamaredon Expands Ukraine Attacks with New Malware and Cloud Service Abuse",
+      "url": "https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "El grupo APT ruso Gamaredon ha evolucionado sus ataques contra Ucrania utilizando nuevo malware y abusando de servicios en la nube, lanzando múltiples campañas de spear-phishing.",
+      "whyItMatters": "Demuestra la continua sofisticación y adaptación de los actores de amenazas patrocinados por estados. El uso de servicios en la nube como infraestructura de C&C es una táctica común.",
+      "recommendedAction": "Mantenerse informado sobre las tácticas y técnicas de grupos APT como Gamaredon, y fortalecer las defensas contra el spear-phishing y el abuso de servicios en la nube."
+    },
+    {
+      "title": "This Week in Spring - June 30th, 2026",
+      "url": "https://spring.io/blog/2026/06/30/this-week-in-spring-june-30-2026",
+      "source": "Spring Blog",
+      "category": "Backend",
+      "priority": "high",
+      "score": 9,
+      "summary": "Resumen semanal de noticias y actualizaciones importantes relacionadas con el ecosistema de Spring, incluyendo Spring Boot, Spring Framework y otros proyectos.",
+      "whyItMatters": "Para desarrolladores que trabajan con Java y Spring Boot, mantenerse al día con las novedades y actualizaciones de este framework es fundamental para mejorar la productividad y la calidad del código.",
+      "recommendedAction": "Revisar las novedades de la semana en Spring para estar al tanto de nuevas funcionalidades, correcciones de errores y mejoras en la plataforma."
+    },
+    {
+      "title": "New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials",
+      "url": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Una nueva técnica llamada 'BioShocking' engaña a navegadores y asistentes basados en IA para que filtren las credenciales de usuario, haciéndoles creer que están participando en un juego.",
+      "whyItMatters": "Esta técnica resalta nuevas vulnerabilidades emergentes en la intersección de la IA y la seguridad web. La confianza de la IA en las interacciones del usuario puede ser explotada, afectando la seguridad de las credenciales.",
+      "recommendedAction": "Ser cauteloso al interactuar con aplicaciones o extensiones que utilizan IA, especialmente aquellas que solicitan o manejan credenciales, y verificar su autenticidad."
+    },
+    {
+      "title": "Malicious Perplexity Chrome Extension Intercepted Searches and Address Bar Input",
+      "url": "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Se descubrió una extensión maliciosa de Chrome que se hacía pasar por el motor de búsqueda de IA Perplexity, registrando las búsquedas de los usuarios y el texto de la barra de direcciones antes de redirigirlos a resultados reales.",
+      "whyItMatters": "Las extensiones del navegador, especialmente las que simulan ser herramientas de IA populares, pueden ser un vector para el robo de información. La confianza del usuario en la herramienta puede ser explotada.",
+      "recommendedAction": "Instalar solo extensiones de navegador de fuentes confiables y revisar cuidadosamente los permisos solicitados. Desinstalar extensiones sospechosas o que no se utilicen."
+    },
+    {
+      "title": "WhatsApp is Finally Getting Usernames to Help Keep Phone Numbers Private",
+      "url": "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "WhatsApp introduce nombres de usuario opcionales para que los usuarios puedan conectarse sin necesidad de compartir sus números de teléfono, mejorando la privacidad.",
+      "whyItMatters": "La protección de la privacidad del usuario es un aspecto importante de la seguridad. La introducción de nombres de usuario en WhatsApp es un paso positivo para reducir la exposición de los números de teléfono.",
+      "recommendedAction": "Considerar la posibilidad de utilizar la función de nombres de usuario de WhatsApp para mejorar tu privacidad en la plataforma."
+    },
+    {
+      "title": "⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More",
+      "url": "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Recopilación semanal de noticias de ciberseguridad que incluye fallos en el kernel de Linux, tácticas de malware con IA, backdoors de grupos como Turla y robo de información.",
+      "whyItMatters": "Ofrece una visión general rápida de las amenazas y vulnerabilidades recientes en el panorama de la seguridad, lo que ayuda a mantenerse informado sobre tendencias y riesgos importantes.",
+      "recommendedAction": "Consultar resúmenes semanales como este para obtener una visión general de las últimas amenazas y vulnerabilidades de seguridad, y profundizar en los temas de mayor interés."
+    }
+  ]
+}
