@@ -1,0 +1,213 @@
+{
+  "date": "2026-07-03",
+  "generatedAt": "2026-07-03T10:05:36.790Z",
+  "totalArticles": 15,
+  "summary": {
+    "highPriority": 12,
+    "mediumPriority": 2,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 6
+      },
+      {
+        "name": "AI / Security",
+        "count": 4
+      },
+      {
+        "name": "DevOps / Security",
+        "count": 2
+      },
+      {
+        "name": "Security / AI",
+        "count": 1
+      },
+      {
+        "name": "Java / Spring / AI",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 12
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 2
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
+      "url": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Han surgido informes sobre una nueva amenaza llamada ChocoPoC, un troyano diseñado para robar datos, que se oculta en repositorios de pruebas de concepto (PoC) falsos en GitHub. Estos repositorios pretenden explotar vulnerabilidades recientes y están dirigidos a investigadores de seguridad.",
+      "whyItMatters": "Los atacantes se dirigen a investigadores de seguridad utilizando repositorios falsos en GitHub. Esto representa un riesgo significativo para cualquiera que descargue y ejecute código de fuentes no verificadas, especialmente en el contexto de la búsqueda de vulnerabilidades. El robo de contraseñas guardadas, cookies y el acceso a la máquina son las consecuencias directas.",
+      "recommendedAction": "Mantente extremadamente cauteloso al descargar y ejecutar código de repositorios de PoC en GitHub. Verifica siempre la fuente y la autenticidad antes de la ejecución. Considera usar entornos aislados para probar el código sospechoso."
+    },
+    {
+      "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials",
+      "url": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Los grupos de ransomware están explotando la vulnerabilidad Citrix Bleed 2 (CVE-2025-5777) para obtener acceso inicial. Las tácticas comunes incluyen el uso de herramientas legítimas de gestión y monitorización remota (RMM), acceso a credenciales y procedimientos manuales para el movimiento lateral.",
+      "whyItMatters": "Esta noticia destaca cómo las vulnerabilidades críticas y las tácticas de movimiento lateral continúan siendo explotadas por ransomware. La mención de Citrix Bleed 2 indica la persistencia de amenazas relacionadas con esta vulnerabilidad, afectando la seguridad de las infraestructuras.",
+      "recommendedAction": "Asegúrate de que tus sistemas estén parcheados contra la vulnerabilidad Citrix Bleed 2. Revisa y fortalece las medidas de seguridad en torno a las herramientas RMM y el acceso a credenciales. Implementa la monitorización para detectar movimientos laterales sospechosos."
+    },
+    {
+      "title": "Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints",
+      "url": "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html",
+      "source": "The Hacker News",
+      "category": "AI / Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Actores maliciosos están explotando una vulnerabilidad crítica de ejecución remota de código (RCE) en Langflow (CVE-2026-33017) para desplegar mineros de Monero en aplicaciones de IA expuestas. La vulnerabilidad tiene una puntuación CVSS de 9.3 y permite la ejecución sin autenticación.",
+      "whyItMatters": "Este es un claro ejemplo de cómo las vulnerabilidades en herramientas de IA, como Langflow, pueden ser explotadas para comprometer sistemas. La explotación para minería de criptomonedas consume recursos y puede ser una puerta de entrada para ataques más graves. Es crucial asegurar las aplicaciones de IA expuestas.",
+      "recommendedAction": "Asegura inmediatamente los endpoints de tus aplicaciones de IA, especialmente si utilizas Langflow. Aplica parches para CVE-2026-33017 tan pronto como estén disponibles. Realiza auditorías de seguridad en tus aplicaciones de IA y limita la exposición de los endpoints a redes de confianza."
+    },
+    {
+      "title": "6 security settings every GitHub maintainer should enable this week",
+      "url": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/",
+      "source": "GitHub Blog",
+      "category": "DevOps / Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "El blog de GitHub destaca seis configuraciones de seguridad gratuitas que todo mantenedor de proyectos debería habilitar para hacer sus repositorios significativamente más difíciles de atacar.",
+      "whyItMatters": "Para cualquier desarrollador que utilice GitHub, especialmente aquellos que mantienen proyectos, conocer y aplicar estas configuraciones de seguridad es fundamental. Cierran puertas de entrada fáciles para atacantes y mejoran la postura de seguridad general de los repositorios.",
+      "recommendedAction": "Revisa y habilita las seis configuraciones de seguridad recomendadas por GitHub en tus repositorios. Esto incluye, entre otras, la autenticación de dos factores (2FA) y la revisión de dependencias."
+    },
+    {
+      "title": "282 iOS AI Apps Leak API Keys and Open AI Proxy Access in Network Traffic Study",
+      "url": "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
+      "source": "The Hacker News",
+      "category": "Security / AI",
+      "priority": "high",
+      "score": 9,
+      "summary": "Un estudio revela que 282 aplicaciones de IA para iOS filtran claves de API y acceso a proxies de OpenAI a través de tráfico de red no cifrado. Esto permite a cualquiera interceptar y utilizar estas credenciales.",
+      "whyItMatters": "La fuga de claves de API y tokens de acceso en aplicaciones móviles de IA es una grave vulnerabilidad de seguridad. Permite el uso no autorizado de servicios de IA a costa del desarrollador o proveedor, y puede ser un vector para ataques posteriores. Es crucial para los desarrolladores de backend y frontend ser conscientes de esto.",
+      "recommendedAction": "Si desarrollas aplicaciones que interactúan con APIs de IA, asegúrate de que las claves de API y los tokens se manejen de forma segura. Evita transmitirlos en texto plano y considera mecanismos de autenticación más robustos. Los usuarios deben ser cautelosos con las aplicaciones de IA de terceros."
+    },
+    {
+      "title": "A Bootiful Podcast: Sébastien Deleuze on the latest-and-greatest in Spring AI and Spring Framework",
+      "url": "https://spring.io/blog/2026/07/02/a-bootiful-podcast-sebastien-deleuze",
+      "source": "Spring Blog",
+      "category": "Java / Spring / AI",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Este episodio del podcast 'A Bootiful Podcast' presenta a Sébastien Deleuze, quien discute las novedades y lo más destacado en el ecosistema de Spring AI y el Spring Framework.",
+      "whyItMatters": "Para los desarrolladores que utilizan Spring Boot y están interesados en integrar capacidades de IA en sus aplicaciones, este podcast ofrece información valiosa sobre las últimas herramientas y enfoques dentro del ecosistema Spring.",
+      "recommendedAction": "Escucha este episodio del podcast para mantenerte actualizado sobre las últimas tendencias y características en Spring AI y Spring Framework. Es una buena oportunidad para aprender sobre nuevas formas de integrar IA en tus proyectos Spring."
+    },
+    {
+      "title": "How GitHub maintains compliance for open source dependencies",
+      "url": "https://github.blog/enterprise-software/governance-and-compliance/how-github-maintains-compliance-for-open-source-dependencies/",
+      "source": "GitHub Blog",
+      "category": "DevOps / Open Source",
+      "priority": "medium",
+      "score": 6,
+      "summary": "GitHub detalla cómo su Oficina de Programas de Código Abierto utiliza su propia herramienta de cumplimiento de licencias para gestionar dependencias de código abierto a gran escala.",
+      "whyItMatters": "La gestión de dependencias de código abierto es crucial para el cumplimiento de licencias y la seguridad. Comprender cómo una plataforma como GitHub aborda esto puede proporcionar información valiosa para equipos que gestionan sus propias dependencias.",
+      "recommendedAction": "Explora las prácticas de GitHub para la gestión de dependencias de código abierto. Considera cómo puedes aplicar principios similares en tus propios proyectos para asegurar el cumplimiento de licencias y reducir riesgos."
+    },
+    {
+      "title": "ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API",
+      "url": "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Se ha descubierto un nuevo malware llamado Umbrij, vinculado al actor de amenazas ToddyCat, que abusa de OAuth para acceder a cuentas de Gmail a través de la API de Google. El malware se centra en el acceso a comunicaciones por correo electrónico corporativo.",
+      "whyItMatters": "Este ataque resalta cómo las APIs y los flujos de autenticación como OAuth pueden ser abusados para obtener acceso no autorizado, incluso a servicios populares como Gmail. La seguridad de las APIs es fundamental, especialmente para aplicaciones empresariales.",
+      "recommendedAction": "Revisa la configuración de OAuth en tus aplicaciones que utilizan la API de Google. Implementa medidas de seguridad adicionales para proteger el acceso a cuentas corporativas y monitoriza la actividad sospechosa relacionada con el acceso a través de APIs."
+    },
+    {
+      "title": "SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation",
+      "url": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Microsoft SharePoint Server tiene una vulnerabilidad crítica de ejecución remota de código (CVE-2026-45659) que está siendo activamente explotada. La CISA la ha añadido a su catálogo de Vulnerabilidades Explotadas Conocidas (KEV).",
+      "whyItMatters": "Las vulnerabilidades en plataformas de colaboración como SharePoint son de alto riesgo, especialmente cuando se explotan activamente. La inclusión en el catálogo KEV de CISA subraya la urgencia de parchear esta falla para prevenir compromisos.",
+      "recommendedAction": "Prioriza la aplicación de parches para la vulnerabilidad CVE-2026-45659 en todas las instancias de Microsoft SharePoint Server. Verifica si tus sistemas han sido comprometidos y aplica las recomendaciones de seguridad de Microsoft."
+    },
+    {
+      "title": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters",
+      "url": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
+      "source": "The Hacker News",
+      "category": "DevOps / Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una vulnerabilidad sin parchear en el componente repo-server de Argo CD, una herramienta popular para desplegar en Kubernetes, permite a atacantes no autenticados tomar el control total de los clústeres de Kubernetes.",
+      "whyItMatters": "Argo CD es fundamental en muchos pipelines de CI/CD y despliegues en Kubernetes. Una vulnerabilidad que permite la toma de control del clúster es extremadamente crítica y representa un riesgo significativo para la infraestructura gestionada por esta herramienta.",
+      "recommendedAction": "Si utilizas Argo CD, verifica la seguridad de tu componente repo-server. Como no hay parche disponible, considera medidas de mitigación como la restricción del acceso a la red al puerto del repo-server o la implementación de escudos de red hasta que se publique una solución."
+    },
+    {
+      "title": "Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands",
+      "url": "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html",
+      "source": "The Hacker News",
+      "category": "AI / Security",
+      "priority": "high",
+      "score": 10,
+      "summary": "Dos vulnerabilidades críticas en Cursor, un editor de código con IA, permiten que la inyección de prompts escape del sandbox de seguridad y ejecute comandos arbitrarios en la máquina del desarrollador (CVE-2026-50548 y CVE-2026-50549).",
+      "whyItMatters": "Estas vulnerabilidades son extremadamente graves para los desarrolladores que utilizan herramientas de IA como Cursor. La capacidad de ejecutar comandos arbitrarios a través de prompts maliciosos puede llevar a la ejecución remota de código, robo de datos y compromiso total del sistema.",
+      "recommendedAction": "Los desarrolladores que usan Cursor deben ser extremadamente cautelosos con los prompts que introducen. Aplica parches para CVE-2026-50548 y CVE-2026-50549 tan pronto como estén disponibles. Considera limitar la exposición de tu entorno de desarrollo mientras estas vulnerabilidades estén activas."
+    },
+    {
+      "title": "Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts",
+      "url": "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Una falla crítica de ejecución remota de código (RCE) en Progress Kemp LoadMaster (CVE-2026-8037), que permite la inyección de comandos del sistema operativo, está siendo activamente explotada.",
+      "whyItMatters": "Los balanceadores de carga como Kemp LoadMaster son componentes críticos de la infraestructura de red. Una vulnerabilidad RCE pre-autenticación que se explota activamente representa un riesgo muy alto para la disponibilidad y seguridad de los servicios.",
+      "recommendedAction": "Aplica parches de inmediato a Progress Kemp LoadMaster para la vulnerabilidad CVE-2026-8037. Implementa medidas de seguridad adicionales para proteger tus balanceadores de carga y monitoriza de cerca el tráfico de red en busca de actividad sospechosa."
+    },
+    {
+      "title": "AI-Generated Browser Ransomware Abuses Chromium API on Windows, Linux, macOS, Android",
+      "url": "https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html",
+      "source": "The Hacker News",
+      "category": "AI / Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Investigadores han descubierto un nuevo ransomware generado por IA que abusa de la API de Chromium para operar completamente dentro del navegador en múltiples sistemas operativos, incluyendo Windows, Linux, macOS y Android.",
+      "whyItMatters": "Este es un desarrollo preocupante donde la IA se utiliza para crear malware más sofisticado y polimórfico. La capacidad de este ransomware para operar dentro del navegador y afectar a múltiples plataformas amplía significativamente su potencial de daño.",
+      "recommendedAction": "Mantente informado sobre las últimas amenazas de ransomware generadas por IA. Asegúrate de que tus sistemas estén protegidos con software antivirus y antimalware actualizado. Considera el uso de extensiones de seguridad del navegador y prácticas de navegación seguras."
+    },
+    {
+      "title": "Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export Controls",
+      "url": "https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html",
+      "source": "The Hacker News",
+      "category": "AI / Security",
+      "priority": "low",
+      "score": 3,
+      "summary": "Anthropic ha vuelto a poner en línea su modelo Claude Fable 5 a nivel mundial después de que el Departamento de Comercio de EE. UU. levantara los controles de exportación impuestos previamente.",
+      "whyItMatters": "Esta noticia es relevante para el campo de la IA, indicando la dinámica regulatoria y de acceso a modelos avanzados. Aunque no es directamente una vulnerabilidad o herramienta técnica, muestra cómo las políticas pueden afectar la disponibilidad de tecnologías de IA.",
+      "recommendedAction": "Mantente al tanto de las noticias sobre el acceso y la regulación de modelos de IA avanzados, ya que pueden influir en las herramientas disponibles para el desarrollo."
+    },
+    {
+      "title": "Attackers Exploit SimpleHelp CVE-2026-48558 to Deploy TaskWeaver and Djinn Stealer",
+      "url": "https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Un actor de amenazas desconocido está explotando una vulnerabilidad crítica de bypass de autenticación en SimpleHelp (CVE-2026-48558) para desplegar dos nuevas familias de malware: TaskWeaver y Djinn Stealer.",
+      "whyItMatters": "La explotación activa de una vulnerabilidad de bypass de autenticación es una amenaza seria. Permite a atacantes no autenticados obtener acceso y desplegar malware, lo que puede llevar al robo de credenciales y otros fines maliciosos.",
+      "recommendedAction": "Asegúrate de que SimpleHelp esté actualizado y parcheado para la vulnerabilidad CVE-2026-48558. Revisa tus sistemas en busca de signos de compromiso y fortalece tus mecanismos de autenticación."
+    }
+  ]
+}

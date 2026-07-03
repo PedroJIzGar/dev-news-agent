@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-06-30T10:32:01.632Z",
+  "generatedAt": "2026-07-03T10:05:36.798Z",
   "availableDates": [
+    "2026-07-03",
     "2026-06-30",
     "2026-06-28",
     "2026-06-27",
@@ -28,20 +29,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 25,
-    "totalArticles": 290,
-    "highPriority": 140,
-    "mediumPriority": 117,
-    "lowPriority": 33,
+    "totalReports": 26,
+    "totalArticles": 305,
+    "highPriority": 152,
+    "mediumPriority": 119,
+    "lowPriority": 34,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-06-30",
+    "latestReportDate": "2026-07-03",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 116
+        "count": 122
       },
       {
         "name": "Seguridad",
@@ -63,7 +64,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 187
+        "count": 199
       },
       {
         "name": "Stack Overflow Blog",
@@ -71,11 +72,11 @@
       },
       {
         "name": "Spring Blog",
-        "count": 29
+        "count": 30
       },
       {
         "name": "GitHub Blog",
-        "count": 24
+        "count": 26
       },
       {
         "name": "Krebs on Security",
@@ -84,12 +85,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-20",
-      "high": 8,
-      "medium": 5,
-      "low": 2
-    },
     {
       "date": "2026-06-21",
       "high": 1,
@@ -125,9 +120,96 @@
       "high": 9,
       "medium": 6,
       "low": 0
+    },
+    {
+      "date": "2026-07-03",
+      "high": 12,
+      "medium": 2,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-07-03",
+      "generatedAt": "2026-07-03T10:05:36.790Z",
+      "totalArticles": 15,
+      "highPriority": 12,
+      "mediumPriority": 2,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 6
+        },
+        {
+          "name": "AI / Security",
+          "count": 4
+        },
+        {
+          "name": "DevOps / Security",
+          "count": 2
+        },
+        {
+          "name": "Security / AI",
+          "count": 1
+        },
+        {
+          "name": "Java / Spring / AI",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 2
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands",
+          "url": "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html",
+          "source": "The Hacker News",
+          "category": "AI / Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Dos vulnerabilidades críticas en Cursor, un editor de código con IA, permiten que la inyección de prompts escape del sandbox de seguridad y ejecute comandos arbitrarios en la máquina del desarrollador (CVE-2026-50548 y CVE-2026-50549).",
+          "whyItMatters": "Estas vulnerabilidades son extremadamente graves para los desarrolladores que utilizan herramientas de IA como Cursor. La capacidad de ejecutar comandos arbitrarios a través de prompts maliciosos puede llevar a la ejecución remota de código, robo de datos y compromiso total del sistema.",
+          "recommendedAction": "Los desarrolladores que usan Cursor deben ser extremadamente cautelosos con los prompts que introducen. Aplica parches para CVE-2026-50548 y CVE-2026-50549 tan pronto como estén disponibles. Considera limitar la exposición de tu entorno de desarrollo mientras estas vulnerabilidades estén activas."
+        },
+        {
+          "title": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
+          "url": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Han surgido informes sobre una nueva amenaza llamada ChocoPoC, un troyano diseñado para robar datos, que se oculta en repositorios de pruebas de concepto (PoC) falsos en GitHub. Estos repositorios pretenden explotar vulnerabilidades recientes y están dirigidos a investigadores de seguridad.",
+          "whyItMatters": "Los atacantes se dirigen a investigadores de seguridad utilizando repositorios falsos en GitHub. Esto representa un riesgo significativo para cualquiera que descargue y ejecute código de fuentes no verificadas, especialmente en el contexto de la búsqueda de vulnerabilidades. El robo de contraseñas guardadas, cookies y el acceso a la máquina son las consecuencias directas.",
+          "recommendedAction": "Mantente extremadamente cauteloso al descargar y ejecutar código de repositorios de PoC en GitHub. Verifica siempre la fuente y la autenticidad antes de la ejecución. Considera usar entornos aislados para probar el código sospechoso."
+        },
+        {
+          "title": "Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints",
+          "url": "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html",
+          "source": "The Hacker News",
+          "category": "AI / Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Actores maliciosos están explotando una vulnerabilidad crítica de ejecución remota de código (RCE) en Langflow (CVE-2026-33017) para desplegar mineros de Monero en aplicaciones de IA expuestas. La vulnerabilidad tiene una puntuación CVSS de 9.3 y permite la ejecución sin autenticación.",
+          "whyItMatters": "Este es un claro ejemplo de cómo las vulnerabilidades en herramientas de IA, como Langflow, pueden ser explotadas para comprometer sistemas. La explotación para minería de criptomonedas consume recursos y puede ser una puerta de entrada para ataques más graves. Es crucial asegurar las aplicaciones de IA expuestas.",
+          "recommendedAction": "Asegura inmediatamente los endpoints de tus aplicaciones de IA, especialmente si utilizas Langflow. Aplica parches para CVE-2026-33017 tan pronto como estén disponibles. Realiza auditorías de seguridad en tus aplicaciones de IA y limita la exposición de los endpoints a redes de confianza."
+        }
+      ]
+    },
     {
       "date": "2026-06-30",
       "generatedAt": "2026-06-30T10:32:01.623Z",
