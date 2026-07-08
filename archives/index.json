@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-07-03T10:05:36.798Z",
+  "generatedAt": "2026-07-08T09:26:05.192Z",
   "availableDates": [
+    "2026-07-08",
     "2026-07-03",
     "2026-06-30",
     "2026-06-28",
@@ -29,13 +30,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 26,
-    "totalArticles": 305,
-    "highPriority": 152,
-    "mediumPriority": 119,
+    "totalReports": 27,
+    "totalArticles": 320,
+    "highPriority": 163,
+    "mediumPriority": 123,
     "lowPriority": 34,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-07-03",
+    "latestReportDate": "2026-07-08",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -46,7 +47,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 62
+        "count": 68
       },
       {
         "name": "AI",
@@ -64,7 +65,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 199
+        "count": 211
       },
       {
         "name": "Stack Overflow Blog",
@@ -72,11 +73,11 @@
       },
       {
         "name": "Spring Blog",
-        "count": 30
+        "count": 31
       },
       {
         "name": "GitHub Blog",
-        "count": 26
+        "count": 27
       },
       {
         "name": "Krebs on Security",
@@ -85,12 +86,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-21",
-      "high": 1,
-      "medium": 0,
-      "low": 0
-    },
     {
       "date": "2026-06-22",
       "high": 3,
@@ -126,9 +121,100 @@
       "high": 12,
       "medium": 2,
       "low": 1
+    },
+    {
+      "date": "2026-07-08",
+      "high": 11,
+      "medium": 4,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-07-08",
+      "generatedAt": "2026-07-08T09:26:05.184Z",
+      "totalArticles": 15,
+      "highPriority": 11,
+      "mediumPriority": 4,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 6
+        },
+        {
+          "name": "Seguridad y Linux",
+          "count": 2
+        },
+        {
+          "name": "IA y Seguridad",
+          "count": 1
+        },
+        {
+          "name": "Seguridad y Virtualización",
+          "count": 1
+        },
+        {
+          "name": "Spring Boot",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "Angular Blog",
+          "count": 1
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
+          "url": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Actores de amenazas están intentando explotar una vulnerabilidad crítica en imágenes Docker de Gitea (CVE-2026-20896) que permite a un cliente no autenticado obtener privilegios elevados.",
+          "whyItMatters": "Esta vulnerabilidad afecta directamente a Docker y a la seguridad de los flujos de trabajo de DevOps, permitiendo un escalamiento de privilegios no autenticado.",
+          "recommendedAction": "Asegúrate de que tus imágenes Gitea Docker estén parcheadas y actualizadas. Revisa los logs en busca de intentos de explotación."
+        },
+        {
+          "title": "Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants",
+          "url": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
+          "source": "The Hacker News",
+          "category": "IA y Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una vulnerabilidad crítica en la plataforma de IA generativa Writer que podría permitir a atacantes obtener acceso a tokens de sesión de otros inquilinos.",
+          "whyItMatters": "Destaca los riesgos de seguridad inherentes a las plataformas de IA empresarial y la importancia del aislamiento de datos entre inquilinos.",
+          "recommendedAction": "Si utilizas Writer o plataformas de IA similares, verifica que las últimas actualizaciones de seguridad se hayan aplicado. Revisa las políticas de acceso y aislamiento."
+        },
+        {
+          "title": "16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems",
+          "url": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
+          "source": "The Hacker News",
+          "category": "Seguridad y Virtualización",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una falla de larga data en el hipervisor KVM de Linux (CVE-2026-53359), conocida como 'Januscape', permite a las máquinas virtuales invitadas escapar al host en sistemas Intel y AMD.",
+          "whyItMatters": "Las vulnerabilidades de escape de VM son críticas en entornos de virtualización, ya que pueden permitir a un atacante comprometido en una VM tomar control del host subyacente.",
+          "recommendedAction": "Asegúrate de que tu kernel de Linux y el software de virtualización KVM estén actualizados a las versiones que corrigen esta falla."
+        }
+      ]
+    },
     {
       "date": "2026-07-03",
       "generatedAt": "2026-07-03T10:05:36.790Z",

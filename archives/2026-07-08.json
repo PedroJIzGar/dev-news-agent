@@ -1,0 +1,217 @@
+{
+  "date": "2026-07-08",
+  "generatedAt": "2026-07-08T09:26:05.184Z",
+  "totalArticles": 15,
+  "summary": {
+    "highPriority": 11,
+    "mediumPriority": 4,
+    "lowPriority": 0,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 6
+      },
+      {
+        "name": "Seguridad y Linux",
+        "count": 2
+      },
+      {
+        "name": "IA y Seguridad",
+        "count": 1
+      },
+      {
+        "name": "Seguridad y Virtualización",
+        "count": 1
+      },
+      {
+        "name": "Spring Boot",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 12
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      },
+      {
+        "name": "Angular Blog",
+        "count": 1
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
+      "url": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Actores de amenazas están intentando explotar una vulnerabilidad crítica en imágenes Docker de Gitea (CVE-2026-20896) que permite a un cliente no autenticado obtener privilegios elevados.",
+      "whyItMatters": "Esta vulnerabilidad afecta directamente a Docker y a la seguridad de los flujos de trabajo de DevOps, permitiendo un escalamiento de privilegios no autenticado.",
+      "recommendedAction": "Asegúrate de que tus imágenes Gitea Docker estén parcheadas y actualizadas. Revisa los logs en busca de intentos de explotación."
+    },
+    {
+      "title": "Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants",
+      "url": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
+      "source": "The Hacker News",
+      "category": "IA y Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se ha descubierto una vulnerabilidad crítica en la plataforma de IA generativa Writer que podría permitir a atacantes obtener acceso a tokens de sesión de otros inquilinos.",
+      "whyItMatters": "Destaca los riesgos de seguridad inherentes a las plataformas de IA empresarial y la importancia del aislamiento de datos entre inquilinos.",
+      "recommendedAction": "Si utilizas Writer o plataformas de IA similares, verifica que las últimas actualizaciones de seguridad se hayan aplicado. Revisa las políticas de acceso y aislamiento."
+    },
+    {
+      "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
+      "url": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "BeyondTrust ha corregido dos vulnerabilidades críticas de bypass de autenticación en sus productos Remote Support y Privileged Remote Access.",
+      "whyItMatters": "Las vulnerabilidades de bypass de autenticación son de alta criticidad ya que permiten a atacantes no autenticados tomar control de sistemas.",
+      "recommendedAction": "Aplica las actualizaciones de seguridad de BeyondTrust Remote Support y Privileged Remote Access inmediatamente si los utilizas."
+    },
+    {
+      "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
+      "url": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Se ha descubierto una puerta trasera de administración oculta en el firmware de varios routers Tenda, permitiendo el acceso administrativo sin necesidad de contraseña.",
+      "whyItMatters": "Esta vulnerabilidad afecta a dispositivos de red de uso común y expone a los usuarios a accesos no autorizados y control del dispositivo.",
+      "recommendedAction": "Verifica si utilizas routers Tenda y actualiza su firmware a la última versión disponible. Considera reemplazar dispositivos si las actualizaciones no están disponibles o no son confiables."
+    },
+    {
+      "title": "16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems",
+      "url": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
+      "source": "The Hacker News",
+      "category": "Seguridad y Virtualización",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una falla de larga data en el hipervisor KVM de Linux (CVE-2026-53359), conocida como 'Januscape', permite a las máquinas virtuales invitadas escapar al host en sistemas Intel y AMD.",
+      "whyItMatters": "Las vulnerabilidades de escape de VM son críticas en entornos de virtualización, ya que pueden permitir a un atacante comprometido en una VM tomar control del host subyacente.",
+      "recommendedAction": "Asegúrate de que tu kernel de Linux y el software de virtualización KVM estén actualizados a las versiones que corrigen esta falla."
+    },
+    {
+      "title": "Spring Office Hours Podcast: S5E17 - Spring Boot 4.1 with Phil Webb",
+      "url": "https://spring.io/blog/2026/07/06/spring-office-hours-podcast-S5E17",
+      "source": "Spring Blog",
+      "category": "Spring Boot",
+      "priority": "high",
+      "score": 9,
+      "summary": "Episodio del podcast Spring Office Hours discutiendo las novedades de Spring Boot 4.1 con Phil Webb.",
+      "whyItMatters": "Proporciona información de primera mano sobre la próxima versión de Spring Boot, incluyendo nuevas características y cambios importantes.",
+      "recommendedAction": "Escucha el podcast para mantenerte al día con las últimas tendencias y desarrollos en Spring Boot."
+    },
+    {
+      "title": "Community Engineering, Agentic Coding, and Real-User Component Testing ️",
+      "url": "https://blog.angular.dev/community-engineering-agentic-coding-and-real-user-component-testing-%EF%B8%8F-15c768142043?source=rss----447683c3d9a3---4",
+      "source": "Angular Blog",
+      "category": "Angular",
+      "priority": "medium",
+      "score": 8,
+      "summary": "Este artículo del blog de Angular explora la ingeniería comunitaria, la codificación agentiva y las pruebas de componentes con usuarios reales.",
+      "whyItMatters": "Ofrece perspectivas sobre enfoques modernos de desarrollo y testing en Angular, incluyendo el uso de IA (agentic coding) y la importancia de las pruebas de usuario real.",
+      "recommendedAction": "Explora estas nuevas ideas en tus proyectos de Angular, especialmente en lo que respecta a la mejora de la calidad y la colaboración."
+    },
+    {
+      "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
+      "url": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html",
+      "source": "The Hacker News",
+      "category": "Seguridad y Linux",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una vulnerabilidad de 15 años en el kernel de Linux, llamada GhostLock (CVE-2026-43499), permite a cualquier usuario con acceso de inicio de sesión obtener control total de root y escapar de contenedores.",
+      "whyItMatters": "Esta falla antigua y generalizada en distribuciones Linux importantes representa un riesgo significativo para la seguridad, permitiendo escalada de privilegios.",
+      "recommendedAction": "Asegúrate de que tus sistemas Linux estén actualizados con los últimos parches del kernel que corrigen GhostLock."
+    },
+    {
+      "title": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
+      "url": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "La CISA ha añadido cuatro vulnerabilidades explotadas activamente en productos de Adobe, Joomla y Langflow a su catálogo de Vulnerabilidades Explotadas Conocidas (KEV).",
+      "whyItMatters": "Indica que estas vulnerabilidades están siendo atacadas activamente en el mundo real, lo que las hace una alta prioridad para la mitigación.",
+      "recommendedAction": "Prioriza la aplicación de parches para las vulnerabilidades CVE-2026-48282 y las otras tres añadidas al catálogo KEV de CISA si utilizas alguno de los productos afectados."
+    },
+    {
+      "title": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts",
+      "url": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Herramientas de phishing como DEBULL están explotando el flujo de código de dispositivo de Microsoft para secuestrar cuentas de Microsoft 365.",
+      "whyItMatters": "Muestra una nueva táctica de ataque que utiliza flujos de autenticación legítimos de forma maliciosa para eludir las defensas y comprometer cuentas.",
+      "recommendedAction": "Educa a los usuarios sobre este tipo de ataques de phishing y las tácticas de ingeniería social. Habilita y revisa las configuraciones de seguridad de Microsoft 365, como la autenticación multifactor."
+    },
+    {
+      "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
+      "url": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
+      "source": "The Hacker News",
+      "category": "GitHub y Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una vulnerabilidad en GitHub permite que una issue pública en un repositorio haga que los flujos de trabajo agentivos filtren datos de repositorios privados.",
+      "whyItMatters": "Impacta directamente en la seguridad de los datos en GitHub, especialmente para organizaciones que utilizan flujos de trabajo automatizados y tienen repositorios privados.",
+      "recommendedAction": "Revisa los permisos de los flujos de trabajo agentivos en GitHub. Limita el acceso de los agentes solo a los repositorios necesarios y monitoriza la actividad de las issues."
+    },
+    {
+      "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
+      "url": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Se sospecha que hackers alineados con China están explotando vulnerabilidades en el software de webmail Roundcube, incluyendo CVE-2024-42009, contra universidades.",
+      "whyItMatters": "Resalta la importancia de mantener actualizado el software de correo electrónico y las aplicaciones web críticas, especialmente en instituciones educativas.",
+      "recommendedAction": "Si utilizas Roundcube, asegúrate de que esté actualizado a una versión que corrija las vulnerabilidades conocidas. Considera implementar capas adicionales de seguridad para el acceso al correo electrónico."
+    },
+    {
+      "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
+      "url": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
+      "source": "The Hacker News",
+      "category": "Seguridad y Linux",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una nueva falla en el kernel de Linux llamada \"Bad Epoll\" (CVE-2026-46242) permite a usuarios sin privilegios obtener control root en sistemas Linux y Android.",
+      "whyItMatters": "Esta vulnerabilidad crítica permite la escalada de privilegios, afectando a una amplia gama de dispositivos y sistemas operativos basados en Linux.",
+      "recommendedAction": "Asegúrate de que tus sistemas Linux y dispositivos Android estén actualizados con los parches más recientes del kernel para mitigar la falla \"Bad Epoll\"."
+    },
+    {
+      "title": "North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets",
+      "url": "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html",
+      "source": "The Hacker News",
+      "category": "Seguridad y Desarrollo",
+      "priority": "high",
+      "score": 8,
+      "summary": "Se han identificado paquetes npm maliciosos vinculados a Corea del Norte que imitan herramientas de polyfill de Rollup para robar secretos de desarrolladores.",
+      "whyItMatters": "Demuestra un riesgo significativo para los desarrolladores que utilizan paquetes de terceros en sus flujos de trabajo de Node.js, ya que las dependencias pueden ser un vector de ataque.",
+      "recommendedAction": "Sé extremadamente cauteloso con las dependencias de npm, especialmente aquellas que parecen nuevas o sospechosas. Verifica la autenticidad y el origen de los paquetes antes de incluirlos en tus proyectos."
+    },
+    {
+      "title": "Q1 2026 Innovation Graph update: Open source collaboration is accelerating worldwide",
+      "url": "https://github.blog/news-insights/policy-news-and-insights/q1-2026-innovation-graph-update-open-source-collaboration-is-accelerating-worldwide/",
+      "source": "GitHub Blog",
+      "category": "GitHub y Open Source",
+      "priority": "medium",
+      "score": 7,
+      "summary": "El informe 'Innovation Graph' de GitHub para el primer trimestre de 2026 muestra una aceleración en la colaboración de código abierto a nivel mundial.",
+      "whyItMatters": "Proporciona datos sobre el estado y el crecimiento del ecosistema de código abierto, lo cual es relevante para cualquier desarrollador que participe o dependa de proyectos de código abierto.",
+      "recommendedAction": "Explora las tendencias y los hallazgos del informe para comprender mejor el panorama del desarrollo de código abierto."
+    }
+  ]
+}
