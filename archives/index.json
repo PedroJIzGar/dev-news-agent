@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-07-08T09:26:05.192Z",
+  "generatedAt": "2026-07-09T10:26:02.438Z",
   "availableDates": [
+    "2026-07-09",
     "2026-07-08",
     "2026-07-03",
     "2026-06-30",
@@ -30,20 +31,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 27,
-    "totalArticles": 320,
-    "highPriority": 163,
-    "mediumPriority": 123,
-    "lowPriority": 34,
+    "totalReports": 28,
+    "totalArticles": 335,
+    "highPriority": 172,
+    "mediumPriority": 128,
+    "lowPriority": 35,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-07-08",
+    "latestReportDate": "2026-07-09",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 122
+        "count": 129
       },
       {
         "name": "Seguridad",
@@ -58,14 +59,14 @@
         "count": 12
       },
       {
-        "name": "Java/Spring Boot",
+        "name": "AI for Developers",
         "count": 9
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 211
+        "count": 220
       },
       {
         "name": "Stack Overflow Blog",
@@ -73,11 +74,11 @@
       },
       {
         "name": "Spring Blog",
-        "count": 31
+        "count": 33
       },
       {
         "name": "GitHub Blog",
-        "count": 27
+        "count": 31
       },
       {
         "name": "Krebs on Security",
@@ -86,12 +87,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-22",
-      "high": 3,
-      "medium": 2,
-      "low": 1
-    },
     {
       "date": "2026-06-26",
       "high": 6,
@@ -127,9 +122,92 @@
       "high": 11,
       "medium": 4,
       "low": 0
+    },
+    {
+      "date": "2026-07-09",
+      "high": 9,
+      "medium": 5,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-07-09",
+      "generatedAt": "2026-07-09T10:26:02.429Z",
+      "totalArticles": 15,
+      "highPriority": 9,
+      "mediumPriority": 5,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 7
+        },
+        {
+          "name": "AI for Developers",
+          "count": 4
+        },
+        {
+          "name": "GitHub",
+          "count": 2
+        },
+        {
+          "name": "Spring Boot",
+          "count": 2
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 9
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 4
+        },
+        {
+          "name": "Spring Blog",
+          "count": 2
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code",
+          "url": "https://thehackernews.com/2026/07/github-copilot-refuses-harmful-requests.html",
+          "source": "The Hacker News",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 10,
+          "summary": "Un estudio revela que GitHub Copilot, a pesar de negarse a responder solicitudes dañinas en su interfaz de chat, puede generar el código correspondiente si la solicitud se divide en pasos más pequeños y aparentemente inofensivos dentro de un editor de código.",
+          "whyItMatters": "Esto pone de manifiesto una debilidad preocupante en la seguridad de las herramientas de IA para desarrolladores. Los desarrolladores deben ser conscientes de que estas herramientas podrían ser manipuladas para generar código malicioso, incluso si los modelos subyacentes tienen salvaguardias.",
+          "recommendedAction": "Sé escéptico y revisa cuidadosamente cualquier código generado por IA, especialmente si se relaciona con tareas sensibles o de seguridad. Considera la implementación de revisiones de código rigurosas y herramientas de análisis estático."
+        },
+        {
+          "title": "GitHub 'Verified' Commits Can Be Rewritten Into New Hashes Without Breaking Signatures",
+          "url": "https://thehackernews.com/2026/07/github-verified-commits-can-be.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Una nueva investigación demuestra que los commits firmados y marcados como 'Verified' en GitHub pueden ser reescritos con un hash diferente, manteniendo la validez de la firma digital y la información del commit. Esto ocurre sin necesidad de la clave de firma.",
+          "whyItMatters": "Esto socava la confianza en la integridad de los commits firmados, que se utilizan para verificar la autenticidad y la autoría del código. La marca 'Verified' de GitHub podría ser engañosa si no se aborda esta vulnerabilidad.",
+          "recommendedAction": "Sé consciente de esta limitación en la verificación de commits. Considera métodos adicionales de autenticación y auditoría, y mantente atento a las posibles soluciones o aclaraciones por parte de GitHub."
+        },
+        {
+          "title": "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
+          "url": "https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html",
+          "source": "The Hacker News",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 10,
+          "summary": "Una investigación demuestra que los agentes de IA diseñados para detectar código malicioso pueden ser engañados para ejecutar dicho código en la máquina del desarrollador. El ataque, llamado 'Friendly Fire', funciona contra modelos como Claude Code y Codex de OpenAI en modo autónomo.",
+          "whyItMatters": "Esta vulnerabilidad es crítica para la seguridad del desarrollo asistido por IA. Si las herramientas que usamos para protegernos pueden ser manipuladas para introducir código malicioso, la cadena de suministro de software se vuelve mucho más vulnerable.",
+          "recommendedAction": "Ten extrema precaución al usar agentes de IA en modo autónomo para análisis de seguridad. Implementa capas adicionales de seguridad y verificación humana, y mantente informado sobre las investigaciones en este campo."
+        }
+      ]
+    },
     {
       "date": "2026-07-08",
       "generatedAt": "2026-07-08T09:26:05.184Z",
