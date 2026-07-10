@@ -1,0 +1,209 @@
+{
+  "date": "2026-07-10",
+  "generatedAt": "2026-07-10T10:24:22.222Z",
+  "totalArticles": 15,
+  "summary": {
+    "highPriority": 9,
+    "mediumPriority": 5,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 10
+      },
+      {
+        "name": "AI para Desarrolladores",
+        "count": 3
+      },
+      {
+        "name": "Backend",
+        "count": 1
+      },
+      {
+        "name": "Dev Tools",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 13
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
+      "url": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Los atacantes están aprovechando cuentas de GitHub inactivas y tokens OAuth comprometidos para enumerar organizaciones, repositorios y cuentas de usuario corporativas a través de la API de GitHub, haciéndose pasar por desarrolladores legítimos.",
+      "whyItMatters": "Esta táctica dificulta la detección de actividades maliciosas, ya que los atacantes se mezclan con el tráfico normal de la plataforma. Comprender y mitigar estos métodos es crucial para proteger los activos corporativos en GitHub.",
+      "recommendedAction": "Revisar y auditar el acceso a las organizaciones de GitHub, implementar políticas de higiene de cuentas más estrictas y monitorizar patrones de acceso inusuales a la API."
+    },
+    {
+      "title": "npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk",
+      "url": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "npm versión 12 ahora deshabilita los scripts de instalación de paquetes por defecto y deprecó los tokens de acceso granular (GATs) que eludían la autenticación de dos factores (2FA), mejorando la seguridad de la cadena de suministro de software.",
+      "whyItMatters": "Los scripts de instalación maliciosos han sido una vector de ataque común. Deshabilitarlos por defecto reduce significativamente el riesgo de comprometer la cadena de suministro. La deprecación de GATs también fortalece la autenticación.",
+      "recommendedAction": "Actualizar a npm 12 para beneficiarse de la protección por defecto y revisar las configuraciones de scripts de instalación en proyectos existentes. Asegurarse de que se utilizan métodos de autenticación robustos."
+    },
+    {
+      "title": "A Bootiful Podcast: Spring Boot legend Moritz Halbritter on the latest and greatest in Spring Boot 4 and 4.1",
+      "url": "https://spring.io/blog/2026/07/09/a-bootiful-podcast-moritz-halbritter",
+      "source": "Spring Blog",
+      "category": "Backend",
+      "priority": "high",
+      "score": 10,
+      "summary": "Episodio del podcast Bootiful con Moritz Halbritter, discutiendo las novedades y características de las versiones Spring Boot 4 y 4.1.",
+      "whyItMatters": "Mantenerse al día con las últimas versiones de Spring Boot es esencial para aprovechar las nuevas funcionalidades, mejoras de rendimiento y parches de seguridad. Este episodio ofrece información directa de un experto.",
+      "recommendedAction": "Escuchar el podcast para entender las nuevas características y mejoras de Spring Boot 4 y 4.1. Considerar la planificación de la actualización a estas versiones."
+    },
+    {
+      "title": "How GitHub gave every repository a durable owner",
+      "url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
+      "source": "GitHub Blog",
+      "category": "Dev Tools",
+      "priority": "medium",
+      "score": 7,
+      "summary": "GitHub implementó un proceso para asignar propietarios verificados a cada repositorio activo, archivando los inactivos, para mejorar la gestión y seguridad de sus repositorios.",
+      "whyItMatters": "La claridad en la propiedad de los repositorios es fundamental para la seguridad y la colaboración efectiva. Esta iniciativa de GitHub aborda un problema común en grandes plataformas de código.",
+      "recommendedAction": "Evaluar las prácticas de propiedad y gestión de repositorios en sus propios proyectos de GitHub y considerar la implementación de políticas similares para mejorar la organización y la seguridad."
+    },
+    {
+      "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets",
+      "url": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una vulnerabilidad en la generación de frases de recuperación de billeteras de criptomonedas, denominada 'Ill Bloom', está siendo explotada por atacantes para drenar fondos, afectando a usuarios que utilizan software de billetera vulnerable.",
+      "whyItMatters": "Esta vulnerabilidad resalta la importancia de la seguridad en la generación de claves y la gestión de activos digitales. Los desarrolladores deben ser conscientes de estos riesgos al interactuar o construir sistemas que manejen información sensible.",
+      "recommendedAction": "Verificar la seguridad de las bibliotecas o sistemas que generan frases de recuperación. Para los usuarios, asegurarse de que sus billeteras de criptomonedas estén actualizadas y sean de fuentes confiables."
+    },
+    {
+      "title": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
+      "url": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Resumen semanal de amenazas de seguridad, incluyendo secuestro de buckets en la nube, escalada de privilegios en Windows y fraudes globales, destacando vulnerabilidades causadas por configuraciones laxas y errores administrativos.",
+      "whyItMatters": "Este artículo proporciona una visión general de diversas amenazas de seguridad activas, muchas de las cuales surgen de configuraciones erróneas comunes. Estar al tanto de estos incidentes ayuda a prevenir ataques similares.",
+      "recommendedAction": "Revisar las configuraciones de seguridad de los servicios en la nube, especialmente los permisos de acceso a buckets. Mantener los sistemas actualizados y seguir las mejores prácticas de seguridad para prevenir la escalada de privilegios."
+    },
+    {
+      "title": "Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks",
+      "url": "https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Un exnegociador de ransomware ha sido sentenciado a casi seis años de prisión por su participación en la conspiración con operadores de ransomware BlackCat y por colaborar con otros profesionales de ciberseguridad en ataques de extorsión.",
+      "whyItMatters": "Este caso subraya las consecuencias legales de participar en actividades de ransomware, incluso de forma indirecta. Sirve como advertencia sobre la implicación en la cadena de ataques de ransomware.",
+      "recommendedAction": "Ser consciente de las implicaciones legales y éticas al tratar con incidentes de seguridad y ransomware. No participar ni facilitar actividades ilegales en el ciberespacio."
+    },
+    {
+      "title": "Summer of Clearinghouses",
+      "url": "https://thehackernews.com/2026/07/summer-of-clearinghouses.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "low",
+      "score": 3,
+      "summary": "Artículo que discute el concepto de 'clearinghouses' en seguridad, presentándolo como una iniciativa para centralizar y gestionar hallazgos de seguridad y la aplicación de correcciones, con la plataforma Athena como ejemplo.",
+      "whyItMatters": "Aunque el concepto de 'clearinghouses' puede ser útil para la gestión de vulnerabilidades, este artículo parece más una presentación de un producto específico ('Athena') que una profunda exploración técnica.",
+      "recommendedAction": "Evaluar la utilidad de las 'clearinghouses' para la gestión de vulnerabilidades en su organización, pero proceder con cautela ante anuncios de productos específicos."
+    },
+    {
+      "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
+      "url": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
+      "source": "The Hacker News",
+      "category": "AI para Desarrolladores",
+      "priority": "high",
+      "score": 9,
+      "summary": "Agentes de codificación basados en IA, como Claude Code y Cursor, están activando accidentalmente las reglas de seguridad de puntos finales diseñadas para detectar intrusos humanos, debido a su comportamiento similar al de un ataque.",
+      "whyItMatters": "Esto indica un desafío emergente en la seguridad: la dificultad de distinguir entre la actividad legítima de la IA y las acciones maliciosas. Los desarrolladores que usan estas herramientas deben estar al tanto de posibles falsos positivos y cómo gestionarlos.",
+      "recommendedAction": "Monitorizar las alertas de seguridad relacionadas con el uso de herramientas de IA. Colaborar con los equipos de seguridad para ajustar las reglas y mejorar la detección discriminatoria entre la actividad de IA y las amenazas reales."
+    },
+    {
+      "title": "New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware",
+      "url": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
+      "source": "The Hacker News",
+      "category": "AI para Desarrolladores",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se ha descubierto un nuevo tipo de ataque llamado 'HalluSquatting' que se aprovecha de la tendencia de los asistentes de codificación IA a inventar nombres de proyectos inexistentes, engañándolos para que instalen malware.",
+      "whyItMatters": "Esta técnica explota una debilidad en la forma en que las IAs generan y sugieren código, lo que representa un riesgo directo para la seguridad de la cadena de suministro de software si los desarrolladores confían ciegamente en las sugerencias.",
+      "recommendedAction": "Ser escéptico ante las sugerencias de nombres de paquetes o proyectos de asistentes de IA. Siempre verificar la existencia y la reputación de cualquier biblioteca o herramienta antes de integrarla en su código."
+    },
+    {
+      "title": "New Ghost Phishing Wave Is Breaking Traditional Email Security",
+      "url": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una nueva ola de 'phishing fantasma' está evadiendo las defensas tradicionales de seguridad de correo electrónico, ocultando las páginas maliciosas hasta que se cargan en el navegador de la víctima, lo que plantea riesgos para el acceso a Microsoft 365 y datos sensibles.",
+      "whyItMatters": "Las técnicas de phishing evolucionan para evadir las defensas existentes. La incapacidad de los filtros de URL tradicionales para detectar estos ataques requiere un enfoque de seguridad más robusto y consciente del usuario.",
+      "recommendedAction": "Implementar y mantener soluciones de seguridad de correo electrónico avanzadas. Educar a los usuarios sobre las tácticas de phishing más recientes y la importancia de verificar la legitimidad de los enlaces y las solicitudes."
+    },
+    {
+      "title": "The Verification Step Is the New ATO Battleground in 2026",
+      "url": "https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "La lucha contra el robo de cuentas (ATO) se está trasladando a la fase de verificación, ya que las defensas contra el credential stuffing tradicional se han fortalecido. Las passkeys están ganando terreno como método de autenticación más seguro.",
+      "whyItMatters": "Comprender esta evolución en las tácticas de ATO es crucial para proteger las cuentas de usuario. La dependencia de la autenticación robusta, como las passkeys, es clave para mitigar estos riesgos.",
+      "recommendedAction": "Adoptar y promover el uso de métodos de autenticación fuertes, como las passkeys, en sus aplicaciones. Mantenerse informado sobre las últimas técnicas de ATO y cómo contrarrestarlas."
+    },
+    {
+      "title": "China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware",
+      "url": "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 5,
+      "summary": "Un actor de amenazas vinculado a China, UAT-7810, está expandiendo su red ORB (Operational Relay Box) utilizando un nuevo malware llamado LONGLEASH, comprometiendo dispositivos de red expuestos a Internet.",
+      "whyItMatters": "El avance de actores de amenazas persistentes avanzados (APT) y el uso de malware sofisticado son de interés para la comunidad de seguridad. La expansión de redes de proxy como ORB puede facilitar ataques más amplios y difíciles de rastrear.",
+      "recommendedAction": "Asegurar los dispositivos de red expuestos a Internet mediante la aplicación de parches, configuraciones seguras y monitorización de tráfico inusual. Mantenerse informado sobre las actividades de APTs conocidas."
+    },
+    {
+      "title": "Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker",
+      "url": "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 5,
+      "summary": "Una declaración judicial revela que un ID de dispositivo de Windows persistente fue clave para que el FBI rastreara a un presunto hacker del grupo Scattered Spider, vinculándolo a una intrusión en una joyería.",
+      "whyItMatters": "Este caso ilustra cómo los identificadores únicos de dispositivos, incluso en entornos como Windows, pueden ser utilizados por las fuerzas del orden para rastrear actividades maliciosas, destacando la importancia de la gestión de identidades digitales.",
+      "recommendedAction": "Ser consciente de los identificadores de dispositivo y su posible uso en investigaciones de seguridad. Implementar medidas de seguridad para proteger el acceso a las cuentas y dispositivos."
+    },
+    {
+      "title": "What Changes When Your Software Supply Chain Includes AI Writing Your Code?",
+      "url": "https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html",
+      "source": "The Hacker News",
+      "category": "AI para Desarrolladores",
+      "priority": "high",
+      "score": 8,
+      "summary": "La integración de IA en la escritura de código introduce nuevas complejidades en la seguridad de la cadena de suministro de software, yendo más allá de la simple verificación de dependencias a la evaluación de la seguridad del propio código generado por IA.",
+      "whyItMatters": "A medida que las herramientas de IA se vuelven más comunes en el desarrollo, es crucial entender cómo afectan la seguridad. El código generado por IA puede introducir vulnerabilidades imprevistas o depender de fuentes no seguras.",
+      "recommendedAction": "Desarrollar estrategias para evaluar la seguridad del código generado por IA. Integrar herramientas de análisis estático y dinámico que puedan manejar código de diversas fuentes, incluidas las generadas por IA."
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-07-09T10:26:02.438Z",
+  "generatedAt": "2026-07-10T10:24:22.231Z",
   "availableDates": [
+    "2026-07-10",
     "2026-07-09",
     "2026-07-08",
     "2026-07-03",
@@ -31,13 +32,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 28,
-    "totalArticles": 335,
-    "highPriority": 172,
-    "mediumPriority": 128,
-    "lowPriority": 35,
+    "totalReports": 29,
+    "totalArticles": 350,
+    "highPriority": 181,
+    "mediumPriority": 133,
+    "lowPriority": 36,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-07-09",
+    "latestReportDate": "2026-07-10",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -48,7 +49,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 68
+        "count": 78
       },
       {
         "name": "AI",
@@ -56,7 +57,7 @@
       },
       {
         "name": "Backend",
-        "count": 12
+        "count": 13
       },
       {
         "name": "AI for Developers",
@@ -66,7 +67,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 220
+        "count": 233
       },
       {
         "name": "Stack Overflow Blog",
@@ -74,11 +75,11 @@
       },
       {
         "name": "Spring Blog",
-        "count": 33
+        "count": 34
       },
       {
         "name": "GitHub Blog",
-        "count": 31
+        "count": 32
       },
       {
         "name": "Krebs on Security",
@@ -87,12 +88,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-26",
-      "high": 6,
-      "medium": 7,
-      "low": 2
-    },
     {
       "date": "2026-06-27",
       "high": 7,
@@ -128,9 +123,92 @@
       "high": 9,
       "medium": 5,
       "low": 1
+    },
+    {
+      "date": "2026-07-10",
+      "high": 9,
+      "medium": 5,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-07-10",
+      "generatedAt": "2026-07-10T10:24:22.222Z",
+      "totalArticles": 15,
+      "highPriority": 9,
+      "mediumPriority": 5,
+      "lowPriority": 1,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 10
+        },
+        {
+          "name": "AI para Desarrolladores",
+          "count": 3
+        },
+        {
+          "name": "Backend",
+          "count": 1
+        },
+        {
+          "name": "Dev Tools",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 13
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "A Bootiful Podcast: Spring Boot legend Moritz Halbritter on the latest and greatest in Spring Boot 4 and 4.1",
+          "url": "https://spring.io/blog/2026/07/09/a-bootiful-podcast-moritz-halbritter",
+          "source": "Spring Blog",
+          "category": "Backend",
+          "priority": "high",
+          "score": 10,
+          "summary": "Episodio del podcast Bootiful con Moritz Halbritter, discutiendo las novedades y características de las versiones Spring Boot 4 y 4.1.",
+          "whyItMatters": "Mantenerse al día con las últimas versiones de Spring Boot es esencial para aprovechar las nuevas funcionalidades, mejoras de rendimiento y parches de seguridad. Este episodio ofrece información directa de un experto.",
+          "recommendedAction": "Escuchar el podcast para entender las nuevas características y mejoras de Spring Boot 4 y 4.1. Considerar la planificación de la actualización a estas versiones."
+        },
+        {
+          "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
+          "url": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Los atacantes están aprovechando cuentas de GitHub inactivas y tokens OAuth comprometidos para enumerar organizaciones, repositorios y cuentas de usuario corporativas a través de la API de GitHub, haciéndose pasar por desarrolladores legítimos.",
+          "whyItMatters": "Esta táctica dificulta la detección de actividades maliciosas, ya que los atacantes se mezclan con el tráfico normal de la plataforma. Comprender y mitigar estos métodos es crucial para proteger los activos corporativos en GitHub.",
+          "recommendedAction": "Revisar y auditar el acceso a las organizaciones de GitHub, implementar políticas de higiene de cuentas más estrictas y monitorizar patrones de acceso inusuales a la API."
+        },
+        {
+          "title": "npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk",
+          "url": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "npm versión 12 ahora deshabilita los scripts de instalación de paquetes por defecto y deprecó los tokens de acceso granular (GATs) que eludían la autenticación de dos factores (2FA), mejorando la seguridad de la cadena de suministro de software.",
+          "whyItMatters": "Los scripts de instalación maliciosos han sido una vector de ataque común. Deshabilitarlos por defecto reduce significativamente el riesgo de comprometer la cadena de suministro. La deprecación de GATs también fortalece la autenticación.",
+          "recommendedAction": "Actualizar a npm 12 para beneficiarse de la protección por defecto y revisar las configuraciones de scripts de instalación en proyectos existentes. Asegurarse de que se utilizan métodos de autenticación robustos."
+        }
+      ]
+    },
     {
       "date": "2026-07-09",
       "generatedAt": "2026-07-09T10:26:02.429Z",
