@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-07-10T10:24:22.231Z",
+  "generatedAt": "2026-07-11T08:47:38.421Z",
   "availableDates": [
+    "2026-07-11",
     "2026-07-10",
     "2026-07-09",
     "2026-07-08",
@@ -32,20 +33,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 29,
-    "totalArticles": 350,
-    "highPriority": 181,
-    "mediumPriority": 133,
+    "totalReports": 30,
+    "totalArticles": 365,
+    "highPriority": 189,
+    "mediumPriority": 140,
     "lowPriority": 36,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-07-10",
+    "latestReportDate": "2026-07-11",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 129
+        "count": 141
       },
       {
         "name": "Seguridad",
@@ -61,17 +62,17 @@
       },
       {
         "name": "AI for Developers",
-        "count": 9
+        "count": 12
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 233
+        "count": 244
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 40
+        "count": 42
       },
       {
         "name": "Spring Blog",
@@ -79,21 +80,15 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 32
+        "count": 33
       },
       {
         "name": "Krebs on Security",
-        "count": 6
+        "count": 7
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-27",
-      "high": 7,
-      "medium": 5,
-      "low": 3
-    },
     {
       "date": "2026-06-28",
       "high": 13,
@@ -129,9 +124,88 @@
       "high": 9,
       "medium": 5,
       "low": 1
+    },
+    {
+      "date": "2026-07-11",
+      "high": 8,
+      "medium": 7,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-07-11",
+      "generatedAt": "2026-07-11T08:47:38.412Z",
+      "totalArticles": 15,
+      "highPriority": 8,
+      "mediumPriority": 7,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 12
+        },
+        {
+          "name": "AI for Developers",
+          "count": 3
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 11
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 2
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
+          "url": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una vulnerabilidad crítica en el cliente web clásico de Zimbra permite la ejecución de código malicioso a través de correos electrónicos especialmente diseñados. Aún no se ha asignado un identificador CVE.",
+          "whyItMatters": "Esta vulnerabilidad de Cross-Site Scripting (XSS) almacenado es grave ya que podría permitir a los atacantes ejecutar scripts maliciosos en la sesión de un usuario simplemente enviando un correo electrónico. Es crucial para la seguridad de las aplicaciones de correo electrónico empresariales.",
+          "recommendedAction": "Actualizar inmediatamente el cliente web clásico de Zimbra a la última versión disponible y estar atento a la asignación de un CVE para un seguimiento más detallado."
+        },
+        {
+          "title": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
+          "url": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Actores maliciosos comprometieron el repositorio de GitHub del proyecto Injective Labs SDK y publicaron paquetes npm maliciosos para robar claves privadas de billeteras de criptomonedas y frases semilla.",
+          "whyItMatters": "Este incidente resalta la cadena de suministro de software como un vector de ataque crítico. El compromiso de un repositorio de código confiable como GitHub y la posterior distribución de malware a través de registros de paquetes como npm es una amenaza significativa para los desarrolladores y sus aplicaciones.",
+          "recommendedAction": "Mantenerse alerta ante las vulnerabilidades en la cadena de suministro de software, verificar la integridad de las dependencias antes de integrarlas y seguir las mejores prácticas de seguridad en la gestión de repositorios y la publicación de paquetes."
+        },
+        {
+          "title": "Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws",
+          "url": "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un investigador detalló una cadena de ataque que va desde WhatsApp hasta el host, explotando tres fallas en el asistente de IA personal OpenClaw. Estas vulnerabilidades permitían el robo de credenciales, escalada de privilegios y ejecución de código arbitrario.",
+          "whyItMatters": "Este incidente demuestra cómo las vulnerabilidades en herramientas de IA, incluso las consideradas 'personales', pueden tener implicaciones de seguridad significativas. La posibilidad de ejecutar código arbitrario o robar credenciales a través de una aplicación de mensajería popular es una preocupación importante.",
+          "recommendedAction": "Revisar y aplicar las actualizaciones de seguridad para OpenClaw y otros asistentes de IA. Estar al tanto de las vulnerabilidades reportadas en software de terceros, especialmente aquellos que interactúan con otras aplicaciones."
+        }
+      ]
+    },
     {
       "date": "2026-07-10",
       "generatedAt": "2026-07-10T10:24:22.222Z",
