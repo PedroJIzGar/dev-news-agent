@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-07-11T08:47:38.421Z",
+  "generatedAt": "2026-07-12T09:02:02.825Z",
   "availableDates": [
+    "2026-07-12",
     "2026-07-11",
     "2026-07-10",
     "2026-07-09",
@@ -33,24 +34,28 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 30,
-    "totalArticles": 365,
-    "highPriority": 189,
-    "mediumPriority": 140,
+    "totalReports": 31,
+    "totalArticles": 380,
+    "highPriority": 200,
+    "mediumPriority": 144,
     "lowPriority": 36,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-07-11",
+    "latestReportDate": "2026-07-12",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 141
+        "count": 153
       },
       {
         "name": "Seguridad",
         "count": 78
+      },
+      {
+        "name": "AI for Developers",
+        "count": 15
       },
       {
         "name": "AI",
@@ -59,20 +64,16 @@
       {
         "name": "Backend",
         "count": 13
-      },
-      {
-        "name": "AI for Developers",
-        "count": 12
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 244
+        "count": 254
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 42
+        "count": 45
       },
       {
         "name": "Spring Blog",
@@ -84,17 +85,11 @@
       },
       {
         "name": "Krebs on Security",
-        "count": 7
+        "count": 9
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-28",
-      "high": 13,
-      "medium": 2,
-      "low": 0
-    },
     {
       "date": "2026-06-30",
       "high": 9,
@@ -130,9 +125,84 @@
       "high": 8,
       "medium": 7,
       "low": 0
+    },
+    {
+      "date": "2026-07-12",
+      "high": 11,
+      "medium": 4,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-07-12",
+      "generatedAt": "2026-07-12T09:02:02.811Z",
+      "totalArticles": 15,
+      "highPriority": 11,
+      "mediumPriority": 4,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 12
+        },
+        {
+          "name": "AI for Developers",
+          "count": 3
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 10
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 3
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 2
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
+          "url": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Investigadores de ciberseguridad han revelado detalles de actividad sostenida de ciberespionaje contra varias organizaciones de aplicación de la ley pakistaníes, llevada a cabo por presuntos actores de amenazas alineados con China e India entre febrero de 2024 y abril de 2026. Los activos comprometidos en la Policía de Balochistán incluían servidores que alojaban aplicaciones web para gestionar datos policiales y de ciudadanos.",
+          "whyItMatters": "Este artículo es importante porque destaca amenazas de ciberespionaje persistentes y sofisticadas dirigidas a infraestructuras críticas. Comprender estas campañas ayuda a los desarrolladores a implementar mejores defensas y a estar al tanto de las tácticas que utilizan los actores de amenazas patrocinados por estados.",
+          "recommendedAction": "Revisa las últimas tácticas de ciberespionaje y considera cómo fortalecer la seguridad de las aplicaciones web y la gestión de datos sensibles en tus proyectos."
+        },
+        {
+          "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
+          "url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "La versión 8.14.0 del paquete npm jscrambler ha sido comprometida, e instalarla ejecuta un 'infostealer' (ladrón de información) en la máquina del usuario. Esta versión maliciosa incluye un hook 'preinstall' que instala y ejecuta un binario nativo compilado para Windows, macOS y Linux.",
+          "whyItMatters": "Este incidente subraya la vulnerabilidad de las cadenas de suministro de software. Una librería popular y aparentemente confiable puede ser comprometida, afectando a miles de desarrolladores. La rápida detección por parte de Socket es notable.",
+          "recommendedAction": "Mantén un ojo en las alertas de seguridad para tus dependencias de npm. Considera herramientas de análisis de composición de software (SCA) para monitorear la seguridad de tus dependencias."
+        },
+        {
+          "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+          "url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+          "source": "Krebs on Security",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una startup de ciberseguridad que ofrecía grandes sumas por vulnerabilidades 'zero-day' está dirigida por dos teóricos de la conspiración de extrema derecha y delincuentes convictos. Sus emprendimientos anteriores incluían empresas de inteligencia falsas y una plataforma de lobby basada en IA que operaban bajo nombres supuestos.",
+          "whyItMatters": "Este artículo es una advertencia sobre la legitimidad en el espacio de la ciberseguridad. Destaca cómo individuos con historiales problemáticos pueden intentar infiltrarse en el sector, potencialmente comprometiendo la confianza y la seguridad.",
+          "recommendedAction": "Sé escéptico con las ofertas y startups de ciberseguridad que carecen de transparencia o credenciales sólidas. Verifica la reputación y el historial de las empresas con las que interactúas."
+        }
+      ]
+    },
     {
       "date": "2026-07-11",
       "generatedAt": "2026-07-11T08:47:38.412Z",
