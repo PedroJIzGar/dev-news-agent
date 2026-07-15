@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-07-12T09:02:02.825Z",
+  "generatedAt": "2026-07-15T09:09:46.539Z",
   "availableDates": [
+    "2026-07-15",
     "2026-07-12",
     "2026-07-11",
     "2026-07-10",
@@ -34,24 +35,24 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 31,
-    "totalArticles": 380,
-    "highPriority": 200,
-    "mediumPriority": 144,
-    "lowPriority": 36,
+    "totalReports": 32,
+    "totalArticles": 395,
+    "highPriority": 208,
+    "mediumPriority": 150,
+    "lowPriority": 37,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-07-12",
+    "latestReportDate": "2026-07-15",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 153
+        "count": 154
       },
       {
         "name": "Seguridad",
-        "count": 78
+        "count": 87
       },
       {
         "name": "AI for Developers",
@@ -69,7 +70,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 254
+        "count": 265
       },
       {
         "name": "Stack Overflow Blog",
@@ -77,7 +78,7 @@
       },
       {
         "name": "Spring Blog",
-        "count": 34
+        "count": 36
       },
       {
         "name": "GitHub Blog",
@@ -85,17 +86,11 @@
       },
       {
         "name": "Krebs on Security",
-        "count": 9
+        "count": 11
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-06-30",
-      "high": 9,
-      "medium": 6,
-      "low": 0
-    },
     {
       "date": "2026-07-03",
       "high": 12,
@@ -131,9 +126,92 @@
       "high": 11,
       "medium": 4,
       "low": 0
+    },
+    {
+      "date": "2026-07-15",
+      "high": 8,
+      "medium": 6,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-07-15",
+      "generatedAt": "2026-07-15T09:09:46.531Z",
+      "totalArticles": 15,
+      "highPriority": 8,
+      "mediumPriority": 6,
+      "lowPriority": 1,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 9
+        },
+        {
+          "name": "Seguridad/IA",
+          "count": 3
+        },
+        {
+          "name": "Java/Spring Boot",
+          "count": 2
+        },
+        {
+          "name": "Security",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 11
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 2
+        },
+        {
+          "name": "Spring Blog",
+          "count": 2
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Grok Build Uploaded Entire Git Repositories to xAI Storage, Not Just Files It Read",
+          "url": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 10,
+          "summary": "La herramienta CLI de codificación Grok Build de xAI subió repositorios Git completos, incluyendo el historial de commits, a un bucket de almacenamiento en la nube, en lugar de solo los archivos necesarios para una tarea. Un investigador descubrió esto al probar la versión 0.2.93.",
+          "whyItMatters": "Este incidente de seguridad es directamente relevante para los desarrolladores que usan herramientas de IA para codificar y que integran sus flujos de trabajo con Git y la nube. Subir accidentalmente repositorios completos puede exponer código sensible.",
+          "recommendedAction": "Revisar cuidadosamente los permisos y las acciones de las herramientas de IA que interactúan con sus repositorios de código. Asegurarse de que solo accedan a la información estrictamente necesaria y de que las transferencias de datos sean seguras."
+        },
+        {
+          "title": "Spring Office Hours Podcast: S5E18 - The Latest from OpenAI, Anthropic and Spring AI 2.0",
+          "url": "https://spring.io/blog/2026/07/13/spring-office-hours-podcast-S5E18",
+          "source": "Spring Blog",
+          "category": "Java/Spring Boot",
+          "priority": "high",
+          "score": 10,
+          "summary": "Episodio del podcast Spring Office Hours que cubre las últimas novedades de OpenAI, Anthropic y Spring AI 2.0. Aborda las novedades y tendencias en el ámbito de la IA aplicada al desarrollo, con un enfoque en el ecosistema Spring.",
+          "whyItMatters": "Directamente relevante para desarrolladores de Java y Spring Boot interesados en integrar IA. Spring AI 2.0 es una herramienta clave para este propósito, y conocer las últimas novedades de los principales actores de IA es fundamental para estar al día.",
+          "recommendedAction": "Escuchar este episodio del podcast para entender las capacidades y las nuevas características de Spring AI 2.0 y cómo se integran con los modelos de IA más recientes."
+        },
+        {
+          "title": "Microsoft Patches a Record 570 Security Flaws",
+          "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+          "source": "Krebs on Security",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Microsoft ha lanzado actualizaciones para corregir al menos 570 vulnerabilidades en sus sistemas operativos Windows y otro software, casi el triple que el mes anterior. La compañía atribuye este aumento a descubrimientos de vulnerabilidades asistidos por inteligencia artificial.",
+          "whyItMatters": "Aunque se centra en Windows, la noticia resalta el creciente papel de la IA en la detección de vulnerabilidades y la importancia de mantener el software actualizado, algo crucial para cualquier desarrollador.",
+          "recommendedAction": "Mantenerse informado sobre las actualizaciones de seguridad de los sistemas operativos y el software utilizado en el desarrollo. Considerar cómo la IA está impactando la seguridad."
+        }
+      ]
+    },
     {
       "date": "2026-07-12",
       "generatedAt": "2026-07-12T09:02:02.811Z",
