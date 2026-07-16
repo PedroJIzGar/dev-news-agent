@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-07-15T09:09:46.539Z",
+  "generatedAt": "2026-07-16T09:14:11.205Z",
   "availableDates": [
+    "2026-07-16",
     "2026-07-15",
     "2026-07-12",
     "2026-07-11",
@@ -35,20 +36,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 32,
-    "totalArticles": 395,
-    "highPriority": 208,
-    "mediumPriority": 150,
-    "lowPriority": 37,
+    "totalReports": 33,
+    "totalArticles": 410,
+    "highPriority": 217,
+    "mediumPriority": 155,
+    "lowPriority": 38,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-07-15",
+    "latestReportDate": "2026-07-16",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 154
+        "count": 168
       },
       {
         "name": "Seguridad",
@@ -70,7 +71,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 265
+        "count": 279
       },
       {
         "name": "Stack Overflow Blog",
@@ -82,7 +83,7 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 33
+        "count": 34
       },
       {
         "name": "Krebs on Security",
@@ -91,12 +92,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-07-03",
-      "high": 12,
-      "medium": 2,
-      "low": 1
-    },
     {
       "date": "2026-07-08",
       "high": 11,
@@ -132,9 +127,80 @@
       "high": 8,
       "medium": 6,
       "low": 1
+    },
+    {
+      "date": "2026-07-16",
+      "high": 9,
+      "medium": 5,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-07-16",
+      "generatedAt": "2026-07-16T09:14:11.196Z",
+      "totalArticles": 15,
+      "highPriority": 9,
+      "mediumPriority": 5,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 14
+        },
+        {
+          "name": "Developer Tools",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 14
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "GitHub for Beginners: Your roadmap to mastering the GitHub essentials",
+          "url": "https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/",
+          "source": "GitHub Blog",
+          "category": "Developer Tools",
+          "priority": "high",
+          "score": 10,
+          "summary": "Esta guía de GitHub explica los conceptos fundamentales del control de versiones, repositorios y pull requests, ofreciendo un camino claro para que los principiantes dominen las herramientas esenciales de GitHub.",
+          "whyItMatters": "GitHub es una herramienta indispensable para cualquier desarrollador de software, especialmente para aquellos que trabajan en equipo o buscan mejorar sus flujos de trabajo. Comprender sus fundamentos es clave para la colaboración y la gestión eficiente del código.",
+          "recommendedAction": "Si eres nuevo en GitHub o buscas reforzar tus conocimientos, revisa esta guía para familiarizarte con los conceptos y las mejores prácticas."
+        },
+        {
+          "title": "OpenAI’s GPT-Red Automates Prompt Injection Testing to Harden GPT-5.6 Sol",
+          "url": "https://thehackernews.com/2026/07/openais-gpt-red-automates-prompt.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "OpenAI ha revelado detalles de GPT-Red, un modelo interno de \"red teaming\" automatizado diseñado para descubrir vulnerabilidades de inyección de prompts. El objetivo es solucionar problemas de seguridad antes de desplegar herramientas de IA de forma masiva.",
+          "whyItMatters": "Esta noticia es crucial para desarrolladores que trabajan con IA, ya que demuestra un enfoque proactivo para identificar y mitigar vulnerabilidades de seguridad específicas de modelos de lenguaje grandes. Entender cómo se realizan estas pruebas ayuda a construir sistemas de IA más robustos y seguros.",
+          "recommendedAction": "Revisa cómo OpenAI está abordando la seguridad en sus modelos de IA. Considera aplicar principios similares en tus propios proyectos de IA para prevenir ataques de inyección de prompts."
+        },
+        {
+          "title": "OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor Apps",
+          "url": "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "El malware OkoBot, activo desde abril de 2025, está inyectando páginas de phishing para robar frases semilla (seed phrases) en aplicaciones de carteras de criptomonedas como Ledger y Trezor en máquinas Windows.",
+          "whyItMatters": "Los desarrolladores de software, especialmente aquellos que interactúan con el ecosistema de criptomonedas, deben ser conscientes de las amenazas emergentes. Este malware apunta directamente a la seguridad de los activos digitales de los usuarios, y la sofisticación del ataque requiere atención.",
+          "recommendedAction": "Sé extremadamente cauteloso con las solicitudes de frases semilla, incluso dentro de aplicaciones que parezcan legítimas. Asegúrate de que tus sistemas estén protegidos contra malware y considera el uso de carteras de hardware seguras y actualizadas."
+        }
+      ]
+    },
     {
       "date": "2026-07-15",
       "generatedAt": "2026-07-15T09:09:46.531Z",
