@@ -1,0 +1,197 @@
+{
+  "date": "2026-07-17",
+  "generatedAt": "2026-07-17T09:10:06.015Z",
+  "totalArticles": 15,
+  "summary": {
+    "highPriority": 8,
+    "mediumPriority": 6,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 12
+      },
+      {
+        "name": "AI for Developers",
+        "count": 3
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 14
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "AI Can Find Bugs, But Human Knowledge Still Proves Them",
+      "url": "https://thehackernews.com/2026/07/ai-can-find-bugs-but-human-knowledge.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Las herramientas de IA pueden agilizar la detección de errores en ciberseguridad, pero la validación humana sigue siendo crucial para confirmar y aprovechar estos hallazgos. La IA asiste en la lectura de código, generación de payloads y análisis de superficies de ataque, pero el conocimiento experto es indispensable para la prueba final.",
+      "whyItMatters": "La IA está revolucionando la ciberseguridad al mejorar la velocidad y eficiencia en la identificación de vulnerabilidades. Comprender cómo se integra la IA con la experiencia humana es vital para adoptar estas herramientas de forma efectiva y segura.",
+      "recommendedAction": "Evaluar cómo las herramientas de IA pueden complementar los flujos de trabajo de seguridad existentes y capacitar al equipo en la validación de hallazgos generados por IA."
+    },
+    {
+      "title": "New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands",
+      "url": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 10,
+      "summary": "Un nuevo ataque de inyección de datos permite a los atacantes manipular agentes de IA para que realicen acciones no deseadas, como hacer clic en enlaces maliciosos o ejecutar comandos del atacante, al corromper los datos en los que confían. Esto afecta la seguridad de interacciones con asistentes de codificación y otros agentes.",
+      "whyItMatters": "Este ataque explota la confianza de los agentes de IA en los datos de entrada, representando un riesgo significativo para la seguridad. Es crucial entender estas vulnerabilidades para proteger sistemas que integran IA, especialmente cuando interactúan con fuentes externas como GitHub.",
+      "recommendedAction": "Revisar y fortalecer los mecanismos de validación de datos de entrada para agentes de IA, y ser cauteloso al interactuar con fuentes de información externas o al permitir que agentes de IA ejecuten comandos."
+    },
+    {
+      "title": "A Bootiful Podcast: Russ Miles on Safer, More Productive Interactions with AI",
+      "url": "https://spring.io/blog/2026/07/16/a-bootiful-podcast-russ-miles",
+      "source": "Spring Blog",
+      "category": "AI for Developers",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Este episodio del podcast Bootiful explora cómo lograr interacciones más seguras y productivas con la Inteligencia Artificial, con la participación de Russ Miles.",
+      "whyItMatters": "Con la creciente integración de la IA en el desarrollo de software, comprender las mejores prácticas para una interacción segura y eficiente es fundamental para los desarrolladores, especialmente aquellos que trabajan con Spring Boot.",
+      "recommendedAction": "Escuchar el podcast para obtener perspectivas sobre cómo mejorar el uso de la IA en el desarrollo de software de manera segura y productiva."
+    },
+    {
+      "title": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
+      "url": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "La CISA ha añadido una vulnerabilidad crítica de ejecución remota de código (RCE) en Microsoft SharePoint Server (CVE-2026-58644) a su catálogo de Vulnerabilidades Explotadas Conocidas (KEV).",
+      "whyItMatters": "Las vulnerabilidades en sistemas empresariales como SharePoint son de alto impacto. Ser consciente de las vulnerabilidades añadidas al KEV es crucial para la gestión de parches y la protección de infraestructuras críticas.",
+      "recommendedAction": "Verificar si la organización utiliza Microsoft SharePoint Server y aplicar los parches correspondientes para mitigar el riesgo de explotación de CVE-2026-58644 antes de la fecha límite indicada por CISA."
+    },
+    {
+      "title": "Two Scattered Spider Hackers Get 5.5 Years Each for £29 Million TfL Hack",
+      "url": "https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 5,
+      "summary": "Dos hackers del grupo Scattered Spider han sido condenados a cinco años y medio de prisión por su implicación en el hackeo de Transport for London (TfL), que afectó a 148 sistemas y causó pérdidas millonarias.",
+      "whyItMatters": "Este caso resalta las consecuencias legales y financieras de los ciberataques a gran escala. Comprender las tácticas de grupos como Scattered Spider y el impacto de sus acciones puede informar las estrategias de defensa.",
+      "recommendedAction": "Mantenerse informado sobre las tácticas de los grupos de ciberdelincuencia y evaluar la resiliencia de los sistemas críticos ante ataques sofisticados."
+    },
+    {
+      "title": "ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories",
+      "url": "https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Un resumen de amenazas de seguridad de la semana, incluyendo spyware en trampas de juegos, ransomware de corta duración, y problemas de privacidad relacionados con la sincronización de Chrome.",
+      "whyItMatters": "Estar al tanto de las amenazas emergentes y las tácticas recurrentes es fundamental para mantener un entorno de desarrollo y producción seguro. La diversidad de amenazas cubiertas ofrece una visión general del panorama actual.",
+      "recommendedAction": "Revisar las amenazas mencionadas y evaluar si las defensas actuales son adecuadas para contrarrestarlas, prestando especial atención a las tácticas de ingeniería social y software malicioso."
+    },
+    {
+      "title": "n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another Issuer",
+      "url": "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una falla en el intercambio de tokens de la plataforma de automatización n8n permite que atacantes inicien sesión como usuarios de otro emisor, explotando una mala correspondencia en la validación de JWT (JSON Web Tokens).",
+      "whyItMatters": "Las vulnerabilidades en plataformas de automatización y gestión de flujos de trabajo pueden tener un impacto amplio. Esta falla específica en la autenticación basada en tokens es relevante para cualquier desarrollador que use o integre n8n o sistemas similares.",
+      "recommendedAction": "Si utiliza n8n, especialmente en configuraciones empresariales con múltiples emisores de tokens, revise la configuración de seguridad y aplique las actualizaciones disponibles para corregir esta vulnerabilidad."
+    },
+    {
+      "title": "New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands",
+      "url": "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Se ha identificado un nuevo malware modular llamado TELEPUZ que se propaga a través de sitios web infectados con señuelos de 'ClickFix', con el objetivo de robar datos y ejecutar comandos.",
+      "whyItMatters": "La aparición de nuevo malware siempre representa un riesgo. Comprender cómo se distribuye y qué capacidades tiene TELEPUZ ayuda a estar alerta ante posibles vectores de ataque y a mejorar las defensas.",
+      "recommendedAction": "Educar a los usuarios sobre los peligros de hacer clic en enlaces sospechosos o descargar archivos de fuentes no confiables, y asegurarse de que las soluciones de seguridad estén actualizadas."
+    },
+    {
+      "title": "20+ Hijacked Government Websites Became an Attack Channel",
+      "url": "https://thehackernews.com/2026/07/20-hijacked-government-websites.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Más de 20 sitios web del gobierno brasileño fueron secuestrados y convertidos en canales para la distribución de malware como parte de una campaña activa de PhantomEnigma.",
+      "whyItMatters": "El uso de sitios web gubernamentales comprometidos como canal de ataque subraya la importancia de la seguridad web y la confianza en las fuentes de información en línea. Esto puede afectar la confianza pública y la seguridad de los usuarios.",
+      "recommendedAction": "Fomentar la precaución al navegar por sitios web, especialmente aquellos de fuentes gubernamentales o institucionales, y asegurarse de que las herramientas de seguridad estén activas."
+    },
+    {
+      "title": "Daxin Resurfaces in Taiwan Alongside Stupig Pre-Login SYSTEM Backdoor",
+      "url": "https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "El avanzado malware Daxin, vinculado a actores de amenaza chinos, ha reaparecido en Taiwán junto con una nueva puerta trasera (backdoor) llamada Stupig, que opera antes del inicio de sesión a nivel de sistema.",
+      "whyItMatters": "La reaparición de malware avanzado y la introducción de nuevas técnicas como el backdoor Stupig indican una amenaza persistente y en evolución. Comprender las capacidades de estas herramientas es clave para la defensa.",
+      "recommendedAction": "Mantenerse informado sobre las últimas variantes y tácticas de malware avanzado, y asegurarse de que las soluciones de seguridad de punto final y de red estén configuradas para detectar y bloquear este tipo de amenazas."
+    },
+    {
+      "title": "Unpatched Shark Vacuum Flaw Could Let Attackers Control Other Vacuums Region-Wide",
+      "url": "https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 3,
+      "summary": "Una vulnerabilidad sin parchear en aspiradoras robot Shark permite a los atacantes controlar otros dispositivos en la misma región de AWS, acceder a cámaras, mapas y contraseñas Wi-Fi.",
+      "whyItMatters": "Si bien no es directamente relevante para el desarrollo de software, este artículo ilustra la creciente superficie de ataque en dispositivos IoT y la importancia de la seguridad en todos los niveles de la tecnología.",
+      "recommendedAction": "Ser consciente de las implicaciones de seguridad de los dispositivos conectados y asegurarse de que estén actualizados, además de seguir prácticas de red seguras."
+    },
+    {
+      "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
+      "url": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
+      "source": "The Hacker News",
+      "category": "AI for Developers",
+      "priority": "high",
+      "score": 10,
+      "summary": "El ataque 'MemGhost' permite a los atacantes insertar 'falsos recuerdos' en agentes de IA a través de un solo correo electrónico, alterando sutilmente su comportamiento y respuestas futuras sin que el usuario lo note.",
+      "whyItMatters": "Esta vulnerabilidad de IA es extremadamente preocupante, ya que puede manipular la información fundamental en la que se basan los asistentes de IA. Para los desarrolladores que integran IA, esto subraya la necesidad de construir sistemas robustos contra la manipulación de datos.",
+      "recommendedAction": "Investigar cómo los agentes de IA manejan la memoria y la persistencia de datos, y explorar mecanismos para la validación y detección de anomalías en la información almacenada por la IA."
+    },
+    {
+      "title": "Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling",
+      "url": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html",
+      "source": "The Hacker News",
+      "category": "AI for Developers",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Meta ha presentado una patente para una IA capaz de escuchar continuamente, analizar el estado emocional del usuario a través de la voz y registrar esta información con fecha y ubicación.",
+      "whyItMatters": "Este desarrollo plantea cuestiones importantes sobre la privacidad y el uso de la IA para el análisis emocional. Para los desarrolladores, es relevante entender las capacidades y las implicaciones éticas de las tecnologías de IA.",
+      "recommendedAction": "Considerar las implicaciones de privacidad al desarrollar o utilizar tecnologías de IA que recopilan y analizan datos personales, y mantenerse al tanto de las regulaciones de privacidad."
+    },
+    {
+      "title": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
+      "url": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se ha observado a un atacante utilizando un script de PowerShell, presuntamente generado por IA, para realizar la enumeración de Active Directory (AD), mapeando controladores de dominio, usuarios y equipos.",
+      "whyItMatters": "El uso de IA para generar código malicioso es una tendencia creciente. Comprender cómo se pueden utilizar scripts generados por IA para fines maliciosos, como la enumeración de AD, es crucial para mejorar las defensas y la detección.",
+      "recommendedAction": "Fortalecer las herramientas de detección de código malicioso y de comportamiento anómalo en la red, y estar al tanto de las nuevas técnicas de ataque que podrían involucrar scripts generados por IA."
+    },
+    {
+      "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
+      "url": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una técnica de evasión llamada 'OAuth client ID spoofing' está siendo utilizada por atacantes para validar credenciales robadas en entornos de Microsoft Entra ID sin generar eventos de inicio de sesión exitosos.",
+      "whyItMatters": "Esta técnica de ataque, que elude los mecanismos de detección tradicionales, es muy preocupante para la seguridad de las identidades en la nube. Afecta directamente a la seguridad de los servicios en la nube y la gestión de identidades.",
+      "recommendedAction": "Revisar las configuraciones de OAuth y la gestión de identidades en entornos de nube como Microsoft Entra ID, y explorar métodos de detección que vayan más allá de los eventos de inicio de sesión estándar."
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-07-16T09:14:11.205Z",
+  "generatedAt": "2026-07-17T09:10:06.024Z",
   "availableDates": [
+    "2026-07-17",
     "2026-07-16",
     "2026-07-15",
     "2026-07-12",
@@ -36,20 +37,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 33,
-    "totalArticles": 410,
-    "highPriority": 217,
-    "mediumPriority": 155,
-    "lowPriority": 38,
-    "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-07-16",
+    "totalReports": 34,
+    "totalArticles": 425,
+    "highPriority": 225,
+    "mediumPriority": 161,
+    "lowPriority": 39,
+    "averageArticlesPerReport": 13,
+    "latestReportDate": "2026-07-17",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 168
+        "count": 180
       },
       {
         "name": "Seguridad",
@@ -57,7 +58,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 15
+        "count": 18
       },
       {
         "name": "AI",
@@ -71,7 +72,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 279
+        "count": 293
       },
       {
         "name": "Stack Overflow Blog",
@@ -79,7 +80,7 @@
       },
       {
         "name": "Spring Blog",
-        "count": 36
+        "count": 37
       },
       {
         "name": "GitHub Blog",
@@ -92,12 +93,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-07-08",
-      "high": 11,
-      "medium": 4,
-      "low": 0
-    },
     {
       "date": "2026-07-09",
       "high": 9,
@@ -133,9 +128,80 @@
       "high": 9,
       "medium": 5,
       "low": 1
+    },
+    {
+      "date": "2026-07-17",
+      "high": 8,
+      "medium": 6,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-07-17",
+      "generatedAt": "2026-07-17T09:10:06.015Z",
+      "totalArticles": 15,
+      "highPriority": 8,
+      "mediumPriority": 6,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 12
+        },
+        {
+          "name": "AI for Developers",
+          "count": 3
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 14
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands",
+          "url": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Un nuevo ataque de inyección de datos permite a los atacantes manipular agentes de IA para que realicen acciones no deseadas, como hacer clic en enlaces maliciosos o ejecutar comandos del atacante, al corromper los datos en los que confían. Esto afecta la seguridad de interacciones con asistentes de codificación y otros agentes.",
+          "whyItMatters": "Este ataque explota la confianza de los agentes de IA en los datos de entrada, representando un riesgo significativo para la seguridad. Es crucial entender estas vulnerabilidades para proteger sistemas que integran IA, especialmente cuando interactúan con fuentes externas como GitHub.",
+          "recommendedAction": "Revisar y fortalecer los mecanismos de validación de datos de entrada para agentes de IA, y ser cauteloso al interactuar con fuentes de información externas o al permitir que agentes de IA ejecuten comandos."
+        },
+        {
+          "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
+          "url": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
+          "source": "The Hacker News",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 10,
+          "summary": "El ataque 'MemGhost' permite a los atacantes insertar 'falsos recuerdos' en agentes de IA a través de un solo correo electrónico, alterando sutilmente su comportamiento y respuestas futuras sin que el usuario lo note.",
+          "whyItMatters": "Esta vulnerabilidad de IA es extremadamente preocupante, ya que puede manipular la información fundamental en la que se basan los asistentes de IA. Para los desarrolladores que integran IA, esto subraya la necesidad de construir sistemas robustos contra la manipulación de datos.",
+          "recommendedAction": "Investigar cómo los agentes de IA manejan la memoria y la persistencia de datos, y explorar mecanismos para la validación y detección de anomalías en la información almacenada por la IA."
+        },
+        {
+          "title": "AI Can Find Bugs, But Human Knowledge Still Proves Them",
+          "url": "https://thehackernews.com/2026/07/ai-can-find-bugs-but-human-knowledge.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Las herramientas de IA pueden agilizar la detección de errores en ciberseguridad, pero la validación humana sigue siendo crucial para confirmar y aprovechar estos hallazgos. La IA asiste en la lectura de código, generación de payloads y análisis de superficies de ataque, pero el conocimiento experto es indispensable para la prueba final.",
+          "whyItMatters": "La IA está revolucionando la ciberseguridad al mejorar la velocidad y eficiencia en la identificación de vulnerabilidades. Comprender cómo se integra la IA con la experiencia humana es vital para adoptar estas herramientas de forma efectiva y segura.",
+          "recommendedAction": "Evaluar cómo las herramientas de IA pueden complementar los flujos de trabajo de seguridad existentes y capacitar al equipo en la validación de hallazgos generados por IA."
+        }
+      ]
+    },
     {
       "date": "2026-07-16",
       "generatedAt": "2026-07-16T09:14:11.196Z",
