@@ -1,0 +1,213 @@
+{
+  "date": "2026-07-18",
+  "generatedAt": "2026-07-18T08:48:40.188Z",
+  "totalArticles": 15,
+  "summary": {
+    "highPriority": 9,
+    "mediumPriority": 5,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 11
+      },
+      {
+        "name": "AI for Developers",
+        "count": 2
+      },
+      {
+        "name": "Angular",
+        "count": 1
+      },
+      {
+        "name": "Developer Culture",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 12
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 1
+      },
+      {
+        "name": "Angular Blog",
+        "count": 1
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "The cost of saying yes has changed",
+      "url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
+      "source": "GitHub Blog",
+      "category": "AI for Developers",
+      "priority": "high",
+      "score": 10,
+      "summary": "El artículo explora cómo la IA está cambiando el costo de escribir y poseer código. Propone un marco para evaluar qué cambios son realmente económicos en la era de la IA.",
+      "whyItMatters": "Este artículo es crucial porque aborda cómo la inteligencia artificial está redefiniendo la eficiencia en el desarrollo de software. Comprender la diferencia entre el costo de escribir código (que disminuye con la IA) y el costo de poseerlo (que no lo hace) es fundamental para tomar decisiones estratégicas.",
+      "recommendedAction": "Leer el artículo para entender el impacto de la IA en la economía del desarrollo y cómo evaluar mejor la 'economicidad' de los cambios en el código."
+    },
+    {
+      "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
+      "url": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una vulnerabilidad en OpenSSL, llamada HollowByte, permite que solicitudes TLS de solo 11 bytes congelen la memoria del servidor, hasta 131 KB por solicitud, requiriendo un reinicio del proceso afectado.",
+      "whyItMatters": "Los fallos en bibliotecas tan fundamentales como OpenSSL pueden tener un impacto masivo en la seguridad y disponibilidad de los servicios. Esta vulnerabilidad es particularmente preocupante porque es explotable con un mínimo de datos y puede causar denegación de servicio.",
+      "recommendedAction": "Mantener OpenSSL actualizado. Revisar las políticas de actualización y monitoreo de seguridad de las dependencias críticas."
+    },
+    {
+      "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
+      "url": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Se descubrieron siete paquetes maliciosos de npm dirigidos al ecosistema de herramientas frontend Vite. Estos paquetes utilizan una infraestructura de comando y control (C2) basada en blockchain para distribuir un RAT (Remote Access Trojan).",
+      "whyItMatters": "Este ataque a la cadena de suministro de software resalta la creciente sofisticación de las amenazas, utilizando tecnologías como blockchain para evadir la detección. Afecta directamente a desarrolladores frontend que utilizan Vite y dependen de paquetes npm.",
+      "recommendedAction": "Ser extremadamente cauteloso al incorporar nuevas dependencias npm, especialmente en proyectos que utilizan Vite. Revisar las dependencias de seguridad y el origen de los paquetes."
+    },
+    {
+      "title": "Reactive Flows, AI Agents, and State Events: This Week’s Angular Masterclass! ⚡",
+      "url": "https://blog.angular.dev/angular-weekly-july-17-2026-05440da623ad?source=rss----447683c3d9a3---4",
+      "source": "Angular Blog",
+      "category": "Angular",
+      "priority": "high",
+      "score": 9,
+      "summary": "Este artículo semanal de Angular cubre temas como flujos reactivos, agentes de IA y eventos de estado dentro del ecosistema de Angular.",
+      "whyItMatters": "Proporciona información actualizada y relevante para los desarrolladores de Angular, incluyendo la integración de conceptos modernos como los agentes de IA, que son cada vez más importantes en el desarrollo de aplicaciones.",
+      "recommendedAction": "Leer el resumen semanal para mantenerse al día con las últimas novedades y características de Angular, prestando especial atención a las secciones sobre IA."
+    },
+    {
+      "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
+      "url": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 7,
+      "summary": "Una nueva falla en el núcleo de WordPress, identificada como wp2shell, permite a atacantes no autenticados ejecutar código de forma remota en sitios vulnerables.",
+      "whyItMatters": "Las vulnerabilidades críticas en el software principal de plataformas populares como WordPress pueden afectar a millones de sitios. Esta falla permite la ejecución de código sin autenticación, lo que representa un riesgo de seguridad significativo.",
+      "recommendedAction": "Actualizar inmediatamente las instalaciones de WordPress a las últimas versiones. Monitorear los avisos de seguridad relacionados con WordPress."
+    },
+    {
+      "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
+      "url": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se ha identificado una nueva botnet llamada NadMesh que explota servicios de IA expuestos para robar claves de la nube y tokens de Kubernetes.",
+      "whyItMatters": "Este es un riesgo emergente y directo para los desarrolladores que implementan y exponen servicios de IA. La botnet demuestra cómo las configuraciones de seguridad deficientes en entornos de IA pueden ser explotadas para obtener acceso a recursos críticos en la nube.",
+      "recommendedAction": "Revisar y asegurar todas las configuraciones de acceso a servicios de IA y entornos de nube/Kubernetes. Implementar prácticas de seguridad robustas para la exposición de servicios."
+    },
+    {
+      "title": "E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants",
+      "url": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
+      "source": "The Hacker News",
+      "category": "AI for Developers",
+      "priority": "medium",
+      "score": 7,
+      "summary": "La Comisión Europea ha ordenado a Google que permita a los asistentes de IA rivales acceder a funciones del sistema Android, como micrófono, cámara y pantalla, de manera similar a como lo hace Gemini.",
+      "whyItMatters": "Esta decisión regulatoria tiene implicaciones importantes para el ecosistema de IA en Android, fomentando una mayor interoperabilidad y competencia. Para los desarrolladores, podría significar nuevas oportunidades o desafíos en la integración con asistentes de IA.",
+      "recommendedAction": "Estar atento a las implicaciones de esta regulación en el desarrollo de aplicaciones Android y en las estrategias de integración de asistentes de IA."
+    },
+    {
+      "title": "Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images",
+      "url": "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Actores de amenazas vinculados a Corea del Norte están utilizando esteganografía en imágenes SVG dentro de falsas pruebas de codificación para distribuir malware (OtterCookie) que roba credenciales y criptomonedas.",
+      "whyItMatters": "Este ataque de ingeniería social y de cadena de suministro resalta cómo los desarrolladores pueden ser blanco a través de procesos de contratación o evaluación. La técnica de ocultar malware en imágenes es un recordatorio de la necesidad de una validación cuidadosa de los artefactos.",
+      "recommendedAction": "Ser escéptico ante ofertas de trabajo o desafíos de codificación de fuentes no confiables. Escanear y validar todos los archivos de código fuente y recursos de proyectos externos."
+    },
+    {
+      "title": "Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man",
+      "url": "https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 5,
+      "summary": "Un turista ruso fue detenido en Armenia basándose en una orden de extradición de EE. UU. por un presunto hacker de REvil, aunque sus abogados afirman que es el hombre equivocado.",
+      "whyItMatters": "Aunque este evento trata sobre un arresto y no directamente sobre una vulnerabilidad técnica, destaca las ramificaciones internacionales y las complejidades legales en la ciberseguridad y la persecución de actores maliciosos.",
+      "recommendedAction": "Mantenerse informado sobre las noticias de ciberseguridad y las acciones legales contra ciberdelincuentes, ya que pueden tener implicaciones indirectas para la industria."
+    },
+    {
+      "title": "ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files",
+      "url": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "El infostealer ACR, activo desde 2024, está robando contraseñas guardadas, tokens de sesión, archivos de Microsoft 365 y documentos de OneDrive/SharePoint de redes corporativas mediante técnicas de ingeniería social.",
+      "whyItMatters": "Este tipo de ataque es una amenaza constante para las credenciales y datos sensibles de los desarrolladores y las empresas. La capacidad de robar tokens de sesión activos puede permitir un acceso prolongado y sin obstáculos a los sistemas.",
+      "recommendedAction": "Ser extremadamente cauteloso con los comandos o scripts ejecutados desde fuentes no confiables. Implementar autenticación multifactor y monitoreo de acceso a servicios en la nube como Microsoft 365."
+    },
+    {
+      "title": "New GoSerpent Malware Targets Southeast Asian Governments and Diplomats for Espionage",
+      "url": "https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Se ha descubierto un nuevo malware llamado GoSerpent, utilizado en ciberataques dirigidos a entidades gubernamentales y diplomáticas en el Sudeste Asiático, con el objetivo de acceso a largo plazo y recopilación de inteligencia.",
+      "whyItMatters": "Este tipo de malware avanzado y dirigido resalta las amenazas persistentes contra infraestructuras críticas y entidades gubernamentales. Aunque no afecta directamente a todos los desarrolladores, la seguridad de estas infraestructuras es vital.",
+      "recommendedAction": "Monitorear informes sobre nuevas amenazas y campañas de malware dirigidas, especialmente aquellas que podrían tener ramificaciones en la cadena de suministro o afectar la infraestructura de TI."
+    },
+    {
+      "title": "Developers who move fast still need to do it together",
+      "url": "https://stackoverflow.blog/2026/07/17/devs-who-move-fast-still-need-to-do-it-together/",
+      "source": "Stack Overflow Blog",
+      "category": "Developer Culture",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Discute cómo la IA y las herramientas como GitHub Copilot están cambiando el trabajo de desarrollo, enfocándose más en la estrategia y aumentando la fatiga de decisión, lo que hace que la colaboración y el criterio humano sean más importantes que nunca.",
+      "whyItMatters": "Este artículo aborda la evolución del rol del desarrollador en la era de la IA. Destaca la importancia de las habilidades blandas, la colaboración y el juicio humano, incluso cuando las herramientas automatizan tareas.",
+      "recommendedAction": "Reflexionar sobre cómo la IA está cambiando el flujo de trabajo y la importancia de la colaboración y el juicio crítico en el desarrollo de software."
+    },
+    {
+      "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
+      "url": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Un subgrupo de GoldenEyeDog ha sido vinculado a la brecha de seguridad de DigiCert y al robo de certificados de firma de código, lo que representa un riesgo significativo para la autenticidad del software.",
+      "whyItMatters": "El robo de certificados de firma de código es una amenaza grave, ya que puede permitir a los atacantes firmar malware como si fuera software legítimo, eludiendo las defensas de seguridad. Un incidente en una entidad como DigiCert tiene implicaciones de gran alcance.",
+      "recommendedAction": "Prestar atención a la seguridad de los certificados de firma de código y a los procesos de validación. Monitorear la cadena de suministro de software y la integridad de las dependencias."
+    },
+    {
+      "title": "The Race to Field Military Autonomy Is On, Can Trusted Information Infrastructure Keep Pace?",
+      "url": "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 8,
+      "summary": "Se está acelerando el desarrollo y despliegue de capacidades autónomas militares, planteando la pregunta de si la infraestructura de información confiable puede mantener el ritmo y garantizar la seguridad.",
+      "whyItMatters": "Aunque se centra en el ámbito militar, este artículo aborda los desafíos de seguridad y confiabilidad en sistemas autónomos complejos. Los principios de infraestructura segura y confiable son directamente aplicables al desarrollo de software en general, especialmente para sistemas críticos.",
+      "recommendedAction": "Considerar las implicaciones de seguridad y confiabilidad en el desarrollo de sistemas autónomos o complejos, incluso fuera del contexto militar."
+    },
+    {
+      "title": "New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password",
+      "url": "https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Un nuevo infostealer para macOS llamado ClickLock fuerza al usuario a ingresar su contraseña cerrando aplicaciones repetidamente hasta que la proporciona.",
+      "whyItMatters": "Este tipo de ataque de ingeniería social y presión es particularmente insidioso. Destaca la importancia de la conciencia de seguridad para los usuarios, incluso en plataformas que a menudo se perciben como más seguras, y la necesidad de proteger las credenciales de acceso.",
+      "recommendedAction": "Educarse y educar a otros sobre técnicas de ingeniería social y la importancia de no ingresar credenciales a través de ventanas emergentes sospechosas. Asegurar los dispositivos macOS con contraseñas fuertes y bloqueos de pantalla."
+    }
+  ]
+}

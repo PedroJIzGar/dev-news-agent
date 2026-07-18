@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-07-17T09:10:06.024Z",
+  "generatedAt": "2026-07-18T08:48:40.194Z",
   "availableDates": [
+    "2026-07-18",
     "2026-07-17",
     "2026-07-16",
     "2026-07-15",
@@ -37,20 +38,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 34,
-    "totalArticles": 425,
-    "highPriority": 225,
-    "mediumPriority": 161,
-    "lowPriority": 39,
+    "totalReports": 35,
+    "totalArticles": 440,
+    "highPriority": 234,
+    "mediumPriority": 166,
+    "lowPriority": 40,
     "averageArticlesPerReport": 13,
-    "latestReportDate": "2026-07-17",
+    "latestReportDate": "2026-07-18",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 180
+        "count": 191
       },
       {
         "name": "Seguridad",
@@ -58,7 +59,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 18
+        "count": 20
       },
       {
         "name": "AI",
@@ -72,11 +73,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 293
+        "count": 305
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 45
+        "count": 46
       },
       {
         "name": "Spring Blog",
@@ -84,7 +85,7 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 34
+        "count": 35
       },
       {
         "name": "Krebs on Security",
@@ -93,12 +94,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-07-09",
-      "high": 9,
-      "medium": 5,
-      "low": 1
-    },
     {
       "date": "2026-07-10",
       "high": 9,
@@ -134,9 +129,96 @@
       "high": 8,
       "medium": 6,
       "low": 1
+    },
+    {
+      "date": "2026-07-18",
+      "high": 9,
+      "medium": 5,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-07-18",
+      "generatedAt": "2026-07-18T08:48:40.188Z",
+      "totalArticles": 15,
+      "highPriority": 9,
+      "mediumPriority": 5,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 11
+        },
+        {
+          "name": "AI for Developers",
+          "count": 2
+        },
+        {
+          "name": "Angular",
+          "count": 1
+        },
+        {
+          "name": "Developer Culture",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Angular Blog",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "The cost of saying yes has changed",
+          "url": "https://github.blog/engineering/the-cost-of-saying-yes-has-changed/",
+          "source": "GitHub Blog",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 10,
+          "summary": "El artículo explora cómo la IA está cambiando el costo de escribir y poseer código. Propone un marco para evaluar qué cambios son realmente económicos en la era de la IA.",
+          "whyItMatters": "Este artículo es crucial porque aborda cómo la inteligencia artificial está redefiniendo la eficiencia en el desarrollo de software. Comprender la diferencia entre el costo de escribir código (que disminuye con la IA) y el costo de poseerlo (que no lo hace) es fundamental para tomar decisiones estratégicas.",
+          "recommendedAction": "Leer el artículo para entender el impacto de la IA en la economía del desarrollo y cómo evaluar mejor la 'economicidad' de los cambios en el código."
+        },
+        {
+          "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
+          "url": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una vulnerabilidad en OpenSSL, llamada HollowByte, permite que solicitudes TLS de solo 11 bytes congelen la memoria del servidor, hasta 131 KB por solicitud, requiriendo un reinicio del proceso afectado.",
+          "whyItMatters": "Los fallos en bibliotecas tan fundamentales como OpenSSL pueden tener un impacto masivo en la seguridad y disponibilidad de los servicios. Esta vulnerabilidad es particularmente preocupante porque es explotable con un mínimo de datos y puede causar denegación de servicio.",
+          "recommendedAction": "Mantener OpenSSL actualizado. Revisar las políticas de actualización y monitoreo de seguridad de las dependencias críticas."
+        },
+        {
+          "title": "Reactive Flows, AI Agents, and State Events: This Week’s Angular Masterclass! ⚡",
+          "url": "https://blog.angular.dev/angular-weekly-july-17-2026-05440da623ad?source=rss----447683c3d9a3---4",
+          "source": "Angular Blog",
+          "category": "Angular",
+          "priority": "high",
+          "score": 9,
+          "summary": "Este artículo semanal de Angular cubre temas como flujos reactivos, agentes de IA y eventos de estado dentro del ecosistema de Angular.",
+          "whyItMatters": "Proporciona información actualizada y relevante para los desarrolladores de Angular, incluyendo la integración de conceptos modernos como los agentes de IA, que son cada vez más importantes en el desarrollo de aplicaciones.",
+          "recommendedAction": "Leer el resumen semanal para mantenerse al día con las últimas novedades y características de Angular, prestando especial atención a las secciones sobre IA."
+        }
+      ]
+    },
     {
       "date": "2026-07-17",
       "generatedAt": "2026-07-17T09:10:06.015Z",
