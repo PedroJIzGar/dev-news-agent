@@ -1,0 +1,157 @@
+{
+  "date": "2026-07-21",
+  "generatedAt": "2026-07-21T09:27:16.581Z",
+  "totalArticles": 11,
+  "summary": {
+    "highPriority": 5,
+    "mediumPriority": 5,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 9
+      },
+      {
+        "name": "Desarrollo",
+        "count": 2
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 9
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 1
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
+      "url": "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Investigadores de ciberseguridad han descubierto casi 7,600 repositorios maliciosos en GitHub, de los cuales más de 800 se hacen pasar por servidores de habilidades de IA o protocolos de contexto de modelos (MCP) para distribuir un malware conocido como SmartLoader, como parte de una campaña llamada FakeGit.",
+      "whyItMatters": "Esta campaña es particularmente preocupante porque utiliza ingeniería social sofisticada, imitando repositorios legítimos y perfiles de desarrolladores, para engañar a los desarrolladores y distribuir malware. La escala de los repositorios comprometidos y la aparente integración con herramientas de IA subraya una amenaza creciente.",
+      "recommendedAction": "Mantén una vigilancia extrema sobre los repositorios de GitHub, especialmente aquellos que parecen nuevos o que ofrecen herramientas de IA. Verifica la autenticidad de los desarrolladores y revisa cuidadosamente los archivos README y el código antes de ejecutar o integrar cualquier dependencia externa. Considera usar herramientas de escaneo de seguridad en tus repositorios."
+    },
+    {
+      "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
+      "url": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Se ha descubierto una vulnerabilidad crítica (CVE-2026-6875) en la Plataforma de IA de ServiceNow que permite la ejecución de código arbitrario sin autenticación. Se está explotando activamente en ataques reales.",
+      "whyItMatters": "Las vulnerabilidades críticas en plataformas de IA, especialmente aquellas que permiten la ejecución de código sin autenticación, representan un riesgo significativo. La explotación activa significa que los sistemas no parcheados son objetivos inmediatos para los atacantes, lo que podría llevar a la toma de control total de los sistemas afectados.",
+      "recommendedAction": "Si utilizas la Plataforma de IA de ServiceNow, aplica los parches de seguridad inmediatamente. Revisa los registros en busca de actividades sospechosas y considera implementar medidas de seguridad adicionales para la segmentación de red y el control de acceso."
+    },
+    {
+      "title": "$100 million for open source: A milestone built by the community",
+      "url": "https://github.blog/open-source/maintainers/100-million-for-open-source-a-milestone-built-by-the-community/",
+      "source": "GitHub Blog",
+      "category": "Desarrollo",
+      "priority": "medium",
+      "score": 7,
+      "summary": "GitHub celebra la contribución de 100 millones de dólares de la comunidad a los mantenedores de proyectos de código abierto, reconociendo su papel fundamental en el ecosistema tecnológico.",
+      "whyItMatters": "Este hito destaca la importancia vital del código abierto y el apoyo a quienes lo mantienen. Para los desarrolladores que dependen de herramientas y librerías de código abierto (como Java, Spring Boot, Angular, etc.), esto asegura la sostenibilidad y el desarrollo continuo de las tecnologías que usan a diario.",
+      "recommendedAction": "Considera contribuir a los proyectos de código abierto que utilizas, ya sea con código, documentación o apoyo financiero. Reconoce la labor de los mantenedores y fomenta un ecosistema más saludable."
+    },
+    {
+      "title": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign",
+      "url": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Se ha descubierto un servidor expuesto que contenía un kit de herramientas de phishing asistido por IA, utilizado en una campaña de malware que se distribuye a través de WebDAV, haciéndose pasar por un sitio web de consulta de identidad gubernamental.",
+      "whyItMatters": "Este hallazgo muestra cómo las capacidades de IA se están integrando en herramientas maliciosas para hacer el phishing más convincente y efectivo. El uso de WebDAV y la suplantación de servicios gubernamentales son tácticas dirigidas a robar información sensible de los usuarios.",
+      "recommendedAction": "Sé extremadamente cauteloso con los correos electrónicos y los enlaces que solicitan información personal o credenciales, especialmente si imitan sitios web gubernamentales o de servicios importantes. Verifica siempre la URL y utiliza autenticación multifactor siempre que sea posible."
+    },
+    {
+      "title": "Mythos Didn't Break Your Security Program. Your Exposure Window Could.",
+      "url": "https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "El artículo discute cómo las herramientas de IA como Mythos, aunque poderosas para el descubrimiento de vulnerabilidades, no rompen los programas de seguridad por sí solas, sino que el problema radica en la gestión de la 'ventana de exposición' y la capacidad de respuesta ante el volumen de hallazgos.",
+      "whyItMatters": "A medida que las herramientas de IA mejoran la detección de vulnerabilidades, aumentan la presión sobre los equipos de seguridad para responder más rápido. Comprender la diferencia entre el descubrimiento y la gestión de riesgos es clave para mantener un programa de seguridad efectivo en la era de la IA.",
+      "recommendedAction": "Evalúa y mejora tus procesos de gestión de vulnerabilidades y respuesta a incidentes para manejar un mayor volumen de alertas. Asegúrate de que tus equipos tengan las herramientas y la formación necesarias para priorizar y mitigar las amenazas de manera eficiente."
+    },
+    {
+      "title": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050",
+      "url": "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Se ha descubierto un nuevo malware, llamado HollowGraph, que utiliza eventos de calendario de Microsoft 365 (con fechas futuras, como 2050) para ocultar tráfico de Comando y Control (C2) y exfiltrar archivos robados, haciéndose pasar por tráfico legítimo de la API de Microsoft Graph.",
+      "whyItMatters": "Esta técnica de ocultación es sofisticada y difícil de detectar, ya que se camufla dentro del tráfico normal de servicios en la nube. El uso de fechas futuras en los calendarios es una táctica de ofuscación inteligente que puede eludir muchas herramientas de monitorización estándar.",
+      "recommendedAction": "Refuerza la monitorización del tráfico de red y de las API, prestando especial atención a los patrones inusuales o a los datos que parecen anómalos, como eventos de calendario con fechas muy futuras. Revisa las configuraciones de seguridad de tus servicios en la nube y aplica el principio de mínimo privilegio."
+    },
+    {
+      "title": "WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning",
+      "url": "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 5,
+      "summary": "La explotación de dos vulnerabilidades críticas en WordPress (CVE-2026-63030 y CVE-2026-60137), conocidas como wp2shell, está en aumento. Estas vulnerabilidades permiten la ejecución remota de código sin autenticación.",
+      "whyItMatters": "WordPress es una plataforma ampliamente utilizada, y las vulnerabilidades críticas que permiten la ejecución remota de código son un objetivo principal para los atacantes. La disponibilidad de exploits públicos acelera la propagación de estos ataques.",
+      "recommendedAction": "Asegúrate de que todos tus sitios WordPress estén actualizados a la última versión y aplica los parches de seguridad tan pronto como estén disponibles. Considera el uso de firewalls de aplicaciones web (WAF) y realiza escaneos de seguridad regulares."
+    },
+    {
+      "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
+      "url": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Ha surgido un nuevo ransomware, ENCFORGE, diseñado específicamente para cifrar archivos de modelos de IA, como pesos de modelos, índices vectoriales y conjuntos de datos de entrenamiento. Este ataque se produce tras una vulnerabilidad de ejecución de código remoto (RCE) en Langflow.",
+      "whyItMatters": "La aparición de ransomware dirigido específicamente a la infraestructura de IA es una escalada preocupante. Los modelos de IA y los datos de entrenamiento son activos críticos para muchas organizaciones, y su cifrado puede tener un impacto devastador en las operaciones.",
+      "recommendedAction": "Implementa medidas de seguridad robustas para proteger tus entornos de desarrollo y producción de IA. Esto incluye controles de acceso estrictos, segmentación de red, copias de seguridad regulares y cifrado de datos sensibles. Mantén actualizadas todas las plataformas y herramientas relacionadas con la IA."
+    },
+    {
+      "title": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More",
+      "url": "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Este resumen semanal cubre varias vulnerabilidades y ataques importantes, incluyendo ejecución remota de código (RCE) en WordPress, vulnerabilidades 0-day en SonicWall, ataques a servicios de IA y una 0-day en SharePoint.",
+      "whyItMatters": "Proporciona una visión general rápida de las amenazas de seguridad más relevantes de la semana, ayudando a los desarrolladores a mantenerse informados sobre el panorama de amenazas y las tecnologías afectadas, incluidas las relacionadas con la IA.",
+      "recommendedAction": "Revisa los detalles de las vulnerabilidades mencionadas que sean relevantes para tu stack tecnológico y aplica las actualizaciones o mitigaciones correspondientes. Mantente al día con los resúmenes de noticias de seguridad para anticipar y prevenir ataques."
+    },
+    {
+      "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
+      "url": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "low",
+      "score": 3,
+      "summary": "Se informa que la inteligencia rusa está hackeando cámaras IP en países de la OTAN y Ucrania para espiar la logística militar, incluyendo rutas de transporte de armas y posiciones de tropas.",
+      "whyItMatters": "Aunque no está directamente relacionado con el desarrollo de software, este incidente destaca la importancia de la seguridad en dispositivos IoT y redes conectadas. Demuestra cómo las vulnerabilidades en componentes aparentemente simples pueden ser explotadas para fines de espionaje a gran escala.",
+      "recommendedAction": "Asegura todos los dispositivos conectados a tu red, incluyendo cámaras y otros dispositivos IoT. Utiliza contraseñas fuertes, actualiza el firmware y considera la segmentación de red para aislar estos dispositivos de tus sistemas críticos."
+    },
+    {
+      "title": "The future of development is full-stack​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌﻿‌‍‌​​﻿​﻿‌‍‌‍​﻿‍​‌‍​‌‌‍‌‌‌‍‌‌​‍﻿‌​﻿‍​​﻿​​​﻿‍​‌‍‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍​​﻿​‍​﻿‌﻿​﻿​‌​‍﻿‌‌‍​﻿​﻿‌‍‌‍‌​‌‍​‍​﻿‌﻿​﻿‍​‌‍‌​​﻿​﻿​﻿‍​​﻿​‌​﻿​‌‌‍‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌﻿‌‍‌​​﻿​﻿‌‍‌‍​﻿‍​‌‍​‌‌‍‌‌‌‍‌‌​‍﻿‌​﻿‍​​﻿​​​﻿‍​‌‍‌​​‍﻿‌​﻿‌​​﻿​﻿​﻿‌‍​﻿‌‍​‍﻿‌​﻿‍​​﻿​‍​﻿‌﻿​﻿​‌​‍﻿‌‌‍​﻿​﻿‌‍‌‍‌​‌‍​‍​﻿‌﻿​﻿‍​‌‍‌​​﻿​﻿​﻿‍​​﻿​‌​﻿​‌‌‍‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌‍‌‌‌﻿‍​‌‍​﻿‌‍‌‌‌﻿​‍‌﻿​​‌﻿‌​​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "url": "https://stackoverflow.blog/2026/07/21/the-future-of-development-is-full-stack/",
+      "source": "Stack Overflow Blog",
+      "category": "Desarrollo",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Este artículo explora la tendencia hacia el desarrollo 'full-stack' impulsada por herramientas de IA, pasando de la 'codificación por instinto' a la ingeniería de agentes para software empresarial. Predice que todos los desarrolladores se convertirán eventualmente en constructores full-stack.",
+      "whyItMatters": "La IA está cambiando la forma en que se construye el software. Comprender esta evolución hacia arquitecturas más integradas y la democratización de habilidades full-stack es crucial para los desarrolladores que buscan mantenerse relevantes. El artículo menciona la gobernanza y el control humano en entornos de IA, aspectos importantes para el desarrollo profesional.",
+      "recommendedAction": "Explora cómo las herramientas de IA pueden aumentar tu productividad en el desarrollo full-stack. Considera aprender sobre la ingeniería de agentes y las técnicas de gobernanza para la IA. Evalúa cómo estos cambios podrían impactar tu rol y tu carrera profesional."
+    }
+  ]
+}

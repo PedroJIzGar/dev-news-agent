@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-07-20T10:11:44.290Z",
+  "generatedAt": "2026-07-21T09:27:16.589Z",
   "availableDates": [
+    "2026-07-21",
     "2026-07-20",
     "2026-07-19",
     "2026-07-18",
@@ -40,13 +41,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 37,
-    "totalArticles": 459,
-    "highPriority": 243,
-    "mediumPriority": 174,
-    "lowPriority": 42,
+    "totalReports": 38,
+    "totalArticles": 470,
+    "highPriority": 248,
+    "mediumPriority": 179,
+    "lowPriority": 43,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-07-20",
+    "latestReportDate": "2026-07-21",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -57,7 +58,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 96
+        "count": 105
       },
       {
         "name": "AI for Developers",
@@ -75,11 +76,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 316
+        "count": 325
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 54
+        "count": 55
       },
       {
         "name": "Spring Blog",
@@ -87,7 +88,7 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 35
+        "count": 36
       },
       {
         "name": "Krebs on Security",
@@ -96,12 +97,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-07-12",
-      "high": 11,
-      "medium": 4,
-      "low": 0
-    },
     {
       "date": "2026-07-15",
       "high": 8,
@@ -137,9 +132,84 @@
       "high": 6,
       "medium": 1,
       "low": 0
+    },
+    {
+      "date": "2026-07-21",
+      "high": 5,
+      "medium": 5,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-07-21",
+      "generatedAt": "2026-07-21T09:27:16.581Z",
+      "totalArticles": 11,
+      "highPriority": 5,
+      "mediumPriority": 5,
+      "lowPriority": 1,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 9
+        },
+        {
+          "name": "Desarrollo",
+          "count": 2
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 9
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
+          "url": "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Investigadores de ciberseguridad han descubierto casi 7,600 repositorios maliciosos en GitHub, de los cuales más de 800 se hacen pasar por servidores de habilidades de IA o protocolos de contexto de modelos (MCP) para distribuir un malware conocido como SmartLoader, como parte de una campaña llamada FakeGit.",
+          "whyItMatters": "Esta campaña es particularmente preocupante porque utiliza ingeniería social sofisticada, imitando repositorios legítimos y perfiles de desarrolladores, para engañar a los desarrolladores y distribuir malware. La escala de los repositorios comprometidos y la aparente integración con herramientas de IA subraya una amenaza creciente.",
+          "recommendedAction": "Mantén una vigilancia extrema sobre los repositorios de GitHub, especialmente aquellos que parecen nuevos o que ofrecen herramientas de IA. Verifica la autenticidad de los desarrolladores y revisa cuidadosamente los archivos README y el código antes de ejecutar o integrar cualquier dependencia externa. Considera usar herramientas de escaneo de seguridad en tus repositorios."
+        },
+        {
+          "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
+          "url": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 8,
+          "summary": "Se ha descubierto una vulnerabilidad crítica (CVE-2026-6875) en la Plataforma de IA de ServiceNow que permite la ejecución de código arbitrario sin autenticación. Se está explotando activamente en ataques reales.",
+          "whyItMatters": "Las vulnerabilidades críticas en plataformas de IA, especialmente aquellas que permiten la ejecución de código sin autenticación, representan un riesgo significativo. La explotación activa significa que los sistemas no parcheados son objetivos inmediatos para los atacantes, lo que podría llevar a la toma de control total de los sistemas afectados.",
+          "recommendedAction": "Si utilizas la Plataforma de IA de ServiceNow, aplica los parches de seguridad inmediatamente. Revisa los registros en busca de actividades sospechosas y considera implementar medidas de seguridad adicionales para la segmentación de red y el control de acceso."
+        },
+        {
+          "title": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign",
+          "url": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 8,
+          "summary": "Se ha descubierto un servidor expuesto que contenía un kit de herramientas de phishing asistido por IA, utilizado en una campaña de malware que se distribuye a través de WebDAV, haciéndose pasar por un sitio web de consulta de identidad gubernamental.",
+          "whyItMatters": "Este hallazgo muestra cómo las capacidades de IA se están integrando en herramientas maliciosas para hacer el phishing más convincente y efectivo. El uso de WebDAV y la suplantación de servicios gubernamentales son tácticas dirigidas a robar información sensible de los usuarios.",
+          "recommendedAction": "Sé extremadamente cauteloso con los correos electrónicos y los enlaces que solicitan información personal o credenciales, especialmente si imitan sitios web gubernamentales o de servicios importantes. Verifica siempre la URL y utiliza autenticación multifactor siempre que sea posible."
+        }
+      ]
+    },
     {
       "date": "2026-07-20",
       "generatedAt": "2026-07-20T10:11:44.281Z",
