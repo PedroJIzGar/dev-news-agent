@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-07-22T09:26:42.733Z",
+  "generatedAt": "2026-07-23T09:24:30.600Z",
   "availableDates": [
+    "2026-07-23",
     "2026-07-22",
     "2026-07-21",
     "2026-07-20",
@@ -42,20 +43,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 39,
-    "totalArticles": 485,
-    "highPriority": 259,
-    "mediumPriority": 183,
-    "lowPriority": 43,
+    "totalReports": 40,
+    "totalArticles": 495,
+    "highPriority": 260,
+    "mediumPriority": 189,
+    "lowPriority": 46,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-07-22",
+    "latestReportDate": "2026-07-23",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 202
+        "count": 209
       },
       {
         "name": "Seguridad",
@@ -63,7 +64,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 20
+        "count": 22
       },
       {
         "name": "AI",
@@ -77,19 +78,19 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 337
+        "count": 345
       },
       {
         "name": "Stack Overflow Blog",
         "count": 55
       },
       {
-        "name": "Spring Blog",
-        "count": 38
+        "name": "GitHub Blog",
+        "count": 39
       },
       {
-        "name": "GitHub Blog",
-        "count": 37
+        "name": "Spring Blog",
+        "count": 38
       },
       {
         "name": "Krebs on Security",
@@ -98,12 +99,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-07-16",
-      "high": 9,
-      "medium": 5,
-      "low": 1
-    },
     {
       "date": "2026-07-17",
       "high": 8,
@@ -139,9 +134,84 @@
       "high": 11,
       "medium": 4,
       "low": 0
+    },
+    {
+      "date": "2026-07-23",
+      "high": 1,
+      "medium": 6,
+      "low": 3
     }
   ],
   "reports": [
+    {
+      "date": "2026-07-23",
+      "generatedAt": "2026-07-23T09:24:30.591Z",
+      "totalArticles": 10,
+      "highPriority": 1,
+      "mediumPriority": 6,
+      "lowPriority": 3,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 7
+        },
+        {
+          "name": "AI for Developers",
+          "count": 2
+        },
+        {
+          "name": "GitHub",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 8
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 2
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access",
+          "url": "https://thehackernews.com/2026/07/check-point-patches-exploited.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Check Point ha lanzado actualizaciones de seguridad para corregir vulnerabilidades en sus productos de gestión, incluyendo una falla crítica que ya está siendo explotada. La vulnerabilidad (CVE-2026-16232) permite eludir la autenticación en el proceso de inicio de sesión de SmartConsole, otorgando acceso de administrador completo.",
+          "whyItMatters": "Esta noticia es de alta prioridad porque aborda una vulnerabilidad crítica y activamente explotada que permite acceso no autorizado a sistemas de gestión de seguridad. Para los desarrolladores y administradores que utilizan o interactúan con soluciones de Check Point, entender y aplicar los parches es crucial para mantener la seguridad de la infraestructura.",
+          "recommendedAction": "Revisa y aplica las actualizaciones de seguridad de Check Point para los productos Security Management y Multi-Domain Management lo antes posible. Informa a tu equipo de seguridad sobre esta vulnerabilidad."
+        },
+        {
+          "title": "GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier",
+          "url": "https://thehackernews.com/2026/07/github-bug-bounty-payouts.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "medium",
+          "score": 8,
+          "summary": "GitHub reducirá los pagos de su programa público de bug bounty a partir del 27 de julio de 2026, disminuyendo los pagos por hallazgos críticos de un rango superior a $20,000-$30,000 a una tarifa fija de $10,000. Las recompensas más altas se reservarán para un nivel VIP exclusivo por invitación.",
+          "whyItMatters": "Aunque no es una vulnerabilidad directa, los cambios en el programa de bug bounty de GitHub pueden afectar la forma en que se descubren y reportan las vulnerabilidades. Para los desarrolladores que contribuyen o se benefician de la seguridad de la plataforma, entender estos cambios es relevante.",
+          "recommendedAction": "Mantente informado sobre los detalles del nuevo programa de bug bounty de GitHub. Si participas, ajusta tus expectativas de recompensas y considera las implicaciones para tus actividades de investigación de seguridad en la plataforma."
+        },
+        {
+          "title": "Next chapter: Restructuring GitHub’s bug bounty program",
+          "url": "https://github.blog/security/next-chapter-restructuring-githubs-bug-bounty-program/",
+          "source": "GitHub Blog",
+          "category": "GitHub",
+          "priority": "medium",
+          "score": 8,
+          "summary": "GitHub está reestructurando su programa de bug bounty para mejorar la experiencia de los investigadores al interactuar con el equipo de GitHub. Este cambio busca optimizar el proceso y la colaboración en la identificación y corrección de vulnerabilidades.",
+          "whyItMatters": "Como desarrolladores que utilizan GitHub, entender cómo evoluciona el programa de seguridad de la plataforma es importante. Esto puede influir en cómo se reportan los problemas de seguridad encontrados en el ecosistema de GitHub.",
+          "recommendedAction": "Lee el anuncio completo en el blog de GitHub para comprender los cambios específicos en el programa de bug bounty y cómo podrían afectarte si participas o encuentras problemas de seguridad."
+        }
+      ]
+    },
     {
       "date": "2026-07-22",
       "generatedAt": "2026-07-22T09:26:42.726Z",
