@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-07-23T09:24:30.600Z",
+  "generatedAt": "2026-07-24T09:22:08.968Z",
   "availableDates": [
+    "2026-07-24",
     "2026-07-23",
     "2026-07-22",
     "2026-07-21",
@@ -43,20 +44,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 40,
-    "totalArticles": 495,
-    "highPriority": 260,
-    "mediumPriority": 189,
-    "lowPriority": 46,
+    "totalReports": 41,
+    "totalArticles": 510,
+    "highPriority": 268,
+    "mediumPriority": 195,
+    "lowPriority": 47,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-07-23",
+    "latestReportDate": "2026-07-24",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 209
+        "count": 221
       },
       {
         "name": "Seguridad",
@@ -78,19 +79,19 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 345
+        "count": 357
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 55
+        "count": 56
       },
       {
         "name": "GitHub Blog",
-        "count": 39
+        "count": 40
       },
       {
         "name": "Spring Blog",
-        "count": 38
+        "count": 39
       },
       {
         "name": "Krebs on Security",
@@ -99,12 +100,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-07-17",
-      "high": 8,
-      "medium": 6,
-      "low": 1
-    },
     {
       "date": "2026-07-18",
       "high": 9,
@@ -140,9 +135,96 @@
       "high": 1,
       "medium": 6,
       "low": 3
+    },
+    {
+      "date": "2026-07-24",
+      "high": 8,
+      "medium": 6,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-07-24",
+      "generatedAt": "2026-07-24T09:22:08.959Z",
+      "totalArticles": 15,
+      "highPriority": 8,
+      "mediumPriority": 6,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 12
+        },
+        {
+          "name": "Dev Tools",
+          "count": 1
+        },
+        {
+          "name": "Java",
+          "count": 1
+        },
+        {
+          "name": "Developer Culture",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers",
+          "url": "https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Se ha descubierto una campaña a gran escala que utiliza repositorios comprometidos de GitHub para lanzar ataques contra servidores cPanel y WHM. Los atacantes están aprovechando las acciones de GitHub para ejecutar su infraestructura maliciosa.",
+          "whyItMatters": "Demuestra un nuevo vector de ataque que compromete las herramientas de desarrollo y CI/CD (GitHub Actions) para fines maliciosos. Es crucial entender cómo se pueden abusar de estas plataformas.",
+          "recommendedAction": "Revisa la seguridad de tus flujos de trabajo de GitHub Actions y asegúrate de que tus repositorios estén protegidos contra accesos no autorizados y actividades sospechosas."
+        },
+        {
+          "title": "The case for a cooldown: Why Dependabot now waits before issuing version updates",
+          "url": "https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/",
+          "source": "GitHub Blog",
+          "category": "Dev Tools",
+          "priority": "high",
+          "score": 9,
+          "summary": "Dependabot ahora espera tres días antes de emitir solicitudes de extracción de actualizaciones de versión. Este enfriamiento permite a los mantenedores y a los investigadores de seguridad abordar posibles hallazgos en una versión antes de que se integre en tu código.",
+          "whyItMatters": "Mejora la seguridad de la cadena de suministro al reducir el riesgo de introducir vulnerabilidades o problemas en tu código debido a actualizaciones de dependencias recién lanzadas.",
+          "recommendedAction": "Presta atención a las actualizaciones de Dependabot y comprende la razón detrás del retraso, ya que es una medida de seguridad proactiva."
+        },
+        {
+          "title": "Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say",
+          "url": "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Los agentes de IA Kimi K3 han descubierto vulnerabilidades 'zero-day' en Redis que permiten la ejecución remota de código (RCE). Redis ha lanzado varios parches de seguridad para abordar estos problemas.",
+          "whyItMatters": "Resalta el papel emergente de la IA en el descubrimiento de vulnerabilidades, tanto para fines de seguridad como para ataques. Las bases de datos como Redis son críticas en muchas arquitecturas.",
+          "recommendedAction": "Asegúrate de que tus instancias de Redis estén actualizadas con los últimos parches de seguridad y mantente alerta sobre cómo la IA puede ser utilizada tanto para la defensa como para el ataque."
+        }
+      ]
+    },
     {
       "date": "2026-07-23",
       "generatedAt": "2026-07-23T09:24:30.591Z",
