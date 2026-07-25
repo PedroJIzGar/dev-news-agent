@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-07-24T09:22:08.968Z",
+  "generatedAt": "2026-07-25T09:02:45.356Z",
   "availableDates": [
+    "2026-07-25",
     "2026-07-24",
     "2026-07-23",
     "2026-07-22",
@@ -44,13 +45,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 41,
-    "totalArticles": 510,
-    "highPriority": 268,
-    "mediumPriority": 195,
+    "totalReports": 42,
+    "totalArticles": 519,
+    "highPriority": 275,
+    "mediumPriority": 197,
     "lowPriority": 47,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-07-24",
+    "latestReportDate": "2026-07-25",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -61,7 +62,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 105
+        "count": 111
       },
       {
         "name": "AI for Developers",
@@ -79,11 +80,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 357
+        "count": 365
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 56
+        "count": 57
       },
       {
         "name": "GitHub Blog",
@@ -100,12 +101,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-07-18",
-      "high": 9,
-      "medium": 5,
-      "low": 1
-    },
     {
       "date": "2026-07-19",
       "high": 3,
@@ -141,9 +136,84 @@
       "high": 8,
       "medium": 6,
       "low": 1
+    },
+    {
+      "date": "2026-07-25",
+      "high": 7,
+      "medium": 2,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-07-25",
+      "generatedAt": "2026-07-25T09:02:45.347Z",
+      "totalArticles": 9,
+      "highPriority": 7,
+      "mediumPriority": 2,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 6
+        },
+        {
+          "name": "IA para Desarrolladores / Seguridad",
+          "count": 2
+        },
+        {
+          "name": "IA para Desarrolladores",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 8
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
+          "url": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 10,
+          "summary": "Investigadores de ciberseguridad descubrieron una vulnerabilidad crítica en los Agentes de ChatGPT Workspace que, a través de un enlace de phishing, podría haber permitido el despliegue sigiloso de un agente de IA autónomo dentro de una organización víctima. OpenAI ya ha lanzado un parche.",
+          "whyItMatters": "Esta vulnerabilidad destaca los riesgos de seguridad asociados con la creciente adopción de agentes de IA en entornos corporativos. La posibilidad de desplegar agentes maliciosos de forma remota es una amenaza seria para la confidencialidad y la integridad de los datos.",
+          "recommendedAction": "Mantente informado sobre las actualizaciones de seguridad de OpenAI y otras plataformas de IA. Implementa y refuerza las medidas de seguridad contra el phishing y la ingeniería social."
+        },
+        {
+          "title": "Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do",
+          "url": "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html",
+          "source": "The Hacker News",
+          "category": "IA para Desarrolladores / Seguridad",
+          "priority": "high",
+          "score": 10,
+          "summary": "La seguridad de los agentes de IA está evolucionando de la simple visibilidad al control. Se enfatiza que no basta con saber qué hacen los agentes de IA, sino que los equipos de seguridad deben ser capaces de aplicar el principio de mínimo privilegio para controlar sus capacidades y prevenir abusos.",
+          "whyItMatters": "A medida que los agentes de IA se integran más en flujos de trabajo, la seguridad se vuelve primordial. Este artículo aborda un desafío clave: la dificultad de aplicar controles de acceso granulares a sistemas autónomos, lo cual es crucial para evitar que los agentes de IA causen daños no intencionados o sean explotados.",
+          "recommendedAction": "Explora y adopta herramientas y estrategias para el control de acceso y la aplicación de políticas de seguridad para los agentes de IA. Mantente al día con las mejores prácticas emergentes en la seguridad de IA."
+        },
+        {
+          "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
+          "url": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
+          "source": "The Hacker News",
+          "category": "IA para Desarrolladores / Seguridad",
+          "priority": "high",
+          "score": 10,
+          "summary": "Un atacante utilizó un agente de IA llamado Hermes en el Ministerio de Finanzas de Tailandia. El agente se ejecutó sin supervisión, con los permisos de ejecución de comandos arriesgados activados, y llevó a cabo actividades de post-explotación de forma autónoma dentro de la red del ministerio.",
+          "whyItMatters": "Este incidente es un ejemplo claro de cómo los agentes de IA pueden ser utilizados para automatizar y escalar ataques. La falta de supervisión y la configuración inadecuada de los permisos de estos agentes pueden tener consecuencias devastadoras, permitiendo a los atacantes moverse libremente dentro de una red comprometida.",
+          "recommendedAction": "Implementa estrictos controles de seguridad y monitoreo para cualquier agente de IA desplegado en entornos de producción. Asegúrate de que los agentes se ejecuten con el mínimo privilegio necesario y que las acciones de alto riesgo requieran aprobación explícita."
+        }
+      ]
+    },
     {
       "date": "2026-07-24",
       "generatedAt": "2026-07-24T09:22:08.959Z",

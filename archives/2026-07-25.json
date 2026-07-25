@@ -1,0 +1,135 @@
+{
+  "date": "2026-07-25",
+  "generatedAt": "2026-07-25T09:02:45.347Z",
+  "totalArticles": 9,
+  "summary": {
+    "highPriority": 7,
+    "mediumPriority": 2,
+    "lowPriority": 0,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 6
+      },
+      {
+        "name": "IA para Desarrolladores / Seguridad",
+        "count": 2
+      },
+      {
+        "name": "IA para Desarrolladores",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 8
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
+      "url": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 10,
+      "summary": "Investigadores de ciberseguridad descubrieron una vulnerabilidad crítica en los Agentes de ChatGPT Workspace que, a través de un enlace de phishing, podría haber permitido el despliegue sigiloso de un agente de IA autónomo dentro de una organización víctima. OpenAI ya ha lanzado un parche.",
+      "whyItMatters": "Esta vulnerabilidad destaca los riesgos de seguridad asociados con la creciente adopción de agentes de IA en entornos corporativos. La posibilidad de desplegar agentes maliciosos de forma remota es una amenaza seria para la confidencialidad y la integridad de los datos.",
+      "recommendedAction": "Mantente informado sobre las actualizaciones de seguridad de OpenAI y otras plataformas de IA. Implementa y refuerza las medidas de seguridad contra el phishing y la ingeniería social."
+    },
+    {
+      "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
+      "url": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Un investigador de seguridad ha publicado un prueba de concepto (PoC) para una vulnerabilidad de ejecución remota de código (RCE) en GitLab. Un usuario autenticado puede ejecutar comandos como el usuario 'git' en servidores GitLab auto-gestionados no parcheados, simplemente cometiendo dos Jupyter notebooks modificados.",
+      "whyItMatters": "Esta vulnerabilidad permite a usuarios con permisos limitados escalar sus privilegios en sistemas GitLab, lo cual puede ser un punto de entrada para atacantes. Dado que GitLab es una plataforma popular para el desarrollo y la gestión de código, una brecha aquí puede tener implicaciones significativas.",
+      "recommendedAction": "Asegúrate de que tus servidores GitLab estén actualizados a la última versión. Revisa los registros de auditoría para detectar actividades sospechosas relacionadas con commits y ejecuciones de comandos."
+    },
+    {
+      "title": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers",
+      "url": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se descubrió que fallos en la búsqueda de imágenes de Bing permitían la ejecución de comandos como SYSTEM en los servidores de procesamiento de imágenes de Microsoft y como root en máquinas Linux. La vulnerabilidad radicaba en el manejo de archivos SVG manipulados. Microsoft ha emitido dos CVEs críticos.",
+      "whyItMatters": "Esta noticia resalta la importancia de la validación exhaustiva de entradas, incluso en funcionalidades aparentemente benignas como la búsqueda de imágenes. La explotación de estos fallos podría haber comprometido la infraestructura de Microsoft.",
+      "recommendedAction": "Presta atención a las prácticas de seguridad en el procesamiento de archivos de entrada y en la validación de datos. Mantente al día con los avisos de seguridad de Microsoft y otras grandes plataformas tecnológicas."
+    },
+    {
+      "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
+      "url": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Actores de amenaza norcoreanos, asociados con BlueNoroff, han implementado un kit de phishing activo que suplanta a plataformas de videoconferencia como Zoom y Microsoft Teams. Este kit perfila billeteras de criptomonedas antes de entregar malware, utilizando nombres de dominio mal escritos (typosquatting).",
+      "whyItMatters": "El uso de tácticas de ingeniería social cada vez más sofisticadas y dirigidas, como la suplantación de plataformas populares y el enfoque en activos digitales, representa una amenaza creciente. La combinación de phishing y robo de criptomonedas es particularmente peligrosa.",
+      "recommendedAction": "Educa a los usuarios sobre las tácticas de phishing, especialmente las que involucran suplantación de identidad de servicios comunes. Implementa soluciones de seguridad de correo electrónico y monitorea la actividad de la red en busca de patrones de acceso sospechosos."
+    },
+    {
+      "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
+      "url": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Investigadores han publicado un exploit llamado 'Certighost' que permite a un usuario de Active Directory con bajos privilegios obtener un certificado para un Controlador de Dominio y autenticarse como tal. Esto puede llevar a la obtención de secretos de replicación de directorio (krbtgt) vía DCSync.",
+      "whyItMatters": "Esta vulnerabilidad en Active Directory es extremadamente grave, ya que permite a un atacante interno con privilegios limitados obtener control administrativo sobre el dominio. La capacidad de impersonar a un controlador de dominio abre la puerta a ataques de movimiento lateral y exfiltración de datos sensibles.",
+      "recommendedAction": "Aplica parches y actualizaciones de seguridad a tus entornos Active Directory. Implementa el principio de mínimo privilegio para todas las cuentas de usuario. Considera realizar auditorías de seguridad regulares de tu infraestructura de AD."
+    },
+    {
+      "title": "Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do",
+      "url": "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html",
+      "source": "The Hacker News",
+      "category": "IA para Desarrolladores / Seguridad",
+      "priority": "high",
+      "score": 10,
+      "summary": "La seguridad de los agentes de IA está evolucionando de la simple visibilidad al control. Se enfatiza que no basta con saber qué hacen los agentes de IA, sino que los equipos de seguridad deben ser capaces de aplicar el principio de mínimo privilegio para controlar sus capacidades y prevenir abusos.",
+      "whyItMatters": "A medida que los agentes de IA se integran más en flujos de trabajo, la seguridad se vuelve primordial. Este artículo aborda un desafío clave: la dificultad de aplicar controles de acceso granulares a sistemas autónomos, lo cual es crucial para evitar que los agentes de IA causen daños no intencionados o sean explotados.",
+      "recommendedAction": "Explora y adopta herramientas y estrategias para el control de acceso y la aplicación de políticas de seguridad para los agentes de IA. Mantente al día con las mejores prácticas emergentes en la seguridad de IA."
+    },
+    {
+      "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
+      "url": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
+      "source": "The Hacker News",
+      "category": "IA para Desarrolladores / Seguridad",
+      "priority": "high",
+      "score": 10,
+      "summary": "Un atacante utilizó un agente de IA llamado Hermes en el Ministerio de Finanzas de Tailandia. El agente se ejecutó sin supervisión, con los permisos de ejecución de comandos arriesgados activados, y llevó a cabo actividades de post-explotación de forma autónoma dentro de la red del ministerio.",
+      "whyItMatters": "Este incidente es un ejemplo claro de cómo los agentes de IA pueden ser utilizados para automatizar y escalar ataques. La falta de supervisión y la configuración inadecuada de los permisos de estos agentes pueden tener consecuencias devastadoras, permitiendo a los atacantes moverse libremente dentro de una red comprometida.",
+      "recommendedAction": "Implementa estrictos controles de seguridad y monitoreo para cualquier agente de IA desplegado en entornos de producción. Asegúrate de que los agentes se ejecuten con el mínimo privilegio necesario y que las acciones de alto riesgo requieran aprobación explícita."
+    },
+    {
+      "title": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants",
+      "url": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 7,
+      "summary": "El ecosistema de malware-as-a-service (MaaS) 'Golden Chickens' ha resurgido con cuatro nuevas familias de malware y implantes modulares. Los operadores detrás de este servicio continúan operando a pesar de las divulgaciones públicas previas.",
+      "whyItMatters": "La persistencia y evolución de actores maliciosos como los de Golden Chickens subraya la necesidad de estar vigilante. La aparición de nuevas familias de malware y técnicas modulares sugiere que estos grupos están adaptándose para evadir la detección.",
+      "recommendedAction": "Mantente actualizado sobre las últimas amenazas de malware y las tácticas empleadas por grupos como Golden Chickens. Asegúrate de que tus defensas de seguridad, incluyendo el antivirus y los firewalls, estén actualizadas."
+    },
+    {
+      "title": "No Dumb Questions: What is the AI bottleneck? How does context engineering fix it?",
+      "url": "https://stackoverflow.blog/2026/07/24/no-dumb-questions-ai-bottleneck/",
+      "source": "Stack Overflow Blog",
+      "category": "IA para Desarrolladores",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Este artículo explica el concepto de 'cuello de botella de la IA' y cómo la 'ingeniería de contexto' puede ayudar a resolverlo. Se discuten las técnicas y lo que los desarrolladores pueden hacer para mejorar la ingeniería de contexto.",
+      "whyItMatters": "Entender los cuellos de botella en los sistemas de IA y cómo optimizarlos es fundamental para construir aplicaciones de IA más eficientes y efectivas. La ingeniería de contexto es una habilidad cada vez más importante para los desarrolladores que trabajan con modelos de lenguaje grandes (LLMs).",
+      "recommendedAction": "Lee este artículo para comprender mejor los desafíos de rendimiento en IA y cómo la ingeniería de contexto puede ser una solución. Considera aplicar estos conceptos en tus propios proyectos de IA."
+    }
+  ]
+}
