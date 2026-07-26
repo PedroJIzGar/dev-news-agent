@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-07-25T09:02:45.356Z",
+  "generatedAt": "2026-07-26T09:12:54.758Z",
   "availableDates": [
+    "2026-07-26",
     "2026-07-25",
     "2026-07-24",
     "2026-07-23",
@@ -45,13 +46,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 42,
-    "totalArticles": 519,
-    "highPriority": 275,
-    "mediumPriority": 197,
-    "lowPriority": 47,
+    "totalReports": 43,
+    "totalArticles": 524,
+    "highPriority": 276,
+    "mediumPriority": 199,
+    "lowPriority": 49,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-07-25",
+    "latestReportDate": "2026-07-26",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -62,7 +63,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 111
+        "count": 116
       },
       {
         "name": "AI for Developers",
@@ -80,7 +81,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 365
+        "count": 370
       },
       {
         "name": "Stack Overflow Blog",
@@ -101,12 +102,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-07-19",
-      "high": 3,
-      "medium": 7,
-      "low": 2
-    },
     {
       "date": "2026-07-20",
       "high": 6,
@@ -142,9 +137,72 @@
       "high": 7,
       "medium": 2,
       "low": 0
+    },
+    {
+      "date": "2026-07-26",
+      "high": 1,
+      "medium": 2,
+      "low": 2
     }
   ],
   "reports": [
+    {
+      "date": "2026-07-26",
+      "generatedAt": "2026-07-26T09:12:54.749Z",
+      "totalArticles": 5,
+      "highPriority": 1,
+      "mediumPriority": 2,
+      "lowPriority": 2,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 5
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 5
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
+          "url": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 10,
+          "summary": "Se ha descubierto una vulnerabilidad crítica de ejecución remota de código (RCE) en Fastjson 1.x, una biblioteca JSON para Java, que está siendo activamente explotada. La vulnerabilidad permite a los atacantes ejecutar código sin autenticación en aplicaciones Spring Boot afectadas.",
+          "whyItMatters": "Esta vulnerabilidad afecta directamente a aplicaciones Java/Spring Boot, una pila tecnológica clave para el usuario. La falta de un parche inmediato y su activa explotación la convierten en una amenaza de seguridad urgente que podría comprometer datos y sistemas.",
+          "recommendedAction": "Auditar inmediatamente las aplicaciones que utilizan Fastjson 1.x. Si es posible, migrar a una versión parcheada o a una biblioteca JSON alternativa. Priorizar la aplicación de cualquier solución o mitigación disponible."
+        },
+        {
+          "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
+          "url": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "medium",
+          "score": 7,
+          "summary": "Una operación de malvertising llamada SourTrade está logrando que los navegadores de las víctimas construyan el ejecutable final de Windows, utilizando un entorno de ejecución de Bun legítimo como base en lugar de servir un archivo malicioso completo.",
+          "whyItMatters": "Muestra una técnica de ataque sofisticada que dificulta la detección tradicional de malware. Aunque no afecta directamente a la pila del usuario (Java, Spring Boot, Angular), es relevante para entender las amenazas emergentes en la seguridad web.",
+          "recommendedAction": "Mantener actualizados los navegadores y el software antivirus. Ser cauteloso con los anuncios en línea, especialmente en sitios web relacionados con finanzas o comercio. Educarse sobre las nuevas tácticas de ataque de malvertising."
+        },
+        {
+          "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
+          "url": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "medium",
+          "score": 6,
+          "summary": "La investigación de CTM360 revela que las campañas de phishing, particularmente las dirigidas a instituciones financieras y de seguros, están evolucionando de la simple recolección de credenciales a la toma de control de cuentas en tiempo real.",
+          "whyItMatters": "Destaca la creciente sofisticación de los ataques de phishing. Comprender estas evoluciones es crucial para implementar medidas de seguridad más robustas y para proteger tanto los sistemas como a los usuarios finales de accesos no autorizados.",
+          "recommendedAction": "Fortalecer las medidas de autenticación, como la autenticación multifactor (MFA). Educar continuamente a los usuarios sobre las tácticas de phishing más recientes. Revisar y mejorar los mecanismos de detección y respuesta ante incidentes de seguridad."
+        }
+      ]
+    },
     {
       "date": "2026-07-25",
       "generatedAt": "2026-07-25T09:02:45.347Z",
