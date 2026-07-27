@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-07-26T09:12:54.758Z",
+  "generatedAt": "2026-07-27T10:43:17.194Z",
   "availableDates": [
+    "2026-07-27",
     "2026-07-26",
     "2026-07-25",
     "2026-07-24",
@@ -46,13 +47,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 43,
-    "totalArticles": 524,
-    "highPriority": 276,
-    "mediumPriority": 199,
+    "totalReports": 44,
+    "totalArticles": 526,
+    "highPriority": 277,
+    "mediumPriority": 200,
     "lowPriority": 49,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-07-26",
+    "latestReportDate": "2026-07-27",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -63,7 +64,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 116
+        "count": 118
       },
       {
         "name": "AI for Developers",
@@ -81,7 +82,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 370
+        "count": 372
       },
       {
         "name": "Stack Overflow Blog",
@@ -102,12 +103,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-07-20",
-      "high": 6,
-      "medium": 1,
-      "low": 0
-    },
     {
       "date": "2026-07-21",
       "high": 5,
@@ -143,9 +138,61 @@
       "high": 1,
       "medium": 2,
       "low": 2
+    },
+    {
+      "date": "2026-07-27",
+      "high": 1,
+      "medium": 1,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-07-27",
+      "generatedAt": "2026-07-27T10:43:17.185Z",
+      "totalArticles": 2,
+      "highPriority": 1,
+      "mediumPriority": 1,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 2
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 2
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption",
+          "url": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "GitHub ha implementado una nueva función en Dependabot que introduce un período de enfriamiento de 3 días antes de abrir solicitudes de extracción para actualizaciones de dependencias. Esto ayuda a prevenir la adopción de paquetes envenenados o maliciosos.",
+          "whyItMatters": "Esta medida de seguridad es crucial para los desarrolladores que utilizan GitHub y Dependabot para gestionar sus dependencias. Reduce el riesgo de introducir código malicioso en los proyectos al dar tiempo para que se descubran y reporten vulnerabilidades o ataques en nuevas versiones de paquetes.",
+          "recommendedAction": "Asegúrate de que tu configuración de Dependabot en GitHub esté al día. Revisa las notificaciones de Dependabot y considera el impacto de las actualizaciones de dependencias, especialmente después de un período de enfriamiento. Prioriza las actualizaciones de seguridad críticas."
+        },
+        {
+          "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
+          "url": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "medium",
+          "score": 7,
+          "summary": "Se ha descubierto una nueva campaña de ciberataques dirigida a gobiernos en Oriente Medio, utilizando Telegram como canal de Comando y Control (C2) para desplegar malware como TELESHIM, MIXEDKEY y BINDCLOAK.",
+          "whyItMatters": "Aunque el ataque está dirigido geográficamente, el uso innovador de plataformas legítimas como Telegram para C2 es una técnica que los atacantes pueden replicar. Estar al tanto de estas tácticas ayuda a los desarrolladores a comprender el panorama de amenazas y a fortalecer las defensas de sus aplicaciones.",
+          "recommendedAction": "Mantente informado sobre las últimas tácticas de los actores de amenazas. Considera la posibilidad de implementar medidas de seguridad que monitoreen el tráfico de red inusual o el uso de servicios externos para la comunicación de control, incluso si son servicios populares."
+        }
+      ]
+    },
     {
       "date": "2026-07-26",
       "generatedAt": "2026-07-26T09:12:54.749Z",
