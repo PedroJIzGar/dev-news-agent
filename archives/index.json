@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-07-27T10:43:17.194Z",
+  "generatedAt": "2026-07-28T09:36:49.083Z",
   "availableDates": [
+    "2026-07-28",
     "2026-07-27",
     "2026-07-26",
     "2026-07-25",
@@ -47,13 +48,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 44,
-    "totalArticles": 526,
-    "highPriority": 277,
-    "mediumPriority": 200,
-    "lowPriority": 49,
+    "totalReports": 45,
+    "totalArticles": 541,
+    "highPriority": 284,
+    "mediumPriority": 207,
+    "lowPriority": 50,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-07-27",
+    "latestReportDate": "2026-07-28",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -64,7 +65,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 118
+        "count": 127
       },
       {
         "name": "AI for Developers",
@@ -76,25 +77,25 @@
       },
       {
         "name": "Backend",
-        "count": 13
+        "count": 14
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 372
+        "count": 383
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 57
+        "count": 58
       },
       {
         "name": "GitHub Blog",
-        "count": 40
+        "count": 42
       },
       {
         "name": "Spring Blog",
-        "count": 39
+        "count": 40
       },
       {
         "name": "Krebs on Security",
@@ -103,12 +104,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-07-21",
-      "high": 5,
-      "medium": 5,
-      "low": 1
-    },
     {
       "date": "2026-07-22",
       "high": 11,
@@ -144,9 +139,100 @@
       "high": 1,
       "medium": 1,
       "low": 0
+    },
+    {
+      "date": "2026-07-28",
+      "high": 7,
+      "medium": 7,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-07-28",
+      "generatedAt": "2026-07-28T09:36:49.073Z",
+      "totalArticles": 15,
+      "highPriority": 7,
+      "mediumPriority": 7,
+      "lowPriority": 1,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 9
+        },
+        {
+          "name": "IA y Seguridad",
+          "count": 2
+        },
+        {
+          "name": "Herramientas de Desarrollo / IA",
+          "count": 2
+        },
+        {
+          "name": "Backend",
+          "count": 1
+        },
+        {
+          "name": "IA y DevOps",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 11
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 2
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
+          "url": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una vulnerabilidad crítica en las versiones locales de TeamCity que podría permitir a los atacantes ejecutar comandos del sistema operativo sin necesidad de iniciar sesión. JetBrains recomienda actualizar a las últimas versiones.",
+          "whyItMatters": "Esta vulnerabilidad de alta severidad (CVSS 9.8) representa un riesgo significativo para la seguridad de los sistemas de integración continua y entrega continua si no se parchea, permitiendo el acceso no autorizado y la ejecución de código malicioso.",
+          "recommendedAction": "Actualiza inmediatamente las versiones locales de TeamCity a las versiones 2025.11.7 o 2026.1.3 para mitigar el riesgo de explotación."
+        },
+        {
+          "title": "Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw",
+          "url": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una vulnerabilidad de inyección de comandos de máxima severidad (CVSS 10.0) en Arista VeloCloud Orchestrator (VCO) versiones locales está siendo explotada activamente en la naturaleza, permitiendo la ejecución de código arbitrario.",
+          "whyItMatters": "Esta es una vulnerabilidad crítica con un impacto máximo que afecta a la ejecución de código. La explotación activa en el mundo real significa que los sistemas afectados están en riesgo inmediato.",
+          "recommendedAction": "Si utilizas Arista VeloCloud Orchestrator en tus instalaciones, aplica los parches de seguridad necesarios de inmediato para proteger tus sistemas contra esta explotación."
+        },
+        {
+          "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half the Cost",
+          "url": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
+          "source": "The Hacker News",
+          "category": "IA y Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Microsoft ha lanzado un nuevo modelo de IA específico para ciberseguridad dentro de su plataforma MDASH, afirmando que logra una alta precisión en la identificación de vulnerabilidades con un costo reducido.",
+          "whyItMatters": "Demuestra el avance de la IA en el campo de la ciberseguridad, ofreciendo herramientas más eficientes y rentables para detectar y remediar vulnerabilidades, lo cual es crucial para la protección de sistemas.",
+          "recommendedAction": "Presta atención a cómo las grandes empresas están aplicando IA a la ciberseguridad y considera cómo estas tecnologías podrían impactar tus propias estrategias de seguridad."
+        }
+      ]
+    },
     {
       "date": "2026-07-27",
       "generatedAt": "2026-07-27T10:43:17.185Z",

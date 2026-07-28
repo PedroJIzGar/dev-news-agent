@@ -1,0 +1,217 @@
+{
+  "date": "2026-07-28",
+  "generatedAt": "2026-07-28T09:36:49.073Z",
+  "totalArticles": 15,
+  "summary": {
+    "highPriority": 7,
+    "mediumPriority": 7,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 9
+      },
+      {
+        "name": "IA y Seguridad",
+        "count": 2
+      },
+      {
+        "name": "Herramientas de Desarrollo / IA",
+        "count": 2
+      },
+      {
+        "name": "Backend",
+        "count": 1
+      },
+      {
+        "name": "IA y DevOps",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 11
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 2
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
+      "url": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se ha descubierto una vulnerabilidad crítica en las versiones locales de TeamCity que podría permitir a los atacantes ejecutar comandos del sistema operativo sin necesidad de iniciar sesión. JetBrains recomienda actualizar a las últimas versiones.",
+      "whyItMatters": "Esta vulnerabilidad de alta severidad (CVSS 9.8) representa un riesgo significativo para la seguridad de los sistemas de integración continua y entrega continua si no se parchea, permitiendo el acceso no autorizado y la ejecución de código malicioso.",
+      "recommendedAction": "Actualiza inmediatamente las versiones locales de TeamCity a las versiones 2025.11.7 o 2026.1.3 para mitigar el riesgo de explotación."
+    },
+    {
+      "title": "Spring Office Hours Podcast: S5E19 - Docker, Compose, Testcontainers, Oh My!",
+      "url": "https://spring.io/blog/2026/07/27/spring-office-hours-podcast-S5E19",
+      "source": "Spring Blog",
+      "category": "Backend",
+      "priority": "medium",
+      "score": 7,
+      "summary": "El último episodio del podcast Spring Office Hours se centra en la discusión de Docker, Docker Compose y Testcontainers, herramientas clave para la contenerización y las pruebas en el ecosistema Spring.",
+      "whyItMatters": "Dominar Docker y Testcontainers es esencial para los desarrolladores de Spring Boot que buscan mejorar sus flujos de trabajo de desarrollo, pruebas y despliegue, facilitando la creación de entornos consistentes y reproducibles.",
+      "recommendedAction": "Escucha el podcast para obtener información práctica sobre cómo integrar y utilizar Docker y Testcontainers de manera efectiva en tus proyectos Spring."
+    },
+    {
+      "title": "Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit",
+      "url": "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Un investigador utilizó IA para descubrir y desarrollar un exploit para una vulnerabilidad de carrera en el subsistema de control de tráfico de red del kernel de Linux, que permite a un usuario local obtener privilegios de root.",
+      "whyItMatters": "Este artículo destaca la creciente influencia de la IA en el descubrimiento de vulnerabilidades y el desarrollo de exploits, lo que subraya la necesidad de que los desarrolladores estén al tanto de las nuevas amenazas y las técnicas utilizadas para encontrarlas.",
+      "recommendedAction": "Mantente informado sobre las vulnerabilidades críticas del kernel de Linux y considera cómo la IA podría usarse tanto para encontrar como para parchear fallos de seguridad."
+    },
+    {
+      "title": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
+      "url": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
+      "source": "The Hacker News",
+      "category": "IA y Seguridad",
+      "priority": "medium",
+      "score": 7,
+      "summary": "NVIDIA y otras 36 organizaciones han formado la Alianza Abierta de IA Segura para desarrollar y compartir tecnologías, técnicas y herramientas para asegurar la IA y los agentes de software.",
+      "whyItMatters": "La seguridad en IA es un campo emergente y crucial. La formación de esta alianza y la apertura de su framework es un paso importante hacia el establecimiento de estándares y mejores prácticas para el desarrollo seguro de IA.",
+      "recommendedAction": "Sigue las iniciativas de la Alianza Abierta de IA Segura y explora el framework NOOA para comprender las últimas tendencias y herramientas en la seguridad de la IA."
+    },
+    {
+      "title": "Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw",
+      "url": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una vulnerabilidad de inyección de comandos de máxima severidad (CVSS 10.0) en Arista VeloCloud Orchestrator (VCO) versiones locales está siendo explotada activamente en la naturaleza, permitiendo la ejecución de código arbitrario.",
+      "whyItMatters": "Esta es una vulnerabilidad crítica con un impacto máximo que afecta a la ejecución de código. La explotación activa en el mundo real significa que los sistemas afectados están en riesgo inmediato.",
+      "recommendedAction": "Si utilizas Arista VeloCloud Orchestrator en tus instalaciones, aplica los parches de seguridad necesarios de inmediato para proteger tus sistemas contra esta explotación."
+    },
+    {
+      "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
+      "url": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Se ha detectado una campaña de phishing que utiliza un señuelo de actualización de Microsoft Teams para distribuir herramientas de gestión remota (RMM) como Level RMM y ScreenConnect.",
+      "whyItMatters": "Este ataque demuestra tácticas de ingeniería social que imitan actualizaciones legítimas para instalar software malicioso o no deseado. La suplantación de identidad de herramientas de colaboración populares como Teams sigue siendo una vector de ataque efectivo.",
+      "recommendedAction": "Educa a tu equipo sobre las tácticas de phishing, especialmente aquellas que involucran actualizaciones de software o solicitudes urgentes. Verifica siempre la autenticidad de las actualizaciones."
+    },
+    {
+      "title": "The harness is all you need (mostly)",
+      "url": "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
+      "source": "GitHub Blog",
+      "category": "Herramientas de Desarrollo / IA",
+      "priority": "medium",
+      "score": 8,
+      "summary": "Este artículo explora un flujo de trabajo práctico con GitHub Copilot para prototipar, planificar, implementar y revisar software, enfocándose en cómo usarlo de manera efectiva sin caer en la sobrecarga de herramientas de IA.",
+      "whyItMatters": "GitHub Copilot está transformando la forma en que los desarrolladores escriben código. Comprender cómo integrarlo eficientemente en el ciclo de desarrollo puede aumentar significativamente la productividad y mejorar la calidad del código.",
+      "recommendedAction": "Explora el flujo de trabajo propuesto y experimenta con GitHub Copilot en tus proyectos para mejorar tu eficiencia en el desarrollo."
+    },
+    {
+      "title": "GitHub Copilot app for Beginners: Getting started",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/",
+      "source": "GitHub Blog",
+      "category": "Herramientas de Desarrollo / IA",
+      "priority": "medium",
+      "score": 8,
+      "summary": "Una guía para principiantes sobre cómo empezar a usar la aplicación GitHub Copilot, incluyendo la creación de proyectos, la interacción con agentes de IA y la optimización del flujo de trabajo de desarrollo.",
+      "whyItMatters": "Para los desarrolladores que son nuevos en GitHub Copilot, esta guía ofrece una introducción clara y práctica para comenzar a aprovechar el poder de la IA en su desarrollo.",
+      "recommendedAction": "Si eres nuevo en GitHub Copilot, lee esta guía para familiarizarte con la aplicación y empezar a usarla en tus proyectos."
+    },
+    {
+      "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half the Cost",
+      "url": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
+      "source": "The Hacker News",
+      "category": "IA y Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Microsoft ha lanzado un nuevo modelo de IA específico para ciberseguridad dentro de su plataforma MDASH, afirmando que logra una alta precisión en la identificación de vulnerabilidades con un costo reducido.",
+      "whyItMatters": "Demuestra el avance de la IA en el campo de la ciberseguridad, ofreciendo herramientas más eficientes y rentables para detectar y remediar vulnerabilidades, lo cual es crucial para la protección de sistemas.",
+      "recommendedAction": "Presta atención a cómo las grandes empresas están aplicando IA a la ciberseguridad y considera cómo estas tecnologías podrían impactar tus propias estrategias de seguridad."
+    },
+    {
+      "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
+      "url": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 7,
+      "summary": "Se ha publicado un exploit público para una vulnerabilidad de ejecución de código anterior a la autenticación en vBulletin, lo que permite a atacantes sin credenciales ejecutar código en servidores no parcheados.",
+      "whyItMatters": "La disponibilidad de exploits públicos para vulnerabilidades parcheadas representa un riesgo inmediato para los sistemas que no han sido actualizados, facilitando ataques a gran escala.",
+      "recommendedAction": "Asegúrate de que todos tus foros y aplicaciones que utilizan vBulletin estén actualizados a las últimas versiones de seguridad para prevenir la explotación de esta vulnerabilidad."
+    },
+    {
+      "title": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption",
+      "url": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "La botnet de IoT Dysphoria ha adoptado servicios de nombres basados en blockchain y relés de víctimas para dificultar su interrupción tras la operación contra la infraestructura de JackSkid.",
+      "whyItMatters": "Este artículo muestra la evolución de las tácticas de las botnets para evadir la detección y la acción legal, utilizando tecnologías emergentes como blockchain para mejorar su resiliencia y anonimato.",
+      "recommendedAction": "Mantente al día sobre las últimas amenazas en el espacio de IoT y las técnicas que utilizan los actores maliciosos para mantener sus operaciones."
+    },
+    {
+      "title": "⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and More",
+      "url": "https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Recapitulación semanal de noticias de ciberseguridad que incluye agentes de IA rebeldes, exploits de Check Point, ataques de Slopsquatting y señuelos de ClickFix.",
+      "whyItMatters": "Proporciona una visión general rápida de las amenazas y tendencias de seguridad más importantes de la semana, ayudando a los profesionales a mantenerse informados sobre el panorama de amenazas en constante cambio.",
+      "recommendedAction": "Revisa este resumen semanal para obtener una rápida actualización sobre los eventos de seguridad más relevantes y sus implicaciones."
+    },
+    {
+      "title": "n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process",
+      "url": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Se ha corregido una vulnerabilidad de escape de sandbox de alta severidad en n8n que permitía a los editores de flujos de trabajo autenticados ejecutar comandos del sistema operativo en el servidor.",
+      "whyItMatters": "Esta vulnerabilidad afecta a una plataforma de automatización, lo que podría permitir a un atacante con acceso limitado escalar sus privilegios y ejecutar comandos arbitrarios en el servidor donde se ejecuta n8n.",
+      "recommendedAction": "Actualiza n8n a las versiones 2.31.5 o posteriores a la 2.32.1 para protegerte contra este tipo de ataques."
+    },
+    {
+      "title": "Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware",
+      "url": "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "low",
+      "score": 4,
+      "summary": "Se ha observado un grupo de cibercrimen vinculado a China utilizando un servicio de crypter sofisticado llamado Cruciferra para ocultar malware de Windows, empleando técnicas como BYOVD y 'process ghosting'.",
+      "whyItMatters": "Este artículo detalla las técnicas avanzadas que utilizan los actores de amenazas para evadir la detección de software de seguridad, lo que puede ser de interés para los profesionales de la seguridad que investigan malware.",
+      "recommendedAction": "Mantente informado sobre las técnicas de ofuscación de malware para comprender mejor cómo proteger los sistemas contra amenazas avanzadas."
+    },
+    {
+      "title": "You need reliable AI context for your site reliability",
+      "url": "https://stackoverflow.blog/2026/07/28/you-need-reliable-ai-context-for-your-site-reliability/",
+      "source": "Stack Overflow Blog",
+      "category": "IA y DevOps",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Este artículo discute la necesidad de un contexto de IA fiable en la fiabilidad del sitio (Site Reliability Engineering - SRE), explorando cómo la IA está cambiando el trabajo de los SREs hacia la gestión estratégica de agentes de IA.",
+      "whyItMatters": "La IA está empezando a integrarse en operaciones y DevOps. Comprender cómo la IA afecta a SRE y qué tipo de contexto necesita es crucial para construir sistemas más fiables y eficientes.",
+      "recommendedAction": "Considera cómo la IA podría integrarse en tus flujos de trabajo de SRE y DevOps, y qué tipo de datos y contexto son necesarios para que funcione de manera efectiva."
+    }
+  ]
+}
