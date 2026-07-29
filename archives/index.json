@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-07-28T09:36:49.083Z",
+  "generatedAt": "2026-07-29T09:37:38.312Z",
   "availableDates": [
+    "2026-07-29",
     "2026-07-28",
     "2026-07-27",
     "2026-07-26",
@@ -48,20 +49,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 45,
-    "totalArticles": 541,
-    "highPriority": 284,
-    "mediumPriority": 207,
-    "lowPriority": 50,
+    "totalReports": 46,
+    "totalArticles": 554,
+    "highPriority": 291,
+    "mediumPriority": 211,
+    "lowPriority": 52,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-07-28",
+    "latestReportDate": "2026-07-29",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 221
+        "count": 231
       },
       {
         "name": "Seguridad",
@@ -83,7 +84,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 383
+        "count": 394
       },
       {
         "name": "Stack Overflow Blog",
@@ -91,11 +92,11 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 42
+        "count": 43
       },
       {
         "name": "Spring Blog",
-        "count": 40
+        "count": 41
       },
       {
         "name": "Krebs on Security",
@@ -104,12 +105,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-07-22",
-      "high": 11,
-      "medium": 4,
-      "low": 0
-    },
     {
       "date": "2026-07-23",
       "high": 1,
@@ -145,9 +140,92 @@
       "high": 7,
       "medium": 7,
       "low": 1
+    },
+    {
+      "date": "2026-07-29",
+      "high": 7,
+      "medium": 4,
+      "low": 2
     }
   ],
   "reports": [
+    {
+      "date": "2026-07-29",
+      "generatedAt": "2026-07-29T09:37:38.303Z",
+      "totalArticles": 13,
+      "highPriority": 7,
+      "mediumPriority": 4,
+      "lowPriority": 2,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 10
+        },
+        {
+          "name": "Seguridad/DevOps",
+          "count": 1
+        },
+        {
+          "name": "Security/AI",
+          "count": 1
+        },
+        {
+          "name": "Java/Spring",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 11
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
+          "url": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Dos paquetes npm de @joyfill, en sus versiones beta, han sido comprometidos para distribuir un troyano de acceso remoto (RAT) conocido como DEV#POPPER. Estos paquetes contienen un implante de JavaScript que se ejecuta al importar el código.",
+          "whyItMatters": "Este incidente es crucial porque afecta la cadena de suministro de software, exponiendo a los desarrolladores que utilizan estos paquetes a malware. La ejecución de código malicioso al importar librerías es una técnica de ataque preocupante.",
+          "recommendedAction": "Revisa si estás utilizando `@joyfill/layouts@0.1.2-2773.beta.0` o `@joyfill/components@4.0.0-rc24-2773-beta.4`. Si es así, desinstala inmediatamente estas versiones y busca alternativas seguras. Mantén actualizadas tus dependencias y monitoriza los avisos de seguridad para paquetes npm."
+        },
+        {
+          "title": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
+          "url": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha publicado un Proof of Concept (PoC) público para una vulnerabilidad crítica de bypass de autenticación en Check Point SmartConsole (CVE-2026-16232). Esta falla permite a atacantes no autenticados acceder a sistemas comprometidos.",
+          "whyItMatters": "La disponibilidad de un PoC facilita que actores maliciosos exploten esta vulnerabilidad. Dado que Check Point es una solución de seguridad empresarial, la explotación de esta falla puede tener consecuencias graves para la seguridad de las redes corporativas.",
+          "recommendedAction": "Si utilizas productos de Check Point que incluyan SmartConsole, aplica los parches de seguridad correspondientes inmediatamente. Revisa logs en busca de actividad sospechosa y mantente informado sobre las actualizaciones de seguridad de Check Point."
+        },
+        {
+          "title": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
+          "url": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Gitea, una plataforma Git auto-alojada, ha parcheado una vulnerabilidad crítica de ejecución remota de código (RCE) (CVE-2026-60004). Permite a usuarios con permisos de escritura en un repositorio inyectar un 'Git hook' para ejecutar comandos del sistema.",
+          "whyItMatters": "Esta vulnerabilidad es muy grave ya que un atacante con permisos limitados (escritura en un repo) puede escalar privilegios y ejecutar comandos arbitrarios en el servidor de Gitea, comprometiendo la infraestructura completa.",
+          "recommendedAction": "Actualiza Gitea a la versión 1.27.1 o superior lo antes posible. Revisa tus repositorios en busca de 'Git hooks' sospechosos y audita los permisos de acceso a tus repositorios."
+        }
+      ]
+    },
     {
       "date": "2026-07-28",
       "generatedAt": "2026-07-28T09:36:49.073Z",
