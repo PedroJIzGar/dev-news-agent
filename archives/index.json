@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-07-29T09:37:38.312Z",
+  "generatedAt": "2026-07-30T09:30:51.931Z",
   "availableDates": [
+    "2026-07-30",
     "2026-07-29",
     "2026-07-28",
     "2026-07-27",
@@ -49,20 +50,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 46,
-    "totalArticles": 554,
-    "highPriority": 291,
-    "mediumPriority": 211,
-    "lowPriority": 52,
+    "totalReports": 47,
+    "totalArticles": 569,
+    "highPriority": 295,
+    "mediumPriority": 215,
+    "lowPriority": 59,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-07-29",
+    "latestReportDate": "2026-07-30",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 231
+        "count": 243
       },
       {
         "name": "Seguridad",
@@ -74,7 +75,7 @@
       },
       {
         "name": "AI",
-        "count": 17
+        "count": 18
       },
       {
         "name": "Backend",
@@ -84,15 +85,15 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 394
+        "count": 407
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 58
+        "count": 59
       },
       {
         "name": "GitHub Blog",
-        "count": 43
+        "count": 44
       },
       {
         "name": "Spring Blog",
@@ -105,12 +106,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-07-23",
-      "high": 1,
-      "medium": 6,
-      "low": 3
-    },
     {
       "date": "2026-07-24",
       "high": 8,
@@ -146,9 +141,92 @@
       "high": 7,
       "medium": 4,
       "low": 2
+    },
+    {
+      "date": "2026-07-30",
+      "high": 4,
+      "medium": 4,
+      "low": 7
     }
   ],
   "reports": [
+    {
+      "date": "2026-07-30",
+      "generatedAt": "2026-07-30T09:30:51.922Z",
+      "totalArticles": 15,
+      "highPriority": 4,
+      "mediumPriority": 4,
+      "lowPriority": 7,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 12
+        },
+        {
+          "name": "GitHub",
+          "count": 1
+        },
+        {
+          "name": "AI",
+          "count": 1
+        },
+        {
+          "name": "Developer Culture",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 13
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
+          "url": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Una vulnerabilidad crítica en Ruflo MCP, un framework para agentes de IA como Claude y Codex, permite a atacantes no autenticados ejecutar comandos remotos y corromper la memoria de la IA. La falla (CVE-2026-59726) tiene una puntuación CVSS de 10.0 y afecta a versiones anteriores a la 3.16.3.",
+          "whyItMatters": "Esta vulnerabilidad es extremadamente grave ya que afecta a herramientas de IA, un área de creciente interés para los desarrolladores. La posibilidad de ejecución remota de código y la manipulación de la memoria de IA representa un riesgo significativo para la seguridad y la integridad de las aplicaciones basadas en IA.",
+          "recommendedAction": "Mantente informado sobre las actualizaciones de Ruflo MCP. Si utilizas este framework, aplica inmediatamente la versión 3.16.3 o posterior. Revisa y audita las configuraciones de tus agentes de IA para detectar posibles manipulaciones."
+        },
+        {
+          "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
+          "url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una vulnerabilidad crítica en Active Storage de Ruby on Rails (CVE-2026-66066, CVSS 9.5) permite a atacantes no autenticados leer archivos arbitrarios del servidor a través de cargas de imágenes manipuladas. Esto podría exponer secretos del entorno, como claves de aplicación, contraseñas de bases de datos y credenciales de almacenamiento en la nube.",
+          "whyItMatters": "Rails es un framework popular, y una vulnerabilidad de esta magnitud puede tener un impacto amplio. El acceso no autorizado a archivos y secretos del servidor, especialmente credenciales de bases de datos y servicios en la nube, es una amenaza de seguridad muy seria para cualquier aplicación.",
+          "recommendedAction": "Asegúrate de que tus aplicaciones basadas en Ruby on Rails estén actualizadas a las versiones parcheadas que corrigen esta vulnerabilidad. Implementa validaciones y saneamiento rigurosos en todas las cargas de archivos para prevenir accesos no autorizados."
+        },
+        {
+          "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
+          "url": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Broadcom ha lanzado actualizaciones para corregir múltiples vulnerabilidades en VMware ESX, vCenter, Workstation y Fusion. Tres de ellas son críticas, incluyendo una bypass de autenticación en vCenter (CVE-2026-59309, CVSS 9.8) que permite a actores maliciosos con acceso a la red comprometer el sistema.",
+          "whyItMatters": "VMware es una tecnología de virtualización fundamental en muchos entornos empresariales. Las vulnerabilidades críticas que permiten bypass de autenticación y ejecución de código abren la puerta a compromisos severos de la infraestructura, afectando la disponibilidad y seguridad de las máquinas virtuales y los datos que alojan.",
+          "recommendedAction": "Aplica las actualizaciones de seguridad de Broadcom para VMware lo antes posible. Prioriza la corrección de las vulnerabilidades críticas en vCenter y otros componentes expuestos. Revisa los logs en busca de actividad sospechosa que pudiera indicar una explotación previa."
+        }
+      ]
+    },
     {
       "date": "2026-07-29",
       "generatedAt": "2026-07-29T09:37:38.303Z",
