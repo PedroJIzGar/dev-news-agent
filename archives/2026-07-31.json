@@ -1,0 +1,184 @@
+{
+  "date": "2026-07-31",
+  "generatedAt": "2026-07-31T09:45:04.309Z",
+  "totalArticles": 12,
+  "summary": {
+    "highPriority": 7,
+    "mediumPriority": 4,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 8
+      },
+      {
+        "name": "AI for Developers",
+        "count": 2
+      },
+      {
+        "name": "Backend",
+        "count": 1
+      },
+      {
+        "name": "Dev Tools",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 7
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "count": 2
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 1
+      },
+      {
+        "name": "Krebs on Security",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
+      "url": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 10,
+      "summary": "Una vulnerabilidad ahora parcheada en Azure Cosmos DB permitía a un atacante escapar del sandbox de consultas Gremlin y obtener acceso completo de lectura/escritura a bases de datos en varios tenants de clientes.",
+      "whyItMatters": "Esta vulnerabilidad de seguridad representa un riesgo grave, ya que un atacante podría haber accedido a datos sensibles en múltiples bases de datos de clientes. Es crucial estar al tanto de tales fallos para proteger las aplicaciones que utilizan servicios de bases de datos en la nube.",
+      "recommendedAction": "Revisar las configuraciones de seguridad de las bases de datos en la nube y asegurarse de que todas las vulnerabilidades conocidas estén parcheadas. Implementar monitoreo de seguridad robusto para detectar actividades sospechosas."
+    },
+    {
+      "title": "A Bootiful Podcast: Spring Boot founder and lead Phil Webb",
+      "url": "https://spring.io/blog/2026/07/30/a-bootiful-podcast-phil-webb",
+      "source": "Spring Blog",
+      "category": "Backend",
+      "priority": "high",
+      "score": 9,
+      "summary": "Un episodio de podcast donde se entrevista a Phil Webb, fundador y líder de Spring Boot, discutiendo sobre el futuro y la evolución del framework.",
+      "whyItMatters": "Escuchar directamente de los creadores de Spring Boot proporciona información valiosa sobre la dirección del framework, nuevas características y mejores prácticas. Esto es esencial para los desarrolladores que utilizan Spring Boot en sus proyectos.",
+      "recommendedAction": "Escuchar el episodio para obtener información sobre las tendencias y el desarrollo futuro de Spring Boot. Considerar las nuevas funcionalidades o enfoques discutidos para mejorar las aplicaciones existentes."
+    },
+    {
+      "title": "SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT",
+      "url": "https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "El grupo de ciberdelincuencia Silver Fox ha estado atacando a una organización japonesa utilizando nuevos drivers para ataques Bring Your Own Vulnerable Driver (BYOVD) y distribuyendo el malware ValleyRAT para acceso remoto persistente.",
+      "whyItMatters": "Este ataque destaca las tácticas sofisticadas utilizadas por los actores de amenazas, incluyendo el abuso de drivers legítimos y vulnerables. Comprender estas técnicas es vital para defenderse contra ataques dirigidos, especialmente en entornos industriales.",
+      "recommendedAction": "Mantenerse actualizado sobre las últimas tácticas de ataque y vulnerabilidades de drivers. Asegurar que los sistemas estén protegidos contra el abuso de drivers y que las defensas de acceso remoto sean robustas."
+    },
+    {
+      "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
+      "url": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Actores de amenazas vinculados a Corea del Norte están llevando a cabo una campaña de malvertising en macOS, redirigiendo a los usuarios a páginas falsas de actualización para entregar malware que roba criptomonedas.",
+      "whyItMatters": "Esta campaña demuestra cómo los atacantes explotan la confianza de los usuarios en las actualizaciones de software para distribuir malware. Ser consciente de estas tácticas de ingeniería social es crucial para protegerse contra el robo de activos digitales.",
+      "recommendedAction": "Educar a los usuarios sobre los peligros del malvertising y las actualizaciones de software falsas. Fomentar la cautela al descargar o actualizar software, especialmente desde fuentes no verificadas."
+    },
+    {
+      "title": "Stacked sessions and pull requests in the GitHub Copilot app",
+      "url": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
+      "source": "GitHub Blog",
+      "category": "Dev Tools",
+      "priority": "medium",
+      "score": 8,
+      "summary": "Se explica cómo utilizar sesiones apiladas y pull requests dentro de la aplicación GitHub Copilot para modernizar bases de código antiguas.",
+      "whyItMatters": "GitHub Copilot es una herramienta cada vez más importante para los desarrolladores. Comprender sus funcionalidades avanzadas, como las sesiones apiladas y la integración con pull requests, puede mejorar significativamente la productividad y el flujo de trabajo de desarrollo.",
+      "recommendedAction": "Explorar las nuevas características de GitHub Copilot, especialmente si se trabaja con bases de código heredadas o se busca optimizar el flujo de trabajo de desarrollo con IA."
+    },
+    {
+      "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
+      "url": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 7,
+      "summary": "Un resumen de noticias de seguridad que incluye hacking impulsado por IA, vulnerabilidades en Chrome, ataques a SonicWall y secuestro de DNS, entre otras 22 historias.",
+      "whyItMatters": "Este artículo ofrece una visión general rápida de las amenazas de seguridad más relevantes de la semana, incluyendo el creciente papel de la IA en los ciberataques. Estar informado sobre estas amenazas ayuda a priorizar las defensas y a comprender el panorama de riesgos.",
+      "recommendedAction": "Revisar las noticias de seguridad para identificar amenazas emergentes, especialmente aquellas relacionadas con IA, y evaluar el impacto potencial en los sistemas y datos."
+    },
+    {
+      "title": "Read This Before You Buy That TV Streaming Stick",
+      "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "source": "Krebs on Security",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Se advierte sobre los riesgos de seguridad de los dispositivos de streaming de TV genéricos, que no solo exponen la conexión a Internet del usuario, sino que también falsifican ser teléfonos móviles para defraudar a comerciantes y redes publicitarias mediante IA.",
+      "whyItMatters": "Este artículo resalta cómo dispositivos aparentemente inofensivos pueden ser explotados para actividades maliciosas, incluyendo el fraude publicitario utilizando IA. Subraya la importancia de la seguridad en todos los dispositivos conectados, no solo en los ordenadores y servidores.",
+      "recommendedAction": "Ser cauteloso al adquirir dispositivos de streaming de TV de bajo costo o de origen desconocido. Investigar la reputación del fabricante y las posibles implicaciones de seguridad antes de la compra."
+    },
+    {
+      "title": "The Network Has Become the Control Plane for AI Security",
+      "url": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "El artículo argumenta que la seguridad de la IA depende cada vez más de la red, que actúa como el plano de control para la ciberseguridad en la era de la IA.",
+      "whyItMatters": "A medida que la IA se integra más en las operaciones, asegurar la red se vuelve fundamental. Comprender cómo la infraestructura de red se relaciona con la seguridad de la IA es crucial para proteger los sistemas y datos.",
+      "recommendedAction": "Fortalecer las defensas de red y considerar cómo la arquitectura de red actual soporta las necesidades de seguridad de las aplicaciones y sistemas impulsados por IA."
+    },
+    {
+      "title": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts",
+      "url": "https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 6,
+      "summary": "Una campaña patrocinada por un estado ha comprometido sitios web coreanos confiables para explotar software de seguridad financiera instalado localmente, infectando a los visitantes con backdoors sin necesidad de interacción.",
+      "whyItMatters": "Este ataque demuestra cómo los sitios web de confianza pueden ser utilizados para distribuir malware sigilosamente. La explotación de software de seguridad financiera es particularmente preocupante, destacando la necesidad de mantener este tipo de software actualizado y vigilado.",
+      "recommendedAction": "Asegurar que el software de seguridad financiera y otras aplicaciones críticas estén siempre actualizadas. Implementar medidas de seguridad en capas para detectar y mitigar la instalación de backdoors."
+    },
+    {
+      "title": "Your trusted knowledge layer: Introducing Stack Internal's new platform experience",
+      "url": "https://stackoverflow.blog/2026/07/30/introducing-stack-internal-new-platform-experience/",
+      "source": "Stack Overflow Blog",
+      "category": "AI for Developers",
+      "priority": "medium",
+      "score": 8,
+      "summary": "Stack Overflow presenta su nueva experiencia de plataforma, 'Stack Internal', diseñada para convertir el conocimiento existente en memoria empresarial que los equipos y agentes de IA puedan utilizar.",
+      "whyItMatters": "Esta nueva plataforma busca crear una capa de confianza para la IA empresarial, permitiendo a las organizaciones aprovechar mejor su conocimiento interno. Para los desarrolladores, esto podría significar un acceso más eficiente a la información y una mejor integración de la IA en los flujos de trabajo.",
+      "recommendedAction": "Investigar 'Stack Internal' y cómo podría integrarse en los flujos de trabajo de desarrollo para mejorar la gestión del conocimiento y el uso de la IA en la empresa."
+    },
+    {
+      "title": "Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents",
+      "url": "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 5,
+      "summary": "Las instrucciones ocultas en un documento de Word pueden hacer que Microsoft 365 Copilot reescriba información y luego copie esas mismas instrucciones en el archivo final, un problema que fue reportado a Microsoft.",
+      "whyItMatters": "Este hallazgo de seguridad revela una posible debilidad en cómo las herramientas de IA como Microsoft Copilot manejan las instrucciones ocultas o sensibles dentro de los documentos. Esto podría tener implicaciones para la privacidad y la seguridad de los datos.",
+      "recommendedAction": "Ser consciente de la información que se incluye en los documentos de Word, especialmente si se utilizan herramientas de IA. Mantenerse informado sobre las actualizaciones de seguridad de Microsoft Copilot."
+    },
+    {
+      "title": "What happens to the internet when robots act like humans?",
+      "url": "https://stackoverflow.blog/2026/07/31/what-happens-internet-when-robots-act-like-humans/",
+      "source": "Stack Overflow Blog",
+      "category": "AI for Developers",
+      "priority": "low",
+      "score": 2,
+      "summary": "Una discusión sobre la evolución de Internet para servir tanto a experiencias humanas como a las de agentes, y cómo diferenciar y proteger las acciones humanas de la actividad de bots maliciosos.",
+      "whyItMatters": "Este artículo aborda las implicaciones a largo plazo de la IA en la forma en que interactuamos con Internet. Aunque interesante desde una perspectiva conceptual, su aplicación práctica inmediata para el desarrollo diario es limitada.",
+      "recommendedAction": "Considerar las implicaciones más amplias de la IA en las interacciones en línea como parte de una comprensión general de la tecnología, pero no requiere acción inmediata para la mayoría de los desarrolladores."
+    }
+  ]
+}
