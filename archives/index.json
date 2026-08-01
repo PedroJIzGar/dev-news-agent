@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-07-31T09:45:04.318Z",
+  "generatedAt": "2026-08-01T09:06:12.095Z",
   "availableDates": [
+    "2026-08-01",
     "2026-07-31",
     "2026-07-30",
     "2026-07-29",
@@ -51,13 +52,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 48,
-    "totalArticles": 581,
-    "highPriority": 302,
-    "mediumPriority": 219,
+    "totalReports": 49,
+    "totalArticles": 594,
+    "highPriority": 310,
+    "mediumPriority": 224,
     "lowPriority": 60,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-07-31",
+    "latestReportDate": "2026-08-01",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -68,7 +69,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 127
+        "count": 135
       },
       {
         "name": "AI for Developers",
@@ -86,15 +87,15 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 414
+        "count": 424
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 61
+        "count": 62
       },
       {
         "name": "GitHub Blog",
-        "count": 45
+        "count": 46
       },
       {
         "name": "Spring Blog",
@@ -107,12 +108,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-07-25",
-      "high": 7,
-      "medium": 2,
-      "low": 0
-    },
     {
       "date": "2026-07-26",
       "high": 1,
@@ -148,9 +143,100 @@
       "high": 7,
       "medium": 4,
       "low": 1
+    },
+    {
+      "date": "2026-08-01",
+      "high": 8,
+      "medium": 5,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-01",
+      "generatedAt": "2026-08-01T09:06:12.081Z",
+      "totalArticles": 13,
+      "highPriority": 8,
+      "mediumPriority": 5,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 8
+        },
+        {
+          "name": "IA para Desarrolladores",
+          "count": 2
+        },
+        {
+          "name": "Angular",
+          "count": 1
+        },
+        {
+          "name": "GitHub",
+          "count": 1
+        },
+        {
+          "name": "Profesional",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 10
+        },
+        {
+          "name": "Angular Blog",
+          "count": 1
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
+          "url": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una vulnerabilidad crítica (CVSS 10.0) en Adobe Campaign Classic permite la ejecución de código arbitrario sin interacción del usuario.",
+          "whyItMatters": "Esta vulnerabilidad de máxima severidad representa un riesgo significativo para las empresas que utilizan Adobe Campaign Classic, permitiendo a los atacantes tomar control de los sistemas.",
+          "recommendedAction": "Mantente informado sobre las actualizaciones de seguridad de Adobe y asegúrate de aplicarlas lo antes posible en los sistemas afectados."
+        },
+        {
+          "title": "Free Book Chapters, Better Testing Control, and Smart MCP Configuration!",
+          "url": "https://blog.angular.dev/free-book-chapters-better-testing-control-and-smart-mcp-configuration-ebc715561ca1?source=rss----447683c3d9a3---4",
+          "source": "Angular Blog",
+          "category": "Angular",
+          "priority": "high",
+          "score": 9,
+          "summary": "El blog de Angular anuncia nuevos capítulos de libros gratuitos, mejoras en el control de pruebas y configuraciones inteligentes para MCP.",
+          "whyItMatters": "Para los desarrolladores de Angular, esto representa recursos de aprendizaje adicionales y mejoras directas en las herramientas y prácticas de testing, crucial para la calidad del software.",
+          "recommendedAction": "Explora los nuevos capítulos del libro y las mejoras en el control de pruebas para aplicarlas en tus proyectos de Angular."
+        },
+        {
+          "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
+          "url": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se han utilizado redes Wi-Fi de hotel comprometidas para distribuir malware de vigilancia (CornFlake RAT) a través de falsas actualizaciones de navegador.",
+          "whyItMatters": "Este ataque subraya la vulnerabilidad de las redes públicas y la necesidad de precaución al instalar actualizaciones, especialmente en entornos no confiables.",
+          "recommendedAction": "Sé escéptico con las actualizaciones inesperadas, especialmente en redes públicas, y utiliza siempre software de fuentes oficiales y confiables."
+        }
+      ]
+    },
     {
       "date": "2026-07-31",
       "generatedAt": "2026-07-31T09:45:04.309Z",
