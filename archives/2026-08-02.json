@@ -1,0 +1,46 @@
+{
+  "date": "2026-08-02",
+  "generatedAt": "2026-08-02T09:08:58.553Z",
+  "totalArticles": 2,
+  "summary": {
+    "highPriority": 2,
+    "mediumPriority": 0,
+    "lowPriority": 0,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 2
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 2
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
+      "url": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Los atacantes comprometieron un script de Adform, una empresa de tecnología publicitaria, para reemplazar direcciones de billeteras de criptomonedas en sitios web de clientes con las de ellos. El incidente ocurrió el 27 de julio de 2026.",
+      "whyItMatters": "Este ataque demuestra cómo las vulnerabilidades en scripts de terceros (incluso en el lado del cliente) pueden ser explotadas para robar activos financieros. Es crucial para los desarrolladores entender el impacto de las dependencias y la seguridad del código que se ejecuta en el navegador.",
+      "recommendedAction": "Revisar la seguridad de las dependencias de JavaScript en aplicaciones web y considerar implementaciones de seguridad del lado del servidor para validar transacciones críticas."
+    },
+    {
+      "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
+      "url": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una falla en el firmware de la billetera de hardware Coldcard se relaciona con el robo de aproximadamente $70 millones en Bitcoin en un lapso de 41 minutos. El problema parece estar en la generación de números pseudoaleatorios.",
+      "whyItMatters": "Aunque este incidente se relaciona con hardware específico, subraya la importancia crítica de la generación segura de números aleatorios y la integridad del firmware en cualquier sistema que maneje activos valiosos o datos sensibles. Los principios se aplican a la seguridad del software en general, donde la generación de claves o tokens seguros es fundamental.",
+      "recommendedAction": "Mantenerse informado sobre vulnerabilidades en herramientas de seguridad, especialmente aquellas relacionadas con la generación de números aleatorios y la criptografía. Asegurar que las implementaciones criptográficas en el software sean robustas y sigan las mejores prácticas."
+    }
+  ]
+}
