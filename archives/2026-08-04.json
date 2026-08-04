@@ -1,0 +1,135 @@
+{
+  "date": "2026-08-04",
+  "generatedAt": "2026-08-04T09:38:41.335Z",
+  "totalArticles": 9,
+  "summary": {
+    "highPriority": 5,
+    "mediumPriority": 3,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 7
+      },
+      {
+        "name": "IA para Desarrolladores",
+        "count": 1
+      },
+      {
+        "name": "Desarrollo Profesional",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 8
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
+      "url": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "CISA ha añadido una vulnerabilidad crítica en N-able N-central a su catálogo de Vulnerabilidades Explotadas Conocidas (KEV) debido a reportes de explotación activa en el mundo real. La falla (CVE-2026-18577) es un parcheo incompleto de una vulnerabilidad anterior.",
+      "whyItMatters": "Mantenerse al día con las vulnerabilidades conocidas y explotadas es crucial para la seguridad de la infraestructura. Las herramientas de gestión como N-central son objetivos comunes, y la explotación de estas fallas puede tener consecuencias graves.",
+      "recommendedAction": "Revisar inmediatamente si se utiliza N-able N-central y aplicar los parches de seguridad correspondientes. Mantenerse informado sobre las actualizaciones de CISA y otros avisos de seguridad."
+    },
+    {
+      "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
+      "url": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se han descubierto 18 paquetes maliciosos en npm que distribuyen un troyano de acceso remoto (RAT) multiplataforma, dirigido a usuarios de herramientas de desarrollador de Alibaba como parte de un ataque a la cadena de suministro de software.",
+      "whyItMatters": "Este incidente destaca la creciente amenaza de los ataques a la cadena de suministro de software, especialmente en ecosistemas de desarrollo populares como npm. La confianza en paquetes de terceros sin una debida diligencia puede exponer a las organizaciones a malware sofisticado.",
+      "recommendedAction": "Auditar y escanear las dependencias de npm en busca de paquetes sospechosos o maliciosos. Implementar políticas de seguridad para la gestión de dependencias y considerar el uso de herramientas de análisis de composición de software (SCA)."
+    },
+    {
+      "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
+      "url": "https://thehackernews.com/2026/08/google-password-manager-attacks-could.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Malware en máquinas Windows podría secuestrar cuentas protegidas por passkeys a través de ataques al gestor de contraseñas en la nube de Google Chrome. Se detallan tres rutas de ataque que apuntan a la clave maestra del gestor de contraseñas.",
+      "whyItMatters": "A medida que las passkeys ganan popularidad para una autenticación más segura, es vital comprender las nuevas vectores de ataque. Este hallazgo demuestra que incluso las tecnologías de seguridad avanzadas pueden tener vulnerabilidades que el malware puede explotar.",
+      "recommendedAction": "Mantener actualizado el navegador Chrome y el sistema operativo. Ser cauteloso con cualquier solicitud de inicio de sesión inusual. Investigar soluciones de seguridad de endpoints y capas adicionales de autenticación multifactor para cuentas críticas."
+    },
+    {
+      "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
+      "url": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 7,
+      "summary": "La Base de Datos Nacional de Justicia Policial (PNLD) del Reino Unido confirmó una brecha de datos que expuso información de contacto de la policía, el gobierno y clientes en la dark web. Los datos incluían nombres, organizaciones y correos electrónicos de trabajo.",
+      "whyItMatters": "Las brechas de datos que exponen información de contacto sensible, especialmente de personal de seguridad y gubernamental, pueden tener implicaciones de seguridad significativas, como el phishing dirigido o el acceso no autorizado a sistemas.",
+      "recommendedAction": "Monitorear las bases de datos y sistemas en busca de accesos no autorizados. Fortalecer las políticas de acceso y las medidas de seguridad para bases de datos que contienen información sensible. Implementar programas de concienciación sobre seguridad para el personal."
+    },
+    {
+      "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
+      "url": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "La operación INC Ransomware se ha convertido en el actor de amenaza principal que explota las vulnerabilidades de los dispositivos VPN SonicWall Secure Mobile Access (SMA) 1000 series. La actividad de este ransomware ha aumentado significativamente.",
+      "whyItMatters": "Las VPN y los dispositivos de acceso remoto son puntos de entrada críticos para los atacantes. La explotación activa de vulnerabilidades en dispositivos SonicWall SMA representa un riesgo inmediato para las organizaciones que dependen de esta tecnología para el acceso remoto seguro.",
+      "recommendedAction": "Verificar si se utilizan dispositivos SonicWall SMA 1000 series y aplicar los parches de seguridad críticos de inmediato. Considerar la implementación de medidas de seguridad adicionales en el perímetro de la red y monitorizar los registros en busca de actividades sospechosas."
+    },
+    {
+      "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
+      "url": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Un resumen semanal de noticias de ciberseguridad que incluye modelos de IA rebeldes, robo de Bitcoin, ataques a sistemas de agua y secuestros de DNS. El hilo conductor es la gestión de permisos y el acceso no deseado.",
+      "whyItMatters": "Este artículo ofrece una visión general rápida de las amenazas de seguridad más relevantes de la semana, incluyendo la intersección de la IA con la seguridad. Es útil para tener una idea de las tendencias y los tipos de ataques que están ocurriendo.",
+      "recommendedAction": "Dedicar tiempo a revisar las noticias de seguridad relevantes, prestando especial atención a las amenazas relacionadas con la IA y la gestión de acceso. Compartir estos resúmenes con el equipo para mantener la conciencia colectiva."
+    },
+    {
+      "title": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
+      "url": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html",
+      "source": "The Hacker News",
+      "category": "IA para Desarrolladores",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se discute el papel y el valor real de las plataformas de IA como Claude, Codex y Cursor dentro de los equipos de seguridad (SOC). Estas herramientas ya ayudan en la escritura de detecciones, investigación de alertas y automatización.",
+      "whyItMatters": "La IA está transformando rápidamente el campo de la ciberseguridad. Comprender cómo aplicar estas herramientas de manera efectiva puede mejorar significativamente la eficiencia y las capacidades de un equipo de seguridad.",
+      "recommendedAction": "Explorar cómo las herramientas de IA pueden integrarse en los flujos de trabajo del equipo de desarrollo y seguridad. Evaluar plataformas como Claude o Codex para tareas como generación de código, análisis de logs o redacción de documentación de seguridad."
+    },
+    {
+      "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
+      "url": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Un actor de amenaza chino está dirigiendo ataques a dispositivos iOS utilizando una versión filtrada del kit de exploits DarkSword. Se observó al actor operando múltiples propiedades web, muchas de ellas simulando páginas de inicio de sesión de AWS.",
+      "whyItMatters": "La disponibilidad de kits de exploits filtrados reduce la barrera de entrada para los atacantes y amplía el alcance de las amenazas. Los ataques dirigidos a plataformas móviles como iOS, especialmente a través de páginas de phishing, son una preocupación constante.",
+      "recommendedAction": "Educar a los usuarios sobre el phishing y las páginas de inicio de sesión falsas, especialmente las que imitan servicios en la nube como AWS. Mantener los dispositivos iOS actualizados y utilizar soluciones de seguridad móvil si es posible."
+    },
+    {
+      "title": "Your MVP doesn’t need a Kubernetes cluster",
+      "url": "https://stackoverflow.blog/2026/08/04/your-mvp-doesn-t-need-a-kubernetes-cluster/",
+      "source": "Stack Overflow Blog",
+      "category": "Desarrollo Profesional",
+      "priority": "low",
+      "score": 3,
+      "summary": "Este artículo argumenta que la mayoría de las startups no deberían empezar gestionando su propia infraestructura de Kubernetes y nube. Se enfoca en la complejidad y los sobrecostos iniciales innecesarios para un Producto Mínimo Viable (MVP).",
+      "whyItMatters": "Aunque no se centra directamente en el stack tecnológico del usuario, aborda una decisión de arquitectura importante para proyectos nuevos: la gestión de la infraestructura. Evitar la complejidad innecesaria puede acelerar el desarrollo y reducir costos iniciales.",
+      "recommendedAction": "Considerar cuidadosamente las necesidades de infraestructura para nuevos proyectos o MVPs. Evaluar si plataformas de servicio gestionado o soluciones más simples son más adecuadas antes de adoptar tecnologías complejas como Kubernetes desde el principio."
+    }
+  ]
+}

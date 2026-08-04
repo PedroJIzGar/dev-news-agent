@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-03T10:42:46.863Z",
+  "generatedAt": "2026-08-04T09:38:41.349Z",
   "availableDates": [
+    "2026-08-04",
     "2026-08-03",
     "2026-08-02",
     "2026-08-01",
@@ -54,13 +55,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 51,
-    "totalArticles": 599,
-    "highPriority": 314,
-    "mediumPriority": 225,
-    "lowPriority": 60,
+    "totalReports": 52,
+    "totalArticles": 608,
+    "highPriority": 319,
+    "mediumPriority": 228,
+    "lowPriority": 61,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-03",
+    "latestReportDate": "2026-08-04",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -71,7 +72,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 138
+        "count": 145
       },
       {
         "name": "AI for Developers",
@@ -82,18 +83,18 @@
         "count": 18
       },
       {
-        "name": "Backend",
+        "name": "IA para Desarrolladores",
         "count": 15
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 429
+        "count": 437
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 62
+        "count": 63
       },
       {
         "name": "GitHub Blog",
@@ -110,12 +111,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-07-28",
-      "high": 7,
-      "medium": 7,
-      "low": 1
-    },
     {
       "date": "2026-07-29",
       "high": 7,
@@ -151,9 +146,84 @@
       "high": 2,
       "medium": 1,
       "low": 0
+    },
+    {
+      "date": "2026-08-04",
+      "high": 5,
+      "medium": 3,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-04",
+      "generatedAt": "2026-08-04T09:38:41.335Z",
+      "totalArticles": 9,
+      "highPriority": 5,
+      "mediumPriority": 3,
+      "lowPriority": 1,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 7
+        },
+        {
+          "name": "IA para Desarrolladores",
+          "count": 1
+        },
+        {
+          "name": "Desarrollo Profesional",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 8
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
+          "url": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "CISA ha añadido una vulnerabilidad crítica en N-able N-central a su catálogo de Vulnerabilidades Explotadas Conocidas (KEV) debido a reportes de explotación activa en el mundo real. La falla (CVE-2026-18577) es un parcheo incompleto de una vulnerabilidad anterior.",
+          "whyItMatters": "Mantenerse al día con las vulnerabilidades conocidas y explotadas es crucial para la seguridad de la infraestructura. Las herramientas de gestión como N-central son objetivos comunes, y la explotación de estas fallas puede tener consecuencias graves.",
+          "recommendedAction": "Revisar inmediatamente si se utiliza N-able N-central y aplicar los parches de seguridad correspondientes. Mantenerse informado sobre las actualizaciones de CISA y otros avisos de seguridad."
+        },
+        {
+          "title": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
+          "url": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se han descubierto 18 paquetes maliciosos en npm que distribuyen un troyano de acceso remoto (RAT) multiplataforma, dirigido a usuarios de herramientas de desarrollador de Alibaba como parte de un ataque a la cadena de suministro de software.",
+          "whyItMatters": "Este incidente destaca la creciente amenaza de los ataques a la cadena de suministro de software, especialmente en ecosistemas de desarrollo populares como npm. La confianza en paquetes de terceros sin una debida diligencia puede exponer a las organizaciones a malware sofisticado.",
+          "recommendedAction": "Auditar y escanear las dependencias de npm en busca de paquetes sospechosos o maliciosos. Implementar políticas de seguridad para la gestión de dependencias y considerar el uso de herramientas de análisis de composición de software (SCA)."
+        },
+        {
+          "title": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
+          "url": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html",
+          "source": "The Hacker News",
+          "category": "IA para Desarrolladores",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se discute el papel y el valor real de las plataformas de IA como Claude, Codex y Cursor dentro de los equipos de seguridad (SOC). Estas herramientas ya ayudan en la escritura de detecciones, investigación de alertas y automatización.",
+          "whyItMatters": "La IA está transformando rápidamente el campo de la ciberseguridad. Comprender cómo aplicar estas herramientas de manera efectiva puede mejorar significativamente la eficiencia y las capacidades de un equipo de seguridad.",
+          "recommendedAction": "Explorar cómo las herramientas de IA pueden integrarse en los flujos de trabajo del equipo de desarrollo y seguridad. Evaluar plataformas como Claude o Codex para tareas como generación de código, análisis de logs o redacción de documentación de seguridad."
+        }
+      ]
+    },
     {
       "date": "2026-08-03",
       "generatedAt": "2026-08-03T10:42:46.854Z",
