@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-05T09:37:30.493Z",
+  "generatedAt": "2026-08-06T09:39:47.353Z",
   "availableDates": [
+    "2026-08-06",
     "2026-08-05",
     "2026-08-04",
     "2026-08-03",
@@ -56,20 +57,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 53,
-    "totalArticles": 621,
-    "highPriority": 326,
-    "mediumPriority": 233,
-    "lowPriority": 62,
+    "totalReports": 54,
+    "totalArticles": 636,
+    "highPriority": 337,
+    "mediumPriority": 235,
+    "lowPriority": 64,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-05",
+    "latestReportDate": "2026-08-06",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 261
+        "count": 272
       },
       {
         "name": "Seguridad",
@@ -77,7 +78,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 28
+        "count": 32
       },
       {
         "name": "AI",
@@ -91,7 +92,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 447
+        "count": 462
       },
       {
         "name": "Stack Overflow Blog",
@@ -112,12 +113,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-07-30",
-      "high": 4,
-      "medium": 4,
-      "low": 7
-    },
     {
       "date": "2026-07-31",
       "high": 7,
@@ -153,9 +148,76 @@
       "high": 7,
       "medium": 5,
       "low": 1
+    },
+    {
+      "date": "2026-08-06",
+      "high": 11,
+      "medium": 2,
+      "low": 2
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-06",
+      "generatedAt": "2026-08-06T09:39:47.344Z",
+      "totalArticles": 15,
+      "highPriority": 11,
+      "mediumPriority": 2,
+      "lowPriority": 2,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 11
+        },
+        {
+          "name": "AI for Developers",
+          "count": 4
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 15
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
+          "url": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "La CISA ha alertado sobre la explotación activa de una vulnerabilidad crítica (CVE-2026-63077) en versiones on-premise de JetBrains TeamCity. Esta falla de deserialización de datos no confiables permite a un atacante no autenticado ejecutar comandos de forma remota.",
+          "whyItMatters": "TeamCity es una herramienta de integración continua popular. Una vulnerabilidad RCE (Remote Code Execution) activa bajo explotación representa un riesgo inmediato para las organizaciones que la utilizan, permitiendo a los atacantes tomar control de los servidores de compilación y potencialmente de toda la cadena de desarrollo.",
+          "recommendedAction": "Aplica inmediatamente el parche para CVE-2026-63077 en todas las instancias de TeamCity. Si no puedes parchear de inmediato, considera restringir el acceso a la red al servidor TeamCity. Revisa los logs en busca de actividad sospechosa."
+        },
+        {
+          "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
+          "url": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Una vulnerabilidad crítica (CVE-2026-59774) en Gitea permite a atacantes no autenticados leer cualquier archivo accesible por el usuario del servicio en versiones 1.22.1 a 1.27.0, utilizando un repositorio público y marcado Org-mode malicioso.",
+          "whyItMatters": "Gitea es una plataforma Git autohospedada popular. Una vulnerabilidad que permite la lectura de archivos arbitrarios sin autenticación es extremadamente grave, ya que podría exponer código fuente sensible, archivos de configuración o datos del sistema. La facilidad de explotación (sin login, solo marcado Org-mode) la hace muy peligrosa.",
+          "recommendedAction": "Actualiza Gitea inmediatamente a la versión 1.27.1 o superior. Si no puedes actualizar de inmediato, considera restringir el acceso público a tu instancia de Gitea. Revisa los logs en busca de intentos de acceso inusuales."
+        },
+        {
+          "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
+          "url": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Investigadores de GitGuardian descubrieron 321 instancias de n8n con tokens de API expuestos en commits públicos de GitHub. Los atacantes podrían haberlos utilizado para acceder a datos sensibles y credenciales sin explotar vulnerabilidades de software.",
+          "whyItMatters": "La exposición de tokens de API en repositorios públicos es un riesgo de seguridad crítico. Este incidente destaca la importancia de prácticas seguras de gestión de secretos y la necesidad de escanear el código en busca de credenciales expuestas, especialmente cuando se utilizan herramientas de automatización como n8n.",
+          "recommendedAction": "Revisa tus repositorios de GitHub en busca de tokens de API o credenciales expuestas. Implementa herramientas de escaneo de secretos en tu flujo de CI/CD. Asegúrate de que las credenciales de n8n y otras herramientas de automatización estén gestionadas de forma segura y no se expongan en el código fuente."
+        }
+      ]
+    },
     {
       "date": "2026-08-05",
       "generatedAt": "2026-08-05T09:37:30.484Z",

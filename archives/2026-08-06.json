@@ -1,0 +1,193 @@
+{
+  "date": "2026-08-06",
+  "generatedAt": "2026-08-06T09:39:47.344Z",
+  "totalArticles": 15,
+  "summary": {
+    "highPriority": 11,
+    "mediumPriority": 2,
+    "lowPriority": 2,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 11
+      },
+      {
+        "name": "AI for Developers",
+        "count": 4
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 15
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
+      "url": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Investigadores de GitGuardian descubrieron 321 instancias de n8n con tokens de API expuestos en commits públicos de GitHub. Los atacantes podrían haberlos utilizado para acceder a datos sensibles y credenciales sin explotar vulnerabilidades de software.",
+      "whyItMatters": "La exposición de tokens de API en repositorios públicos es un riesgo de seguridad crítico. Este incidente destaca la importancia de prácticas seguras de gestión de secretos y la necesidad de escanear el código en busca de credenciales expuestas, especialmente cuando se utilizan herramientas de automatización como n8n.",
+      "recommendedAction": "Revisa tus repositorios de GitHub en busca de tokens de API o credenciales expuestas. Implementa herramientas de escaneo de secretos en tu flujo de CI/CD. Asegúrate de que las credenciales de n8n y otras herramientas de automatización estén gestionadas de forma segura y no se expongan en el código fuente."
+    },
+    {
+      "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
+      "url": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 10,
+      "summary": "La CISA ha alertado sobre la explotación activa de una vulnerabilidad crítica (CVE-2026-63077) en versiones on-premise de JetBrains TeamCity. Esta falla de deserialización de datos no confiables permite a un atacante no autenticado ejecutar comandos de forma remota.",
+      "whyItMatters": "TeamCity es una herramienta de integración continua popular. Una vulnerabilidad RCE (Remote Code Execution) activa bajo explotación representa un riesgo inmediato para las organizaciones que la utilizan, permitiendo a los atacantes tomar control de los servidores de compilación y potencialmente de toda la cadena de desarrollo.",
+      "recommendedAction": "Aplica inmediatamente el parche para CVE-2026-63077 en todas las instancias de TeamCity. Si no puedes parchear de inmediato, considera restringir el acceso a la red al servidor TeamCity. Revisa los logs en busca de actividad sospechosa."
+    },
+    {
+      "title": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports",
+      "url": "https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html",
+      "source": "The Hacker News",
+      "category": "AI for Developers",
+      "priority": "high",
+      "score": 9,
+      "summary": "Dos fallos de seguridad en Paperclip, una plataforma de control para agentes de IA, permiten a los atacantes ejecutar comandos en el servidor o en la máquina del desarrollador mediante la importación y ejecución de agentes maliciosos. Una tercera falla puede exponer datos sensibles a través de rutas de API.",
+      "whyItMatters": "A medida que la IA se integra más en las herramientas de desarrollo, asegurar estas plataformas es crucial. Las vulnerabilidades que permiten la ejecución de comandos a través de la importación de agentes son un vector de ataque significativo, especialmente en entornos colaborativos. La exposición de datos sensibles a través de APIs también es una preocupación importante.",
+      "recommendedAction": "Actualiza Paperclip a la última versión disponible. Revisa las configuraciones de seguridad de tu plataforma de IA y audita los agentes importados. Asegura los endpoints de API y valida las entradas rigurosamente."
+    },
+    {
+      "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch",
+      "url": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Una vulnerabilidad de corrupción de memoria en el kernel de Linux (CVE-2026-64531), conocida como OVSwrap, permite a usuarios locales sin privilegios obtener acceso root en distribuciones con Open vSwitch configurado por defecto. Existe un exploit público disponible.",
+      "whyItMatters": "Las vulnerabilidades del kernel que permiten la escalada de privilegios son de alto riesgo. Si un atacante ya tiene acceso limitado a un sistema, esta falla podría darle control total. Dada la prevalencia de Linux en servidores y contenedores (Docker), esto es relevante para muchos desarrolladores.",
+      "recommendedAction": "Aplica las actualizaciones del kernel de Linux tan pronto como estén disponibles y sean probadas. Revisa las configuraciones de Open vSwitch en tus sistemas. Limita los permisos de los usuarios locales a lo estrictamente necesario."
+    },
+    {
+      "title": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk",
+      "url": "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Kali365 es un kit de phishing que abusa del proceso de autenticación de Microsoft mediante códigos de dispositivo. Los atacantes engañan a las víctimas para que autoricen un dispositivo controlado por ellos, obteniendo acceso a correos electrónicos, documentos y recursos en la nube.",
+      "whyItMatters": "Esta táctica representa un riesgo significativo para las empresas que utilizan la autenticación de Microsoft (Azure AD, Office 365). Al secuestrar el flujo de autenticación legítimo, los atacantes pueden obtener acceso persistente sin necesidad de robar contraseñas, lo que dificulta la detección.",
+      "recommendedAction": "Educa a los usuarios sobre las tácticas de phishing, especialmente sobre la verificación de códigos de dispositivo en la autenticación. Habilita y configura la autenticación multifactor (MFA) de forma rigurosa. Revisa las configuraciones de acceso condicional y las políticas de registro de dispositivos en Azure AD."
+    },
+    {
+      "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
+      "url": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
+      "source": "The Hacker News",
+      "category": "AI for Developers",
+      "priority": "medium",
+      "score": 7,
+      "summary": "OpenAI ha desmantelado una red de estafas con sede en Camboya que utilizaba ChatGPT para facilitar esquemas de inversión, romance, juego y suplantación de identidad de autoridades. Se prohibió una red coordinada de cuentas de ChatGPT.",
+      "whyItMatters": "Este es un ejemplo temprano de cómo las herramientas de IA generativa pueden ser mal utilizadas para cometer fraudes a escala. Es importante entender que estas herramientas pueden ser abusadas y que los desarrolladores de IA deben implementar salvaguardas. También muestra cómo las plataformas de IA pueden actuar para mitigar estos abusos.",
+      "recommendedAction": "Mantente informado sobre las directrices de uso de las herramientas de IA y las políticas de abuso. Considera cómo las capacidades de las IA generativas podrían ser mal utilizadas en tu dominio y cómo podrías mitigar esos riesgos en tus propias aplicaciones."
+    },
+    {
+      "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
+      "url": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
+      "source": "The Hacker News",
+      "category": "AI for Developers",
+      "priority": "high",
+      "score": 9,
+      "summary": "Investigadores de ciberseguridad han descubierto servicios ilegales que venden acceso a modelos de IA como Claude. Uno de estos servicios, 'Poison Claude', afirma ofrecer acceso a modelos de Anthropic, pero el operador puede ver todas las indicaciones (prompts) de los clientes.",
+      "whyItMatters": "Esto resalta los riesgos de seguridad y privacidad al usar servicios no oficiales o de terceros para acceder a modelos de IA. La confidencialidad de los datos introducidos en estos modelos es fundamental, especialmente si se maneja información sensible o propietaria. La oferta de acceso a modelos 'craqueados' es también una señal de alerta.",
+      "recommendedAction": "Utiliza únicamente canales oficiales y autorizados para acceder a modelos de IA. Sé extremadamente cauto con ofertas de acceso 'descuento' o no oficiales. Comprende las políticas de privacidad y seguridad de los proveedores de IA que utilizas."
+    },
+    {
+      "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
+      "url": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 10,
+      "summary": "Una vulnerabilidad crítica (CVE-2026-59774) en Gitea permite a atacantes no autenticados leer cualquier archivo accesible por el usuario del servicio en versiones 1.22.1 a 1.27.0, utilizando un repositorio público y marcado Org-mode malicioso.",
+      "whyItMatters": "Gitea es una plataforma Git autohospedada popular. Una vulnerabilidad que permite la lectura de archivos arbitrarios sin autenticación es extremadamente grave, ya que podría exponer código fuente sensible, archivos de configuración o datos del sistema. La facilidad de explotación (sin login, solo marcado Org-mode) la hace muy peligrosa.",
+      "recommendedAction": "Actualiza Gitea inmediatamente a la versión 1.27.1 o superior. Si no puedes actualizar de inmediato, considera restringir el acceso público a tu instancia de Gitea. Revisa los logs en busca de intentos de acceso inusuales."
+    },
+    {
+      "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
+      "url": "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "El marketplace Open VSX ha eliminado 77 extensiones maliciosas ('evil twin') que imitaban herramientas legítimas de desarrollador mientras exfiltraban información de los sistemas y entornos de desarrollo de los usuarios.",
+      "whyItMatters": "Las extensiones de IDE o editores de código son de confianza para los desarrolladores. Extensiones maliciosas que roban datos pueden comprometer proyectos enteros, credenciales y la seguridad del desarrollador. Esto subraya la importancia de la procedencia y la auditoría de las herramientas que se instalan en el entorno de desarrollo.",
+      "recommendedAction": "Sé extremadamente selectivo con las extensiones que instalas en tu IDE o editor de código. Instala extensiones solo de fuentes confiables y verifica las reseñas y la reputación del desarrollador. Considera deshabilitar o eliminar extensiones no esenciales o de fuentes desconocidas."
+    },
+    {
+      "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
+      "url": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Los atacantes explotan una vulnerabilidad de inyección SQL en una aplicación web para ejecutar código Java dentro de una base de datos Oracle. Esto les permite compilar y ejecutar herramientas post-explotación (khunt) desde el motor de la base de datos, logrando acceso SYSTEM de Windows.",
+      "whyItMatters": "Este ataque demuestra una técnica avanzada de evasión y persistencia. Al ejecutar código dentro de la base de datos, los atacantes evitan escribir ejecutables en el disco, dificultando la detección por parte de software antivirus o EDR. La combinación de SQL injection con capacidades de ejecución de código dentro de Oracle es muy peligrosa.",
+      "recommendedAction": "Aplica parches de seguridad a tus aplicaciones web y bases de datos Oracle. Implementa defensas robustas contra inyecciones SQL. Revisa la configuración de la base de datos para limitar la capacidad de ejecutar código o compilar objetos desconocidos. Monitoriza la actividad inusual dentro de la base de datos."
+    },
+    {
+      "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
+      "url": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
+      "source": "The Hacker News",
+      "category": "AI for Developers",
+      "priority": "high",
+      "score": 8,
+      "summary": "Fallos de seguridad en la infraestructura de agentes de AWS, Google y Vercel permiten a los atacantes activar herramientas sin que el modelo de IA las haya autorizado o incluso ejecutado. Esto elude las protecciones a nivel de modelo.",
+      "whyItMatters": "A medida que los agentes de IA se vuelven más comunes para interactuar con herramientas y APIs, asegurar el flujo de control es vital. Estas vulnerabilidades permiten a los atacantes secuestrar la ejecución de herramientas, lo que podría llevar a la ejecución de comandos no deseados o al acceso a datos, incluso si el modelo principal no está comprometido.",
+      "recommendedAction": "Mantén actualizadas las plataformas y servicios de IA que utilizas (AWS, Google Cloud, Vercel). Revisa las configuraciones de seguridad de tus agentes de IA y las autorizaciones de herramientas. Implementa validaciones adicionales en el punto de llamada de las herramientas."
+    },
+    {
+      "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
+      "url": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 3,
+      "summary": "Se han descubierto 'backdoors' de fábrica en al menos 20 modelos de routers Zbtlink de fabricación china. Estos implantes se inician automáticamente y abren shells root sin autenticación, intentando contactar con servidores en China.",
+      "whyItMatters": "Aunque este problema afecta principalmente a hardware de red, resalta la importancia de la seguridad en la cadena de suministro de hardware y software. Los dispositivos de red comprometidos pueden ser un punto de entrada para ataques más amplios en una red.",
+      "recommendedAction": "Si utilizas routers Zbtlink, considera reemplazarlos por modelos de proveedores de confianza. Si no es posible, asegúrate de que estén en una red aislada y monitoriza el tráfico de red en busca de comunicaciones anómalas."
+    },
+    {
+      "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
+      "url": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 3,
+      "summary": "Una operación de malware macOS llamada ClickFix utiliza más de 250 dominios que emplean 'fingerprinting' del navegador para mostrar señuelos de malware solo a usuarios seleccionados, ocultando las páginas maliciosas de crawlers y sandboxes.",
+      "whyItMatters": "Esta técnica de ofuscación es un recordatorio de la sofisticación de las campañas de malware. Si bien el enfoque en macOS puede ser menos relevante para algunos desarrolladores, las tácticas de evasión son de interés general en ciberseguridad.",
+      "recommendedAction": "Mantén tu sistema operativo y navegador actualizados. Sé escéptico ante las solicitudes de descarga de software, especialmente si provienen de sitios web no solicitados o sospechosos. Utiliza software de seguridad de buena reputación."
+    },
+    {
+      "title": "Trojanized npm Packages Employ NullReceiver Tactic to Decode C2 IP from Blockchain",
+      "url": "https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Se ha detectado una evolución de la técnica de C2 (Comando y Control) basada en blockchain en paquetes npm troyanizados. El método 'NullReceiver' oculta la IP del servidor C2 dentro de una dirección de destino vacía en transferencias de Ethereum.",
+      "whyItMatters": "El uso de blockchain para ocultar la infraestructura C2 es una técnica cada vez más preocupante, ya que hace que el rastreo y la desarticulación de estas redes sean más difíciles. Que esto ocurra en paquetes npm, una dependencia común en el desarrollo web, aumenta el riesgo para los desarrolladores.",
+      "recommendedAction": "Audita regularmente las dependencias de npm en tus proyectos. Utiliza herramientas de análisis de seguridad de dependencias para detectar paquetes maliciosos o vulnerables. Sé cauteloso con paquetes poco conocidos o con actualizaciones sospechosas."
+    },
+    {
+      "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
+      "url": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "El creador de Ransom Cartel, una operación de ransomware como servicio (RaaS), ha sido sentenciado a 16 años de prisión por operar la plataforma que atacó a al menos 18 empresas.",
+      "whyItMatters": "Aunque no es una noticia técnica directa para el desarrollo, es un recordatorio importante de las consecuencias legales y el impacto real del ransomware. Entender el panorama de amenazas y las motivaciones detrás de los ataques puede ayudar a los desarrolladores a construir software más seguro.",
+      "recommendedAction": "Continúa educándote sobre las últimas amenazas de ransomware y las mejores prácticas para la prevención. Implementa estrategias de copia de seguridad robustas y planes de recuperación ante desastres."
+    }
+  ]
+}
