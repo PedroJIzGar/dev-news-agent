@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-06T09:39:47.353Z",
+  "generatedAt": "2026-08-08T07:49:57.611Z",
   "availableDates": [
+    "2026-08-08",
     "2026-08-06",
     "2026-08-05",
     "2026-08-04",
@@ -57,20 +58,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 54,
-    "totalArticles": 636,
-    "highPriority": 337,
-    "mediumPriority": 235,
+    "totalReports": 55,
+    "totalArticles": 651,
+    "highPriority": 348,
+    "mediumPriority": 239,
     "lowPriority": 64,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-06",
+    "latestReportDate": "2026-08-08",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 272
+        "count": 283
       },
       {
         "name": "Seguridad",
@@ -78,7 +79,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 32
+        "count": 34
       },
       {
         "name": "AI",
@@ -92,7 +93,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 462
+        "count": 474
       },
       {
         "name": "Stack Overflow Blog",
@@ -100,11 +101,11 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 48
+        "count": 50
       },
       {
         "name": "Spring Blog",
-        "count": 43
+        "count": 44
       },
       {
         "name": "Krebs on Security",
@@ -113,12 +114,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-07-31",
-      "high": 7,
-      "medium": 4,
-      "low": 1
-    },
     {
       "date": "2026-08-01",
       "high": 8,
@@ -154,9 +149,92 @@
       "high": 11,
       "medium": 2,
       "low": 2
+    },
+    {
+      "date": "2026-08-08",
+      "high": 11,
+      "medium": 4,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-08",
+      "generatedAt": "2026-08-08T07:49:57.602Z",
+      "totalArticles": 15,
+      "highPriority": 11,
+      "mediumPriority": 4,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 11
+        },
+        {
+          "name": "AI for Developers",
+          "count": 2
+        },
+        {
+          "name": "GitHub",
+          "count": 1
+        },
+        {
+          "name": "Spring Boot",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 2
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
+          "url": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Vulnerabilidades en las herramientas de IA Claude Code y Gemini CLI, junto con una configuración incorrecta en GitHub, permitieron que un problema abierto en GitHub fuera capaz de ejecutar código en flujos de trabajo de CI/CD, comprometiendo secretos de desarrollo.",
+          "whyItMatters": "Este incidente destaca una seria brecha de seguridad en la integración de herramientas de IA con flujos de trabajo de desarrollo y CI/CD. La posibilidad de que un simple ticket de GitHub exponga secretos de producción es alarmante y requiere una revisión inmediata de las configuraciones de seguridad en plataformas como GitHub y en el uso de asistentes de código basados en IA.",
+          "recommendedAction": "Revisar y fortalecer las configuraciones de seguridad de los repositorios de GitHub, especialmente en lo que respecta a los permisos de acceso a flujos de trabajo de CI/CD. Auditar la seguridad de las integraciones con herramientas de IA como Claude Code y Gemini CLI. Implementar el principio de mínimo privilegio para accesos y secretos."
+        },
+        {
+          "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
+          "url": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
+          "source": "The Hacker News",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 10,
+          "summary": "Una herramienta de investigación asistida por IA, llamada HTTP Terminator, ha descubierto nuevas técnicas de desincronización HTTP y una vulnerabilidad zero-day en Apache Traffic Server.",
+          "whyItMatters": "Este avance demuestra el poder de la IA en el descubrimiento de vulnerabilidades complejas. La identificación de nuevas técnicas de desincronización HTTP es crucial para la seguridad de las aplicaciones web, y el hallazgo de un zero-day en un componente tan importante como Apache Traffic Server subraya la importancia de mantener estas infraestructuras actualizadas y seguras.",
+          "recommendedAction": "Mantener actualizados los servidores web y proxies inversos, incluyendo Apache Traffic Server. Investigar las nuevas técnicas de desincronización HTTP para comprender su impacto y cómo mitigarlas. Estar atento a los parches y avisos de seguridad relacionados con Apache y otros componentes de infraestructura web."
+        },
+        {
+          "title": "CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps",
+          "url": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una debilidad en el generador de números aleatorios de CryptoJS, utilizado en varias aplicaciones de billeteras de criptomonedas, lo que ha provocado drenajes por valor de 5.7 millones de dólares. La vulnerabilidad reside en la función CryptoJS.lib.WordArray.random(), introducida hace 12 años.",
+          "whyItMatters": "Esta vulnerabilidad en una biblioteca criptográfica popular de JavaScript es crítica ya que afecta directamente la seguridad de las billeteras de criptomonedas y la generación de frases de recuperación, resultando en pérdidas financieras significativas. Es un recordatorio de la importancia de revisar y actualizar las dependencias de seguridad.",
+          "recommendedAction": "Revisar el uso de CryptoJS en aplicaciones, especialmente en aquellas que manejan datos sensibles como criptomonedas. Considerar la actualización a versiones más seguras o la búsqueda de alternativas robustas. Estar atento a parches y actualizaciones de seguridad."
+        }
+      ]
+    },
     {
       "date": "2026-08-06",
       "generatedAt": "2026-08-06T09:39:47.344Z",
