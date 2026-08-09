@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-08T07:49:57.611Z",
+  "generatedAt": "2026-08-09T07:53:55.137Z",
   "availableDates": [
+    "2026-08-09",
     "2026-08-08",
     "2026-08-06",
     "2026-08-05",
@@ -58,20 +59,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 55,
-    "totalArticles": 651,
-    "highPriority": 348,
-    "mediumPriority": 239,
+    "totalReports": 56,
+    "totalArticles": 666,
+    "highPriority": 358,
+    "mediumPriority": 244,
     "lowPriority": 64,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-08",
+    "latestReportDate": "2026-08-09",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 283
+        "count": 296
       },
       {
         "name": "Seguridad",
@@ -79,7 +80,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 34
+        "count": 36
       },
       {
         "name": "AI",
@@ -93,11 +94,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 474
+        "count": 487
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 63
+        "count": 64
       },
       {
         "name": "GitHub Blog",
@@ -109,17 +110,11 @@
       },
       {
         "name": "Krebs on Security",
-        "count": 13
+        "count": 14
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-01",
-      "high": 8,
-      "medium": 5,
-      "low": 0
-    },
     {
       "date": "2026-08-02",
       "high": 2,
@@ -155,9 +150,84 @@
       "high": 11,
       "medium": 4,
       "low": 0
+    },
+    {
+      "date": "2026-08-09",
+      "high": 10,
+      "medium": 5,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-09",
+      "generatedAt": "2026-08-09T07:53:55.130Z",
+      "totalArticles": 15,
+      "highPriority": 10,
+      "mediumPriority": 5,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 13
+        },
+        {
+          "name": "AI for Developers",
+          "count": 2
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 13
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
+          "url": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Una vulnerabilidad crítica de día cero en Metabase, una herramienta de inteligencia empresarial y visualización de datos, está siendo explotada activamente. Permite a atacantes remotos no autenticados inyectar SQL arbitrario para obtener acceso administrativo a la base de datos de la aplicación.",
+          "whyItMatters": "Las vulnerabilidades de día cero que otorgan acceso administrativo sin autenticación representan un riesgo de seguridad extremadamente alto. La explotación activa significa que los sistemas no parcheados son vulnerables a un compromiso inmediato, lo que podría llevar a la manipulación o robo de datos sensibles.",
+          "recommendedAction": "Aplicar inmediatamente cualquier parche o solución alternativa disponible para Metabase. Revisar los registros para detectar cualquier actividad sospechosa y evaluar el impacto potencial de cualquier acceso no autorizado."
+        },
+        {
+          "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
+          "url": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una falla crítica en Progress Kemp LoadMaster ha sido añadida al catálogo KEV de CISA debido a reportes de 792 intentos de explotación activa. La vulnerabilidad (CVE-2026-8037) permite la inyección de comandos arbitrarios.",
+          "whyItMatters": "La inclusión en el catálogo KEV de CISA indica que la vulnerabilidad está siendo explotada activamente y representa una amenaza significativa. La inyección de comandos puede permitir a los atacantes tomar control de los sistemas, lo que es particularmente preocupante para dispositivos de balanceo de carga y gestión de tráfico.",
+          "recommendedAction": "Priorizar la aplicación de los parches para Progress Kemp LoadMaster. Monitorear la red para detectar signos de compromiso y revisar las configuraciones de seguridad de los dispositivos LoadMaster."
+        },
+        {
+          "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
+          "url": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
+          "source": "The Hacker News",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una nueva clase de ataque de 'prompt injection' llamada 'AI Recommendation Poisoning' abusa de los enlaces profundos pre-rellenados en botones de 'Ask AI' para alterar silenciosamente la memoria de los LLMs, sin necesidad de malware o credenciales robadas.",
+          "whyItMatters": "Este ataque es especialmente preocupante porque se dirige a una característica común en muchas aplicaciones web y no requiere acciones complejas por parte del atacante. La manipulación de la memoria de los LLMs puede tener consecuencias imprevistas en las recomendaciones y el comportamiento de la IA.",
+          "recommendedAction": "Implementar validaciones robustas en las entradas de los usuarios y en el contenido que alimenta a los modelos de IA. Revisar y auditar las implementaciones de botones 'Ask AI' y similares para prevenir la inyección de prompts maliciosos."
+        }
+      ]
+    },
     {
       "date": "2026-08-08",
       "generatedAt": "2026-08-08T07:49:57.602Z",
