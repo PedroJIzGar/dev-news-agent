@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-09T07:53:55.137Z",
+  "generatedAt": "2026-08-10T08:26:20.710Z",
   "availableDates": [
+    "2026-08-10",
     "2026-08-09",
     "2026-08-08",
     "2026-08-06",
@@ -59,13 +60,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 56,
-    "totalArticles": 666,
-    "highPriority": 358,
-    "mediumPriority": 244,
-    "lowPriority": 64,
+    "totalReports": 57,
+    "totalArticles": 671,
+    "highPriority": 361,
+    "mediumPriority": 245,
+    "lowPriority": 65,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-09",
+    "latestReportDate": "2026-08-10",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -76,7 +77,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 145
+        "count": 148
       },
       {
         "name": "AI for Developers",
@@ -88,17 +89,17 @@
       },
       {
         "name": "IA para Desarrolladores",
-        "count": 15
+        "count": 16
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 487
+        "count": 491
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 64
+        "count": 65
       },
       {
         "name": "GitHub Blog",
@@ -115,12 +116,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-02",
-      "high": 2,
-      "medium": 0,
-      "low": 0
-    },
     {
       "date": "2026-08-03",
       "high": 2,
@@ -156,9 +151,84 @@
       "high": 10,
       "medium": 5,
       "low": 0
+    },
+    {
+      "date": "2026-08-10",
+      "high": 3,
+      "medium": 1,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-10",
+      "generatedAt": "2026-08-10T08:26:20.703Z",
+      "totalArticles": 5,
+      "highPriority": 3,
+      "mediumPriority": 1,
+      "lowPriority": 1,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 3
+        },
+        {
+          "name": "IA para Desarrolladores",
+          "count": 1
+        },
+        {
+          "name": "Desarrollo Profesional",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 4
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Las extensiones de Solidity Pro para VS Code roban billeteras de criptomonedas, claves API y credenciales",
+          "url": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una extensión maliciosa de VS Code llamada Solidity Pro que roba información sensible como billeteras de criptomonedas y claves API.",
+          "whyItMatters": "Los desarrolladores que usan extensiones de VS Code, especialmente en entornos de desarrollo para blockchain o con manejo de credenciales, deben ser conscientes de los riesgos de seguridad y verificar la reputación de las extensiones antes de instalarlas.",
+          "recommendedAction": "Revise las extensiones de VS Code instaladas, especialmente aquellas relacionadas con Solidity o que manejen credenciales. Desinstale inmediatamente cualquier extensión sospechosa o de fuentes no confiables."
+        },
+        {
+          "title": "Hacker de Snowflake se declara culpable por brechas que afectaron al menos a 100 millones de personas",
+          "url": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un individuo se ha declarado culpable de fraude informático y robo de identidad por las brechas de seguridad en cuentas de clientes de Snowflake en 2024, que expusieron datos de al menos 100 millones de personas y 165 organizaciones.",
+          "whyItMatters": "Este caso subraya la gravedad de las brechas de datos a gran escala y las consecuencias legales para los perpetradores. Destaca la importancia crítica de la seguridad en la gestión de datos en la nube, afectando a empresas que dependen de servicios como Snowflake y sus clientes.",
+          "recommendedAction": "Revise las configuraciones de seguridad de sus servicios en la nube y las prácticas de gestión de datos. Asegúrese de que sus aplicaciones y bases de datos (como PostgreSQL) estén protegidas adecuadamente contra accesos no autorizados."
+        },
+        {
+          "title": "Veeam, Terraform MCP, Django parchean fallos críticos, liderados por un bug de cliente cruzado con CVSS 10.0",
+          "url": "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se han corregido 11 vulnerabilidades en Veeam, Terraform MCP y Django, incluyendo un fallo crítico de cliente cruzado y una vulnerabilidad de alta gravedad en Veeam que permitía el acceso a credenciales de agentes.",
+          "whyItMatters": "Los desarrolladores que utilizan estas herramientas o trabajan en entornos que dependen de ellas deben estar al tanto de estas vulnerabilidades críticas. Ignorar los parches puede exponer sistemas a ataques graves.",
+          "recommendedAction": "Aplique los parches de seguridad disponibles para Veeam, Terraform MCP y Django lo antes posible. Priorice la corrección de las vulnerabilidades de mayor puntuación CVSS."
+        }
+      ]
+    },
     {
       "date": "2026-08-09",
       "generatedAt": "2026-08-09T07:53:55.130Z",
