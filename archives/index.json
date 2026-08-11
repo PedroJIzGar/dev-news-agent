@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-10T08:26:20.710Z",
+  "generatedAt": "2026-08-11T08:09:40.224Z",
   "availableDates": [
+    "2026-08-11",
     "2026-08-10",
     "2026-08-09",
     "2026-08-08",
@@ -60,20 +61,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 57,
-    "totalArticles": 671,
-    "highPriority": 361,
-    "mediumPriority": 245,
-    "lowPriority": 65,
+    "totalReports": 58,
+    "totalArticles": 681,
+    "highPriority": 365,
+    "mediumPriority": 250,
+    "lowPriority": 66,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-10",
+    "latestReportDate": "2026-08-11",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 296
+        "count": 303
       },
       {
         "name": "Seguridad",
@@ -81,7 +82,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 36
+        "count": 38
       },
       {
         "name": "AI",
@@ -95,15 +96,15 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 491
+        "count": 499
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 65
+        "count": 66
       },
       {
         "name": "GitHub Blog",
-        "count": 50
+        "count": 51
       },
       {
         "name": "Spring Blog",
@@ -116,12 +117,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-03",
-      "high": 2,
-      "medium": 1,
-      "low": 0
-    },
     {
       "date": "2026-08-04",
       "high": 5,
@@ -157,9 +152,88 @@
       "high": 3,
       "medium": 1,
       "low": 1
+    },
+    {
+      "date": "2026-08-11",
+      "high": 4,
+      "medium": 5,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-11",
+      "generatedAt": "2026-08-11T08:09:40.215Z",
+      "totalArticles": 10,
+      "highPriority": 4,
+      "mediumPriority": 5,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 7
+        },
+        {
+          "name": "AI for Developers",
+          "count": 2
+        },
+        {
+          "name": "Developer Culture",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 8
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Using the GitHub Copilot SDK for Java",
+          "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
+          "source": "GitHub Blog",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 10,
+          "summary": "GitHub ha lanzado un SDK para Java que permite a los desarrolladores de Enterprise Java interactuar con GitHub Copilot directamente desde su código Java usando anotaciones y virtual threads.",
+          "whyItMatters": "Esto representa un avance significativo para la integración de IA en el desarrollo Java, permitiendo un control más fino y una automatización más profunda de tareas de codificación, mejorando la productividad.",
+          "recommendedAction": "Explorar la documentación del SDK y probar su integración en proyectos Java existentes para aprovechar las capacidades de IA de Copilot."
+        },
+        {
+          "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
+          "url": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "El grupo de hackers norcoreano Kimsuky está utilizando un stack de IA propio y offline para mejorar sus ataques de phishing y automatizar el desarrollo de malware, conectando herramientas de búsqueda de documentos con sus archivos.",
+          "whyItMatters": "Demuestra cómo los actores maliciosos están adoptando la IA para crear ataques más sofisticados y eficientes, representando una amenaza creciente para la seguridad. Es crucial entender estas nuevas tácticas.",
+          "recommendedAction": "Mantenerse al día sobre las últimas amenazas de seguridad y las tácticas de los atacantes, especialmente aquellas que involucran el uso de IA para fines maliciosos."
+        },
+        {
+          "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
+          "url": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 8,
+          "summary": "El actor de amenazas Head Mare está explotando vulnerabilidades en servidores TrueConf no parcheados para sustituir instaladores de clientes con el malware PhantomCore, afectando a empresas rusas en diversos sectores.",
+          "whyItMatters": "Este incidente subraya la importancia crítica de mantener el software actualizado y parcheado para prevenir ataques que pueden comprometer sistemas críticos y datos sensibles.",
+          "recommendedAction": "Verificar y aplicar inmediatamente todos los parches disponibles para TrueConf Server y otros sistemas de comunicación empresarial. Revisar la integridad de los instaladores de software."
+        }
+      ]
+    },
     {
       "date": "2026-08-10",
       "generatedAt": "2026-08-10T08:26:20.703Z",

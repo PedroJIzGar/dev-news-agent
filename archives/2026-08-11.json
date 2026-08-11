@@ -1,0 +1,150 @@
+{
+  "date": "2026-08-11",
+  "generatedAt": "2026-08-11T08:09:40.215Z",
+  "totalArticles": 10,
+  "summary": {
+    "highPriority": 4,
+    "mediumPriority": 5,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 7
+      },
+      {
+        "name": "AI for Developers",
+        "count": 2
+      },
+      {
+        "name": "Developer Culture",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 8
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 1
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Using the GitHub Copilot SDK for Java",
+      "url": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
+      "source": "GitHub Blog",
+      "category": "AI for Developers",
+      "priority": "high",
+      "score": 10,
+      "summary": "GitHub ha lanzado un SDK para Java que permite a los desarrolladores de Enterprise Java interactuar con GitHub Copilot directamente desde su código Java usando anotaciones y virtual threads.",
+      "whyItMatters": "Esto representa un avance significativo para la integración de IA en el desarrollo Java, permitiendo un control más fino y una automatización más profunda de tareas de codificación, mejorando la productividad.",
+      "recommendedAction": "Explorar la documentación del SDK y probar su integración en proyectos Java existentes para aprovechar las capacidades de IA de Copilot."
+    },
+    {
+      "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
+      "url": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "El grupo de hackers norcoreano Kimsuky está utilizando un stack de IA propio y offline para mejorar sus ataques de phishing y automatizar el desarrollo de malware, conectando herramientas de búsqueda de documentos con sus archivos.",
+      "whyItMatters": "Demuestra cómo los actores maliciosos están adoptando la IA para crear ataques más sofisticados y eficientes, representando una amenaza creciente para la seguridad. Es crucial entender estas nuevas tácticas.",
+      "recommendedAction": "Mantenerse al día sobre las últimas amenazas de seguridad y las tácticas de los atacantes, especialmente aquellas que involucran el uso de IA para fines maliciosos."
+    },
+    {
+      "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
+      "url": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "El actor de amenazas Head Mare está explotando vulnerabilidades en servidores TrueConf no parcheados para sustituir instaladores de clientes con el malware PhantomCore, afectando a empresas rusas en diversos sectores.",
+      "whyItMatters": "Este incidente subraya la importancia crítica de mantener el software actualizado y parcheado para prevenir ataques que pueden comprometer sistemas críticos y datos sensibles.",
+      "recommendedAction": "Verificar y aplicar inmediatamente todos los parches disponibles para TrueConf Server y otros sistemas de comunicación empresarial. Revisar la integridad de los instaladores de software."
+    },
+    {
+      "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA",
+      "url": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Se han demostrado tres nuevos ataques contra las passkeys que permiten recuperar claves privadas sincronizadas o eludir la autenticación multifactor (MFA) resistente al phishing.",
+      "whyItMatters": "Estos ataques ponen de relieve vulnerabilidades inesperadas en sistemas de autenticación modernos. Es vital comprender estas debilidades para implementar estrategias de seguridad más robustas.",
+      "recommendedAction": "Evaluar la seguridad de las implementaciones de passkey y MFA en sus sistemas. Investigar contramedidas y mejores prácticas para mitigar estos nuevos vectores de ataque."
+    },
+    {
+      "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
+      "url": "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html",
+      "source": "The Hacker News",
+      "category": "AI for Developers",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Un webinar aborda cómo asegurar el desarrollo acelerado por IA, donde los equipos producen entre 10 y 50 veces más código. Se enfoca en la gestión de vulnerabilidades, dependencias y riesgos a velocidad humana.",
+      "whyItMatters": "Con la IA aumentando drásticamente la velocidad de desarrollo, es crucial que las prácticas de seguridad se adapten para no convertirse en un cuello de botella y mantener el control sobre lo que se despliega.",
+      "recommendedAction": "Considerar asistir a este webinar para aprender estrategias sobre cómo mantener la seguridad a la par con la alta velocidad de desarrollo habilitada por la IA."
+    },
+    {
+      "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
+      "url": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Un ataque a la cadena de suministro afectó a BdThemes, un proveedor de plugins de WordPress, envenenando archivos JSON para crear administradores maliciosos en sitios web.",
+      "whyItMatters": "Este incidente demuestra una táctica de ataque a la cadena de suministro novedosa y preocupante que no modificó el código fuente oficial, resaltando la necesidad de vigilancia continua.",
+      "recommendedAction": "Revisar la seguridad de los plugins y temas de WordPress utilizados, especialmente aquellos de proveedores externos. Estar atento a las actualizaciones de seguridad y las advertencias de los proveedores."
+    },
+    {
+      "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
+      "url": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Un actor de amenazas vinculado a China ha desplegado una nueva cepa de ransomware llamada StormEncryptor, probablemente explotando una falla en N-central.",
+      "whyItMatters": "La aparición de nuevo ransomware y la explotación de vulnerabilidades conocidas (como las de N-central) son eventos de seguridad importantes que requieren atención para proteger los sistemas.",
+      "recommendedAction": "Asegurarse de que los sistemas que utilizan N-central o software similar estén parcheados y actualizados. Implementar defensas robustas contra ransomware."
+    },
+    {
+      "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
+      "url": "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Resumen semanal de noticias de seguridad que incluye IA 'rogue', una vulnerabilidad día cero en Metabase, ataques a la cadena de suministro de MCP y backdoors en routers.",
+      "whyItMatters": "Ofrece una visión general rápida de las amenazas y vulnerabilidades de seguridad más relevantes de la semana, permitiendo a los desarrolladores estar al tanto de las tendencias.",
+      "recommendedAction": "Revisar las noticias de seguridad destacadas en el resumen para identificar posibles riesgos o áreas que requieran atención en sus proyectos."
+    },
+    {
+      "title": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
+      "url": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 5,
+      "summary": "Actores maliciosos comprometieron los controles de una planta de energía polaca a través de su red celular privada, logrando apagar una turbina.",
+      "whyItMatters": "Este incidente destaca la creciente amenaza a la infraestructura crítica y la importancia de asegurar no solo las redes corporativas, sino también las redes de control industrial y de comunicaciones privadas.",
+      "recommendedAction": "Evaluar la seguridad de las redes de comunicación privadas y los sistemas de control industrial, implementando medidas de seguridad específicas para estos entornos."
+    },
+    {
+      "title": "Your tokenmaxxing is not valuemaxxing",
+      "url": "https://stackoverflow.blog/2026/08/11/your-tokenmaxxing-is-not-valuemaxxing/",
+      "source": "Stack Overflow Blog",
+      "category": "Developer Culture",
+      "priority": "low",
+      "score": 3,
+      "summary": "Este artículo discute por qué el 'tokenmaxxing' (maximizar el uso de tokens) no necesariamente se traduce en valor real, y cómo la velocidad de lanzamiento y las fusiones de PR pueden medir resultados de IA, con o sin intervención humana.",
+      "whyItMatters": "Ofrece una perspectiva sobre cómo medir el impacto real de las herramientas de IA en el desarrollo y su democratización, lo cual puede ser útil para entender el panorama general.",
+      "recommendedAction": "Reflexionar sobre las métricas utilizadas para evaluar el éxito de las herramientas de IA en el desarrollo de software."
+    }
+  ]
+}
