@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-11T08:09:40.224Z",
+  "generatedAt": "2026-08-12T08:17:40.909Z",
   "availableDates": [
+    "2026-08-12",
     "2026-08-11",
     "2026-08-10",
     "2026-08-09",
@@ -61,20 +62,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 58,
-    "totalArticles": 681,
-    "highPriority": 365,
-    "mediumPriority": 250,
-    "lowPriority": 66,
+    "totalReports": 59,
+    "totalArticles": 696,
+    "highPriority": 373,
+    "mediumPriority": 256,
+    "lowPriority": 67,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-11",
+    "latestReportDate": "2026-08-12",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 303
+        "count": 313
       },
       {
         "name": "Seguridad",
@@ -82,7 +83,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 38
+        "count": 40
       },
       {
         "name": "AI",
@@ -96,7 +97,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 499
+        "count": 511
       },
       {
         "name": "Stack Overflow Blog",
@@ -104,25 +105,19 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 51
+        "count": 52
       },
       {
         "name": "Spring Blog",
-        "count": 44
+        "count": 45
       },
       {
         "name": "Krebs on Security",
-        "count": 14
+        "count": 15
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-04",
-      "high": 5,
-      "medium": 3,
-      "low": 1
-    },
     {
       "date": "2026-08-05",
       "high": 7,
@@ -158,9 +153,100 @@
       "high": 4,
       "medium": 5,
       "low": 1
+    },
+    {
+      "date": "2026-08-12",
+      "high": 8,
+      "medium": 6,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-12",
+      "generatedAt": "2026-08-12T08:17:40.900Z",
+      "totalArticles": 15,
+      "highPriority": 8,
+      "mediumPriority": 6,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 10
+        },
+        {
+          "name": "AI for Developers",
+          "count": 2
+        },
+        {
+          "name": "Java/Spring Boot",
+          "count": 1
+        },
+        {
+          "name": "Dev Tools/Career",
+          "count": 1
+        },
+        {
+          "name": "AI for Developers/Security",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
+          "url": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
+          "source": "The Hacker News",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 10,
+          "summary": "OpenAI ha lanzado GPT-5.6-Cyber, un modelo centrado en ciberseguridad diseñado para mejorar capacidades en investigación de vulnerabilidades, pruebas de penetración y respuesta a incidentes, con menos restricciones para tareas de alto riesgo.",
+          "whyItMatters": "Las herramientas de IA como esta pueden acelerar significativamente el descubrimiento y desarrollo de exploits, tanto para defensores como para atacantes. Es crucial entender su potencial impacto y uso.",
+          "recommendedAction": "Explorar cómo las nuevas capacidades de modelos de IA pueden integrarse en flujos de trabajo de seguridad o desarrollo para mejorar la detección de vulnerabilidades y la creación de defensas."
+        },
+        {
+          "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
+          "url": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un investigador de seguridad ha publicado un PoC para una nueva vulnerabilidad zero-day en Microsoft Defender, llamada ShieldBreak. Esta permite eludir parches de CVE-2026-50656 y obtener acceso SYSTEM.",
+          "whyItMatters": "Las vulnerabilidades zero-day, especialmente aquellas que permiten escalada de privilegios a nivel SYSTEM, son críticas. El hecho de que exista un PoC público aumenta el riesgo de ataques dirigidos.",
+          "recommendedAction": "Mantener actualizado Microsoft Defender. Estar atento a comunicados oficiales de Microsoft sobre esta vulnerabilidad y sus parches."
+        },
+        {
+          "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
+          "url": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
+          "source": "The Hacker News",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 9,
+          "summary": "Investigadores han descubierto una cadena de explotación para Microsoft SharePoint (CVE-2026-55040) asistida por IA que permite a atacantes no autenticados obtener ejecución remota de código (RCE) como cualquier usuario, incluso administrador.",
+          "whyItMatters": "Demuestra cómo la IA puede ser utilizada para encontrar y explotar vulnerabilidades complejas de manera más eficiente. La posibilidad de RCE sin autenticación es un riesgo muy alto.",
+          "recommendedAction": "Actualizar inmediatamente los servidores de SharePoint. Revisar la configuración de seguridad y el acceso de usuarios. Investigar el uso de IA en la búsqueda de vulnerabilidades para mejorar las defensas."
+        }
+      ]
+    },
     {
       "date": "2026-08-11",
       "generatedAt": "2026-08-11T08:09:40.215Z",

@@ -1,0 +1,217 @@
+{
+  "date": "2026-08-12",
+  "generatedAt": "2026-08-12T08:17:40.900Z",
+  "totalArticles": 15,
+  "summary": {
+    "highPriority": 8,
+    "mediumPriority": 6,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 10
+      },
+      {
+        "name": "AI for Developers",
+        "count": 2
+      },
+      {
+        "name": "Java/Spring Boot",
+        "count": 1
+      },
+      {
+        "name": "Dev Tools/Career",
+        "count": 1
+      },
+      {
+        "name": "AI for Developers/Security",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 12
+      },
+      {
+        "name": "Krebs on Security",
+        "count": 1
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
+      "url": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Un investigador de seguridad ha publicado un PoC para una nueva vulnerabilidad zero-day en Microsoft Defender, llamada ShieldBreak. Esta permite eludir parches de CVE-2026-50656 y obtener acceso SYSTEM.",
+      "whyItMatters": "Las vulnerabilidades zero-day, especialmente aquellas que permiten escalada de privilegios a nivel SYSTEM, son críticas. El hecho de que exista un PoC público aumenta el riesgo de ataques dirigidos.",
+      "recommendedAction": "Mantener actualizado Microsoft Defender. Estar atento a comunicados oficiales de Microsoft sobre esta vulnerabilidad y sus parches."
+    },
+    {
+      "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
+      "url": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
+      "source": "The Hacker News",
+      "category": "AI for Developers",
+      "priority": "high",
+      "score": 10,
+      "summary": "OpenAI ha lanzado GPT-5.6-Cyber, un modelo centrado en ciberseguridad diseñado para mejorar capacidades en investigación de vulnerabilidades, pruebas de penetración y respuesta a incidentes, con menos restricciones para tareas de alto riesgo.",
+      "whyItMatters": "Las herramientas de IA como esta pueden acelerar significativamente el descubrimiento y desarrollo de exploits, tanto para defensores como para atacantes. Es crucial entender su potencial impacto y uso.",
+      "recommendedAction": "Explorar cómo las nuevas capacidades de modelos de IA pueden integrarse en flujos de trabajo de seguridad o desarrollo para mejorar la detección de vulnerabilidades y la creación de defensas."
+    },
+    {
+      "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
+      "url": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Una falla crítica en SAP Commerce Cloud (CVE-2026-58231), con CVSS de 10.0, permite la ejecución de código arbitrario por atacantes no autenticados debido a insuficientes validaciones de autorización y entrada.",
+      "whyItMatters": "Las vulnerabilidades con puntuación máxima en sistemas empresariales como SAP pueden tener un impacto devastador, permitiendo el compromiso total de la infraestructura.",
+      "recommendedAction": "Si se utiliza SAP Commerce Cloud, aplicar los parches liberados por SAP inmediatamente y revisar la configuración de seguridad."
+    },
+    {
+      "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
+      "url": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 7,
+      "summary": "Una vulnerabilidad de alta severidad (CVE-2026-20349) en Cisco ASA y FTD, explotada activamente en la naturaleza, permite a un atacante remoto no autenticado causar una denegación de servicio (DoS).",
+      "whyItMatters": "La explotación en la naturaleza de vulnerabilidades en dispositivos de seguridad perimetral como los de Cisco es una señal de alarma que requiere atención inmediata para prevenir interrupciones del servicio.",
+      "recommendedAction": "Aplicar las actualizaciones de seguridad de Cisco para ASA y FTD lo antes posible. Monitorear el tráfico en busca de indicadores de compromiso relacionados con esta vulnerabilidad."
+    },
+    {
+      "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
+      "url": "https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "La nueva versión v7 del botnet Android Kimwolf/AISURU mejora su resiliencia y utiliza tráfico HTTP/2 para simular navegación legítima durante ataques DDoS.",
+      "whyItMatters": "El uso de protocolos modernos como HTTP/2 para ofuscar ataques DDoS hace que la detección sea más difícil y resalta la continua evolución de las amenazas móviles.",
+      "recommendedAction": "Mantener actualizados los sistemas operativos móviles y las aplicaciones de seguridad. Estar al tanto de las tácticas de ataque avanzadas para mejorar las defensas de red."
+    },
+    {
+      "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
+      "source": "The Hacker News",
+      "category": "AI for Developers",
+      "priority": "high",
+      "score": 9,
+      "summary": "Investigadores han descubierto una cadena de explotación para Microsoft SharePoint (CVE-2026-55040) asistida por IA que permite a atacantes no autenticados obtener ejecución remota de código (RCE) como cualquier usuario, incluso administrador.",
+      "whyItMatters": "Demuestra cómo la IA puede ser utilizada para encontrar y explotar vulnerabilidades complejas de manera más eficiente. La posibilidad de RCE sin autenticación es un riesgo muy alto.",
+      "recommendedAction": "Actualizar inmediatamente los servidores de SharePoint. Revisar la configuración de seguridad y el acceso de usuarios. Investigar el uso de IA en la búsqueda de vulnerabilidades para mejorar las defensas."
+    },
+    {
+      "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
+      "url": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Microsoft ha lanzado sus actualizaciones de seguridad mensuales, corrigiendo 398 vulnerabilidades, incluyendo un zero-day en un driver del kernel de Windows (CVE-2026-68820) que ya está siendo explotado activamente para escalar privilegios a SYSTEM.",
+      "whyItMatters": "Las vulnerabilidades zero-day activamente explotadas son una amenaza inmediata. La gran cantidad de parches subraya la importancia de mantener los sistemas de Windows actualizados.",
+      "recommendedAction": "Aplicar las últimas actualizaciones de seguridad de Windows lo antes posible. Priorizar la corrección de CVE-2026-68820 si se es susceptible. Implementar parches de seguridad de forma regular."
+    },
+    {
+      "title": "Microsoft Plugs Nearly 400 Security Holes",
+      "url": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "source": "Krebs on Security",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Microsoft ha liberado actualizaciones para corregir al menos 398 vulnerabilidades en sus sistemas operativos y software, incluyendo una ya explotada y dos detalladas públicamente antes del lanzamiento.",
+      "whyItMatters": "Este boletín masivo de seguridad de Microsoft resalta la constante necesidad de mantener los sistemas actualizados para mitigar riesgos, especialmente dada la explotación activa de al menos una de las fallas.",
+      "recommendedAction": "Asegurarse de que todos los sistemas Windows y software de Microsoft estén actualizados con los últimos parches de seguridad. Estar atento a la explotación activa de vulnerabilidades."
+    },
+    {
+      "title": "Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11",
+      "url": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Investigadores han demostrado cómo abusar de la función Plug and Play de Windows para obtener acceso SYSTEM en Windows 11, incluso a través de Remote Desktop, mediante la instalación de software de proveedor firmado.",
+      "whyItMatters": "Esta técnica expone una debilidad en un componente fundamental de Windows que puede ser explotada para obtener privilegios elevados, afectando la seguridad de los endpoints.",
+      "recommendedAction": "Revisar y endurecer las políticas relacionadas con la conexión de dispositivos USB y la configuración de Remote Desktop. Mantener Windows 11 actualizado."
+    },
+    {
+      "title": "This Week in Spring - August 11th, 2026",
+      "url": "https://spring.io/blog/2026/08/11/this-week-in-spring-august-11-2026",
+      "source": "Spring Blog",
+      "category": "Java/Spring Boot",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Un resumen semanal de las novedades y desarrollos en el ecosistema de Spring, incluyendo actualizaciones de proyectos y noticias relevantes.",
+      "whyItMatters": "Mantenerse al día con Spring es esencial para los desarrolladores que utilizan este framework, ya que incluye información sobre nuevas características, correcciones y mejores prácticas.",
+      "recommendedAction": "Revisar el blog 'This Week in Spring' regularmente para estar al tanto de las últimas novedades en Spring Boot y sus proyectos asociados."
+    },
+    {
+      "title": "From coder to orchestrator: How agents shift the role of a developer",
+      "url": "https://github.blog/developer-skills/career-growth/from-coder-to-orchestrator-how-agents-shift-the-role-of-a-developer/",
+      "source": "GitHub Blog",
+      "category": "Dev Tools/Career",
+      "priority": "medium",
+      "score": 5,
+      "summary": "Este artículo explora cómo las herramientas y agentes de IA están cambiando el rol del desarrollador, moviéndolo de la simple escritura de código a la orquestación de sistemas y procesos más complejos.",
+      "whyItMatters": "Entender la evolución del rol de desarrollador es clave para adaptarse a las nuevas tecnologías y mantener la relevancia profesional en un panorama tecnológico en constante cambio.",
+      "recommendedAction": "Leer este artículo para reflexionar sobre cómo las herramientas de IA pueden impactar tu rol y cómo puedes adaptarte para aprovechar estas nuevas capacidades."
+    },
+    {
+      "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
+      "url": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Un grupo vinculado a Sandworm (UAC-0145) está utilizando entrevistas de trabajo falsas para engañar a trabajadores de TI y hacerles instalar una VPN maliciosa capaz de ejecutar comandos.",
+      "whyItMatters": "Las campañas de ingeniería social que se aprovechan de situaciones cotidianas como la búsqueda de empleo son peligrosas. El uso de VPN para ocultar la ejecución de comandos es una táctica de sigilo.",
+      "recommendedAction": "Educarse sobre tácticas de ingeniería social. Ser escéptico ante ofertas de trabajo sospechosas y verificar la legitimidad de cualquier software descargado."
+    },
+    {
+      "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
+      "url": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "El ransomware DeadLock está utilizando infraestructura descentralizada, incluyendo contratos inteligentes de Polygon, para mejorar la resiliencia de sus operaciones de extorsión y comunicación.",
+      "whyItMatters": "La adopción de tecnologías blockchain y descentralizadas por parte de actores maliciosos dificulta las labores de investigación y mitigación, representando un nuevo desafío en la lucha contra el ransomware.",
+      "recommendedAction": "Estar al tanto de cómo las tecnologías emergentes son adoptadas por actores maliciosos. Implementar defensas robustas contra ransomware y monitorear la red en busca de actividades anómalas."
+    },
+    {
+      "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
+      "url": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
+      "source": "The Hacker News",
+      "category": "AI for Developers/Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Servidores maliciosos de MCP pueden dividir instrucciones para engañar a asistentes de codificación de IA, logrando la exfiltración de secretos como llaves SSH, variables de entorno y código fuente.",
+      "whyItMatters": "Esta técnica representa un riesgo de seguridad significativo para los desarrolladores que utilizan herramientas de IA. Demuestra cómo las interacciones aparentemente inocuas pueden ser abusadas para robar información sensible.",
+      "recommendedAction": "Ser extremadamente cauteloso con las fuentes de las herramientas de IA y los datos que procesan. Implementar medidas de seguridad para proteger secretos y credenciales en entornos de desarrollo asistido por IA."
+    },
+    {
+      "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
+      "url": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 4,
+      "summary": "Investigadores crearon una startup falsa de criptomonedas para contratar y monitorear a presuntos operativos norcoreanos, logrando registrar sus actividades en máquinas virtuales.",
+      "whyItMatters": "Este caso ilustra técnicas de investigación de amenazas, pero el impacto directo para un desarrollador es limitado, aunque muestra la sofisticación de ciertos actores estatales.",
+      "recommendedAction": "Tomar nota de las técnicas de atribución y contra-inteligencia utilizadas en ciberseguridad."
+    }
+  ]
+}
