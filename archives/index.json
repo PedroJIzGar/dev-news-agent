@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-12T08:17:40.909Z",
+  "generatedAt": "2026-08-13T08:20:57.075Z",
   "availableDates": [
+    "2026-08-13",
     "2026-08-12",
     "2026-08-11",
     "2026-08-10",
@@ -62,20 +63,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 59,
-    "totalArticles": 696,
-    "highPriority": 373,
-    "mediumPriority": 256,
+    "totalReports": 60,
+    "totalArticles": 711,
+    "highPriority": 380,
+    "mediumPriority": 264,
     "lowPriority": 67,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-12",
+    "latestReportDate": "2026-08-13",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 313
+        "count": 324
       },
       {
         "name": "Seguridad",
@@ -83,7 +84,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 40
+        "count": 43
       },
       {
         "name": "AI",
@@ -97,7 +98,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 511
+        "count": 523
       },
       {
         "name": "Stack Overflow Blog",
@@ -105,7 +106,7 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 52
+        "count": 55
       },
       {
         "name": "Spring Blog",
@@ -118,12 +119,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-05",
-      "high": 7,
-      "medium": 5,
-      "low": 1
-    },
     {
       "date": "2026-08-06",
       "high": 11,
@@ -159,9 +154,84 @@
       "high": 8,
       "medium": 6,
       "low": 1
+    },
+    {
+      "date": "2026-08-13",
+      "high": 7,
+      "medium": 8,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-13",
+      "generatedAt": "2026-08-13T08:20:57.063Z",
+      "totalArticles": 15,
+      "highPriority": 7,
+      "mediumPriority": 8,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 11
+        },
+        {
+          "name": "AI for Developers",
+          "count": 3
+        },
+        {
+          "name": "Dev Tools",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 3
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
+          "url": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Los atacantes están explotando activamente una vulnerabilidad crítica (CVE-2026-59310, CVSS 9.8) en VMware vCenter que permite la ejecución de código arbitrario y acceso remoto persistente.",
+          "whyItMatters": "VMware vCenter es una herramienta fundamental en muchos entornos empresariales. La explotación exitosa de esta vulnerabilidad, calificada como crítica, puede dar a los atacantes control total sobre la infraestructura virtualizada, con graves consecuencias para la seguridad y continuidad del negocio.",
+          "recommendedAction": "Aplicar urgentemente los parches de seguridad de Broadcom para VMware vCenter. Auditar los sistemas para detectar signos de compromiso y verificar la correcta aplicación de las actualizaciones."
+        },
+        {
+          "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
+          "url": "https://thehackernews.com/2026/08/adobe-patches-three-coldfusion.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Adobe ha lanzado actualizaciones para corregir vulnerabilidades críticas en ColdFusion, Commerce y Campaign Classic que podrían permitir la ejecución remota de código y la escalada de privilegios.",
+          "whyItMatters": "Estas vulnerabilidades, con un puntaje CVSS de 10.0, son extremadamente graves y representan un riesgo significativo para las organizaciones que utilizan estos productos de Adobe. La explotación podría llevar a un control total del sistema afectado.",
+          "recommendedAction": "Actualizar inmediatamente los sistemas afectados de Adobe ColdFusion, Commerce y Campaign Classic a las últimas versiones disponibles. Revisar los registros en busca de actividad sospechosa que pueda indicar una explotación previa."
+        },
+        {
+          "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
+          "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
+          "source": "The Hacker News",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una falla en las API de OpenAI, Anthropic y Google que permite a modelos de IA más débiles descifrar el razonamiento interno de modelos más potentes, pudiendo exponer información sensible como claves API y contraseñas.",
+          "whyItMatters": "Esta vulnerabilidad de seguridad en modelos de IA tiene implicaciones importantes para la privacidad de los datos y la seguridad de las aplicaciones que dependen de estos servicios. Podría ser utilizada para obtener información confidencial o para manipular el comportamiento de la IA.",
+          "recommendedAction": "Estar al tanto de las actualizaciones y comunicados de seguridad de OpenAI, Anthropic y Google. Si desarrollas aplicaciones que utilizan estas API, revisa la configuración y los protocolos de seguridad para mitigar posibles exposiciones."
+        }
+      ]
+    },
     {
       "date": "2026-08-12",
       "generatedAt": "2026-08-12T08:17:40.900Z",
