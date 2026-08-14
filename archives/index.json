@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-13T08:20:57.075Z",
+  "generatedAt": "2026-08-14T08:15:39.473Z",
   "availableDates": [
+    "2026-08-14",
     "2026-08-13",
     "2026-08-12",
     "2026-08-11",
@@ -63,13 +64,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 60,
-    "totalArticles": 711,
-    "highPriority": 380,
-    "mediumPriority": 264,
-    "lowPriority": 67,
+    "totalReports": 61,
+    "totalArticles": 715,
+    "highPriority": 381,
+    "mediumPriority": 266,
+    "lowPriority": 68,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-13",
+    "latestReportDate": "2026-08-14",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -80,11 +81,11 @@
       },
       {
         "name": "Seguridad",
-        "count": 148
+        "count": 149
       },
       {
         "name": "AI for Developers",
-        "count": 43
+        "count": 44
       },
       {
         "name": "AI",
@@ -102,15 +103,15 @@
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 66
+        "count": 67
       },
       {
         "name": "GitHub Blog",
-        "count": 55
+        "count": 57
       },
       {
         "name": "Spring Blog",
-        "count": 45
+        "count": 46
       },
       {
         "name": "Krebs on Security",
@@ -119,12 +120,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-06",
-      "high": 11,
-      "medium": 2,
-      "low": 2
-    },
     {
       "date": "2026-08-08",
       "high": 11,
@@ -160,9 +155,92 @@
       "high": 7,
       "medium": 8,
       "low": 0
+    },
+    {
+      "date": "2026-08-14",
+      "high": 1,
+      "medium": 2,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-14",
+      "generatedAt": "2026-08-14T08:15:39.464Z",
+      "totalArticles": 4,
+      "highPriority": 1,
+      "mediumPriority": 2,
+      "lowPriority": 1,
+      "topCategory": "Seguridad",
+      "topSource": "GitHub Blog",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 1
+        },
+        {
+          "name": "Java/Spring Boot",
+          "count": 1
+        },
+        {
+          "name": "Dev Tools",
+          "count": 1
+        },
+        {
+          "name": "AI for Developers",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "GitHub Blog",
+          "count": 2
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "What 50 open source projects taught us about security in the AI era",
+          "url": "https://github.blog/open-source/maintainers/what-50-open-source-projects-taught-us-about-security-in-the-ai-era/",
+          "source": "GitHub Blog",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Este artículo explora las lecciones aprendidas en seguridad de 50 proyectos de código abierto en la era de la IA, destacando cómo combinaron flujos de trabajo asistidos por IA, experiencia de mantenedores, herramientas de seguridad de GitHub y financiación para mejorar la seguridad.",
+          "whyItMatters": "Aborda directamente la intersección de seguridad, IA y código abierto, temas muy relevantes para el desarrollo de software moderno. Las lecciones prácticas de proyectos reales son valiosas.",
+          "recommendedAction": "Leer las conclusiones principales y las mejores prácticas compartidas sobre la seguridad en proyectos de código abierto que utilizan IA."
+        },
+        {
+          "title": "A Bootiful Podcast: Redouble AI CTO and founder Andrey Santrosyan",
+          "url": "https://spring.io/blog/2026/08/13/a-bootiful-podcast-andrey-santrosyan",
+          "source": "Spring Blog",
+          "category": "Java/Spring Boot",
+          "priority": "medium",
+          "score": 8,
+          "summary": "Un episodio de podcast que presenta a Andrey Santrosyan, CTO y fundador de Redouble AI, discutiendo probablemente temas relacionados con IA y su aplicación en el ecosistema de desarrollo, posiblemente con un enfoque en Java/Spring.",
+          "whyItMatters": "Ofrece una perspectiva de un líder de una empresa de IA, lo que puede proporcionar información sobre tendencias y aplicaciones de IA relevantes para desarrolladores, especialmente en el contexto de Java/Spring Boot.",
+          "recommendedAction": "Escuchar el podcast para obtener información sobre las aplicaciones de IA en el desarrollo de software y las perspectivas de la industria."
+        },
+        {
+          "title": "Your guide to GitHub Universe 2026 is here: The schedule just launched!",
+          "url": "https://github.blog/news-insights/company-news/your-guide-to-github-universe-2026-is-here-the-schedule-just-launched/",
+          "source": "GitHub Blog",
+          "category": "Dev Tools",
+          "priority": "medium",
+          "score": 7,
+          "summary": "Anuncia el lanzamiento del horario y la guía para GitHub Universe 2026, destacando talleres interactivos, charlas comunitarias, demos y paneles.",
+          "whyItMatters": "GitHub Universe es un evento importante para desarrolladores que utilizan GitHub. Conocer el horario permite planificar la asistencia a sesiones relevantes para tecnologías como Docker, Git y flujos de trabajo de desarrollo.",
+          "recommendedAction": "Consultar el horario y registrarse para GitHub Universe 2026 si hay sesiones de interés para su stack tecnológico."
+        }
+      ]
+    },
     {
       "date": "2026-08-13",
       "generatedAt": "2026-08-13T08:20:57.063Z",
