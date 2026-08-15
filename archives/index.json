@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-14T08:15:39.473Z",
+  "generatedAt": "2026-08-15T07:30:46.232Z",
   "availableDates": [
+    "2026-08-15",
     "2026-08-14",
     "2026-08-13",
     "2026-08-12",
@@ -64,20 +65,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 61,
-    "totalArticles": 715,
-    "highPriority": 381,
-    "mediumPriority": 266,
+    "totalReports": 62,
+    "totalArticles": 719,
+    "highPriority": 384,
+    "mediumPriority": 267,
     "lowPriority": 68,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-14",
+    "latestReportDate": "2026-08-15",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 324
+        "count": 325
       },
       {
         "name": "Seguridad",
@@ -85,7 +86,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 44
+        "count": 45
       },
       {
         "name": "AI",
@@ -103,11 +104,11 @@
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 67
+        "count": 68
       },
       {
         "name": "GitHub Blog",
-        "count": 57
+        "count": 58
       },
       {
         "name": "Spring Blog",
@@ -115,17 +116,11 @@
       },
       {
         "name": "Krebs on Security",
-        "count": 15
+        "count": 16
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-08",
-      "high": 11,
-      "medium": 4,
-      "low": 0
-    },
     {
       "date": "2026-08-09",
       "high": 10,
@@ -161,9 +156,96 @@
       "high": 1,
       "medium": 2,
       "low": 1
+    },
+    {
+      "date": "2026-08-15",
+      "high": 3,
+      "medium": 1,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-15",
+      "generatedAt": "2026-08-15T07:30:46.219Z",
+      "totalArticles": 4,
+      "highPriority": 3,
+      "mediumPriority": 1,
+      "lowPriority": 0,
+      "topCategory": "Frontend",
+      "topSource": "Angular Blog",
+      "topCategories": [
+        {
+          "name": "Frontend",
+          "count": 1
+        },
+        {
+          "name": "Dev Tools",
+          "count": 1
+        },
+        {
+          "name": "Security",
+          "count": 1
+        },
+        {
+          "name": "AI for Developers",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "Angular Blog",
+          "count": 1
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "The Forms Evolution, Web AI, and Architectural Vision!",
+          "url": "https://blog.angular.dev/the-forms-evolution-web-ai-and-architectural-vision-4f96634b0ae3?source=rss----447683c3d9a3---4",
+          "source": "Angular Blog",
+          "category": "Frontend",
+          "priority": "high",
+          "score": 9,
+          "summary": "Este artículo de Angular discute la evolución de los formularios en la web, la integración de la IA y la visión arquitectónica. Cubre cómo estas áreas están cambiando el desarrollo de aplicaciones web.",
+          "whyItMatters": "Es relevante porque aborda mejoras en Angular, un framework frontend popular, y su conexión con la IA, un área de interés clave para los desarrolladores.",
+          "recommendedAction": "Leer para entender las nuevas capacidades de formularios en Angular y cómo la IA está impactando el desarrollo frontend."
+        },
+        {
+          "title": "How to bring your software delivery workflow into GitHub with agent apps",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
+          "source": "GitHub Blog",
+          "category": "Dev Tools",
+          "priority": "high",
+          "score": 9,
+          "summary": "Explora cómo las aplicaciones de agente de GitHub pueden mejorar el flujo de trabajo de entrega de software, permitiendo la planificación, seguridad, implementación y lanzamiento de funcionalidades directamente dentro de GitHub.",
+          "whyItMatters": "Integrar el flujo de desarrollo en GitHub con herramientas de automatización y IA mejora la eficiencia y la gestión del ciclo de vida del desarrollo, algo crucial para desarrolladores que usan GitHub.",
+          "recommendedAction": "Revisar las capacidades de las aplicaciones de agente de GitHub para optimizar los flujos de trabajo de entrega de software."
+        },
+        {
+          "title": "Who’s Tracking You? Use This New Service to Find Out",
+          "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+          "source": "Krebs on Security",
+          "category": "Security",
+          "priority": "high",
+          "score": 8,
+          "summary": "Presenta un nuevo servicio llamado DecryptAds que ayuda a identificar y entender quién está rastreando a los usuarios en la web y en aplicaciones móviles, facilitando el acceso a datos de adtech que antes estaban fragmentados.",
+          "whyItMatters": "La privacidad y la seguridad de los datos son fundamentales. Entender quién rastrea a los usuarios es vital para protegerse y tomar decisiones informadas sobre el uso de servicios en línea.",
+          "recommendedAction": "Explorar DecryptAds para comprender mejor las prácticas de rastreo en línea y proteger la privacidad."
+        }
+      ]
+    },
     {
       "date": "2026-08-14",
       "generatedAt": "2026-08-14T08:15:39.464Z",
