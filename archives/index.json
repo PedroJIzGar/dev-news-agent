@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-15T07:30:46.232Z",
+  "generatedAt": "2026-08-18T07:37:46.271Z",
   "availableDates": [
+    "2026-08-18",
     "2026-08-15",
     "2026-08-14",
     "2026-08-13",
@@ -65,20 +66,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 62,
-    "totalArticles": 719,
-    "highPriority": 384,
-    "mediumPriority": 267,
-    "lowPriority": 68,
+    "totalReports": 63,
+    "totalArticles": 734,
+    "highPriority": 391,
+    "mediumPriority": 273,
+    "lowPriority": 70,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-15",
+    "latestReportDate": "2026-08-18",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 325
+        "count": 337
       },
       {
         "name": "Seguridad",
@@ -100,7 +101,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 523
+        "count": 537
       },
       {
         "name": "Stack Overflow Blog",
@@ -112,7 +113,7 @@
       },
       {
         "name": "Spring Blog",
-        "count": 46
+        "count": 47
       },
       {
         "name": "Krebs on Security",
@@ -121,12 +122,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-09",
-      "high": 10,
-      "medium": 5,
-      "low": 0
-    },
     {
       "date": "2026-08-10",
       "high": 3,
@@ -162,9 +157,88 @@
       "high": 3,
       "medium": 1,
       "low": 0
+    },
+    {
+      "date": "2026-08-18",
+      "high": 7,
+      "medium": 6,
+      "low": 2
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-18",
+      "generatedAt": "2026-08-18T07:37:46.260Z",
+      "totalArticles": 15,
+      "highPriority": 7,
+      "mediumPriority": 6,
+      "lowPriority": 2,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 12
+        },
+        {
+          "name": "AI / Frameworks",
+          "count": 1
+        },
+        {
+          "name": "AI / Java",
+          "count": 1
+        },
+        {
+          "name": "Security / AI",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 14
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Spring Office Hours Podcast: S5E20 - The Developer's Guide to AI with Danny Thompson",
+          "url": "https://spring.io/blog/2026/08/17/spring-office-hours-podcast-S5E20",
+          "source": "Spring Blog",
+          "category": "AI / Java",
+          "priority": "high",
+          "score": 10,
+          "summary": "Un episodio del podcast Spring Office Hours con Danny Thompson enfocado en guiar a los desarrolladores sobre cómo abordar la Inteligencia Artificial.",
+          "whyItMatters": "Dado el interés en Java y Spring Boot, y la creciente importancia de la IA, este episodio es directamente relevante. Ofrece una perspectiva de los creadores del ecosistema Spring sobre cómo integrar o entender la IA en el desarrollo.",
+          "recommendedAction": "Escucha este episodio del podcast para obtener información práctica sobre cómo los desarrolladores pueden empezar a trabajar con IA, potencialmente en el contexto de aplicaciones Spring."
+        },
+        {
+          "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
+          "url": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una vulnerabilidad crítica en GitLab Community Edition y Enterprise Edition que permite a atacantes no autenticados modificar o eliminar proyectos públicos y datos de usuario de forma remota bajo ciertas condiciones.",
+          "whyItMatters": "Esta vulnerabilidad (CVE-2026-19478) tiene una puntuación CVSS de 9.4, lo que indica un riesgo muy alto. Afecta directamente a la integridad de los datos en GitLab, una plataforma popular para el desarrollo y control de versiones.",
+          "recommendedAction": "Actualiza inmediatamente tu instancia de GitLab a la última versión de seguridad. Revisa los logs en busca de actividad sospechosa relacionada con la manipulación de proyectos."
+        },
+        {
+          "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
+          "url": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una vulnerabilidad en los flujos de trabajo de GitHub Actions de Snowflake, descubierta por investigadores de Wiz, podría permitir la inyección de comandos a través de issues creados maliciosamente, exponiendo credenciales internas de Jira.",
+          "whyItMatters": "La explotación de esta falla podría comprometer credenciales sensibles y dar acceso no autorizado a sistemas internos. Resalta la importancia de asegurar las configuraciones de CI/CD y las interacciones a través de plataformas como GitHub.",
+          "recommendedAction": "Revisa y asegura las configuraciones de GitHub Actions en tus repositorios, especialmente aquellas que manejan credenciales o interactúan con sistemas de terceros. Implementa validaciones estrictas en las entradas."
+        }
+      ]
+    },
     {
       "date": "2026-08-15",
       "generatedAt": "2026-08-15T07:30:46.219Z",

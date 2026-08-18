@@ -1,0 +1,205 @@
+{
+  "date": "2026-08-18",
+  "generatedAt": "2026-08-18T07:37:46.260Z",
+  "totalArticles": 15,
+  "summary": {
+    "highPriority": 7,
+    "mediumPriority": 6,
+    "lowPriority": 2,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 12
+      },
+      {
+        "name": "AI / Frameworks",
+        "count": 1
+      },
+      {
+        "name": "AI / Java",
+        "count": 1
+      },
+      {
+        "name": "Security / AI",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 14
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
+      "url": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se ha descubierto una vulnerabilidad crítica en GitLab Community Edition y Enterprise Edition que permite a atacantes no autenticados modificar o eliminar proyectos públicos y datos de usuario de forma remota bajo ciertas condiciones.",
+      "whyItMatters": "Esta vulnerabilidad (CVE-2026-19478) tiene una puntuación CVSS de 9.4, lo que indica un riesgo muy alto. Afecta directamente a la integridad de los datos en GitLab, una plataforma popular para el desarrollo y control de versiones.",
+      "recommendedAction": "Actualiza inmediatamente tu instancia de GitLab a la última versión de seguridad. Revisa los logs en busca de actividad sospechosa relacionada con la manipulación de proyectos."
+    },
+    {
+      "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
+      "url": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una vulnerabilidad en los flujos de trabajo de GitHub Actions de Snowflake, descubierta por investigadores de Wiz, podría permitir la inyección de comandos a través de issues creados maliciosamente, exponiendo credenciales internas de Jira.",
+      "whyItMatters": "La explotación de esta falla podría comprometer credenciales sensibles y dar acceso no autorizado a sistemas internos. Resalta la importancia de asegurar las configuraciones de CI/CD y las interacciones a través de plataformas como GitHub.",
+      "recommendedAction": "Revisa y asegura las configuraciones de GitHub Actions en tus repositorios, especialmente aquellas que manejan credenciales o interactúan con sistemas de terceros. Implementa validaciones estrictas en las entradas."
+    },
+    {
+      "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
+      "url": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
+      "source": "The Hacker News",
+      "category": "AI / Frameworks",
+      "priority": "high",
+      "score": 9,
+      "summary": "La CISA ha incluido una vulnerabilidad crítica en Ray, un framework de computación distribuida para IA/ML, en su catálogo de Vulnerabilidades Explotadas Conocidas (KEV), indicando que está siendo explotada activamente.",
+      "whyItMatters": "Ray es fundamental para muchas cargas de trabajo de IA y ML. Una falla explotada activamente puede tener un impacto significativo en las operaciones de desarrollo y despliegue de estas tecnologías. El uso de Python como lenguaje principal en Ray lo hace relevante para muchos desarrolladores.",
+      "recommendedAction": "Si utilizas Ray, actualízalo inmediatamente a la última versión disponible. Monitorea de cerca los avisos de seguridad de CISA y del proyecto Ray. Evalúa la exposición de tus sistemas que utilizan Ray."
+    },
+    {
+      "title": "GeoServer Zero-Day Targeted in Active Exploitation Attempts, Can Lead to RCE",
+      "url": "https://thehackernews.com/2026/08/unpatched-geoserver-zero-day-targeted.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Una vulnerabilidad zero-day recién descubierta en GeoServer, una plataforma de código abierto, está siendo activamente explotada y puede llevar a la ejecución remota de código (RCE) a través de inyección SQL.",
+      "whyItMatters": "Las vulnerabilidades zero-day activamente explotadas representan un riesgo inmediato. Aunque GeoServer no es un stack principal para el usuario, las implicaciones de RCE son serias y podría afectar a sistemas que interactúan con datos geoespaciales.",
+      "recommendedAction": "Si utilizas GeoServer, aplica cualquier parche o mitigación disponible de inmediato. Monitoriza la actividad de red y los logs del servidor en busca de indicadores de compromiso."
+    },
+    {
+      "title": "AmnesiaStealer Hijacks Chromium Sessions to Give Attackers Live Browser Control on macOS",
+      "url": "https://thehackernews.com/2026/08/amnesiastealer-hijacks-chromium.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Se ha detallado un nuevo malware para macOS llamado AmnesiaStealer, escrito en Rust, que secuestra sesiones de navegadores Chromium para robar datos y permitir el control del navegador en vivo. Se distribuye a través de una página de descarga falsa de GitHub.",
+      "whyItMatters": "Aunque se enfoca en macOS, resalta cómo las plataformas de desarrollo como GitHub pueden ser abusadas para la distribución de malware. El uso de Rust también es interesante. El robo de sesiones puede tener graves implicaciones de seguridad.",
+      "recommendedAction": "Sé extremadamente cauto con las descargas de software, incluso si parecen provenir de fuentes legítimas como GitHub. Mantén tu sistema operativo y software actualizados. Utiliza herramientas de seguridad robustas."
+    },
+    {
+      "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
+      "url": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "El framework de command-and-control (C2) Cavern ha evolucionado para usar DNS y Google Apps Script, permitiéndole mezclarse con tráfico legítimo y evadir la detección.",
+      "whyItMatters": "Muestra técnicas avanzadas de evasión utilizadas por actores de amenazas, lo cual es relevante para entender el panorama de seguridad. La creatividad en el uso de servicios legítimos para C2 es un patrón a observar.",
+      "recommendedAction": "Fortalece la monitorización del tráfico de red, prestando atención a patrones inusuales de DNS y al uso de servicios cloud. Mantén actualizadas las herramientas de detección de intrusiones."
+    },
+    {
+      "title": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch",
+      "url": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Una vulnerabilidad de máxima severidad (CVSS 10.0) en SAP Commerce Cloud, que involucra autorización y validación de entrada insuficientes, está siendo explotada activamente poco después de su parcheo.",
+      "whyItMatters": "Una vulnerabilidad crítica con explotación activa y una puntuación CVSS perfecta es de alta importancia. Aunque no sea directamente tu stack, las fallas en sistemas empresariales críticos son un recordatorio de la importancia de la seguridad y la rápida aplicación de parches.",
+      "recommendedAction": "Aplica los parches de seguridad para SAP Commerce Cloud lo antes posible. Revisa la configuración de autorización y validación de entrada en sistemas similares que puedas estar utilizando."
+    },
+    {
+      "title": "Spring Office Hours Podcast: S5E20 - The Developer's Guide to AI with Danny Thompson",
+      "url": "https://spring.io/blog/2026/08/17/spring-office-hours-podcast-S5E20",
+      "source": "Spring Blog",
+      "category": "AI / Java",
+      "priority": "high",
+      "score": 10,
+      "summary": "Un episodio del podcast Spring Office Hours con Danny Thompson enfocado en guiar a los desarrolladores sobre cómo abordar la Inteligencia Artificial.",
+      "whyItMatters": "Dado el interés en Java y Spring Boot, y la creciente importancia de la IA, este episodio es directamente relevante. Ofrece una perspectiva de los creadores del ecosistema Spring sobre cómo integrar o entender la IA en el desarrollo.",
+      "recommendedAction": "Escucha este episodio del podcast para obtener información práctica sobre cómo los desarrolladores pueden empezar a trabajar con IA, potencialmente en el contexto de aplicaciones Spring."
+    },
+    {
+      "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
+      "url": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 5,
+      "summary": "Una falla crítica en el plugin de WordPress Forminator (CVE-2026-15748), con más de 600,000 instalaciones, permite RCE no autenticado mediante la subida de archivos PHP maliciosos.",
+      "whyItMatters": "Una vulnerabilidad de alta severidad (9.8 CVSS) en un plugin popular. Aunque se centra en WordPress, demuestra los riesgos de la subida de archivos no validados y la importancia de mantener los plugins actualizados.",
+      "recommendedAction": "Si utilizas WordPress y el plugin Forminator, actualízalo inmediatamente. Revisa las prácticas de subida de archivos en tus aplicaciones para prevenir vulnerabilidades similares."
+    },
+    {
+      "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
+      "url": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Un actor de amenazas presuntamente vinculado a China está explotando una falla recién parcheada en VMware vCenter (CVE-2026-59310) para desplegar ransomware derivado de Babuk.",
+      "whyItMatters": "La explotación activa de una vulnerabilidad crítica (9.8 CVSS) en una infraestructura virtualizada tan común como VMware vCenter es una amenaza significativa para las organizaciones. La atribución a un actor estatal añade complejidad.",
+      "recommendedAction": "Asegura y aplica parches a todas las instancias de VMware vCenter de inmediato. Revisa los sistemas en busca de signos de compromiso, especialmente si operas en entornos empresariales sensibles."
+    },
+    {
+      "title": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner",
+      "url": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Una falla crítica (CVE-2026-65400, 9.8 CVSS) en el componente Screen Sharing de macOS, que permitía la ejecución remota de código sin autenticación, está siendo explotada activamente para instalar un minero de criptomonedas.",
+      "whyItMatters": "Demuestra que incluso los sistemas operativos de escritorio populares son objetivos y que las vulnerabilidades críticas pueden ser explotadas rápidamente. La instalación de mineros de criptomonedas puede degradar el rendimiento y ser un indicador de compromiso.",
+      "recommendedAction": "Aplica las actualizaciones de seguridad de macOS tan pronto como estén disponibles. Limita la exposición de los servicios de Screen Sharing a redes de confianza."
+    },
+    {
+      "title": "ThreatsDay: GhostJacking AI Attacks, EtherHiding ClickFix, Cursor CLI Flaw + 17 More Stories",
+      "url": "https://thehackernews.com/2026/08/threatsday-ghostjacking-ai-attacks.html",
+      "source": "The Hacker News",
+      "category": "Security / AI",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Un resumen de amenazas de seguridad que incluye ataques de 'GhostJacking' basados en IA, malware, y otras novedades del panorama de la ciberseguridad.",
+      "whyItMatters": "Proporciona una visión rápida de diversas amenazas emergentes, incluyendo las relacionadas con IA, lo cual es útil para mantenerse al día sin tener que leer cada artículo individualmente. Muestra la diversidad de vectores de ataque.",
+      "recommendedAction": "Revisa los puntos clave de este resumen para identificar áreas de riesgo emergentes. Considera investigar más a fondo cualquier amenaza que parezca particularmente relevante para tu entorno o stack tecnológico."
+    },
+    {
+      "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
+      "url": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 4,
+      "summary": "Se ha identificado una nueva botnet Linux, Evooo1Bot, que reutiliza código de Mirai y explota vulnerabilidades conocidas para convertir dispositivos en proxies SOCKS5.",
+      "whyItMatters": "Aunque es una amenaza para dispositivos IoT y edge, es un ejemplo de cómo el código de botnets conocidos sigue siendo adaptado y utilizado. El uso de proxies SOCKS5 puede ser parte de cadenas de ataque más complejas.",
+      "recommendedAction": "Mantén los dispositivos de borde (edge) y IoT actualizados y seguros. Monitorea el tráfico de red en busca de comportamientos anómalos que puedan indicar la presencia de botnets."
+    },
+    {
+      "title": "IAM Compliance Requirements and Best Practices",
+      "url": "https://thehackernews.com/2026/08/iam-compliance-requirements-and-best.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Una guía sobre los requisitos y las mejores prácticas para el cumplimiento de la gestión de identidades y accesos (IAM), cubriendo regulaciones y la verificación continua.",
+      "whyItMatters": "La gestión de identidades y accesos es fundamental para la seguridad. Entender los requisitos de cumplimiento y las mejores prácticas ayuda a construir sistemas más seguros y a cumplir con normativas.",
+      "recommendedAction": "Revisa las mejores prácticas de IAM y evalúa si tu implementación actual cumple con los requisitos descritos. Considera la automatización de los procesos de verificación de acceso."
+    },
+    {
+      "title": "Mustang Panda Adds Signed Windows Rootkit to CoolClient Backdoor for Stealth",
+      "url": "https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 4,
+      "summary": "El grupo Mustang Panda ha actualizado su backdoor CoolClient con un rootkit de Windows firmado digitalmente para mejorar el sigilo y la persistencia.",
+      "whyItMatters": "Muestra la sofisticación de las amenazas persistentes avanzadas (APT) y el uso de técnicas de bajo nivel como rootkits firmados para evadir la detección. Es relevante para entender las tácticas de actores de amenazas avanzados.",
+      "recommendedAction": "Implementa soluciones de seguridad avanzadas que puedan detectar rootkits y rootkits firmados. Mantén un registro de auditoría detallado y monitoriza la integridad de los archivos del sistema."
+    }
+  ]
+}
