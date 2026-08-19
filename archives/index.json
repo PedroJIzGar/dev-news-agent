@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-18T07:37:46.271Z",
+  "generatedAt": "2026-08-19T07:38:02.545Z",
   "availableDates": [
+    "2026-08-19",
     "2026-08-18",
     "2026-08-15",
     "2026-08-14",
@@ -66,20 +67,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 63,
-    "totalArticles": 734,
-    "highPriority": 391,
-    "mediumPriority": 273,
+    "totalReports": 64,
+    "totalArticles": 749,
+    "highPriority": 400,
+    "mediumPriority": 279,
     "lowPriority": 70,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-18",
+    "latestReportDate": "2026-08-19",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 337
+        "count": 348
       },
       {
         "name": "Seguridad",
@@ -87,7 +88,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 45
+        "count": 48
       },
       {
         "name": "AI",
@@ -101,7 +102,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 537
+        "count": 550
       },
       {
         "name": "Stack Overflow Blog",
@@ -109,11 +110,11 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 58
+        "count": 59
       },
       {
         "name": "Spring Blog",
-        "count": 47
+        "count": 48
       },
       {
         "name": "Krebs on Security",
@@ -122,12 +123,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-10",
-      "high": 3,
-      "medium": 1,
-      "low": 1
-    },
     {
       "date": "2026-08-11",
       "high": 4,
@@ -163,9 +158,88 @@
       "high": 7,
       "medium": 6,
       "low": 2
+    },
+    {
+      "date": "2026-08-19",
+      "high": 9,
+      "medium": 6,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-19",
+      "generatedAt": "2026-08-19T07:38:02.530Z",
+      "totalArticles": 15,
+      "highPriority": 9,
+      "mediumPriority": 6,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 11
+        },
+        {
+          "name": "AI for Developers",
+          "count": 3
+        },
+        {
+          "name": "Java/Spring Boot",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 13
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
+          "url": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Se han descubierto vulnerabilidades críticas en MLflow y FUXA que están siendo explotadas activamente por atacantes para robar credenciales y secretos en la nube.",
+          "whyItMatters": "MLflow es una plataforma de IA popular y una vulnerabilidad SSRF puede tener consecuencias graves para la seguridad de los datos en la nube. Es crucial estar al tanto de estas amenazas.",
+          "recommendedAction": "Revisar la configuración de seguridad de MLflow y FUXA, aplicar parches tan pronto como estén disponibles y monitorizar los registros en busca de actividades sospechosas."
+        },
+        {
+          "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
+          "url": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Se han descubierto tres vulnerabilidades en Microsoft Copilot Personal que, con un solo clic en un enlace malicioso, podrían permitir la exfiltración de datos de aplicaciones conectadas.",
+          "whyItMatters": "Estas vulnerabilidades afectan a una herramienta de IA ampliamente utilizada y tienen el potencial de exponer información sensible de los usuarios. La facilidad de explotación (un solo clic) las hace particularmente peligrosas.",
+          "recommendedAction": "Estar atento a las actualizaciones de seguridad de Microsoft para Copilot Personal, educar a los usuarios sobre los riesgos de hacer clic en enlaces desconocidos y revisar los permisos otorgados a Copilot."
+        },
+        {
+          "title": "AI \"Mind Viruses\" Can Spread Between Agents Through Persistent Prompt Files",
+          "url": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
+          "source": "The Hacker News",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha demostrado que los 'virus mentales' de IA pueden propagarse entre agentes a través de archivos de prompt persistentes, representando un nuevo vector de ataque en sistemas autónomos.",
+          "whyItMatters": "Esta investigación revela un vector de ataque novedoso y preocupante para la seguridad de los agentes de IA. Comprender cómo se propagan las 'infecciones' es vital para desarrollar defensas.",
+          "recommendedAction": "Investigar las implicaciones de seguridad de los archivos de prompt persistentes en tus implementaciones de IA y considerar mecanismos para sanitizar o aislar los prompts."
+        }
+      ]
+    },
     {
       "date": "2026-08-18",
       "generatedAt": "2026-08-18T07:37:46.260Z",

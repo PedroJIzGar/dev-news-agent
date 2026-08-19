@@ -1,0 +1,205 @@
+{
+  "date": "2026-08-19",
+  "generatedAt": "2026-08-19T07:38:02.530Z",
+  "totalArticles": 15,
+  "summary": {
+    "highPriority": 9,
+    "mediumPriority": 6,
+    "lowPriority": 0,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 11
+      },
+      {
+        "name": "AI for Developers",
+        "count": 3
+      },
+      {
+        "name": "Java/Spring Boot",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 13
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
+      "url": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 10,
+      "summary": "Se han descubierto vulnerabilidades críticas en MLflow y FUXA que están siendo explotadas activamente por atacantes para robar credenciales y secretos en la nube.",
+      "whyItMatters": "MLflow es una plataforma de IA popular y una vulnerabilidad SSRF puede tener consecuencias graves para la seguridad de los datos en la nube. Es crucial estar al tanto de estas amenazas.",
+      "recommendedAction": "Revisar la configuración de seguridad de MLflow y FUXA, aplicar parches tan pronto como estén disponibles y monitorizar los registros en busca de actividades sospechosas."
+    },
+    {
+      "title": "AI \"Mind Viruses\" Can Spread Between Agents Through Persistent Prompt Files",
+      "url": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
+      "source": "The Hacker News",
+      "category": "AI for Developers",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se ha demostrado que los 'virus mentales' de IA pueden propagarse entre agentes a través de archivos de prompt persistentes, representando un nuevo vector de ataque en sistemas autónomos.",
+      "whyItMatters": "Esta investigación revela un vector de ataque novedoso y preocupante para la seguridad de los agentes de IA. Comprender cómo se propagan las 'infecciones' es vital para desarrollar defensas.",
+      "recommendedAction": "Investigar las implicaciones de seguridad de los archivos de prompt persistentes en tus implementaciones de IA y considerar mecanismos para sanitizar o aislar los prompts."
+    },
+    {
+      "title": "TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks",
+      "url": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Un nuevo framework de implante Python llamado TWINLOOT está siendo utilizado para abusar de SharePoint y Teams con el fin de robar credenciales y moverse lateralmente en redes corporativas.",
+      "whyItMatters": "El uso de servicios legítimos como SharePoint y Teams por parte de los atacantes hace que la detección sea más difícil. Esto resalta la importancia de monitorizar el acceso y uso de estas plataformas.",
+      "recommendedAction": "Revisar las configuraciones de seguridad de Microsoft 365, especialmente SharePoint y Teams, y monitorizar el acceso inusual o la actividad de archivos."
+    },
+    {
+      "title": "This Week in Spring - August 18th, 2026",
+      "url": "https://spring.io/blog/2026/08/18/this-week-in-spring-august-18-2026",
+      "source": "Spring Blog",
+      "category": "Java/Spring Boot",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Un resumen semanal de las últimas noticias y actualizaciones relacionadas con el ecosistema de Spring, incluyendo Spring Boot.",
+      "whyItMatters": "Mantenerse al día con las novedades de Spring es esencial para los desarrolladores que utilizan este framework. Permite conocer nuevas características, correcciones y mejores prácticas.",
+      "recommendedAction": "Leer el resumen semanal para estar informado sobre las últimas tendencias y actualizaciones en el mundo de Spring."
+    },
+    {
+      "title": "How canvases make agentic workflows visible, steerable, and cost-efficient",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-canvases-make-agentic-workflows-visible-steerable-and-cost-efficient/",
+      "source": "GitHub Blog",
+      "category": "AI for Developers",
+      "priority": "medium",
+      "score": 8,
+      "summary": "El artículo explora cómo los 'canvases' pueden mejorar la visibilidad, control y eficiencia de los flujos de trabajo de agentes de IA, especialmente en el contexto de herramientas como GitHub Copilot.",
+      "whyItMatters": "Para los desarrolladores que utilizan herramientas de IA para la codificación, entender cómo gestionar y visualizar flujos de trabajo complejos es clave para la productividad y la reducción de costos.",
+      "recommendedAction": "Considerar la adopción de enfoques basados en 'canvases' para gestionar y visualizar tus flujos de trabajo de agentes de IA y explorar cómo GitHub Copilot o herramientas similares pueden integrarse."
+    },
+    {
+      "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
+      "url": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 10,
+      "summary": "Se han descubierto tres vulnerabilidades en Microsoft Copilot Personal que, con un solo clic en un enlace malicioso, podrían permitir la exfiltración de datos de aplicaciones conectadas.",
+      "whyItMatters": "Estas vulnerabilidades afectan a una herramienta de IA ampliamente utilizada y tienen el potencial de exponer información sensible de los usuarios. La facilidad de explotación (un solo clic) las hace particularmente peligrosas.",
+      "recommendedAction": "Estar atento a las actualizaciones de seguridad de Microsoft para Copilot Personal, educar a los usuarios sobre los riesgos de hacer clic en enlaces desconocidos y revisar los permisos otorgados a Copilot."
+    },
+    {
+      "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
+      "url": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Un grupo autodenominado 'Ransom Busters' afirma haber hackeado servidores de ransomware y exige pagos a las víctimas para eliminar datos robados, presentando un nuevo tipo de extorsión.",
+      "whyItMatters": "Este nuevo esquema de extorsión añade una capa de complejidad a la respuesta ante incidentes de ransomware. Es importante ser consciente de estas tácticas.",
+      "recommendedAction": "No interactuar con supuestos 'Ransom Busters' ni realizar pagos. Enfocarse en las estrategias de recuperación y prevención de ransomware estándar y reportar cualquier intento de contacto."
+    },
+    {
+      "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
+      "url": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Un único atacante ha estado extrayendo datos de portales de Salesforce y ServiceNow en diversas industrias desde 2025, comprometiendo la información de clientes.",
+      "whyItMatters": "La persistencia y el alcance de este ataque, que afecta a plataformas CRM críticas, subrayan la importancia de asegurar adecuadamente el acceso a los datos de clientes y monitorizar la actividad de la API.",
+      "recommendedAction": "Revisar las configuraciones de seguridad y los logs de acceso de las instancias de Salesforce y ServiceNow, implementar el principio de mínimo privilegio y auditar regularmente los permisos de acceso."
+    },
+    {
+      "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
+      "url": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se han descubierto 16 paquetes maliciosos en RubyGems que utilizan typosquatting para robar credenciales de navegador y billeteras de criptomonedas.",
+      "whyItMatters": "Los ataques de typosquatting en repositorios de paquetes son una amenaza significativa para los desarrolladores. Confiar ciegamente en las dependencias puede llevar a la ejecución de código malicioso.",
+      "recommendedAction": "Verificar cuidadosamente los nombres de las dependencias al instalarlas o actualizarlas, utilizar herramientas de análisis de dependencias y considerar fijar versiones de paquetes para evitar la introducción de código malicioso."
+    },
+    {
+      "title": "SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers",
+      "url": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Una falla en un plugin de seguimiento de pedidos de SafePal expuso datos personales de casi 40,000 clientes, incluyendo nombres, direcciones y números de teléfono.",
+      "whyItMatters": "Aunque la falla no afectó directamente a las billeteras de hardware, la exposición de datos personales puede llevar a ataques de phishing o ingeniería social dirigidos a los usuarios.",
+      "recommendedAction": "Estar alerta ante posibles intentos de phishing o ingeniería social que puedan surgir a raíz de esta filtración de datos y seguir las recomendaciones de SafePal para protegerse."
+    },
+    {
+      "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
+      "url": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 8,
+      "summary": "Un resumen semanal de las últimas amenazas de ciberseguridad, incluyendo exploits en VMware, vulnerabilidades 0-day en Windows, ataques a través de MCP y secuestros de navegador.",
+      "whyItMatters": "Proporciona una visión general rápida de las amenazas de seguridad más relevantes de la semana, ayudando a los desarrolladores a mantenerse informados sobre el panorama de riesgos.",
+      "recommendedAction": "Revisar las vulnerabilidades mencionadas y priorizar la aplicación de parches y actualizaciones en los sistemas afectados, especialmente aquellas relacionadas con VMware y Windows."
+    },
+    {
+      "title": "How MCP Servers Can Expose Enterprise Secrets",
+      "url": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
+      "source": "The Hacker News",
+      "category": "AI for Developers",
+      "priority": "high",
+      "score": 9,
+      "summary": "Los servidores que utilizan el Model Context Protocol (MCP) pueden exponer secretos empresariales a través de archivos de configuración en texto plano, permisos excesivos y 'prompt injection', especialmente con la adopción de agentes de IA.",
+      "whyItMatters": "A medida que la IA se integra más en los sistemas empresariales, es crucial entender los nuevos vectores de ataque que surgen. El MCP es un componente clave para la comunicación de agentes de IA, y su mala configuración representa un riesgo.",
+      "recommendedAction": "Auditar la configuración de seguridad de los servidores MCP, asegurarse de que los archivos de configuración no contengan información sensible en texto plano y aplicar el principio de mínimo privilegio. Estar al tanto de las técnicas de 'prompt injection'."
+    },
+    {
+      "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
+      "url": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una cadena de exploits que involucra llamadas de video VoLTE en dispositivos con firmware de módem Unisoc puede otorgar a los atacantes acceso completo al kernel de Android.",
+      "whyItMatters": "El acceso al kernel es uno de los niveles más profundos de compromiso de un sistema operativo, permitiendo a los atacantes un control casi total. La explotación a través de una llamada de video es una técnica preocupante.",
+      "recommendedAction": "Mantener los dispositivos Android actualizados con los últimos parches de seguridad del fabricante. Estar atento a las actualizaciones de firmware de Unisoc y de los fabricantes de dispositivos."
+    },
+    {
+      "title": "Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware",
+      "url": "https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Los actores de amenazas están comprando dominios caducados para redirigir el tráfico legítimo hacia sitios de estafa y distribución de malware, invirtiendo casi 7 millones de dólares en esta táctica.",
+      "whyItMatters": "Esta táctica de 'dropcatching' de dominios puede ser efectiva para distribuir malware o realizar estafas, ya que aprovecha la confianza asociada a dominios previamente establecidos. Los desarrolladores deben ser cautelosos con los enlaces.",
+      "recommendedAction": "Ser escéptico con los enlaces de sitios web de apariencia legítima, especialmente si provienen de fuentes inesperadas. Utilizar herramientas de verificación de URL y verificar la reputación de los dominios antes de acceder."
+    },
+    {
+      "title": "Chrome DevTools Technique Enables Authenticated Session Hijacking in Live Windows Browsers",
+      "url": "https://thehackernews.com/2026/08/chrome-devtools-technique-enables.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una técnica que utiliza Chrome DevTools Protocol (CDP) permite el secuestro de sesiones autenticadas en navegadores Chrome y Edge en ejecución en Windows, tras obtener ejecución de código.",
+      "whyItMatters": "Esta técnica representa una amenaza seria para la seguridad de las sesiones de usuario activas, permitiendo a un atacante tomar control de la sesión de un navegador sin necesidad de credenciales.",
+      "recommendedAction": "Implementar medidas de seguridad robustas para prevenir la ejecución de código no autorizado en los endpoints. Monitorear la actividad de Chrome DevTools y considerar la implementación de políticas de seguridad para limitar el acceso no autorizado a estas herramientas."
+    }
+  ]
+}
