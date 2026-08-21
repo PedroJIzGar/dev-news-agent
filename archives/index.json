@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-20T07:40:30.597Z",
+  "generatedAt": "2026-08-21T07:42:17.276Z",
   "availableDates": [
+    "2026-08-21",
     "2026-08-20",
     "2026-08-19",
     "2026-08-18",
@@ -68,20 +69,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 65,
-    "totalArticles": 765,
-    "highPriority": 406,
-    "mediumPriority": 282,
+    "totalReports": 66,
+    "totalArticles": 780,
+    "highPriority": 416,
+    "mediumPriority": 287,
     "lowPriority": 77,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-20",
+    "latestReportDate": "2026-08-21",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 359
+        "count": 366
       },
       {
         "name": "Seguridad",
@@ -92,18 +93,18 @@
         "count": 50
       },
       {
-        "name": "AI",
-        "count": 18
+        "name": "Java/Spring Boot",
+        "count": 19
       },
       {
-        "name": "IA para Desarrolladores",
-        "count": 16
+        "name": "AI",
+        "count": 18
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 565
+        "count": 575
       },
       {
         "name": "Stack Overflow Blog",
@@ -111,11 +112,11 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 60
+        "count": 61
       },
       {
         "name": "Spring Blog",
-        "count": 48
+        "count": 52
       },
       {
         "name": "Krebs on Security",
@@ -124,12 +125,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-12",
-      "high": 8,
-      "medium": 6,
-      "low": 1
-    },
     {
       "date": "2026-08-13",
       "high": 7,
@@ -165,9 +160,96 @@
       "high": 6,
       "medium": 3,
       "low": 7
+    },
+    {
+      "date": "2026-08-21",
+      "high": 10,
+      "medium": 5,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-21",
+      "generatedAt": "2026-08-21T07:42:17.268Z",
+      "totalArticles": 15,
+      "highPriority": 10,
+      "mediumPriority": 5,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 7
+        },
+        {
+          "name": "Java/Spring Boot",
+          "count": 4
+        },
+        {
+          "name": "AI/Security",
+          "count": 2
+        },
+        {
+          "name": "Security/AI",
+          "count": 1
+        },
+        {
+          "name": "GitHub/DevOps",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 10
+        },
+        {
+          "name": "Spring Blog",
+          "count": 4
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Spring Boot 4.1.1 available now",
+          "url": "https://spring.io/blog/2026/08/20/spring-boot-4-1-1-available-now",
+          "source": "Spring Blog",
+          "category": "Java/Spring Boot",
+          "priority": "high",
+          "score": 10,
+          "summary": "Se ha lanzado la versión 4.1.1 de Spring Boot, que incluye correcciones y mejoras.",
+          "whyItMatters": "Las actualizaciones de Spring Boot son cruciales para mantener las aplicaciones seguras, estables y aprovechando las últimas características. Para desarrolladores que usan Spring Boot, estar al día con las versiones es fundamental.",
+          "recommendedAction": "Actualizar los proyectos de Spring Boot a la versión 4.1.1 para beneficiarse de las últimas correcciones y mejoras."
+        },
+        {
+          "title": "Spring Boot 4.0.8 available now",
+          "url": "https://spring.io/blog/2026/08/20/spring-boot-4-0-8-available-now",
+          "source": "Spring Blog",
+          "category": "Java/Spring Boot",
+          "priority": "high",
+          "score": 10,
+          "summary": "Se ha publicado la versión 4.0.8 de Spring Boot, enfocada en correcciones de errores y mejoras de estabilidad.",
+          "whyItMatters": "Las versiones de mantenimiento como esta son esenciales para la estabilidad y seguridad de las aplicaciones en producción. Abordan problemas detectados en versiones anteriores.",
+          "recommendedAction": "Aplicar la actualización a Spring Boot 4.0.8 en los proyectos existentes para asegurar la estabilidad y corregir posibles bugs."
+        },
+        {
+          "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+          "url": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Microsoft ha advertido sobre una falla de seguridad de máxima severidad (CVSS 10.0) en Microsoft Entra ID (anteriormente Azure AD) que ya está siendo explotada. Permite la ejecución remota de código.",
+          "whyItMatters": "Esta es una vulnerabilidad crítica de máxima puntuación en un servicio de identidad y acceso fundamental para muchas empresas. Las implicaciones de la ejecución remota de código en un sistema de este tipo son extremadamente graves.",
+          "recommendedAction": "Mantenerse informado sobre las actualizaciones y directivas de Microsoft relacionadas con CVE-2026-69836. Si se utilizan servicios de Entra ID, evaluar el impacto y seguir las recomendaciones de seguridad proporcionadas por Microsoft."
+        }
+      ]
+    },
     {
       "date": "2026-08-20",
       "generatedAt": "2026-08-20T07:40:30.588Z",
