@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-21T07:42:17.276Z",
+  "generatedAt": "2026-08-22T07:31:37.194Z",
   "availableDates": [
+    "2026-08-22",
     "2026-08-21",
     "2026-08-20",
     "2026-08-19",
@@ -69,20 +70,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 66,
-    "totalArticles": 780,
-    "highPriority": 416,
-    "mediumPriority": 287,
-    "lowPriority": 77,
+    "totalReports": 67,
+    "totalArticles": 795,
+    "highPriority": 422,
+    "mediumPriority": 293,
+    "lowPriority": 80,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-21",
+    "latestReportDate": "2026-08-22",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 366
+        "count": 376
       },
       {
         "name": "Seguridad",
@@ -90,7 +91,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 50
+        "count": 54
       },
       {
         "name": "Java/Spring Boot",
@@ -104,11 +105,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 575
+        "count": 586
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 68
+        "count": 70
       },
       {
         "name": "GitHub Blog",
@@ -116,7 +117,7 @@
       },
       {
         "name": "Spring Blog",
-        "count": 52
+        "count": 54
       },
       {
         "name": "Krebs on Security",
@@ -125,12 +126,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-13",
-      "high": 7,
-      "medium": 8,
-      "low": 0
-    },
     {
       "date": "2026-08-14",
       "high": 1,
@@ -166,9 +161,88 @@
       "high": 10,
       "medium": 5,
       "low": 0
+    },
+    {
+      "date": "2026-08-22",
+      "high": 6,
+      "medium": 6,
+      "low": 3
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-22",
+      "generatedAt": "2026-08-22T07:31:37.184Z",
+      "totalArticles": 15,
+      "highPriority": 6,
+      "mediumPriority": 6,
+      "lowPriority": 3,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 10
+        },
+        {
+          "name": "AI for Developers",
+          "count": 4
+        },
+        {
+          "name": "Backend",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 11
+        },
+        {
+          "name": "Spring Blog",
+          "count": 2
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 2
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure",
+          "url": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una vulnerabilidad crítica de inyección de código en GitLab (CVE-2026-19478) está siendo explotada activamente poco después de su divulgación. Permite a atacantes no autenticados modificar o eliminar proyectos públicos.",
+          "whyItMatters": "Esta vulnerabilidad de alta severidad (CVSS 9.4) afecta directamente a los repositorios de código y proyectos, lo que representa un riesgo significativo para la integridad de los datos y la seguridad del desarrollo. La rápida explotación subraya la urgencia de parchear.",
+          "recommendedAction": "Aplicar inmediatamente los parches de seguridad para GitLab. Revisar los registros en busca de cualquier actividad sospechosa relacionada con la explotación de esta CVE."
+        },
+        {
+          "title": "Spring AI 2.0.1 Available Now",
+          "url": "https://spring.io/blog/2026/08/21/spring-ai-2-0-1-available-now",
+          "source": "Spring Blog",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha lanzado la versión 2.0.1 de Spring AI, una biblioteca que facilita la integración de modelos de IA en aplicaciones Spring.",
+          "whyItMatters": "Para los desarrolladores que utilizan Spring Boot y están interesados en incorporar capacidades de IA en sus aplicaciones, esta actualización trae correcciones y mejoras importantes, haciendo que la integración de IA sea más fluida y robusta.",
+          "recommendedAction": "Actualizar a la versión 2.0.1 de Spring AI si se está utilizando en proyectos Spring Boot. Revisar las notas de la versión para conocer las nuevas funcionalidades y correcciones."
+        },
+        {
+          "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
+          "url": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se han descubierto 14 paquetes npm troyanizados que instalan una puerta trasera para Linux llamada RedC2 4.0, la cual utiliza IA para su comando y control (C2).",
+          "whyItMatters": "El uso de IA para el C2 hace que esta amenaza sea más sofisticada y difícil de detectar. Los paquetes troyanizados en repositorios como npm representan un riesgo directo para los desarrolladores que los utilizan, pudiendo comprometer sus sistemas y aplicaciones.",
+          "recommendedAction": "Ser extremadamente cauteloso al instalar paquetes npm, especialmente si son nuevos o no ampliamente utilizados. Verificar la reputación y la actividad de los paquetes antes de incluirlos en proyectos. Mantener actualizadas las herramientas de seguridad."
+        }
+      ]
+    },
     {
       "date": "2026-08-21",
       "generatedAt": "2026-08-21T07:42:17.268Z",
