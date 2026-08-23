@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-22T07:31:37.194Z",
+  "generatedAt": "2026-08-23T07:33:18.005Z",
   "availableDates": [
+    "2026-08-23",
     "2026-08-22",
     "2026-08-21",
     "2026-08-20",
@@ -70,20 +71,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 67,
-    "totalArticles": 795,
-    "highPriority": 422,
-    "mediumPriority": 293,
-    "lowPriority": 80,
+    "totalReports": 68,
+    "totalArticles": 802,
+    "highPriority": 425,
+    "mediumPriority": 294,
+    "lowPriority": 83,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-22",
+    "latestReportDate": "2026-08-23",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 376
+        "count": 379
       },
       {
         "name": "Seguridad",
@@ -91,7 +92,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 54
+        "count": 57
       },
       {
         "name": "Java/Spring Boot",
@@ -105,11 +106,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 586
+        "count": 589
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 70
+        "count": 74
       },
       {
         "name": "GitHub Blog",
@@ -126,12 +127,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-14",
-      "high": 1,
-      "medium": 2,
-      "low": 1
-    },
     {
       "date": "2026-08-15",
       "high": 3,
@@ -167,9 +162,84 @@
       "high": 6,
       "medium": 6,
       "low": 3
+    },
+    {
+      "date": "2026-08-23",
+      "high": 3,
+      "medium": 1,
+      "low": 3
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-23",
+      "generatedAt": "2026-08-23T07:33:17.996Z",
+      "totalArticles": 7,
+      "highPriority": 3,
+      "mediumPriority": 1,
+      "lowPriority": 3,
+      "topCategory": "Security",
+      "topSource": "Stack Overflow Blog",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 3
+        },
+        {
+          "name": "AI for Developers",
+          "count": 3
+        },
+        {
+          "name": "General Development",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "Stack Overflow Blog",
+          "count": 4
+        },
+        {
+          "name": "The Hacker News",
+          "count": 3
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
+          "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "TikTok pagará 400 millones de dólares para resolver una demanda por violar leyes de privacidad infantil en EE. UU., según el Departamento de Justicia.",
+          "whyItMatters": "Este caso subraya la importancia crítica de la privacidad de los datos, especialmente para los menores, y las severas consecuencias legales y financieras de las violaciones de datos en aplicaciones populares. Es relevante para desarrolladores que trabajan con datos de usuarios y en plataformas de gran escala.",
+          "recommendedAction": "Revisar y fortalecer las políticas de privacidad de datos, especialmente en lo que respecta a usuarios menores de edad, e implementar medidas de seguridad robustas para proteger la información sensible."
+        },
+        {
+          "title": "Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments",
+          "url": "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Investigadores descubrieron un ataque llamado 'Zombie Card' que permite revivir tarjetas Visa expiradas para pagos sin contacto al modificar la fecha de caducidad leída por terminales TPV, sin romper la criptografía.",
+          "whyItMatters": "Demuestra una nueva vulnerabilidad en los sistemas de pago sin contacto y la seguridad de las tarjetas de crédito. Para los desarrolladores, esto resalta la necesidad de considerar vectores de ataque inesperados y la seguridad en el ciclo de vida de los datos de pago.",
+          "recommendedAction": "Mantenerse informado sobre las últimas investigaciones de seguridad en sistemas de pago y considerar la seguridad de las transacciones sin contacto en aplicaciones financieras o sistemas de punto de venta."
+        },
+        {
+          "title": "StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data",
+          "url": "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una operación criminal abusa de casi 2.000 sitios WordPress comprometidos para distribuir malware, robar datos y utilizarlos como infraestructura maliciosa.",
+          "whyItMatters": "Este incidente destaca las amenazas persistentes en el ecosistema de WordPress y la explotación de sitios web vulnerables. Para los desarrolladores, es un recordatorio de la importancia de la seguridad en aplicaciones web, la gestión de dependencias y la protección contra ataques de compromiso.",
+          "recommendedAction": "Asegurar las aplicaciones web, incluyendo sitios basados en WordPress, mediante actualizaciones regulares, configuraciones seguras y monitorización activa para detectar y prevenir accesos no autorizados y la distribución de malware."
+        }
+      ]
+    },
     {
       "date": "2026-08-22",
       "generatedAt": "2026-08-22T07:31:37.184Z",
