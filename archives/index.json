@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-23T07:33:18.005Z",
+  "generatedAt": "2026-08-25T07:43:04.544Z",
   "availableDates": [
+    "2026-08-25",
     "2026-08-23",
     "2026-08-22",
     "2026-08-21",
@@ -71,13 +72,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 68,
-    "totalArticles": 802,
-    "highPriority": 425,
-    "mediumPriority": 294,
-    "lowPriority": 83,
+    "totalReports": 69,
+    "totalArticles": 814,
+    "highPriority": 430,
+    "mediumPriority": 300,
+    "lowPriority": 84,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-23",
+    "latestReportDate": "2026-08-25",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -88,33 +89,33 @@
       },
       {
         "name": "Seguridad",
-        "count": 149
+        "count": 155
       },
       {
         "name": "AI for Developers",
         "count": 57
       },
       {
-        "name": "Java/Spring Boot",
-        "count": 19
+        "name": "IA para Desarrolladores",
+        "count": 21
       },
       {
-        "name": "AI",
-        "count": 18
+        "name": "Java/Spring Boot",
+        "count": 19
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 589
+        "count": 598
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 74
+        "count": 76
       },
       {
         "name": "GitHub Blog",
-        "count": 61
+        "count": 62
       },
       {
         "name": "Spring Blog",
@@ -127,12 +128,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-15",
-      "high": 3,
-      "medium": 1,
-      "low": 0
-    },
     {
       "date": "2026-08-18",
       "high": 7,
@@ -168,9 +163,88 @@
       "high": 3,
       "medium": 1,
       "low": 3
+    },
+    {
+      "date": "2026-08-25",
+      "high": 5,
+      "medium": 6,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-25",
+      "generatedAt": "2026-08-25T07:43:04.535Z",
+      "totalArticles": 12,
+      "highPriority": 5,
+      "mediumPriority": 6,
+      "lowPriority": 1,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 6
+        },
+        {
+          "name": "IA para Desarrolladores",
+          "count": 5
+        },
+        {
+          "name": "Desarrollo Web",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 9
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 2
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
+          "url": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una vulnerabilidad crítica en Keycloak que permite a atacantes no autenticados restablecer contraseñas y tomar el control de cualquier cuenta de usuario. Red Hat y el proyecto Keycloak han lanzado parches para abordar este problema.",
+          "whyItMatters": "Keycloak es un sistema de gestión de identidad y acceso muy utilizado. Una vulnerabilidad de este tipo, con una calificación CVSS de 9.1, representa un riesgo de seguridad muy alto para las aplicaciones y los datos de los usuarios gestionados por Keycloak.",
+          "recommendedAction": "Asegúrate de aplicar los parches de seguridad para Keycloak lo antes posible en todos tus entornos. Revisa la documentación oficial de Keycloak para obtener instrucciones específicas sobre la aplicación de las actualizaciones."
+        },
+        {
+          "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
+          "url": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una vulnerabilidad crítica en Oracle WebLogic Server (CVE-2026-21962), con una puntuación CVSS de 10.0, está siendo explotada activamente. Permite a atacantes no autenticados acceder a datos críticos a través de la red.",
+          "whyItMatters": "La explotación activa de esta vulnerabilidad de máxima severidad en Oracle WebLogic representa un riesgo inmediato para la confidencialidad e integridad de los datos. Cualquier sistema que utilice este componente está expuesto.",
+          "recommendedAction": "Aplica urgentemente los parches de Oracle para la vulnerabilidad CVE-2026-21962. Considera la posibilidad de implementar medidas de seguridad adicionales, como firewalls de aplicaciones web (WAF) y segmentación de red, mientras esperas los parches."
+        },
+        {
+          "title": "The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk",
+          "url": "https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html",
+          "source": "The Hacker News",
+          "category": "IA para Desarrolladores",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un pequeño porcentaje de usuarios avanzados de IA en empresas (el 5% superior) representa el mayor riesgo de seguridad, ya que integran herramientas de IA no verificadas en operaciones comerciales críticas.",
+          "whyItMatters": "Este artículo destaca un riesgo emergente en la adopción de IA: los 'super usuarios' que, sin darse cuenta, introducen riesgos significativos al integrar herramientas de IA de forma inadecuada en flujos de trabajo críticos. Esto es directamente relevante para cualquier equipo que utilice o esté considerando usar IA.",
+          "recommendedAction": "Implementa políticas claras sobre el uso de herramientas de IA en el lugar de trabajo. Educa a los empleados sobre los riesgos de seguridad asociados con la integración de IA y considera la posibilidad de utilizar plataformas de IA empresariales que ofrezcan controles de seguridad y gestión de riesgos."
+        }
+      ]
+    },
     {
       "date": "2026-08-23",
       "generatedAt": "2026-08-23T07:33:17.996Z",
