@@ -1,0 +1,183 @@
+{
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-26T07:46:15.070Z",
+  "totalArticles": 13,
+  "summary": {
+    "highPriority": 6,
+    "mediumPriority": 5,
+    "lowPriority": 2,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 9
+      },
+      {
+        "name": "IA para Desarrolladores",
+        "count": 3
+      },
+      {
+        "name": "Spring Boot",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 11
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 1
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
+      "url": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se ha descubierto una vulnerabilidad crítica de ejecución remota de código (RCE) en Gitea, CVE-2026-60004, que está siendo explotada activamente. Un atacante con acceso de escritura a un repositorio puede ejecutar comandos arbitrarios en el sistema.",
+      "whyItMatters": "Dado que Gitea es una plataforma de alojamiento de código popular, esta vulnerabilidad de RCE activa y crítica representa un riesgo significativo para la seguridad de los repositorios y la infraestructura subyacente. La explotación activa significa que los sistemas que ejecutan Gitea pueden estar ya comprometidos.",
+      "recommendedAction": "Actualizar inmediatamente Gitea a la versión parcheada y revisar los registros de auditoría en busca de actividades sospechosas. Implementar controles de acceso estrictos a los repositorios."
+    },
+    {
+      "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
+      "url": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "La campaña Mirage2FA ha afectado a más de 4,500 empresas en EE.UU. y la UE, utilizando un kit de phishing como servicio para eludir la autenticación de dos factores (2FA) en Microsoft 365, explotando flujos de inicio de sesión legítimos.",
+      "whyItMatters": "Esta campaña demuestra una táctica sofisticada para comprometer cuentas corporativas, incluso aquellas con 2FA, lo que puede llevar a accesos no autorizados a datos sensibles y servicios empresariales. La escala del ataque y la evasión de 2FA lo hacen particularmente preocupante.",
+      "recommendedAction": "Reforzar las defensas contra phishing, educar a los usuarios sobre las tácticas de ingeniería social, y considerar soluciones de seguridad de identidad más robustas que vayan más allá de la 2FA tradicional."
+    },
+    {
+      "title": "Frontier AI: Vulnerability Management's Systemic Revolution",
+      "url": "https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html",
+      "source": "The Hacker News",
+      "category": "IA para Desarrolladores",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Se explora cómo la inteligencia artificial (IA), denominada 'Frontier AI', está revolucionando el campo de la gestión de vulnerabilidades, prometiendo un enfoque más sistémico y proactivo.",
+      "whyItMatters": "La gestión de vulnerabilidades es crucial para la seguridad del software. La integración de IA podría mejorar significativamente la detección, priorización y remediación de vulnerabilidades, permitiendo a los equipos de desarrollo ser más eficientes y seguros.",
+      "recommendedAction": "Investigar las aplicaciones de IA en la gestión de vulnerabilidades y considerar la adopción de herramientas que utilicen estas tecnologías para mejorar las prácticas de seguridad del ciclo de vida del desarrollo de software."
+    },
+    {
+      "title": "How to evaluate LLMs before production",
+      "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
+      "source": "GitHub Blog",
+      "category": "IA para Desarrolladores",
+      "priority": "high",
+      "score": 9,
+      "summary": "Este artículo del blog de GitHub comparte lecciones aprendidas sobre la evaluación de Modelos de Lenguaje Grandes (LLMs) antes de su implementación en producción, basándose en experiencias con el escaneo de secretos.",
+      "whyItMatters": "Los LLMs se están integrando cada vez más en herramientas de desarrollo. Comprender cómo evaluarlos rigurosamente antes de la producción es vital para asegurar su fiabilidad, seguridad y eficacia, especialmente en tareas críticas como el escaneo de secretos.",
+      "recommendedAction": "Revisar las metodologías y métricas de evaluación de LLMs presentadas, y aplicarlas al evaluar o implementar LLMs en sus propios proyectos o herramientas."
+    },
+    {
+      "title": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
+      "url": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Una nueva plataforma de phishing como servicio (PhaaS) utiliza agentes de voz con IA para hacerse pasar por soporte de Apple, llamando a propietarios de dispositivos robados para obtener sus contraseñas y códigos 2FA, con el objetivo de eludir el Bloqueo de Activación.",
+      "whyItMatters": "Este ataque representa una evolución preocupante del phishing, utilizando IA de voz para tácticas de ingeniería social más convincentes. La capacidad de obtener contraseñas y códigos 2FA demuestra una amenaza directa a la seguridad de las cuentas de usuario.",
+      "recommendedAction": "Educar a los usuarios sobre la suplantación de identidad y la IA en llamadas de soporte. Ser escéptico ante las llamadas no solicitadas de soporte técnico y nunca compartir información confidencial por teléfono."
+    },
+    {
+      "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
+      "url": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
+      "source": "The Hacker News",
+      "category": "IA para Desarrolladores",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se ha descubierto una vulnerabilidad en NVIDIA NemoClaw que permite a una página web maliciosa tomar el control de una instancia local de Ollama, manipular el modelo de IA e inyectar instrucciones ocultas.",
+      "whyItMatters": "Esta vulnerabilidad afecta directamente la integridad y seguridad de los modelos de IA locales utilizados en el desarrollo. La capacidad de 'envenenar' un modelo puede tener graves consecuencias para las aplicaciones que dependen de él.",
+      "recommendedAction": "Mantener actualizados los componentes de IA como NVIDIA NemoClaw y Ollama. Implementar medidas de seguridad para la ejecución de modelos de IA locales, como el aislamiento y la validación de entradas."
+    },
+    {
+      "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
+      "url": "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "WhatsApp ahora soporta múltiples passkeys por cuenta, permitiendo a los usuarios iniciar sesión de forma resistente al phishing en dispositivos iOS y Android.",
+      "whyItMatters": "Las passkeys representan un avance significativo en la seguridad de inicio de sesión, eliminando la necesidad de contraseñas y protegiendo contra ataques de phishing. El soporte en WhatsApp, una aplicación de uso masivo, mejora la seguridad para millones de usuarios.",
+      "recommendedAction": "Habilitar y utilizar passkeys en WhatsApp y otras aplicaciones compatibles para mejorar la seguridad de la cuenta. Educarse sobre el funcionamiento de las passkeys y sus beneficios."
+    },
+    {
+      "title": "This Week in Spring - August 25th, 2026",
+      "url": "https://spring.io/blog/2026/08/25/this-week-in-spring-august-25",
+      "source": "Spring Blog",
+      "category": "Spring Boot",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Un resumen semanal de las últimas noticias, actualizaciones y desarrollos en el ecosistema de Spring, incluyendo Spring Boot, Spring Framework y proyectos relacionados.",
+      "whyItMatters": "Mantenerse al día con las novedades de Spring es esencial para los desarrolladores que utilizan este framework. Las actualizaciones pueden incluir nuevas características, mejoras de rendimiento y parches de seguridad importantes.",
+      "recommendedAction": "Revisar regularmente las publicaciones de 'This Week in Spring' para estar al tanto de las últimas novedades y considerar la adopción de las actualizaciones relevantes para sus proyectos."
+    },
+    {
+      "title": "24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages",
+      "url": "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Se han descubierto 24 paquetes npm que abusan de los espejos de unpkg para alojar páginas falsas de CAPTCHA de Cloudflare, utilizándolos como infraestructura de phishing.",
+      "whyItMatters": "Este incidente destaca cómo los actores maliciosos pueden abusar de plataformas de desarrollo populares como npm para fines maliciosos. Aunque los paquetes en sí no instalan malware, sirven como base para ataques de phishing.",
+      "recommendedAction": "Ser cauteloso al utilizar paquetes npm de fuentes desconocidas. Revisar la actividad de las dependencias en busca de patrones sospechosos y considerar herramientas de análisis de seguridad para npm."
+    },
+    {
+      "title": "E4del and PINHOLE RATs Turn FTP Banners Into Dead Drops for Malware Commands",
+      "url": "https://thehackernews.com/2026/08/e4del-and-pinhole-rats-turn-ftp-banners.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Dos nuevos troyanos de acceso remoto (RATs), E4del y PINHOLE, están siendo distribuidos utilizando banners de FTP como 'dead drops' para recibir comandos de malware.",
+      "whyItMatters": "Los atacantes buscan constantemente formas innovadoras de ocultar su infraestructura de comando y control. El uso de banners de FTP como mecanismo de comunicación cifrado representa una técnica sigilosa que puede ser difícil de detectar.",
+      "recommendedAction": "Monitorear el tráfico de red en busca de patrones inusuales en los banners de FTP. Asegurar la configuración de los servidores FTP y revisar las políticas de seguridad relacionadas con servicios heredados."
+    },
+    {
+      "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
+      "url": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "low",
+      "score": 5,
+      "summary": "El Departamento del Tesoro de EE.UU. ha impuesto sanciones a actores de hacking vinculados a Irán, responsables de brechas en infraestructuras críticas.",
+      "whyItMatters": "Aunque se trata de una noticia geopolítica y de ciberseguridad a nivel estatal, las acciones de actores patrocinados por estados pueden tener implicaciones indirectas para la seguridad global y la estabilidad de los sistemas críticos.",
+      "recommendedAction": "Estar al tanto de las amenazas persistentes avanzadas (APTs) y las tensiones geopolíticas que pueden influir en el panorama de las ciberamenazas."
+    },
+    {
+      "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
+      "url": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Los atacantes están explotando dos vulnerabilidades críticas (CVE-2026-61979) en el plugin miniOrange SAML 2.0 SSO para WordPress, que permiten la elusión de autenticación y la escalada de privilegios.",
+      "whyItMatters": "Estas vulnerabilidades pueden permitir a un atacante obtener acceso de administrador a sitios de WordPress, lo que representa un riesgo grave para la integridad y disponibilidad de los sitios web. La explotación de fallos en plugins de autenticación es una táctica común.",
+      "recommendedAction": "Actualizar inmediatamente el plugin miniOrange SAML 2.0 SSO a la versión parcheada. Auditar los accesos de administrador y revisar los registros de autenticación en busca de actividad sospechosa."
+    },
+    {
+      "title": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
+      "url": "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "low",
+      "score": 4,
+      "summary": "Se ha corregido una vulnerabilidad de alta severidad en el software Marimo Notebook que permitía la ejecución de comandos del Protocolo de Contexto de Modelo (MCP) antes de que las celdas se ejecutaran en modo de edición.",
+      "whyItMatters": "Aunque esta vulnerabilidad parece afectar a un entorno específico de notebooks, subraya la importancia de la seguridad en todas las herramientas de desarrollo y análisis de datos, donde la ejecución de código arbitrario puede ser un riesgo.",
+      "recommendedAction": "Si utiliza Marimo Notebook, asegúrese de que esté actualizado a la versión parcheada. Revise las prácticas de seguridad para herramientas de notebooks utilizadas en su flujo de trabajo."
+    }
+  ]
+}

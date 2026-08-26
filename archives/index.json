@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-25T07:43:04.544Z",
+  "generatedAt": "2026-08-26T07:46:15.080Z",
   "availableDates": [
+    "2026-08-26",
     "2026-08-25",
     "2026-08-23",
     "2026-08-22",
@@ -72,13 +73,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 69,
-    "totalArticles": 814,
-    "highPriority": 430,
-    "mediumPriority": 300,
-    "lowPriority": 84,
+    "totalReports": 70,
+    "totalArticles": 827,
+    "highPriority": 436,
+    "mediumPriority": 305,
+    "lowPriority": 86,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-25",
+    "latestReportDate": "2026-08-26",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -89,7 +90,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 155
+        "count": 164
       },
       {
         "name": "AI for Developers",
@@ -97,7 +98,7 @@
       },
       {
         "name": "IA para Desarrolladores",
-        "count": 21
+        "count": 24
       },
       {
         "name": "Java/Spring Boot",
@@ -107,7 +108,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 598
+        "count": 609
       },
       {
         "name": "Stack Overflow Blog",
@@ -115,11 +116,11 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 62
+        "count": 63
       },
       {
         "name": "Spring Blog",
-        "count": 54
+        "count": 55
       },
       {
         "name": "Krebs on Security",
@@ -128,12 +129,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-18",
-      "high": 7,
-      "medium": 6,
-      "low": 2
-    },
     {
       "date": "2026-08-19",
       "high": 9,
@@ -169,9 +164,88 @@
       "high": 5,
       "medium": 6,
       "low": 1
+    },
+    {
+      "date": "2026-08-26",
+      "high": 6,
+      "medium": 5,
+      "low": 2
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-26",
+      "generatedAt": "2026-08-26T07:46:15.070Z",
+      "totalArticles": 13,
+      "highPriority": 6,
+      "mediumPriority": 5,
+      "lowPriority": 2,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 9
+        },
+        {
+          "name": "IA para Desarrolladores",
+          "count": 3
+        },
+        {
+          "name": "Spring Boot",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 11
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
+          "url": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una vulnerabilidad crítica de ejecución remota de código (RCE) en Gitea, CVE-2026-60004, que está siendo explotada activamente. Un atacante con acceso de escritura a un repositorio puede ejecutar comandos arbitrarios en el sistema.",
+          "whyItMatters": "Dado que Gitea es una plataforma de alojamiento de código popular, esta vulnerabilidad de RCE activa y crítica representa un riesgo significativo para la seguridad de los repositorios y la infraestructura subyacente. La explotación activa significa que los sistemas que ejecutan Gitea pueden estar ya comprometidos.",
+          "recommendedAction": "Actualizar inmediatamente Gitea a la versión parcheada y revisar los registros de auditoría en busca de actividades sospechosas. Implementar controles de acceso estrictos a los repositorios."
+        },
+        {
+          "title": "How to evaluate LLMs before production",
+          "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/",
+          "source": "GitHub Blog",
+          "category": "IA para Desarrolladores",
+          "priority": "high",
+          "score": 9,
+          "summary": "Este artículo del blog de GitHub comparte lecciones aprendidas sobre la evaluación de Modelos de Lenguaje Grandes (LLMs) antes de su implementación en producción, basándose en experiencias con el escaneo de secretos.",
+          "whyItMatters": "Los LLMs se están integrando cada vez más en herramientas de desarrollo. Comprender cómo evaluarlos rigurosamente antes de la producción es vital para asegurar su fiabilidad, seguridad y eficacia, especialmente en tareas críticas como el escaneo de secretos.",
+          "recommendedAction": "Revisar las metodologías y métricas de evaluación de LLMs presentadas, y aplicarlas al evaluar o implementar LLMs en sus propios proyectos o herramientas."
+        },
+        {
+          "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
+          "url": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
+          "source": "The Hacker News",
+          "category": "IA para Desarrolladores",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una vulnerabilidad en NVIDIA NemoClaw que permite a una página web maliciosa tomar el control de una instancia local de Ollama, manipular el modelo de IA e inyectar instrucciones ocultas.",
+          "whyItMatters": "Esta vulnerabilidad afecta directamente la integridad y seguridad de los modelos de IA locales utilizados en el desarrollo. La capacidad de 'envenenar' un modelo puede tener graves consecuencias para las aplicaciones que dependen de él.",
+          "recommendedAction": "Mantener actualizados los componentes de IA como NVIDIA NemoClaw y Ollama. Implementar medidas de seguridad para la ejecución de modelos de IA locales, como el aislamiento y la validación de entradas."
+        }
+      ]
+    },
     {
       "date": "2026-08-25",
       "generatedAt": "2026-08-25T07:43:04.535Z",
