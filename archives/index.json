@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-26T07:46:15.080Z",
+  "generatedAt": "2026-08-27T18:06:58.482Z",
   "availableDates": [
+    "2026-08-27",
     "2026-08-26",
     "2026-08-25",
     "2026-08-23",
@@ -73,13 +74,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 70,
-    "totalArticles": 827,
-    "highPriority": 436,
-    "mediumPriority": 305,
+    "totalReports": 71,
+    "totalArticles": 842,
+    "highPriority": 446,
+    "mediumPriority": 310,
     "lowPriority": 86,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-26",
+    "latestReportDate": "2026-08-27",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -90,7 +91,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 164
+        "count": 176
       },
       {
         "name": "AI for Developers",
@@ -108,7 +109,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 609
+        "count": 620
       },
       {
         "name": "Stack Overflow Blog",
@@ -116,25 +117,19 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 63
+        "count": 65
       },
       {
         "name": "Spring Blog",
-        "count": 55
+        "count": 56
       },
       {
         "name": "Krebs on Security",
-        "count": 16
+        "count": 17
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-19",
-      "high": 9,
-      "medium": 6,
-      "low": 0
-    },
     {
       "date": "2026-08-20",
       "high": 6,
@@ -170,9 +165,92 @@
       "high": 6,
       "medium": 5,
       "low": 2
+    },
+    {
+      "date": "2026-08-27",
+      "high": 10,
+      "medium": 5,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-27",
+      "generatedAt": "2026-08-27T18:06:58.471Z",
+      "totalArticles": 15,
+      "highPriority": 10,
+      "mediumPriority": 5,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 12
+        },
+        {
+          "name": "Herramientas de Desarrollo",
+          "count": 2
+        },
+        {
+          "name": "Java / Spring Boot",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 11
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 2
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
+          "url": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Investigadores de ciberseguridad han descubierto una vulnerabilidad en Amazon Kiro, un IDE impulsado por IA, que permite la exfiltración de datos sensibles mediante inyección de prompts y Kiro Powers.",
+          "whyItMatters": "Esta vulnerabilidad afecta a las herramientas de desarrollo con IA, un área de interés creciente para los desarrolladores. La inyección de prompts es una técnica de ataque que puede comprometer la seguridad de los datos.",
+          "recommendedAction": "Mantente informado sobre las actualizaciones de seguridad para IDEs con IA y revisa las prácticas de seguridad para la entrada de prompts en herramientas de desarrollo."
+        },
+        {
+          "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
+          "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Instrucciones sobre cómo preparar las operaciones de seguridad para hacer frente a ataques cada vez más sofisticados impulsados por IA, que superan las capacidades de los procesos tradicionales.",
+          "whyItMatters": "La IA está cambiando la dinámica de los ciberataques, permitiendo a los atacantes descubrir vulnerabilidades y generar exploits más rápido. Es fundamental para los desarrolladores entender cómo la IA impacta la seguridad.",
+          "recommendedAction": "Invierte tiempo en aprender sobre las defensas contra ataques impulsados por IA y cómo integrar la IA en las estrategias de seguridad de tus aplicaciones."
+        },
+        {
+          "title": "What the Data Says About AI in Security Operations in 2026",
+          "url": "https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un informe revela que el 40% de los equipos de seguridad utilizan IA diariamente, y el 56% la está probando, indicando la rápida adopción de IA en operaciones de ciberseguridad.",
+          "whyItMatters": "Muestra la creciente integración de la IA en el campo de la seguridad, lo que significa que los desarrolladores deben estar familiarizados con las herramientas y conceptos de IA tanto para la defensa como para entender las posibles amenazas.",
+          "recommendedAction": "Explora cómo la IA está transformando la seguridad y considera cómo puedes utilizarla o defenderte de ella en tus proyectos."
+        }
+      ]
+    },
     {
       "date": "2026-08-26",
       "generatedAt": "2026-08-26T07:46:15.070Z",
