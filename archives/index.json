@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-27T18:06:58.482Z",
+  "generatedAt": "2026-08-28T19:17:00.077Z",
   "availableDates": [
+    "2026-08-28",
     "2026-08-27",
     "2026-08-26",
     "2026-08-25",
@@ -74,20 +75,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 71,
-    "totalArticles": 842,
-    "highPriority": 446,
-    "mediumPriority": 310,
+    "totalReports": 72,
+    "totalArticles": 857,
+    "highPriority": 455,
+    "mediumPriority": 316,
     "lowPriority": 86,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-27",
+    "latestReportDate": "2026-08-28",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 379
+        "count": 390
       },
       {
         "name": "Seguridad",
@@ -95,7 +96,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 57
+        "count": 58
       },
       {
         "name": "IA para Desarrolladores",
@@ -103,13 +104,13 @@
       },
       {
         "name": "Java/Spring Boot",
-        "count": 19
+        "count": 20
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 620
+        "count": 633
       },
       {
         "name": "Stack Overflow Blog",
@@ -121,7 +122,7 @@
       },
       {
         "name": "Spring Blog",
-        "count": 56
+        "count": 57
       },
       {
         "name": "Krebs on Security",
@@ -130,12 +131,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-20",
-      "high": 6,
-      "medium": 3,
-      "low": 7
-    },
     {
       "date": "2026-08-21",
       "high": 10,
@@ -171,9 +166,96 @@
       "high": 10,
       "medium": 5,
       "low": 0
+    },
+    {
+      "date": "2026-08-28",
+      "high": 9,
+      "medium": 6,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-28",
+      "generatedAt": "2026-08-28T19:17:00.067Z",
+      "totalArticles": 15,
+      "highPriority": 9,
+      "mediumPriority": 6,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 11
+        },
+        {
+          "name": "AI for Developers",
+          "count": 1
+        },
+        {
+          "name": "Java/Spring Boot",
+          "count": 1
+        },
+        {
+          "name": "Angular",
+          "count": 1
+        },
+        {
+          "name": "Security/AI for Developers",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 13
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "Angular Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL",
+          "url": "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "ServiceNow ha lanzado parches para cuatro vulnerabilidades de seguridad en su Plataforma de IA, tres de las cuales tienen una puntuación CVSS de 10.0 y permiten la ejecución de código y SQL por atacantes no autenticados.",
+          "whyItMatters": "Las vulnerabilidades con puntuación CVSS 10.0 son las más críticas posibles y representan un riesgo extremo. Que afecten a la Plataforma de IA de ServiceNow, una herramienta empresarial importante, las hace de máxima prioridad para la corrección.",
+          "recommendedAction": "Aplicar las actualizaciones de seguridad de ServiceNow de inmediato, especialmente si se utiliza la Plataforma de IA. Evaluar el impacto potencial de estas vulnerabilidades y priorizar la mitigación."
+        },
+        {
+          "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
+          "url": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Actores maliciosos están explotando una vulnerabilidad de seguridad recientemente parcheada en PaperCut NG y MF para ejecutar código arbitrario en instancias susceptibles. La compañía ha lanzado un nuevo parche de emergencia con endurecimiento adicional.",
+          "whyItMatters": "Esta vulnerabilidad permite a un atacante no autenticado obtener control remoto sobre la configuración de PaperCut, lo que podría usarse para ejecutar código Java arbitrario dentro de la aplicación, representando un riesgo significativo para la seguridad.",
+          "recommendedAction": "Mantener actualizado PaperCut NG y MF a la última versión parcheada y monitorizar la red en busca de actividades sospechosas. Considerar la implementación de controles de acceso más estrictos y la segmentación de la red."
+        },
+        {
+          "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
+          "url": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una falla crítica en ownCloud (CVE-2023-49105) ha sido explotada para robar registros nucleares de un organismo de investigación filipino. La CISA la ha añadido a su catálogo de Vulnerabilidades Explotadas Conocidas.",
+          "whyItMatters": "Esta vulnerabilidad, con una puntuación CVSS de 9.8, demuestra el riesgo de seguridad asociado con las plataformas de colaboración y almacenamiento de archivos como ownCloud. El hecho de que haya sido utilizada en un ataque real contra una entidad sensible subraya la urgencia de aplicar los parches.",
+          "recommendedAction": "Actualizar ownCloud a la última versión disponible. Realizar una auditoría de seguridad para detectar cualquier compromiso y revisar los registros en busca de accesos o transferencias de datos inusuales."
+        }
+      ]
+    },
     {
       "date": "2026-08-27",
       "generatedAt": "2026-08-27T18:06:58.471Z",
