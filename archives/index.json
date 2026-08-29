@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-28T19:17:00.077Z",
+  "generatedAt": "2026-08-29T12:58:35.291Z",
   "availableDates": [
+    "2026-08-29",
     "2026-08-28",
     "2026-08-27",
     "2026-08-26",
@@ -75,13 +76,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 72,
-    "totalArticles": 857,
-    "highPriority": 455,
-    "mediumPriority": 316,
-    "lowPriority": 86,
+    "totalReports": 73,
+    "totalArticles": 868,
+    "highPriority": 459,
+    "mediumPriority": 322,
+    "lowPriority": 87,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-28",
+    "latestReportDate": "2026-08-29",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -92,7 +93,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 176
+        "count": 186
       },
       {
         "name": "AI for Developers",
@@ -100,7 +101,7 @@
       },
       {
         "name": "IA para Desarrolladores",
-        "count": 24
+        "count": 25
       },
       {
         "name": "Java/Spring Boot",
@@ -110,11 +111,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 633
+        "count": 643
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 76
+        "count": 77
       },
       {
         "name": "GitHub Blog",
@@ -131,12 +132,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-21",
-      "high": 10,
-      "medium": 5,
-      "low": 0
-    },
     {
       "date": "2026-08-22",
       "high": 6,
@@ -172,9 +167,80 @@
       "high": 9,
       "medium": 6,
       "low": 0
+    },
+    {
+      "date": "2026-08-29",
+      "high": 4,
+      "medium": 6,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-29",
+      "generatedAt": "2026-08-29T12:58:35.281Z",
+      "totalArticles": 11,
+      "highPriority": 4,
+      "mediumPriority": 6,
+      "lowPriority": 1,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 10
+        },
+        {
+          "name": "IA para Desarrolladores",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 10
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
+          "url": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una falla crítica en el módulo Cosmos EVM que permitió a los atacantes robar fondos de seis blockchains. Cosmos Labs estaba al tanto de la vulnerabilidad antes de que fuera explotada.",
+          "whyItMatters": "Esta noticia es crucial para desarrolladores que trabajan con Cosmos o tecnologías blockchain similares. Demuestra la importancia de parches rápidos y la divulgación responsable de vulnerabilidades para proteger los activos digitales.",
+          "recommendedAction": "Mantente informado sobre las actualizaciones de seguridad de Cosmos EVM. Si utilizas esta tecnología, asegúrate de actualizar a las versiones no vulnerables y revisa las auditorías de seguridad de tus contratos inteligentes."
+        },
+        {
+          "title": "Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine",
+          "url": "https://thehackernews.com/2026/08/imagine-soc-without-queue-from-alert.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se propone un nuevo modelo para los Centros de Operaciones de Seguridad (SOC) que utiliza IA para pasar de un enfoque basado en colas de alertas a un motor de hipótesis, resolviendo el problema del backlog de alertas.",
+          "whyItMatters": "Los desarrolladores, especialmente aquellos involucrados en seguridad o que trabajan en equipos que manejan grandes volúmenes de logs, pueden beneficiarse de entender cómo la IA puede optimizar la detección y respuesta a incidentes, mejorando la eficiencia y reduciendo el tiempo de inactividad.",
+          "recommendedAction": "Investiga cómo las herramientas de IA se están integrando en los flujos de trabajo de seguridad. Considera cómo estos enfoques podrían aplicarse a la gestión de logs y alertas en tus propios proyectos para mejorar la detección de problemas."
+        },
+        {
+          "title": "GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address",
+          "url": "https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 8,
+          "summary": "Se ha descubierto un nuevo malware llamado GoCaracal que utiliza contratos inteligentes de Ethereum para obtener direcciones de comando y control (C2) de respaldo, lo que dificulta su interrupción.",
+          "whyItMatters": "Este artículo destaca una técnica de evasión innovadora utilizada por el malware, integrando blockchain. Es relevante para entender las amenazas avanzadas y cómo los atacantes pueden usar tecnologías como Ethereum para sus fines maliciosos.",
+          "recommendedAction": "Mantente al tanto de las tácticas de evasión emergentes en el malware. Si trabajas con Ethereum o contratos inteligentes, considera las implicaciones de seguridad y cómo podrían ser abusados."
+        }
+      ]
+    },
     {
       "date": "2026-08-28",
       "generatedAt": "2026-08-28T19:17:00.067Z",

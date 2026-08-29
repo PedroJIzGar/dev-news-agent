@@ -1,0 +1,153 @@
+{
+  "date": "2026-08-29",
+  "generatedAt": "2026-08-29T12:58:35.281Z",
+  "totalArticles": 11,
+  "summary": {
+    "highPriority": 4,
+    "mediumPriority": 6,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 10
+      },
+      {
+        "name": "IA para Desarrolladores",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 10
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
+      "url": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se ha descubierto una falla crítica en el módulo Cosmos EVM que permitió a los atacantes robar fondos de seis blockchains. Cosmos Labs estaba al tanto de la vulnerabilidad antes de que fuera explotada.",
+      "whyItMatters": "Esta noticia es crucial para desarrolladores que trabajan con Cosmos o tecnologías blockchain similares. Demuestra la importancia de parches rápidos y la divulgación responsable de vulnerabilidades para proteger los activos digitales.",
+      "recommendedAction": "Mantente informado sobre las actualizaciones de seguridad de Cosmos EVM. Si utilizas esta tecnología, asegúrate de actualizar a las versiones no vulnerables y revisa las auditorías de seguridad de tus contratos inteligentes."
+    },
+    {
+      "title": "Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine",
+      "url": "https://thehackernews.com/2026/08/imagine-soc-without-queue-from-alert.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se propone un nuevo modelo para los Centros de Operaciones de Seguridad (SOC) que utiliza IA para pasar de un enfoque basado en colas de alertas a un motor de hipótesis, resolviendo el problema del backlog de alertas.",
+      "whyItMatters": "Los desarrolladores, especialmente aquellos involucrados en seguridad o que trabajan en equipos que manejan grandes volúmenes de logs, pueden beneficiarse de entender cómo la IA puede optimizar la detección y respuesta a incidentes, mejorando la eficiencia y reduciendo el tiempo de inactividad.",
+      "recommendedAction": "Investiga cómo las herramientas de IA se están integrando en los flujos de trabajo de seguridad. Considera cómo estos enfoques podrían aplicarse a la gestión de logs y alertas en tus propios proyectos para mejorar la detección de problemas."
+    },
+    {
+      "title": "GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address",
+      "url": "https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Se ha descubierto un nuevo malware llamado GoCaracal que utiliza contratos inteligentes de Ethereum para obtener direcciones de comando y control (C2) de respaldo, lo que dificulta su interrupción.",
+      "whyItMatters": "Este artículo destaca una técnica de evasión innovadora utilizada por el malware, integrando blockchain. Es relevante para entender las amenazas avanzadas y cómo los atacantes pueden usar tecnologías como Ethereum para sus fines maliciosos.",
+      "recommendedAction": "Mantente al tanto de las tácticas de evasión emergentes en el malware. Si trabajas con Ethereum o contratos inteligentes, considera las implicaciones de seguridad y cómo podrían ser abusados."
+    },
+    {
+      "title": "New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access",
+      "url": "https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Una nueva vulnerabilidad llamada GPUThor permite a los atacantes explotar fallos de hardware en GPUs NVIDIA con memoria GDDR6, evadiendo las protecciones ECC y logrando acceso root al sistema.",
+      "whyItMatters": "Este descubrimiento es importante para cualquiera que trabaje con hardware de alto rendimiento, especialmente en entornos donde la seguridad es crítica. Demuestra que incluso las protecciones de hardware pueden ser vulnerables.",
+      "recommendedAction": "Revisa las configuraciones de seguridad de tus sistemas que utilizan GPUs NVIDIA afectadas. Mantente informado sobre los parches de firmware o recomendaciones de seguridad del fabricante."
+    },
+    {
+      "title": "When you keep AI Lean, you keep AI correct ",
+      "url": "https://stackoverflow.blog/2026/08/28/when-you-keep-ai-lean-you-keep-ai-correct/",
+      "source": "Stack Overflow Blog",
+      "category": "IA para Desarrolladores",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Una conversación con Leo de Moura sobre el uso del lenguaje Lean para probar la corrección en agentes de IA, cómo el razonamiento automatizado complementa los modelos de IA probabilísticos y el uso de IA para la optimización continua de código.",
+      "whyItMatters": "Ofrece una perspectiva sobre cómo asegurar la fiabilidad y corrección de los sistemas de IA, un tema cada vez más relevante para los desarrolladores que integran o desarrollan soluciones basadas en IA.",
+      "recommendedAction": "Explora el lenguaje Lean y sus aplicaciones en la verificación formal de sistemas de IA. Considera cómo estos enfoques podrían mejorar la robustez del código que desarrollas, especialmente en aplicaciones críticas."
+    },
+    {
+      "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
+      "url": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Una nueva herramienta de phishing llamada NovaCookies utiliza notificaciones legítimas de DocuSign para engañar a los usuarios y robar sus sesiones activas de Microsoft 365.",
+      "whyItMatters": "Destaca una táctica de phishing sofisticada que aprovecha la confianza en servicios legítimos. Es importante para los desarrolladores ser conscientes de estas amenazas para protegerse a sí mismos y a sus organizaciones.",
+      "recommendedAction": "Educa a tu equipo sobre estas técnicas de phishing. Implementa autenticación multifactor (MFA) y sé escéptico ante solicitudes de inicio de sesión inesperadas, incluso si parecen provenir de fuentes confiables."
+    },
+    {
+      "title": "Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers",
+      "url": "https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Android 17 incorporará soporte para Encrypted Client Hello (ECH) a nivel de sistema operativo, ocultando las visitas a sitios web de los proveedores de red y mejorando la privacidad.",
+      "whyItMatters": "Los desarrolladores de aplicaciones Android o aquellos interesados en la privacidad de red encontrarán útil esta noticia. Muestra la evolución de las protecciones de privacidad en las plataformas móviles.",
+      "recommendedAction": "Mantente al tanto de las nuevas características de seguridad en Android. Si desarrollas aplicaciones que manejan tráfico de red, considera cómo ECH podría afectar o mejorar la privacidad de tus usuarios."
+    },
+    {
+      "title": "CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing",
+      "url": "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Una simulación de ataque de CISA demostró que una organización de infraestructura crítica fue completamente comprometida sin ser detectada, mientras que otra tuvo resultados defensivos diferentes.",
+      "whyItMatters": "Este informe resalta las deficiencias en la detección de intrusiones en infraestructuras críticas, un tema de gran importancia para la seguridad nacional y empresarial. Los desarrolladores pueden aprender sobre la importancia de las pruebas de penetración continuas.",
+      "recommendedAction": "Considera la importancia de las pruebas de seguridad regulares y la mejora continua de las defensas. Asegúrate de que tus aplicaciones y sistemas tengan mecanismos de detección y registro adecuados."
+    },
+    {
+      "title": "FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations",
+      "url": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "El FBI ha desmantelado infraestructura de hacking vinculada a actores chinos (QTFY) que se utilizaba para robar datos de organizaciones estadounidenses.",
+      "whyItMatters": "Informa sobre acciones de ciberseguridad a nivel nacional y las amenazas persistentes de actores patrocinados por estados, lo cual es relevante para entender el panorama de amenazas global.",
+      "recommendedAction": "Mantente informado sobre las amenazas cibernéticas patrocinadas por estados y sigue las mejores prácticas de seguridad para proteger tus datos y sistemas."
+    },
+    {
+      "title": "Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler",
+      "url": "https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Investigadores han descubierto nuevas herramientas y malware asociados con Nimbus Manticore, un grupo de hacking iraní patrocinado por el estado, incluyendo una puerta trasera y un túnel SSH.",
+      "whyItMatters": "Detalla las capacidades y la evolución de un grupo APT específico. Comprender estas amenazas avanzadas ayuda a los desarrolladores a anticipar y defenderse contra ataques dirigidos.",
+      "recommendedAction": "Revisa las defensas contra el acceso remoto no autorizado y la exfiltración de datos. Mantente al día sobre las actividades de grupos APT como Nimbus Manticore."
+    },
+    {
+      "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
+      "url": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "low",
+      "score": 5,
+      "summary": "El gobierno de Berlín ha decidido no pagar el rescate exigido por hackers que robaron datos de la red estatal de la ciudad, a pesar de la confirmación de más filtraciones de datos.",
+      "whyItMatters": "Este artículo discute la postura de una ciudad importante ante un ciberataque de extorsión. Aunque no es directamente técnico, subraya las complejidades y decisiones estratégicas en la gestión de incidentes de seguridad a gran escala.",
+      "recommendedAction": "Considera la importancia de tener un plan de respuesta a incidentes bien definido, incluyendo políticas sobre el pago de rescates, que se alinee con las regulaciones y mejores prácticas."
+    }
+  ]
+}
