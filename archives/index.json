@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-29T12:58:35.291Z",
+  "generatedAt": "2026-08-30T12:37:50.835Z",
   "availableDates": [
+    "2026-08-30",
     "2026-08-29",
     "2026-08-28",
     "2026-08-27",
@@ -76,13 +77,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 73,
-    "totalArticles": 868,
-    "highPriority": 459,
-    "mediumPriority": 322,
+    "totalReports": 74,
+    "totalArticles": 870,
+    "highPriority": 460,
+    "mediumPriority": 323,
     "lowPriority": 87,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-29",
+    "latestReportDate": "2026-08-30",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -93,7 +94,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 186
+        "count": 188
       },
       {
         "name": "AI for Developers",
@@ -111,7 +112,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 643
+        "count": 645
       },
       {
         "name": "Stack Overflow Blog",
@@ -132,12 +133,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-22",
-      "high": 6,
-      "medium": 6,
-      "low": 3
-    },
     {
       "date": "2026-08-23",
       "high": 3,
@@ -173,9 +168,61 @@
       "high": 4,
       "medium": 6,
       "low": 1
+    },
+    {
+      "date": "2026-08-30",
+      "high": 1,
+      "medium": 1,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-30",
+      "generatedAt": "2026-08-30T12:37:50.825Z",
+      "totalArticles": 2,
+      "highPriority": 1,
+      "mediumPriority": 1,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 2
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 2
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
+          "url": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una nueva variante de malware llamada TerminalFix que utiliza CAPTCHAs falsos de Cloudflare para desplegar una puerta trasera. En lugar de dirigir a los usuarios al cuadro de diálogo 'Ejecutar' de Windows como las variantes anteriores, TerminalFix dirige a los usuarios a la Terminal de Windows o PowerShell, lo que aumenta la probabilidad de que se ejecuten comandos maliciosos complejos.",
+          "whyItMatters": "Esta noticia es crucial porque detalla una táctica de ingeniería social avanzada que explota la confianza del usuario en los sistemas de seguridad como Cloudflare y las herramientas de línea de comandos nativas de Windows. Comprender cómo los atacantes manipulan estos elementos ayuda a los desarrolladores a crear aplicaciones más seguras y a educar mejor a los usuarios.",
+          "recommendedAction": "Revisar las prácticas de seguridad en el desarrollo de aplicaciones que interactúan con el navegador o la línea de comandos. Estar al tanto de las nuevas técnicas de phishing y malware que involucran la ejecución de comandos."
+        },
+        {
+          "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
+          "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "medium",
+          "score": 7,
+          "summary": "Se han identificado cinco vulnerabilidades críticas en plugins y temas populares de WordPress, incluyendo WPMU DEV Dashboard, Avada, TranslatePress, Pods y GiveWP. Estas fallas, algunas con puntuaciones CVSS de hasta 9.8, podrían permitir la elusión de autenticación, la toma de control de cuentas y la ejecución remota de código (RCE).",
+          "whyItMatters": "Aunque se enfoca en WordPress, las lecciones sobre la importancia de la seguridad en plugins y temas, la gestión de dependencias y la rápida aplicación de parches son universales para cualquier desarrollador que trabaje con ecosistemas de software. Las vulnerabilidades en componentes de terceros son una fuente común de brechas de seguridad.",
+          "recommendedAction": "Mantener actualizados todos los plugins y temas de WordPress. Si se utilizan alguno de los mencionados, aplicar los parches inmediatamente. Considerar la seguridad de las dependencias de terceros en todos los proyectos de desarrollo."
+        }
+      ]
+    },
     {
       "date": "2026-08-29",
       "generatedAt": "2026-08-29T12:58:35.281Z",
