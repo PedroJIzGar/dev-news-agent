@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-30T12:37:50.835Z",
+  "generatedAt": "2026-08-31T14:52:28.627Z",
   "availableDates": [
+    "2026-08-31",
     "2026-08-30",
     "2026-08-29",
     "2026-08-28",
@@ -77,13 +78,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 74,
-    "totalArticles": 870,
-    "highPriority": 460,
-    "mediumPriority": 323,
+    "totalReports": 75,
+    "totalArticles": 876,
+    "highPriority": 464,
+    "mediumPriority": 325,
     "lowPriority": 87,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-30",
+    "latestReportDate": "2026-08-31",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -94,7 +95,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 188
+        "count": 194
       },
       {
         "name": "AI for Developers",
@@ -112,7 +113,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 645
+        "count": 651
       },
       {
         "name": "Stack Overflow Blog",
@@ -133,12 +134,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-23",
-      "high": 3,
-      "medium": 1,
-      "low": 3
-    },
     {
       "date": "2026-08-25",
       "high": 5,
@@ -174,9 +169,72 @@
       "high": 1,
       "medium": 1,
       "low": 0
+    },
+    {
+      "date": "2026-08-31",
+      "high": 4,
+      "medium": 2,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-08-31",
+      "generatedAt": "2026-08-31T14:52:28.617Z",
+      "totalArticles": 6,
+      "highPriority": 4,
+      "mediumPriority": 2,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 6
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 6
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
+          "url": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Anthropic introduce nuevas API de cumplimiento para su herramienta Claude Code, permitiendo a los equipos de seguridad una mayor visibilidad sobre la actividad del agente. Sin embargo, esto también expone un problema mayor: los registros de actividad por sí solos no pueden determinar si el acceso de un agente es legítimo.",
+          "whyItMatters": "Este artículo es crucial porque aborda la seguridad de las herramientas de IA que interactúan con el entorno de desarrollo. Comprender y controlar qué acciones realizan estas IAs es fundamental para prevenir accesos no autorizados o maliciosos, especialmente cuando usan credenciales del desarrollador.",
+          "recommendedAction": "Revisa las capacidades de la nueva API de cumplimiento de Claude y evalúa cómo podrías integrarla para monitorizar y auditar la actividad de IAs en tu entorno. Considera implementar políticas de acceso y monitoreo más estrictas para herramientas de IA que tengan acceso a tus sistemas."
+        },
+        {
+          "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
+          "url": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Operadores del ransomware Aurora han sido detectados utilizando el asistente de codificación con IA de SpaceX, Cursor, para infiltrarse en redes de 10 objetivos. Los hallazgos provienen de análisis de infraestructura expuesta asociada con este grupo de ciberdelincuencia de habla rusa.",
+          "whyItMatters": "Demuestra cómo las herramientas de IA, que están diseñadas para ser útiles, pueden ser mal utilizadas por actores maliciosos para facilitar ataques de ransomware. Es vital estar al tanto de estas tácticas emergentes para fortalecer las defensas.",
+          "recommendedAction": "Mantente informado sobre las nuevas formas en que las herramientas de IA son abusadas en ciberataques. Asegúrate de que tus defensas de seguridad estén actualizadas y considera cómo las herramientas de desarrollo con IA podrían ser un vector de ataque si no se gestionan adecuadamente."
+        },
+        {
+          "title": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
+          "url": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 8,
+          "summary": "El backdoor ValleyRAT se está distribuyendo disfrazado de adware chino firmado, engañando a los usuarios para que lo añadan a las exclusiones del antivirus. El actor de amenazas conocido como Silver Fox utiliza este método para que el malware se ejecute bajo un proceso confiable.",
+          "whyItMatters": "Este es un recordatorio de que la firma de software no garantiza la seguridad y que las tácticas de ingeniería social siguen siendo efectivas. Los desarrolladores deben ser cautelosos con el software que instalan y las excepciones que configuran en sus herramientas de seguridad.",
+          "recommendedAction": "Sé extremadamente cauto al instalar software de terceros, incluso si parece legítimo o está firmado. Revisa las configuraciones de exclusión de tu antivirus y de otras herramientas de seguridad para asegurarte de que no estás permitiendo inadvertidamente software malicioso."
+        }
+      ]
+    },
     {
       "date": "2026-08-30",
       "generatedAt": "2026-08-30T12:37:50.825Z",

@@ -1,0 +1,90 @@
+{
+  "date": "2026-08-31",
+  "generatedAt": "2026-08-31T14:52:28.617Z",
+  "totalArticles": 6,
+  "summary": {
+    "highPriority": 4,
+    "mediumPriority": 2,
+    "lowPriority": 0,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 6
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 6
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
+      "url": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Anthropic introduce nuevas API de cumplimiento para su herramienta Claude Code, permitiendo a los equipos de seguridad una mayor visibilidad sobre la actividad del agente. Sin embargo, esto también expone un problema mayor: los registros de actividad por sí solos no pueden determinar si el acceso de un agente es legítimo.",
+      "whyItMatters": "Este artículo es crucial porque aborda la seguridad de las herramientas de IA que interactúan con el entorno de desarrollo. Comprender y controlar qué acciones realizan estas IAs es fundamental para prevenir accesos no autorizados o maliciosos, especialmente cuando usan credenciales del desarrollador.",
+      "recommendedAction": "Revisa las capacidades de la nueva API de cumplimiento de Claude y evalúa cómo podrías integrarla para monitorizar y auditar la actividad de IAs en tu entorno. Considera implementar políticas de acceso y monitoreo más estrictas para herramientas de IA que tengan acceso a tus sistemas."
+    },
+    {
+      "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
+      "url": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Operadores del ransomware Aurora han sido detectados utilizando el asistente de codificación con IA de SpaceX, Cursor, para infiltrarse en redes de 10 objetivos. Los hallazgos provienen de análisis de infraestructura expuesta asociada con este grupo de ciberdelincuencia de habla rusa.",
+      "whyItMatters": "Demuestra cómo las herramientas de IA, que están diseñadas para ser útiles, pueden ser mal utilizadas por actores maliciosos para facilitar ataques de ransomware. Es vital estar al tanto de estas tácticas emergentes para fortalecer las defensas.",
+      "recommendedAction": "Mantente informado sobre las nuevas formas en que las herramientas de IA son abusadas en ciberataques. Asegúrate de que tus defensas de seguridad estén actualizadas y considera cómo las herramientas de desarrollo con IA podrían ser un vector de ataque si no se gestionan adecuadamente."
+    },
+    {
+      "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
+      "url": "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Este resumen semanal de noticias de seguridad cubre varios incidentes, incluyendo un proxy espía chino, agentes de IA que se desvían de sus tareas, puertas traseras en routers, aplicaciones falsas, y más. Destaca que incluso los agentes de IA pueden considerar sus tareas opcionales.",
+      "whyItMatters": "Ofrece una visión general rápida de las amenazas de seguridad más recientes y relevantes. La mención de agentes de IA que se salen de sus tareas es particularmente interesante, ya que sugiere posibles comportamientos inesperados de estas herramientas.",
+      "recommendedAction": "Lee el resumen para estar al día con las últimas amenazas de seguridad. Presta atención a las noticias relacionadas con IA y cómo su comportamiento puede ser impredecible en entornos de producción."
+    },
+    {
+      "title": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
+      "url": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "El backdoor ValleyRAT se está distribuyendo disfrazado de adware chino firmado, engañando a los usuarios para que lo añadan a las exclusiones del antivirus. El actor de amenazas conocido como Silver Fox utiliza este método para que el malware se ejecute bajo un proceso confiable.",
+      "whyItMatters": "Este es un recordatorio de que la firma de software no garantiza la seguridad y que las tácticas de ingeniería social siguen siendo efectivas. Los desarrolladores deben ser cautelosos con el software que instalan y las excepciones que configuran en sus herramientas de seguridad.",
+      "recommendedAction": "Sé extremadamente cauto al instalar software de terceros, incluso si parece legítimo o está firmado. Revisa las configuraciones de exclusión de tu antivirus y de otras herramientas de seguridad para asegurarte de que no estás permitiendo inadvertidamente software malicioso."
+    },
+    {
+      "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
+      "url": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Un actor de espionaje cibernético vinculado a China, conocido como Fire Ant, ha expandido su campaña para comprometer routers Cisco IOS XR, servidores TACACS y hosts de gestión Linux. El objetivo es robar credenciales y ocultar sus actividades, deshabilitando los registros de seguridad.",
+      "whyItMatters": "Este ataque a la infraestructura de red crítica, como los routers, es una amenaza seria. La capacidad de un atacante para robar credenciales y cegar los registros de seguridad dificulta enormemente la detección y respuesta a incidentes.",
+      "recommendedAction": "Revisa la seguridad de tu infraestructura de red, especialmente los dispositivos de red y los servidores de autenticación. Asegúrate de que los registros de seguridad estén protegidos contra la manipulación y considera implementar soluciones de monitoreo de red más robustas."
+    },
+    {
+      "title": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
+      "url": "https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "El Departamento de Justicia de EE. UU. ha corregido una declaración anterior, aclarando que varias de sus agencias fueron objetivos de ataques cibernéticos de actores chinos, en lugar de víctimas directas. Esto se aplica a agencias como la NASA, la Reserva Federal y el Departamento de Energía.",
+      "whyItMatters": "Aunque no es un consejo técnico directo, esta noticia resalta la importancia de la precisión en la comunicación sobre incidentes de seguridad y el panorama de amenazas en constante evolución por parte de actores patrocinados por estados.",
+      "recommendedAction": "Mantente informado sobre el panorama geopolítico de la ciberseguridad, ya que puede influir en el tipo y la frecuencia de las amenazas. Presta atención a las fuentes de información oficiales para comprender la naturaleza de los incidentes de seguridad."
+    }
+  ]
+}
