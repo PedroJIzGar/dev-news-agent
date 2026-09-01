@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-31T14:52:28.627Z",
+  "generatedAt": "2026-09-01T12:23:37.802Z",
   "availableDates": [
+    "2026-09-01",
     "2026-08-31",
     "2026-08-30",
     "2026-08-29",
@@ -78,13 +79,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 75,
-    "totalArticles": 876,
-    "highPriority": 464,
-    "mediumPriority": 325,
-    "lowPriority": 87,
+    "totalReports": 76,
+    "totalArticles": 882,
+    "highPriority": 466,
+    "mediumPriority": 328,
+    "lowPriority": 88,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-08-31",
+    "latestReportDate": "2026-09-01",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -95,7 +96,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 194
+        "count": 199
       },
       {
         "name": "AI for Developers",
@@ -113,11 +114,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 651
+        "count": 656
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 77
+        "count": 78
       },
       {
         "name": "GitHub Blog",
@@ -134,12 +135,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-25",
-      "high": 5,
-      "medium": 6,
-      "low": 1
-    },
     {
       "date": "2026-08-26",
       "high": 6,
@@ -175,9 +170,80 @@
       "high": 4,
       "medium": 2,
       "low": 0
+    },
+    {
+      "date": "2026-09-01",
+      "high": 2,
+      "medium": 3,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-01",
+      "generatedAt": "2026-09-01T12:23:37.794Z",
+      "totalArticles": 6,
+      "highPriority": 2,
+      "mediumPriority": 3,
+      "lowPriority": 1,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 5
+        },
+        {
+          "name": "Java",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 5
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
+          "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 10,
+          "summary": "Se están explotando dos vulnerabilidades críticas en Langflow y Ruby on Rails (CVE-2026-0768 con CVSS 9.8 y CVE-2026-66066). La primera permite la ejecución de código Python arbitrario si no se valida correctamente la entrada del usuario.",
+          "whyItMatters": "Estas vulnerabilidades de alta criticidad representan un riesgo inmediato. La posibilidad de ejecución remota de código en Langflow, una herramienta relacionada con IA, y la explotación de fallos en Rails son preocupaciones serias para cualquier desarrollador que utilice estas tecnologías.",
+          "recommendedAction": "Actualizar Langflow y Ruby on Rails a las últimas versiones seguras. Auditar los sistemas en busca de signos de explotación y aplicar parches de seguridad de inmediato. Revisar la validación de entradas en aplicaciones."
+        },
+        {
+          "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
+          "url": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Actores maliciosos robaron una clave API de METR, una organización sin fines de lucro que evalúa modelos de IA, y consumieron créditos de IA por valor de aproximadamente $600,000. Se cree que no se accedió a información sensible.",
+          "whyItMatters": "Este incidente subraya la importancia crítica de la seguridad de las claves API, especialmente cuando se manejan recursos valiosos como los créditos de IA. Un acceso no autorizado puede generar pérdidas financieras significativas y comprometer operaciones.",
+          "recommendedAction": "Revisar y proteger las claves API utilizadas en proyectos. Implementar rotación regular de claves y aplicar el principio de mínimo privilegio. Estar atento a posibles exploits que afecten a servicios de IA."
+        },
+        {
+          "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
+          "url": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "medium",
+          "score": 8,
+          "summary": "Los actores de amenazas buscan ataques repetibles en lugar de ataques más sofisticados. Se describe una técnica llamada ClickFix, donde una página web induce al usuario a pegar comandos en su terminal, siendo este el método de acceso inicial más común observado por Microsoft el año pasado.",
+          "whyItMatters": "Cambia la perspectiva sobre las motivaciones de los atacantes y destaca la importancia de los ataques de ingeniería social y la manipulación del usuario. El método ClickFix es una muestra de cómo la simplicidad y la repetibilidad pueden ser efectivas.",
+          "recommendedAction": "Educar a los usuarios sobre técnicas de ingeniería social como ClickFix. Implementar medidas de seguridad que minimicen el impacto de la ejecución de comandos por parte del usuario, como la segmentación de red y el control de acceso estricto."
+        }
+      ]
+    },
     {
       "date": "2026-08-31",
       "generatedAt": "2026-08-31T14:52:28.617Z",
