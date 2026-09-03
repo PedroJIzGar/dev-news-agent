@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-01T12:23:37.802Z",
+  "generatedAt": "2026-09-03T11:58:09.333Z",
   "availableDates": [
+    "2026-09-03",
     "2026-09-01",
     "2026-08-31",
     "2026-08-30",
@@ -79,20 +80,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 76,
-    "totalArticles": 882,
-    "highPriority": 466,
-    "mediumPriority": 328,
-    "lowPriority": 88,
+    "totalReports": 77,
+    "totalArticles": 897,
+    "highPriority": 474,
+    "mediumPriority": 334,
+    "lowPriority": 89,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-09-01",
+    "latestReportDate": "2026-09-03",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 390
+        "count": 401
       },
       {
         "name": "Seguridad",
@@ -100,7 +101,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 58
+        "count": 60
       },
       {
         "name": "IA para Desarrolladores",
@@ -114,7 +115,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 656
+        "count": 667
       },
       {
         "name": "Stack Overflow Blog",
@@ -122,11 +123,11 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 65
+        "count": 67
       },
       {
         "name": "Spring Blog",
-        "count": 57
+        "count": 59
       },
       {
         "name": "Krebs on Security",
@@ -135,12 +136,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-26",
-      "high": 6,
-      "medium": 5,
-      "low": 2
-    },
     {
       "date": "2026-08-27",
       "high": 10,
@@ -176,9 +171,88 @@
       "high": 2,
       "medium": 3,
       "low": 1
+    },
+    {
+      "date": "2026-09-03",
+      "high": 8,
+      "medium": 6,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-03",
+      "generatedAt": "2026-09-03T11:58:09.325Z",
+      "totalArticles": 15,
+      "highPriority": 8,
+      "mediumPriority": 6,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 11
+        },
+        {
+          "name": "Java/Spring",
+          "count": 2
+        },
+        {
+          "name": "AI for Developers",
+          "count": 2
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 11
+        },
+        {
+          "name": "Spring Blog",
+          "count": 2
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 2
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
+          "url": "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Los actores de amenazas están aprovechando el tiempo de ejecución de JavaScript Node.js para distribuir cargas útiles maliciosas en ataques dirigidos a empresas gubernamentales, tecnológicas y hoteleras desde febrero de 2026.",
+          "whyItMatters": "Destaca cómo incluso herramientas de desarrollo confiables como Node.js pueden ser abusadas para la distribución de malware, lo cual es crítico para los desarrolladores que utilizan estas tecnologías.",
+          "recommendedAction": "Revisar y actualizar regularmente los entornos de desarrollo Node.js, estar al tanto de las nuevas tácticas de ataque y aplicar parches de seguridad de inmediato."
+        },
+        {
+          "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
+          "url": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "El grupo Nimbus Manticore ha utilizado familias de malware no documentadas, desarrolladas con Node.js y JavaScript, para distribuir RATs multiplataforma en sistemas Linux y macOS, haciéndose pasar por reclutadores y usando pruebas de codificación.",
+          "whyItMatters": "Este ataque muestra una táctica sofisticada que se dirige a desarrolladores y utiliza tecnologías comunes como Node.js y JavaScript, poniendo en riesgo el proceso de contratación y las credenciales.",
+          "recommendedAction": "Ser escéptico ante ofertas de empleo inesperadas y pruebas de codificación, verificar la legitimidad de las fuentes y evitar descargar o ejecutar código de fuentes no confiables."
+        },
+        {
+          "title": "Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means",
+          "url": "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una variante del gusano infostealer Shai-Hulud ha evolucionado para escanear credenciales en 469 ubicaciones, incluyendo entornos de desarrollo, herramientas CI/CD, configuraciones en la nube y herramientas de IA.",
+          "whyItMatters": "La expansión del alcance de este infostealer a herramientas de desarrollo y CI/CD representa un riesgo significativo para los desarrolladores y las empresas, ya que puede robar credenciales críticas.",
+          "recommendedAction": "Implementar prácticas de seguridad robustas para la gestión de credenciales, usar autenticación multifactor, limitar los permisos y auditar regularmente las configuraciones de las herramientas de desarrollo y CI/CD."
+        }
+      ]
+    },
     {
       "date": "2026-09-01",
       "generatedAt": "2026-09-01T12:23:37.794Z",

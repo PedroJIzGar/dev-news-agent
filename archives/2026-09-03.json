@@ -1,0 +1,205 @@
+{
+  "date": "2026-09-03",
+  "generatedAt": "2026-09-03T11:58:09.325Z",
+  "totalArticles": 15,
+  "summary": {
+    "highPriority": 8,
+    "mediumPriority": 6,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 11
+      },
+      {
+        "name": "Java/Spring",
+        "count": 2
+      },
+      {
+        "name": "AI for Developers",
+        "count": 2
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 11
+      },
+      {
+        "name": "Spring Blog",
+        "count": 2
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 2
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
+      "url": "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Los actores de amenazas están aprovechando el tiempo de ejecución de JavaScript Node.js para distribuir cargas útiles maliciosas en ataques dirigidos a empresas gubernamentales, tecnológicas y hoteleras desde febrero de 2026.",
+      "whyItMatters": "Destaca cómo incluso herramientas de desarrollo confiables como Node.js pueden ser abusadas para la distribución de malware, lo cual es crítico para los desarrolladores que utilizan estas tecnologías.",
+      "recommendedAction": "Revisar y actualizar regularmente los entornos de desarrollo Node.js, estar al tanto de las nuevas tácticas de ataque y aplicar parches de seguridad de inmediato."
+    },
+    {
+      "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
+      "url": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "El grupo Nimbus Manticore ha utilizado familias de malware no documentadas, desarrolladas con Node.js y JavaScript, para distribuir RATs multiplataforma en sistemas Linux y macOS, haciéndose pasar por reclutadores y usando pruebas de codificación.",
+      "whyItMatters": "Este ataque muestra una táctica sofisticada que se dirige a desarrolladores y utiliza tecnologías comunes como Node.js y JavaScript, poniendo en riesgo el proceso de contratación y las credenciales.",
+      "recommendedAction": "Ser escéptico ante ofertas de empleo inesperadas y pruebas de codificación, verificar la legitimidad de las fuentes y evitar descargar o ejecutar código de fuentes no confiables."
+    },
+    {
+      "title": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Dos vulnerabilidades críticas de día cero en los dispositivos SonicWall SMA 1000 han sido explotadas, y podrían encadenarse para formar una cadena de ataque, afectando a la seguridad VPN.",
+      "whyItMatters": "Las vulnerabilidades críticas en dispositivos de red como VPNs son de alta prioridad, ya que pueden ser un punto de entrada para ataques más amplios en la infraestructura de una organización.",
+      "recommendedAction": "Aplicar las actualizaciones de seguridad liberadas por SonicWall para los dispositivos SMA 1000 inmediatamente y monitorizar la actividad de red sospechosa."
+    },
+    {
+      "title": "Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means",
+      "url": "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una variante del gusano infostealer Shai-Hulud ha evolucionado para escanear credenciales en 469 ubicaciones, incluyendo entornos de desarrollo, herramientas CI/CD, configuraciones en la nube y herramientas de IA.",
+      "whyItMatters": "La expansión del alcance de este infostealer a herramientas de desarrollo y CI/CD representa un riesgo significativo para los desarrolladores y las empresas, ya que puede robar credenciales críticas.",
+      "recommendedAction": "Implementar prácticas de seguridad robustas para la gestión de credenciales, usar autenticación multifactor, limitar los permisos y auditar regularmente las configuraciones de las herramientas de desarrollo y CI/CD."
+    },
+    {
+      "title": "Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon",
+      "url": "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Un investigador ha publicado un PoC para FalconFlank, una vulnerabilidad de día cero de escalada de privilegios en Crowdstrike Falcon que abusa de la remediación de macros maliciosas de Office.",
+      "whyItMatters": "Las vulnerabilidades de escalada de privilegios en software de seguridad son preocupantes, ya que pueden permitir a un atacante obtener control total sobre un sistema.",
+      "recommendedAction": "Mantenerse informado sobre los avisos de seguridad de Crowdstrike y aplicar cualquier parche o mitigación relacionada con FalconFlank tan pronto como estén disponibles."
+    },
+    {
+      "title": "A Bootiful Podcast: BellSoft's Catherine Edelveis on hardened runtime images, container security, and more",
+      "url": "https://spring.io/blog/2026/09/03/a-bootiful-podcast-catherine-edelvais",
+      "source": "Spring Blog",
+      "category": "Java/Spring",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Episodio del podcast Bootiful que presenta a Catherine Edelveis de BellSoft, discutiendo sobre imágenes de tiempo de ejecución endurecidas, seguridad en contenedores y otros temas relevantes para el desarrollo Java.",
+      "whyItMatters": "Ofrece información valiosa sobre cómo mejorar la seguridad de las aplicaciones Java, especialmente en entornos contenerizados, un aspecto crucial para los desarrolladores de Spring Boot.",
+      "recommendedAction": "Escuchar el episodio para aprender sobre mejores prácticas en seguridad de contenedores e imágenes de tiempo de ejecución en el contexto de Java y Spring."
+    },
+    {
+      "title": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners",
+      "url": "https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "La CISA ha agregado siete vulnerabilidades explotadas a su catálogo de Vulnerabilidades Explotadas Conocidas (KEV), utilizadas por atacantes para desplegar shells inversos y mineros de criptomonedas.",
+      "whyItMatters": "Identifica vulnerabilidades activamente explotadas que representan una amenaza inmediata, y la inclusión en el catálogo KEV de CISA significa que los atacantes las están utilizando ahora.",
+      "recommendedAction": "Priorizar la aplicación de parches para las vulnerabilidades listadas en el catálogo KEV de CISA y mantenerse actualizado sobre las alertas de seguridad."
+    },
+    {
+      "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
+      "url": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "GeoNetwork ha solucionado dos vulnerabilidades que podían encadenarse para lograr ejecución remota de código (RCE) sin autenticación en sistemas de geoportal gubernamentales.",
+      "whyItMatters": "Resalta la importancia de mantener actualizados los componentes de backend, incluso aquellos que no son de uso generalizado, ya que las vulnerabilidades pueden ser explotadas para comprometer sistemas críticos.",
+      "recommendedAction": "Si se utiliza GeoNetwork, aplicar las actualizaciones de seguridad (versiones 4.4.12 y 4.2.17) y revisar la seguridad de otros componentes de backend en uso."
+    },
+    {
+      "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Actores de amenazas están explotando una vulnerabilidad crítica recién parcheada en JFrog Artifactory (CVE-2026-82329) que permite el bypass de autenticación y el acceso administrativo.",
+      "whyItMatters": "La explotación rápida de vulnerabilidades críticas en herramientas de gestión de artefactos como JFrog Artifactory es un riesgo directo para la cadena de suministro de software y la seguridad de los repositorios.",
+      "recommendedAction": "Aplicar inmediatamente los parches para JFrog Artifactory y revisar los logs en busca de actividad sospechosa relacionada con la autenticación y la creación de tokens."
+    },
+    {
+      "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
+      "url": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Se han identificado 13 paquetes maliciosos en Packagist que inyectan JavaScript en sitios de streaming para desplegar spyware y robar semillas de billeteras de criptomonedas de dispositivos iOS no parcheados.",
+      "whyItMatters": "Advierte sobre los peligros de depender de paquetes de terceros, incluso en repositorios públicos como Packagist, y cómo pueden ser un vector para el robo de información sensible.",
+      "recommendedAction": "Auditar y verificar la seguridad de las dependencias utilizadas en proyectos, especialmente aquellas de fuentes menos conocidas, y mantener los sistemas operativos y navegadores actualizados."
+    },
+    {
+      "title": "Spring Office Hours Podcast: S5E21 - Pro Spring Boot 4 with Felipe Gutierrez",
+      "url": "https://spring.io/blog/2026/08/31/spring-office-hours-podcast-S5E21",
+      "source": "Spring Blog",
+      "category": "Java/Spring",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Episodio del podcast \"Spring Office Hours\" enfocado en \"Pro Spring Boot 4\" con Felipe Gutierrez, discutiendo temas avanzados y mejores prácticas para Spring Boot.",
+      "whyItMatters": "Proporciona conocimiento especializado sobre Spring Boot, una tecnología central para el usuario, ayudando a profundizar en el desarrollo de aplicaciones backend robustas y eficientes.",
+      "recommendedAction": "Escuchar este episodio para mejorar las habilidades y conocimientos en el desarrollo avanzado con Spring Boot."
+    },
+    {
+      "title": "Decoding the new AI lingo: Loops, harnesses, squads, hill climbing… oh my!",
+      "url": "https://github.blog/ai-and-ml/decoding-the-new-ai-lingo-loops-harnesses-squads-hill-climbing-oh-my/",
+      "source": "GitHub Blog",
+      "category": "AI for Developers",
+      "priority": "medium",
+      "score": 7,
+      "summary": "El podcast de GitHub desglosa la nueva jerga de la IA que aparece en las conversaciones de los desarrolladores, como 'loop engineering', 'harnesses', 'squads' y 'open weights'.",
+      "whyItMatters": "Ayuda a los desarrolladores a comprender la terminología emergente en el campo de la IA, facilitando la adopción y la discusión de herramientas y conceptos de IA en el desarrollo de software.",
+      "recommendedAction": "Familiarizarse con la terminología de IA discutida para mejorar la comunicación y la comprensión en proyectos relacionados con IA."
+    },
+    {
+      "title": "How we make AI coding more cost efficient without sacrificing task quality",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+      "source": "GitHub Blog",
+      "category": "AI for Developers",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Explica cómo GitHub Copilot optimiza la eficiencia de costos en la codificación con IA sin comprometer la calidad de las tareas, detallando cómo las salidas más cortas pueden ser más costosas.",
+      "whyItMatters": "Proporciona información sobre la optimización del uso de herramientas de IA como GitHub Copilot, lo cual es relevante para desarrolladores que buscan maximizar la productividad y minimizar costos.",
+      "recommendedAction": "Considerar las estrategias de optimización de costos y calidad al utilizar herramientas de asistencia de codificación con IA."
+    },
+    {
+      "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+      "url": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se han descubierto ocho fallos de seguridad en agentes de codificación de IA (como Claude, Codex, Cursor) que permiten la ejecución de código malicioso a través de configuraciones maliciosas de `.git`.",
+      "whyItMatters": "Representa un riesgo de seguridad directo y preocupante para los desarrolladores que utilizan herramientas de IA para codificar, ya que las configuraciones del repositorio pueden ser manipuladas para ejecutar código arbitrario.",
+      "recommendedAction": "Ser extremadamente cauteloso al clonar repositorios de fuentes no confiables y revisar las configuraciones de Git antes de permitir que los agentes de IA interactúen con ellos. Mantenerse actualizado sobre los parches."
+    },
+    {
+      "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
+      "url": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 3,
+      "summary": "Un hacker ruso extraditado enfrenta cargos por una campaña de malware distribuida a través de archivos de Excel adjuntos enviados a miles de usuarios en plataformas freelance.",
+      "whyItMatters": "Aunque no está directamente relacionado con la pila tecnológica del usuario, ilustra las tácticas persistentes de ingeniería social y malware a través de archivos adjuntos.",
+      "recommendedAction": "Mantener la vigilancia ante correos electrónicos y archivos adjuntos sospechosos, independientemente de su origen aparente, y educar a los usuarios sobre las amenazas de ingeniería social."
+    }
+  ]
+}
