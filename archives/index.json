@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-03T11:58:09.333Z",
+  "generatedAt": "2026-09-04T11:59:40.289Z",
   "availableDates": [
+    "2026-09-04",
     "2026-09-03",
     "2026-09-01",
     "2026-08-31",
@@ -80,13 +81,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 77,
-    "totalArticles": 897,
-    "highPriority": 474,
-    "mediumPriority": 334,
+    "totalReports": 78,
+    "totalArticles": 912,
+    "highPriority": 485,
+    "mediumPriority": 338,
     "lowPriority": 89,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-09-03",
+    "latestReportDate": "2026-09-04",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -97,7 +98,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 199
+        "count": 208
       },
       {
         "name": "AI for Developers",
@@ -115,11 +116,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 667
+        "count": 677
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 78
+        "count": 79
       },
       {
         "name": "GitHub Blog",
@@ -127,21 +128,15 @@
       },
       {
         "name": "Spring Blog",
-        "count": 59
+        "count": 60
       },
       {
         "name": "Krebs on Security",
-        "count": 17
+        "count": 18
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-27",
-      "high": 10,
-      "medium": 5,
-      "low": 0
-    },
     {
       "date": "2026-08-28",
       "high": 9,
@@ -177,9 +172,104 @@
       "high": 8,
       "medium": 6,
       "low": 1
+    },
+    {
+      "date": "2026-09-04",
+      "high": 11,
+      "medium": 4,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-04",
+      "generatedAt": "2026-09-04T11:59:40.274Z",
+      "totalArticles": 15,
+      "highPriority": 11,
+      "mediumPriority": 4,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 9
+        },
+        {
+          "name": "Desarrollo/AI",
+          "count": 1
+        },
+        {
+          "name": "AI/Seguridad",
+          "count": 1
+        },
+        {
+          "name": "Seguridad/AI",
+          "count": 1
+        },
+        {
+          "name": "Spring Boot",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 10
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "Angular Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "This Week in Spring - September 1st, 2026",
+          "url": "https://spring.io/blog/2026/09/01/this-week-in-spring-september-1-2026",
+          "source": "Spring Blog",
+          "category": "Spring Boot",
+          "priority": "high",
+          "score": 9,
+          "summary": "Resumen semanal de noticias y actualizaciones relacionadas con el ecosistema Spring, incluyendo Spring Framework, Spring Boot, Spring Data, y más.",
+          "whyItMatters": "Es fundamental para los desarrolladores de Java que usan Spring estar al día con las últimas versiones, características y correcciones de seguridad para mantener sus aplicaciones robustas y seguras.",
+          "recommendedAction": "Lee el resumen 'This Week in Spring' para mantenerte informado sobre las novedades de Spring y planificar las actualizaciones necesarias en tus proyectos."
+        },
+        {
+          "title": "Customizing Angular Aria Tabs Quickly with Google Antigravity CLI",
+          "url": "https://blog.angular.dev/customizing-angular-aria-tabs-quickly-with-google-antigravity-cli-39ff8e0271a4?source=rss----447683c3d9a3---4",
+          "source": "Angular Blog",
+          "category": "Angular",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una guía sobre cómo personalizar rápidamente los componentes de tabs ARIA en Angular utilizando la CLI 'Google Antigravity'.",
+          "whyItMatters": "La accesibilidad (ARIA) es una parte importante del desarrollo web moderno. Aprender a implementar y personalizar componentes accesibles de manera eficiente con herramientas como esta CLI puede mejorar la calidad de tus aplicaciones Angular.",
+          "recommendedAction": "Explora la CLI 'Google Antigravity' y las técnicas presentadas para mejorar la accesibilidad y la personalización de tus componentes de Angular."
+        },
+        {
+          "title": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
+          "url": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
+          "source": "The Hacker News",
+          "category": "AI/Seguridad",
+          "priority": "high",
+          "score": 8,
+          "summary": "OpenAI ha presentado GPT-6 Astra, un modelo de IA que ha obtenido un 100% en ExploitBench y ha alcanzado un umbral 'crítico' en capacidades de ciberseguridad, según el marco de preparación de la compañía.",
+          "whyItMatters": "Este avance en IA, especialmente en el ámbito de la ciberseguridad, es significativo. Demuestra el potencial de los modelos de lenguaje avanzados para entender y, potencialmente, mitigar vulnerabilidades de seguridad.",
+          "recommendedAction": "Mantente al tanto de las capacidades de modelos de IA como GPT-6 Astra en el campo de la ciberseguridad, ya que podrían influir en las herramientas de desarrollo y seguridad futuras."
+        }
+      ]
+    },
     {
       "date": "2026-09-03",
       "generatedAt": "2026-09-03T11:58:09.325Z",
