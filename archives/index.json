@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-04T11:59:40.289Z",
+  "generatedAt": "2026-09-05T11:08:57.679Z",
   "availableDates": [
+    "2026-09-05",
     "2026-09-04",
     "2026-09-03",
     "2026-09-01",
@@ -81,20 +82,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 78,
-    "totalArticles": 912,
-    "highPriority": 485,
-    "mediumPriority": 338,
+    "totalReports": 79,
+    "totalArticles": 927,
+    "highPriority": 494,
+    "mediumPriority": 344,
     "lowPriority": 89,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-09-04",
+    "latestReportDate": "2026-09-05",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 401
+        "count": 411
       },
       {
         "name": "Seguridad",
@@ -102,7 +103,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 60
+        "count": 65
       },
       {
         "name": "IA para Desarrolladores",
@@ -116,15 +117,15 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 677
+        "count": 690
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 79
+        "count": 80
       },
       {
         "name": "GitHub Blog",
-        "count": 67
+        "count": 68
       },
       {
         "name": "Spring Blog",
@@ -137,12 +138,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-28",
-      "high": 9,
-      "medium": 6,
-      "low": 0
-    },
     {
       "date": "2026-08-29",
       "high": 4,
@@ -178,9 +173,84 @@
       "high": 11,
       "medium": 4,
       "low": 0
+    },
+    {
+      "date": "2026-09-05",
+      "high": 9,
+      "medium": 6,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-05",
+      "generatedAt": "2026-09-05T11:08:57.670Z",
+      "totalArticles": 15,
+      "highPriority": 9,
+      "mediumPriority": 6,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 10
+        },
+        {
+          "name": "AI for Developers",
+          "count": 5
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 13
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
+          "url": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto y corregido una vulnerabilidad de seguridad de 12 años en PostgreSQL relacionada con la decodificación lógica. Esta falla permitía la ejecución de código arbitrario como usuario del sistema operativo si se poseía el atributo REPLICATION.",
+          "whyItMatters": "Esta vulnerabilidad, presente desde PostgreSQL 9.4, podría haber sido explotada para obtener control del servidor de base de datos. Las actualizaciones abordan una falla crítica que afectaba la seguridad de la replicación.",
+          "recommendedAction": "Actualizar PostgreSQL a las versiones 18.6, 17.11, 16.15, 15.19, 14.24 o superiores lo antes posible para mitigar este riesgo."
+        },
+        {
+          "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
+          "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
+          "source": "The Hacker News",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 9,
+          "summary": "Google, Anthropic y OpenAI han lanzado nuevos modelos de IA especializados en ciberseguridad, junto con programas de acceso y salvaguardias. Google presenta Gemini 3.8 Flash Cyber y el programa Fairwind para defensores de alta prioridad.",
+          "whyItMatters": "El desarrollo y la disponibilidad de modelos de IA dedicados a la ciberseguridad, impulsados por grandes compañías, marcan un avance significativo en la lucha contra las amenazas digitales. Estos modelos pueden mejorar la detección y respuesta a incidentes.",
+          "recommendedAction": "Explorar las capacidades de estos nuevos modelos de ciberseguridad con IA y considerar cómo pueden integrarse en las estrategias de seguridad existentes."
+        },
+        {
+          "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
+          "url": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html",
+          "source": "The Hacker News",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 9,
+          "summary": "Este artículo aborda la necesidad crítica de asegurar la implementación de IA en entornos empresariales, desde la adopción inicial hasta la preparación para incidentes, enfatizando el equilibrio entre la velocidad de adopción y la gestión del riesgo cibernético.",
+          "whyItMatters": "A medida que la IA se integra cada vez más en las empresas, asegurar su implementación es fundamental para proteger los datos y sistemas. Ignorar la seguridad puede llevar a riesgos significativos.",
+          "recommendedAction": "Leer y aplicar las mejores prácticas para la seguridad de la IA en entornos empresariales, asegurando que la estrategia de adopción incluya consideraciones de seguridad desde el principio."
+        }
+      ]
+    },
     {
       "date": "2026-09-04",
       "generatedAt": "2026-09-04T11:59:40.274Z",
