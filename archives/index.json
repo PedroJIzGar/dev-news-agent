@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-05T11:08:57.679Z",
+  "generatedAt": "2026-09-06T11:32:12.301Z",
   "availableDates": [
+    "2026-09-06",
     "2026-09-05",
     "2026-09-04",
     "2026-09-03",
@@ -82,13 +83,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 79,
-    "totalArticles": 927,
-    "highPriority": 494,
-    "mediumPriority": 344,
+    "totalReports": 80,
+    "totalArticles": 936,
+    "highPriority": 498,
+    "mediumPriority": 349,
     "lowPriority": 89,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-09-05",
+    "latestReportDate": "2026-09-06",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -99,7 +100,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 208
+        "count": 216
       },
       {
         "name": "AI for Developers",
@@ -107,7 +108,7 @@
       },
       {
         "name": "IA para Desarrolladores",
-        "count": 25
+        "count": 26
       },
       {
         "name": "Java/Spring Boot",
@@ -117,11 +118,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 690
+        "count": 698
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 80
+        "count": 81
       },
       {
         "name": "GitHub Blog",
@@ -138,12 +139,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-29",
-      "high": 4,
-      "medium": 6,
-      "low": 1
-    },
     {
       "date": "2026-08-30",
       "high": 1,
@@ -179,9 +174,80 @@
       "high": 9,
       "medium": 6,
       "low": 0
+    },
+    {
+      "date": "2026-09-06",
+      "high": 4,
+      "medium": 5,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-06",
+      "generatedAt": "2026-09-06T11:32:12.291Z",
+      "totalArticles": 9,
+      "highPriority": 4,
+      "mediumPriority": 5,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 8
+        },
+        {
+          "name": "IA para Desarrolladores",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 8
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
+          "url": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se han descubierto dos vulnerabilidades críticas en VMware Workstation y Fusion. Una de ellas, CVE-2026-59346, permite la ejecución remota de código en el sistema anfitrión con privilegios elevados.",
+          "whyItMatters": "Esta vulnerabilidad es de alta gravedad ya que podría permitir a un atacante con acceso a una máquina virtual tomar control del sistema anfitrión, afectando la seguridad de la infraestructura de virtualización.",
+          "recommendedAction": "Los administradores que utilizan VMware Workstation y Fusion deben aplicar las actualizaciones de seguridad proporcionadas por Broadcom inmediatamente para mitigar el riesgo."
+        },
+        {
+          "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
+          "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Los atacantes están explotando una vulnerabilidad zero-day sin parchear en Magento Open Source y Adobe Commerce para ejecutar código malicioso en los servidores de tiendas online, permitiendo la creación de backdoors.",
+          "whyItMatters": "Esta vulnerabilidad pone en riesgo directo la seguridad de las tiendas online, pudiendo comprometer datos de clientes y la integridad del negocio. La explotación sin login previo la hace especialmente peligrosa.",
+          "recommendedAction": "Los usuarios de Magento Open Source y Adobe Commerce deben aplicar los parches de seguridad tan pronto como estén disponibles y monitorizar activamente sus sistemas en busca de actividades sospechosas."
+        },
+        {
+          "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
+          "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Los atacantes han comprometido el entorno de JetBrains Cadence explotando una vulnerabilidad crítica no parcheada en TeamCity, logrando extraer credenciales de AWS.",
+          "whyItMatters": "Este incidente demuestra cómo una vulnerabilidad en una herramienta de desarrollo (TeamCity) puede llevar al compromiso de sistemas críticos (AWS) y la información sensible que manejan los desarrolladores.",
+          "recommendedAction": "Los usuarios de TeamCity deben actualizar a la última versión parcheada y revocar/rotar inmediatamente todas las credenciales y secretos expuestos, especialmente aquellos relacionados con servicios en la nube como AWS."
+        }
+      ]
+    },
     {
       "date": "2026-09-05",
       "generatedAt": "2026-09-05T11:08:57.670Z",
