@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-06T11:32:12.301Z",
+  "generatedAt": "2026-09-07T13:18:53.497Z",
   "availableDates": [
+    "2026-09-07",
     "2026-09-06",
     "2026-09-05",
     "2026-09-04",
@@ -83,20 +84,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 80,
-    "totalArticles": 936,
-    "highPriority": 498,
-    "mediumPriority": 349,
+    "totalReports": 81,
+    "totalArticles": 941,
+    "highPriority": 501,
+    "mediumPriority": 351,
     "lowPriority": 89,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-09-06",
+    "latestReportDate": "2026-09-07",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 411
+        "count": 416
       },
       {
         "name": "Seguridad",
@@ -118,7 +119,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 698
+        "count": 703
       },
       {
         "name": "Stack Overflow Blog",
@@ -139,12 +140,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-30",
-      "high": 1,
-      "medium": 1,
-      "low": 0
-    },
     {
       "date": "2026-08-31",
       "high": 4,
@@ -180,9 +175,72 @@
       "high": 4,
       "medium": 5,
       "low": 0
+    },
+    {
+      "date": "2026-09-07",
+      "high": 3,
+      "medium": 2,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-07",
+      "generatedAt": "2026-09-07T13:18:53.481Z",
+      "totalArticles": 5,
+      "highPriority": 3,
+      "mediumPriority": 2,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 5
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 5
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies",
+          "url": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Investiga el malware JSCeal, capaz de robar cookies de sesión para eludir la autenticación de Google. Utiliza ofuscación avanzada para ocultar sus cargas maliciosas, incluyendo robo de credenciales y vigilancia.",
+          "whyItMatters": "Este malware representa una amenaza significativa para la seguridad de las cuentas de Google, ya que puede evadir mecanismos de autenticación comunes. Los desarrolladores, especialmente aquellos que integran servicios de Google, deben estar al tanto de estas técnicas de ataque.",
+          "recommendedAction": "Revisar y fortalecer las prácticas de manejo de sesiones y autenticación en aplicaciones que interactúan con servicios de Google. Mantenerse actualizado sobre las últimas amenazas de malware y técnicas de ofuscación."
+        },
+        {
+          "title": "Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released",
+          "url": "https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha publicado un exploit público para una vulnerabilidad en Telerik UI for ASP.NET AJAX que, bajo una configuración específica, permite la ejecución remota de código no autenticada (RCE). Progress ya ha lanzado un parche.",
+          "whyItMatters": "Esta vulnerabilidad afecta a una biblioteca de UI común en entornos .NET, presentando un riesgo de RCE para aplicaciones mal configuradas. Los desarrolladores que usen Telerik UI deben ser conscientes de este riesgo y aplicar el parche.",
+          "recommendedAction": "Actualizar Telerik UI for ASP.NET AJAX a la versión parcheada inmediatamente si se utiliza. Revisar la configuración de las aplicaciones para asegurar que no sean susceptibles a este tipo de ataques."
+        },
+        {
+          "title": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
+          "url": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 8,
+          "summary": "N-able ha lanzado el cuarto hotfix en cinco semanas para su plataforma N-central, abordando una falla crítica de ejecución remota de código no autenticada que, según informes, ya está siendo explotada.",
+          "whyItMatters": "Esta es la cuarta actualización urgente en poco tiempo para una vulnerabilidad de RCE en una herramienta de monitoreo y gestión. Subraya la importancia de mantener actualizadas estas plataformas críticas para la infraestructura.",
+          "recommendedAction": "Aplicar el último hotfix para N-central de N-able de inmediato. Mantener actualizadas todas las herramientas de RMM y gestión de sistemas para mitigar riesgos de seguridad."
+        }
+      ]
+    },
     {
       "date": "2026-09-06",
       "generatedAt": "2026-09-06T11:32:12.291Z",
