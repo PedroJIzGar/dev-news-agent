@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-07T13:18:53.497Z",
+  "generatedAt": "2026-09-08T11:59:35.093Z",
   "availableDates": [
+    "2026-09-08",
     "2026-09-07",
     "2026-09-06",
     "2026-09-05",
@@ -84,20 +85,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 81,
-    "totalArticles": 941,
-    "highPriority": 501,
-    "mediumPriority": 351,
+    "totalReports": 82,
+    "totalArticles": 950,
+    "highPriority": 505,
+    "mediumPriority": 356,
     "lowPriority": 89,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-09-07",
+    "latestReportDate": "2026-09-08",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 416
+        "count": 423
       },
       {
         "name": "Seguridad",
@@ -105,7 +106,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 65
+        "count": 66
       },
       {
         "name": "IA para Desarrolladores",
@@ -119,11 +120,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 703
+        "count": 710
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 81
+        "count": 82
       },
       {
         "name": "GitHub Blog",
@@ -131,7 +132,7 @@
       },
       {
         "name": "Spring Blog",
-        "count": 60
+        "count": 61
       },
       {
         "name": "Krebs on Security",
@@ -140,12 +141,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-08-31",
-      "high": 4,
-      "medium": 2,
-      "low": 0
-    },
     {
       "date": "2026-09-01",
       "high": 2,
@@ -181,9 +176,88 @@
       "high": 3,
       "medium": 2,
       "low": 0
+    },
+    {
+      "date": "2026-09-08",
+      "high": 4,
+      "medium": 5,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-08",
+      "generatedAt": "2026-09-08T11:59:35.084Z",
+      "totalArticles": 9,
+      "highPriority": 4,
+      "mediumPriority": 5,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 7
+        },
+        {
+          "name": "Backend",
+          "count": 1
+        },
+        {
+          "name": "AI for Developers",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 7
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
+          "url": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Adobe ha lanzado parches para una vulnerabilidad crítica en Adobe Commerce y Magento Open Source, CVE-2026-75650 (CVSS 10.0), que ha sido explotada activamente para desplegar una puerta trasera Rust y un web shell PHP.",
+          "whyItMatters": "Las vulnerabilidades zero-day explotadas activamente representan un riesgo significativo. Dado que afecta a Magento, una plataforma de comercio electrónico popular, y utiliza tecnologías como Rust y PHP, es crucial para los desarrolladores que trabajan con estas tecnologías o que gestionan entornos de comercio electrónico.",
+          "recommendedAction": "Los desarrolladores y administradores que utilicen Adobe Commerce o Magento Open Source deben aplicar los parches de seguridad de Adobe inmediatamente. Evalúen la seguridad de sus sistemas en busca de indicadores de compromiso."
+        },
+        {
+          "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
+          "url": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una cadena de vulnerabilidades en FreeIPA permite a clientes anónimos crear credenciales de administrador reutilizables y obtener acceso al grupo de administradores.",
+          "whyItMatters": "Esta falla en FreeIPA, una solución de gestión de identidad común en entornos Linux, podría permitir a atacantes no autenticados obtener privilegios de administrador, comprometiendo la seguridad y la integridad de los sistemas.",
+          "recommendedAction": "Los administradores de sistemas que utilizan FreeIPA deben actualizar inmediatamente sus sistemas a las versiones parcheadas y revisar los registros de autenticación para detectar actividades sospechosas. Consideren la implementación de autenticación multifactor para capas adicionales de seguridad."
+        },
+        {
+          "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
+          "url": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una herramienta post-explotación llamada PEEP que transforma los navegadores basados en Chromium (Chrome, Edge) en puertas traseras para la ejecución de comandos remotos.",
+          "whyItMatters": "Esta herramienta representa una amenaza avanzada que puede secuestrar funcionalidades del navegador para obtener control persistente. Es relevante para los desarrolladores, ya que los navegadores son a menudo el punto de entrada o la superficie de ataque principal para muchas aplicaciones web.",
+          "recommendedAction": "Los desarrolladores deben estar al tanto de estas técnicas de post-explotación. Implementar medidas de seguridad en el lado del cliente y del servidor para detectar y prevenir la ejecución de código no autorizado. Mantener los navegadores y las extensiones actualizados."
+        }
+      ]
+    },
     {
       "date": "2026-09-07",
       "generatedAt": "2026-09-07T13:18:53.481Z",
