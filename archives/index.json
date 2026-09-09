@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-08T11:59:35.093Z",
+  "generatedAt": "2026-09-09T12:10:44.611Z",
   "availableDates": [
+    "2026-09-09",
     "2026-09-08",
     "2026-09-07",
     "2026-09-06",
@@ -85,20 +86,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 82,
-    "totalArticles": 950,
-    "highPriority": 505,
-    "mediumPriority": 356,
-    "lowPriority": 89,
+    "totalReports": 83,
+    "totalArticles": 965,
+    "highPriority": 515,
+    "mediumPriority": 359,
+    "lowPriority": 91,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-09-08",
+    "latestReportDate": "2026-09-09",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 423
+        "count": 432
       },
       {
         "name": "Seguridad",
@@ -106,7 +107,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 66
+        "count": 70
       },
       {
         "name": "IA para Desarrolladores",
@@ -120,11 +121,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 710
+        "count": 723
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 82
+        "count": 83
       },
       {
         "name": "GitHub Blog",
@@ -136,17 +137,11 @@
       },
       {
         "name": "Krebs on Security",
-        "count": 18
+        "count": 19
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-01",
-      "high": 2,
-      "medium": 3,
-      "low": 1
-    },
     {
       "date": "2026-09-03",
       "high": 8,
@@ -182,9 +177,92 @@
       "high": 4,
       "medium": 5,
       "low": 0
+    },
+    {
+      "date": "2026-09-09",
+      "high": 10,
+      "medium": 3,
+      "low": 2
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-09",
+      "generatedAt": "2026-09-09T12:10:44.601Z",
+      "totalArticles": 15,
+      "highPriority": 10,
+      "mediumPriority": 3,
+      "lowPriority": 2,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 9
+        },
+        {
+          "name": "AI for Developers",
+          "count": 4
+        },
+        {
+          "name": "Docker",
+          "count": 1
+        },
+        {
+          "name": "Java",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 13
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Java’s age is its AI superpower",
+          "url": "https://stackoverflow.blog/2026/09/09/java-s-age-is-its-ai-superpower/",
+          "source": "Stack Overflow Blog",
+          "category": "Java",
+          "priority": "high",
+          "score": 9,
+          "summary": "Este artículo argumenta que la madurez y el ecosistema de Java lo convierten en una opción poderosa para el desarrollo con IA, a pesar de ser un lenguaje más antiguo.",
+          "whyItMatters": "Ofrece una perspectiva valiosa sobre cómo un lenguaje establecido como Java puede ser relevante y ventajoso en el campo emergente de la IA, combinando la estabilidad con la innovación.",
+          "recommendedAction": "Explora cómo puedes aprovechar el ecosistema de Java y sus bibliotecas para tus proyectos de IA. Considera Java para tus próximas aplicaciones de IA."
+        },
+        {
+          "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
+          "url": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
+          "source": "The Hacker News",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 8,
+          "summary": "Actores maliciosos están utilizando agentes de IA autónomos para lanzar campañas de robo de credenciales a gran escala, comprometiendo miles de credenciales en menos de seis horas. El Google Threat Intelligence Group (GTIG) ha observado esta tendencia.",
+          "whyItMatters": "Esto demuestra el potencial de la IA para automatizar y escalar ataques de ciberseguridad. Los desarrolladores que utilizan o desarrollan sistemas de IA deben ser conscientes de cómo estas herramientas pueden ser mal utilizadas.",
+          "recommendedAction": "Revisa tus prácticas de seguridad, especialmente en lo que respecta a la protección de credenciales y el monitoreo de accesos anómalos. Considera el uso de IA para mejorar tus defensas de seguridad."
+        },
+        {
+          "title": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval",
+          "url": "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html",
+          "source": "The Hacker News",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 8,
+          "summary": "Una falla en DeepSeek Harness, una herramienta para ejecutar agentes de codificación de IA, permite que un agente desactive su propio sandbox de archivos con un solo comando, lo que podría llevar a la ejecución de código no deseado.",
+          "whyItMatters": "Esta vulnerabilidad es crítica para los desarrolladores que utilizan herramientas de IA para la codificación. La incapacidad de un agente de IA para mantenerse aislado de forma segura puede tener graves implicaciones de seguridad.",
+          "recommendedAction": "Si usas DeepSeek Harness o herramientas similares, actualízalas a la última versión y sé cauteloso al ejecutar agentes de IA en entornos sensibles. Evalúa la seguridad de las herramientas de IA que utilizas."
+        }
+      ]
+    },
     {
       "date": "2026-09-08",
       "generatedAt": "2026-09-08T11:59:35.084Z",
