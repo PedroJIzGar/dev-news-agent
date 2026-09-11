@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-10T12:04:48.058Z",
+  "generatedAt": "2026-09-11T12:03:10.744Z",
   "availableDates": [
+    "2026-09-11",
     "2026-09-10",
     "2026-09-09",
     "2026-09-08",
@@ -87,20 +88,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 84,
-    "totalArticles": 977,
-    "highPriority": 522,
-    "mediumPriority": 363,
-    "lowPriority": 92,
+    "totalReports": 85,
+    "totalArticles": 990,
+    "highPriority": 530,
+    "mediumPriority": 367,
+    "lowPriority": 93,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-09-10",
+    "latestReportDate": "2026-09-11",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 442
+        "count": 452
       },
       {
         "name": "Seguridad",
@@ -122,19 +123,19 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 733
+        "count": 742
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 83
+        "count": 85
       },
       {
         "name": "GitHub Blog",
-        "count": 69
+        "count": 70
       },
       {
         "name": "Spring Blog",
-        "count": 62
+        "count": 63
       },
       {
         "name": "Krebs on Security",
@@ -143,12 +144,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-04",
-      "high": 11,
-      "medium": 4,
-      "low": 0
-    },
     {
       "date": "2026-09-05",
       "high": 9,
@@ -184,9 +179,96 @@
       "high": 7,
       "medium": 4,
       "low": 1
+    },
+    {
+      "date": "2026-09-11",
+      "high": 8,
+      "medium": 4,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-11",
+      "generatedAt": "2026-09-11T12:03:10.734Z",
+      "totalArticles": 13,
+      "highPriority": 8,
+      "mediumPriority": 4,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 10
+        },
+        {
+          "name": "Backend",
+          "count": 1
+        },
+        {
+          "name": "Dev Tools",
+          "count": 1
+        },
+        {
+          "name": "Developer Culture",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 9
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 2
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
+          "url": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Un actor de ciberseguridad, supuestamente de habla rusa, ha utilizado inteligencia artificial (IA) para idear exploits dirigidos a fallos de seguridad recientemente descubiertos en PaperCut NG/MF, logrando comprometer más de 440 instancias.",
+          "whyItMatters": "Este incidente subraya el creciente uso de la IA por parte de los atacantes para acelerar y automatizar la búsqueda y explotación de vulnerabilidades. Demuestra una nueva frontera en la ciberseguridad donde la IA se usa tanto para la defensa como para el ataque.",
+          "recommendedAction": "Asegúrate de que todas tus instancias de PaperCut NG/MF estén actualizadas a las últimas versiones para mitigar estas vulnerabilidades. Considera implementar herramientas de monitoreo que puedan detectar patrones de ataque anómalos."
+        },
+        {
+          "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
+          "url": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un grupo de hackers vinculado a China ha explotado una vulnerabilidad en el método de entrada Sogou, una herramienta muy popular para escribir caracteres chinos en Windows, para instalar una puerta trasera (backdoor) en las computadoras de las víctimas.",
+          "whyItMatters": "Destaca la sofisticación de los ataques y cómo incluso software de uso común puede ser un vector de ataque, afectando la seguridad de los sistemas que dependen de él. Es importante para entender las amenazas persistentes y las cadenas de ataque.",
+          "recommendedAction": "Mantente informado sobre nuevas vulnerabilidades en software de uso masivo y revisa configuraciones de seguridad en sistemas que utilicen herramientas de entrada de texto complejas."
+        },
+        {
+          "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
+          "url": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Los atacantes han encadenado dos vulnerabilidades en JFrog Artifactory, el repositorio utilizado por las pipelines de compilación de software, para obtener control administrativo de servidores autohospedados e instalar backdoors.",
+          "whyItMatters": "JFrog Artifactory es una herramienta crucial en el ciclo de vida del desarrollo de software. Explotar sus fallos puede tener un impacto significativo en la seguridad de las cadenas de suministro de software, permitiendo a los atacantes comprometer el código y las construcciones.",
+          "recommendedAction": "Asegúrate de que tus servidores de JFrog Artifactory estén actualizados a las últimas versiones con los parches de seguridad aplicados. Revisa regularmente los registros de auditoría en busca de actividades sospechosas."
+        }
+      ]
+    },
     {
       "date": "2026-09-10",
       "generatedAt": "2026-09-10T12:04:48.050Z",
