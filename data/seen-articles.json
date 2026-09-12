@@ -44,6 +44,7 @@
     "https://github.blog/ai-and-ml/github-copilot/how-to-build-interactive-experiences-with-canvases/",
     "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
     "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+    "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github/",
     "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
     "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
     "https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/",
@@ -1001,6 +1002,7 @@
     "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
     "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html",
     "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
+    "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
     "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
     "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
     "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
@@ -1024,6 +1026,7 @@
     "https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html",
     "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
     "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
+    "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
     "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
     "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
     "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html",
@@ -1035,6 +1038,7 @@
     "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
     "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
     "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html",
+    "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
     "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
     "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
     "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
@@ -1055,6 +1059,7 @@
     "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
     "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
     "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+    "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
     "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
     "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
     "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
@@ -1068,6 +1073,7 @@
     "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
     "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
     "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
+    "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
     "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
     "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
     "https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html",
@@ -1086,6 +1092,8 @@
     "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html",
     "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
     "https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html",
-    "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html"
+    "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+    "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html",
+    "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html"
   ]
 }
