@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-12T11:29:56.080Z",
+  "generatedAt": "2026-09-13T12:33:58.578Z",
   "availableDates": [
+    "2026-09-13",
     "2026-09-12",
     "2026-09-11",
     "2026-09-10",
@@ -89,13 +90,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 86,
-    "totalArticles": 998,
-    "highPriority": 534,
+    "totalReports": 87,
+    "totalArticles": 1000,
+    "highPriority": 536,
     "mediumPriority": 370,
     "lowPriority": 94,
-    "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-09-12",
+    "averageArticlesPerReport": 11,
+    "latestReportDate": "2026-09-13",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -106,7 +107,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 218
+        "count": 220
       },
       {
         "name": "AI for Developers",
@@ -124,7 +125,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 749
+        "count": 751
       },
       {
         "name": "Stack Overflow Blog",
@@ -145,12 +146,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-06",
-      "high": 4,
-      "medium": 5,
-      "low": 0
-    },
     {
       "date": "2026-09-07",
       "high": 3,
@@ -186,9 +181,61 @@
       "high": 4,
       "medium": 3,
       "low": 1
+    },
+    {
+      "date": "2026-09-13",
+      "high": 2,
+      "medium": 0,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-13",
+      "generatedAt": "2026-09-13T12:33:58.568Z",
+      "totalArticles": 2,
+      "highPriority": 2,
+      "mediumPriority": 0,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 2
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 2
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "CISA Agrega 5 Vulnerabilidades Explotadas de Artifactory, ScreenConnect y RouterOS al KEV",
+          "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "La CISA ha añadido cinco vulnerabilidades de seguridad críticas, que afectan a JFrog Artifactory, ConnectWise ScreenConnect y MikroTik RouterOS, al catálogo de Vulnerabilidades Explotadas Conocidas (KEV) debido a su explotación activa en la naturaleza. Una de ellas, CVE-2026-42016, tiene una puntuación CVSS de 8.1.",
+          "whyItMatters": "Esta noticia es crucial para la seguridad, ya que informa sobre vulnerabilidades activamente explotadas en software comúnmente utilizado. Mantenerse al tanto de estas fallas y parchearlas es esencial para proteger los sistemas y datos contra ataques.",
+          "recommendedAction": "Revisar y aplicar los parches de seguridad recomendados por los proveedores para Artifactory, ScreenConnect y RouterOS. Mantener el catálogo KEV de CISA como referencia para priorizar actualizaciones de seguridad."
+        },
+        {
+          "title": "Los atacantes usan phishing de 'passkey' para secuestrar cuentas en la nube de Microsoft y exfiltrar datos",
+          "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Actores de amenazas están utilizando el phishing de 'passkey' y la infraestructura de entrega de correo de terceros para eludir las defensas y comprometer cuentas en la nube de Microsoft. Se han reportado campañas masivas de envío de correos fraudulentos.",
+          "whyItMatters": "Este artículo destaca una nueva táctica de phishing que explota la confianza en las 'passkeys' para comprometer sistemas en la nube, un área relevante para muchos desarrolladores. La seguridad de las cuentas en la nube es primordial y las nuevas técnicas de ataque deben ser comprendidas.",
+          "recommendedAction": "Educar a los equipos sobre las amenazas de phishing emergentes, especialmente aquellas que imitan métodos de autenticación modernos como las 'passkeys'. Implementar medidas de seguridad adicionales para la protección de cuentas en la nube."
+        }
+      ]
+    },
     {
       "date": "2026-09-12",
       "generatedAt": "2026-09-12T11:29:56.070Z",
