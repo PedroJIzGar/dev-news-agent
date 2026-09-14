@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-13T12:33:58.578Z",
+  "generatedAt": "2026-09-14T13:41:44.883Z",
   "availableDates": [
+    "2026-09-14",
     "2026-09-13",
     "2026-09-12",
     "2026-09-11",
@@ -90,20 +91,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 87,
-    "totalArticles": 1000,
-    "highPriority": 536,
+    "totalReports": 88,
+    "totalArticles": 1002,
+    "highPriority": 538,
     "mediumPriority": 370,
     "lowPriority": 94,
     "averageArticlesPerReport": 11,
-    "latestReportDate": "2026-09-13",
+    "latestReportDate": "2026-09-14",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 452
+        "count": 454
       },
       {
         "name": "Seguridad",
@@ -125,7 +126,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 751
+        "count": 753
       },
       {
         "name": "Stack Overflow Blog",
@@ -146,12 +147,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-07",
-      "high": 3,
-      "medium": 2,
-      "low": 0
-    },
     {
       "date": "2026-09-08",
       "high": 4,
@@ -187,9 +182,61 @@
       "high": 2,
       "medium": 0,
       "low": 0
+    },
+    {
+      "date": "2026-09-14",
+      "high": 2,
+      "medium": 0,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-14",
+      "generatedAt": "2026-09-14T13:41:44.873Z",
+      "totalArticles": 2,
+      "highPriority": 2,
+      "mediumPriority": 0,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 2
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 2
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
+          "url": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "El descubrimiento de vulnerabilidades está acelerándose gracias a la IA, pero la validación de estos hallazgos sigue siendo un cuello de botella para los defensores. Se publicaron un 49% más de CVE en la primera mitad de 2026 en comparación con el año anterior.",
+          "whyItMatters": "La IA está aumentando la velocidad y la escala de la detección de vulnerabilidades. Es crucial que las estrategias de validación se adapten para gestionar eficazmente el creciente número de hallazgos, especialmente en el contexto de la seguridad.",
+          "recommendedAction": "Revisar las estrategias de validación de vulnerabilidades en su organización para asegurar que puedan manejar el aumento de hallazgos impulsado por la IA."
+        },
+        {
+          "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
+          "url": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 8,
+          "summary": "Una extensión de navegador de Twitch maliciosa, \"Twitch Enhanced Viewer | JeetBot\", ha filtrado tokens OAuth de casi 31,000 usuarios a servidores proxy de un servicio ruso.",
+          "whyItMatters": "Este incidente subraya los riesgos de seguridad asociados con las extensiones de navegador, incluso en plataformas populares. La filtración de tokens OAuth puede comprometer gravemente las cuentas de los usuarios y los datos asociados.",
+          "recommendedAction": "Alertar a los usuarios sobre el peligro de extensiones de navegador de fuentes no confiables y revisar los permisos de las extensiones instaladas, especialmente aquellas relacionadas con servicios de streaming o redes sociales."
+        }
+      ]
+    },
     {
       "date": "2026-09-13",
       "generatedAt": "2026-09-13T12:33:58.568Z",
