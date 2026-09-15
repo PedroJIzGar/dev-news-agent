@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-14T13:41:44.883Z",
+  "generatedAt": "2026-09-15T12:29:15.293Z",
   "availableDates": [
+    "2026-09-15",
     "2026-09-14",
     "2026-09-13",
     "2026-09-12",
@@ -91,20 +92,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 88,
-    "totalArticles": 1002,
-    "highPriority": 538,
-    "mediumPriority": 370,
-    "lowPriority": 94,
+    "totalReports": 89,
+    "totalArticles": 1016,
+    "highPriority": 545,
+    "mediumPriority": 376,
+    "lowPriority": 95,
     "averageArticlesPerReport": 11,
-    "latestReportDate": "2026-09-14",
+    "latestReportDate": "2026-09-15",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 454
+        "count": 466
       },
       {
         "name": "Seguridad",
@@ -112,7 +113,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 70
+        "count": 71
       },
       {
         "name": "IA para Desarrolladores",
@@ -126,11 +127,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 753
+        "count": 765
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 85
+        "count": 86
       },
       {
         "name": "GitHub Blog",
@@ -138,7 +139,7 @@
       },
       {
         "name": "Spring Blog",
-        "count": 63
+        "count": 64
       },
       {
         "name": "Krebs on Security",
@@ -147,12 +148,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-08",
-      "high": 4,
-      "medium": 5,
-      "low": 0
-    },
     {
       "date": "2026-09-09",
       "high": 10,
@@ -188,9 +183,88 @@
       "high": 2,
       "medium": 0,
       "low": 0
+    },
+    {
+      "date": "2026-09-15",
+      "high": 7,
+      "medium": 6,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-15",
+      "generatedAt": "2026-09-15T12:29:15.283Z",
+      "totalArticles": 14,
+      "highPriority": 7,
+      "mediumPriority": 6,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 12
+        },
+        {
+          "name": "Spring Boot",
+          "count": 1
+        },
+        {
+          "name": "AI for Developers",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+          "url": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Una vulnerabilidad crítica (CVSS 9.8) en el software AsyncOS del Cisco Secure Email Gateway está siendo activamente explotada. Permite la ejecución de comandos de root a través de una validación insuficiente en la lógica de análisis de correo electrónico, afectando a atacantes no autenticados y remotos.",
+          "whyItMatters": "Esta vulnerabilidad tiene un impacto directo en la seguridad del correo electrónico, un canal de comunicación fundamental para las empresas. La explotación en la naturaleza y la posibilidad de ejecución de comandos de root la convierten en una amenaza de alta prioridad para cualquier organización que utilice estos dispositivos.",
+          "recommendedAction": "Aplicar urgentemente las actualizaciones de seguridad proporcionadas por Cisco para el Secure Email Gateway. Monitorizar de cerca el tráfico de correo electrónico en busca de patrones sospechosos y asegurar que las políticas de seguridad estén correctamente configuradas."
+        },
+        {
+          "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
+          "url": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un actor de amenazas, presuntamente vinculado a China y conocido como Red Heron, ha explotado activamente una vulnerabilidad de ejecución remota de código (RCE) en Gitea, comprometiendo 13 organizaciones en seis países. La campaña se centró en instancias de Gitea expuestas a internet.",
+          "whyItMatters": "Esta noticia es crucial porque destaca la explotación activa de vulnerabilidades en herramientas de desarrollo colaborativo como Gitea. Los desarrolladores que utilizan Gitea o herramientas similares deben ser conscientes de estas amenazas y aplicar parches de seguridad de inmediato para proteger sus repositorios y datos sensibles.",
+          "recommendedAction": "Revisar y aplicar inmediatamente los parches de seguridad disponibles para Gitea. Implementar medidas de seguridad adicionales para proteger las instancias expuestas a internet y monitorizar la actividad sospechosa en los repositorios."
+        },
+        {
+          "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
+          "url": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una vulnerabilidad crítica en LiteSpeed Web Server Enterprise permite que un usuario de baja privilegios en una cuenta de hosting obtenga acceso root en un servidor compartido. Esto podría permitir a un atacante acceder o modificar otros sitios web en el mismo servidor.",
+          "whyItMatters": "Esta noticia es relevante para desarrolladores que trabajan en entornos de hosting compartido o gestionan servidores web. Un compromiso en un servidor compartido puede tener un efecto dominó, afectando a múltiples clientes y sitios web. La rápida explotación de esta falla podría ser devastadora.",
+          "recommendedAction": "Verificar si se utilizan versiones vulnerables de LiteSpeed Web Server Enterprise y aplicar las actualizaciones de seguridad recomendadas por cPanel. Considerar medidas de aislamiento más estrictas en entornos de hosting compartido si es posible."
+        }
+      ]
+    },
     {
       "date": "2026-09-14",
       "generatedAt": "2026-09-14T13:41:44.873Z",
