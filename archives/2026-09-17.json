@@ -1,0 +1,213 @@
+{
+  "date": "2026-09-17",
+  "generatedAt": "2026-09-17T12:26:51.835Z",
+  "totalArticles": 15,
+  "summary": {
+    "highPriority": 7,
+    "mediumPriority": 8,
+    "lowPriority": 0,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 10
+      },
+      {
+        "name": "Security/AI",
+        "count": 2
+      },
+      {
+        "name": "Java/Spring",
+        "count": 1
+      },
+      {
+        "name": "Spring",
+        "count": 1
+      },
+      {
+        "name": "GitHub/AI",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 12
+      },
+      {
+        "name": "Spring Blog",
+        "count": 2
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+      "url": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se están realizando intentos activos de explotación contra una vulnerabilidad crítica en WSO2 API Manager (CVE-2026-5430). Esta falla permite la elusión de la autenticación JWT y la posible toma de control de cuentas mediante tokens de administrador falsificados.",
+      "whyItMatters": "Esta vulnerabilidad de seguridad, con una puntuación CVSS de 9.8, representa un riesgo significativo para las organizaciones que utilizan WSO2 API Manager para gestionar sus APIs. La explotación exitosa puede llevar a un acceso no autorizado y al compromiso de cuentas administrativas.",
+      "recommendedAction": "Asegúrate de que tus sistemas WSO2 API Manager estén actualizados a una versión parcheada. Implementa la verificación estricta de las firmas JWT y audita regularmente los registros de acceso para detectar actividades sospechosas."
+    },
+    {
+      "title": "Spring Office Hours Podcast: S5E23 - Java 27 Release Party with Billy Korando",
+      "url": "https://spring.io/blog/2026/09/16/spring-office-hours-podcast-S5E23",
+      "source": "Spring Blog",
+      "category": "Java/Spring",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Episodio del podcast Spring Office Hours que celebra la nueva versión de Java 27 con Billy Korando. Se discuten las novedades y el impacto en el ecosistema Spring.",
+      "whyItMatters": "Estar al día con las nuevas versiones de Java y las características introducidas es importante para los desarrolladores de Java y Spring. Permite aprovechar las últimas mejoras de rendimiento y sintaxis.",
+      "recommendedAction": "Escucha el podcast para conocer las novedades de Java 27 y cómo podrían afectar tus proyectos Spring. Considera planificar la adopción de la nueva versión en tus proyectos."
+    },
+    {
+      "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se están explotando activamente fallos de seguridad críticos en Issabel Framework (CVE-2026-89026). Esta vulnerabilidad permite a atacantes no autenticados ejecutar comandos arbitrarios del sistema operativo.",
+      "whyItMatters": "Con puntuaciones CVSS de 9.8/9.3, esta vulnerabilidad es extremadamente peligrosa. Permite el control total del sistema subyacente sin necesidad de credenciales, lo que puede llevar a compromisos graves.",
+      "recommendedAction": "Asegúrate de que todas las instalaciones de Issabel Framework estén actualizadas a la última versión disponible. Revisa configuraciones y logs en busca de signos de compromiso."
+    },
+    {
+      "title": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
+      "url": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Ha surgido un nuevo kit de phishing, N0va, dirigido a empresas en EE. UU. y la UE. Utiliza campañas de phishing que imitan servicios legítimos y abusa de flujos de autenticación para obtener acceso a cuentas válidas.",
+      "whyItMatters": "Este ataque se centra en la seguridad de la identidad, un vector de ataque cada vez más importante. El éxito puede otorgar a los atacantes acceso a sistemas y datos sensibles sin necesidad de malware obvio.",
+      "recommendedAction": "Refuerza las defensas contra phishing, educa a los usuarios sobre las tácticas de ingeniería social y considera implementar autenticación multifactor (MFA) robusta para mitigar el impacto de las credenciales comprometidas."
+    },
+    {
+      "title": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
+      "url": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Google ha lanzado un parche para una vulnerabilidad de alta severidad (CVE-2026-58704, CVSS 8.0) en el módem celular de sus teléfonos Pixel. La falla permite la escalada de privilegios.",
+      "whyItMatters": "Aunque afecta a dispositivos específicos, la explotación en la naturaleza de una vulnerabilidad de escalada de privilegios es preocupante. Indica que actores maliciosos ya están intentando explotarla.",
+      "recommendedAction": "Asegúrate de que tus dispositivos Google Pixel tengan instaladas las últimas actualizaciones de seguridad para mitigar este riesgo."
+    },
+    {
+      "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
+      "url": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Los atacantes están combinando inteligencia de amenazas con IA para acelerar el camino desde la exposición hasta la brecha, superando la capacidad de reacción de la mayoría de los equipos de seguridad.",
+      "whyItMatters": "Este artículo resalta la creciente sofisticación de los ataques y la necesidad de ir más allá de la inteligencia de amenazas tradicional. La IA está cambiando el panorama de las amenazas.",
+      "recommendedAction": "Evalúa tus capacidades de respuesta a incidentes y considera la integración de herramientas de IA y automatización para mejorar la velocidad y eficacia de la detección y respuesta ante amenazas."
+    },
+    {
+      "title": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
+      "url": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Una vulnerabilidad crítica (CVE-2026-87886, CVSS 7.8) en el plugin de backup de Acronis para cPanel/WHM está siendo explotada en ataques dirigidos. Permite la escalada local de privilegios.",
+      "whyItMatters": "La explotación de vulnerabilidades en herramientas de backup puede tener consecuencias devastadoras, permitiendo a los atacantes obtener acceso privilegiado a sistemas críticos.",
+      "recommendedAction": "Asegúrate de que el plugin de Acronis Backup para cPanel/WHM esté actualizado a una versión segura. Implementa controles de acceso estrictos y monitorea los logs para detectar accesos no autorizados."
+    },
+    {
+      "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Una vulnerabilidad crítica en el plugin 'WooCommerce Wholesale Lead Capture' para WordPress está siendo explotada activamente para permitir la carga de archivos arbitrarios, incluyendo backdoors PHP, resultando en ejecución remota de código.",
+      "whyItMatters": "Este plugin es utilizado por más de 6,000 sitios, lo que lo convierte en un objetivo atractivo. La explotación permite a los atacantes tomar control total de sitios web comprometidos.",
+      "recommendedAction": "Si utilizas este plugin, actualízalo inmediatamente o desactívalo si no es esencial. Realiza escaneos de seguridad en tu sitio WordPress y revisa los archivos en busca de web shells maliciosos."
+    },
+    {
+      "title": "This Week in Spring - September 15th, 2026",
+      "url": "https://spring.io/blog/2026/09/15/this-week-in-spring-september-15th-2026",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Resumen semanal de noticias y actualizaciones del ecosistema Spring, incluyendo proyectos, contribuciones y discusiones importantes.",
+      "whyItMatters": "Mantenerse al día con las novedades del framework Spring es crucial para los desarrolladores que lo utilizan, asegurando que estén al tanto de las nuevas características, correcciones de errores y mejores prácticas.",
+      "recommendedAction": "Revisa las actualizaciones de esta semana en el blog de Spring para identificar cambios relevantes para tus proyectos y considerar su aplicación."
+    },
+    {
+      "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+      "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+      "source": "GitHub Blog",
+      "category": "GitHub/AI",
+      "priority": "medium",
+      "score": 7,
+      "summary": "GitHub detalla el proceso de migración de su runtime de Copilot a Rust, destacando cómo utilizaron Copilot para facilitar la reescritura masiva de código.",
+      "whyItMatters": "Este artículo ofrece una visión técnica interesante sobre la evolución de herramientas de desarrollo como GitHub Copilot, mostrando cómo se están utilizando lenguajes como Rust para mejorar el rendimiento y la seguridad. También ilustra el uso de IA en el propio desarrollo.",
+      "recommendedAction": "Lee este artículo para entender las decisiones técnicas detrás de las herramientas que usas a diario y cómo la IA está siendo integrada en el ciclo de desarrollo."
+    },
+    {
+      "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
+      "url": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 5,
+      "summary": "Tres grupos de amenazas (NightEagle, Hacking Cat, Toy Ghouls) están atacando a empresas rusas con backdoors, ransomware y wipers. Se detallan nuevas técnicas de persistencia y movimiento lateral.",
+      "whyItMatters": "Aunque el foco geográfico es específico, las técnicas empleadas por estos grupos de amenazas pueden ser adaptadas y utilizadas contra organizaciones en otras regiones. Es un ejemplo de la evolución de las tácticas de ciberataque.",
+      "recommendedAction": "Mantente informado sobre las tácticas y técnicas de ataque emergentes, especialmente aquellas que involucran ransomware y wipers, y asegúrate de que tus defensas estén actualizadas."
+    },
+    {
+      "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
+      "url": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
+      "source": "The Hacker News",
+      "category": "Security/AI",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se ha descubierto una extensión de navegador que puede tomar el control de asistentes de IA integrados en navegadores como Chrome, Edge y Opera, así como en la extensión Claude.",
+      "whyItMatters": "Esto representa un riesgo de seguridad significativo para los usuarios que dependen de asistentes de IA. La capacidad de secuestrar estas herramientas podría llevar a la exfiltración de datos sensibles o a la ejecución de acciones no deseadas.",
+      "recommendedAction": "Revisa las extensiones de tu navegador, elimina las sospechosas o innecesarias, y ten cuidado con los permisos que otorgas a nuevas extensiones, especialmente aquellas que interactúan con servicios de IA."
+    },
+    {
+      "title": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
+      "url": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
+      "source": "The Hacker News",
+      "category": "Security/AI",
+      "priority": "high",
+      "score": 9,
+      "summary": "Un atacante secuestró una sesión de un asistente de codificación IA y propagó un gusano (Shai-Hulud) a través de aproximadamente 100 repositorios de código. El atacante utilizó el asistente para recomendar software envenenado.",
+      "whyItMatters": "Este incidente subraya los riesgos de seguridad asociados con las herramientas de IA para desarrolladores. La confianza ciega en las recomendaciones de la IA puede llevar a la introducción de malware y la exfiltración de secretos del código.",
+      "recommendedAction": "Sé extremadamente cauteloso con las recomendaciones de las herramientas de IA. Implementa revisiones de código exhaustivas y escanea activamente tus repositorios en busca de código malicioso o secretos expuestos."
+    },
+    {
+      "title": "Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix",
+      "url": "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Una vulnerabilidad en Parallels Desktop para Mac permite a usuarios sin privilegios de administrador ejecutar código como root. Sin embargo, la versión que contiene la solución no es instalable en Macs con procesador Intel.",
+      "whyItMatters": "Esta vulnerabilidad permite la escalada de privilegios en sistemas Mac, lo cual es crítico para la seguridad. La incapacidad de parchear completamente en ciertas arquitecturas agrava el problema.",
+      "recommendedAction": "Si utilizas Parallels Desktop en Mac, actualiza a la versión 27 si es posible. Si tienes un Mac Intel y no puedes actualizar, considera las implicaciones de seguridad y explora soluciones alternativas."
+    },
+    {
+      "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
+      "url": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Agencias de ciberseguridad alertan sobre un malware controlado por Telegram utilizado por hackers iraníes para espiar a disidentes y periodistas. El malware puede robar emails, mensajes y tomar capturas de pantalla.",
+      "whyItMatters": "Este informe detalla el uso de plataformas de mensajería populares para el control de malware, lo que dificulta su detección. El objetivo del espionaje resalta la continua amenaza a la privacidad y la seguridad.",
+      "recommendedAction": "Sé consciente de las aplicaciones que utilizas para la comunicación y considera la seguridad de tus datos sensibles. Implementa buenas prácticas de higiene digital para reducir el riesgo de infección."
+    }
+  ]
+}

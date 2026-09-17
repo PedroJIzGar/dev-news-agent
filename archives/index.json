@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-15T12:29:15.293Z",
+  "generatedAt": "2026-09-17T12:26:51.847Z",
   "availableDates": [
+    "2026-09-17",
     "2026-09-15",
     "2026-09-14",
     "2026-09-13",
@@ -92,20 +93,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 89,
-    "totalArticles": 1016,
-    "highPriority": 545,
-    "mediumPriority": 376,
+    "totalReports": 90,
+    "totalArticles": 1031,
+    "highPriority": 552,
+    "mediumPriority": 384,
     "lowPriority": 95,
     "averageArticlesPerReport": 11,
-    "latestReportDate": "2026-09-15",
+    "latestReportDate": "2026-09-17",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 466
+        "count": 476
       },
       {
         "name": "Seguridad",
@@ -127,7 +128,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 765
+        "count": 777
       },
       {
         "name": "Stack Overflow Blog",
@@ -135,11 +136,11 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 71
+        "count": 72
       },
       {
         "name": "Spring Blog",
-        "count": 64
+        "count": 66
       },
       {
         "name": "Krebs on Security",
@@ -148,12 +149,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-09",
-      "high": 10,
-      "medium": 3,
-      "low": 2
-    },
     {
       "date": "2026-09-10",
       "high": 7,
@@ -189,9 +184,96 @@
       "high": 7,
       "medium": 6,
       "low": 1
+    },
+    {
+      "date": "2026-09-17",
+      "high": 7,
+      "medium": 8,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-17",
+      "generatedAt": "2026-09-17T12:26:51.835Z",
+      "totalArticles": 15,
+      "highPriority": 7,
+      "mediumPriority": 8,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 10
+        },
+        {
+          "name": "Security/AI",
+          "count": 2
+        },
+        {
+          "name": "Java/Spring",
+          "count": 1
+        },
+        {
+          "name": "Spring",
+          "count": 1
+        },
+        {
+          "name": "GitHub/AI",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "Spring Blog",
+          "count": 2
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+          "url": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se están realizando intentos activos de explotación contra una vulnerabilidad crítica en WSO2 API Manager (CVE-2026-5430). Esta falla permite la elusión de la autenticación JWT y la posible toma de control de cuentas mediante tokens de administrador falsificados.",
+          "whyItMatters": "Esta vulnerabilidad de seguridad, con una puntuación CVSS de 9.8, representa un riesgo significativo para las organizaciones que utilizan WSO2 API Manager para gestionar sus APIs. La explotación exitosa puede llevar a un acceso no autorizado y al compromiso de cuentas administrativas.",
+          "recommendedAction": "Asegúrate de que tus sistemas WSO2 API Manager estén actualizados a una versión parcheada. Implementa la verificación estricta de las firmas JWT y audita regularmente los registros de acceso para detectar actividades sospechosas."
+        },
+        {
+          "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
+          "url": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se están explotando activamente fallos de seguridad críticos en Issabel Framework (CVE-2026-89026). Esta vulnerabilidad permite a atacantes no autenticados ejecutar comandos arbitrarios del sistema operativo.",
+          "whyItMatters": "Con puntuaciones CVSS de 9.8/9.3, esta vulnerabilidad es extremadamente peligrosa. Permite el control total del sistema subyacente sin necesidad de credenciales, lo que puede llevar a compromisos graves.",
+          "recommendedAction": "Asegúrate de que todas las instalaciones de Issabel Framework estén actualizadas a la última versión disponible. Revisa configuraciones y logs en busca de signos de compromiso."
+        },
+        {
+          "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
+          "url": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
+          "source": "The Hacker News",
+          "category": "Security/AI",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una extensión de navegador que puede tomar el control de asistentes de IA integrados en navegadores como Chrome, Edge y Opera, así como en la extensión Claude.",
+          "whyItMatters": "Esto representa un riesgo de seguridad significativo para los usuarios que dependen de asistentes de IA. La capacidad de secuestrar estas herramientas podría llevar a la exfiltración de datos sensibles o a la ejecución de acciones no deseadas.",
+          "recommendedAction": "Revisa las extensiones de tu navegador, elimina las sospechosas o innecesarias, y ten cuidado con los permisos que otorgas a nuevas extensiones, especialmente aquellas que interactúan con servicios de IA."
+        }
+      ]
+    },
     {
       "date": "2026-09-15",
       "generatedAt": "2026-09-15T12:29:15.283Z",
