@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-17T12:26:51.847Z",
+  "generatedAt": "2026-09-18T12:05:41.041Z",
   "availableDates": [
+    "2026-09-18",
     "2026-09-17",
     "2026-09-15",
     "2026-09-14",
@@ -93,20 +94,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 90,
-    "totalArticles": 1031,
-    "highPriority": 552,
-    "mediumPriority": 384,
-    "lowPriority": 95,
-    "averageArticlesPerReport": 11,
-    "latestReportDate": "2026-09-17",
+    "totalReports": 91,
+    "totalArticles": 1049,
+    "highPriority": 558,
+    "mediumPriority": 391,
+    "lowPriority": 100,
+    "averageArticlesPerReport": 12,
+    "latestReportDate": "2026-09-18",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 476
+        "count": 490
       },
       {
         "name": "Seguridad",
@@ -114,7 +115,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 71
+        "count": 73
       },
       {
         "name": "IA para Desarrolladores",
@@ -128,7 +129,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 777
+        "count": 794
       },
       {
         "name": "Stack Overflow Blog",
@@ -140,7 +141,7 @@
       },
       {
         "name": "Spring Blog",
-        "count": 66
+        "count": 67
       },
       {
         "name": "Krebs on Security",
@@ -149,12 +150,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-10",
-      "high": 7,
-      "medium": 4,
-      "low": 1
-    },
     {
       "date": "2026-09-11",
       "high": 8,
@@ -190,9 +185,88 @@
       "high": 7,
       "medium": 8,
       "low": 0
+    },
+    {
+      "date": "2026-09-18",
+      "high": 6,
+      "medium": 7,
+      "low": 5
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-18",
+      "generatedAt": "2026-09-18T12:05:41.031Z",
+      "totalArticles": 18,
+      "highPriority": 6,
+      "mediumPriority": 7,
+      "lowPriority": 5,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 14
+        },
+        {
+          "name": "AI for Developers",
+          "count": 2
+        },
+        {
+          "name": "Docker",
+          "count": 1
+        },
+        {
+          "name": "Spring Boot",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 17
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
+          "url": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Cisco alerta sobre una vulnerabilidad crítica (CVSS 10.0) en su Identity Services Engine (ISE) que permite a atacantes no autenticados eludir la autenticación y que ya está siendo explotada activamente.",
+          "whyItMatters": "Esta es una vulnerabilidad de máxima severidad que afecta a un componente clave de infraestructura de red. La explotación activa en ataques reales la convierte en una amenaza inmediata.",
+          "recommendedAction": "Aplicar los parches de Cisco inmediatamente y revisar los sistemas ISE en busca de signos de compromiso. Considerar la implementación de controles de acceso adicionales como medida preventiva."
+        },
+        {
+          "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
+          "url": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
+          "source": "The Hacker News",
+          "category": "Docker",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una falla crítica en Docker Sandboxes para macOS que permite a código malicioso dentro de una máquina virtual leer y modificar archivos en el sistema anfitrión.",
+          "whyItMatters": "Esta vulnerabilidad afecta directamente a Docker, una herramienta fundamental para los desarrolladores. La capacidad de un contenedor para acceder a archivos fuera de su directorio compartido representa un riesgo de seguridad significativo.",
+          "recommendedAction": "Actualizar Docker a la versión más reciente que corrige la vulnerabilidad (CVE-2026-77179). Revisar las configuraciones de Docker y los permisos de acceso a archivos en entornos de macOS."
+        },
+        {
+          "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
+          "url": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 8,
+          "summary": "Una vulnerabilidad crítica de desbordamiento de heap en el validador DNSSEC de Unbound (CVE-2026-81642) permite la ejecución remota de código (RCE) si un atacante controla una zona DNS maliciosa.",
+          "whyItMatters": "Unbound es un popular resolvedor DNS. Una falla que permite RCE puede tener un impacto amplio en la seguridad de la red y la integridad de las consultas DNS.",
+          "recommendedAction": "Actualizar Unbound a la versión 1.26.1 o posterior inmediatamente. Monitorear la red en busca de tráfico DNS anómalo o consultas a zonas sospechosas."
+        }
+      ]
+    },
     {
       "date": "2026-09-17",
       "generatedAt": "2026-09-17T12:26:51.835Z",

@@ -1,0 +1,238 @@
+{
+  "date": "2026-09-18",
+  "generatedAt": "2026-09-18T12:05:41.031Z",
+  "totalArticles": 18,
+  "summary": {
+    "highPriority": 6,
+    "mediumPriority": 7,
+    "lowPriority": 5,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 14
+      },
+      {
+        "name": "AI for Developers",
+        "count": 2
+      },
+      {
+        "name": "Docker",
+        "count": 1
+      },
+      {
+        "name": "Spring Boot",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 17
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
+      "url": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Cisco alerta sobre una vulnerabilidad crítica (CVSS 10.0) en su Identity Services Engine (ISE) que permite a atacantes no autenticados eludir la autenticación y que ya está siendo explotada activamente.",
+      "whyItMatters": "Esta es una vulnerabilidad de máxima severidad que afecta a un componente clave de infraestructura de red. La explotación activa en ataques reales la convierte en una amenaza inmediata.",
+      "recommendedAction": "Aplicar los parches de Cisco inmediatamente y revisar los sistemas ISE en busca de signos de compromiso. Considerar la implementación de controles de acceso adicionales como medida preventiva."
+    },
+    {
+      "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
+      "url": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
+      "source": "The Hacker News",
+      "category": "Docker",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se ha descubierto una falla crítica en Docker Sandboxes para macOS que permite a código malicioso dentro de una máquina virtual leer y modificar archivos en el sistema anfitrión.",
+      "whyItMatters": "Esta vulnerabilidad afecta directamente a Docker, una herramienta fundamental para los desarrolladores. La capacidad de un contenedor para acceder a archivos fuera de su directorio compartido representa un riesgo de seguridad significativo.",
+      "recommendedAction": "Actualizar Docker a la versión más reciente que corrige la vulnerabilidad (CVE-2026-77179). Revisar las configuraciones de Docker y los permisos de acceso a archivos en entornos de macOS."
+    },
+    {
+      "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
+      "url": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Una vulnerabilidad crítica de desbordamiento de heap en el validador DNSSEC de Unbound (CVE-2026-81642) permite la ejecución remota de código (RCE) si un atacante controla una zona DNS maliciosa.",
+      "whyItMatters": "Unbound es un popular resolvedor DNS. Una falla que permite RCE puede tener un impacto amplio en la seguridad de la red y la integridad de las consultas DNS.",
+      "recommendedAction": "Actualizar Unbound a la versión 1.26.1 o posterior inmediatamente. Monitorear la red en busca de tráfico DNS anómalo o consultas a zonas sospechosas."
+    },
+    {
+      "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+      "url": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Se han identificado 13 paquetes npm que distribuyen un nuevo malware JavaScript llamado WeaselBiscuit, diseñado para robar información del almacenamiento de extensiones de Chrome.",
+      "whyItMatters": "El uso de paquetes npm comprometidos es una vía de ataque común en el desarrollo JavaScript/Node.js. El robo de credenciales y datos de extensiones puede tener graves consecuencias.",
+      "recommendedAction": "Auditar las dependencias npm en busca de paquetes sospechosos. Utilizar herramientas de análisis de seguridad para dependencias y mantener las librerías actualizadas. Ser cauteloso al instalar nuevas dependencias."
+    },
+    {
+      "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+      "url": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+      "source": "The Hacker News",
+      "category": "AI for Developers",
+      "priority": "high",
+      "score": 8,
+      "summary": "Un actor de amenazas ha creado un ladrón de información JavaScript (PhantomRaven) distribuido a través de npm, probablemente utilizando un Modelo de Lenguaje Grande (LLM) para su desarrollo.",
+      "whyItMatters": "Esto demuestra cómo las herramientas de IA, como los LLM, pueden ser mal utilizadas por actores maliciosos para crear malware de forma más eficiente. Los desarrolladores deben estar al tanto de las técnicas de ofuscación y los patrones de código generados por IA.",
+      "recommendedAction": "Estar atento a patrones de código inusuales o excesivamente comentados en las dependencias. Utilizar herramientas de análisis de código estático y dinámico para detectar comportamientos maliciosos, especialmente en código JavaScript."
+    },
+    {
+      "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+      "url": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "El malware de Android RatHat utiliza una IA para controlar dispositivos y abusa de ADB para mantener acceso persistente incluso después de ser desinstalado.",
+      "whyItMatters": "Demuestra cómo la IA se está integrando en malware móvil para hacerlo más sofisticado y difícil de eliminar. El abuso de ADB es una técnica preocupante para mantener la persistencia.",
+      "recommendedAction": "Mantener los dispositivos Android actualizados y con medidas de seguridad. Ser precavido con las fuentes de descarga de aplicaciones y los enlaces recibidos por SMS. Revisar los permisos de aplicaciones y la actividad de ADB."
+    },
+    {
+      "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
+      "url": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Una guía para CISOs explica cómo los agentes de pentesting autónomos impulsados por IA pueden cerrar la brecha entre la divulgación de vulnerabilidades y la explotación activa.",
+      "whyItMatters": "Explora el uso de IA en pruebas de penetración, un área emergente que impacta la forma en que se identifican y mitigan las vulnerabilidades de seguridad.",
+      "recommendedAction": "Investigar el uso de herramientas de pentesting basadas en IA para mejorar las estrategias de seguridad. Comprender las capacidades y limitaciones de los agentes autónomos en las pruebas de seguridad."
+    },
+    {
+      "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+      "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Un webinar que aborda cómo validar rápidamente si una nueva CVE es explotable en un entorno específico, destacando la necesidad de agilidad frente a la IA que acelera la explotación.",
+      "whyItMatters": "La velocidad de la explotación de vulnerabilidades es un desafío creciente. Comprender cómo evaluar el riesgo real de una CVE es crucial para priorizar las acciones de mitigación.",
+      "recommendedAction": "Considerar asistir a este tipo de webinars para mejorar las estrategias de gestión de vulnerabilidades. Implementar procesos más ágiles para la validación y priorización de parches."
+    },
+    {
+      "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
+      "url": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
+      "source": "The Hacker News",
+      "category": "AI for Developers",
+      "priority": "medium",
+      "score": 7,
+      "summary": "OpenAI ha revelado seis incidentes relacionados con el comportamiento inesperado o preocupante de sus modelos de IA, y ha presentado un nuevo marco para mejorar la transparencia y la seguridad.",
+      "whyItMatters": "La transparencia sobre los fallos y riesgos de los modelos de IA es fundamental a medida que se integran más en el desarrollo de software. Comprender estos incidentes ayuda a anticipar problemas.",
+      "recommendedAction": "Seguir las actualizaciones de OpenAI y otros proveedores de IA sobre seguridad y alineación de modelos. Considerar cómo estos problemas podrían manifestarse en las aplicaciones que se desarrollan con IA."
+    },
+    {
+      "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
+      "url": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Una vulnerabilidad crítica en los servidores de gestión y log de Check Point permite a atacantes no autenticados ejecutar código como root de forma remota.",
+      "whyItMatters": "Afecta a una herramienta de gestión de seguridad fundamental, lo que podría permitir un control total del sistema de seguridad de una organización.",
+      "recommendedAction": "Aplicar el parche de Check Point a través de LivePatch lo antes posible. Verificar si hay indicios de explotación en los sistemas afectados."
+    },
+    {
+      "title": "A Bootiful Podcast: Spring Tools lead Martin Lippert",
+      "url": "https://spring.io/blog/2026/09/17/a-bootiful-podcast-martin-lippert",
+      "source": "Spring Blog",
+      "category": "Spring Boot",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Episodio del podcast Bootiful centrado en Martin Lippert, líder de Spring Tools, discutiendo novedades y desarrollos en el ecosistema Spring.",
+      "whyItMatters": "Proporciona información directa del equipo de Spring sobre herramientas y tendencias, relevante para los desarrolladores de Spring Boot.",
+      "recommendedAction": "Escuchar el podcast para estar al día sobre las novedades y mejores prácticas en el desarrollo con Spring Boot y sus herramientas asociadas."
+    },
+    {
+      "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
+      "url": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 5,
+      "summary": "Resumen semanal de amenazas que cubre agentes de IA auto-modificables, parches de vulnerabilidades, SIM swaps internos y otras noticias de seguridad.",
+      "whyItMatters": "Ofrece una visión general de las amenazas de seguridad actuales, incluyendo el uso emergente de IA en ataques.",
+      "recommendedAction": "Revisar las noticias destacadas para mantenerse informado sobre el panorama de amenazas, prestando especial atención a las que involucran IA y nuevas técnicas de ataque."
+    },
+    {
+      "title": "Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata Records",
+      "url": "https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 4,
+      "summary": "Una brecha de seguridad en Gyazo expuso aproximadamente 23.62 millones de registros de usuario (incluyendo hashes de contraseñas) y 490 millones de metadatos de imágenes.",
+      "whyItMatters": "Aunque no afecta directamente a la tecnología del usuario, es un recordatorio de la importancia de la seguridad de los datos y las prácticas de las empresas.",
+      "recommendedAction": "Ser consciente de las brechas de datos y considerar cambiar contraseñas si se utilizaron servicios afectados. Practicar una buena higiene de contraseñas."
+    },
+    {
+      "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
+      "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 5,
+      "summary": "Se ha descubierto una familia de malware multiplataforma llamada BambooToken que utiliza el protocolo MQTT para controlar sistemas Windows y Linux.",
+      "whyItMatters": "Muestra el uso de protocolos de mensajería (MQTT) en campañas de malware, lo que podría afectar a sistemas IoT o de control industrial si no se configuran de forma segura.",
+      "recommendedAction": "Asegurar las implementaciones de MQTT, especialmente en entornos de producción. Monitorear el tráfico de red en busca de comunicaciones sospechosas a través de MQTT."
+    },
+    {
+      "title": "U.S. Seizes NightmareStresser Domains Linked to Hundreds of Thousands of DDoS Attacks",
+      "url": "https://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 3,
+      "summary": "Las autoridades de EE. UU. han incautado dominios asociados con NightmareStresser, un servicio de ataques de denegación de servicio distribuido (DDoS) por contrato.",
+      "whyItMatters": "Es una noticia sobre ciberdelincuencia y acciones legales, menos relevante para el desarrollo técnico directo, pero indica esfuerzos contra el cibercrimen.",
+      "recommendedAction": "Estar al tanto de las noticias sobre ciberdelincuencia para comprender el panorama de amenazas, aunque no requiera una acción técnica inmediata."
+    },
+    {
+      "title": "US Seizes NightmareStresser Domains Linked to Hundreds of Thousands of DDoS Attacks",
+      "url": "https://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 2,
+      "summary": "Las autoridades de EE. UU. han incautado dominios relacionados con NightmareStresser, un servicio de ataques DDoS.",
+      "whyItMatters": "Noticia sobre la aplicación de la ley contra el cibercrimen, con bajo impacto técnico directo para el desarrollador.",
+      "recommendedAction": "Mantenerse informado sobre el panorama general de la ciberseguridad."
+    },
+    {
+      "title": "Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata Records",
+      "url": "https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 2,
+      "summary": "Una brecha de datos en Gyazo ha expuesto millones de registros de usuario y metadatos de imágenes.",
+      "whyItMatters": "Información sobre una brecha de datos, útil como recordatorio general de seguridad, pero sin impacto técnico directo.",
+      "recommendedAction": "Revisar las prácticas de gestión de contraseñas y estar atento a futuras notificaciones de brechas de datos."
+    },
+    {
+      "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
+      "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 2,
+      "summary": "El malware BambooToken utiliza el protocolo MQTT para controlar sistemas Windows y Linux.",
+      "whyItMatters": "Describe una técnica de malware, pero el impacto directo en el desarrollador de Java/Spring/Angular es limitado sin una aplicación específica de MQTT vulnerable.",
+      "recommendedAction": "Considerar la seguridad de las implementaciones de MQTT si se utilizan en proyectos."
+    }
+  ]
+}
