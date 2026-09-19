@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-18T12:05:41.041Z",
+  "generatedAt": "2026-09-19T11:48:29.784Z",
   "availableDates": [
+    "2026-09-19",
     "2026-09-18",
     "2026-09-17",
     "2026-09-15",
@@ -94,20 +95,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 91,
-    "totalArticles": 1049,
-    "highPriority": 558,
-    "mediumPriority": 391,
-    "lowPriority": 100,
+    "totalReports": 92,
+    "totalArticles": 1064,
+    "highPriority": 567,
+    "mediumPriority": 396,
+    "lowPriority": 101,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-09-18",
+    "latestReportDate": "2026-09-19",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 490
+        "count": 504
       },
       {
         "name": "Seguridad",
@@ -115,7 +116,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 73
+        "count": 74
       },
       {
         "name": "IA para Desarrolladores",
@@ -129,7 +130,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 794
+        "count": 807
       },
       {
         "name": "Stack Overflow Blog",
@@ -137,7 +138,7 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 72
+        "count": 73
       },
       {
         "name": "Spring Blog",
@@ -145,17 +146,11 @@
       },
       {
         "name": "Krebs on Security",
-        "count": 19
+        "count": 20
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-11",
-      "high": 8,
-      "medium": 4,
-      "low": 1
-    },
     {
       "date": "2026-09-12",
       "high": 4,
@@ -191,9 +186,84 @@
       "high": 6,
       "medium": 7,
       "low": 5
+    },
+    {
+      "date": "2026-09-19",
+      "high": 9,
+      "medium": 5,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-19",
+      "generatedAt": "2026-09-19T11:48:29.775Z",
+      "totalArticles": 15,
+      "highPriority": 9,
+      "mediumPriority": 5,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 14
+        },
+        {
+          "name": "AI for Developers",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 13
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
+          "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Microsoft ha corregido una vulnerabilidad de seguridad de máxima severidad (CVSS 10.0) en Azure AI Foundry que permitía la escalada de privilegios sin autorización.",
+          "whyItMatters": "Esta vulnerabilidad crítica en una plataforma de IA de Azure podría permitir a atacantes no autenticados obtener control elevado sobre sistemas, afectando directamente la seguridad de las aplicaciones de IA.",
+          "recommendedAction": "Mantente informado sobre las actualizaciones de seguridad de Azure y asegúrate de que tus entornos de IA estén protegidos contra este tipo de fallos."
+        },
+        {
+          "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
+          "url": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una vulnerabilidad crítica (CVSS 9.8/9.3) en Orkes Conductor que permite la ejecución remota de código sin autenticación y ya está siendo explotada activamente.",
+          "whyItMatters": "Las plataformas de orquestación de flujos de trabajo son cruciales en el desarrollo moderno. Una vulnerabilidad RCE pre-autenticación explotada en la naturaleza representa un riesgo inmediato para la integridad y disponibilidad de las aplicaciones que dependen de ella.",
+          "recommendedAction": "Si utilizas Orkes Conductor, actualiza inmediatamente a una versión segura (posterior a 3.30.2) y revisa tus sistemas en busca de signos de compromiso."
+        },
+        {
+          "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
+          "url": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 8,
+          "summary": "Un ataque a la cadena de suministro de TanStack a través de npm comprometió la cuenta de GitHub de un empleado de CrowdSec, lo que resultó en la copia de 170 repositorios privados.",
+          "whyItMatters": "Este incidente destaca los peligros de las dependencias de terceros y la seguridad de las credenciales de acceso a repositorios como GitHub. Un fallo en un proveedor puede tener un impacto devastador en la propiedad intelectual y el código fuente.",
+          "recommendedAction": "Revisa tus políticas de seguridad de acceso a GitHub, implementa autenticación multifactor (MFA) y monitoriza la actividad de tus repositorios privados. Ten cuidado con las dependencias de npm."
+        }
+      ]
+    },
     {
       "date": "2026-09-18",
       "generatedAt": "2026-09-18T12:05:41.031Z",
