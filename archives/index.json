@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-19T11:48:29.784Z",
+  "generatedAt": "2026-09-20T12:02:53.289Z",
   "availableDates": [
+    "2026-09-20",
     "2026-09-19",
     "2026-09-18",
     "2026-09-17",
@@ -95,20 +96,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 92,
-    "totalArticles": 1064,
-    "highPriority": 567,
-    "mediumPriority": 396,
+    "totalReports": 93,
+    "totalArticles": 1070,
+    "highPriority": 571,
+    "mediumPriority": 398,
     "lowPriority": 101,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-09-19",
+    "latestReportDate": "2026-09-20",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 504
+        "count": 508
       },
       {
         "name": "Seguridad",
@@ -116,7 +117,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 74
+        "count": 75
       },
       {
         "name": "IA para Desarrolladores",
@@ -130,11 +131,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 807
+        "count": 811
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 86
+        "count": 88
       },
       {
         "name": "GitHub Blog",
@@ -151,12 +152,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-12",
-      "high": 4,
-      "medium": 3,
-      "low": 1
-    },
     {
       "date": "2026-09-13",
       "high": 2,
@@ -192,9 +187,84 @@
       "high": 9,
       "medium": 5,
       "low": 1
+    },
+    {
+      "date": "2026-09-20",
+      "high": 4,
+      "medium": 2,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-20",
+      "generatedAt": "2026-09-20T12:02:53.279Z",
+      "totalArticles": 6,
+      "highPriority": 4,
+      "mediumPriority": 2,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 4
+        },
+        {
+          "name": "AI for Developers",
+          "count": 1
+        },
+        {
+          "name": "Developer Tools",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 4
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 2
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Identity Visibility in 2026: The Foundation of Identity Security",
+          "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "La visibilidad de la identidad es crucial para la seguridad moderna, ya que las credenciales robadas son un vector común de acceso inicial en las brechas de seguridad. Este artículo explora qué significa la visibilidad de identidad en la gestión de identidades y accesos (IAM), los desafíos que presentan los entornos cloud y multicloud, y las capacidades esenciales.",
+          "whyItMatters": "Entender la visibilidad de la identidad es fundamental para cualquier desarrollador que trabaje con sistemas que manejan información sensible o que requieran autenticación robusta, especialmente en arquitecturas cloud. Es una base para la seguridad de la identidad.",
+          "recommendedAction": "Leer el artículo para comprender los principios de la visibilidad de identidad y cómo aplicarlos en tus proyectos, especialmente si manejas datos sensibles o arquitecturas distribuidas."
+        },
+        {
+          "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
+          "url": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un actor de amenazas patrocinado por el estado chino, conocido como FamousSparrow, ha estado desplegando una nueva puerta trasera (backdoor) llamada SparroWocky en ataques dirigidos a países de América Latina desde al menos agosto de 2025. SparroWocky es una puerta trasera modular escrita en C++.",
+          "whyItMatters": "Conocer las tácticas y herramientas de actores de amenazas patrocinados por estados es vital para anticipar y defenderse contra ataques dirigidos. La aparición de nuevas puertas traseras como SparroWocky puede indicar nuevas metodologías de infiltración y exfiltración de datos.",
+          "recommendedAction": "Mantenerse informado sobre las campañas de actores de amenazas patrocinados por estados y asegurar las aplicaciones y la infraestructura contra el despliegue de puertas traseras mediante buenas prácticas de seguridad y monitorización."
+        },
+        {
+          "title": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
+          "url": "https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "La amenaza \"hacktivista\" vinculada a Irán, conocida como Handala Hack, se ha relacionado con una puerta trasera de Telegram llamada HEAVYGRAM y una utilidad escrita en Delphi llamada CRUDEEXCLUDE. HEAVYGRAM puede robar contraseñas y otras credenciales.",
+          "whyItMatters": "Este artículo detalla una amenaza específica que utiliza Telegram para la vigilancia y el robo de credenciales. Es relevante para entender cómo las aplicaciones de mensajería popular pueden ser abusadas con fines maliciosos y cómo proteger la información sensible que se comparte o almacena en ellas.",
+          "recommendedAction": "Ser cauteloso con la información compartida a través de plataformas de mensajería y revisar las configuraciones de seguridad de las aplicaciones que utilizas. Estar atento a indicadores de compromiso relacionados con este tipo de ataques."
+        }
+      ]
+    },
     {
       "date": "2026-09-19",
       "generatedAt": "2026-09-19T11:48:29.775Z",
