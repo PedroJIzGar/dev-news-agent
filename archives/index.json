@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-20T12:02:53.289Z",
+  "generatedAt": "2026-09-23T12:35:41.416Z",
   "availableDates": [
+    "2026-09-23",
     "2026-09-20",
     "2026-09-19",
     "2026-09-18",
@@ -96,20 +97,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 93,
-    "totalArticles": 1070,
-    "highPriority": 571,
-    "mediumPriority": 398,
+    "totalReports": 94,
+    "totalArticles": 1085,
+    "highPriority": 580,
+    "mediumPriority": 404,
     "lowPriority": 101,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-09-20",
+    "latestReportDate": "2026-09-23",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 508
+        "count": 519
       },
       {
         "name": "Seguridad",
@@ -117,7 +118,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 75
+        "count": 77
       },
       {
         "name": "IA para Desarrolladores",
@@ -131,7 +132,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 811
+        "count": 824
       },
       {
         "name": "Stack Overflow Blog",
@@ -143,7 +144,7 @@
       },
       {
         "name": "Spring Blog",
-        "count": 67
+        "count": 69
       },
       {
         "name": "Krebs on Security",
@@ -152,12 +153,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-13",
-      "high": 2,
-      "medium": 0,
-      "low": 0
-    },
     {
       "date": "2026-09-14",
       "high": 2,
@@ -193,9 +188,84 @@
       "high": 4,
       "medium": 2,
       "low": 0
+    },
+    {
+      "date": "2026-09-23",
+      "high": 9,
+      "medium": 6,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-23",
+      "generatedAt": "2026-09-23T12:35:41.405Z",
+      "totalArticles": 15,
+      "highPriority": 9,
+      "mediumPriority": 6,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 11
+        },
+        {
+          "name": "AI for Developers",
+          "count": 2
+        },
+        {
+          "name": "Java/Spring",
+          "count": 2
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 13
+        },
+        {
+          "name": "Spring Blog",
+          "count": 2
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
+          "url": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una vulnerabilidad crítica en Bifrost, una puerta de enlace de IA de código abierto, permite a atacantes no autenticados ejecutar comandos arbitrarios en el servidor de la puerta de enlace con una sola petición HTTP. La falla, CVE-2026-90898, tiene una puntuación CVSS de 9.8.",
+          "whyItMatters": "Esta es una vulnerabilidad de seguridad muy grave que afecta a una herramienta utilizada para interactuar con modelos de IA. Dado que Bifrost es de código abierto, la exposición es alta. Los desarrolladores que utilizan o consideran usar Bifrost deben ser conscientes de este riesgo.",
+          "recommendedAction": "Si utilizas Bifrost AI Gateway, actualiza inmediatamente a la versión 2.1.0 o posterior. Si no lo utilizas, evalúa tu infraestructura de acceso a LLMs para identificar posibles riesgos similares."
+        },
+        {
+          "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
+          "url": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una nueva vulnerabilidad crítica (CVE-2026-93952, CVSS 10.0) en VeloCloud Orchestrator (VCO) está siendo explotada activamente. Permite a un atacante remoto sin acceso de inicio de sesión obtener privilegios y afectar al host de VCO, especialmente en configuraciones basadas en certificados.",
+          "whyItMatters": "Una vulnerabilidad con puntuación CVSS 10.0 es extremadamente grave y está siendo explotada activamente. VCO es una parte clave de la infraestructura de redes SD-WAN de VeloCloud/VMware, por lo que su compromiso puede tener un impacto significativo en la conectividad y la seguridad de la red.",
+          "recommendedAction": "Si utilizas VeloCloud Orchestrator, aplica los parches de seguridad de Arista de inmediato. Asegúrate de que tus configuraciones de autenticación de Edge con certificados sean seguras y revisa tus sistemas en busca de signos de compromiso."
+        },
+        {
+          "title": "Spring AI and TypeSafe Jev: Fast, Cheap, Structured Decisions",
+          "url": "https://spring.io/blog/2026/09/21/spring-ai-typesafe-structured-judgment",
+          "source": "Spring Blog",
+          "category": "Java/Spring",
+          "priority": "high",
+          "score": 9,
+          "summary": "Este artículo presenta Spring AI y TypeSafe Jev, dos herramientas diseñadas para facilitar la toma de decisiones estructuradas y eficientes utilizando modelos de IA. Se enfoca en cómo Spring AI simplifica la integración de LLMs en aplicaciones Spring.",
+          "whyItMatters": "Spring AI es un proyecto nuevo y emocionante para los desarrolladores de Java/Spring que desean integrar capacidades de IA generativa en sus aplicaciones. Ofrece una forma estandarizada y fácil de usar para interactuar con varios proveedores de LLMs, lo que lo hace muy relevante.",
+          "recommendedAction": "Explora la documentación y los ejemplos de Spring AI. Si estás desarrollando aplicaciones Spring, considera cómo puedes aprovechar Spring AI para añadir funcionalidades de IA, como generación de texto, resumen o respuesta a preguntas."
+        }
+      ]
+    },
     {
       "date": "2026-09-20",
       "generatedAt": "2026-09-20T12:02:53.279Z",
