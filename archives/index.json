@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-23T12:35:41.416Z",
+  "generatedAt": "2026-09-24T12:34:44.083Z",
   "availableDates": [
+    "2026-09-24",
     "2026-09-23",
     "2026-09-20",
     "2026-09-19",
@@ -97,20 +98,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 94,
-    "totalArticles": 1085,
-    "highPriority": 580,
-    "mediumPriority": 404,
-    "lowPriority": 101,
+    "totalReports": 95,
+    "totalArticles": 1101,
+    "highPriority": 590,
+    "mediumPriority": 409,
+    "lowPriority": 102,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-09-23",
+    "latestReportDate": "2026-09-24",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 519
+        "count": 530
       },
       {
         "name": "Seguridad",
@@ -118,7 +119,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 77
+        "count": 78
       },
       {
         "name": "IA para Desarrolladores",
@@ -132,7 +133,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 824
+        "count": 836
       },
       {
         "name": "Stack Overflow Blog",
@@ -140,11 +141,11 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 73
+        "count": 74
       },
       {
         "name": "Spring Blog",
-        "count": 69
+        "count": 72
       },
       {
         "name": "Krebs on Security",
@@ -153,12 +154,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-14",
-      "high": 2,
-      "medium": 0,
-      "low": 0
-    },
     {
       "date": "2026-09-15",
       "high": 7,
@@ -194,9 +189,92 @@
       "high": 9,
       "medium": 6,
       "low": 0
+    },
+    {
+      "date": "2026-09-24",
+      "high": 10,
+      "medium": 5,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-24",
+      "generatedAt": "2026-09-24T12:34:44.073Z",
+      "totalArticles": 16,
+      "highPriority": 10,
+      "mediumPriority": 5,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 11
+        },
+        {
+          "name": "Spring Boot",
+          "count": 3
+        },
+        {
+          "name": "AI for Developers",
+          "count": 1
+        },
+        {
+          "name": "GitHub",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "Spring Blog",
+          "count": 3
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+          "url": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Actores maliciosos están explotando activamente una vulnerabilidad crítica en WordPress (CVE-2026-87902) que permite la ejecución remota de código (RCE) sin autenticación. La falla podría permitir a un atacante incluir archivos PHP locales legibles.",
+          "whyItMatters": "Las vulnerabilidades críticas en sistemas populares como WordPress deben ser atendidas de inmediato debido al alto riesgo de explotación. Los desarrolladores deben estar al tanto de estas amenazas para proteger sus aplicaciones.",
+          "recommendedAction": "Actualiza inmediatamente cualquier instalación de WordPress afectada. Revisa la configuración de seguridad de tus aplicaciones y mantente informado sobre los últimos parches y avisos de seguridad."
+        },
+        {
+          "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+          "url": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Una dirección de correo electrónico privada de GitLab, destinada a la creación de incidencias, se ha filtrado, permitiendo a cualquiera enviar código y ejecutar trabajos de CI/CD en tu nombre. Quien posea esta dirección puede confirmar parches en tu rama principal y ejecutar flujos de trabajo de CI/CD como si fueras tú.",
+          "whyItMatters": "Esto representa un riesgo de seguridad significativo para los desarrolladores que utilizan GitLab para el control de versiones y la CI/CD. La filtración de esta dirección puede comprometer la integridad del código y la seguridad de los pipelines.",
+          "recommendedAction": "Revisa y asegura las configuraciones de correo electrónico en GitLab. Considera deshabilitar la funcionalidad de envío de incidencias por correo o implementa medidas de seguridad adicionales para proteger estas direcciones."
+        },
+        {
+          "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
+          "url": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Actores maliciosos han comprometido paquetes legítimos de MemTensor en npm y PyPI para distribuir un implante Go llamado sckit, diseñado para robar credenciales en Windows, Linux y macOS.",
+          "whyItMatters": "El compromiso de paquetes en repositorios populares como npm y PyPI es una amenaza directa para la cadena de suministro de software. Los desarrolladores que utilizan estas bibliotecas deben ser cautelosos con las dependencias y verificar su integridad.",
+          "recommendedAction": "Audita tus dependencias y asegúrate de que no estás utilizando versiones comprometidas de los paquetes MemTensor. Implementa escaneos de seguridad en tu proceso de desarrollo para detectar software malicioso en tus dependencias."
+        }
+      ]
+    },
     {
       "date": "2026-09-23",
       "generatedAt": "2026-09-23T12:35:41.405Z",
