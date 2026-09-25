@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-24T12:34:44.083Z",
+  "generatedAt": "2026-09-25T12:35:40.924Z",
   "availableDates": [
+    "2026-09-25",
     "2026-09-24",
     "2026-09-23",
     "2026-09-20",
@@ -98,20 +99,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 95,
-    "totalArticles": 1101,
-    "highPriority": 590,
-    "mediumPriority": 409,
-    "lowPriority": 102,
+    "totalReports": 96,
+    "totalArticles": 1116,
+    "highPriority": 595,
+    "mediumPriority": 414,
+    "lowPriority": 107,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-09-24",
+    "latestReportDate": "2026-09-25",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 530
+        "count": 537
       },
       {
         "name": "Seguridad",
@@ -127,13 +128,13 @@
       },
       {
         "name": "Java/Spring Boot",
-        "count": 20
+        "count": 23
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 836
+        "count": 844
       },
       {
         "name": "Stack Overflow Blog",
@@ -141,11 +142,11 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 74
+        "count": 77
       },
       {
         "name": "Spring Blog",
-        "count": 72
+        "count": 76
       },
       {
         "name": "Krebs on Security",
@@ -154,12 +155,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-15",
-      "high": 7,
-      "medium": 6,
-      "low": 1
-    },
     {
       "date": "2026-09-17",
       "high": 7,
@@ -195,9 +190,96 @@
       "high": 10,
       "medium": 5,
       "low": 1
+    },
+    {
+      "date": "2026-09-25",
+      "high": 5,
+      "medium": 5,
+      "low": 5
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-25",
+      "generatedAt": "2026-09-25T12:35:40.908Z",
+      "totalArticles": 15,
+      "highPriority": 5,
+      "mediumPriority": 5,
+      "lowPriority": 5,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 7
+        },
+        {
+          "name": "Java/Spring Boot",
+          "count": 3
+        },
+        {
+          "name": "Security & AI",
+          "count": 2
+        },
+        {
+          "name": "AI for Developers / Java",
+          "count": 1
+        },
+        {
+          "name": "Dev Tools / AI",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 8
+        },
+        {
+          "name": "Spring Blog",
+          "count": 4
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 3
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "AI-powered fuzzing with the GitHub Security Lab Taskflow Agent",
+          "url": "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent/",
+          "source": "GitHub Blog",
+          "category": "Security & AI",
+          "priority": "high",
+          "score": 10,
+          "summary": "El GitHub Security Lab presenta un nuevo agente de IA para optimizar el proceso de fuzzing en la detección de vulnerabilidades.",
+          "whyItMatters": "Integra IA directamente en el flujo de trabajo de seguridad para encontrar fallos de forma más eficiente, relevante para quienes trabajan con seguridad y utilizan herramientas de IA.",
+          "recommendedAction": "Explorar la documentación y considerar la integración de esta técnica en los procesos de testing de seguridad."
+        },
+        {
+          "title": "Spring Boot 4.2.0-M2 available now",
+          "url": "https://spring.io/blog/2026/09/25/spring-boot-4-2-0-M2-available-now",
+          "source": "Spring Blog",
+          "category": "Java/Spring Boot",
+          "priority": "high",
+          "score": 9,
+          "summary": "Disponible la segunda versión Milestone de Spring Boot 4.2.0, con nuevas características y mejoras.",
+          "whyItMatters": "Es una actualización importante del framework principal para el desarrollo backend, que incluye las últimas novedades y correcciones.",
+          "recommendedAction": "Revisar las notas de la versión y planificar la actualización a esta nueva versión en proyectos relevantes."
+        },
+        {
+          "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+          "url": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una vulnerabilidad crítica de inyección SQL en Roundcube Webmail, que permite acceso sin autenticación, está siendo explotada activamente.",
+          "whyItMatters": "Afecta a un componente común en la administración de correo web y representa una amenaza de seguridad inmediata que podría ser utilizada en ataques.",
+          "recommendedAction": "Verificar si se utilizan versiones afectadas de Roundcube y aplicar el parche de actualización inmediatamente."
+        }
+      ]
+    },
     {
       "date": "2026-09-24",
       "generatedAt": "2026-09-24T12:34:44.073Z",
