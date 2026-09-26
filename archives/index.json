@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-25T12:35:40.924Z",
+  "generatedAt": "2026-09-26T12:04:55.869Z",
   "availableDates": [
+    "2026-09-26",
     "2026-09-25",
     "2026-09-24",
     "2026-09-23",
@@ -99,20 +100,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 96,
-    "totalArticles": 1116,
-    "highPriority": 595,
-    "mediumPriority": 414,
-    "lowPriority": 107,
+    "totalReports": 97,
+    "totalArticles": 1131,
+    "highPriority": 603,
+    "mediumPriority": 419,
+    "lowPriority": 109,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-09-25",
+    "latestReportDate": "2026-09-26",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 537
+        "count": 547
       },
       {
         "name": "Seguridad",
@@ -120,7 +121,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 78
+        "count": 80
       },
       {
         "name": "IA para Desarrolladores",
@@ -134,7 +135,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 844
+        "count": 855
       },
       {
         "name": "Stack Overflow Blog",
@@ -142,7 +143,7 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 77
+        "count": 79
       },
       {
         "name": "Spring Blog",
@@ -155,12 +156,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-17",
-      "high": 7,
-      "medium": 8,
-      "low": 0
-    },
     {
       "date": "2026-09-18",
       "high": 6,
@@ -196,9 +191,92 @@
       "high": 5,
       "medium": 5,
       "low": 5
+    },
+    {
+      "date": "2026-09-26",
+      "high": 8,
+      "medium": 5,
+      "low": 2
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-26",
+      "generatedAt": "2026-09-26T12:04:55.858Z",
+      "totalArticles": 15,
+      "highPriority": 8,
+      "mediumPriority": 5,
+      "lowPriority": 2,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 10
+        },
+        {
+          "name": "Frontend",
+          "count": 2
+        },
+        {
+          "name": "AI for Developers",
+          "count": 2
+        },
+        {
+          "name": "Development Practices",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 11
+        },
+        {
+          "name": "Angular Blog",
+          "count": 2
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 2
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
+          "source": "GitHub Blog",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 10,
+          "summary": "GitHub introduce una aplicación para principiantes de GitHub Copilot que permite construir flujos de trabajo personalizados utilizando interfaces visuales ('canvases'). El objetivo es que los desarrolladores describan la interfaz deseada en lenguaje natural y Copilot la genere, reduciendo el tiempo de adaptación a herramientas.",
+          "whyItMatters": "Esta es una noticia de alta relevancia ya que introduce una nueva forma de interactuar con las herramientas de desarrollo asistido por IA, haciendo Copilot más accesible y potente para crear interfaces y flujos de trabajo personalizados. Se alinea directamente con el interés en IA para desarrolladores y GitHub.",
+          "recommendedAction": "Explorar la nueva aplicación de GitHub Copilot para principiantes y experimentar con la creación de flujos de trabajo personalizados. Evaluar cómo esta herramienta puede mejorar la productividad en el desarrollo."
+        },
+        {
+          "title": "Architecting the Modern Web: Debounce APIs, Rendering Strategies, and Automated AI Setup! ⚡",
+          "url": "https://blog.angular.dev/architecting-the-modern-web-debounce-apis-rendering-strategies-and-automated-ai-setup-826bc54ae3a9?source=rss----447683c3d9a3---4",
+          "source": "Angular Blog",
+          "category": "Frontend",
+          "priority": "high",
+          "score": 9,
+          "summary": "Este artículo profundiza en la arquitectura web moderna, cubriendo técnicas como el debounce de APIs para mejorar la respuesta, estrategias de renderizado eficientes y la automatización de configuraciones con IA. Se enfoca en cómo optimizar el desarrollo y el rendimiento en aplicaciones web complejas.",
+          "whyItMatters": "Aborda directamente conceptos clave para desarrolladores de Angular, como las estrategias de renderizado y la optimización de APIs, e introduce el uso de IA para automatizar tareas, algo muy relevante para el desarrollo moderno y la eficiencia.",
+          "recommendedAction": "Leer el artículo para entender las últimas técnicas de arquitectura web en Angular y cómo la IA puede integrarse en el flujo de trabajo de desarrollo."
+        },
+        {
+          "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+          "url": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una vulnerabilidad crítica de Cross-Site Request Forgery (CSRF) en el plugin Elementor Website Builder para WordPress. Esta falla, con un CVSS de 8.8, permite a atacantes no autenticados crear cuentas de administrador y tomar control de sitios web simplemente haciendo clic en un enlace malicioso.",
+          "whyItMatters": "Esta noticia es crucial para la seguridad. Las vulnerabilidades CSRF pueden tener un impacto devastador, permitiendo el secuestro de cuentas y sitios. Entender cómo funcionan y cómo prevenirlas es fundamental para cualquier desarrollador que trabaje con aplicaciones web, especialmente aquellas que involucran gestión de usuarios o administración.",
+          "recommendedAction": "Revisar si se utiliza el plugin Elementor y actualizarlo inmediatamente. Investigar y aplicar medidas de protección contra ataques CSRF en cualquier aplicación web que se desarrolle."
+        }
+      ]
+    },
     {
       "date": "2026-09-25",
       "generatedAt": "2026-09-25T12:35:40.908Z",
