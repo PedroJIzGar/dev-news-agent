@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-26T12:04:55.869Z",
+  "generatedAt": "2026-09-27T12:48:54.169Z",
   "availableDates": [
+    "2026-09-27",
     "2026-09-26",
     "2026-09-25",
     "2026-09-24",
@@ -100,20 +101,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 97,
-    "totalArticles": 1131,
-    "highPriority": 603,
-    "mediumPriority": 419,
+    "totalReports": 98,
+    "totalArticles": 1146,
+    "highPriority": 613,
+    "mediumPriority": 424,
     "lowPriority": 109,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-09-26",
+    "latestReportDate": "2026-09-27",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 547
+        "count": 558
       },
       {
         "name": "Seguridad",
@@ -121,7 +122,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 80
+        "count": 83
       },
       {
         "name": "IA para Desarrolladores",
@@ -135,11 +136,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 855
+        "count": 867
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 88
+        "count": 90
       },
       {
         "name": "GitHub Blog",
@@ -151,17 +152,11 @@
       },
       {
         "name": "Krebs on Security",
-        "count": 20
+        "count": 21
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-18",
-      "high": 6,
-      "medium": 7,
-      "low": 5
-    },
     {
       "date": "2026-09-19",
       "high": 9,
@@ -197,9 +192,88 @@
       "high": 8,
       "medium": 5,
       "low": 2
+    },
+    {
+      "date": "2026-09-27",
+      "high": 10,
+      "medium": 5,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-27",
+      "generatedAt": "2026-09-27T12:48:54.158Z",
+      "totalArticles": 15,
+      "highPriority": 10,
+      "mediumPriority": 5,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 11
+        },
+        {
+          "name": "AI for Developers",
+          "count": 3
+        },
+        {
+          "name": "Professional Development",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 2
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+          "url": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Actores de amenazas están explotando una vulnerabilidad crítica (CVE-2026-35273) en Oracle PeopleSoft para ejecutar código remotamente y desplegar web shells, incluso eludiendo Web Application Firewalls (WAFs). La campaña afecta a múltiples sectores a nivel global.",
+          "whyItMatters": "Demuestra cómo vulnerabilidades conocidas y parcheadas pueden ser explotadas si no se aplican a tiempo, y resalta la necesidad de protegerse contra el bypass de WAFs. Es crucial para entender las tácticas de ataque modernas contra aplicaciones empresariales.",
+          "recommendedAction": "Revisar y aplicar los parches de seguridad de Oracle PeopleSoft inmediatamente. Fortalecer las configuraciones de WAFs y monitorizar activamente los intentos de explotación de esta vulnerabilidad."
+        },
+        {
+          "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
+          "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Dos vulnerabilidades de día cero (zero-day) sin parches en Citrix NetScaler ADC y NetScaler Gateway están siendo explotadas activamente en la naturaleza, permitiendo la ejecución remota de código (RCE). Citrix aún no ha publicado un parche.",
+          "whyItMatters": "Las vulnerabilidades de día cero activamente explotadas representan un riesgo inmediato y grave. Dado que NetScaler es un componente de infraestructura común, las organizaciones que lo utilizan deben actuar con urgencia para mitigar el riesgo, incluso si eso significa tomar dispositivos fuera de línea.",
+          "recommendedAction": "Si utiliza Citrix NetScaler ADC o Gateway, investigue inmediatamente estas vulnerabilidades. Considere medidas de mitigación temporal como el bloqueo de tráfico malicioso o la desconexión de dispositivos si no hay un parche disponible y el riesgo es alto."
+        },
+        {
+          "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+          "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
+          "source": "The Hacker News",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 9,
+          "summary": "La implementación de arquitecturas de Zero Trust para agentes de IA requiere abordar la falta de visibilidad sobre sus acciones y capacidades. La reciente intrusión en Hugging Face destaca la necesidad de un enfoque más riguroso.",
+          "whyItMatters": "A medida que los desarrolladores integran cada vez más agentes de IA en sus flujos de trabajo, comprender y asegurar su comportamiento es fundamental. La falta de visibilidad puede llevar a brechas de seguridad imprevistas. Este artículo aborda un desafío clave en la adopción segura de IA.",
+          "recommendedAction": "Explorar e implementar herramientas y prácticas que proporcionen visibilidad sobre las operaciones de los agentes de IA. Revisar las políticas de seguridad y los modelos de confianza para incluir explícitamente los agentes de IA y sus interacciones."
+        }
+      ]
+    },
     {
       "date": "2026-09-26",
       "generatedAt": "2026-09-26T12:04:55.858Z",
