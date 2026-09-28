@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-27T12:48:54.169Z",
+  "generatedAt": "2026-09-28T14:59:52.392Z",
   "availableDates": [
+    "2026-09-28",
     "2026-09-27",
     "2026-09-26",
     "2026-09-25",
@@ -101,20 +102,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 98,
-    "totalArticles": 1146,
-    "highPriority": 613,
-    "mediumPriority": 424,
+    "totalReports": 99,
+    "totalArticles": 1153,
+    "highPriority": 616,
+    "mediumPriority": 428,
     "lowPriority": 109,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-09-27",
+    "latestReportDate": "2026-09-28",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 558
+        "count": 563
       },
       {
         "name": "Seguridad",
@@ -122,7 +123,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 83
+        "count": 85
       },
       {
         "name": "IA para Desarrolladores",
@@ -136,11 +137,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 867
+        "count": 872
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 90
+        "count": 92
       },
       {
         "name": "GitHub Blog",
@@ -157,12 +158,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-19",
-      "high": 9,
-      "medium": 5,
-      "low": 1
-    },
     {
       "date": "2026-09-20",
       "high": 4,
@@ -198,9 +193,80 @@
       "high": 10,
       "medium": 5,
       "low": 0
+    },
+    {
+      "date": "2026-09-28",
+      "high": 3,
+      "medium": 4,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-28",
+      "generatedAt": "2026-09-28T14:59:52.381Z",
+      "totalArticles": 7,
+      "highPriority": 3,
+      "mediumPriority": 4,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 5
+        },
+        {
+          "name": "AI for Developers",
+          "count": 2
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 5
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 2
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+          "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Investigadores de ciberseguridad han descubierto una nueva botnet llamada Carbonato que ataca hosts Docker expuestos para desplegar un agente de IA llamado Hermes Agent, controlado por Telegram. El implante instala el framework sin cambios y modifica su archivo de persona para ejecutar tareas recibidas.",
+          "whyItMatters": "Este artículo es relevante porque trata sobre una nueva amenaza de seguridad que explota Docker, una tecnología clave para el desarrollo y despliegue. Además, involucra IA, un área de interés creciente para los desarrolladores.",
+          "recommendedAction": "Revisa la configuración de seguridad de tus hosts Docker para asegurarte de que no estén expuestos a internet. Mantente informado sobre las tácticas de las botnets que utilizan IA."
+        },
+        {
+          "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
+          "url": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "medium",
+          "score": 8,
+          "summary": "Un webinar aborda la creciente problemática de la gobernanza de agentes de IA en entornos empresariales. Se enfoca en cómo reducir el acceso excesivo y controlar la 'IA en la sombra', ya que los agentes de IA se están implementando rápidamente sin los controles de seguridad adecuados.",
+          "whyItMatters": "Con el auge de la IA, es crucial entender cómo asegurar y gestionar su uso. Este artículo toca la importancia de la seguridad y la gobernanza en el contexto de la IA, algo cada vez más relevante para los desarrolladores.",
+          "recommendedAction": "Considera asistir al webinar o investigar las mejores prácticas para la gestión y seguridad de agentes de IA en tu entorno de desarrollo y producción."
+        },
+        {
+          "title": "Multiplayer AI: Why your team (and its agents) need a group chat",
+          "url": "https://stackoverflow.blog/2026/09/23/multiplayer-ai-why-your-team-and-its-agents-need-a-group-chat/",
+          "source": "Stack Overflow Blog",
+          "category": "AI for Developers",
+          "priority": "medium",
+          "score": 8,
+          "summary": "Este artículo discute cómo la nueva función 'Code Channels' de Slack está introduciendo la 'IA multijugador' en las conversaciones de equipo, facilitando la colaboración entre desarrolladores y sus agentes de IA.",
+          "whyItMatters": "Explora cómo la IA se está integrando en las herramientas de colaboración para desarrolladores, mejorando la productividad. Es relevante para entender las nuevas formas de trabajar con IA en equipos.",
+          "recommendedAction": "Explora cómo herramientas como Slack están integrando IA para mejorar la colaboración y considera cómo tu equipo podría beneficiarse de estas nuevas capacidades."
+        }
+      ]
+    },
     {
       "date": "2026-09-27",
       "generatedAt": "2026-09-27T12:48:54.158Z",

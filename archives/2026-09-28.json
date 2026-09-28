@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T14:59:52.381Z",
+  "totalArticles": 7,
+  "summary": {
+    "highPriority": 3,
+    "mediumPriority": 4,
+    "lowPriority": 0,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 5
+      },
+      {
+        "name": "AI for Developers",
+        "count": 2
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 5
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "count": 2
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+      "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Investigadores de ciberseguridad han descubierto una nueva botnet llamada Carbonato que ataca hosts Docker expuestos para desplegar un agente de IA llamado Hermes Agent, controlado por Telegram. El implante instala el framework sin cambios y modifica su archivo de persona para ejecutar tareas recibidas.",
+      "whyItMatters": "Este artículo es relevante porque trata sobre una nueva amenaza de seguridad que explota Docker, una tecnología clave para el desarrollo y despliegue. Además, involucra IA, un área de interés creciente para los desarrolladores.",
+      "recommendedAction": "Revisa la configuración de seguridad de tus hosts Docker para asegurarte de que no estén expuestos a internet. Mantente informado sobre las tácticas de las botnets que utilizan IA."
+    },
+    {
+      "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
+      "url": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 7,
+      "summary": "La CISA ha añadido dos vulnerabilidades críticas en Citrix NetScaler ADC y Gateway a su catálogo de Vulnerabilidades Explotadas Conocidas (KEV) debido a informes de explotación activa. Una de ellas, CVE-2026-88771, tiene una puntuación CVSS de 9.5 y permite a un atacante no autenticado realizar acciones maliciosas.",
+      "whyItMatters": "Aunque no está directamente relacionado con el stack tecnológico del usuario, las vulnerabilidades críticas en sistemas de red como Citrix NetScaler pueden tener un impacto generalizado en la seguridad de las empresas y la infraestructura que utilizan muchas aplicaciones. Estar al tanto de estas amenazas es importante para la seguridad general.",
+      "recommendedAction": "Si tu organización utiliza Citrix NetScaler, asegúrate de aplicar los parches y actualizaciones de seguridad más recientes para mitigar estas vulnerabilidades críticas."
+    },
+    {
+      "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
+      "url": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 8,
+      "summary": "Un webinar aborda la creciente problemática de la gobernanza de agentes de IA en entornos empresariales. Se enfoca en cómo reducir el acceso excesivo y controlar la 'IA en la sombra', ya que los agentes de IA se están implementando rápidamente sin los controles de seguridad adecuados.",
+      "whyItMatters": "Con el auge de la IA, es crucial entender cómo asegurar y gestionar su uso. Este artículo toca la importancia de la seguridad y la gobernanza en el contexto de la IA, algo cada vez más relevante para los desarrolladores.",
+      "recommendedAction": "Considera asistir al webinar o investigar las mejores prácticas para la gestión y seguridad de agentes de IA en tu entorno de desarrollo y producción."
+    },
+    {
+      "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
+      "url": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Este resumen semanal cubre varias amenazas de seguridad importantes, incluyendo un hackeo de criptomonedas de $387M, la explotación de fallos en Citrix, y problemas con agentes de IA que se desvían de su propósito. También se mencionan otras amenazas como cuentas de servicio débiles y viejos bugs.",
+      "whyItMatters": "Proporciona una visión general rápida de las amenazas de seguridad más relevantes de la semana, incluyendo la IA, lo cual es útil para mantenerse actualizado sobre el panorama de riesgos sin necesidad de leer cada noticia individualmente.",
+      "recommendedAction": "Echa un vistazo a las noticias destacadas para estar al tanto de las últimas amenazas de seguridad que podrían afectar a los desarrolladores y sus proyectos."
+    },
+    {
+      "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
+      "url": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 7,
+      "summary": "Actores de amenazas vinculados a JADEPUFFER han estado utilizando principals de servicio comprometidos para realizar acciones destructivas en entornos Microsoft Azure. Microsoft rastrea esta actividad como Storm-3168, observando una evolución en las tácticas del actor.",
+      "whyItMatters": "Este artículo es importante para desarrolladores que trabajan con Azure, ya que detalla una técnica de ataque específica (principals de servicio comprometidos) que puede ser utilizada para la destrucción de recursos. Comprender estas tácticas ayuda a fortalecer las defensas.",
+      "recommendedAction": "Revisa las políticas de acceso y los permisos de tus service principals en Azure para asegurar que sigan el principio de mínimo privilegio y estén debidamente protegidos."
+    },
+    {
+      "title": "Multiplayer AI: Why your team (and its agents) need a group chat",
+      "url": "https://stackoverflow.blog/2026/09/23/multiplayer-ai-why-your-team-and-its-agents-need-a-group-chat/",
+      "source": "Stack Overflow Blog",
+      "category": "AI for Developers",
+      "priority": "medium",
+      "score": 8,
+      "summary": "Este artículo discute cómo la nueva función 'Code Channels' de Slack está introduciendo la 'IA multijugador' en las conversaciones de equipo, facilitando la colaboración entre desarrolladores y sus agentes de IA.",
+      "whyItMatters": "Explora cómo la IA se está integrando en las herramientas de colaboración para desarrolladores, mejorando la productividad. Es relevante para entender las nuevas formas de trabajar con IA en equipos.",
+      "recommendedAction": "Explora cómo herramientas como Slack están integrando IA para mejorar la colaboración y considera cómo tu equipo podría beneficiarse de estas nuevas capacidades."
+    },
+    {
+      "title": "From better privacy to our new ChatGPT plugin, here's what's new on Stack Overflow for Agents",
+      "url": "https://stackoverflow.blog/2026/09/16/here-s-what-s-new-on-stack-overflow-for-agents/",
+      "source": "Stack Overflow Blog",
+      "category": "AI for Developers",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Stack Overflow ha lanzado actualizaciones para 'Stack Overflow for Agents', su plataforma de intercambio de conocimiento basada en API para agentes de IA. Las novedades incluyen mejoras en la privacidad y un nuevo plugin para ChatGPT.",
+      "whyItMatters": "Muestra la evolución de plataformas de conocimiento como Stack Overflow para soportar agentes de IA y su integración con herramientas como ChatGPT. El uso de APIs es un tema recurrente y la IA es un área de interés.",
+      "recommendedAction": "Investiga las nuevas funcionalidades de Stack Overflow for Agents y su plugin de ChatGPT, especialmente si utilizas IA en tus flujos de trabajo de desarrollo."
+    }
+  ]
+}
