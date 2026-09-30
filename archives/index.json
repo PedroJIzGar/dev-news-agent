@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-29T13:47:05.717Z",
+  "generatedAt": "2026-09-30T13:22:16.759Z",
   "availableDates": [
+    "2026-09-30",
     "2026-09-29",
     "2026-09-28",
     "2026-09-27",
@@ -103,13 +104,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 100,
-    "totalArticles": 1168,
-    "highPriority": 625,
-    "mediumPriority": 433,
+    "totalReports": 101,
+    "totalArticles": 1181,
+    "highPriority": 633,
+    "mediumPriority": 438,
     "lowPriority": 110,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-09-29",
+    "latestReportDate": "2026-09-30",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -120,7 +121,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 220
+        "count": 231
       },
       {
         "name": "AI for Developers",
@@ -138,7 +139,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 881
+        "count": 892
       },
       {
         "name": "Stack Overflow Blog",
@@ -146,11 +147,11 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 81
+        "count": 82
       },
       {
         "name": "Spring Blog",
-        "count": 76
+        "count": 77
       },
       {
         "name": "Krebs on Security",
@@ -159,12 +160,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-23",
-      "high": 9,
-      "medium": 6,
-      "low": 0
-    },
     {
       "date": "2026-09-24",
       "high": 10,
@@ -200,9 +195,88 @@
       "high": 9,
       "medium": 5,
       "low": 1
+    },
+    {
+      "date": "2026-09-30",
+      "high": 8,
+      "medium": 5,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-09-30",
+      "generatedAt": "2026-09-30T13:22:16.752Z",
+      "totalArticles": 13,
+      "highPriority": 8,
+      "mediumPriority": 5,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 11
+        },
+        {
+          "name": "GitHub",
+          "count": 1
+        },
+        {
+          "name": "Spring Boot",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 11
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
+          "url": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 10,
+          "summary": "Agentes de codificación de IA han expuesto accidentalmente más de 13,000 imágenes internas de empresas, incluyendo registros de facturación, en repositorios públicos de GitHub. Esto ocurrió cuando se les pidió a los agentes que compartieran capturas de pantalla de cambios de código para revisión.",
+          "whyItMatters": "Este incidente subraya un riesgo de seguridad significativo asociado con el uso de herramientas de IA en el desarrollo. La exposición de datos sensibles como registros de facturación y código no lanzado puede tener graves implicaciones para la privacidad y la propiedad intelectual de las empresas.",
+          "recommendedAction": "Revisar y restringir los tipos de datos que se comparten con las herramientas de IA, implementar políticas de seguridad más estrictas para el uso de estas herramientas y auditar regularmente los repositorios públicos en busca de fugas de datos."
+        },
+        {
+          "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+          "url": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se han revelado detalles técnicos de una vulnerabilidad crítica en Citrix NetScaler ADC y Gateway (CVE-2026-88772), que permite la ejecución de código sin autenticación previa. La vulnerabilidad, clasificada con un CVSS de 9.5, afecta al manejo del protocolo DTLS.",
+          "whyItMatters": "Esta vulnerabilidad es crítica porque permite a los atacantes obtener acceso y ejecutar código malicioso en sistemas expuestos sin necesidad de autenticación, lo que representa un riesgo inmediato para las organizaciones que utilizan NetScaler.",
+          "recommendedAction": "Aplicar urgentemente los parches de seguridad proporcionados por Citrix para NetScaler ADC y Gateway. Monitorizar los sistemas para detectar cualquier actividad sospechosa relacionada con la explotación de esta CVE."
+        },
+        {
+          "title": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
+          "url": "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una nueva variante de la vulnerabilidad Spectre, denominada Branch Target Reuse (BTR), ha sido descubierta. Esta variante puede filtrar memoria del sistema operativo Linux incluso con las defensas existentes, afectando a motores Just-In-Time (JIT) en navegadores, runtimes de lenguajes y el kernel del SO.",
+          "whyItMatters": "Las vulnerabilidades de tipo Spectre representan una amenaza fundamental para la seguridad de la CPU. El descubrimiento de una nueva variante que evade las defensas actuales requiere atención inmediata para comprender su alcance y mitigar su impacto potencial.",
+          "recommendedAction": "Mantener los sistemas actualizados con los últimos parches de seguridad del sistema operativo y el hardware. Estar atento a las recomendaciones de los proveedores de CPU y SO sobre mitigaciones específicas para esta nueva variante de Spectre."
+        }
+      ]
+    },
     {
       "date": "2026-09-29",
       "generatedAt": "2026-09-29T13:47:05.706Z",
