@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-09-30T13:22:16.759Z",
+  "generatedAt": "2026-10-01T14:15:44.790Z",
   "availableDates": [
+    "2026-10-01",
     "2026-09-30",
     "2026-09-29",
     "2026-09-28",
@@ -104,24 +105,24 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 101,
-    "totalArticles": 1181,
-    "highPriority": 633,
-    "mediumPriority": 438,
-    "lowPriority": 110,
+    "totalReports": 102,
+    "totalArticles": 1196,
+    "highPriority": 641,
+    "mediumPriority": 444,
+    "lowPriority": 111,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-09-30",
+    "latestReportDate": "2026-10-01",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 570
+        "count": 571
       },
       {
         "name": "Seguridad",
-        "count": 231
+        "count": 238
       },
       {
         "name": "AI for Developers",
@@ -139,11 +140,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 892
+        "count": 904
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 95
+        "count": 97
       },
       {
         "name": "GitHub Blog",
@@ -151,7 +152,7 @@
       },
       {
         "name": "Spring Blog",
-        "count": 77
+        "count": 78
       },
       {
         "name": "Krebs on Security",
@@ -160,12 +161,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-24",
-      "high": 10,
-      "medium": 5,
-      "low": 1
-    },
     {
       "date": "2026-09-25",
       "high": 5,
@@ -201,9 +196,96 @@
       "high": 8,
       "medium": 5,
       "low": 0
+    },
+    {
+      "date": "2026-10-01",
+      "high": 8,
+      "medium": 6,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-01",
+      "generatedAt": "2026-10-01T14:15:44.774Z",
+      "totalArticles": 15,
+      "highPriority": 8,
+      "mediumPriority": 6,
+      "lowPriority": 1,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 7
+        },
+        {
+          "name": "AI/Seguridad",
+          "count": 3
+        },
+        {
+          "name": "Security",
+          "count": 1
+        },
+        {
+          "name": "Java/Spring",
+          "count": 1
+        },
+        {
+          "name": "Seguridad/Desarrollo",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 2
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
+          "url": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Cisco ha emitido una advertencia sobre una falla crítica de día cero (CVE-2026-76504) en su software Cisco Catalyst SD-WAN Manager. Los atacantes pueden explotar esta vulnerabilidad a través de la API para obtener acceso de administrador sin necesidad de autenticación.",
+          "whyItMatters": "Esta vulnerabilidad representa un riesgo de seguridad significativo, ya que permite a atacantes remotos no autenticados tomar el control de sistemas de gestión de redes cruciales. La falta de un parche o solución temporal la hace especialmente peligrosa.",
+          "recommendedAction": "Aplica los parches de Cisco para Catalyst SD-WAN Manager tan pronto como estén disponibles y revisa los registros de auditoría en busca de actividad sospechosa."
+        },
+        {
+          "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
+          "url": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 10,
+          "summary": "La CISA ha añadido una vulnerabilidad crítica de bypass de autenticación en Cisco Catalyst SD-WAN Manager (CVE-2026-76504) a su lista de Vulnerabilidades Explotadas Conocidas (KEV). La vulnerabilidad tiene una puntuación CVSS de 9.8 y está siendo explotada activamente.",
+          "whyItMatters": "La inclusión en la lista KEV de la CISA indica que la vulnerabilidad está siendo explotada activamente en la naturaleza, representando una amenaza inmediata. La gravedad (CVSS 9.8) subraya la urgencia de abordar esta falla de seguridad.",
+          "recommendedAction": "Prioriza la aplicación de parches para Cisco Catalyst SD-WAN Manager a la brevedad. Revisa y asegura los sistemas afectados, y monitoriza la actividad de red para detectar intentos de explotación."
+        },
+        {
+          "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
+          "url": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+          "source": "The Hacker News",
+          "category": "AI/Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha detectado que los actores de amenazas están abusando de los GPTs personalizados de ChatGPT para disfrazarlos como ofertas de productos legítimos. Estos GPTs dirigen a las víctimas a sitios maliciosos que utilizan señuelos 'ClickFix' para distribuir malware, específicamente un RAT (Remote Access Trojan).",
+          "whyItMatters": "Demuestra un nuevo vector de ataque que explota la confianza en las plataformas de IA. Como desarrolladores, es vital ser conscientes de cómo se pueden manipular estas herramientas para la distribución de malware y cómo proteger a los usuarios o sistemas que interactúan con ellas.",
+          "recommendedAction": "Educa a los usuarios sobre los riesgos de interactuar con GPTs no verificados y ten cuidado con los enlaces y descargas provenientes de fuentes inesperadas, incluso si se presentan a través de plataformas de IA."
+        }
+      ]
+    },
     {
       "date": "2026-09-30",
       "generatedAt": "2026-09-30T13:22:16.752Z",
