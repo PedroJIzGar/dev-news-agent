@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-01T14:15:44.790Z",
+  "generatedAt": "2026-10-02T13:37:44.917Z",
   "availableDates": [
+    "2026-10-02",
     "2026-10-01",
     "2026-09-30",
     "2026-09-29",
@@ -105,20 +106,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 102,
-    "totalArticles": 1196,
-    "highPriority": 641,
-    "mediumPriority": 444,
-    "lowPriority": 111,
+    "totalReports": 103,
+    "totalArticles": 1208,
+    "highPriority": 644,
+    "mediumPriority": 450,
+    "lowPriority": 114,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-01",
+    "latestReportDate": "2026-10-02",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 571
+        "count": 577
       },
       {
         "name": "Seguridad",
@@ -126,7 +127,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 92
+        "count": 94
       },
       {
         "name": "IA para Desarrolladores",
@@ -140,19 +141,19 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 904
+        "count": 911
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 97
+        "count": 100
       },
       {
         "name": "GitHub Blog",
-        "count": 82
+        "count": 83
       },
       {
         "name": "Spring Blog",
-        "count": 78
+        "count": 79
       },
       {
         "name": "Krebs on Security",
@@ -161,12 +162,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-25",
-      "high": 5,
-      "medium": 5,
-      "low": 5
-    },
     {
       "date": "2026-09-26",
       "high": 8,
@@ -202,9 +197,96 @@
       "high": 8,
       "medium": 6,
       "low": 1
+    },
+    {
+      "date": "2026-10-02",
+      "high": 3,
+      "medium": 6,
+      "low": 3
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-02",
+      "generatedAt": "2026-10-02T13:37:44.906Z",
+      "totalArticles": 12,
+      "highPriority": 3,
+      "mediumPriority": 6,
+      "lowPriority": 3,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 6
+        },
+        {
+          "name": "Professional Development",
+          "count": 3
+        },
+        {
+          "name": "AI for Developers",
+          "count": 2
+        },
+        {
+          "name": "GitHub",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 7
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 3
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Spring AI Modular RAG and TypeSafe Jev: Retrieve More, Keep Only What Answers",
+          "url": "https://spring.io/blog/2026/10/02/spring-ai-modular-rag-typesafe-jev",
+          "source": "Spring Blog",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 10,
+          "summary": "Este artículo del blog de Spring introduce las nuevas capacidades de Spring AI, centrándose en la Recuperación Aumentada Generativa (RAG) modular y TypeSafe Jev. Estas características permiten una recuperación de datos más eficiente y precisa para aplicaciones de IA.",
+          "whyItMatters": "Para los desarrolladores de Java y Spring Boot interesados en IA, esta actualización de Spring AI es muy relevante. Permite construir aplicaciones de IA más potentes y precisas, mejorando la forma en que los modelos de lenguaje acceden y utilizan la información.",
+          "recommendedAction": "Explorar la documentación de Spring AI para entender cómo implementar RAG modular y TypeSafe Jev en proyectos existentes o nuevos. Considerar la integración para mejorar la inteligencia de las aplicaciones."
+        },
+        {
+          "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
+          "url": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una vulnerabilidad crítica en FortiMail, rastreada como CVE-2026-104286, está siendo explotada activamente. Permite a atacantes no autenticados escribir archivos arbitrarios en el sistema subyacente, con una puntuación CVSS de 9.8.",
+          "whyItMatters": "Esta vulnerabilidad de día cero tiene un impacto severo y ya está siendo explotada. Los desarrolladores, especialmente aquellos que manejan infraestructura o aplicaciones susceptibles a este tipo de ataques, deben estar al tanto para proteger sus sistemas.",
+          "recommendedAction": "Revisar y aplicar los parches de seguridad de Fortinet para FortiMail tan pronto como estén disponibles. Evaluar el impacto en los sistemas propios y monitorizar logs en busca de actividad sospechosa relacionada con esta vulnerabilidad."
+        },
+        {
+          "title": "10 technical talks I’m excited about at GitHub Universe 2026",
+          "url": "https://github.blog/news-insights/company-news/10-technical-talks-im-excited-about-at-github-universe-2026/",
+          "source": "GitHub Blog",
+          "category": "GitHub",
+          "priority": "medium",
+          "score": 8,
+          "summary": "Un vistazo a las charlas técnicas más esperadas en GitHub Universe 2026, incluyendo temas como la verificación de código generado por IA y la seguridad de dependencias.",
+          "whyItMatters": "Proporciona información sobre las tendencias y las mejores prácticas que se discuten en eventos importantes de la comunidad de desarrolladores. La mención de la IA y la seguridad de dependencias lo hace relevante para el perfil.",
+          "recommendedAction": "Revisar las temáticas de las charlas para identificar áreas de interés y posible aprendizaje. Si es posible, acceder a las grabaciones o resúmenes de las charlas después del evento."
+        }
+      ]
+    },
     {
       "date": "2026-10-01",
       "generatedAt": "2026-10-01T14:15:44.774Z",
