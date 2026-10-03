@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-02T13:37:44.917Z",
+  "generatedAt": "2026-10-03T12:15:48.886Z",
   "availableDates": [
+    "2026-10-03",
     "2026-10-02",
     "2026-10-01",
     "2026-09-30",
@@ -106,20 +107,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 103,
-    "totalArticles": 1208,
-    "highPriority": 644,
-    "mediumPriority": 450,
+    "totalReports": 104,
+    "totalArticles": 1213,
+    "highPriority": 647,
+    "mediumPriority": 452,
     "lowPriority": 114,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-02",
+    "latestReportDate": "2026-10-03",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 577
+        "count": 581
       },
       {
         "name": "Seguridad",
@@ -127,7 +128,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 94
+        "count": 95
       },
       {
         "name": "IA para Desarrolladores",
@@ -141,7 +142,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 911
+        "count": 915
       },
       {
         "name": "Stack Overflow Blog",
@@ -149,7 +150,7 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 83
+        "count": 84
       },
       {
         "name": "Spring Blog",
@@ -162,12 +163,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-26",
-      "high": 8,
-      "medium": 5,
-      "low": 2
-    },
     {
       "date": "2026-09-27",
       "high": 10,
@@ -203,9 +198,80 @@
       "high": 3,
       "medium": 6,
       "low": 3
+    },
+    {
+      "date": "2026-10-03",
+      "high": 3,
+      "medium": 2,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-03",
+      "generatedAt": "2026-10-03T12:15:48.874Z",
+      "totalArticles": 5,
+      "highPriority": 3,
+      "mediumPriority": 2,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 4
+        },
+        {
+          "name": "AI for Developers",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 4
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "AI is changing developer work. Here are three skills to strengthen.",
+          "url": "https://github.blog/ai-and-ml/ai-is-rewriting-the-developer-career-ladder-heres-how-to-stand-out/",
+          "source": "GitHub Blog",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 10,
+          "summary": "La IA está redefiniendo el trabajo del desarrollador. Se enfatiza la importancia de saber dirigir agentes de IA, revisar críticamente su salida y mantener el juicio técnico.",
+          "whyItMatters": "Proporciona orientación práctica sobre cómo los desarrolladores pueden adaptarse y prosperar en un entorno donde la IA juega un papel cada vez más importante, alineándose directamente con el interés en IA para desarrolladores y GitHub.",
+          "recommendedAction": "Desarrollar habilidades para interactuar efectivamente con herramientas de IA y mantener un criterio técnico sólido en el flujo de trabajo."
+        },
+        {
+          "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
+          "url": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se han descubierto múltiples vulnerabilidades críticas en Dell Container Storage Modules (CSM) que podrían permitir a atacantes obtener acceso no autenticado como administrador e incluso como root en nodos de Kubernetes.",
+          "whyItMatters": "Estas vulnerabilidades representan un riesgo de seguridad significativo para los entornos de Kubernetes que utilizan Dell CSM, permitiendo un control total del sistema a atacantes no autorizados.",
+          "recommendedAction": "Actualizar Dell CSM a las últimas versiones de seguridad tan pronto como sea posible. Revisar los registros de auditoría para detectar cualquier actividad sospechosa."
+        },
+        {
+          "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
+          "url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "GitLab ha corregido una vulnerabilidad crítica en su AI Gateway que permitía la ejecución de comandos en servidores autoalojados bajo ciertas condiciones.",
+          "whyItMatters": "Esta falla de seguridad en una herramienta que integra IA en plataformas de desarrollo como GitLab es crucial para mantener la integridad de los sistemas de desarrollo y el código gestionado.",
+          "recommendedAction": "Actualizar el GitLab AI Gateway a las versiones parcheadas si se utiliza una instancia autoalojada para mitigar el riesgo de ejecución remota de comandos."
+        }
+      ]
+    },
     {
       "date": "2026-10-02",
       "generatedAt": "2026-10-02T13:37:44.906Z",
