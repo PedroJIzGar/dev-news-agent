@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-03T12:15:48.886Z",
+  "generatedAt": "2026-10-04T13:03:25.500Z",
   "availableDates": [
+    "2026-10-04",
     "2026-10-03",
     "2026-10-02",
     "2026-10-01",
@@ -107,13 +108,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 104,
-    "totalArticles": 1213,
-    "highPriority": 647,
-    "mediumPriority": 452,
+    "totalReports": 105,
+    "totalArticles": 1217,
+    "highPriority": 650,
+    "mediumPriority": 453,
     "lowPriority": 114,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-03",
+    "latestReportDate": "2026-10-04",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -124,7 +125,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 238
+        "count": 242
       },
       {
         "name": "AI for Developers",
@@ -142,7 +143,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 915
+        "count": 919
       },
       {
         "name": "Stack Overflow Blog",
@@ -163,12 +164,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-27",
-      "high": 10,
-      "medium": 5,
-      "low": 0
-    },
     {
       "date": "2026-09-28",
       "high": 3,
@@ -204,9 +199,72 @@
       "high": 3,
       "medium": 2,
       "low": 0
+    },
+    {
+      "date": "2026-10-04",
+      "high": 3,
+      "medium": 1,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-04",
+      "generatedAt": "2026-10-04T13:03:25.484Z",
+      "totalArticles": 4,
+      "highPriority": 3,
+      "mediumPriority": 1,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 4
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 4
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
+          "url": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 10,
+          "summary": "Se informa que un presunto miembro del grupo de extorsión digital ShinyHunters, conocido como \"Rey\", ha sido detenido en Jordania y está colaborando con el FBI para identificar a otros miembros del grupo.",
+          "whyItMatters": "La detención de actores clave en grupos de ciberdelincuencia es crucial para desmantelar operaciones maliciosas y prevenir futuros ataques. La cooperación con las fuerzas del orden puede llevar a la identificación de otros culpables y a la recuperación de datos.",
+          "recommendedAction": "Mantente informado sobre los desarrollos en este caso y evalúa las implicaciones de seguridad para tu organización, especialmente si utilizas servicios que podrían haber sido afectados por ShinyHunters."
+        },
+        {
+          "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+          "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un nuevo grupo de ciberespionaje vinculado a China, TA419, está llevando a cabo campañas de phishing dirigidas a expertos en políticas de inteligencia artificial (IA) en Estados Unidos, suplantando a figuras prominentes para obtener credenciales.",
+          "whyItMatters": "Este ataque demuestra cómo los actores maliciosos están aprovechando el creciente interés y la importancia de la IA para dirigirse a expertos clave. El uso de tácticas de suplantación avanzadas (AitM) resalta la necesidad de una vigilancia constante contra el phishing.",
+          "recommendedAction": "Educa a tu equipo sobre las últimas tácticas de phishing, especialmente aquellas que se hacen pasar por comunicaciones legítimas relacionadas con la IA. Implementa autenticación multifactor (MFA) y verifica las solicitudes sospechosas."
+        },
+        {
+          "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+          "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "El actor de amenazas Warlock continúa explotando vulnerabilidades en Microsoft SharePoint para deshabilitar herramientas de seguridad e implementar ransomware en organizaciones de países de habla portuguesa y española.",
+          "whyItMatters": "La explotación de vulnerabilidades conocidas en plataformas ampliamente utilizadas como SharePoint representa un riesgo significativo. La capacidad de deshabilitar las defensas de seguridad es particularmente preocupante, facilitando el despliegue de malware como el ransomware.",
+          "recommendedAction": "Asegúrate de que tus sistemas SharePoint estén actualizados con los últimos parches de seguridad. Revisa y fortalece tus defensas de seguridad y planifica la respuesta a incidentes para mitigar el impacto de posibles ataques de ransomware."
+        }
+      ]
+    },
     {
       "date": "2026-10-03",
       "generatedAt": "2026-10-03T12:15:48.874Z",
