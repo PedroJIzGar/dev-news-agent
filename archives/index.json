@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-04T13:03:25.500Z",
+  "generatedAt": "2026-10-05T15:36:06.094Z",
   "availableDates": [
+    "2026-10-05",
     "2026-10-04",
     "2026-10-03",
     "2026-10-02",
@@ -108,20 +109,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 105,
-    "totalArticles": 1217,
-    "highPriority": 650,
-    "mediumPriority": 453,
+    "totalReports": 106,
+    "totalArticles": 1223,
+    "highPriority": 653,
+    "mediumPriority": 456,
     "lowPriority": 114,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-04",
+    "latestReportDate": "2026-10-05",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 581
+        "count": 586
       },
       {
         "name": "Seguridad",
@@ -129,7 +130,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 95
+        "count": 96
       },
       {
         "name": "IA para Desarrolladores",
@@ -143,7 +144,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 919
+        "count": 925
       },
       {
         "name": "Stack Overflow Blog",
@@ -164,12 +165,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-28",
-      "high": 3,
-      "medium": 4,
-      "low": 0
-    },
     {
       "date": "2026-09-29",
       "high": 9,
@@ -205,9 +200,76 @@
       "high": 3,
       "medium": 1,
       "low": 0
+    },
+    {
+      "date": "2026-10-05",
+      "high": 3,
+      "medium": 3,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-05",
+      "generatedAt": "2026-10-05T15:36:06.083Z",
+      "totalArticles": 6,
+      "highPriority": 3,
+      "mediumPriority": 3,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 5
+        },
+        {
+          "name": "AI for Developers",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 6
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
+          "url": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Los atacantes están explotando activamente una vulnerabilidad crítica en Rejetto HTTP File Server (HFS) que permite la falsificación de sesiones de administrador y la ejecución remota de código (RCE). La falla, CVE-2026-61500, se debe al uso de un generador de números pseudoaleatorios débil que facilita a los atacantes la obtención de acceso no autorizado.",
+          "whyItMatters": "Esta vulnerabilidad de alta gravedad (CVSS 9.3) permite a los atacantes obtener control total sobre los sistemas que ejecutan Rejetto HFS, lo que representa un riesgo significativo para la seguridad de los datos y la infraestructura.",
+          "recommendedAction": "Evalúa si utilizas Rejetto HFS en tu infraestructura. Si es así, aplica urgentemente los parches o actualiza a una versión segura. Considera alternativas si el software ya no recibe soporte o tiene vulnerabilidades conocidas."
+        },
+        {
+          "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+          "url": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una vulnerabilidad de día cero (CVE-2026-88779) en Citrix NetScaler ADC y Gateway que está siendo explotada en ataques dirigidos. Esta falla, con una puntuación CVSS de 8.7, es una vulnerabilidad de desbordamiento de memoria que puede provocar la interrupción de los despliegues de SAML.",
+          "whyItMatters": "La explotación de esta vulnerabilidad puede dejar inoperativos los servicios de autenticación SAML, afectando la disponibilidad y la seguridad de las aplicaciones que dependen de ella. Es crucial para las empresas que utilizan NetScaler para la gestión de identidades.",
+          "recommendedAction": "Aplica de inmediato las actualizaciones de seguridad publicadas por Citrix para NetScaler ADC y Citrix NetScaler Gateway. Revisa los registros de auditoría para detectar cualquier actividad sospechosa que pudiera indicar una explotación previa."
+        },
+        {
+          "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
+          "url": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 8,
+          "summary": "La capa de credenciales en las empresas está creciendo rápidamente, incluyendo la forma en que los sistemas y la IA acceden a datos y servicios. GitGuardian ofrece soluciones para detectar, remediar y prevenir riesgos en esta capa crítica de seguridad.",
+          "whyItMatters": "La gestión de credenciales es fundamental para la seguridad en cualquier entorno de desarrollo, especialmente con la creciente integración de IA y sistemas interconectados. Entender y proteger esta capa es vital para prevenir accesos no autorizados.",
+          "recommendedAction": "Evalúa tus prácticas actuales de gestión de credenciales. Considera herramientas y estrategias para mejorar la visibilidad y seguridad de las credenciales en tu organización, especialmente en el contexto de la integración de IA y el uso de plataformas como GitHub."
+        }
+      ]
+    },
     {
       "date": "2026-10-04",
       "generatedAt": "2026-10-04T13:03:25.484Z",
