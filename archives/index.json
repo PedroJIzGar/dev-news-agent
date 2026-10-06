@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-05T15:36:06.094Z",
+  "generatedAt": "2026-10-06T13:57:45.116Z",
   "availableDates": [
+    "2026-10-06",
     "2026-10-05",
     "2026-10-04",
     "2026-10-03",
@@ -109,13 +110,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 106,
-    "totalArticles": 1223,
-    "highPriority": 653,
-    "mediumPriority": 456,
+    "totalReports": 107,
+    "totalArticles": 1237,
+    "highPriority": 660,
+    "mediumPriority": 463,
     "lowPriority": 114,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-05",
+    "latestReportDate": "2026-10-06",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -126,7 +127,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 242
+        "count": 250
       },
       {
         "name": "AI for Developers",
@@ -144,19 +145,19 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 925
+        "count": 934
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 100
+        "count": 102
       },
       {
         "name": "GitHub Blog",
-        "count": 84
+        "count": 85
       },
       {
         "name": "Spring Blog",
-        "count": 79
+        "count": 81
       },
       {
         "name": "Krebs on Security",
@@ -165,12 +166,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-29",
-      "high": 9,
-      "medium": 5,
-      "low": 1
-    },
     {
       "date": "2026-09-30",
       "high": 8,
@@ -206,9 +201,96 @@
       "high": 3,
       "medium": 3,
       "low": 0
+    },
+    {
+      "date": "2026-10-06",
+      "high": 7,
+      "medium": 7,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-06",
+      "generatedAt": "2026-10-06T13:57:45.105Z",
+      "totalArticles": 14,
+      "highPriority": 7,
+      "mediumPriority": 7,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 8
+        },
+        {
+          "name": "AI para Desarrolladores",
+          "count": 3
+        },
+        {
+          "name": "Spring Boot",
+          "count": 2
+        },
+        {
+          "name": "Desarrollo Profesional",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 9
+        },
+        {
+          "name": "Spring Blog",
+          "count": 2
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 2
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "ReviewBench: An open benchmark for AI code review",
+          "url": "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+          "source": "GitHub Blog",
+          "category": "AI para Desarrolladores",
+          "priority": "high",
+          "score": 10,
+          "summary": "GitHub lanza ReviewBench, un benchmark abierto diseñado para evaluar la eficacia de los agentes de revisión de código basados en IA.",
+          "whyItMatters": "Con la creciente adopción de herramientas de IA como Copilot para la generación y revisión de código, tener un benchmark estandarizado es crucial. ReviewBench ayuda a los desarrolladores y a las empresas a comprender mejor las capacidades y limitaciones de estas herramientas, permitiendo una integración más informada y segura en los flujos de trabajo de desarrollo.",
+          "recommendedAction": "Explora ReviewBench para evaluar y comparar el rendimiento de las herramientas de IA en la revisión de código. Considera su uso para mejorar la calidad y seguridad de tu código."
+        },
+        {
+          "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
+          "url": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una vulnerabilidad crítica en Microsoft Exchange Server que permite a un atacante autenticado escalar privilegios y potencialmente leer buzones de otros usuarios.",
+          "whyItMatters": "Esta vulnerabilidad, con una puntuación CVSS de 8.8, representa un riesgo significativo para los datos sensibles almacenados en Exchange Server. Los atacantes podrían acceder a información confidencial de otros usuarios, lo que subraya la importancia de aplicar parches de seguridad de inmediato.",
+          "recommendedAction": "Aplica las actualizaciones de seguridad fuera de banda proporcionadas por Microsoft para Microsoft Exchange Server lo antes posible para mitigar esta vulnerabilidad."
+        },
+        {
+          "title": "This Week in Spring - October 6th, 2026 ",
+          "url": "https://spring.io/blog/2026/10/06/this-week-in-spring-october-6th-2026",
+          "source": "Spring Blog",
+          "category": "Spring Boot",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un resumen semanal de las últimas noticias, actualizaciones y desarrollos en el ecosistema de Spring.",
+          "whyItMatters": "Para los desarrolladores que trabajan con Spring Boot, mantenerse al día con los anuncios oficiales, nuevas versiones y contribuciones de la comunidad es esencial para aprovechar las últimas características y mejoras de seguridad.",
+          "recommendedAction": "Revisa regularmente las actualizaciones de 'This Week in Spring' para mantenerte al tanto de las novedades relevantes para tus proyectos de Spring Boot."
+        }
+      ]
+    },
     {
       "date": "2026-10-05",
       "generatedAt": "2026-10-05T15:36:06.083Z",
