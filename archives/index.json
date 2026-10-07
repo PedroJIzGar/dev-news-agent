@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-06T13:57:45.116Z",
+  "generatedAt": "2026-10-07T14:14:49.348Z",
   "availableDates": [
+    "2026-10-07",
     "2026-10-06",
     "2026-10-05",
     "2026-10-04",
@@ -110,13 +111,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 107,
-    "totalArticles": 1237,
-    "highPriority": 660,
-    "mediumPriority": 463,
+    "totalReports": 108,
+    "totalArticles": 1247,
+    "highPriority": 666,
+    "mediumPriority": 467,
     "lowPriority": 114,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-06",
+    "latestReportDate": "2026-10-07",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -127,7 +128,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 250
+        "count": 258
       },
       {
         "name": "AI for Developers",
@@ -135,7 +136,7 @@
       },
       {
         "name": "IA para Desarrolladores",
-        "count": 26
+        "count": 27
       },
       {
         "name": "Java/Spring Boot",
@@ -145,7 +146,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 934
+        "count": 942
       },
       {
         "name": "Stack Overflow Blog",
@@ -153,7 +154,7 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 85
+        "count": 86
       },
       {
         "name": "Spring Blog",
@@ -161,17 +162,11 @@
       },
       {
         "name": "Krebs on Security",
-        "count": 22
+        "count": 23
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-09-30",
-      "high": 8,
-      "medium": 5,
-      "low": 0
-    },
     {
       "date": "2026-10-01",
       "high": 8,
@@ -207,9 +202,88 @@
       "high": 7,
       "medium": 7,
       "low": 0
+    },
+    {
+      "date": "2026-10-07",
+      "high": 6,
+      "medium": 4,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-07",
+      "generatedAt": "2026-10-07T14:14:49.336Z",
+      "totalArticles": 10,
+      "highPriority": 6,
+      "mediumPriority": 4,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 8
+        },
+        {
+          "name": "IA para Desarrolladores",
+          "count": 1
+        },
+        {
+          "name": "Herramientas de Desarrollo",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 8
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
+          "url": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 10,
+          "summary": "Una vulnerabilidad crítica (CVE-2026-21589) en productos de Atlassian Data Center, como Bitbucket, Confluence y Jira, que permite el acceso a archivos sensibles, está siendo explotada activamente. La vulnerabilidad tiene una puntuación CVSS de 9.3.",
+          "whyItMatters": "La rápida explotación de esta vulnerabilidad destaca la importancia de aplicar parches de seguridad de inmediato. La exposición de archivos sensibles en herramientas de desarrollo y colaboración como las de Atlassian puede tener consecuencias devastadoras para la seguridad de la información.",
+          "recommendedAction": "Aplica inmediatamente los parches de seguridad para los productos Atlassian Data Center afectados. Revisa los registros de auditoría en busca de actividad sospechosa y considera la implementación de medidas de seguridad adicionales para proteger tus repositorios de código y documentación."
+        },
+        {
+          "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
+          "url": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se han identificado más de 100 sitios web comprometidos que utilizan JavaScript malicioso para distribuir un malware roba-información llamado LunexStealer. La campaña, atribuida al grupo UAC-0277, afecta a sitios que aparentan realizar comprobaciones de seguridad de Cloudflare.",
+          "whyItMatters": "Este ataque demuestra cómo los atacantes explotan la confianza en servicios legítimos como Cloudflare para engañar a los usuarios y distribuir malware. Es crucial estar al tanto de estas tácticas para protegerse contra el robo de credenciales e información sensible.",
+          "recommendedAction": "Mantén actualizado el software y las dependencias de tu aplicación, sé escéptico ante las comprobaciones de seguridad inesperadas y educa a tu equipo sobre las tácticas de phishing y malware."
+        },
+        {
+          "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
+          "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una plataforma de phishing que imita portales publicitarios de modelos de IA populares como ChatGPT, Gemini y Claude. El objetivo es capturar credenciales de usuario y códigos de autenticación multifactor (MFA).",
+          "whyItMatters": "Este tipo de ataque aprovecha la popularidad y la confianza en las herramientas de IA para engañar a los usuarios. La suplantación de servicios de IA para robar credenciales y códigos MFA es una amenaza directa para la seguridad de las cuentas de desarrolladores y empresas.",
+          "recommendedAction": "Sé extremadamente cauteloso con los anuncios y enlaces que promocionan servicios de IA. Verifica siempre la URL legítima del servicio antes de introducir credenciales o información sensible. Habilita y utiliza MFA en todas tus cuentas."
+        }
+      ]
+    },
     {
       "date": "2026-10-06",
       "generatedAt": "2026-10-06T13:57:45.105Z",
