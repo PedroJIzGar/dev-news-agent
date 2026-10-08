@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-07T14:14:49.348Z",
+  "generatedAt": "2026-10-08T14:24:09.614Z",
   "availableDates": [
+    "2026-10-08",
     "2026-10-07",
     "2026-10-06",
     "2026-10-05",
@@ -111,13 +112,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 108,
-    "totalArticles": 1247,
-    "highPriority": 666,
-    "mediumPriority": 467,
-    "lowPriority": 114,
+    "totalReports": 109,
+    "totalArticles": 1262,
+    "highPriority": 671,
+    "mediumPriority": 474,
+    "lowPriority": 117,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-07",
+    "latestReportDate": "2026-10-08",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -128,7 +129,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 258
+        "count": 268
       },
       {
         "name": "AI for Developers",
@@ -136,7 +137,7 @@
       },
       {
         "name": "IA para Desarrolladores",
-        "count": 27
+        "count": 29
       },
       {
         "name": "Java/Spring Boot",
@@ -146,15 +147,15 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 942
+        "count": 952
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 102
+        "count": 106
       },
       {
         "name": "GitHub Blog",
-        "count": 86
+        "count": 87
       },
       {
         "name": "Spring Blog",
@@ -167,12 +168,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-01",
-      "high": 8,
-      "medium": 6,
-      "low": 1
-    },
     {
       "date": "2026-10-02",
       "high": 3,
@@ -208,9 +203,88 @@
       "high": 6,
       "medium": 4,
       "low": 0
+    },
+    {
+      "date": "2026-10-08",
+      "high": 5,
+      "medium": 7,
+      "low": 3
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-08",
+      "generatedAt": "2026-10-08T14:24:09.607Z",
+      "totalArticles": 15,
+      "highPriority": 5,
+      "mediumPriority": 7,
+      "lowPriority": 3,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 10
+        },
+        {
+          "name": "Desarrollo",
+          "count": 3
+        },
+        {
+          "name": "IA para Desarrolladores",
+          "count": 2
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 10
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 4
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
+          "url": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un paquete npm llamado \"tensorlake\", un SDK de TypeScript, fue comprometido en un ataque a la cadena de suministro. La versión maliciosa contiene malware ofuscado que roba credenciales y exfiltra secretos.",
+          "whyItMatters": "Este incidente resalta la vulnerabilidad de las cadenas de suministro de paquetes npm y cómo los atacantes pueden comprometer herramientas de desarrollo para distribuir malware, afectando potencialmente a proyectos que utilizan estas librerías.",
+          "recommendedAction": "Revisar y auditar las dependencias npm utilizadas en proyectos, especialmente aquellas relacionadas con IA o que se actualizan frecuentemente. Considerar herramientas de análisis de seguridad de dependencias."
+        },
+        {
+          "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+          "url": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una vulnerabilidad crítica en LMCache, software que acelera servidores de Large Language Models (LLMs), permite a atacantes no autenticados ejecutar código de forma remota. No existe una versión parcheada.",
+          "whyItMatters": "Los modelos de IA y su infraestructura asociada son cada vez más el objetivo de ataques. Una vulnerabilidad crítica en un componente de caché de LLM puede tener implicaciones graves para la seguridad y la integridad de los sistemas de IA.",
+          "recommendedAction": "Estar atento a futuros parches para LMCache o alternativas si se utiliza este software. Implementar medidas de seguridad en la red para aislar los servidores de LLM."
+        },
+        {
+          "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
+          "url": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una nueva familia de malware, PoeLLM, está infectando servidores de IA y LLM para desplegar mineros de criptomonedas y expandir una botnet. La campaña, llamada Canto Incognito, ha afectado a más de 3,400 servidores.",
+          "whyItMatters": "Este malware demuestra cómo la infraestructura de IA es un objetivo lucrativo para ataques, no solo por el acceso a modelos, sino también por la capacidad computacional que puede ser explotada para minería de criptomonedas. Amenaza la disponibilidad y seguridad de los servicios de IA.",
+          "recommendedAction": "Asegurar la infraestructura de IA, incluyendo servidores y APIs, con autenticación robusta, firewalls y monitorización constante. Mantener el software actualizado y parchear vulnerabilidades conocidas."
+        }
+      ]
+    },
     {
       "date": "2026-10-07",
       "generatedAt": "2026-10-07T14:14:49.336Z",
