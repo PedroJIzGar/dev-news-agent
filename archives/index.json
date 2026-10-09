@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-08T14:24:09.614Z",
+  "generatedAt": "2026-10-09T14:09:53.983Z",
   "availableDates": [
+    "2026-10-09",
     "2026-10-08",
     "2026-10-07",
     "2026-10-06",
@@ -112,20 +113,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 109,
-    "totalArticles": 1262,
-    "highPriority": 671,
-    "mediumPriority": 474,
-    "lowPriority": 117,
+    "totalReports": 110,
+    "totalArticles": 1277,
+    "highPriority": 680,
+    "mediumPriority": 479,
+    "lowPriority": 118,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-08",
+    "latestReportDate": "2026-10-09",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 586
+        "count": 595
       },
       {
         "name": "Seguridad",
@@ -147,19 +148,19 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 952
+        "count": 963
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 106
+        "count": 107
       },
       {
         "name": "GitHub Blog",
-        "count": 87
+        "count": 88
       },
       {
         "name": "Spring Blog",
-        "count": 81
+        "count": 82
       },
       {
         "name": "Krebs on Security",
@@ -168,12 +169,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-02",
-      "high": 3,
-      "medium": 6,
-      "low": 3
-    },
     {
       "date": "2026-10-03",
       "high": 3,
@@ -209,9 +204,104 @@
       "high": 5,
       "medium": 7,
       "low": 3
+    },
+    {
+      "date": "2026-10-09",
+      "high": 9,
+      "medium": 5,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-09",
+      "generatedAt": "2026-10-09T14:09:53.970Z",
+      "totalArticles": 15,
+      "highPriority": 9,
+      "mediumPriority": 5,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 9
+        },
+        {
+          "name": "AI / Security",
+          "count": 3
+        },
+        {
+          "name": "Security / Dev Tools",
+          "count": 1
+        },
+        {
+          "name": "Java / Backend",
+          "count": 1
+        },
+        {
+          "name": "Angular / Frontend",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 11
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "Angular Blog",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
+          "url": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Citrix ha lanzado parches para una vulnerabilidad crítica en NetScaler ADC y NetScaler Gateway que podría permitir la ejecución remota de código o denegación de servicio.",
+          "whyItMatters": "Esta vulnerabilidad afecta a componentes de seguridad comunes en entornos empresariales y su explotación podría tener graves consecuencias. Es crucial para mantener la seguridad de las infraestructuras.",
+          "recommendedAction": "Revisar la configuración de NetScaler y aplicar los parches de seguridad de Citrix lo antes posible."
+        },
+        {
+          "title": "ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms",
+          "url": "https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html",
+          "source": "The Hacker News",
+          "category": "AI / Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una herramienta de pentesting con IA, ARTEX, ha sido utilizada en ataques de robo de datos contra instituciones financieras en Corea del Sur.",
+          "whyItMatters": "Demuestra cómo las herramientas de IA, incluso las diseñadas para pruebas de seguridad, pueden ser mal utilizadas por actores maliciosos, resaltando la importancia de la seguridad en el desarrollo y uso de IA.",
+          "recommendedAction": "Estar al tanto de las tácticas de ataque que involucran herramientas de IA y fortalecer las defensas contra ataques sofisticados."
+        },
+        {
+          "title": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
+          "url": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un actor de amenazas vinculado a China, Flax Typhoon, está explotando activamente cinco vulnerabilidades, incluyendo una con CVSS de 10.0, lo que ha llevado a CISA a establecer una fecha límite para que las agencias federales apliquen parches.",
+          "whyItMatters": "Las vulnerabilidades explotadas activamente representan un riesgo inmediato. Conocer los CVEs y los actores detrás de los ataques ayuda a priorizar las defensas.",
+          "recommendedAction": "Verificar si alguna de las vulnerabilidades mencionadas (CVE-2015-3306 y otras) afecta a sus sistemas y aplicar los parches correspondientes de inmediato."
+        }
+      ]
+    },
     {
       "date": "2026-10-08",
       "generatedAt": "2026-10-08T14:24:09.607Z",
