@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-09T14:09:53.983Z",
+  "generatedAt": "2026-10-10T13:18:57.058Z",
   "availableDates": [
+    "2026-10-10",
     "2026-10-09",
     "2026-10-08",
     "2026-10-07",
@@ -113,20 +114,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 110,
-    "totalArticles": 1277,
-    "highPriority": 680,
-    "mediumPriority": 479,
-    "lowPriority": 118,
+    "totalReports": 111,
+    "totalArticles": 1292,
+    "highPriority": 683,
+    "mediumPriority": 483,
+    "lowPriority": 126,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-09",
+    "latestReportDate": "2026-10-10",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 595
+        "count": 603
       },
       {
         "name": "Seguridad",
@@ -134,7 +135,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 96
+        "count": 101
       },
       {
         "name": "IA para Desarrolladores",
@@ -148,15 +149,15 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 963
+        "count": 972
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 107
+        "count": 111
       },
       {
         "name": "GitHub Blog",
-        "count": 88
+        "count": 89
       },
       {
         "name": "Spring Blog",
@@ -164,17 +165,11 @@
       },
       {
         "name": "Krebs on Security",
-        "count": 23
+        "count": 24
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-03",
-      "high": 3,
-      "medium": 2,
-      "low": 0
-    },
     {
       "date": "2026-10-04",
       "high": 3,
@@ -210,9 +205,96 @@
       "high": 9,
       "medium": 5,
       "low": 1
+    },
+    {
+      "date": "2026-10-10",
+      "high": 3,
+      "medium": 4,
+      "low": 8
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-10",
+      "generatedAt": "2026-10-10T13:18:57.047Z",
+      "totalArticles": 15,
+      "highPriority": 3,
+      "mediumPriority": 4,
+      "lowPriority": 8,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 8
+        },
+        {
+          "name": "AI for Developers",
+          "count": 5
+        },
+        {
+          "name": "GitHub",
+          "count": 1
+        },
+        {
+          "name": "General",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 9
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 4
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+          "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Investigadores de ciberseguridad han descubierto una campaña de robo de credenciales que ha afectado a repositorios de GitHub. Un atacante comprometió cuentas de mantenedores de proyectos open-source para introducir flujos de trabajo maliciosos.",
+          "whyItMatters": "Esta noticia es crucial porque afecta directamente a la seguridad en GitHub Actions, una herramienta fundamental para la automatización en el desarrollo. Las credenciales robadas pueden tener consecuencias graves, como el acceso no autorizado a código, datos o infraestructura.",
+          "recommendedAction": "Revisar y auditar los flujos de trabajo de GitHub Actions en tus repositorios, especialmente aquellos que manejan secretos o credenciales. Implementar el principio de mínimo privilegio y considerar el uso de herramientas de seguridad para flujos de trabajo de CI/CD."
+        },
+        {
+          "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
+          "url": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
+          "source": "The Hacker News",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 9,
+          "summary": "Anthropic ha lanzado OSS Scanner, una herramienta gratuita de IA para escanear vulnerabilidades en proyectos de código abierto. Utiliza modelos de lenguaje avanzados para identificar debilidades de seguridad de forma proactiva.",
+          "whyItMatters": "La seguridad del ecosistema open-source es vital. Esta herramienta, impulsada por IA, ofrece a los desarrolladores una forma accesible de mejorar la seguridad de sus dependencias y proyectos, lo cual es fundamental para construir aplicaciones robustas y seguras.",
+          "recommendedAction": "Explorar el uso de OSS Scanner en tus proyectos de código abierto o dependencias. Mantenerse informado sobre cómo la IA está siendo aplicada para mejorar la seguridad del software."
+        },
+        {
+          "title": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
+          "url": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 7,
+          "summary": "Actores maliciosos están explotando vulnerabilidades en la utilidad de copias de seguridad AhsayCBS para tomar control de dispositivos e instalar mineros de criptomonedas. Una de las vulnerabilidades afecta a una función en Java.",
+          "whyItMatters": "Este incidente destaca la importancia de mantener actualizados no solo el software principal, sino también las utilidades y herramientas auxiliares, ya que pueden ser puntos de entrada para ataques. La mención de Java en la vulnerabilidad lo hace relevante para desarrolladores Java.",
+          "recommendedAction": "Asegurar que todas las utilidades de respaldo y software relacionado estén actualizadas a la última versión. Revisar logs en busca de actividades sospechosas y considerar la segmentación de red para limitar el impacto de posibles brechas."
+        }
+      ]
+    },
     {
       "date": "2026-10-09",
       "generatedAt": "2026-10-09T14:09:53.970Z",
