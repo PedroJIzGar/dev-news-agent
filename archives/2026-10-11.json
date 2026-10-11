@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-11T13:48:04.982Z",
+  "totalArticles": 2,
+  "summary": {
+    "highPriority": 0,
+    "mediumPriority": 1,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Desarrollo de Software",
+        "count": 1
+      },
+      {
+        "name": "IA para Desarrolladores",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "Stack Overflow Blog",
+        "count": 2
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Parte 2: Las evaluaciones como puerta de despliegue — y cómo saber cuándo se desvían",
+      "url": "https://stackoverflow.blog/2026/10/07/evals-as-a-deployment-gate-and-how-to-know-when-they-drift/",
+      "source": "Stack Overflow Blog",
+      "category": "Desarrollo de Software",
+      "priority": "low",
+      "score": 2,
+      "summary": "Este artículo, parte de una serie, discute cómo usar las evaluaciones (evals) como un punto de control antes de desplegar código y cómo detectar cuándo estas evaluaciones comienzan a perder efectividad o a desviarse de su propósito original.",
+      "whyItMatters": "Aunque el artículo se centra en el concepto de 'evals', es relevante para entender la importancia de mantener la calidad y la consistencia en los procesos de despliegue, algo fundamental en cualquier desarrollo de software moderno.",
+      "recommendedAction": "Leer el artículo para comprender las estrategias para mantener la integridad de los procesos de evaluación en los despliegues de software."
+    },
+    {
+      "title": "Parte 6: Un sistema operativo para agentes de codificación: la construcción disciplinada",
+      "url": "https://stackoverflow.blog/2026/10/07/part-6-an-operating-system-for-coding-agents-the-disciplined-build/",
+      "source": "Stack Overflow Blog",
+      "category": "IA para Desarrolladores",
+      "priority": "medium",
+      "score": 3,
+      "summary": "Esta parte de una serie explora la creación de un sistema operativo para agentes de codificación, enfocándose en cómo mantener la calidad del código a lo largo del tiempo mediante un conjunto de reglas y configuraciones específicas, incluso con múltiples agentes trabajando en el mismo repositorio.",
+      "whyItMatters": "Introduce conceptos sobre la gestión de agentes de IA que asisten en la codificación, lo cual es un área emergente de interés para los desarrolladores. Aborda el desafío de mantener la calidad del código cuando se usan herramientas de IA.",
+      "recommendedAction": "Revisar este artículo para obtener ideas sobre cómo estructurar y gestionar proyectos donde se emplean agentes de codificación para mantener la calidad y la disciplina en el desarrollo."
+    }
+  ]
+}
