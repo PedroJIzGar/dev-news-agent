@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-11T13:48:04.991Z",
+  "generatedAt": "2026-10-12T16:31:53.125Z",
   "availableDates": [
+    "2026-10-12",
     "2026-10-11",
     "2026-10-10",
     "2026-10-09",
@@ -115,13 +116,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 112,
-    "totalArticles": 1294,
-    "highPriority": 683,
-    "mediumPriority": 484,
-    "lowPriority": 127,
+    "totalReports": 113,
+    "totalArticles": 1300,
+    "highPriority": 686,
+    "mediumPriority": 486,
+    "lowPriority": 128,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-11",
+    "latestReportDate": "2026-10-12",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -132,7 +133,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 268
+        "count": 271
       },
       {
         "name": "AI for Developers",
@@ -150,11 +151,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 972
+        "count": 977
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 113
+        "count": 114
       },
       {
         "name": "GitHub Blog",
@@ -171,12 +172,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-05",
-      "high": 3,
-      "medium": 3,
-      "low": 0
-    },
     {
       "date": "2026-10-06",
       "high": 7,
@@ -212,9 +207,84 @@
       "high": 0,
       "medium": 1,
       "low": 1
+    },
+    {
+      "date": "2026-10-12",
+      "high": 3,
+      "medium": 2,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-12",
+      "generatedAt": "2026-10-12T16:31:53.114Z",
+      "totalArticles": 6,
+      "highPriority": 3,
+      "mediumPriority": 2,
+      "lowPriority": 1,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 3
+        },
+        {
+          "name": "Seguridad / IA",
+          "count": 2
+        },
+        {
+          "name": "Desarrollo Profesional",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 5
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "SonicWall SMA 1000 Vulnerability Exploited Actively After Patch Release",
+          "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una vulnerabilidad crítica (CVE-2026-102255, CVSS 10.0) en los appliances SonicWall Secure Mobile Access (SMA) 1000 está siendo explotada activamente por actores maliciosos, incluso después de la publicación del parche. Permite a atacantes remotos no autenticados realizar peticiones SSRF.",
+          "whyItMatters": "Esta noticia es crucial para la seguridad de redes corporativas que utilizan dispositivos SonicWall. La explotación activa de una vulnerabilidad de máxima severidad subraya la urgencia de aplicar los parches y monitorear la red en busca de actividad sospechosa.",
+          "recommendedAction": "Verificar inmediatamente si se utilizan appliances SonicWall SMA 1000, aplicar el parche de seguridad correspondiente y revisar los logs en busca de indicadores de compromiso."
+        },
+        {
+          "title": "WordPress Plugin Bricksforge Exploitado con RCE sin Autenticación",
+          "url": "https://thehackernews.com/2026/10/attackers-exploit-cvss100-bricksforge.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto que el plugin Bricksforge para WordPress tiene una vulnerabilidad crítica (CVE-2026-85097, CVSS 10.0) que permite a atacantes sin autenticación ejecutar código PHP arbitrario de forma remota (RCE) en sitios vulnerables.",
+          "whyItMatters": "Dado que WordPress es una plataforma muy popular, las vulnerabilidades críticas en sus plugins representan un riesgo significativo para muchos sitios web. La posibilidad de RCE sin autenticación es especialmente peligrosa.",
+          "recommendedAction": "Los administradores de sitios WordPress que utilicen el plugin Bricksforge deben actualizarlo inmediatamente a la última versión y escanear sus sitios en busca de posibles infecciones."
+        },
+        {
+          "title": "Campaña de Acceso Inicial Impulsada por IA en Ucrania Utiliza Código de Claude",
+          "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+          "source": "The Hacker News",
+          "category": "Seguridad / IA",
+          "priority": "high",
+          "score": 9,
+          "summary": "Investigadores de ciberseguridad han descubierto una campaña de acceso inicial que combina herramientas ofensivas como Cobalt Strike con una capa de orquestación de IA utilizando Claude Code de Anthropic. El objetivo son sitios WordPress, plataformas de comercio electrónico e infraestructura crítica en Ucrania, y ha logrado robar más de 628,000 registros.",
+          "whyItMatters": "Este artículo demuestra cómo la IA se está integrando en el panorama de las amenazas, permitiendo campañas de ataque más sofisticadas y automatizadas. Es vital entender estas nuevas tácticas para mejorar las defensas.",
+          "recommendedAction": "Estar al tanto de las nuevas técnicas de ataque que utilizan IA. Asegurar las aplicaciones web, especialmente aquellas basadas en WordPress, y revisar las medidas de seguridad para detectar y prevenir accesos no autorizados."
+        }
+      ]
+    },
     {
       "date": "2026-10-11",
       "generatedAt": "2026-10-11T13:48:04.982Z",
