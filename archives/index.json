@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-12T16:31:53.125Z",
+  "generatedAt": "2026-10-13T14:49:45.747Z",
   "availableDates": [
+    "2026-10-13",
     "2026-10-12",
     "2026-10-11",
     "2026-10-10",
@@ -116,20 +117,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 113,
-    "totalArticles": 1300,
-    "highPriority": 686,
-    "mediumPriority": 486,
-    "lowPriority": 128,
+    "totalReports": 114,
+    "totalArticles": 1311,
+    "highPriority": 690,
+    "mediumPriority": 490,
+    "lowPriority": 131,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-12",
+    "latestReportDate": "2026-10-13",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 603
+        "count": 612
       },
       {
         "name": "Seguridad",
@@ -137,7 +138,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 101
+        "count": 103
       },
       {
         "name": "IA para Desarrolladores",
@@ -151,15 +152,15 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 977
+        "count": 986
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 114
+        "count": 115
       },
       {
         "name": "GitHub Blog",
-        "count": 89
+        "count": 90
       },
       {
         "name": "Spring Blog",
@@ -172,12 +173,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-06",
-      "high": 7,
-      "medium": 7,
-      "low": 0
-    },
     {
       "date": "2026-10-07",
       "high": 6,
@@ -213,9 +208,84 @@
       "high": 3,
       "medium": 2,
       "low": 1
+    },
+    {
+      "date": "2026-10-13",
+      "high": 4,
+      "medium": 4,
+      "low": 3
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-13",
+      "generatedAt": "2026-10-13T14:49:45.735Z",
+      "totalArticles": 11,
+      "highPriority": 4,
+      "mediumPriority": 4,
+      "lowPriority": 3,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 9
+        },
+        {
+          "name": "AI for Developers",
+          "count": 2
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 9
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
+          "url": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "GitLab ha lanzado parches para una vulnerabilidad de seguridad de máxima severidad que afecta sus ediciones Community (CE) y Enterprise (EE). La falla podría permitir a un usuario no autenticado ejecutar código arbitrario en el servidor de GitLab a través de expresiones regulares especialmente diseñadas en CI/CD.",
+          "whyItMatters": "Esta es una vulnerabilidad crítica (CVSS 10.0) que afecta a GitLab, una herramienta ampliamente utilizada para el control de versiones y la gestión de proyectos. Permitir la ejecución de código no autenticado representa un riesgo de seguridad muy alto. Los desarrolladores que usan GitLab deben estar al tanto de esta falla.",
+          "recommendedAction": "Actualizar inmediatamente GitLab a la versión parcheada para mitigar este riesgo de seguridad crítico. Revisar los registros en busca de cualquier actividad sospechosa previa a la actualización."
+        },
+        {
+          "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
+          "url": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Este webinar aborda cómo detener la escalada de privilegios impulsada por IA mediante controles de identidad en tiempo de ejecución. Destaca que la IA acelera el reconocimiento y la explotación, permitiendo a los atacantes moverse más rápido a través de los sistemas.",
+          "whyItMatters": "La IA está transformando las capacidades ofensivas y defensivas. Comprender cómo la IA puede ser utilizada para la escalada de privilegios es crucial para diseñar sistemas seguros. La gestión de identidad en tiempo de ejecución es una defensa clave.",
+          "recommendedAction": "Inscribirse y asistir al webinar para aprender técnicas específicas para proteger sus sistemas contra ataques impulsados por IA y mejorar sus estrategias de control de identidad."
+        },
+        {
+          "title": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
+          "url": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Dos de las 31 vulnerabilidades críticas descubiertas en MarkLogic Server (una base de datos de Progress Software) podrían permitir a usuarios con privilegios delegados obtener control de administrador del servidor.",
+          "whyItMatters": "Las bases de datos son componentes críticos de muchas aplicaciones. Si su aplicación utiliza MarkLogic, esta vulnerabilidad de escalada de privilegios es una amenaza seria que podría comprometer toda la infraestructura.",
+          "recommendedAction": "Verificar si está utilizando MarkLogic Server y actualizar a las versiones parcheadas (11.3.7 o 12.1.0) lo antes posible. Evaluar los permisos de los usuarios delegados."
+        }
+      ]
+    },
     {
       "date": "2026-10-12",
       "generatedAt": "2026-10-12T16:31:53.114Z",
