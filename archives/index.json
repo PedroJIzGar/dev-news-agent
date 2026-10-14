@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-13T14:49:45.747Z",
+  "generatedAt": "2026-10-14T12:40:41.160Z",
   "availableDates": [
+    "2026-10-14",
     "2026-10-13",
     "2026-10-12",
     "2026-10-11",
@@ -117,20 +118,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 114,
-    "totalArticles": 1311,
-    "highPriority": 690,
-    "mediumPriority": 490,
-    "lowPriority": 131,
+    "totalReports": 115,
+    "totalArticles": 1327,
+    "highPriority": 700,
+    "mediumPriority": 494,
+    "lowPriority": 133,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-13",
+    "latestReportDate": "2026-10-14",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 612
+        "count": 623
       },
       {
         "name": "Seguridad",
@@ -152,7 +153,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 986
+        "count": 998
       },
       {
         "name": "Stack Overflow Blog",
@@ -160,25 +161,19 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 90
+        "count": 91
       },
       {
         "name": "Spring Blog",
-        "count": 82
+        "count": 83
       },
       {
         "name": "Krebs on Security",
-        "count": 24
+        "count": 25
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-07",
-      "high": 6,
-      "medium": 4,
-      "low": 0
-    },
     {
       "date": "2026-10-08",
       "high": 5,
@@ -214,9 +209,100 @@
       "high": 4,
       "medium": 4,
       "low": 3
+    },
+    {
+      "date": "2026-10-14",
+      "high": 10,
+      "medium": 4,
+      "low": 2
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-14",
+      "generatedAt": "2026-10-14T12:40:41.150Z",
+      "totalArticles": 16,
+      "highPriority": 10,
+      "mediumPriority": 4,
+      "lowPriority": 2,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 11
+        },
+        {
+          "name": "Dev Tools",
+          "count": 3
+        },
+        {
+          "name": "Backend",
+          "count": 1
+        },
+        {
+          "name": "Database",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        },
+        {
+          "name": "LinkedIn",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
+          "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+          "source": "GitHub Blog",
+          "category": "Dev Tools",
+          "priority": "high",
+          "score": 10,
+          "summary": "GitHub ha desarrollado un nuevo modelo de clasificación de secretos que es consciente del contexto. Esto mejora la calidad de la detección de secretos, aumenta la tasa de aceptación en un 11.5% y reduce el tiempo de ejecución de los escaneos en un 86%.",
+          "whyItMatters": "La detección de secretos es crucial para la seguridad del código fuente. Un sistema más eficiente y preciso reduce el ruido y el tiempo dedicado a revisar falsos positivos, permitiendo a los desarrolladores centrarse en amenazas reales.",
+          "recommendedAction": "Revisar cómo GitHub está mejorando su sistema de detección de secretos y considerar la aplicación de principios similares en flujos de trabajo de seguridad para proteger el código fuente de tu organización."
+        },
+        {
+          "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
+          "url": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Un agente de pruebas de penetración con IA descubrió de forma autónoma una vulnerabilidad crítica de bypass de autenticación en el sitio de producción de una aseguradora importante. El fallo permitía elegir el destino del código de un solo uso (OTP).",
+          "whyItMatters": "Demuestra el poder de la IA para identificar fallos de seguridad complejos que podrían pasar desapercibidos para los métodos tradicionales. Subraya la necesidad de que los desarrolladores estén al tanto de cómo la IA puede encontrar y explotar vulnerabilidades.",
+          "recommendedAction": "Mantente informado sobre el uso de IA en ciberseguridad, tanto para la defensa como para el ataque. Considera cómo las herramientas de IA podrían integrarse en tus propios procesos de pruebas de seguridad."
+        },
+        {
+          "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
+          "url": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Una vulnerabilidad descubierta por IA en el subsistema vhost del kernel de Linux permite a un usuario local obtener privilegios de root y, en configuraciones de virtualización, escapar de una máquina virtual al host.",
+          "whyItMatters": "Esta vulnerabilidad (CVE-2026-74580) afecta a múltiples versiones del kernel de Linux y tiene implicaciones significativas para la seguridad de sistemas virtualizados y locales. El hecho de que fuera encontrada por IA resalta las capacidades emergentes de estas tecnologías en la detección de fallos.",
+          "recommendedAction": "Asegúrate de que tus sistemas basados en Linux estén actualizados con los últimos parches de seguridad. Considera las implicaciones de seguridad de la virtualización y la importancia de mantener tanto el host como las VMs seguras."
+        }
+      ]
+    },
     {
       "date": "2026-10-13",
       "generatedAt": "2026-10-13T14:49:45.735Z",
