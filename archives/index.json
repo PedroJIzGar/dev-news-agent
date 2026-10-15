@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-14T12:40:41.160Z",
+  "generatedAt": "2026-10-15T12:29:00.201Z",
   "availableDates": [
+    "2026-10-15",
     "2026-10-14",
     "2026-10-13",
     "2026-10-12",
@@ -118,13 +119,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 115,
-    "totalArticles": 1327,
-    "highPriority": 700,
-    "mediumPriority": 494,
-    "lowPriority": 133,
+    "totalReports": 116,
+    "totalArticles": 1342,
+    "highPriority": 707,
+    "mediumPriority": 500,
+    "lowPriority": 135,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-14",
+    "latestReportDate": "2026-10-15",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -135,7 +136,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 271
+        "count": 283
       },
       {
         "name": "AI for Developers",
@@ -143,7 +144,7 @@
       },
       {
         "name": "IA para Desarrolladores",
-        "count": 30
+        "count": 31
       },
       {
         "name": "Java/Spring Boot",
@@ -153,7 +154,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 998
+        "count": 1010
       },
       {
         "name": "Stack Overflow Blog",
@@ -161,7 +162,7 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 91
+        "count": 93
       },
       {
         "name": "Spring Blog",
@@ -169,17 +170,11 @@
       },
       {
         "name": "Krebs on Security",
-        "count": 25
+        "count": 26
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-08",
-      "high": 5,
-      "medium": 7,
-      "low": 3
-    },
     {
       "date": "2026-10-09",
       "high": 9,
@@ -215,9 +210,92 @@
       "high": 10,
       "medium": 4,
       "low": 2
+    },
+    {
+      "date": "2026-10-15",
+      "high": 7,
+      "medium": 6,
+      "low": 2
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-15",
+      "generatedAt": "2026-10-15T12:29:00.193Z",
+      "totalArticles": 15,
+      "highPriority": 7,
+      "mediumPriority": 6,
+      "lowPriority": 2,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 12
+        },
+        {
+          "name": "Herramientas de Desarrollo",
+          "count": 1
+        },
+        {
+          "name": "Ingeniería",
+          "count": 1
+        },
+        {
+          "name": "IA para Desarrolladores",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 2
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+          "url": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una vulnerabilidad crítica de ejecución remota de código (RCE) autenticada en Langflow, una plataforma de desarrollo de IA. Los actores de amenazas ya están explotando activamente esta falla, apuntando a 1,423 intentos de exploit en honeypots.",
+          "whyItMatters": "Langflow se utiliza para construir aplicaciones de IA. Una vulnerabilidad RCE crítica puede permitir a los atacantes tomar el control de los sistemas que ejecutan Langflow, lo que representa un riesgo significativo para los datos y la infraestructura.",
+          "recommendedAction": "Los desarrolladores que utilizan Langflow deben actualizar sus sistemas inmediatamente y aplicar los parches de seguridad tan pronto como estén disponibles. Es crucial monitorear los sistemas en busca de actividades sospechosas."
+        },
+        {
+          "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
+          "url": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una campaña de robo de credenciales llamada GhostAction ha comprometido alrededor de 1,900 cuentas de GitHub, afectando a más de 30,000 repositorios. Los atacantes intentaron extraer secretos de los repositorios públicos de CI.",
+          "whyItMatters": "El compromiso de cuentas de GitHub y repositorios puede exponer código sensible, secretos (claves API, contraseñas) y configuraciones, lo que lleva a accesos no autorizados y violaciones de seguridad.",
+          "recommendedAction": "Los desarrolladores deben habilitar la autenticación de dos factores (2FA) en sus cuentas de GitHub. Revise periódicamente los permisos de las aplicaciones conectadas y revise la actividad de inicio de sesión en busca de accesos no autorizados. Evite almacenar secretos directamente en los repositorios."
+        },
+        {
+          "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+          "url": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 8,
+          "summary": "Se han lanzado actualizaciones de seguridad para AhsayCBS para abordar dos vulnerabilidades (CVE-2026-105133 y CVE-2026-105134) que se estaban explotando para desplegar web shells y mineros de criptomonedas.",
+          "whyItMatters": "Estas vulnerabilidades permiten la ejecución de comandos arbitrarios y la elusión de autenticación, lo que podría permitir a los atacantes obtener control total sobre los sistemas afectados.",
+          "recommendedAction": "Los usuarios de AhsayCBS deben aplicar las últimas actualizaciones de seguridad de inmediato. Verifique sus sistemas en busca de indicadores de compromiso si no aplicó los parches anteriores."
+        }
+      ]
+    },
     {
       "date": "2026-10-14",
       "generatedAt": "2026-10-14T12:40:41.150Z",
