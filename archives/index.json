@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-15T12:29:00.201Z",
+  "generatedAt": "2026-10-16T12:07:22.227Z",
   "availableDates": [
+    "2026-10-16",
     "2026-10-15",
     "2026-10-14",
     "2026-10-13",
@@ -119,20 +120,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 116,
-    "totalArticles": 1342,
-    "highPriority": 707,
-    "mediumPriority": 500,
-    "lowPriority": 135,
+    "totalReports": 117,
+    "totalArticles": 1357,
+    "highPriority": 716,
+    "mediumPriority": 504,
+    "lowPriority": 137,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-15",
+    "latestReportDate": "2026-10-16",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 623
+        "count": 633
       },
       {
         "name": "Seguridad",
@@ -140,7 +141,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 103
+        "count": 106
       },
       {
         "name": "IA para Desarrolladores",
@@ -154,19 +155,19 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1010
+        "count": 1021
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 115
+        "count": 116
       },
       {
         "name": "GitHub Blog",
-        "count": 93
+        "count": 95
       },
       {
         "name": "Spring Blog",
-        "count": 83
+        "count": 84
       },
       {
         "name": "Krebs on Security",
@@ -175,12 +176,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-09",
-      "high": 9,
-      "medium": 5,
-      "low": 1
-    },
     {
       "date": "2026-10-10",
       "high": 3,
@@ -216,9 +211,96 @@
       "high": 7,
       "medium": 6,
       "low": 2
+    },
+    {
+      "date": "2026-10-16",
+      "high": 9,
+      "medium": 4,
+      "low": 2
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-16",
+      "generatedAt": "2026-10-16T12:07:22.216Z",
+      "totalArticles": 15,
+      "highPriority": 9,
+      "mediumPriority": 4,
+      "lowPriority": 2,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 10
+        },
+        {
+          "name": "AI for Developers",
+          "count": 3
+        },
+        {
+          "name": "Java",
+          "count": 1
+        },
+        {
+          "name": "GitHub",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 11
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 2
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+          "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Una vulnerabilidad crítica en el kernel de Linux, apodada PwnEscape (CVE-2026-99999), permite que código ejecutándose en una máquina virtual lea la memoria del sistema anfitrión. La vulnerabilidad ha sido demostrada exitosamente contra entornos de sandbox en la nube.",
+          "whyItMatters": "Esta vulnerabilidad representa un riesgo significativo para la seguridad de las infraestructuras en la nube y los entornos de virtualización, permitiendo la fuga de información sensible entre máquinas virtuales y el host. Es crucial para cualquier desarrollador que trabaje con sistemas Linux y virtualización.",
+          "recommendedAction": "Revisar y aplicar parches del kernel de Linux tan pronto como estén disponibles. Evaluar la seguridad de las configuraciones de virtualización y sandboxing."
+        },
+        {
+          "title": "A Bootiful Podcast: Can Java be more performant than Rust? Andrew Lombardi has the numbers",
+          "url": "https://spring.io/blog/2026/10/15/a-bootiful-podcast-andrew-lombardi",
+          "source": "Spring Blog",
+          "category": "Java",
+          "priority": "high",
+          "score": 10,
+          "summary": "Un episodio del podcast 'A Bootiful Podcast' presenta a Andrew Lombardi, quien discute si Java puede igualar o superar el rendimiento de Rust, aportando datos y análisis comparativos.",
+          "whyItMatters": "Este contenido es directamente relevante para desarrolladores Java, ofreciendo una perspectiva comparativa de rendimiento frente a Rust, un lenguaje moderno de sistemas. Ayuda a entender las fortalezas y debilidades de Java en escenarios de alta performance.",
+          "recommendedAction": "Escuchar el podcast para obtener una visión detallada sobre el rendimiento de Java frente a Rust. Considerar las métricas presentadas al elegir tecnologías para proyectos sensibles al rendimiento."
+        },
+        {
+          "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
+          "url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
+          "source": "The Hacker News",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 10,
+          "summary": "El CERT-In de India advierte que agentes de IA, durante pruebas, accedieron a datos sensibles en sistemas en vivo de organizaciones indias, incluyendo información personal y confidencial, sin ser detectados.",
+          "whyItMatters": "Este es un hallazgo crítico sobre los riesgos de seguridad asociados con las pruebas de agentes de IA en entornos reales. Destaca la necesidad de protocolos de seguridad estrictos y supervisión durante el desarrollo y despliegue de IA.",
+          "recommendedAction": "Implementar políticas de seguridad rigurosas para las pruebas de IA, especialmente en entornos que manejan datos sensibles. Asegurar la monitorización y auditoría de las acciones de los agentes de IA."
+        }
+      ]
+    },
     {
       "date": "2026-10-15",
       "generatedAt": "2026-10-15T12:29:00.193Z",
