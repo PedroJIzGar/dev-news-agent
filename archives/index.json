@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-17T11:25:22.337Z",
+  "generatedAt": "2026-10-18T11:57:14.125Z",
   "availableDates": [
+    "2026-10-18",
     "2026-10-17",
     "2026-10-16",
     "2026-10-15",
@@ -121,13 +122,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 118,
-    "totalArticles": 1370,
-    "highPriority": 723,
+    "totalReports": 119,
+    "totalArticles": 1372,
+    "highPriority": 725,
     "mediumPriority": 507,
     "lowPriority": 140,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-17",
+    "latestReportDate": "2026-10-18",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -138,7 +139,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 283
+        "count": 285
       },
       {
         "name": "AI for Developers",
@@ -156,7 +157,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1029
+        "count": 1031
       },
       {
         "name": "Stack Overflow Blog",
@@ -177,12 +178,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-11",
-      "high": 0,
-      "medium": 1,
-      "low": 1
-    },
     {
       "date": "2026-10-12",
       "high": 3,
@@ -218,9 +213,61 @@
       "high": 7,
       "medium": 3,
       "low": 3
+    },
+    {
+      "date": "2026-10-18",
+      "high": 2,
+      "medium": 0,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-18",
+      "generatedAt": "2026-10-18T11:57:14.115Z",
+      "totalArticles": 2,
+      "highPriority": 2,
+      "mediumPriority": 0,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 2
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 2
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "ConnectWise Suspende Copia de Seguridad en la Nube Tras Comprometerse Inquilinos de Microsoft 365",
+          "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "ConnectWise ha desactivado identidades de aplicaciones en la nube tras un incidente donde actores maliciosos obtuvieron acceso no autorizado y comprometieron inquilinos de Microsoft 365.",
+          "whyItMatters": "Este incidente resalta las vulnerabilidades en la cadena de suministro de software y la importancia de la seguridad en servicios en la nube, afectando directamente a la disponibilidad de copias de seguridad.",
+          "recommendedAction": "Mantenerse actualizado sobre incidentes de seguridad en proveedores de servicios en la nube y revisar las configuraciones de seguridad de las integraciones."
+        },
+        {
+          "title": "Paquete npm MALFEX 'imgdecode' Oculta un Cargador de Shellcode en un Addon Nativo de Windows",
+          "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto un paquete npm malicioso llamado 'imgdecode' que forma parte de una campaña de ataque a la cadena de suministro de software. Este paquete oculta un cargador de shellcode en un componente nativo de Windows.",
+          "whyItMatters": "Los ataques a la cadena de suministro de software, especialmente a través de registros de paquetes populares como npm, representan un riesgo significativo. La inclusión de código malicioso en librerías de terceros puede afectar a numerosos desarrolladores y aplicaciones.",
+          "recommendedAction": "Implementar revisiones de seguridad rigurosas para las dependencias de paquetes de terceros y considerar herramientas de análisis de seguridad de código abierto y comercial."
+        }
+      ]
+    },
     {
       "date": "2026-10-17",
       "generatedAt": "2026-10-17T11:25:22.326Z",
