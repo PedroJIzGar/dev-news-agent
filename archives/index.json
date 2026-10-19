@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-18T11:57:14.125Z",
+  "generatedAt": "2026-10-19T14:23:33.386Z",
   "availableDates": [
+    "2026-10-19",
     "2026-10-18",
     "2026-10-17",
     "2026-10-16",
@@ -122,13 +123,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 119,
-    "totalArticles": 1372,
-    "highPriority": 725,
-    "mediumPriority": 507,
-    "lowPriority": 140,
-    "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-18",
+    "totalReports": 120,
+    "totalArticles": 1378,
+    "highPriority": 728,
+    "mediumPriority": 509,
+    "lowPriority": 141,
+    "averageArticlesPerReport": 11,
+    "latestReportDate": "2026-10-19",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -139,7 +140,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 285
+        "count": 290
       },
       {
         "name": "AI for Developers",
@@ -147,7 +148,7 @@
       },
       {
         "name": "IA para Desarrolladores",
-        "count": 31
+        "count": 32
       },
       {
         "name": "Java/Spring Boot",
@@ -157,7 +158,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1031
+        "count": 1036
       },
       {
         "name": "Stack Overflow Blog",
@@ -173,17 +174,11 @@
       },
       {
         "name": "Krebs on Security",
-        "count": 26
+        "count": 27
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-12",
-      "high": 3,
-      "medium": 2,
-      "low": 1
-    },
     {
       "date": "2026-10-13",
       "high": 4,
@@ -219,9 +214,80 @@
       "high": 2,
       "medium": 0,
       "low": 0
+    },
+    {
+      "date": "2026-10-19",
+      "high": 3,
+      "medium": 2,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-19",
+      "generatedAt": "2026-10-19T14:23:33.375Z",
+      "totalArticles": 6,
+      "highPriority": 3,
+      "mediumPriority": 2,
+      "lowPriority": 1,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 5
+        },
+        {
+          "name": "IA para Desarrolladores",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 5
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+          "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Los atacantes detrás del ataque a la cadena de suministro GhostAction han ampliado sus tácticas más allá de la inyección de flujos de trabajo maliciosos de GitHub Actions para incluir el phishing a desarrolladores de código abierto y la distribución de malware 'stealer' disfrazado de archivo de fuente.",
+          "whyItMatters": "Este ataque afecta directamente a la seguridad de los repositorios de GitHub, una herramienta fundamental para los desarrolladores. La distribución de malware a través de archivos aparentemente inofensivos como fuentes es una técnica sofisticada que requiere atención.",
+          "recommendedAction": "Revisar la seguridad de las acciones de GitHub en los proyectos, estar atento a archivos sospechosos en repositorios, y considerar herramientas de análisis de seguridad para la cadena de suministro de software."
+        },
+        {
+          "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+          "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto un falso acelerador Web3 que distribuye malware 'information stealer' y puertas traseras para Windows y macOS, utilizando paquetes npm maliciosos y prometiendo créditos gratuitos de IA para modelos como Anthropic Claude y Google Gemini.",
+          "whyItMatters": "Este ataque explota la confianza en los paquetes npm y el interés en herramientas de IA. La combinación de la distribución de malware a través de dependencias de software y el robo de credenciales/tráfico de IA representa un riesgo significativo para los desarrolladores que utilizan estos ecosistemas.",
+          "recommendedAction": "Verificar la autenticidad y reputación de los paquetes npm antes de incluirlos en proyectos. Implementar análisis estáticos y dinámicos de código para detectar dependencias maliciosas y proteger el acceso a las claves de API de servicios de IA."
+        },
+        {
+          "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+          "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una brecha de seguridad en OpenCode Console podría haber expuesto claves API de terceros para servicios de IA como OpenAI, Anthropic y Google, que los usuarios habían guardado en el sistema.",
+          "whyItMatters": "La exposición de claves API de servicios de IA es una preocupación grave, ya que podría permitir el uso no autorizado de estos servicios, generando costos y potencialmente accesos indebidos a modelos y datos.",
+          "recommendedAction": "Los usuarios de OpenCode Console deben rotar inmediatamente sus claves API de OpenAI, Anthropic y Google. Implementar prácticas de gestión de secretos seguras y evitar almacenar claves API directamente en servicios de terceros siempre que sea posible."
+        }
+      ]
+    },
     {
       "date": "2026-10-18",
       "generatedAt": "2026-10-18T11:57:14.115Z",
