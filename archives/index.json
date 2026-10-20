@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-19T14:23:33.386Z",
+  "generatedAt": "2026-10-20T12:33:45.456Z",
   "availableDates": [
+    "2026-10-20",
     "2026-10-19",
     "2026-10-18",
     "2026-10-17",
@@ -123,20 +124,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 120,
-    "totalArticles": 1378,
-    "highPriority": 728,
-    "mediumPriority": 509,
-    "lowPriority": 141,
-    "averageArticlesPerReport": 11,
-    "latestReportDate": "2026-10-19",
+    "totalReports": 121,
+    "totalArticles": 1393,
+    "highPriority": 735,
+    "mediumPriority": 515,
+    "lowPriority": 143,
+    "averageArticlesPerReport": 12,
+    "latestReportDate": "2026-10-20",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 642
+        "count": 653
       },
       {
         "name": "Seguridad",
@@ -144,7 +145,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 107
+        "count": 111
       },
       {
         "name": "IA para Desarrolladores",
@@ -158,15 +159,15 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1036
+        "count": 1048
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 121
+        "count": 123
       },
       {
         "name": "GitHub Blog",
-        "count": 95
+        "count": 96
       },
       {
         "name": "Spring Blog",
@@ -179,12 +180,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-13",
-      "high": 4,
-      "medium": 4,
-      "low": 3
-    },
     {
       "date": "2026-10-14",
       "high": 10,
@@ -220,9 +215,84 @@
       "high": 3,
       "medium": 2,
       "low": 1
+    },
+    {
+      "date": "2026-10-20",
+      "high": 7,
+      "medium": 6,
+      "low": 2
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-20",
+      "generatedAt": "2026-10-20T12:33:45.449Z",
+      "totalArticles": 15,
+      "highPriority": 7,
+      "mediumPriority": 6,
+      "lowPriority": 2,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 11
+        },
+        {
+          "name": "AI for Developers",
+          "count": 4
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 2
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "How to continue a GitHub Copilot app session in VS Code",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code/",
+          "source": "GitHub Blog",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 10,
+          "summary": "Aprende a transferir una sesión de agente de la aplicación GitHub Copilot a VS Code sin perder el contexto de la conversación, los cambios de código o el estado del trabajo. Facilita una experiencia de desarrollo más fluida y continua.",
+          "whyItMatters": "GitHub Copilot es una herramienta cada vez más importante para los desarrolladores. La capacidad de mantener la continuidad de las sesiones, especialmente al mover el trabajo entre diferentes entornos como la app dedicada y el IDE, mejora significativamente la productividad.",
+          "recommendedAction": "Experimenta con esta función si utilizas GitHub Copilot. Familiarízate con cómo transferir tus sesiones de Copilot entre la aplicación y VS Code para optimizar tu flujo de trabajo de desarrollo."
+        },
+        {
+          "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+          "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Atacantes explotan una vulnerabilidad en el Siemens Software Center para desplegar un troyano de acceso remoto. La falla, de alta severidad, permite la ejecución de código malicioso si se coloca una DLL especialmente diseñada.",
+          "whyItMatters": "Esta noticia es crucial para la seguridad, ya que una vulnerabilidad crítica en software utilizado comúnmente puede ser explotada para obtener acceso no autorizado y desplegar malware. Entender estas amenazas ayuda a proteger sistemas y datos.",
+          "recommendedAction": "Revisa si utilizas Siemens Software Center y aplica las actualizaciones de seguridad correspondientes de inmediato. Mantente informado sobre las tácticas de ataque y las vulnerabilidades emergentes."
+        },
+        {
+          "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+          "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Los atacantes secuestraron cuentas de GitHub de contribuidores para reemplazar descargas de la herramienta CLI de OVHcloud con malware que roba secretos. Las versiones maliciosas estuvieron disponibles por un tiempo limitado.",
+          "whyItMatters": "Este incidente destaca la importancia de la seguridad en la cadena de suministro de software y en plataformas como GitHub. El secuestro de repositorios legítimos para distribuir malware es una amenaza directa para los desarrolladores que confían en estas herramientas.",
+          "recommendedAction": "Verifica las fuentes de tus herramientas de línea de comandos, especialmente aquellas provenientes de proveedores de cloud. Implementa escaneo de archivos descargados y considera el uso de firmas de código para verificar la autenticidad de los binarios."
+        }
+      ]
+    },
     {
       "date": "2026-10-19",
       "generatedAt": "2026-10-19T14:23:33.375Z",
