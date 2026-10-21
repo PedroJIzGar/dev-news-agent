@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-20T12:33:45.456Z",
+  "generatedAt": "2026-10-21T12:44:44.177Z",
   "availableDates": [
+    "2026-10-21",
     "2026-10-20",
     "2026-10-19",
     "2026-10-18",
@@ -124,20 +125,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 121,
-    "totalArticles": 1393,
-    "highPriority": 735,
-    "mediumPriority": 515,
+    "totalReports": 122,
+    "totalArticles": 1408,
+    "highPriority": 741,
+    "mediumPriority": 524,
     "lowPriority": 143,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-20",
+    "latestReportDate": "2026-10-21",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
     "topCategories": [
       {
         "name": "Security",
-        "count": 653
+        "count": 662
       },
       {
         "name": "Seguridad",
@@ -145,7 +146,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 111
+        "count": 115
       },
       {
         "name": "IA para Desarrolladores",
@@ -159,7 +160,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1048
+        "count": 1060
       },
       {
         "name": "Stack Overflow Blog",
@@ -167,11 +168,11 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 96
+        "count": 97
       },
       {
         "name": "Spring Blog",
-        "count": 84
+        "count": 86
       },
       {
         "name": "Krebs on Security",
@@ -180,12 +181,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-14",
-      "high": 10,
-      "medium": 4,
-      "low": 2
-    },
     {
       "date": "2026-10-15",
       "high": 7,
@@ -221,9 +216,88 @@
       "high": 7,
       "medium": 6,
       "low": 2
+    },
+    {
+      "date": "2026-10-21",
+      "high": 6,
+      "medium": 9,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-21",
+      "generatedAt": "2026-10-21T12:44:44.166Z",
+      "totalArticles": 15,
+      "highPriority": 6,
+      "mediumPriority": 9,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 9
+        },
+        {
+          "name": "AI for Developers",
+          "count": 4
+        },
+        {
+          "name": "Spring Boot",
+          "count": 2
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "Spring Blog",
+          "count": 2
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+          "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Investigadores de ciberseguridad han publicado un exploit de prueba de concepto (PoC) para una vulnerabilidad crítica en Fortinet FortiSIEM. Esta falla, con un CVSS de 9.4, permite a un atacante no autenticado ejecutar código arbitrario de forma remota.",
+          "whyItMatters": "Una vulnerabilidad crítica con un exploit público es una amenaza inmediata. Los desarrolladores deben estar al tanto de estas fallas de seguridad para proteger sus sistemas.",
+          "recommendedAction": "Revisar si se utiliza FortiSIEM y aplicar los parches de seguridad correspondientes de inmediato. Estar atento a noticias de seguridad para futuras vulnerabilidades."
+        },
+        {
+          "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+          "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity/",
+          "source": "GitHub Blog",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 9,
+          "summary": "Tres \"Java Champions\" comparten cómo utilizan GitHub Copilot para mejorar su productividad, resolver problemas y acelerar el desarrollo, manteniendo al mismo tiempo la responsabilidad humana sobre los resultados.",
+          "whyItMatters": "Este artículo ofrece información práctica sobre cómo una herramienta de IA como GitHub Copilot puede integrarse en flujos de trabajo de Java para aumentar la eficiencia, un tema muy relevante para los desarrolladores de Java y aquellos interesados en IA.",
+          "recommendedAction": "Explorar el uso de GitHub Copilot en proyectos de Java. Leer las experiencias de los \"Java Champions\" para obtener ideas sobre cómo maximizar su potencial."
+        },
+        {
+          "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+          "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+          "source": "The Hacker News",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un atacante ha utilizado agentes de IA autónomos para penetrar sitios web de empresas, logrando acceder a más de 100 compañías, incluyendo objetivos como Deere. Los agentes intentaron atacar más de 1,200 sitios.",
+          "whyItMatters": "Este es un ejemplo temprano y preocupante del uso de IA autónoma con fines maliciosos. Demuestra la necesidad de desarrollar contramedidas y comprender cómo la IA puede ser utilizada para ataques automatizados.",
+          "recommendedAction": "Prestar atención a las nuevas amenazas de seguridad impulsadas por IA. Evaluar la postura de seguridad de los sistemas web contra ataques automatizados y potencialmente dirigidos por IA."
+        }
+      ]
+    },
     {
       "date": "2026-10-20",
       "generatedAt": "2026-10-20T12:33:45.449Z",
