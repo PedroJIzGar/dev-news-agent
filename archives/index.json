@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-21T12:44:44.177Z",
+  "generatedAt": "2026-10-22T12:48:35.300Z",
   "availableDates": [
+    "2026-10-22",
     "2026-10-21",
     "2026-10-20",
     "2026-10-19",
@@ -125,13 +126,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 122,
-    "totalArticles": 1408,
-    "highPriority": 741,
-    "mediumPriority": 524,
+    "totalReports": 123,
+    "totalArticles": 1423,
+    "highPriority": 752,
+    "mediumPriority": 528,
     "lowPriority": 143,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-21",
+    "latestReportDate": "2026-10-22",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-06-28",
@@ -142,7 +143,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 290
+        "count": 303
       },
       {
         "name": "AI for Developers",
@@ -150,7 +151,7 @@
       },
       {
         "name": "IA para Desarrolladores",
-        "count": 32
+        "count": 33
       },
       {
         "name": "Java/Spring Boot",
@@ -160,7 +161,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1060
+        "count": 1073
       },
       {
         "name": "Stack Overflow Blog",
@@ -168,7 +169,7 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 97
+        "count": 98
       },
       {
         "name": "Spring Blog",
@@ -176,17 +177,11 @@
       },
       {
         "name": "Krebs on Security",
-        "count": 27
+        "count": 28
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-15",
-      "high": 7,
-      "medium": 6,
-      "low": 2
-    },
     {
       "date": "2026-10-16",
       "high": 9,
@@ -222,9 +217,88 @@
       "high": 6,
       "medium": 9,
       "low": 0
+    },
+    {
+      "date": "2026-10-22",
+      "high": 11,
+      "medium": 4,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-22",
+      "generatedAt": "2026-10-22T12:48:35.288Z",
+      "totalArticles": 15,
+      "highPriority": 11,
+      "mediumPriority": 4,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 13
+        },
+        {
+          "name": "DevOps",
+          "count": 1
+        },
+        {
+          "name": "IA para Desarrolladores",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 13
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+          "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "LiteLLM sospecha que una filtración de tokens de GitHub en sus logs del gateway de IA fue la causa de la liberación de un paquete malicioso. Actores maliciosos comprometieron controles de seguridad para insertar una versión maliciosa del paquete Python que contenía un roba credenciales y una puerta trasera.",
+          "whyItMatters": "Esta noticia es crucial porque destaca una vulnerabilidad grave en la cadena de suministro de software, específicamente involucrando a GitHub y Docker. La explotación de tokens filtrados para distribuir código malicioso es una amenaza directa para la seguridad de las aplicaciones y la infraestructura.",
+          "recommendedAction": "Revisar y rotar inmediatamente los tokens de acceso de GitHub y otras credenciales sensibles. Asegurarse de que los pipelines de CI/CD tengan medidas de seguridad robustas para la validación de paquetes y la gestión de secretos."
+        },
+        {
+          "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+          "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "El popular paquete Python LiteLLM ha sido comprometido en un ataque a la cadena de suministro que distribuyó un roba credenciales y una puerta trasera. La versión afectada (1.107.0) se distribuyó a través de PyPI y Docker Hub.",
+          "whyItMatters": "Los ataques a la cadena de suministro son una amenaza significativa, especialmente cuando afectan a bibliotecas populares utilizadas por muchos desarrolladores. La distribución de malware a través de canales legítimos como PyPI y Docker Hub subraya la necesidad crítica de verificar la seguridad de las dependencias.",
+          "recommendedAction": "Verificar si se utilizan versiones afectadas de LiteLLM y actualizar inmediatamente. Implementar herramientas de análisis de seguridad de dependencias y políticas de 'least privilege' para la publicación de paquetes."
+        },
+        {
+          "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+          "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "GitLab ha lanzado parches para una vulnerabilidad crítica (CVSS 10.0) que permite a un atacante no autenticado ejecutar código de forma remota en servidores autogestionados. La falla afecta a versiones de software de los últimos 12 años.",
+          "whyItMatters": "Una vulnerabilidad con puntuación CVSS 10.0 es extremadamente grave. El hecho de que afecte a versiones tan antiguas de GitLab significa que un gran número de instalaciones autogestionadas podrían estar en riesgo. La posibilidad de RCE sin autenticación es una amenaza directa.",
+          "recommendedAction": "Actualizar inmediatamente todas las instalaciones de GitLab autogestionadas a las versiones parcheadas. Realizar auditorías de seguridad para verificar la aplicación de parches y revisar los controles de acceso para mitigar el riesgo."
+        }
+      ]
+    },
     {
       "date": "2026-10-21",
       "generatedAt": "2026-10-21T12:44:44.166Z",
