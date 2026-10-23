@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-22T12:48:35.300Z",
+  "generatedAt": "2026-10-23T12:26:42.357Z",
   "availableDates": [
+    "2026-10-23",
     "2026-10-22",
     "2026-10-21",
     "2026-10-20",
@@ -126,16 +127,16 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 123,
-    "totalArticles": 1423,
-    "highPriority": 752,
-    "mediumPriority": 528,
-    "lowPriority": 143,
+    "totalReports": 124,
+    "totalArticles": 1442,
+    "highPriority": 765,
+    "mediumPriority": 533,
+    "lowPriority": 144,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-22",
+    "latestReportDate": "2026-10-23",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
-    "highestRiskDay": "2026-06-28",
+    "highestRiskDay": "2026-10-23",
     "topCategories": [
       {
         "name": "Security",
@@ -143,7 +144,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 303
+        "count": 314
       },
       {
         "name": "AI for Developers",
@@ -154,14 +155,14 @@
         "count": 33
       },
       {
-        "name": "Java/Spring Boot",
+        "name": "Spring Boot",
         "count": 23
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1073
+        "count": 1086
       },
       {
         "name": "Stack Overflow Blog",
@@ -169,11 +170,11 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 98
+        "count": 99
       },
       {
         "name": "Spring Blog",
-        "count": 86
+        "count": 91
       },
       {
         "name": "Krebs on Security",
@@ -182,12 +183,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-16",
-      "high": 9,
-      "medium": 4,
-      "low": 2
-    },
     {
       "date": "2026-10-17",
       "high": 7,
@@ -223,9 +218,92 @@
       "high": 11,
       "medium": 4,
       "low": 0
+    },
+    {
+      "date": "2026-10-23",
+      "high": 13,
+      "medium": 5,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-23",
+      "generatedAt": "2026-10-23T12:26:42.342Z",
+      "totalArticles": 19,
+      "highPriority": 13,
+      "mediumPriority": 5,
+      "lowPriority": 1,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 11
+        },
+        {
+          "name": "Spring Boot",
+          "count": 5
+        },
+        {
+          "name": "Seguridad / IA",
+          "count": 2
+        },
+        {
+          "name": "Seguridad / Desarrollo",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 13
+        },
+        {
+          "name": "Spring Blog",
+          "count": 5
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+          "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 10,
+          "summary": "Investigadores de seguridad han demostrado un exploit RCE (Remote Code Execution) llamado 'Node2Shell' que puede ejecutarse en builds oficiales de Node.js (versión 24.22.0 para Linux arm64) utilizando datos Brotli maliciosamente creados. El fallo (CVE-2026-111497) reside en el decodificador Brotli integrado.",
+          "whyItMatters": "Este es un fallo de seguridad crítico para cualquier desarrollador que utilice Node.js, especialmente en entornos Linux. La posibilidad de ejecución remota de código a través de datos aparentemente inofensivos como Brotli es una amenaza significativa. La demostración en una imagen oficial sin configuraciones especiales subraya la urgencia.",
+          "recommendedAction": "Actualiza inmediatamente tus entornos Node.js a una versión que corrija el CVE-2026-111497. Si no puedes actualizar de inmediato, revisa y sanea rigurosamente cualquier dato Brotli procesado por tus aplicaciones. Considera implementar medidas de seguridad adicionales en el manejo de archivos externos."
+        },
+        {
+          "title": "Spring Boot 4.1.2 available now",
+          "url": "https://spring.io/blog/2026/10/23/spring-boot-4-1-2-available-now",
+          "source": "Spring Blog",
+          "category": "Spring Boot",
+          "priority": "high",
+          "score": 10,
+          "summary": "Se ha lanzado la versión 4.1.2 de Spring Boot. Esta versión se centra en corregir errores y mejorar la estabilidad general del framework.",
+          "whyItMatters": "Mantenerse al día con las últimas versiones de Spring Boot es fundamental para cualquier desarrollador que utilice este framework. Las actualizaciones suelen incluir correcciones de seguridad importantes, mejoras de rendimiento y nuevas funcionalidades que facilitan el desarrollo.",
+          "recommendedAction": "Actualiza tus proyectos de Spring Boot a la versión 4.1.2. Revisa las notas de la versión para comprender los cambios específicos y asegúrate de que tu aplicación funcione correctamente después de la actualización."
+        },
+        {
+          "title": "Spring Boot 4.0.9 available now",
+          "url": "https://spring.io/blog/2026/10/23/spring-boot-4-0-9-available-now",
+          "source": "Spring Blog",
+          "category": "Spring Boot",
+          "priority": "high",
+          "score": 10,
+          "summary": "Se ha publicado la versión 4.0.9 de Spring Boot. Esta actualización trae consigo correcciones de errores y mejoras destinadas a estabilizar la rama 4.0.",
+          "whyItMatters": "Las versiones de mantenimiento como la 4.0.9 son cruciales para la estabilidad y seguridad de las aplicaciones existentes. Incluyen parches importantes que pueden resolver problemas críticos o vulnerabilidades descubiertas en versiones anteriores.",
+          "recommendedAction": "Si estás utilizando la rama 4.0 de Spring Boot, es altamente recomendable actualizar a la versión 4.0.9 para beneficiarte de las últimas correcciones y asegurar la robustez de tu aplicación."
+        }
+      ]
+    },
     {
       "date": "2026-10-22",
       "generatedAt": "2026-10-22T12:48:35.288Z",
