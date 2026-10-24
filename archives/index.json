@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-23T12:26:42.357Z",
+  "generatedAt": "2026-10-24T11:52:38.152Z",
   "availableDates": [
+    "2026-10-24",
     "2026-10-23",
     "2026-10-22",
     "2026-10-21",
@@ -127,20 +128,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 124,
-    "totalArticles": 1442,
-    "highPriority": 765,
-    "mediumPriority": 533,
-    "lowPriority": 144,
+    "totalReports": 125,
+    "totalArticles": 1457,
+    "highPriority": 772,
+    "mediumPriority": 540,
+    "lowPriority": 145,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-23",
+    "latestReportDate": "2026-10-24",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
     "topCategories": [
       {
         "name": "Security",
-        "count": 662
+        "count": 673
       },
       {
         "name": "Seguridad",
@@ -148,25 +149,25 @@
       },
       {
         "name": "AI for Developers",
-        "count": 115
+        "count": 116
       },
       {
         "name": "IA para Desarrolladores",
         "count": 33
       },
       {
-        "name": "Spring Boot",
-        "count": 23
+        "name": "Java/Spring Boot",
+        "count": 24
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1086
+        "count": 1098
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 123
+        "count": 124
       },
       {
         "name": "GitHub Blog",
@@ -174,7 +175,7 @@
       },
       {
         "name": "Spring Blog",
-        "count": 91
+        "count": 92
       },
       {
         "name": "Krebs on Security",
@@ -183,12 +184,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-17",
-      "high": 7,
-      "medium": 3,
-      "low": 3
-    },
     {
       "date": "2026-10-18",
       "high": 2,
@@ -224,9 +219,100 @@
       "high": 13,
       "medium": 5,
       "low": 1
+    },
+    {
+      "date": "2026-10-24",
+      "high": 7,
+      "medium": 7,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-24",
+      "generatedAt": "2026-10-24T11:52:38.143Z",
+      "totalArticles": 15,
+      "highPriority": 7,
+      "mediumPriority": 7,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 11
+        },
+        {
+          "name": "AI for Developers",
+          "count": 1
+        },
+        {
+          "name": "Java/Spring Boot",
+          "count": 1
+        },
+        {
+          "name": "Angular",
+          "count": 1
+        },
+        {
+          "name": "Developer Culture",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "Angular Blog",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Spring AI 2.1.0-RC1 and 2.0.2 Available Now",
+          "url": "https://spring.io/blog/2026/10/23/spring-ai-2-1-0-RC1-available-now",
+          "source": "Spring Blog",
+          "category": "Java/Spring Boot",
+          "priority": "high",
+          "score": 10,
+          "summary": "Se han lanzado las versiones Release Candidate 1 de Spring AI 2.1.0 y la versión 2.0.2.",
+          "whyItMatters": "Spring AI es una extensión fundamental para integrar capacidades de IA en aplicaciones Spring Boot. Las nuevas versiones traen mejoras y correcciones, siendo crucial para los desarrolladores Java que buscan incorporar IA de manera eficiente.",
+          "recommendedAction": "Actualizar a la última versión disponible de Spring AI si ya se está utilizando. Explorar las nuevas características para mejorar la integración de IA en las aplicaciones Spring Boot."
+        },
+        {
+          "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+          "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una clave maestra de LiteLLM, expuesta accidentalmente en un repositorio público de GitHub, permitió a un atacante robar tokens y secuestrar el pipeline de lanzamientos de la popular librería Python.",
+          "whyItMatters": "Demuestra los graves riesgos de seguridad asociados a la exposición de credenciales y claves maestras en repositorios de código público, especialmente en herramientas utilizadas en flujos de CI/CD y con componentes de IA. Afecta directamente a desarrolladores que usan GitHub y herramientas de IA.",
+          "recommendedAction": "Revisar inmediatamente las configuraciones de acceso y las claves secretas en todos los repositorios de GitHub, especialmente aquellos relacionados con pipelines de CI/CD y herramientas de IA. Implementar secretos gestionados y políticas de rotación estricta."
+        },
+        {
+          "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+          "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Investigadores de ciberseguridad descubrieron un ecosistema impulsado por IA para ejecutar intrusiones, utilizado por afiliados de grupos de ransomware para automatizar ataques.",
+          "whyItMatters": "Muestra la evolución de las amenazas cibernéticas con el uso de IA para la automatización de ataques. Esto significa que los atacantes pueden ser más eficientes y los ataques más sofisticados, requiriendo defensas más avanzadas.",
+          "recommendedAction": "Fortalecer las defensas contra ataques automatizados y sofisticados. Considerar el uso de herramientas de seguridad basadas en IA para la detección y respuesta a amenazas."
+        }
+      ]
+    },
     {
       "date": "2026-10-23",
       "generatedAt": "2026-10-23T12:26:42.342Z",
