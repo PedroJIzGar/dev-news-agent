@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-25T12:22:03.827Z",
+  "generatedAt": "2026-10-26T13:56:05.755Z",
   "availableDates": [
+    "2026-10-26",
     "2026-10-25",
     "2026-10-24",
     "2026-10-23",
@@ -129,13 +130,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 126,
-    "totalArticles": 1464,
-    "highPriority": 776,
-    "mediumPriority": 541,
-    "lowPriority": 147,
+    "totalReports": 127,
+    "totalArticles": 1472,
+    "highPriority": 780,
+    "mediumPriority": 544,
+    "lowPriority": 148,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-25",
+    "latestReportDate": "2026-10-26",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
@@ -146,7 +147,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 318
+        "count": 325
       },
       {
         "name": "AI for Developers",
@@ -164,7 +165,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1102
+        "count": 1110
       },
       {
         "name": "Stack Overflow Blog",
@@ -185,12 +186,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-19",
-      "high": 3,
-      "medium": 2,
-      "low": 1
-    },
     {
       "date": "2026-10-20",
       "high": 7,
@@ -226,9 +221,76 @@
       "high": 4,
       "medium": 1,
       "low": 2
+    },
+    {
+      "date": "2026-10-26",
+      "high": 4,
+      "medium": 3,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-26",
+      "generatedAt": "2026-10-26T13:56:05.746Z",
+      "totalArticles": 8,
+      "highPriority": 4,
+      "mediumPriority": 3,
+      "lowPriority": 1,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 7
+        },
+        {
+          "name": "AI para Desarrolladores",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 8
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+          "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 10,
+          "summary": "Una campaña automatizada está utilizando tokens de GitHub robados para insertar flujos de trabajo que registran secretos de repositorios en los logs de GitHub Actions. Los atacantes luego descargan estos secretos antes de eliminar los registros de ejecución. Los ataques han tenido éxito en repositorios privados y entornos de GitHub Enterprise.",
+          "whyItMatters": "Esta noticia es crítica porque expone una vulnerabilidad directa en el uso de tokens de GitHub, una herramienta fundamental para la automatización y la seguridad en el desarrollo. La filtración de secretos de repositorios privados puede tener consecuencias devastadoras para la seguridad de los proyectos y las empresas.",
+          "recommendedAction": "Revisar y rotar inmediatamente todos los tokens de GitHub en uso, especialmente aquellos asociados con GitHub Actions. Implementar la autenticación multifactor (MFA) y restringir los permisos de los tokens al mínimo necesario. Mantenerse informado sobre las últimas tácticas de ataque contra plataformas de desarrollo."
+        },
+        {
+          "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+          "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+          "source": "The Hacker News",
+          "category": "AI para Desarrolladores",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un archivo de instrucción malicioso en la carpeta de descargas intentó engañar a un agente de codificación de IA para que instalara un paquete npm conocido por ser malicioso. La firma de seguridad Forever Security detectó y detuvo el intento antes de que se ejecutara código.",
+          "whyItMatters": "Esta noticia es directamente relevante para los desarrolladores que utilizan herramientas de IA para codificar. Demuestra un nuevo vector de ataque que se dirige específicamente a estas herramientas, lo que podría llevar a la inyección de malware en los proyectos de desarrollo.",
+          "recommendedAction": "Ser muy cauteloso con los archivos y paquetes que se descargan y se utilizan, especialmente si se integran con herramientas de IA. Configurar las herramientas de IA para que requieran confirmación explícita antes de instalar o ejecutar código nuevo. Mantener actualizados tanto los sistemas de desarrollo como las herramientas de IA."
+        },
+        {
+          "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+          "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Investigadores de ciberseguridad han descubierto una campaña contra Microsoft 365 que utiliza ataques de retransmisión de tokens (Token-Replay) para capturar sesiones de inicio de sesión y acceder a cuentas de correo electrónico. Se han detectado 497 inicios de sesión exitosos en 79 organizaciones.",
+          "whyItMatters": "Los ataques de retransmisión de tokens son una amenaza seria para las plataformas basadas en la nube como Microsoft 365, ya que eluden los mecanismos de autenticación tradicionales. Esto afecta directamente a la seguridad de las cuentas de correo electrónico y datos corporativos.",
+          "recommendedAction": "Fortalecer las políticas de seguridad para el acceso a Microsoft 365. Habilitar y configurar la autenticación multifactor (MFA) en todos los usuarios. Estar atento a los intentos de phishing y a las comunicaciones sospechosas que puedan llevar a la captura de tokens de sesión."
+        }
+      ]
+    },
     {
       "date": "2026-10-25",
       "generatedAt": "2026-10-25T12:22:03.819Z",

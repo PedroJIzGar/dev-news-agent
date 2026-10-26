@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T13:56:05.746Z",
+  "totalArticles": 8,
+  "summary": {
+    "highPriority": 4,
+    "mediumPriority": 3,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 7
+      },
+      {
+        "name": "AI para Desarrolladores",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 8
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+      "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 10,
+      "summary": "Una campaña automatizada está utilizando tokens de GitHub robados para insertar flujos de trabajo que registran secretos de repositorios en los logs de GitHub Actions. Los atacantes luego descargan estos secretos antes de eliminar los registros de ejecución. Los ataques han tenido éxito en repositorios privados y entornos de GitHub Enterprise.",
+      "whyItMatters": "Esta noticia es crítica porque expone una vulnerabilidad directa en el uso de tokens de GitHub, una herramienta fundamental para la automatización y la seguridad en el desarrollo. La filtración de secretos de repositorios privados puede tener consecuencias devastadoras para la seguridad de los proyectos y las empresas.",
+      "recommendedAction": "Revisar y rotar inmediatamente todos los tokens de GitHub en uso, especialmente aquellos asociados con GitHub Actions. Implementar la autenticación multifactor (MFA) y restringir los permisos de los tokens al mínimo necesario. Mantenerse informado sobre las últimas tácticas de ataque contra plataformas de desarrollo."
+    },
+    {
+      "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
+      "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Se han descubierto dos fallos críticos en Wasmtime, un runtime de WebAssembly, que podrían permitir que módulos maliciosos de WebAssembly escapen de sus entornos aislados (sandboxes). Un atacante necesitaría una compilación vulnerable de Wasmtime y, en uno de los casos, el fallo solo afecta a sistemas ARM64.",
+      "whyItMatters": "WebAssembly (Wasm) es una tecnología cada vez más utilizada en diversos entornos, incluyendo el desarrollo web y como componente en aplicaciones más grandes. Las vulnerabilidades en su runtime pueden tener implicaciones de seguridad amplias, afectando la integridad y seguridad de las aplicaciones que lo utilizan.",
+      "recommendedAction": "Verificar si se está utilizando Wasmtime en algún proyecto. Si es así, actualizar a las versiones parcheadas tan pronto como estén disponibles. Estar atento a las actualizaciones de seguridad relacionadas con WebAssembly y sus runtimes."
+    },
+    {
+      "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
+      "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Se reportan continuos intentos de explotación de fallos en PHP2Shell, en medio de una posible actividad de escaneo global sospechosa de Corea del Norte. Una evaluación anterior sobre la explotación de estas fallas ha sido retractada, pero la actividad observada apunta a un ataque contra una aplicación PHP vulnerable.",
+      "whyItMatters": "Las vulnerabilidades en aplicaciones web, especialmente aquellas relacionadas con el procesamiento de PHP, siguen siendo un vector de ataque común. Comprender estas amenazas ayuda a los desarrolladores a proteger sus propias aplicaciones web.",
+      "recommendedAction": "Asegurarse de que todas las aplicaciones PHP estén actualizadas a las últimas versiones y que se apliquen los parches de seguridad. Revisar la configuración de los servidores web y las aplicaciones para detectar y mitigar posibles vulnerabilidades."
+    },
+    {
+      "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+      "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "low",
+      "score": 3,
+      "summary": "Un kit de spyware para Android llamado uCreator permite robar contraseñas de 2FA de Telegram y clonar cuentas de WeChat. El malware se oculta dentro de copias funcionales de estas aplicaciones, distribuidas fuera de las tiendas oficiales, o mediante una aplicación contenedora.",
+      "whyItMatters": "Si bien este ataque se centra en Android y aplicaciones específicas, ilustra las tácticas que los ciberdelincuentes utilizan para comprometer información sensible, incluyendo credenciales de autenticación de dos factores.",
+      "recommendedAction": "Ser extremadamente cauteloso al instalar aplicaciones de fuentes no oficiales. Utilizar siempre las tiendas de aplicaciones oficiales y verificar la reputación y los permisos de las aplicaciones. Mantener las aplicaciones y el sistema operativo actualizados."
+    },
+    {
+      "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+      "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+      "source": "The Hacker News",
+      "category": "AI para Desarrolladores",
+      "priority": "high",
+      "score": 9,
+      "summary": "Un archivo de instrucción malicioso en la carpeta de descargas intentó engañar a un agente de codificación de IA para que instalara un paquete npm conocido por ser malicioso. La firma de seguridad Forever Security detectó y detuvo el intento antes de que se ejecutara código.",
+      "whyItMatters": "Esta noticia es directamente relevante para los desarrolladores que utilizan herramientas de IA para codificar. Demuestra un nuevo vector de ataque que se dirige específicamente a estas herramientas, lo que podría llevar a la inyección de malware en los proyectos de desarrollo.",
+      "recommendedAction": "Ser muy cauteloso con los archivos y paquetes que se descargan y se utilizan, especialmente si se integran con herramientas de IA. Configurar las herramientas de IA para que requieran confirmación explícita antes de instalar o ejecutar código nuevo. Mantener actualizados tanto los sistemas de desarrollo como las herramientas de IA."
+    },
+    {
+      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+      "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Fallos no parcheados en Tailscale SSH podrían permitir que un dispositivo comprometido obtenga acceso root en otros servidores dentro de la misma red. El ataque requiere que Tailscale SSH esté configurado con reenvío de puertos y que un atacante controle un dispositivo dentro de la red.",
+      "whyItMatters": "Tailscale es una herramienta de red popular para crear redes privadas seguras. Las vulnerabilidades que permiten la escalada de privilegios y el acceso no autorizado dentro de estas redes son de alta preocupación para cualquier desarrollador o equipo que utilice la herramienta.",
+      "recommendedAction": "Asegurarse de que todas las instalaciones de Tailscale estén actualizadas a la última versión. Revisar la configuración de reenvío de puertos en Tailscale SSH y considerar deshabilitarlo si no es estrictamente necesario. Auditar regularmente los dispositivos conectados a la red Tailscale."
+    },
+    {
+      "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
+      "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Los equipos de seguridad a menudo luchan con la gran cantidad de alertas, perdiendo de vista cómo comenzaron los ataques o cómo progresaron. Los datos de red, como los de una plataforma de Network Detection and Response (NDR), son cruciales para conectar estas alertas y obtener una visión completa del incidente.",
+      "whyItMatters": "Esta noticia resalta la importancia de tener una visibilidad completa del entorno de red y de las actividades de los atacantes, más allá de las alertas individuales. Comprender el 'espacio entre alertas' es fundamental para una defensa proactiva.",
+      "recommendedAction": "Considerar la implementación o mejora de herramientas de monitoreo de red y sistemas de detección y respuesta (NDR/XDR). Fomentar una cultura de análisis de incidentes que vaya más allá de la simple gestión de alertas, buscando comprender el contexto completo de las amenazas."
+    },
+    {
+      "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+      "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Investigadores de ciberseguridad han descubierto una campaña contra Microsoft 365 que utiliza ataques de retransmisión de tokens (Token-Replay) para capturar sesiones de inicio de sesión y acceder a cuentas de correo electrónico. Se han detectado 497 inicios de sesión exitosos en 79 organizaciones.",
+      "whyItMatters": "Los ataques de retransmisión de tokens son una amenaza seria para las plataformas basadas en la nube como Microsoft 365, ya que eluden los mecanismos de autenticación tradicionales. Esto afecta directamente a la seguridad de las cuentas de correo electrónico y datos corporativos.",
+      "recommendedAction": "Fortalecer las políticas de seguridad para el acceso a Microsoft 365. Habilitar y configurar la autenticación multifactor (MFA) en todos los usuarios. Estar atento a los intentos de phishing y a las comunicaciones sospechosas que puedan llevar a la captura de tokens de sesión."
+    }
+  ]
+}
