@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-26T13:56:05.755Z",
+  "generatedAt": "2026-10-27T13:00:05.079Z",
   "availableDates": [
+    "2026-10-27",
     "2026-10-26",
     "2026-10-25",
     "2026-10-24",
@@ -130,13 +131,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 127,
-    "totalArticles": 1472,
-    "highPriority": 780,
-    "mediumPriority": 544,
-    "lowPriority": 148,
+    "totalReports": 128,
+    "totalArticles": 1486,
+    "highPriority": 784,
+    "mediumPriority": 550,
+    "lowPriority": 152,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-26",
+    "latestReportDate": "2026-10-27",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
@@ -147,7 +148,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 325
+        "count": 335
       },
       {
         "name": "AI for Developers",
@@ -159,17 +160,17 @@
       },
       {
         "name": "Java/Spring Boot",
-        "count": 24
+        "count": 25
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1110
+        "count": 1122
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 127
+        "count": 128
       },
       {
         "name": "GitHub Blog",
@@ -177,7 +178,7 @@
       },
       {
         "name": "Spring Blog",
-        "count": 92
+        "count": 93
       },
       {
         "name": "Krebs on Security",
@@ -186,12 +187,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-20",
-      "high": 7,
-      "medium": 6,
-      "low": 2
-    },
     {
       "date": "2026-10-21",
       "high": 6,
@@ -227,9 +222,96 @@
       "high": 4,
       "medium": 3,
       "low": 1
+    },
+    {
+      "date": "2026-10-27",
+      "high": 4,
+      "medium": 6,
+      "low": 4
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-27",
+      "generatedAt": "2026-10-27T13:00:05.067Z",
+      "totalArticles": 14,
+      "highPriority": 4,
+      "mediumPriority": 6,
+      "lowPriority": 4,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 10
+        },
+        {
+          "name": "Java/Spring Boot",
+          "count": 1
+        },
+        {
+          "name": "Seguridad/IA",
+          "count": 1
+        },
+        {
+          "name": "IA/Seguridad",
+          "count": 1
+        },
+        {
+          "name": "Java",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Spring Office Hours Podcast: S5E27 - Hugging Face for Java Developers with Pratik Patel",
+          "url": "https://spring.io/blog/2026/10/26/spring-office-hours-podcast-S5E27",
+          "source": "Spring Blog",
+          "category": "Java/Spring Boot",
+          "priority": "high",
+          "score": 10,
+          "summary": "Episodio del podcast Spring Office Hours que presenta a Pratik Patel discutiendo el uso de Hugging Face para desarrolladores de Java. Explora cómo las capacidades de IA pueden ser integradas y aprovechadas en aplicaciones Java.",
+          "whyItMatters": "Este episodio es directamente relevante para los desarrolladores de Java y Spring Boot interesados en integrar capacidades de IA en sus proyectos. Aprender sobre Hugging Face y su aplicación con Java puede abrir nuevas posibilidades para la creación de aplicaciones más inteligentes.",
+          "recommendedAction": "Escuchar el episodio del podcast para comprender cómo integrar Hugging Face con Java."
+        },
+        {
+          "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+          "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un actor de amenazas desconocido ha infectado 953 tiendas en línea, principalmente las que usan Magento, inyectando código JavaScript malicioso que evade escáneres. Este código se activa cuando los usuarios visitan las páginas infectadas.",
+          "whyItMatters": "Aunque la mayoría de los sitios afectados usan Magento, la técnica de evasión de escáneres mediante JavaScript es una táctica preocupante que podría adaptarse a otras plataformas. Comprender cómo funcionan estas inyecciones es crucial para la seguridad web general, especialmente para aquellos que trabajan con e-commerce o integraciones JavaScript.",
+          "recommendedAction": "Revisar las prácticas de seguridad de la cadena de suministro y las defensas de las aplicaciones web contra la inyección de código malicioso, especialmente si se trabaja con sistemas de gestión de contenido (CMS) o plataformas de comercio electrónico."
+        },
+        {
+          "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+          "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+          "source": "The Hacker News",
+          "category": "Seguridad/IA",
+          "priority": "high",
+          "score": 9,
+          "summary": "El uso de IA generativa está facilitando la creación de páginas de inicio de sesión falsas más convincentes. Los atacantes pueden replicar pantallas de inicio de sesión familiares, imitar marcas de confianza y personalizar ataques de phishing, incluso capturando códigos MFA o secuestrando sesiones autenticadas.",
+          "whyItMatters": "Esta noticia es importante para todos los desarrolladores, ya que la IA se está utilizando para potenciar ataques de phishing y robo de credenciales. Entender estas nuevas técnicas ayuda a diseñar defensas más robustas y a educar a los usuarios sobre los riesgos crecientes.",
+          "recommendedAction": "Mantenerse informado sobre las últimas técnicas de phishing impulsadas por IA y reforzar las medidas de seguridad de autenticación, incluyendo la autenticación multifactor (MFA) y la educación de los usuarios."
+        }
+      ]
+    },
     {
       "date": "2026-10-26",
       "generatedAt": "2026-10-26T13:56:05.746Z",
