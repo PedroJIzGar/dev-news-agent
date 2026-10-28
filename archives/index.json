@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-27T13:00:05.079Z",
+  "generatedAt": "2026-10-28T13:51:16.572Z",
   "availableDates": [
+    "2026-10-28",
     "2026-10-27",
     "2026-10-26",
     "2026-10-25",
@@ -131,20 +132,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 128,
-    "totalArticles": 1486,
-    "highPriority": 784,
-    "mediumPriority": 550,
-    "lowPriority": 152,
+    "totalReports": 129,
+    "totalArticles": 1500,
+    "highPriority": 789,
+    "mediumPriority": 558,
+    "lowPriority": 153,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-27",
+    "latestReportDate": "2026-10-28",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
     "topCategories": [
       {
         "name": "Security",
-        "count": 673
+        "count": 683
       },
       {
         "name": "Seguridad",
@@ -152,7 +153,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 116
+        "count": 118
       },
       {
         "name": "IA para Desarrolladores",
@@ -166,7 +167,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1122
+        "count": 1133
       },
       {
         "name": "Stack Overflow Blog",
@@ -178,7 +179,7 @@
       },
       {
         "name": "Spring Blog",
-        "count": 93
+        "count": 96
       },
       {
         "name": "Krebs on Security",
@@ -187,12 +188,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-21",
-      "high": 6,
-      "medium": 9,
-      "low": 0
-    },
     {
       "date": "2026-10-22",
       "high": 11,
@@ -228,9 +223,84 @@
       "high": 4,
       "medium": 6,
       "low": 4
+    },
+    {
+      "date": "2026-10-28",
+      "high": 5,
+      "medium": 8,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-28",
+      "generatedAt": "2026-10-28T13:51:16.565Z",
+      "totalArticles": 14,
+      "highPriority": 5,
+      "mediumPriority": 8,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 10
+        },
+        {
+          "name": "AI for Developers",
+          "count": 2
+        },
+        {
+          "name": "Java/Spring",
+          "count": 2
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 11
+        },
+        {
+          "name": "Spring Blog",
+          "count": 3
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Spring AI 2.1 Message Parts: Reasoning That Survives the Round Trip",
+          "url": "https://spring.io/blog/2026/10/28/spring-ai-message-parts-reasoning-replay",
+          "source": "Spring Blog",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 9,
+          "summary": "La nueva versión 2.1 de Spring AI introduce el concepto de 'Message Parts' para mejorar el manejo y razonamiento en las interacciones con modelos de lenguaje, permitiendo una mejor persistencia del contexto.",
+          "whyItMatters": "Esta actualización es crucial para desarrolladores que usan Spring Boot y buscan integrar capacidades de IA. La mejora en el manejo de estados y contexto en las conversaciones con IA es fundamental para crear aplicaciones más sofisticadas y coherentes.",
+          "recommendedAction": "Explorar la documentación de Spring AI 2.1 y experimentar con 'Message Parts' en proyectos existentes o nuevos que utilicen IA."
+        },
+        {
+          "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+          "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 8,
+          "summary": "Se han descubierto ataques cibernéticos avanzados contra organizaciones en Japón, donde se utilizan hasta 44 agentes de IA para automatizar las operaciones de hacking, ya sea dirigiendo el ataque o asistiendo a operadores humanos.",
+          "whyItMatters": "Entender cómo la IA se está utilizando en ciberataques es vital para desarrollar contramedidas efectivas. Este caso ilustra la creciente sofisticación de las amenazas impulsadas por IA, que podrían ser adaptadas para atacar cualquier tipo de sistema.",
+          "recommendedAction": "Mantenerse informado sobre las últimas técnicas de ataque que involucran IA y revisar las prácticas de seguridad actuales para protegerse contra amenazas automatizadas."
+        },
+        {
+          "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+          "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 8,
+          "summary": "Adobe ha lanzado parches para solucionar 8 vulnerabilidades críticas en Adobe Campaign Classic. Estas fallas, algunas con una puntuación CVSS de 9.9, podrían permitir la ejecución remota de código y la elusión de medidas de seguridad.",
+          "whyItMatters": "Las vulnerabilidades críticas en software empresarial como Adobe Campaign Classic representan un riesgo significativo. Ignorarlas podría llevar a brechas de seguridad graves, afectando la integridad y confidencialidad de los datos.",
+          "recommendedAction": "Verificar si se utiliza Adobe Campaign Classic y aplicar los parches de seguridad más recientes proporcionados por Adobe lo antes posible."
+        }
+      ]
+    },
     {
       "date": "2026-10-27",
       "generatedAt": "2026-10-27T13:00:05.067Z",
