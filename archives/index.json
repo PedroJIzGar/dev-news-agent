@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-28T13:51:16.572Z",
+  "generatedAt": "2026-10-29T13:57:22.477Z",
   "availableDates": [
+    "2026-10-29",
     "2026-10-28",
     "2026-10-27",
     "2026-10-26",
@@ -132,20 +133,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 129,
-    "totalArticles": 1500,
-    "highPriority": 789,
-    "mediumPriority": 558,
-    "lowPriority": 153,
+    "totalReports": 130,
+    "totalArticles": 1515,
+    "highPriority": 800,
+    "mediumPriority": 561,
+    "lowPriority": 154,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-28",
+    "latestReportDate": "2026-10-29",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
     "topCategories": [
       {
         "name": "Security",
-        "count": 683
+        "count": 693
       },
       {
         "name": "Seguridad",
@@ -153,7 +154,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 118
+        "count": 120
       },
       {
         "name": "IA para Desarrolladores",
@@ -167,7 +168,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1133
+        "count": 1144
       },
       {
         "name": "Stack Overflow Blog",
@@ -175,11 +176,11 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 99
+        "count": 101
       },
       {
         "name": "Spring Blog",
-        "count": 96
+        "count": 98
       },
       {
         "name": "Krebs on Security",
@@ -188,12 +189,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-22",
-      "high": 11,
-      "medium": 4,
-      "low": 0
-    },
     {
       "date": "2026-10-23",
       "high": 13,
@@ -229,9 +224,92 @@
       "high": 5,
       "medium": 8,
       "low": 1
+    },
+    {
+      "date": "2026-10-29",
+      "high": 11,
+      "medium": 3,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-29",
+      "generatedAt": "2026-10-29T13:57:22.465Z",
+      "totalArticles": 15,
+      "highPriority": 11,
+      "mediumPriority": 3,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 10
+        },
+        {
+          "name": "AI for Developers",
+          "count": 2
+        },
+        {
+          "name": "Dev Tools",
+          "count": 2
+        },
+        {
+          "name": "Java",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 11
+        },
+        {
+          "name": "Spring Blog",
+          "count": 2
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 2
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+          "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "GitHub ha introducido una nueva función de 'firewall' para npm que inspecciona metadatos y descargas de paquetes en busca de actividad maliciosa, bloqueando la instalación de paquetes sospechosos en tiempo real.",
+          "whyItMatters": "Esta es una mejora de seguridad significativa directamente relevante para desarrolladores que usan npm y trabajan con ecosistemas de JavaScript/Node.js. Prevenir la instalación de paquetes maliciosos reduce drásticamente el riesgo de ataques a la cadena de suministro de software.",
+          "recommendedAction": "Habilitar y configurar el nuevo npm Firewall en GitHub para tus proyectos. Estar atento a las actualizaciones y mejores prácticas de seguridad de paquetes."
+        },
+        {
+          "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+          "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un atacante intentó explotar una vulnerabilidad crítica en GitLab (CVSS 10.0) que permitía la ejecución de código a través de expresiones regulares en configuraciones CI. Aunque no hay evidencia de que el ataque tuviera éxito, la vulnerabilidad fue parcheada.",
+          "whyItMatters": "Esta noticia es crucial porque aborda una vulnerabilidad de máxima severidad (CVSS 10.0) en una herramienta de desarrollo esencial como GitLab. El hecho de que un atacante intentara explotarla resalta la importancia de mantener estas plataformas actualizadas y seguras.",
+          "recommendedAction": "Revisar y aplicar los parches de seguridad para GitLab inmediatamente. Evaluar la configuración de CI/CD para mitigar riesgos relacionados con expresiones regulares."
+        },
+        {
+          "title": "Using Your Own Embeddings in Spring AI 2.1",
+          "url": "https://spring.io/blog/2026/10/28/spring-ai-upsert-own-embeddings",
+          "source": "Spring Blog",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 9,
+          "summary": "Spring AI 2.1 introduce la capacidad de utilizar tus propias 'embeddings' (representaciones vectoriales de datos), permitiendo una mayor personalización y control en aplicaciones de IA.",
+          "whyItMatters": "Para los desarrolladores de Java/Spring, esta actualización es muy importante ya que integra de forma más profunda el uso de modelos de lenguaje y vectores en sus aplicaciones, permitiendo crear funcionalidades de IA más avanzadas y adaptadas a sus necesidades específicas.",
+          "recommendedAction": "Actualizar a Spring AI 2.1 y explorar cómo integrar tus propios 'embeddings' en tus proyectos para mejorar la personalización y la eficiencia de tus aplicaciones de IA."
+        }
+      ]
+    },
     {
       "date": "2026-10-28",
       "generatedAt": "2026-10-28T13:51:16.565Z",
