@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-29T13:57:22.477Z",
+  "generatedAt": "2026-10-30T13:52:28.540Z",
   "availableDates": [
+    "2026-10-30",
     "2026-10-29",
     "2026-10-28",
     "2026-10-27",
@@ -133,20 +134,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 130,
-    "totalArticles": 1515,
-    "highPriority": 800,
-    "mediumPriority": 561,
-    "lowPriority": 154,
+    "totalReports": 131,
+    "totalArticles": 1529,
+    "highPriority": 806,
+    "mediumPriority": 568,
+    "lowPriority": 155,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-29",
+    "latestReportDate": "2026-10-30",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
     "topCategories": [
       {
         "name": "Security",
-        "count": 693
+        "count": 705
       },
       {
         "name": "Seguridad",
@@ -154,7 +155,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 120
+        "count": 122
       },
       {
         "name": "IA para Desarrolladores",
@@ -168,11 +169,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1144
+        "count": 1157
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 128
+        "count": 129
       },
       {
         "name": "GitHub Blog",
@@ -189,12 +190,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-23",
-      "high": 13,
-      "medium": 5,
-      "low": 1
-    },
     {
       "date": "2026-10-24",
       "high": 7,
@@ -230,9 +225,80 @@
       "high": 11,
       "medium": 3,
       "low": 1
+    },
+    {
+      "date": "2026-10-30",
+      "high": 6,
+      "medium": 7,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-30",
+      "generatedAt": "2026-10-30T13:52:28.533Z",
+      "totalArticles": 14,
+      "highPriority": 6,
+      "mediumPriority": 7,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 12
+        },
+        {
+          "name": "AI for Developers",
+          "count": 2
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 13
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+          "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se han descubierto aplicaciones falsas de ChatGPT y Claude que abusan de ejecutables firmados para distribuir criptomineros. Los actores maliciosos crean proyectos falsos en GitHub que se hacen pasar por aplicaciones de escritorio de IA, entregando en realidad familias de malware.",
+          "whyItMatters": "Los desarrolladores deben estar al tanto de las campañas de phishing y malware que se hacen pasar por herramientas de IA populares, especialmente aquellas que se distribuyen a través de plataformas como GitHub. La suplantación de identidad de herramientas de IA legítimas es una táctica creciente para engañar a los usuarios.",
+          "recommendedAction": "Verifica siempre la fuente y la autenticidad de las aplicaciones de IA y sus repositorios en GitHub antes de descargarlas o ejecutarlas. Ten precaución con software no oficial."
+        },
+        {
+          "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+          "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "La CISA ha añadido vulnerabilidades de ejecución remota de código (RCE) en GitLab y de denegación de servicio (DoS) en firewalls de Cisco a su lista de Vulnerabilidades Explotadas Conocidas (KEV) debido a su explotación activa.",
+          "whyItMatters": "Las vulnerabilidades críticas en software de desarrollo y infraestructura como GitLab y Cisco requieren atención inmediata. La explotación activa significa que los atacantes ya están aprovechando estas debilidades, poniendo en riesgo los sistemas que las utilizan.",
+          "recommendedAction": "Aplica los parches y actualizaciones de seguridad para GitLab y los firewalls de Cisco tan pronto como estén disponibles. Prioriza la mitigación de CVE-2026-97229 y otras vulnerabilidades en la lista KEV."
+        },
+        {
+          "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+          "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una grave falla en el código TCP del kernel de Linux, con una puntuación CVSS de 9.8, afecta a distribuciones como Ubuntu y Red Hat. Se menciona que un modelo de IA de Anthropic ha demostrado la capacidad de crear un exploit para esta vulnerabilidad.",
+          "whyItMatters": "Esta es una vulnerabilidad crítica de alto impacto que afecta a una amplia gama de sistemas Linux. El hecho de que un modelo de IA pueda generar un exploit subraya la importancia de mantenerse actualizado con los parches de seguridad del kernel.",
+          "recommendedAction": "Aplica inmediatamente las actualizaciones del kernel de Linux para corregir CVE-2026-98432. Monitorea los avisos de seguridad de tu distribución Linux específica (Ubuntu, Red Hat, etc.) y aplica los parches de manera prioritaria."
+        }
+      ]
+    },
     {
       "date": "2026-10-29",
       "generatedAt": "2026-10-29T13:57:22.465Z",
