@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-30T13:52:28.540Z",
+  "generatedAt": "2026-10-31T13:22:06.047Z",
   "availableDates": [
+    "2026-10-31",
     "2026-10-30",
     "2026-10-29",
     "2026-10-28",
@@ -134,13 +135,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 131,
-    "totalArticles": 1529,
-    "highPriority": 806,
-    "mediumPriority": 568,
-    "lowPriority": 155,
+    "totalReports": 132,
+    "totalArticles": 1542,
+    "highPriority": 812,
+    "mediumPriority": 572,
+    "lowPriority": 158,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-30",
+    "latestReportDate": "2026-10-31",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
@@ -151,7 +152,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 335
+        "count": 344
       },
       {
         "name": "AI for Developers",
@@ -169,11 +170,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1157
+        "count": 1166
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 129
+        "count": 133
       },
       {
         "name": "GitHub Blog",
@@ -190,12 +191,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-24",
-      "high": 7,
-      "medium": 7,
-      "low": 1
-    },
     {
       "date": "2026-10-25",
       "high": 4,
@@ -231,9 +226,88 @@
       "high": 6,
       "medium": 7,
       "low": 1
+    },
+    {
+      "date": "2026-10-31",
+      "high": 6,
+      "medium": 4,
+      "low": 3
     }
   ],
   "reports": [
+    {
+      "date": "2026-10-31",
+      "generatedAt": "2026-10-31T13:22:06.036Z",
+      "totalArticles": 13,
+      "highPriority": 6,
+      "mediumPriority": 4,
+      "lowPriority": 3,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 9
+        },
+        {
+          "name": "Desarrollo/IA",
+          "count": 2
+        },
+        {
+          "name": "Desarrollo",
+          "count": 1
+        },
+        {
+          "name": "Cultura de Desarrolladores",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 9
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 4
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+          "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 10,
+          "summary": "Los atacantes están explotando una cadena de tres vulnerabilidades en Ivanti Connect Secure para obtener acceso root sin autenticación. La Agencia de Ciberseguridad y Seguridad de Infraestructura de EE. UU. (CISA) ha añadido estas fallas a su catálogo de Vulnerabilidades Explotadas Conocidas (KEV).",
+          "whyItMatters": "Esta noticia es crucial para la seguridad, ya que la explotación activa de estas vulnerabilidades en entornos reales representa un riesgo inmediato para las organizaciones que utilizan Ivanti Connect Secure. La falta de autenticación para acceso root es una falla grave.",
+          "recommendedAction": "Revisar y aplicar urgentemente los parches y actualizaciones recomendados por Ivanti para las vulnerabilidades CVE-2026-111357 y otras relacionadas. Monitorizar los sistemas en busca de signos de compromiso."
+        },
+        {
+          "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+          "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 10,
+          "summary": "Actores de amenazas patrocinados por el estado chino están utilizando ARTEX, un framework de pruebas de penetración basado en IA y escrito en Go, para atacar a más de 200 organizaciones a nivel mundial. CrowdStrike atribuye esta actividad a Vapor Panda (anteriormente VexatiousTemper).",
+          "whyItMatters": "La noticia destaca la creciente sofisticación de los ataques cibernéticos, con el uso de IA para potenciar herramientas de hacking. Comprender las tácticas y herramientas de actores de amenazas avanzados es vital para fortalecer las defensas.",
+          "recommendedAction": "Mantenerse actualizado sobre las últimas Tácticas, Técnicas y Procedimientos (TTPs) de actores de amenazas avanzados. Fortalecer las defensas de red y endpoint, y considerar la implementación de soluciones de seguridad que aprovechen la IA para la detección."
+        },
+        {
+          "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+          "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una vulnerabilidad crítica de ejecución remota de código (RCE) en WordPress Core, que afecta a las versiones 4.7 a 7.1.3, ha sido objeto de casi 63,000 intentos de explotación en solo 24 horas tras el lanzamiento de parches.",
+          "whyItMatters": "WordPress es una plataforma ampliamente utilizada, por lo que una vulnerabilidad RCE de alta severidad representa un riesgo significativo. La rápida y masiva campaña de explotación demuestra la urgencia de aplicar las correcciones.",
+          "recommendedAction": "Actualizar inmediatamente las instalaciones de WordPress a la última versión disponible para mitigar esta vulnerabilidad. Monitorizar los logs en busca de intentos de explotación."
+        }
+      ]
+    },
     {
       "date": "2026-10-30",
       "generatedAt": "2026-10-30T13:52:28.533Z",
