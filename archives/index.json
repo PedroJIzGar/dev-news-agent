@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-10-31T13:22:06.047Z",
+  "generatedAt": "2026-11-01T14:04:12.776Z",
   "availableDates": [
+    "2026-11-01",
     "2026-10-31",
     "2026-10-30",
     "2026-10-29",
@@ -135,13 +136,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 132,
-    "totalArticles": 1542,
-    "highPriority": 812,
-    "mediumPriority": 572,
+    "totalReports": 133,
+    "totalArticles": 1546,
+    "highPriority": 815,
+    "mediumPriority": 573,
     "lowPriority": 158,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-10-31",
+    "latestReportDate": "2026-11-01",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
@@ -152,7 +153,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 344
+        "count": 348
       },
       {
         "name": "AI for Developers",
@@ -170,7 +171,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1166
+        "count": 1170
       },
       {
         "name": "Stack Overflow Blog",
@@ -191,12 +192,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-25",
-      "high": 4,
-      "medium": 1,
-      "low": 2
-    },
     {
       "date": "2026-10-26",
       "high": 4,
@@ -232,9 +227,72 @@
       "high": 6,
       "medium": 4,
       "low": 3
+    },
+    {
+      "date": "2026-11-01",
+      "high": 3,
+      "medium": 1,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-01",
+      "generatedAt": "2026-11-01T14:04:12.769Z",
+      "totalArticles": 4,
+      "highPriority": 3,
+      "mediumPriority": 1,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 4
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 4
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+          "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una vulnerabilidad crítica en LXD y MicroCloud de Canonical permite a atacantes impersonar clientes de confianza sin poseer su clave privada, accediendo a sus APIs HTTPS con el certificado público del cliente. Esto les otorga acceso al clúster y sus máquinas virtuales.",
+          "whyItMatters": "Esta falla de seguridad es extremadamente grave ya que permite el acceso no autorizado a sistemas críticos y datos sensibles sin autenticación fuerte. Afecta a la confianza en las comunicaciones seguras y la integridad de los clústeres.",
+          "recommendedAction": "Revisar inmediatamente la configuración y parches de LXD y MicroCloud. Implementar medidas de seguridad adicionales en las APIs y monitorizar el acceso de red para detectar actividades sospechosas."
+        },
+        {
+          "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+          "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Hackers robaron aproximadamente 2.7 millones de dólares de traders de Polymarket al inyectar código malicioso en un script de DebugBear utilizado por el sitio web. El código permitió a los atacantes acceder y mover los fondos de los usuarios conectados.",
+          "whyItMatters": "Este incidente subraya la importancia de la seguridad en la cadena de suministro de software. Un script de terceros comprometido puede tener un impacto devastador en los usuarios finales. Es un recordatorio crucial para los desarrolladores sobre la validación y monitorización de dependencias externas.",
+          "recommendedAction": "Implementar prácticas rigurosas de seguridad para la gestión de scripts y dependencias de terceros. Auditar regularmente el código y las solicitudes salientes, y considerar el uso de Subresource Integrity (SRI) para scripts cargados desde CDN."
+        },
+        {
+          "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+          "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 8,
+          "summary": "Investigadores de seguridad han descubierto NetamLoader, un malware dirigido a sistemas Windows 10 gubernamentales en Asia. Utiliza una cadena de infección sofisticada y un framework de carga de ensamblados .NET para desplegarse.",
+          "whyItMatters": "Aunque el ataque está dirigido específicamente a sistemas gubernamentales en Asia, la sofisticación de las técnicas utilizadas y el uso de .NET podrían ser adaptadas o inspirar ataques similares contra otras organizaciones, afectando la seguridad general del ecosistema .NET.",
+          "recommendedAction": "Mantener actualizados los sistemas operativos y las aplicaciones, especialmente aquellas que utilizan .NET. Implementar soluciones de seguridad robustas para la detección de malware y la monitorización de actividades sospechosas en puntos finales."
+        }
+      ]
+    },
     {
       "date": "2026-10-31",
       "generatedAt": "2026-10-31T13:22:06.036Z",
