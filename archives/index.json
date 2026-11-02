@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-01T14:04:12.776Z",
+  "generatedAt": "2026-11-02T16:51:26.387Z",
   "availableDates": [
+    "2026-11-02",
     "2026-11-01",
     "2026-10-31",
     "2026-10-30",
@@ -136,20 +137,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 133,
-    "totalArticles": 1546,
-    "highPriority": 815,
-    "mediumPriority": 573,
-    "lowPriority": 158,
+    "totalReports": 134,
+    "totalArticles": 1554,
+    "highPriority": 821,
+    "mediumPriority": 574,
+    "lowPriority": 159,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-01",
+    "latestReportDate": "2026-11-02",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
     "topCategories": [
       {
         "name": "Security",
-        "count": 705
+        "count": 712
       },
       {
         "name": "Seguridad",
@@ -171,7 +172,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1170
+        "count": 1177
       },
       {
         "name": "Stack Overflow Blog",
@@ -179,7 +180,7 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 101
+        "count": 102
       },
       {
         "name": "Spring Blog",
@@ -192,12 +193,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-26",
-      "high": 4,
-      "medium": 3,
-      "low": 1
-    },
     {
       "date": "2026-10-27",
       "high": 4,
@@ -233,9 +228,80 @@
       "high": 3,
       "medium": 1,
       "low": 0
+    },
+    {
+      "date": "2026-11-02",
+      "high": 6,
+      "medium": 1,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-02",
+      "generatedAt": "2026-11-02T16:51:26.372Z",
+      "totalArticles": 8,
+      "highPriority": 6,
+      "mediumPriority": 1,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 7
+        },
+        {
+          "name": "Dev Tools",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 7
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
+          "url": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se han descubierto dos vulnerabilidades críticas en Langflow, una herramienta de código abierto para construir agentes y flujos de trabajo de IA. Estas fallas permiten a atacantes remotos sin autenticación eludir la seguridad o ejecutar código arbitrario en los servidores afectados.",
+          "whyItMatters": "Langflow es una herramienta utilizada en el desarrollo de IA. Las vulnerabilidades críticas que permiten la ejecución remota de código y la elusión de autenticación representan un riesgo de seguridad significativo para cualquier sistema que la utilice, especialmente en entornos de desarrollo o producción.",
+          "recommendedAction": "Actualizar Langflow a la versión 1.13.0 o superior inmediatamente si se está utilizando. Revisar los registros del sistema en busca de actividad sospechosa si se ha utilizado una versión vulnerable."
+        },
+        {
+          "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
+          "url": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "El 40% de los equipos de seguridad ya utilizan IA a diario y el 56% la está probando. El artículo evalúa la preparación de los Centros de Operaciones de Seguridad (SOC) para la adopción de agentes de IA.",
+          "whyItMatters": "La IA está transformando la ciberseguridad. Entender la madurez de un SOC para integrar herramientas de IA es crucial para defenderse eficazmente contra amenazas cada vez más sofisticadas. Esto impacta directamente en la seguridad de las aplicaciones y la infraestructura.",
+          "recommendedAction": "Evaluar la madurez del SOC de su organización para la adopción de agentes de IA. Investigar las mejores prácticas para la integración segura y eficiente de estas herramientas."
+        },
+        {
+          "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
+          "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Los atacantes se hacen pasar por soporte de TI en Microsoft Teams para engañar a los empleados y obtener control remoto de sus PCs. Luego, abusan de la configuración insegura de Active Directory Certificate Services (AD CS) para robar credenciales privilegiadas.",
+          "whyItMatters": "Este ataque demuestra una técnica de ingeniería social combinada con la explotación de configuraciones de seguridad deficientes en servicios de infraestructura crítica como AD CS. Es una amenaza directa para la seguridad de las credenciales y los datos empresariales, algo fundamental para los desarrolladores.",
+          "recommendedAction": "Asegurar la configuración de Active Directory Certificate Services (AD CS) y aplicar el principio de mínimo privilegio. Educar a los usuarios sobre tácticas de ingeniería social, especialmente en plataformas de comunicación como Microsoft Teams."
+        }
+      ]
+    },
     {
       "date": "2026-11-01",
       "generatedAt": "2026-11-01T14:04:12.769Z",
