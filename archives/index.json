@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-03T14:52:14.577Z",
+  "generatedAt": "2026-11-04T15:09:43.153Z",
   "availableDates": [
+    "2026-11-04",
     "2026-11-03",
     "2026-11-02",
     "2026-11-01",
@@ -138,20 +139,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 135,
-    "totalArticles": 1566,
-    "highPriority": 829,
-    "mediumPriority": 577,
+    "totalReports": 136,
+    "totalArticles": 1581,
+    "highPriority": 840,
+    "mediumPriority": 581,
     "lowPriority": 160,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-03",
+    "latestReportDate": "2026-11-04",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
     "topCategories": [
       {
         "name": "Security",
-        "count": 722
+        "count": 735
       },
       {
         "name": "Seguridad",
@@ -159,7 +160,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 122
+        "count": 123
       },
       {
         "name": "IA para Desarrolladores",
@@ -173,7 +174,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1186
+        "count": 1200
       },
       {
         "name": "Stack Overflow Blog",
@@ -181,7 +182,7 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 102
+        "count": 103
       },
       {
         "name": "Spring Blog",
@@ -194,12 +195,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-28",
-      "high": 5,
-      "medium": 8,
-      "low": 1
-    },
     {
       "date": "2026-10-29",
       "high": 11,
@@ -235,9 +230,84 @@
       "high": 8,
       "medium": 3,
       "low": 1
+    },
+    {
+      "date": "2026-11-04",
+      "high": 11,
+      "medium": 4,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-04",
+      "generatedAt": "2026-11-04T15:09:43.145Z",
+      "totalArticles": 15,
+      "highPriority": 11,
+      "mediumPriority": 4,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 13
+        },
+        {
+          "name": "AI for Developers",
+          "count": 1
+        },
+        {
+          "name": "Dev Tools",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 14
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+          "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Actores de amenazas vinculados a Rusia (APT29) han orquestado una campaña de \"watering hole\" dirigida a usuarios de iOS y Android. Comprometen sitios web legítimos y utilizan un servicio de análisis web (Plerdy SEO Tracker) inyectando JavaScript malicioso para robar información del navegador y del dispositivo.",
+          "whyItMatters": "Esta noticia es crucial porque demuestra cómo actores sofisticados explotan la cadena de suministro, incluso servicios aparentemente benignos como el análisis web, para distribuir exploits a gran escala. La inyección de JavaScript es una técnica común que los desarrolladores deben entender para prevenirla, especialmente en aplicaciones web y móviles.",
+          "recommendedAction": "Revisar y auditar las librerías y scripts de terceros utilizados en las aplicaciones, especialmente aquellos que interactúan con datos del usuario o se ejecutan en el navegador. Implementar escaneos de seguridad en la cadena de suministro y aplicar políticas de seguridad de contenido (CSP) estrictas."
+        },
+        {
+          "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+          "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se han descubierto dos vulnerabilidades en productos de Barracuda que, combinadas, permiten a un atacante eludir la autorización y obtener acceso raíz. Una de las fallas es un bypass de autorización preautenticación (CVE-2026-116606) con una puntuación CVSS de 9.3.",
+          "whyItMatters": "Las vulnerabilidades en dispositivos de red y seguridad son de máxima importancia. La posibilidad de encadenar fallas para obtener acceso de root representa un riesgo significativo, especialmente si estas vulnerabilidades afectan a componentes de software comunes o librerías utilizadas en otros productos.",
+          "recommendedAction": "Mantener actualizados todos los dispositivos de seguridad y de red, incluyendo firewalls y appliances. Estar atento a los avisos de seguridad de proveedores como Barracuda y aplicar parches inmediatamente. Investigar si las librerías afectadas son utilizadas en el stack de desarrollo propio."
+        },
+        {
+          "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+          "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+          "source": "The Hacker News",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 9,
+          "summary": "Google advierte sobre ataques de \"LLMjacking\", donde actores maliciosos secuestran el acceso empresarial a Modelos de Lenguaje Grandes (LLMs) para abusar de recursos de cómputo y servicios de IA, resultando en costos de hasta $1 millón para las empresas afectadas. Los atacantes obtienen claves API a través de phishing, fugas de código o configuraciones erróneas.",
+          "whyItMatters": "Este es un problema emergente y costoso directamente relacionado con el uso de IA en entornos empresariales. Los desarrolladores que integran o utilizan LLMs deben ser conscientes de los riesgos de seguridad asociados con la gestión de claves API y la protección de los recursos de IA.",
+          "recommendedAction": "Implementar prácticas robustas de gestión de claves API, incluyendo rotación regular, permisos mínimos necesarios y monitorización de su uso. Educar a los equipos sobre las tácticas de phishing y la importancia de la seguridad en la configuración de entornos cloud y acceso a servicios de IA."
+        }
+      ]
+    },
     {
       "date": "2026-11-03",
       "generatedAt": "2026-11-03T14:52:14.565Z",
