@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-04T15:09:43.153Z",
+  "generatedAt": "2026-11-05T15:12:29.227Z",
   "availableDates": [
+    "2026-11-05",
     "2026-11-04",
     "2026-11-03",
     "2026-11-02",
@@ -139,13 +140,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 136,
-    "totalArticles": 1581,
-    "highPriority": 840,
-    "mediumPriority": 581,
-    "lowPriority": 160,
+    "totalReports": 137,
+    "totalArticles": 1593,
+    "highPriority": 843,
+    "mediumPriority": 588,
+    "lowPriority": 162,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-04",
+    "latestReportDate": "2026-11-05",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
@@ -156,7 +157,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 348
+        "count": 359
       },
       {
         "name": "AI for Developers",
@@ -168,17 +169,17 @@
       },
       {
         "name": "Java/Spring Boot",
-        "count": 25
+        "count": 26
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1200
+        "count": 1210
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 134
+        "count": 135
       },
       {
         "name": "GitHub Blog",
@@ -190,17 +191,11 @@
       },
       {
         "name": "Krebs on Security",
-        "count": 29
+        "count": 30
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-29",
-      "high": 11,
-      "medium": 3,
-      "low": 1
-    },
     {
       "date": "2026-10-30",
       "high": 6,
@@ -236,9 +231,84 @@
       "high": 11,
       "medium": 4,
       "low": 0
+    },
+    {
+      "date": "2026-11-05",
+      "high": 3,
+      "medium": 7,
+      "low": 2
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-05",
+      "generatedAt": "2026-11-05T15:12:29.215Z",
+      "totalArticles": 12,
+      "highPriority": 3,
+      "mediumPriority": 7,
+      "lowPriority": 2,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 11
+        },
+        {
+          "name": "Java/Spring Boot",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 10
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+          "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 10,
+          "summary": "Un modelo de IA de OpenAI ha generado y validado 948 exploits de escalada de privilegios locales en Linux en un lapso de 30 horas, costando $1.2 millones en uso de API. El prototipo analizó 2,308 hallazgos potenciales, reprodujo dinámicamente 1,724 vulnerabilidades y produjo los 948 LPE.",
+          "whyItMatters": "Este desarrollo es crucial para la seguridad, ya que demuestra el poder de la IA para encontrar y explotar vulnerabilidades de forma masiva. Comprender cómo la IA puede ser utilizada para generar exploits ayuda a los desarrolladores a anticipar y mitigar futuras amenazas.",
+          "recommendedAction": "Mantente informado sobre las capacidades de la IA en ciberseguridad. Considera cómo estas herramientas podrían ser usadas en tu contra y fortalece tus defensas. Revisa la seguridad de tus sistemas Linux."
+        },
+        {
+          "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+          "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "El CERT-In de la India ha alertado sobre ataques dirigidos por IA contra el sector bancario y financiero, utilizando herramientas de seguridad ofensivas de IA disponibles públicamente. Un actor de amenazas, Crafty Falcon, está explotando un Docker image malicioso (ARTEX) que proporciona acceso root a 62 consolas.",
+          "whyItMatters": "Este artículo destaca la creciente amenaza de los ataques impulsados por IA y el uso de imágenes de Docker comprometidas. Es vital para los desarrolladores estar al tanto de estas tácticas, especialmente si trabajan con Docker y en sectores sensibles.",
+          "recommendedAction": "Asegúrate de que tus imágenes de Docker sean confiables y estén escaneadas en busca de vulnerabilidades. Mantente actualizado sobre las amenazas de IA y las tácticas de los atacantes en tu sector."
+        },
+        {
+          "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+          "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 8,
+          "summary": "SonicWall ha advertido sobre dos vulnerabilidades en sus sistemas Global Management System (GMS) que han llegado al final de su vida útil (EoL) y que no serán parcheadas. Estas fallas, CVE-2026-109593 (CVSS 9.1), permiten la lectura de archivos internos o la alteración de registros de bases de datos.",
+          "whyItMatters": "Este es un recordatorio importante sobre los riesgos de usar software obsoleto. Las vulnerabilidades no parcheadas en sistemas de gestión pueden tener un impacto significativo en la seguridad de los datos y la integridad de las bases de datos, algo fundamental para cualquier desarrollador.",
+          "recommendedAction": "Revisa si tu organización utiliza sistemas GMS de SonicWall. Si es así, planifica una migración o implementación de medidas de seguridad alternativas. Evita depender de software EoL."
+        }
+      ]
+    },
     {
       "date": "2026-11-04",
       "generatedAt": "2026-11-04T15:09:43.145Z",
