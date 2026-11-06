@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-05T15:12:29.227Z",
+  "generatedAt": "2026-11-06T14:48:25.644Z",
   "availableDates": [
+    "2026-11-06",
     "2026-11-05",
     "2026-11-04",
     "2026-11-03",
@@ -140,20 +141,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 137,
-    "totalArticles": 1593,
-    "highPriority": 843,
-    "mediumPriority": 588,
-    "lowPriority": 162,
+    "totalReports": 138,
+    "totalArticles": 1608,
+    "highPriority": 850,
+    "mediumPriority": 594,
+    "lowPriority": 164,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-05",
+    "latestReportDate": "2026-11-06",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
     "topCategories": [
       {
         "name": "Security",
-        "count": 735
+        "count": 741
       },
       {
         "name": "Seguridad",
@@ -169,25 +170,25 @@
       },
       {
         "name": "Java/Spring Boot",
-        "count": 26
+        "count": 29
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1210
+        "count": 1219
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 135
+        "count": 136
       },
       {
         "name": "GitHub Blog",
-        "count": 103
+        "count": 105
       },
       {
         "name": "Spring Blog",
-        "count": 99
+        "count": 102
       },
       {
         "name": "Krebs on Security",
@@ -196,12 +197,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-30",
-      "high": 6,
-      "medium": 7,
-      "low": 1
-    },
     {
       "date": "2026-10-31",
       "high": 6,
@@ -237,9 +232,100 @@
       "high": 3,
       "medium": 7,
       "low": 2
+    },
+    {
+      "date": "2026-11-06",
+      "high": 7,
+      "medium": 6,
+      "low": 2
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-06",
+      "generatedAt": "2026-11-06T14:48:25.635Z",
+      "totalArticles": 15,
+      "highPriority": 7,
+      "mediumPriority": 6,
+      "lowPriority": 2,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 6
+        },
+        {
+          "name": "Java/Spring Boot",
+          "count": 3
+        },
+        {
+          "name": "AI/Security",
+          "count": 2
+        },
+        {
+          "name": "Dev Tools/GitHub",
+          "count": 2
+        },
+        {
+          "name": "Security/AI",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 9
+        },
+        {
+          "name": "Spring Blog",
+          "count": 3
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 2
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Spring Boot 4.2.0-RC2 available now",
+          "url": "https://spring.io/blog/2026/11/06/spring-boot-4-2-0-RC2-available-now",
+          "source": "Spring Blog",
+          "category": "Java/Spring Boot",
+          "priority": "high",
+          "score": 10,
+          "summary": "Ya está disponible la Release Candidate 2 de Spring Boot 4.2.0.",
+          "whyItMatters": "Spring Boot 4.2.0 introduce importantes novedades y mejoras, y esta RC es un paso clave hacia la versión final. Estar al tanto de las nuevas versiones es fundamental para aprovechar las últimas funcionalidades y optimizaciones.",
+          "recommendedAction": "Considera probar esta RC en entornos de desarrollo o staging para familiarizarte con los cambios antes del lanzamiento oficial. Revisa las notas de la versión para conocer las nuevas características."
+        },
+        {
+          "title": "Spring Cloud 2026.0.0-RC2 (aka Paddington) Has Been Released",
+          "url": "https://spring.io/blog/2026/11/05/spring-cloud-2026-0-0-RC2-has-been-released",
+          "source": "Spring Blog",
+          "category": "Java/Spring Boot",
+          "priority": "high",
+          "score": 10,
+          "summary": "Se ha lanzado la Release Candidate 2 de Spring Cloud 2026.0.0 (Paddington).",
+          "whyItMatters": "Spring Cloud es fundamental para construir microservicios distribuidos con Spring Boot. Las nuevas versiones traen mejoras de estabilidad, nuevas funcionalidades y correcciones importantes.",
+          "recommendedAction": "Actualiza tus proyectos de Spring Cloud a esta versión RC si estás explorando las últimas características o si necesitas correcciones específicas. Revisa las notas de la versión."
+        },
+        {
+          "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+          "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Dos vulnerabilidades en el Barracuda Email Security Gateway pueden ser encadenadas para obtener acceso root sin necesidad de login. Ya se han lanzado parches.",
+          "whyItMatters": "Una cadena de vulnerabilidades críticas que permiten acceso sin autenticación a un dispositivo de seguridad es de suma importancia. Demuestra la necesidad de aplicar parches rápidamente y de revisar la seguridad de infraestructuras críticas.",
+          "recommendedAction": "Aplicar los parches de Barracuda inmediatamente si utilizas este producto. Revisar las configuraciones de seguridad de tus gateways de correo."
+        }
+      ]
+    },
     {
       "date": "2026-11-05",
       "generatedAt": "2026-11-05T15:12:29.215Z",
