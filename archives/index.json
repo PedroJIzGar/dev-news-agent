@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-06T14:48:25.644Z",
+  "generatedAt": "2026-11-07T13:45:55.323Z",
   "availableDates": [
+    "2026-11-07",
     "2026-11-06",
     "2026-11-05",
     "2026-11-04",
@@ -141,13 +142,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 138,
-    "totalArticles": 1608,
-    "highPriority": 850,
-    "mediumPriority": 594,
-    "lowPriority": 164,
+    "totalReports": 139,
+    "totalArticles": 1615,
+    "highPriority": 853,
+    "mediumPriority": 596,
+    "lowPriority": 166,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-06",
+    "latestReportDate": "2026-11-07",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
@@ -158,7 +159,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 359
+        "count": 363
       },
       {
         "name": "AI for Developers",
@@ -176,15 +177,15 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1219
+        "count": 1223
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 136
+        "count": 137
       },
       {
         "name": "GitHub Blog",
-        "count": 105
+        "count": 106
       },
       {
         "name": "Spring Blog",
@@ -197,12 +198,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-10-31",
-      "high": 6,
-      "medium": 4,
-      "low": 3
-    },
     {
       "date": "2026-11-01",
       "high": 3,
@@ -238,9 +233,96 @@
       "high": 7,
       "medium": 6,
       "low": 2
+    },
+    {
+      "date": "2026-11-07",
+      "high": 3,
+      "medium": 2,
+      "low": 2
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-07",
+      "generatedAt": "2026-11-07T13:45:55.314Z",
+      "totalArticles": 7,
+      "highPriority": 3,
+      "mediumPriority": 2,
+      "lowPriority": 2,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 4
+        },
+        {
+          "name": "Frontend",
+          "count": 1
+        },
+        {
+          "name": "Herramientas para Desarrolladores",
+          "count": 1
+        },
+        {
+          "name": "Cultura de Desarrollo",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 4
+        },
+        {
+          "name": "Angular Blog",
+          "count": 1
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+          "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una función de Claude Code, al ser seleccionada para no preguntar de nuevo, guarda comandos que pueden incluir contraseñas y claves de API en archivos de configuración de proyectos. Se han encontrado 1,122 copias públicas de estos archivos en GitHub, exponiendo secretos.",
+          "whyItMatters": "Demuestra un riesgo de seguridad significativo en herramientas de IA para desarrolladores. La exposición de credenciales en repositorios públicos puede llevar a accesos no autorizados y brechas de seguridad.",
+          "recommendedAction": "Revisa y audita las configuraciones de tus herramientas de IA, especialmente aquellas que interactúan con el código. Asegúrate de no guardar credenciales o información sensible en archivos que puedan ser versionados o compartidos públicamente. Considera deshabilitar la opción 'no preguntar de nuevo' para comandos sensibles."
+        },
+        {
+          "title": "Core Vitals Optimization, SSR Deployments, and Signal-First Architecture ⚡",
+          "url": "https://blog.angular.dev/core-vitals-optimization-ssr-deployments-and-signal-first-architecture-be82fd4a8c87?source=rss----447683c3d9a3---4",
+          "source": "Angular Blog",
+          "category": "Frontend",
+          "priority": "high",
+          "score": 9,
+          "summary": "El blog de Angular discute optimizaciones de Core Web Vitals, despliegues con Server-Side Rendering (SSR) y la adopción de una arquitectura 'Signal-First', destacando las mejoras de rendimiento y experiencia de usuario.",
+          "whyItMatters": "Estas son optimizaciones clave para aplicaciones web modernas. Mejorar Core Web Vitals impacta el SEO y la experiencia del usuario, SSR mejora el rendimiento inicial y la indexación, y la arquitectura 'Signal-First' puede simplificar la reactividad en Angular.",
+          "recommendedAction": "Explora cómo implementar o mejorar Core Web Vitals en tus proyectos Angular. Investiga las mejores prácticas para SSR y considera la arquitectura 'Signal-First' si buscas optimizar la gestión del estado y la reactividad en tus aplicaciones."
+        },
+        {
+          "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+          "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 8,
+          "summary": "Los atacantes están explotando activamente una vulnerabilidad recién descubierta en OpenSSH (denominada SSHole) que permite el acceso sin contraseña a sistemas que cumplen ciertas condiciones de configuración (usando musl C library con PAM deshabilitado).",
+          "whyItMatters": "Esta vulnerabilidad de alto CVSS permite el acceso root a sistemas Linux desprotegidos. La explotación rápida por parte de atacantes subraya la importancia de aplicar parches de seguridad inmediatamente.",
+          "recommendedAction": "Verifica si tus sistemas utilizan OpenSSH con la configuración afectada. Aplica las actualizaciones de seguridad disponibles para OpenSSH y revisa la configuración de autenticación, especialmente en sistemas críticos o expuestos."
+        }
+      ]
+    },
     {
       "date": "2026-11-06",
       "generatedAt": "2026-11-06T14:48:25.635Z",

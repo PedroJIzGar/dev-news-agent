@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T13:45:55.314Z",
+  "totalArticles": 7,
+  "summary": {
+    "highPriority": 3,
+    "mediumPriority": 2,
+    "lowPriority": 2,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 4
+      },
+      {
+        "name": "Frontend",
+        "count": 1
+      },
+      {
+        "name": "Herramientas para Desarrolladores",
+        "count": 1
+      },
+      {
+        "name": "Cultura de Desarrollo",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 4
+      },
+      {
+        "name": "Angular Blog",
+        "count": 1
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 1
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una función de Claude Code, al ser seleccionada para no preguntar de nuevo, guarda comandos que pueden incluir contraseñas y claves de API en archivos de configuración de proyectos. Se han encontrado 1,122 copias públicas de estos archivos en GitHub, exponiendo secretos.",
+      "whyItMatters": "Demuestra un riesgo de seguridad significativo en herramientas de IA para desarrolladores. La exposición de credenciales en repositorios públicos puede llevar a accesos no autorizados y brechas de seguridad.",
+      "recommendedAction": "Revisa y audita las configuraciones de tus herramientas de IA, especialmente aquellas que interactúan con el código. Asegúrate de no guardar credenciales o información sensible en archivos que puedan ser versionados o compartidos públicamente. Considera deshabilitar la opción 'no preguntar de nuevo' para comandos sensibles."
+    },
+    {
+      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Los atacantes están explotando activamente una vulnerabilidad recién descubierta en OpenSSH (denominada SSHole) que permite el acceso sin contraseña a sistemas que cumplen ciertas condiciones de configuración (usando musl C library con PAM deshabilitado).",
+      "whyItMatters": "Esta vulnerabilidad de alto CVSS permite el acceso root a sistemas Linux desprotegidos. La explotación rápida por parte de atacantes subraya la importancia de aplicar parches de seguridad inmediatamente.",
+      "recommendedAction": "Verifica si tus sistemas utilizan OpenSSH con la configuración afectada. Aplica las actualizaciones de seguridad disponibles para OpenSSH y revisa la configuración de autenticación, especialmente en sistemas críticos o expuestos."
+    },
+    {
+      "title": "Core Vitals Optimization, SSR Deployments, and Signal-First Architecture ⚡",
+      "url": "https://blog.angular.dev/core-vitals-optimization-ssr-deployments-and-signal-first-architecture-be82fd4a8c87?source=rss----447683c3d9a3---4",
+      "source": "Angular Blog",
+      "category": "Frontend",
+      "priority": "high",
+      "score": 9,
+      "summary": "El blog de Angular discute optimizaciones de Core Web Vitals, despliegues con Server-Side Rendering (SSR) y la adopción de una arquitectura 'Signal-First', destacando las mejoras de rendimiento y experiencia de usuario.",
+      "whyItMatters": "Estas son optimizaciones clave para aplicaciones web modernas. Mejorar Core Web Vitals impacta el SEO y la experiencia del usuario, SSR mejora el rendimiento inicial y la indexación, y la arquitectura 'Signal-First' puede simplificar la reactividad en Angular.",
+      "recommendedAction": "Explora cómo implementar o mejorar Core Web Vitals en tus proyectos Angular. Investiga las mejores prácticas para SSR y considera la arquitectura 'Signal-First' si buscas optimizar la gestión del estado y la reactividad en tus aplicaciones."
+    },
+    {
+      "title": "Beyond code generation: A developer’s guide to agentic engineering",
+      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+      "source": "GitHub Blog",
+      "category": "Herramientas para Desarrolladores",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Este artículo de GitHub explora cómo las herramientas de IA como GitHub Copilot van más allá de la simple generación de código, adentrándose en la ingeniería de agentes que asisten en la planificación, revisión y depuración de código.",
+      "whyItMatters": "Proporciona una visión del futuro de la asistencia de IA en el desarrollo de software, enfocándose en cómo estas herramientas pueden integrarse en flujos de trabajo más complejos, aumentando la productividad del desarrollador.",
+      "recommendedAction": "Lee este artículo para entender cómo la IA está evolucionando en el desarrollo. Considera experimentar con las capacidades de GitHub Copilot más allá de la generación de código, como en la revisión de cambios o la investigación de problemas de producción."
+    },
+    {
+      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+      "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "OpenAI ha lanzado GPT-6 Cyber, un modelo de IA diseñado para la investigación de ciberseguridad. Se informa que este modelo ha sido instrumental en el descubrimiento de numerosas vulnerabilidades en Firefox y Linux.",
+      "whyItMatters": "Muestra el creciente papel de la IA en la identificación de vulnerabilidades de seguridad. El avance en modelos como GPT-6 Cyber podría acelerar el descubrimiento y la corrección de fallos de seguridad.",
+      "recommendedAction": "Mantente informado sobre cómo la IA se está aplicando en la ciberseguridad. Comprender estas herramientas puede darte una perspectiva sobre futuras amenazas y soluciones de seguridad."
+    },
+    {
+      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+      "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "low",
+      "score": 4,
+      "summary": "Una vulnerabilidad en WordPress, que ya está siendo explotada, presenta un riesgo adicional durante el proceso de instalación del parche. El código sin parches se usa para desempaquetar los archivos de actualización, permitiendo ataques en ese breve lapso.",
+      "whyItMatters": "Es una advertencia específica para administradores de sitios WordPress, indicando un riesgo particular durante el proceso de actualización. Si bien es una vulnerabilidad de seguridad, su aplicabilidad es limitada a un CMS específico.",
+      "recommendedAction": "Si administras sitios WordPress, ten precaución al aplicar esta actualización. Considera bloquear temporalmente el acceso web al sitio durante la instalación del parche o asegúrate de que el proceso se complete rápidamente para minimizar la ventana de ataque."
+    },
+    {
+      "title": "Don’t Build the Reusable Component Yet",
+      "url": "https://stackoverflow.blog/2026/11/05/don-t-build-the-reusable-component-yet/",
+      "source": "Stack Overflow Blog",
+      "category": "Cultura de Desarrollo",
+      "priority": "low",
+      "score": 2,
+      "summary": "El artículo argumenta en contra de la creación prematura de componentes reutilizables, sugiriendo que a menudo es mejor construir primero la funcionalidad específica y luego abstraer la reutilización.",
+      "whyItMatters": "Ofrece una perspectiva sobre la ingeniería de software y la gestión de la complejidad. Sin embargo, es más un consejo sobre la metodología de desarrollo que una noticia técnica específica para las tecnologías del usuario.",
+      "recommendedAction": "Reflexiona sobre este consejo de desarrollo. Considera cuándo es el momento adecuado para crear abstracciones y componentes reutilizables en tus proyectos para evitar la sobreingeniería."
+    }
+  ]
+}
