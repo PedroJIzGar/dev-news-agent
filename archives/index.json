@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-07T13:45:55.323Z",
+  "generatedAt": "2026-11-09T17:12:24.594Z",
   "availableDates": [
+    "2026-11-09",
     "2026-11-07",
     "2026-11-06",
     "2026-11-05",
@@ -142,20 +143,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 139,
-    "totalArticles": 1615,
-    "highPriority": 853,
-    "mediumPriority": 596,
+    "totalReports": 140,
+    "totalArticles": 1625,
+    "highPriority": 859,
+    "mediumPriority": 600,
     "lowPriority": 166,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-07",
+    "latestReportDate": "2026-11-09",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
     "topCategories": [
       {
         "name": "Security",
-        "count": 741
+        "count": 749
       },
       {
         "name": "Seguridad",
@@ -163,7 +164,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 123
+        "count": 125
       },
       {
         "name": "IA para Desarrolladores",
@@ -177,7 +178,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1223
+        "count": 1232
       },
       {
         "name": "Stack Overflow Blog",
@@ -189,7 +190,7 @@
       },
       {
         "name": "Spring Blog",
-        "count": 102
+        "count": 103
       },
       {
         "name": "Krebs on Security",
@@ -198,12 +199,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-11-01",
-      "high": 3,
-      "medium": 1,
-      "low": 0
-    },
     {
       "date": "2026-11-02",
       "high": 6,
@@ -239,9 +234,80 @@
       "high": 3,
       "medium": 2,
       "low": 2
+    },
+    {
+      "date": "2026-11-09",
+      "high": 6,
+      "medium": 4,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-09",
+      "generatedAt": "2026-11-09T17:12:24.578Z",
+      "totalArticles": 10,
+      "highPriority": 6,
+      "mediumPriority": 4,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 8
+        },
+        {
+          "name": "AI for Developers",
+          "count": 2
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 9
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Spring AI 2.1.0-RC2 Available Now",
+          "url": "https://spring.io/blog/2026/11/09/spring-ai-2-1-0-RC2-available-now",
+          "source": "Spring Blog",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 10,
+          "summary": "Ya está disponible la versión Release Candidate 2 (RC2) de Spring AI 2.1.0. Esta versión trae mejoras y correcciones de errores para facilitar la integración de IA en aplicaciones Spring.",
+          "whyItMatters": "Como desarrollador de Java y Spring Boot, las actualizaciones de Spring AI son directamente relevantes para tu trabajo. Te permiten aprovechar las últimas funcionalidades y mejoras para construir aplicaciones con capacidades de inteligencia artificial de manera más eficiente.",
+          "recommendedAction": "Explora las notas de la versión de Spring AI 2.1.0-RC2. Considera actualizar tus proyectos o empezar nuevos desarrollos utilizando esta versión para beneficiarte de las últimas optimizaciones y características de IA."
+        },
+        {
+          "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
+          "url": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
+          "source": "The Hacker News",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 10,
+          "summary": "Un atacante individual utilizó agentes de IA denominados BOSSAI para robar registros de despacho de emergencia de Taipei y acceder a datos de pacientes expuestos en una plataforma del departamento de bomberos, todo ello sin necesidad de autenticación.",
+          "whyItMatters": "Este es un ejemplo directo de cómo la IA puede ser utilizada con fines maliciosos para explotar vulnerabilidades y obtener acceso a información sensible. Para los desarrolladores, resalta la importancia de considerar las implicaciones de seguridad al desarrollar e implementar sistemas de IA, y la necesidad de proteger los datos.",
+          "recommendedAction": "Presta atención a las implicaciones de seguridad del uso de IA en ciberataques. Al desarrollar aplicaciones, considera la seguridad desde el principio, especialmente si manejas datos sensibles. Asegúrate de que los sistemas que desarrollas no expongan información de forma inadvertida."
+        },
+        {
+          "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+          "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "La CISA ha añadido una vulnerabilidad crítica de SonicWall SonicOS a su catálogo de vulnerabilidades explotadas conocidas (KEV), tras informes de posible explotación en ataques reales. La falla (CVE-2026-19868) permite eludir la autenticación multifactor (MFA).",
+          "whyItMatters": "Esta noticia es crucial para la seguridad de tu infraestructura. Las vulnerabilidades de bypass de MFA pueden permitir a atacantes acceder a sistemas críticos sin autorización, comprometiendo datos y operaciones. Estar al tanto de estas amenazas te permite tomar medidas preventivas.",
+          "recommendedAction": "Revisar inmediatamente si tu organización utiliza SonicWall SonicOS y aplica los parches o mitigaciones recomendados por SonicWall y CISA para CVE-2026-19868. Implementar capas adicionales de seguridad y monitorizar activamente los registros en busca de actividades sospechosas."
+        }
+      ]
+    },
     {
       "date": "2026-11-07",
       "generatedAt": "2026-11-07T13:45:55.314Z",
