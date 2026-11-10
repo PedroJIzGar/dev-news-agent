@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-09T17:12:24.594Z",
+  "generatedAt": "2026-11-10T15:26:06.794Z",
   "availableDates": [
+    "2026-11-10",
     "2026-11-09",
     "2026-11-07",
     "2026-11-06",
@@ -143,20 +144,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 140,
-    "totalArticles": 1625,
-    "highPriority": 859,
-    "mediumPriority": 600,
+    "totalReports": 141,
+    "totalArticles": 1640,
+    "highPriority": 867,
+    "mediumPriority": 607,
     "lowPriority": 166,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-09",
+    "latestReportDate": "2026-11-10",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
     "topCategories": [
       {
         "name": "Security",
-        "count": 749
+        "count": 761
       },
       {
         "name": "Seguridad",
@@ -164,7 +165,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 125
+        "count": 127
       },
       {
         "name": "IA para Desarrolladores",
@@ -178,11 +179,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1232
+        "count": 1244
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 137
+        "count": 139
       },
       {
         "name": "GitHub Blog",
@@ -190,7 +191,7 @@
       },
       {
         "name": "Spring Blog",
-        "count": 103
+        "count": 104
       },
       {
         "name": "Krebs on Security",
@@ -199,12 +200,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-11-02",
-      "high": 6,
-      "medium": 1,
-      "low": 1
-    },
     {
       "date": "2026-11-03",
       "high": 8,
@@ -240,9 +235,88 @@
       "high": 6,
       "medium": 4,
       "low": 0
+    },
+    {
+      "date": "2026-11-10",
+      "high": 8,
+      "medium": 7,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-10",
+      "generatedAt": "2026-11-10T15:26:06.777Z",
+      "totalArticles": 15,
+      "highPriority": 8,
+      "mediumPriority": 7,
+      "lowPriority": 0,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 12
+        },
+        {
+          "name": "AI for Developers",
+          "count": 2
+        },
+        {
+          "name": "Spring Boot",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 2
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
+          "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Binance ha advertido sobre una vulnerabilidad de escape de sandbox en iOS que podría exponer las claves de las billeteras de criptomonedas. Un investigador ha publicado una prueba de concepto que permite a una aplicación leer archivos de otras aplicaciones en iPhones con iOS 26 y 27, poniendo en riesgo información sensible. Apple aún no ha confirmado una solución.",
+          "whyItMatters": "Esta vulnerabilidad es crítica ya que afecta directamente la seguridad de las claves privadas y la información sensible almacenada en las billeteras de criptomonedas en dispositivos iOS. La falta de un parche inmediato y la publicación del exploit en GitHub aumentan el riesgo de ataques dirigidos.",
+          "recommendedAction": "Los desarrolladores y usuarios de aplicaciones que manejan activos de criptomonedas en iOS deben estar extremadamente atentos a las actualizaciones de seguridad de Apple y Binance. Considerar el uso de hardware wallets o soluciones de seguridad adicionales mientras la vulnerabilidad esté activa."
+        },
+        {
+          "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
+          "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Google ha lanzado una actualización de seguridad para Chrome para corregir nueve vulnerabilidades, incluyendo una catalogada como día cero y activamente explotada. La vulnerabilidad de alta gravedad (CVE-2026-125350) es un error de uso después de liberación en el componente XML.",
+          "whyItMatters": "Las vulnerabilidades de día cero activamente explotadas representan un riesgo inmediato para la seguridad de los usuarios. Mantener el navegador actualizado es crucial para protegerse contra ataques que aprovechan estas fallas desconocidas para el público.",
+          "recommendedAction": "Los desarrolladores y usuarios de Chrome deben aplicar la actualización de seguridad lo antes posible para mitigar el riesgo de explotación activa. Se recomienda configurar las actualizaciones automáticas para Chrome."
+        },
+        {
+          "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
+          "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "La CISA ha incluido cuatro vulnerabilidades críticas en su catálogo de Vulnerabilidades Explotadas Conocidas (KEV), citando evidencia de explotación activa. Las fallas afectan a OpenSSH, GPUStack, FreeSWITCH e IBM Aspera Faspex, con una de ellas (CVE-2026-123218) teniendo una puntuación CVSS de 9.8.",
+          "whyItMatters": "La explotación activa de estas vulnerabilidades por parte de actores maliciosos representa un riesgo significativo para las organizaciones que utilizan estos componentes. La inclusión en el catálogo KEV de CISA indica que los atacantes ya están aprovechando estas fallas.",
+          "recommendedAction": "Las organizaciones que utilizan OpenSSH, GPUStack, FreeSWITCH o IBM Aspera Faspex deben priorizar la aplicación de parches y las actualizaciones recomendadas por los proveedores. Revisar los registros en busca de indicadores de compromiso relacionados con estas vulnerabilidades."
+        }
+      ]
+    },
     {
       "date": "2026-11-09",
       "generatedAt": "2026-11-09T17:12:24.578Z",
