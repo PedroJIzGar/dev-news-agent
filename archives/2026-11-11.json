@@ -1,0 +1,213 @@
+{
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T14:56:34.692Z",
+  "totalArticles": 15,
+  "summary": {
+    "highPriority": 10,
+    "mediumPriority": 5,
+    "lowPriority": 0,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 7
+      },
+      {
+        "name": "IA y Seguridad",
+        "count": 5
+      },
+      {
+        "name": "Herramientas de Desarrollo",
+        "count": 2
+      },
+      {
+        "name": "Spring Boot",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 12
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 1
+      },
+      {
+        "name": "Krebs on Security",
+        "count": 1
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se ha descubierto una vulnerabilidad crítica en Xen Orchestra que permite a los atacantes eludir la autenticación y obtener acceso de administrador. La falla está siendo explotada activamente.",
+      "whyItMatters": "Las vulnerabilidades de bypass de autenticación son extremadamente peligrosas ya que otorgan acceso no autorizado a sistemas y datos. La explotación activa significa que los sistemas no parcheados están en riesgo inmediato.",
+      "recommendedAction": "Aplica los parches de seguridad para Xen Orchestra inmediatamente y revisa los registros de acceso en busca de actividades sospechosas."
+    },
+    {
+      "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+      "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "CISA ha añadido dos vulnerabilidades en Cisco BroadWorks y Openwave a su catálogo de vulnerabilidades explotadas conocidas, indicando que están siendo atacadas activamente.",
+      "whyItMatters": "La explotación activa de vulnerabilidades en sistemas de comunicación ampliamente utilizados representa un riesgo significativo para la continuidad del negocio y la seguridad de los datos.",
+      "recommendedAction": "Verifica si utilizas Cisco BroadWorks u Openwave y aplica los parches disponibles lo antes posible. Revisa las configuraciones de seguridad y los logs de auditoría."
+    },
+    {
+      "title": "Git security vulnerabilities announced",
+      "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+      "source": "GitHub Blog",
+      "category": "Herramientas de Desarrollo",
+      "priority": "high",
+      "score": 9,
+      "summary": "Git ha lanzado actualizaciones para corregir seis vulnerabilidades de seguridad relacionadas con clones recursivos, manejo de referencias, merges, parches binarios e importaciones.",
+      "whyItMatters": "Mantener Git actualizado es crucial para la seguridad del código fuente y la integridad de los repositorios. Las vulnerabilidades en el sistema de control de versiones pueden tener un impacto amplio.",
+      "recommendedAction": "Actualiza Git a la última versión disponible y anima a tu equipo a hacer lo mismo. Revisa los procedimientos de merge y clonación para asegurarte de que se siguen las mejores prácticas."
+    },
+    {
+      "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+      "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Microsoft ha lanzado parches para 1.259 vulnerabilidades, incluyendo una en Outlook que podría exponer hashes NTLMv2.",
+      "whyItMatters": "Microsoft lanza un gran volumen de parches cada mes, y es esencial mantenerse al día. Una vulnerabilidad explotada en Outlook puede ser un punto de entrada crítico para los atacantes.",
+      "recommendedAction": "Asegúrate de que todos los sistemas Windows y aplicaciones de Microsoft estén actualizados con los últimos parches de seguridad. Prioriza la actualización de los sistemas expuestos a Internet."
+    },
+    {
+      "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+      "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+      "source": "The Hacker News",
+      "category": "IA y Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se robaron claves de IA de clientes de Railway, lo que resultó en cargos estimados de $740,000 por uso no autorizado. Railway se compromete a cubrir estos cargos.",
+      "whyItMatters": "Este incidente destaca la importancia crítica de proteger las claves de acceso a servicios de IA. La seguridad de las credenciales de IA es tan importante como la de las bases de datos o APIs.",
+      "recommendedAction": "Revisa y asegura la gestión de claves y credenciales de tus servicios de IA. Implementa rotación de claves y monitoreo de uso para detectar actividades anómalas."
+    },
+    {
+      "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+      "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+      "source": "The Hacker News",
+      "category": "Herramientas de Desarrollo",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una vulnerabilidad en Git (CVE-2026-111760) permitía a repositorios maliciosos ejecutar código durante clones recursivos. Ya ha sido corregida.",
+      "whyItMatters": "La capacidad de un repositorio malicioso para ejecutar código al clonarse recursivamente es una amenaza seria para la seguridad del desarrollador y del entorno de desarrollo.",
+      "recommendedAction": "Actualiza Git a la versión 2.56.1 o posterior, o a las versiones corregidas específicas para ramas anteriores. Ten precaución al clonar repositorios de fuentes no confiables."
+    },
+    {
+      "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+      "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Se explotaron vulnerabilidades en AhsayCBS (CVE-2026-105133, CVE-2026-105134) para desplegar un backdoor de Python que evade sandboxes.",
+      "whyItMatters": "La explotación de vulnerabilidades en software de backup como AhsayCBS puede llevar a la infiltración profunda y al control del sistema, permitiendo la instalación de malware persistente.",
+      "recommendedAction": "Asegúrate de que AhsayCBS esté actualizado con los últimos parches. Monitorea la red en busca de tráfico anómalo y actividad de comandos sospechosa."
+    },
+    {
+      "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+      "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+      "source": "Krebs on Security",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Microsoft ha lanzado actualizaciones para corregir casi 1.100 vulnerabilidades, incluyendo 63 críticas y una zero-day en Outlook.",
+      "whyItMatters": "Aunque similar a otra noticia, esta ofrece una perspectiva adicional sobre el volumen de parches de Microsoft y su importancia para la seguridad general de los sistemas.",
+      "recommendedAction": "Mantén un calendario de parches activo para los productos de Microsoft. Considera automatizar el proceso de actualización para los sistemas críticos."
+    },
+    {
+      "title": "This Week in Spring - November 10th, 2026",
+      "url": "https://spring.io/blog/2026/11/10/this-week-in-spring-november-10th-2026",
+      "source": "Spring Blog",
+      "category": "Spring Boot",
+      "priority": "medium",
+      "score": 8,
+      "summary": "Un resumen de las novedades y actualizaciones en el ecosistema de Spring, incluyendo Spring Boot, Spring Framework y otros proyectos relacionados.",
+      "whyItMatters": "Para los desarrolladores que usan Spring Boot, mantenerse al día con las últimas noticias y actualizaciones es fundamental para aprovechar nuevas características y correcciones.",
+      "recommendedAction": "Revisa las notas de esta semana para ver si hay actualizaciones importantes o características nuevas que puedan ser relevantes para tus proyectos Spring Boot."
+    },
+    {
+      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+      "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Se observó a actores maliciosos intentando explotar servidores Qlik Sense para desplegar reverse shells, y también se están explotando ActiveMQ y Veeam.",
+      "whyItMatters": "El compromiso de servidores de análisis de datos como Qlik Sense puede exponer información sensible. La actividad observada indica un interés continuo en estas plataformas.",
+      "recommendedAction": "Asegura tus instancias de Qlik Sense y verifica si utilizas ActiveMQ o Veeam, aplicando parches si es necesario. Monitoriza el tráfico de red en busca de conexiones salientes sospechosas."
+    },
+    {
+      "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+      "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+      "source": "The Hacker News",
+      "category": "IA y Seguridad",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Más de 35,000 aplicaciones creadas con Grok se encontraron expuestas en línea, algunas filtrando datos confidenciales y contraseñas.",
+      "whyItMatters": "Este hallazgo subraya los riesgos de seguridad inherentes a la rápida adopción de herramientas de desarrollo basadas en IA si no se implementan prácticas de seguridad adecuadas.",
+      "recommendedAction": "Si utilizas herramientas como Grok, asegúrate de que las aplicaciones resultantes no expongan datos sensibles y que las configuraciones de acceso sean seguras. Realiza auditorías de seguridad."
+    },
+    {
+      "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+      "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+      "source": "The Hacker News",
+      "category": "IA y Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Un equipo construyó un agente de IA que, por diseño, violó sus propias reglas de seguridad, proporcionando lecciones sobre cómo asegurar agentes de IA.",
+      "whyItMatters": "Entender cómo los agentes de IA pueden fallar en la seguridad es crucial para construir sistemas robustos. Las lecciones aprendidas son directamente aplicables a la seguridad de aplicaciones impulsadas por IA.",
+      "recommendedAction": "Implementa las tres reglas clave para la seguridad de agentes de IA: identidades propias, acceso con el mínimo privilegio y trazabilidad separada. Revisa y fortalece las políticas de seguridad para IA."
+    },
+    {
+      "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+      "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+      "source": "The Hacker News",
+      "category": "IA y Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Investigadores de Microsoft demostraron que los agentes de IA pueden ser comprometidos (backdoored) editando menos de 10 neuronas, sin necesidad de reentrenamiento.",
+      "whyItMatters": "Esta investigación revela una nueva y preocupante vector de ataque contra modelos de IA, destacando la necesidad de seguridad a nivel de modelo y no solo a nivel de aplicación.",
+      "recommendedAction": "Investiga las implicaciones de este hallazgo para los modelos de IA que utilizas. Considera la posibilidad de usar modelos que garanticen la integridad de sus pesos o que tengan mecanismos de detección de manipulación."
+    },
+    {
+      "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+      "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+      "source": "The Hacker News",
+      "category": "IA y Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Un atacante explotó una falla RCE en SGLang, un motor de inferencia de IA, comprometiendo servidores de NEAR AI y robando datos.",
+      "whyItMatters": "La explotación de vulnerabilidades en motores de inferencia de IA puede tener consecuencias devastadoras, incluyendo el acceso a datos confidenciales procesados en modo seguro.",
+      "recommendedAction": "Si utilizas SGLang o sistemas de IA similares, asegúrate de que estén parcheados y debidamente protegidos. Implementa monitoreo de seguridad en la infraestructura de inferencia de IA."
+    },
+    {
+      "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+      "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Se identificaron tres campañas de espionaje vinculadas por el ecosistema de malware Sparrow, dirigidas a organizaciones en telecomunicaciones, gobierno y sectores críticos.",
+      "whyItMatters": "El espionaje patrocinado por estados representa una amenaza sofisticada y persistente, con el objetivo de robar propiedad intelectual y obtener inteligencia estratégica.",
+      "recommendedAction": "Mantente informado sobre las últimas amenazas de ciberespionaje. Refuerza las defensas de la red, la detección de intrusiones y la capacitación de los empleados sobre ingeniería social."
+    }
+  ]
+}

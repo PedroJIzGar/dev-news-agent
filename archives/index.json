@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-10T15:26:06.794Z",
+  "generatedAt": "2026-11-11T14:56:34.701Z",
   "availableDates": [
+    "2026-11-11",
     "2026-11-10",
     "2026-11-09",
     "2026-11-07",
@@ -144,13 +145,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 141,
-    "totalArticles": 1640,
-    "highPriority": 867,
-    "mediumPriority": 607,
+    "totalReports": 142,
+    "totalArticles": 1655,
+    "highPriority": 877,
+    "mediumPriority": 612,
     "lowPriority": 166,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-10",
+    "latestReportDate": "2026-11-11",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
@@ -161,7 +162,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 363
+        "count": 370
       },
       {
         "name": "AI for Developers",
@@ -179,7 +180,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1244
+        "count": 1256
       },
       {
         "name": "Stack Overflow Blog",
@@ -187,25 +188,19 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 106
+        "count": 107
       },
       {
         "name": "Spring Blog",
-        "count": 104
+        "count": 105
       },
       {
         "name": "Krebs on Security",
-        "count": 30
+        "count": 31
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-11-03",
-      "high": 8,
-      "medium": 3,
-      "low": 1
-    },
     {
       "date": "2026-11-04",
       "high": 11,
@@ -241,9 +236,96 @@
       "high": 8,
       "medium": 7,
       "low": 0
+    },
+    {
+      "date": "2026-11-11",
+      "high": 10,
+      "medium": 5,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-11",
+      "generatedAt": "2026-11-11T14:56:34.692Z",
+      "totalArticles": 15,
+      "highPriority": 10,
+      "mediumPriority": 5,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 7
+        },
+        {
+          "name": "IA y Seguridad",
+          "count": 5
+        },
+        {
+          "name": "Herramientas de Desarrollo",
+          "count": 2
+        },
+        {
+          "name": "Spring Boot",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una vulnerabilidad crítica en Xen Orchestra que permite a los atacantes eludir la autenticación y obtener acceso de administrador. La falla está siendo explotada activamente.",
+          "whyItMatters": "Las vulnerabilidades de bypass de autenticación son extremadamente peligrosas ya que otorgan acceso no autorizado a sistemas y datos. La explotación activa significa que los sistemas no parcheados están en riesgo inmediato.",
+          "recommendedAction": "Aplica los parches de seguridad para Xen Orchestra inmediatamente y revisa los registros de acceso en busca de actividades sospechosas."
+        },
+        {
+          "title": "Git security vulnerabilities announced",
+          "url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+          "source": "GitHub Blog",
+          "category": "Herramientas de Desarrollo",
+          "priority": "high",
+          "score": 9,
+          "summary": "Git ha lanzado actualizaciones para corregir seis vulnerabilidades de seguridad relacionadas con clones recursivos, manejo de referencias, merges, parches binarios e importaciones.",
+          "whyItMatters": "Mantener Git actualizado es crucial para la seguridad del código fuente y la integridad de los repositorios. Las vulnerabilidades en el sistema de control de versiones pueden tener un impacto amplio.",
+          "recommendedAction": "Actualiza Git a la última versión disponible y anima a tu equipo a hacer lo mismo. Revisa los procedimientos de merge y clonación para asegurarte de que se siguen las mejores prácticas."
+        },
+        {
+          "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+          "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+          "source": "The Hacker News",
+          "category": "IA y Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se robaron claves de IA de clientes de Railway, lo que resultó en cargos estimados de $740,000 por uso no autorizado. Railway se compromete a cubrir estos cargos.",
+          "whyItMatters": "Este incidente destaca la importancia crítica de proteger las claves de acceso a servicios de IA. La seguridad de las credenciales de IA es tan importante como la de las bases de datos o APIs.",
+          "recommendedAction": "Revisa y asegura la gestión de claves y credenciales de tus servicios de IA. Implementa rotación de claves y monitoreo de uso para detectar actividades anómalas."
+        }
+      ]
+    },
     {
       "date": "2026-11-10",
       "generatedAt": "2026-11-10T15:26:06.777Z",
