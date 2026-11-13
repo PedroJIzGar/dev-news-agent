@@ -1,0 +1,209 @@
+{
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T15:08:22.188Z",
+  "totalArticles": 15,
+  "summary": {
+    "highPriority": 11,
+    "mediumPriority": 4,
+    "lowPriority": 0,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 9
+      },
+      {
+        "name": "Seguridad / IA",
+        "count": 2
+      },
+      {
+        "name": "Bases de Datos / Seguridad",
+        "count": 1
+      },
+      {
+        "name": "DevOps / Plataformas",
+        "count": 1
+      },
+      {
+        "name": "Desarrollo / Seguridad",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 13
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 2
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+      "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Un atacante utilizó credenciales robadas de 4.837 cuentas de GitHub para instalar un ladrón de secretos en más de 1.806 repositorios. Este ladrón está diseñado para sustraer secretos y credenciales en la nube a los que los flujos de trabajo de CI (Integración Continua) de un repositorio pueden acceder.",
+      "whyItMatters": "Este incidente destaca una grave vulnerabilidad en la seguridad de las cuentas de desarrolladores y los repositorios en GitHub. El uso de cuentas secuestradas para infiltrar herramientas de robo de secretos en pipelines de CI representa una amenaza directa para la seguridad del código y los datos sensibles.",
+      "recommendedAction": "Revisar inmediatamente la seguridad de las cuentas de GitHub, habilitar la autenticación de dos factores (2FA) en todas las cuentas, auditar los permisos de las cuentas comprometidas y revisar los flujos de CI para detectar actividades sospechosas o secretos expuestos."
+    },
+    {
+      "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+      "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "El malware SCKit está explotando una vulnerabilidad crítica (CVE-2026-84869) en ConnectWise ScreenConnect para convertir sesiones de soporte legítimas en vectores de ataque para Proveedores de Servicios Gestionados (MSP).",
+      "whyItMatters": "Las vulnerabilidades en software de acceso remoto como ScreenConnect pueden tener un impacto masivo, ya que son utilizadas por MSPs para gestionar infraestructuras de clientes. La explotación exitosa puede llevar a accesos no autorizados a múltiples sistemas y redes de clientes.",
+      "recommendedAction": "Asegurarse de que todos los sistemas que utilizan ScreenConnect estén actualizados a la última versión parcheada. Implementar monitoreo de seguridad robusto en las sesiones de acceso remoto y restringir los privilegios de las cuentas utilizadas para el soporte remoto."
+    },
+    {
+      "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+      "url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+      "source": "The Hacker News",
+      "category": "Bases de Datos / Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Una vulnerabilidad crítica en MongoDB Server permite a un atacante no autenticado causar una caída del servidor de base de datos mediante el envío de dos solicitudes específicas, especialmente si el servidor está rezagado durante un proceso de failover.",
+      "whyItMatters": "Las bases de datos son componentes críticos de la mayoría de las aplicaciones. Una vulnerabilidad que permite causar caídas de servidores de MongoDB sin autenticación puede llevar a interrupciones del servicio significativas y afectar la disponibilidad de datos.",
+      "recommendedAction": "Actualizar inmediatamente las instancias de MongoDB Server a las versiones parcheadas proporcionadas por MongoDB. Implementar monitoreo de la salud del cluster y revisar las configuraciones de failover para mitigar el riesgo."
+    },
+    {
+      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+      "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Zoom ha lanzado actualizaciones para corregir dos vulnerabilidades de seguridad en Zoom Workplace para Windows, incluyendo un fallo crítico (CVE-2026-108186) que podría permitir la escalada de privilegios remota sin autenticación.",
+      "whyItMatters": "Zoom es una herramienta de comunicación ampliamente utilizada en entornos corporativos. Una vulnerabilidad que permite escalada de privilegios sin autenticación representa un riesgo de seguridad significativo, ya que podría ser utilizada para tomar control de sistemas de usuario.",
+      "recommendedAction": "Actualizar todas las instalaciones de Zoom Workplace a las últimas versiones disponibles. Revisar las políticas de seguridad para asegurar que las actualizaciones de software se apliquen de manera oportuna."
+    },
+    {
+      "title": "GitHub availability report: October 2026",
+      "url": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
+      "source": "GitHub Blog",
+      "category": "DevOps / Plataformas",
+      "priority": "medium",
+      "score": 7,
+      "summary": "GitHub reporta ocho incidentes en octubre de 2026 que resultaron en degradación del rendimiento de sus servicios. El informe detalla la disponibilidad y los incidentes ocurridos durante el mes.",
+      "whyItMatters": "La disponibilidad de plataformas como GitHub es crucial para los desarrolladores. Entender los incidentes y la disponibilidad de estas herramientas ayuda a planificar mejor los flujos de trabajo y a estar al tanto de posibles interrupciones.",
+      "recommendedAction": "Revisar los informes de disponibilidad de GitHub regularmente para estar al tanto del estado del servicio. Considerar tener planes de contingencia para posibles interrupciones."
+    },
+    {
+      "title": "Hackers Exploit N-central Flaws to Infect 21 Servers, Including 19 Running Hotfix 2",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Los atacantes están explotando nuevas vulnerabilidades en N-central (4EverAble2Shell y Agent2Shell) para infectar servidores, incluso aquellos que han aplicado el hotfix 2. N-able ha tomado medidas restrictivas en algunas funcionalidades.",
+      "whyItMatters": "Las herramientas de gestión como N-central son objetivos atractivos para los atacantes. La explotación de estas herramientas puede comprometer la seguridad de múltiples sistemas administrados por ellas.",
+      "recommendedAction": "Asegurarse de aplicar todas las actualizaciones y parches de seguridad para N-central y otros sistemas de gestión. Monitorear de cerca la actividad en estos sistemas y estar al tanto de las comunicaciones de los proveedores sobre vulnerabilidades."
+    },
+    {
+      "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+      "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Citrix ha lanzado parches para 12 vulnerabilidades críticas en NetScaler ADC, Citrix NetScaler Gateway y NetScaler Console, incluyendo fallos que podrían permitir bypass de autenticación y denegación de servicio.",
+      "whyItMatters": "NetScaler es un componente clave en muchas infraestructuras de red para la gestión de tráfico y la seguridad. Las vulnerabilidades críticas, especialmente las de bypass de autenticación, representan un riesgo significativo de acceso no autorizado a sistemas y redes.",
+      "recommendedAction": "Aplicar los parches de seguridad liberados por Citrix para NetScaler ADC, Gateway y Console lo antes posible. Revisar las configuraciones de seguridad de NetScaler para asegurar que no haya debilidades explotables."
+    },
+    {
+      "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+      "url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "PTC ha lanzado parches para una vulnerabilidad crítica en Windchill y FlexPLM (CVE-2026-126325) que podría permitir la ejecución remota de código no autenticada.",
+      "whyItMatters": "Windchill y FlexPLM son plataformas de gestión del ciclo de vida del producto (PLM) críticas en la industria manufacturera y de ingeniería. Una vulnerabilidad de ejecución remota de código puede ser catastrófica, permitiendo a atacantes tomar control de sistemas sensibles.",
+      "recommendedAction": "Actualizar inmediatamente las instancias de Windchill y FlexPLM a las versiones que incluyen los parches de seguridad. Evaluar el riesgo y priorizar la aplicación de estos parches en entornos de producción."
+    },
+    {
+      "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+      "url": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+      "source": "The Hacker News",
+      "category": "Desarrollo / Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Node.js ha corregido 16 vulnerabilidades, incluyendo fallos en HTTP/2 que pueden causar caídas de servidores y fugas de datos de otras conexiones. Se han lanzado versiones corregidas para las líneas 22.x, 24.x y 26.x.",
+      "whyItMatters": "Node.js es un runtime fundamental para el desarrollo backend. Las vulnerabilidades en su manejo de HTTP/2 pueden afectar la estabilidad y seguridad de miles de aplicaciones web y APIs. La fuga de datos entre conexiones es una preocupación seria para la privacidad.",
+      "recommendedAction": "Actualizar las aplicaciones que utilizan Node.js a las versiones parcheadas (22.23.5, 24.22.3, o 26.13.1 o superiores). Revisar la configuración de los servidores Node.js y los límites de recursos para mitigar el impacto de posibles ataques de denegación de servicio."
+    },
+    {
+      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+      "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+      "source": "The Hacker News",
+      "category": "Seguridad / IA",
+      "priority": "high",
+      "score": 9,
+      "summary": "La plataforma de pentesting con IA llamada AntiFox ha sido vinculada a ataques que robaron credenciales de Amazon Web Services (AWS) y se movieron lateralmente en entornos comprometidos.",
+      "whyItMatters": "El uso de IA en herramientas de seguridad, como las plataformas de pentesting, debe ser cuidadosamente controlado. Que estas herramientas sean comprometidas o mal utilizadas representa un riesgo doble: las capacidades ofensivas caen en manos equivocadas y pueden ser usadas contra los sistemas que se suponía debían proteger.",
+      "recommendedAction": "Ser extremadamente cauteloso con herramientas de pentesting basadas en IA, especialmente las emergentes. Revisar exhaustivamente los permisos y el acceso que estas herramientas tienen en los entornos de producción y desarrollo. Implementar una estrategia de 'least privilege' para cualquier herramienta de terceros."
+    },
+    {
+      "title": "Build once, run on any agent: A practical guide to agent skills",
+      "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+      "source": "GitHub Blog",
+      "category": "Desarrollo / IA",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Este artículo de GitHub explica el concepto de 'agent skills' para la IA, permitiendo que el trabajo de ingeniería repetible se capture en archivos reutilizables por diferentes agentes de IA.",
+      "whyItMatters": "La capacidad de crear y reutilizar componentes de lógica de IA para tareas específicas es fundamental para escalar el uso de la IA en el desarrollo. Comprender cómo funcionan estas 'agent skills' puede mejorar la eficiencia y la mantenibilidad de las soluciones basadas en IA.",
+      "recommendedAction": "Explorar cómo las 'agent skills' pueden ser implementadas en proyectos de desarrollo que utilizan IA. Experimentar con la creación de skills reutilizables para automatizar tareas comunes de desarrollo o análisis."
+    },
+    {
+      "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
+      "url": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+      "source": "The Hacker News",
+      "category": "Seguridad / IA",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Se han identificado 186 dominios falsos que imitan ser herramientas de Inteligencia Artificial (IA) para redirigir a los usuarios a páginas de phishing, instalar malware en navegadores o secuestrar búsquedas.",
+      "whyItMatters": "A medida que la IA se vuelve más popular, los ciberdelincuentes la utilizan como cebo para ataques de phishing y distribución de malware. Estar al tanto de estas tácticas es crucial para evitar ser víctima de engaños relacionados con herramientas de IA.",
+      "recommendedAction": "Educar a los usuarios sobre los riesgos de hacer clic en enlaces de fuentes no confiables, especialmente aquellos que prometen acceso a herramientas de IA. Verificar siempre la URL antes de introducir credenciales o descargar software."
+    },
+    {
+      "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+      "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Existen nuevos exploits dirigidos a N-central que funcionan incluso contra servidores que se creían parcheados, permitiendo acceso root y ejecución remota de código (RCE). El problema parece estar relacionado con una API legada no desactivada.",
+      "whyItMatters": "Este es un desarrollo preocupante sobre las vulnerabilidades de N-central. Implica que las defensas aplicadas previamente podrían no ser suficientes si la configuración específica (API legada expuesta) está activa, llevando a un compromiso total del sistema.",
+      "recommendedAction": "Revisar y deshabilitar explícitamente la API legada de N-central si no es estrictamente necesaria y no está expuesta a internet. Mantenerse actualizado con los avisos de seguridad de N-able y aplicar cualquier medida correctiva adicional de inmediato."
+    },
+    {
+      "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+      "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Los ataques contra ScreenConnect han afectado al menos 288 endpoints en 48 organizaciones utilizando clientes 'rogue' (no autorizados). ConnectWise ha deshabilitado extensiones de terceros como medida de precaución.",
+      "whyItMatters": "Indica que, aunque la vulnerabilidad principal en ScreenConnect pudo haber sido parcheada, los atacantes continúan encontrando y explotando vías de acceso, posiblemente a través de extensiones o configuraciones comprometidas, afectando a un gran número de organizaciones.",
+      "recommendedAction": "Revisar las extensiones instaladas en ScreenConnect y deshabilitar las que no sean esenciales o de fuentes no confiables. Monitorear la actividad de red y de los clientes de ScreenConnect para detectar comportamientos anómalos."
+    },
+    {
+      "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+      "url": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Este webinar aborda cómo los puntos ciegos en la gestión de identidades pueden poner en riesgo a los equipos de Operaciones de Seguridad (SOC) y cómo cerrarlos. Destaca la importancia de saber quién o qué está detrás de la actividad en la red, especialmente con el auge de agentes de IA.",
+      "whyItMatters": "La gestión de identidades y accesos es fundamental para la seguridad. Entender los 'puntos ciegos' es clave para prevenir accesos no autorizados y movimientos laterales de atacantes. La mención de agentes de IA subraya la necesidad de adaptar las estrategias de seguridad a las nuevas tecnologías.",
+      "recommendedAction": "Considerar asistir al webinar para profundizar en la gestión de identidades. Revisar las políticas y herramientas de gestión de identidades y accesos para identificar y mitigar posibles puntos ciegos, especialmente en lo referente a cuentas de servicio y agentes de IA."
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-11T14:56:34.701Z",
+  "generatedAt": "2026-11-13T15:08:22.196Z",
   "availableDates": [
+    "2026-11-13",
     "2026-11-11",
     "2026-11-10",
     "2026-11-09",
@@ -145,13 +146,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 142,
-    "totalArticles": 1655,
-    "highPriority": 877,
-    "mediumPriority": 612,
+    "totalReports": 143,
+    "totalArticles": 1670,
+    "highPriority": 888,
+    "mediumPriority": 616,
     "lowPriority": 166,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-11",
+    "latestReportDate": "2026-11-13",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
@@ -162,7 +163,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 370
+        "count": 379
       },
       {
         "name": "AI for Developers",
@@ -180,7 +181,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1256
+        "count": 1269
       },
       {
         "name": "Stack Overflow Blog",
@@ -188,7 +189,7 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 107
+        "count": 109
       },
       {
         "name": "Spring Blog",
@@ -201,12 +202,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-11-04",
-      "high": 11,
-      "medium": 4,
-      "low": 0
-    },
     {
       "date": "2026-11-05",
       "high": 3,
@@ -242,9 +237,92 @@
       "high": 10,
       "medium": 5,
       "low": 0
+    },
+    {
+      "date": "2026-11-13",
+      "high": 11,
+      "medium": 4,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-13",
+      "generatedAt": "2026-11-13T15:08:22.188Z",
+      "totalArticles": 15,
+      "highPriority": 11,
+      "mediumPriority": 4,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 9
+        },
+        {
+          "name": "Seguridad / IA",
+          "count": 2
+        },
+        {
+          "name": "Bases de Datos / Seguridad",
+          "count": 1
+        },
+        {
+          "name": "DevOps / Plataformas",
+          "count": 1
+        },
+        {
+          "name": "Desarrollo / Seguridad",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 13
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 2
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+          "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un atacante utilizó credenciales robadas de 4.837 cuentas de GitHub para instalar un ladrón de secretos en más de 1.806 repositorios. Este ladrón está diseñado para sustraer secretos y credenciales en la nube a los que los flujos de trabajo de CI (Integración Continua) de un repositorio pueden acceder.",
+          "whyItMatters": "Este incidente destaca una grave vulnerabilidad en la seguridad de las cuentas de desarrolladores y los repositorios en GitHub. El uso de cuentas secuestradas para infiltrar herramientas de robo de secretos en pipelines de CI representa una amenaza directa para la seguridad del código y los datos sensibles.",
+          "recommendedAction": "Revisar inmediatamente la seguridad de las cuentas de GitHub, habilitar la autenticación de dos factores (2FA) en todas las cuentas, auditar los permisos de las cuentas comprometidas y revisar los flujos de CI para detectar actividades sospechosas o secretos expuestos."
+        },
+        {
+          "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+          "url": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+          "source": "The Hacker News",
+          "category": "Desarrollo / Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Node.js ha corregido 16 vulnerabilidades, incluyendo fallos en HTTP/2 que pueden causar caídas de servidores y fugas de datos de otras conexiones. Se han lanzado versiones corregidas para las líneas 22.x, 24.x y 26.x.",
+          "whyItMatters": "Node.js es un runtime fundamental para el desarrollo backend. Las vulnerabilidades en su manejo de HTTP/2 pueden afectar la estabilidad y seguridad de miles de aplicaciones web y APIs. La fuga de datos entre conexiones es una preocupación seria para la privacidad.",
+          "recommendedAction": "Actualizar las aplicaciones que utilizan Node.js a las versiones parcheadas (22.23.5, 24.22.3, o 26.13.1 o superiores). Revisar la configuración de los servidores Node.js y los límites de recursos para mitigar el impacto de posibles ataques de denegación de servicio."
+        },
+        {
+          "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+          "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+          "source": "The Hacker News",
+          "category": "Seguridad / IA",
+          "priority": "high",
+          "score": 9,
+          "summary": "La plataforma de pentesting con IA llamada AntiFox ha sido vinculada a ataques que robaron credenciales de Amazon Web Services (AWS) y se movieron lateralmente en entornos comprometidos.",
+          "whyItMatters": "El uso de IA en herramientas de seguridad, como las plataformas de pentesting, debe ser cuidadosamente controlado. Que estas herramientas sean comprometidas o mal utilizadas representa un riesgo doble: las capacidades ofensivas caen en manos equivocadas y pueden ser usadas contra los sistemas que se suponía debían proteger.",
+          "recommendedAction": "Ser extremadamente cauteloso con herramientas de pentesting basadas en IA, especialmente las emergentes. Revisar exhaustivamente los permisos y el acceso que estas herramientas tienen en los entornos de producción y desarrollo. Implementar una estrategia de 'least privilege' para cualquier herramienta de terceros."
+        }
+      ]
+    },
     {
       "date": "2026-11-11",
       "generatedAt": "2026-11-11T14:56:34.692Z",
