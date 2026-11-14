@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-13T15:08:22.196Z",
+  "generatedAt": "2026-11-14T13:57:55.582Z",
   "availableDates": [
+    "2026-11-14",
     "2026-11-13",
     "2026-11-11",
     "2026-11-10",
@@ -146,20 +147,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 143,
-    "totalArticles": 1670,
-    "highPriority": 888,
-    "mediumPriority": 616,
-    "lowPriority": 166,
+    "totalReports": 144,
+    "totalArticles": 1689,
+    "highPriority": 892,
+    "mediumPriority": 621,
+    "lowPriority": 176,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-13",
+    "latestReportDate": "2026-11-14",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
     "topCategories": [
       {
         "name": "Security",
-        "count": 761
+        "count": 775
       },
       {
         "name": "Seguridad",
@@ -167,7 +168,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 127
+        "count": 129
       },
       {
         "name": "IA para Desarrolladores",
@@ -175,13 +176,13 @@
       },
       {
         "name": "Java/Spring Boot",
-        "count": 29
+        "count": 30
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1269
+        "count": 1285
       },
       {
         "name": "Stack Overflow Blog",
@@ -193,7 +194,7 @@
       },
       {
         "name": "Spring Blog",
-        "count": 105
+        "count": 106
       },
       {
         "name": "Krebs on Security",
@@ -202,12 +203,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-11-05",
-      "high": 3,
-      "medium": 7,
-      "low": 2
-    },
     {
       "date": "2026-11-06",
       "high": 7,
@@ -243,9 +238,100 @@
       "high": 11,
       "medium": 4,
       "low": 0
+    },
+    {
+      "date": "2026-11-14",
+      "high": 4,
+      "medium": 5,
+      "low": 10
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-14",
+      "generatedAt": "2026-11-14T13:57:55.571Z",
+      "totalArticles": 19,
+      "highPriority": 4,
+      "mediumPriority": 5,
+      "lowPriority": 10,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 14
+        },
+        {
+          "name": "AI for Developers",
+          "count": 2
+        },
+        {
+          "name": "Java/Spring Boot",
+          "count": 1
+        },
+        {
+          "name": "Docker/Security",
+          "count": 1
+        },
+        {
+          "name": "GitHub/AI for Developers",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 16
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "AI Research Journal",
+          "count": 1
+        },
+        {
+          "name": "GitHub Docs",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+          "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "PostgreSQL ha lanzado parches para 52 vulnerabilidades, incluyendo una falla crítica (CVE-2026-6460) que permite a un usuario autenticado con permisos para crear objetos ejecutar código arbitrario en el servidor con privilegios del sistema operativo. Para una protección completa, también se requiere reconstruir las extensiones escritas en C.",
+          "whyItMatters": "Las bases de datos son un componente fundamental de la mayoría de las aplicaciones. Una vulnerabilidad de ejecución remota de código (RCE) en PostgreSQL, especialmente una tan antigua y crítica, representa un riesgo de seguridad muy alto. Mantener PostgreSQL actualizado es crucial para proteger los datos y la infraestructura.",
+          "recommendedAction": "Actualizar PostgreSQL a la última versión parcheada inmediatamente. Revisar y reconstruir cualquier extensión C instalada en el servidor."
+        },
+        {
+          "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+          "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una vulnerabilidad crítica (CVE-2026-119618) en el módulo HTTP/2 (mod_http2) del servidor Apache HTTP. Esta falla permite a un atacante remoto no autenticado ejecutar código arbitrario en el servidor. Afecta a las versiones 2.4.55 a 2.4.70 y ya ha sido corregida en la versión 2.4.71.",
+          "whyItMatters": "Apache HTTP Server es un componente de infraestructura web muy utilizado. Una vulnerabilidad RCE no autenticada es extremadamente peligrosa, ya que puede ser explotada por cualquier persona con acceso al servidor. Proteger los servidores web es esencial para la disponibilidad y seguridad de las aplicaciones.",
+          "recommendedAction": "Actualizar Apache HTTP Server a la versión 2.4.71 o superior si se utiliza el módulo HTTP/2. Asegurarse de que solo los servidores que requieren HTTP/2 lo tengan habilitado."
+        },
+        {
+          "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
+          "url": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 8,
+          "summary": "Una falla crítica en Red Hat Quay permite a un atacante con acceso a un registro leer y sobrescribir todas las imágenes de contenedores privadas. Si el acceso anónimo está habilitado, el atacante no necesita credenciales. Red Hat ha lanzado compilaciones parcheadas.",
+          "whyItMatters": "Quay es una plataforma de gestión de contenedores utilizada en muchos entornos de desarrollo y producción. La capacidad de leer y sobrescribir imágenes privadas de contenedores puede llevar al robo de propiedad intelectual, la inyección de código malicioso o la interrupción de servicios.",
+          "recommendedAction": "Actualizar Red Hat Quay a las versiones parcheadas recomendadas por Red Hat. Revisar la configuración de acceso anónimo y las credenciales de acceso a los registros."
+        }
+      ]
+    },
     {
       "date": "2026-11-13",
       "generatedAt": "2026-11-13T15:08:22.188Z",
