@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T14:32:28.970Z",
+  "totalArticles": 10,
+  "summary": {
+    "highPriority": 5,
+    "mediumPriority": 3,
+    "lowPriority": 2,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 7
+      },
+      {
+        "name": "AI for Developers",
+        "count": 2
+      },
+      {
+        "name": "Developer Culture",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 6
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "count": 3
+      },
+      {
+        "name": "Krebs on Security",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+      "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Un atacante robó una clave de acceso emitida a Fireworks AI, que luego fue expuesta en una brecha, y utilizada para comprometer la extensión oficial de Claude Code en Cursor.",
+      "whyItMatters": "Este incidente destaca la importancia crítica de la gestión segura de claves de acceso, especialmente cuando se integran servicios de IA y se distribuyen extensiones de código. La exposición de una clave simple condujo a un compromiso más amplio, afectando la confianza en las herramientas de desarrollo basadas en IA.",
+      "recommendedAction": "Revisar y reforzar las políticas de gestión de secretos y claves de acceso. Implementar mecanismos de rotación y monitoreo de claves más estrictos, especialmente para integraciones con terceros y herramientas de IA."
+    },
+    {
+      "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
+      "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Fireworks AI ha confirmado una brecha de seguridad más amplia que afecta información de cuentas, facturación, secretos, conjuntos de datos y chats de Notion AI para un conjunto limitado de cuentas.",
+      "whyItMatters": "Las brechas de seguridad en proveedores de IA son de alta preocupación, ya que pueden exponer no solo datos sensibles de clientes sino también modelos de IA y configuraciones críticas. Esto subraya la necesidad de diligencia debida en la seguridad de los proveedores de servicios de IA.",
+      "recommendedAction": "Evaluar la postura de seguridad de los proveedores de IA utilizados en sus proyectos. Asegurarse de que los datos sensibles y los modelos no se almacenen o procesen sin las salvaguardas adecuadas."
+    },
+    {
+      "title": "Who Runs the Ransomware Group Qilin?",
+      "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+      "source": "Krebs on Security",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Investigación sobre el grupo de ransomware Qilin, que ha emergido como el programa de afiliados de ransomware más activo a nivel mundial. Se señalan errores de seguridad operativa de su administrador, apuntando a un individuo específico en San Petersburgo.",
+      "whyItMatters": "Comprender la atribución y las debilidades de los grupos de ransomware es crucial para la defensa. La identificación de los operadores puede ayudar a anticipar sus tácticas y mejorar las estrategias de ciberseguridad.",
+      "recommendedAction": "Mantenerse informado sobre las tácticas y actores de amenazas emergentes en el panorama del ransomware. Reforzar las defensas contra el ransomware, incluyendo copias de seguridad regulares y segregadas, y la segmentación de red."
+    },
+    {
+      "title": "Your coding agent shouldn't grade its own homework",
+      "url": "https://stackoverflow.blog/2026/11/13/your-coding-agent-shouldn-t-grade-its-own-homework/",
+      "source": "Stack Overflow Blog",
+      "category": "AI for Developers",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Artículo que cuestiona la fiabilidad de los agentes de codificación de IA para verificar la corrección de su propio código, dado que pueden escribir documentación de diseño, mockups y proyectos completos.",
+      "whyItMatters": "A medida que las herramientas de IA se vuelven más capaces en la generación de código, es fundamental considerar las implicaciones de confianza y verificación. Los desarrolladores deben comprender las limitaciones actuales de la IA para evitar la dependencia excesiva y garantizar la calidad del software.",
+      "recommendedAction": "Utilizar las herramientas de IA como asistentes, pero siempre mantener un proceso riguroso de revisión de código y pruebas automatizadas para validar la salida generada por IA."
+    },
+    {
+      "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+      "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Dos nuevos ataques, Mior y Skyfall, permiten que hosts en la nube maliciosos lean datos de máquinas virtuales (VMs) protegidas por AMD SEV-SNP, e incluso modifiquen la memoria en el caso de Mior.",
+      "whyItMatters": "Estas vulnerabilidades en la seguridad de las VMs protegidas por hardware son críticas para cualquier persona que utilice entornos de nube con estas características. La confianza en las capas de seguridad de hardware puede verse comprometida.",
+      "recommendedAction": "Estar al tanto de las últimas vulnerabilidades descubiertas en tecnologías de virtualización y seguridad de hardware. Mantener actualizados los sistemas de virtualización y considerar las implicaciones de seguridad al desplegar cargas de trabajo sensibles en la nube."
+    },
+    {
+      "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+      "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "El FBI ha confirmado que hackers norcoreanos robaron más de 400 millones de dólares en criptomonedas utilizando llamadas de video deepfake como parte de un esquema de ingeniería social.",
+      "whyItMatters": "Este incidente demuestra la creciente sofisticación de los ataques de ingeniería social y el uso de tecnologías emergentes como los deepfakes para el fraude. Destaca la necesidad de una mayor conciencia y verificación en las comunicaciones virtuales.",
+      "recommendedAction": "Educar a los equipos sobre los riesgos de ingeniería social y las tácticas de suplantación, incluyendo el uso de deepfakes. Implementar autenticación multifactor y procesos de verificación robustos para transacciones sensibles."
+    },
+    {
+      "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+      "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Meta ha sido multada con 805 millones de euros en Italia porque una función de Facebook para Android accedía a las galerías de fotos y videos de los usuarios sin su consentimiento explícito, ya que estaba habilitada por defecto.",
+      "whyItMatters": "Esta multa subraya la importancia del cumplimiento normativo en materia de privacidad de datos (como GDPR) y la necesidad de obtener consentimientos claros y explícitos para el acceso a datos sensibles del usuario, como las galerías de fotos.",
+      "recommendedAction": "Revisar las políticas de privacidad y los mecanismos de consentimiento en las aplicaciones, especialmente en lo que respecta al acceso a datos sensibles del usuario. Asegurarse de que las funciones que acceden a datos personales estén deshabilitadas por defecto y requieran una activación explícita."
+    },
+    {
+      "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+      "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "eMudhra ha revocado 8 Autoridades de Certificación (CAs) intermedias adicionales que inicialmente se declararon no afectadas por una reciente compromiso de clave, debido a un problema en un script de Python.",
+      "whyItMatters": "Los problemas de seguridad en la infraestructura de clave pública (PKI) pueden tener efectos dominó significativos. Este caso destaca la importancia de la auditoría exhaustiva y la validación de los procesos y scripts utilizados en la gestión de certificados.",
+      "recommendedAction": "Revisar la fiabilidad de los scripts y herramientas internas utilizadas en operaciones críticas de seguridad. Mantener una vigilancia constante sobre la infraestructura de PKI y los procesos de certificación."
+    },
+    {
+      "title": " Agentic search doesn't find pages, it assembles answers",
+      "url": "https://stackoverflow.blog/2026/11/13/agentic-doesn-t-find-pages-it-assembles-answers/",
+      "source": "Stack Overflow Blog",
+      "category": "AI for Developers",
+      "priority": "low",
+      "score": 4,
+      "summary": "Discusión sobre la escala y las complejidades técnicas de las búsquedas 'agentic' (basadas en agentes de IA), incluyendo la construcción de embeddings personalizados, bases de datos vectoriales y la necesidad de deduplicar contenido web para ofrecer respuestas de alta confianza.",
+      "whyItMatters": "Proporciona una visión sobre la evolución de las búsquedas impulsadas por IA y los desafíos técnicos subyacentes, lo cual es relevante para entender el futuro de la recuperación de información y la integración con sistemas de IA.",
+      "recommendedAction": "Explorar cómo las tecnologías de bases de datos vectoriales y la búsqueda semántica están cambiando la forma en que se accede a la información, lo cual podría ser útil para futuras aplicaciones."
+    },
+    {
+      "title": "How do you hire a human? Q&A with Tom Harvey, Stack Overflow technical recruiter",
+      "url": "https://stackoverflow.blog/2026/11/12/how-do-you-hire-a-human-q-and-a-with-tom-harvey-stack-overflow-technical-recruiter/",
+      "source": "Stack Overflow Blog",
+      "category": "Developer Culture",
+      "priority": "low",
+      "score": 2,
+      "summary": "Una entrevista con un reclutador técnico de Stack Overflow sobre los desafíos y estrategias para contratar talento humano en un mercado donde los currículums son fácilmente perfectibles.",
+      "whyItMatters": "Ofrece una perspectiva sobre el proceso de contratación de desarrolladores, aunque es un tema más general y menos técnico.",
+      "recommendedAction": "Considerar las mejores prácticas para evaluar candidatos durante el proceso de contratación, enfocándose en habilidades prácticas y ajuste cultural más allá del currículum."
+    }
+  ]
+}

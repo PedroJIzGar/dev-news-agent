@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-14T13:57:55.582Z",
+  "generatedAt": "2026-11-15T14:32:28.978Z",
   "availableDates": [
+    "2026-11-15",
     "2026-11-14",
     "2026-11-13",
     "2026-11-11",
@@ -147,20 +148,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 144,
-    "totalArticles": 1689,
-    "highPriority": 892,
-    "mediumPriority": 621,
-    "lowPriority": 176,
+    "totalReports": 145,
+    "totalArticles": 1699,
+    "highPriority": 897,
+    "mediumPriority": 624,
+    "lowPriority": 178,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-14",
+    "latestReportDate": "2026-11-15",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
     "topCategories": [
       {
         "name": "Security",
-        "count": 775
+        "count": 782
       },
       {
         "name": "Seguridad",
@@ -168,7 +169,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 129
+        "count": 131
       },
       {
         "name": "IA para Desarrolladores",
@@ -182,11 +183,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1285
+        "count": 1291
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 139
+        "count": 142
       },
       {
         "name": "GitHub Blog",
@@ -198,17 +199,11 @@
       },
       {
         "name": "Krebs on Security",
-        "count": 31
+        "count": 32
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-11-06",
-      "high": 7,
-      "medium": 6,
-      "low": 2
-    },
     {
       "date": "2026-11-07",
       "high": 3,
@@ -244,9 +239,88 @@
       "high": 4,
       "medium": 5,
       "low": 10
+    },
+    {
+      "date": "2026-11-15",
+      "high": 5,
+      "medium": 3,
+      "low": 2
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-15",
+      "generatedAt": "2026-11-15T14:32:28.970Z",
+      "totalArticles": 10,
+      "highPriority": 5,
+      "mediumPriority": 3,
+      "lowPriority": 2,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 7
+        },
+        {
+          "name": "AI for Developers",
+          "count": 2
+        },
+        {
+          "name": "Developer Culture",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 6
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 3
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+          "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un atacante robó una clave de acceso emitida a Fireworks AI, que luego fue expuesta en una brecha, y utilizada para comprometer la extensión oficial de Claude Code en Cursor.",
+          "whyItMatters": "Este incidente destaca la importancia crítica de la gestión segura de claves de acceso, especialmente cuando se integran servicios de IA y se distribuyen extensiones de código. La exposición de una clave simple condujo a un compromiso más amplio, afectando la confianza en las herramientas de desarrollo basadas en IA.",
+          "recommendedAction": "Revisar y reforzar las políticas de gestión de secretos y claves de acceso. Implementar mecanismos de rotación y monitoreo de claves más estrictos, especialmente para integraciones con terceros y herramientas de IA."
+        },
+        {
+          "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
+          "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Fireworks AI ha confirmado una brecha de seguridad más amplia que afecta información de cuentas, facturación, secretos, conjuntos de datos y chats de Notion AI para un conjunto limitado de cuentas.",
+          "whyItMatters": "Las brechas de seguridad en proveedores de IA son de alta preocupación, ya que pueden exponer no solo datos sensibles de clientes sino también modelos de IA y configuraciones críticas. Esto subraya la necesidad de diligencia debida en la seguridad de los proveedores de servicios de IA.",
+          "recommendedAction": "Evaluar la postura de seguridad de los proveedores de IA utilizados en sus proyectos. Asegurarse de que los datos sensibles y los modelos no se almacenen o procesen sin las salvaguardas adecuadas."
+        },
+        {
+          "title": "Who Runs the Ransomware Group Qilin?",
+          "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+          "source": "Krebs on Security",
+          "category": "Security",
+          "priority": "high",
+          "score": 8,
+          "summary": "Investigación sobre el grupo de ransomware Qilin, que ha emergido como el programa de afiliados de ransomware más activo a nivel mundial. Se señalan errores de seguridad operativa de su administrador, apuntando a un individuo específico en San Petersburgo.",
+          "whyItMatters": "Comprender la atribución y las debilidades de los grupos de ransomware es crucial para la defensa. La identificación de los operadores puede ayudar a anticipar sus tácticas y mejorar las estrategias de ciberseguridad.",
+          "recommendedAction": "Mantenerse informado sobre las tácticas y actores de amenazas emergentes en el panorama del ransomware. Reforzar las defensas contra el ransomware, incluyendo copias de seguridad regulares y segregadas, y la segmentación de red."
+        }
+      ]
+    },
     {
       "date": "2026-11-14",
       "generatedAt": "2026-11-14T13:57:55.571Z",
