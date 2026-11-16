@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-15T14:32:28.978Z",
+  "generatedAt": "2026-11-16T16:47:18.800Z",
   "availableDates": [
+    "2026-11-16",
     "2026-11-15",
     "2026-11-14",
     "2026-11-13",
@@ -148,13 +149,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 145,
-    "totalArticles": 1699,
-    "highPriority": 897,
-    "mediumPriority": 624,
+    "totalReports": 146,
+    "totalArticles": 1704,
+    "highPriority": 900,
+    "mediumPriority": 626,
     "lowPriority": 178,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-15",
+    "latestReportDate": "2026-11-16",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
@@ -165,7 +166,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 379
+        "count": 384
       },
       {
         "name": "AI for Developers",
@@ -183,7 +184,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1291
+        "count": 1296
       },
       {
         "name": "Stack Overflow Blog",
@@ -204,12 +205,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-11-07",
-      "high": 3,
-      "medium": 2,
-      "low": 2
-    },
     {
       "date": "2026-11-09",
       "high": 6,
@@ -245,9 +240,72 @@
       "high": 5,
       "medium": 3,
       "low": 2
+    },
+    {
+      "date": "2026-11-16",
+      "high": 3,
+      "medium": 2,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-16",
+      "generatedAt": "2026-11-16T16:47:18.788Z",
+      "totalArticles": 5,
+      "highPriority": 3,
+      "mediumPriority": 2,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 5
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 5
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+          "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Amazon ha descubierto una campaña de agentes de IA maliciosos que buscan vulnerabilidades en aplicaciones de IA expuestas a Internet, como LiteLLM y Dify, para robar claves API. Estos agentes utilizan las claves robadas para ejecutar modelos de IA que, a su vez, buscan más claves.",
+          "whyItMatters": "Este es un ataque directo a la seguridad de las aplicaciones que utilizan IA y manejan claves de API. Los desarrolladores deben estar al tanto de cómo los atacantes están explotando las debilidades en este ecosistema emergente y proteger adecuadamente sus credenciales.",
+          "recommendedAction": "Revisa y refuerza las medidas de seguridad para la gestión de claves API en tus aplicaciones de IA. Implementa monitoreo de accesos y considera el uso de herramientas de seguridad específicas para entornos de IA."
+        },
+        {
+          "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+          "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un actor de amenazas conocido como BO Team ha explotado la vulnerabilidad Log4Shell en VMware vCenter para comprometer la infraestructura de desarrollo de una empresa rusa, incluido su servidor de firma de código.",
+          "whyItMatters": "Log4Shell sigue siendo una vulnerabilidad crítica. Este incidente demuestra que incluso las empresas con infraestructura de desarrollo robusta pueden ser vulnerables si no se parchean o mitigan adecuadamente las vulnerabilidades conocidas. Comprometer un servidor de firma de código es extremadamente peligroso.",
+          "recommendedAction": "Asegúrate de que todas tus aplicaciones y sistemas que utilizan Log4j estén actualizados y parcheados contra la vulnerabilidad Log4Shell. Revisa la seguridad de tus procesos de firma de código y la infraestructura de desarrollo."
+        },
+        {
+          "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+          "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 8,
+          "summary": "Se ha descubierto un malware de minería de criptomonedas para Linux llamado SANSAR que utiliza una biblioteca NVIDIA modificada para ocultar su actividad en la GPU. El malware está escrito en Rust y recibe comandos a través de la red TOR.",
+          "whyItMatters": "Este es relevante porque muestra técnicas avanzadas de evasión utilizadas por malware, incluso en entornos Linux y utilizando hardware específico como GPUs. La implementación en Rust y el uso de TOR son aspectos técnicos interesantes para desarrolladores.",
+          "recommendedAction": "Considera la monitorización del uso de recursos de GPU y CPU en tus servidores Linux, especialmente si ejecutan cargas de trabajo intensivas. Familiarízate con las técnicas de ofuscación de malware."
+        }
+      ]
+    },
     {
       "date": "2026-11-15",
       "generatedAt": "2026-11-15T14:32:28.970Z",
