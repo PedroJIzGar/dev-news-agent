@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-16T16:47:18.800Z",
+  "generatedAt": "2026-11-17T16:43:57.451Z",
   "availableDates": [
+    "2026-11-17",
     "2026-11-16",
     "2026-11-15",
     "2026-11-14",
@@ -149,13 +150,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 146,
-    "totalArticles": 1704,
-    "highPriority": 900,
-    "mediumPriority": 626,
-    "lowPriority": 178,
+    "totalReports": 147,
+    "totalArticles": 1717,
+    "highPriority": 903,
+    "mediumPriority": 632,
+    "lowPriority": 182,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-16",
+    "latestReportDate": "2026-11-17",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
@@ -166,7 +167,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 384
+        "count": 393
       },
       {
         "name": "AI for Developers",
@@ -184,11 +185,11 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1296
+        "count": 1305
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 142
+        "count": 145
       },
       {
         "name": "GitHub Blog",
@@ -196,7 +197,7 @@
       },
       {
         "name": "Spring Blog",
-        "count": 106
+        "count": 107
       },
       {
         "name": "Krebs on Security",
@@ -205,12 +206,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-11-09",
-      "high": 6,
-      "medium": 4,
-      "low": 0
-    },
     {
       "date": "2026-11-10",
       "high": 8,
@@ -246,9 +241,92 @@
       "high": 3,
       "medium": 2,
       "low": 0
+    },
+    {
+      "date": "2026-11-17",
+      "high": 3,
+      "medium": 6,
+      "low": 4
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-17",
+      "generatedAt": "2026-11-17T16:43:57.438Z",
+      "totalArticles": 13,
+      "highPriority": 3,
+      "mediumPriority": 6,
+      "lowPriority": 4,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 9
+        },
+        {
+          "name": "Desarrollo Profesional",
+          "count": 2
+        },
+        {
+          "name": "Java/Spring",
+          "count": 1
+        },
+        {
+          "name": "Desarrollo General",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 9
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 3
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+          "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 10,
+          "summary": "Google ha detectado que los ciberdelincuentes están utilizando agentes de IA para construir y ejecutar exploits a partir de parches de software. Esto representa un avance en las tácticas de ataque, permitiendo ofensivas más rápidas y complejas.",
+          "whyItMatters": "La IA está siendo utilizada tanto para defender como para atacar. El uso de IA por parte de los atacantes para generar exploits acelera la velocidad y la sofisticación de los ciberataques. Los desarrolladores deben ser conscientes de estas nuevas capacidades y adaptar sus estrategias de seguridad en consecuencia.",
+          "recommendedAction": "Mantente actualizado sobre el uso de IA en ciberseguridad, tanto en defensa como en ataque. Implementa prácticas de desarrollo seguro robustas y considera cómo la IA podría ser usada para explotar vulnerabilidades en tu código."
+        },
+        {
+          "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+          "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se han descubierto nuevas puertas traseras, GitDoor y GraphDoor, que utilizan servicios legítimos como GitHub y Microsoft SharePoint para establecer canales de comando y control (C2) encubiertos. Estas amenazas han sido observadas dirigidas a sectores gubernamentales en Asia y África.",
+          "whyItMatters": "El uso de plataformas tan comunes como GitHub para C2 representa un riesgo significativo para la seguridad, ya que aprovecha la confianza y la infraestructura existente para evadir la detección. Los desarrolladores que usan GitHub deben estar al tanto de estas técnicas para proteger sus repositorios y el software que construyen.",
+          "recommendedAction": "Mantente informado sobre las últimas amenazas de seguridad que afectan a GitHub. Asegúrate de que tus configuraciones de seguridad en GitHub sean robustas y revisa las actividades sospechosas en tus repositorios."
+        },
+        {
+          "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+          "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Los atacantes han descubierto una forma de eludir la técnica de 'SHA pinning' en GitHub Actions, una medida de seguridad diseñada para prevenir ataques a la cadena de suministro de software. Un webinar detalla cómo cerrar esta brecha de seguridad.",
+          "whyItMatters": "El 'SHA pinning' es una práctica de seguridad fundamental para asegurar la cadena de suministro de software en GitHub. El hecho de que se haya encontrado una forma de evadirla es una alerta importante para todos los desarrolladores que confían en esta medida. Comprender la vulnerabilidad y sus soluciones es vital.",
+          "recommendedAction": "Considera asistir al webinar o investigar a fondo cómo los atacantes están eludiendo el SHA pinning en GitHub Actions. Revisa y refuerza tus prácticas de seguridad para la cadena de suministro de software."
+        }
+      ]
+    },
     {
       "date": "2026-11-16",
       "generatedAt": "2026-11-16T16:47:18.788Z",

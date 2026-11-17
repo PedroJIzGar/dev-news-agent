@@ -1,0 +1,187 @@
+{
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T16:43:57.438Z",
+  "totalArticles": 13,
+  "summary": {
+    "highPriority": 3,
+    "mediumPriority": 6,
+    "lowPriority": 4,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 9
+      },
+      {
+        "name": "Desarrollo Profesional",
+        "count": 2
+      },
+      {
+        "name": "Java/Spring",
+        "count": 1
+      },
+      {
+        "name": "Desarrollo General",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 9
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "count": 3
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+      "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se han descubierto nuevas puertas traseras, GitDoor y GraphDoor, que utilizan servicios legítimos como GitHub y Microsoft SharePoint para establecer canales de comando y control (C2) encubiertos. Estas amenazas han sido observadas dirigidas a sectores gubernamentales en Asia y África.",
+      "whyItMatters": "El uso de plataformas tan comunes como GitHub para C2 representa un riesgo significativo para la seguridad, ya que aprovecha la confianza y la infraestructura existente para evadir la detección. Los desarrolladores que usan GitHub deben estar al tanto de estas técnicas para proteger sus repositorios y el software que construyen.",
+      "recommendedAction": "Mantente informado sobre las últimas amenazas de seguridad que afectan a GitHub. Asegúrate de que tus configuraciones de seguridad en GitHub sean robustas y revisa las actividades sospechosas en tus repositorios."
+    },
+    {
+      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+      "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Apple ha implementado controles más estrictos en macOS para otorgar permisos de acceso a datos a las aplicaciones, especialmente aquellas que utilizan agentes de IA. Las nuevas funciones, en beta, buscan mejorar la transparencia y ofrecer mayor control al usuario sobre qué datos pueden acceder las apps.",
+      "whyItMatters": "A medida que la IA se integra más en las aplicaciones, la protección de la privacidad y la seguridad de los datos se vuelve crucial. Estas medidas de Apple, aunque específicas de macOS, reflejan una tendencia hacia una mayor granularidad en la gestión de permisos, algo relevante para entender el panorama de seguridad en el desarrollo de software.",
+      "recommendedAction": "Presta atención a cómo las aplicaciones manejan los permisos de acceso a datos, especialmente aquellas que integran IA. Considera cómo estas prácticas de seguridad pueden influir en el desarrollo de aplicaciones en otras plataformas."
+    },
+    {
+      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Los atacantes han descubierto una forma de eludir la técnica de 'SHA pinning' en GitHub Actions, una medida de seguridad diseñada para prevenir ataques a la cadena de suministro de software. Un webinar detalla cómo cerrar esta brecha de seguridad.",
+      "whyItMatters": "El 'SHA pinning' es una práctica de seguridad fundamental para asegurar la cadena de suministro de software en GitHub. El hecho de que se haya encontrado una forma de evadirla es una alerta importante para todos los desarrolladores que confían en esta medida. Comprender la vulnerabilidad y sus soluciones es vital.",
+      "recommendedAction": "Considera asistir al webinar o investigar a fondo cómo los atacantes están eludiendo el SHA pinning en GitHub Actions. Revisa y refuerza tus prácticas de seguridad para la cadena de suministro de software."
+    },
+    {
+      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+      "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 10,
+      "summary": "Google ha detectado que los ciberdelincuentes están utilizando agentes de IA para construir y ejecutar exploits a partir de parches de software. Esto representa un avance en las tácticas de ataque, permitiendo ofensivas más rápidas y complejas.",
+      "whyItMatters": "La IA está siendo utilizada tanto para defender como para atacar. El uso de IA por parte de los atacantes para generar exploits acelera la velocidad y la sofisticación de los ciberataques. Los desarrolladores deben ser conscientes de estas nuevas capacidades y adaptar sus estrategias de seguridad en consecuencia.",
+      "recommendedAction": "Mantente actualizado sobre el uso de IA en ciberseguridad, tanto en defensa como en ataque. Implementa prácticas de desarrollo seguro robustas y considera cómo la IA podría ser usada para explotar vulnerabilidades en tu código."
+    },
+    {
+      "title": "Spring Office Hours Podcast: S5E30 - What’s New in IntelliJ IDEA and AIR with Anton Arhipov",
+      "url": "https://spring.io/blog/2026/11/16/spring-office-hours-podcast-S5E30",
+      "source": "Spring Blog",
+      "category": "Java/Spring",
+      "priority": "medium",
+      "score": 8,
+      "summary": "El último episodio del podcast Spring Office Hours, S5E30, se centra en las novedades de IntelliJ IDEA y AIR, con la participación de Anton Arhipov. Se discuten actualizaciones y características relevantes para los desarrolladores de Spring.",
+      "whyItMatters": "IntelliJ IDEA es un IDE popular para el desarrollo en Java y Spring. Conocer las últimas actualizaciones y características, especialmente aquellas relacionadas con la IA ('AIR' podría referirse a asistentes de IA), puede mejorar significativamente la productividad y la calidad del código.",
+      "recommendedAction": "Escucha el episodio del podcast para descubrir las novedades en IntelliJ IDEA que pueden ser útiles para tu desarrollo con Spring Boot. Mantente al día con las herramientas que utilizas."
+    },
+    {
+      "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+      "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "N-able ha lanzado una actualización de seguridad crítica para abordar 17 vulnerabilidades en su plataforma N-central. Los atacantes estaban explotando fallos anteriores para desplegar mineros de criptomonedas.",
+      "whyItMatters": "Este artículo destaca la importancia de mantener el software actualizado y parcheado, incluso en herramientas de gestión remota que pueden ser objetivos atractivos para los atacantes. Las vulnerabilidades no parcheadas pueden llevar a la explotación y al despliegue de malware.",
+      "recommendedAction": "Asegúrate de que las herramientas de gestión y monitorización que utilizas estén siempre actualizadas con los últimos parches de seguridad para prevenir la explotación de vulnerabilidades conocidas."
+    },
+    {
+      "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
+      "url": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Investigadores han detallado una falla en el servicio de audio de Apple que permitía a las aplicaciones grabar audio en iPhones y iPads incluso después de que el usuario negara el permiso del micrófono. La falla ya ha sido corregida.",
+      "whyItMatters": "Este incidente subraya la importancia de la privacidad y la seguridad en las plataformas móviles. Aunque la falla se ha corregido, sirve como recordatorio de que incluso las protecciones de permisos pueden tener vulnerabilidades y de la necesidad de una vigilancia constante en la seguridad de las aplicaciones.",
+      "recommendedAction": "Considera cómo los permisos de las aplicaciones afectan la privacidad del usuario y la seguridad de los datos. Mantente informado sobre las vulnerabilidades de seguridad en plataformas móviles y su impacto."
+    },
+    {
+      "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+      "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Un resumen semanal de vulnerabilidades de día cero (0-days) descubiertas en varias plataformas, incluyendo N-able, Windows y Chrome. También se menciona cómo la IA está acelerando la caza de errores y cómo los atacantes explotan fallos simples.",
+      "whyItMatters": "Este tipo de resumen proporciona una visión general rápida de las amenazas de seguridad más recientes y relevantes. Estar al tanto de las 0-days y las nuevas tácticas de ataque es crucial para los desarrolladores, ya que pueden afectar directamente la seguridad del software que crean.",
+      "recommendedAction": "Revisa regularmente resúmenes de noticias de seguridad como este para mantenerte al día con las últimas amenazas y vulnerabilidades. Presta atención a las tendencias en las tácticas de ataque."
+    },
+    {
+      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+      "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "low",
+      "score": 5,
+      "summary": "Un atacante explotó una falla en Optimizely para inyectar código malicioso en scripts servidos a visitantes de sitios web de alto perfil como CNN, BBC y Zoom. El código malicioso incluía un skimmer de tarjetas y kits de exploits para iOS.",
+      "whyItMatters": "Este incidente resalta los riesgos de la cadena de suministro de software, donde un compromiso en un servicio de terceros (Optimizely) puede afectar a numerosos clientes. Muestra cómo las vulnerabilidades en herramientas comunes pueden tener un impacto generalizado.",
+      "recommendedAction": "Sé consciente de los riesgos asociados con la dependencia de servicios de terceros. Revisa las prácticas de seguridad de los proveedores que utilizas en tus proyectos."
+    },
+    {
+      "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+      "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 7,
+      "summary": "ConnectWise alerta sobre la continuación de ataques a su producto ScreenConnect, donde los atacantes explotan sistemas que no han sido parcheados. Se recomienda a los clientes actualizar a la versión más reciente para mitigar el riesgo.",
+      "whyItMatters": "Este artículo es un recordatorio de la importancia crítica de mantener actualizados los sistemas y el software, especialmente aquellas herramientas que dan acceso remoto. Los sistemas sin parches son objetivos fáciles para los atacantes.",
+      "recommendedAction": "Prioriza la aplicación de parches de seguridad a todos los sistemas y software que utilizas, especialmente aquellos expuestos a Internet o que proporcionan acceso remoto."
+    },
+    {
+      "title": "The pioneering coding tricks that built Doom and Quake",
+      "url": "https://stackoverflow.blog/2026/11/17/coding-tricks-that-built-doom-and-quake/",
+      "source": "Stack Overflow Blog",
+      "category": "Desarrollo General",
+      "priority": "low",
+      "score": 4,
+      "summary": "Una conversación con John Romero, cocreador de Doom, sobre las técnicas de codificación pioneras, el código auto-modificable y el 'blitting' que hicieron posible juegos como Doom y Quake en hardware limitado. Se discute cómo la creatividad humana supera a los agentes de codificación IA.",
+      "whyItMatters": "Aunque no es directamente sobre tecnologías de tu stack, este artículo ofrece una perspectiva histórica fascinante sobre la resolución creativa de problemas en programación. La discusión sobre cómo la inventiva humana supera a la IA en ciertos aspectos es relevante en el contexto actual.",
+      "recommendedAction": "Lee este artículo para inspirarte con las soluciones de ingeniería creativas del pasado y reflexionar sobre el papel de la creatividad humana frente a la IA en el desarrollo."
+    },
+    {
+      "title": "How do you hire a human? Q&A with Tom Harvey, Stack Overflow technical recruiter",
+      "url": "https://stackoverflow.blog/2026/11/12/how-do-you-hire-a-human/",
+      "source": "Stack Overflow Blog",
+      "category": "Desarrollo Profesional",
+      "priority": "low",
+      "score": 2,
+      "summary": "Una sesión de preguntas y respuestas con Tom Harvey, reclutador técnico de Stack Overflow, sobre cómo encontrar al candidato ideal en un mercado donde los currículums son cada vez más perfectos.",
+      "whyItMatters": "Ofrece una perspectiva sobre el proceso de contratación desde el punto de vista de un reclutador, lo cual puede ser útil si buscas un nuevo rol o si estás involucrado en la contratación en tu equipo.",
+      "recommendedAction": "Considera leer este artículo si estás interesado en consejos para la contratación o para mejorar tu propio proceso de búsqueda de empleo."
+    },
+    {
+      "title": "The reports of Stack Overflow's death are greatly exaggerated",
+      "url": "https://stackoverflow.blog/2026/10/29/reports-greatly-exaggerated/",
+      "source": "Stack Overflow Blog",
+      "category": "Desarrollo Profesional",
+      "priority": "low",
+      "score": 2,
+      "summary": "El artículo argumenta que las predicciones sobre la 'muerte' de Stack Overflow son exageradas, distinguiendo entre el cambio en el acceso al conocimiento y la desaparición de la fuente del conocimiento.",
+      "whyItMatters": "Como desarrollador, Stack Overflow es una herramienta fundamental. Este artículo aborda las discusiones sobre su relevancia futura, ofreciendo una perspectiva sobre la persistencia de la plataforma y su contenido.",
+      "recommendedAction": "Lee este artículo para tener una perspectiva sobre el futuro de Stack Overflow y su papel continuo como recurso para desarrolladores."
+    }
+  ]
+}
