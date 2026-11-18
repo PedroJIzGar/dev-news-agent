@@ -1,0 +1,220 @@
+{
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T16:14:02.775Z",
+  "totalArticles": 16,
+  "summary": {
+    "highPriority": 7,
+    "mediumPriority": 6,
+    "lowPriority": 3,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 13
+      },
+      {
+        "name": "Herramientas de Desarrollo",
+        "count": 2
+      },
+      {
+        "name": "Spring Boot",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 12
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 2
+      },
+      {
+        "name": "Krebs on Security",
+        "count": 1
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+      "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "La CISA alerta sobre una vulnerabilidad crítica en Java (CVE-2026-114938) que permite la ejecución remota de código y urge a aplicar parches de inmediato.",
+      "whyItMatters": "Esta vulnerabilidad de seguridad en Java tiene un alto impacto (CVSS 8.1) y puede ser explotada para ejecución remota de código, afectando directamente a aplicaciones y sistemas que dependen de Java.",
+      "recommendedAction": "Aplicar los parches de seguridad de Oracle para Java inmediatamente y monitorizar la actividad sospechosa."
+    },
+    {
+      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+      "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Oracle lanzará parches para 11 vulnerabilidades en Java SE, incluyendo una crítica en OpenJDK (CVE-2026-114938) que permite ejecución remota de código sin autenticación.",
+      "whyItMatters": "La actualización aborda múltiples vulnerabilidades críticas en Java, algunas con severidad de hasta 8.1 CVSS, que podrían ser explotadas remotamente. La explotación de CVE-2026-114938 es una preocupación particular.",
+      "recommendedAction": "Instalar las actualizaciones de seguridad de Oracle para Java tan pronto como estén disponibles y evaluar el impacto de CVE-2026-114938 en la infraestructura."
+    },
+    {
+      "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+      "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "La vulnerabilidad Java4Shell (CVE-2026-114938) permite a atacantes sin credenciales ejecutar código remotamente en aplicaciones populares como Jira y Jenkins.",
+      "whyItMatters": "Esta falla afecta a versiones específicas de Java (17.0.6+) y se dirige a chips x86-64 con AVX-512 VBMI. La posibilidad de RCE sin autenticación en herramientas críticas es un riesgo significativo.",
+      "recommendedAction": "Verificar la versión de Java utilizada en Jira, Jenkins, Keycloak y otras aplicaciones críticas. Aplicar parches y considerar las restricciones de hardware si son aplicables."
+    },
+    {
+      "title": "Maintainers don’t need more AI bug reports. They need fixes.",
+      "url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+      "source": "GitHub Blog",
+      "category": "Herramientas de Desarrollo",
+      "priority": "medium",
+      "score": 7,
+      "summary": "GitHub y Microsoft han transformado miles de hallazgos de IA en reportes de errores verificados con sugerencias de corrección para proyectos open source, logrando que la mitad ya se hayan solucionado.",
+      "whyItMatters": "Este enfoque demuestra cómo la IA puede ser utilizada de forma práctica para mejorar la calidad del software open source, pasando de simples reportes a soluciones concretas para los mantenedores.",
+      "recommendedAction": "Explorar cómo las herramientas de IA pueden ayudar a generar y priorizar correcciones de errores en tus proyectos, especialmente en el ecosistema de código abierto."
+    },
+    {
+      "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
+      "url": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Una lista de verificación con 15 preguntas clave para evaluar proveedores de pentesting con IA para aplicaciones web, enfocándose en la privacidad de datos y la seguridad en producción.",
+      "whyItMatters": "Con la creciente adopción de IA en seguridad, es crucial entender las capacidades y limitaciones de las herramientas de pentesting automatizado y cómo pueden impactar la privacidad y la seguridad real.",
+      "recommendedAction": "Utilizar esta lista para evaluar la idoneidad de soluciones de pentesting con IA y asegurarse de que cumplen con los requisitos de seguridad y privacidad de tu organización."
+    },
+    {
+      "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
+      "url": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "El principal desafío del pentesting con IA no es la calidad de las pruebas, sino la privacidad de los datos y la seguridad en entornos de producción, especialmente ante la rápida evolución de los ataques.",
+      "whyItMatters": "La IA acelera tanto el desarrollo como los ataques. Es fundamental abordar las implicaciones de privacidad y seguridad al implementar pruebas de penetración automatizadas para evitar nuevos riesgos.",
+      "recommendedAction": "Priorizar la protección de datos y la seguridad en producción al considerar herramientas de pentesting con IA, y mantenerse al día con las tendencias de explotación de vulnerabilidades."
+    },
+    {
+      "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+      "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "La CISA ha añadido una vulnerabilidad crítica en Puppet (CVE-2026-115731), utilizada para la gestión de infraestructura como código, a su catálogo de vulnerabilidades explotadas activamente.",
+      "whyItMatters": "Esta falla de alta severidad (9.4 CVSS) está siendo explotada activamente y afecta a servidores de gestión empresarial, lo que representa un riesgo inmediato para las organizaciones que utilizan Puppet.",
+      "recommendedAction": "Aplicar parches y mitigaciones para la vulnerabilidad CVE-2026-115731 en todas las instancias de Puppet afectadas. Monitorizar la red en busca de indicadores de compromiso."
+    },
+    {
+      "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+      "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Una campaña maliciosa llamada Trigram está suplantando marcas de IA y blockchain para engañar a desarrolladores y robarles información sensible.",
+      "whyItMatters": "Los desarrolladores son el objetivo principal de esta campaña, que utiliza el atractivo de tecnologías como la IA y blockchain para distribuir infostealers. Esto resalta la necesidad de estar alerta ante correos y descargas de fuentes no confiables.",
+      "recommendedAction": "Educar a los desarrolladores sobre las tácticas de phishing y la ingeniería social, especialmente aquellas que involucran temas de IA y blockchain. Verificar siempre la fuente de software y comunicaciones."
+    },
+    {
+      "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+      "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+      "source": "Krebs on Security",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Los atacantes explotaron una vulnerabilidad en Optimizely para distribuir malware silenciosamente a visitantes de sitios web de alto tráfico como BBC, CNN y Equifax.",
+      "whyItMatters": "Este incidente demuestra cómo las vulnerabilidades en herramientas de personalización de terceros pueden tener un gran alcance y afectar a sitios web populares. La falta de controles estrictos sobre contenido de terceros agrava el problema.",
+      "recommendedAction": "Revisar la gestión de proveedores y la inclusión de contenido de terceros en los sitios web. Asegurarse de que las herramientas utilizadas estén actualizadas y sean seguras."
+    },
+    {
+      "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+      "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Se ha comprometido el paquete agent-framework de Microsoft en PyPI para distribuir un 'credential stealer' que busca robar credenciales de la nube.",
+      "whyItMatters": "La cadena de suministro de software es un vector de ataque crítico. La explotación de paquetes legítimos de proveedores reconocidos como Microsoft para distribuir malware es una amenaza seria para la seguridad de las credenciales en la nube.",
+      "recommendedAction": "Auditar las dependencias de paquetes de PyPI, especialmente aquellas de fuentes conocidas. Implementar escaneos de seguridad en la cadena de suministro y monitorizar la actividad de credenciales."
+    },
+    {
+      "title": "Building the Agent Host Protocol for sessions that continue across devices",
+      "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+      "source": "GitHub Blog",
+      "category": "Herramientas de Desarrollo",
+      "priority": "medium",
+      "score": 6,
+      "summary": "GitHub detalla la construcción de su protocolo Agent Host, diseñado para mantener las sesiones de agente accesibles a través de diferentes dispositivos y la nube.",
+      "whyItMatters": "Este protocolo busca mejorar la experiencia del desarrollador permitiendo la continuidad de sesiones de trabajo entre distintos entornos (editores, apps, móviles, nube), lo cual es relevante para flujos de trabajo modernos.",
+      "recommendedAction": "Considerar la adopción de protocolos similares o la implementación de características que permitan la continuidad de sesiones en tus propias herramientas o flujos de trabajo de desarrollo."
+    },
+    {
+      "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+      "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "El grupo de ciberespionaje ruso COLD RELIC ha utilizado datos robados de Google Workspace para comprometer una segunda organización estadounidense, demostrando ataques en cadena.",
+      "whyItMatters": "Este ataque resalta la peligrosa escalada que puede ocurrir tras un único compromiso en la nube. La reutilización de credenciales o datos robados para acceder a otras organizaciones es una táctica cada vez más común.",
+      "recommendedAction": "Fortalecer las medidas de seguridad en entornos de nube como Google Workspace, implementar autenticación multifactor robusta y monitorizar activamente para detectar accesos no autorizados o actividades sospechosas."
+    },
+    {
+      "title": "This Week in Spring - November 18th, 2026",
+      "url": "https://spring.io/blog/2026/11/18/this-week-in-spring-november-18th-2026",
+      "source": "Spring Blog",
+      "category": "Spring Boot",
+      "priority": "high",
+      "score": 9,
+      "summary": "Resumen semanal de novedades y noticias relevantes para el ecosistema de Spring, incluyendo actualizaciones y contribuciones de la comunidad.",
+      "whyItMatters": "Mantenerse al día con las últimas novedades de Spring Boot es esencial para cualquier desarrollador que trabaje con este framework. Permite aprovechar nuevas características, correcciones de seguridad y mejores prácticas.",
+      "recommendedAction": "Revisar el blog de Spring regularmente para estar informado sobre las últimas actualizaciones, lanzamientos y noticias importantes relacionadas con Spring Boot."
+    },
+    {
+      "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+      "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "low",
+      "score": 4,
+      "summary": "Una nueva variante del malware EggStreme, utilizada para atacar organizaciones gubernamentales, ha sido reconstruida para evadir herramientas de seguridad mediante el silencio y el polimorfismo.",
+      "whyItMatters": "Aunque se centra en ataques gubernamentales, la evolución de malware para evadir defensas es un recordatorio de la constante carrera armamentista en ciberseguridad. Las técnicas empleadas pueden eventualmente filtrarse a otros tipos de ataques.",
+      "recommendedAction": "Mantener actualizadas las herramientas de seguridad y estar atento a las nuevas técnicas de evasión de malware. Considerar soluciones de seguridad con detección basada en comportamiento."
+    },
+    {
+      "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+      "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "low",
+      "score": 3,
+      "summary": "Investigadores afirman haber descubierto dos exploits de ejecución remota de código (RCE) que logran eludir las nuevas defensas implementadas en la aplicación Android de Telegram.",
+      "whyItMatters": "Demuestra la complejidad de asegurar aplicaciones móviles y la constante batalla entre desarrolladores y atacantes para encontrar y explotar vulnerabilidades, incluso en plataformas populares.",
+      "recommendedAction": "Mantener las aplicaciones móviles actualizadas y ser cauteloso con los widgets o contenido enviado a través de ellas, especialmente si provienen de fuentes desconocidas."
+    },
+    {
+      "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+      "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "low",
+      "score": 4,
+      "summary": "Una nueva variante del malware EggStreme, utilizada para atacar organizaciones gubernamentales, ha sido reconstruida para evadir herramientas de seguridad mediante el silencio y el polimorfismo.",
+      "whyItMatters": "Aunque se centra en ataques gubernamentales, la evolución de malware para evadir defensas es un recordatorio de la constante carrera armamentista en ciberseguridad. Las técnicas empleadas pueden eventualmente filtrarse a otros tipos de ataques.",
+      "recommendedAction": "Mantener actualizadas las herramientas de seguridad y estar atento a las nuevas técnicas de evasión de malware. Considerar soluciones de seguridad con detección basada en comportamiento."
+    }
+  ]
+}

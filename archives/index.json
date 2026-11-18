@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-17T16:43:57.451Z",
+  "generatedAt": "2026-11-18T16:14:02.787Z",
   "availableDates": [
+    "2026-11-18",
     "2026-11-17",
     "2026-11-16",
     "2026-11-15",
@@ -150,13 +151,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 147,
-    "totalArticles": 1717,
-    "highPriority": 903,
-    "mediumPriority": 632,
-    "lowPriority": 182,
+    "totalReports": 148,
+    "totalArticles": 1733,
+    "highPriority": 910,
+    "mediumPriority": 638,
+    "lowPriority": 185,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-17",
+    "latestReportDate": "2026-11-18",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
@@ -167,7 +168,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 393
+        "count": 406
       },
       {
         "name": "AI for Developers",
@@ -185,7 +186,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1305
+        "count": 1317
       },
       {
         "name": "Stack Overflow Blog",
@@ -193,25 +194,19 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 109
+        "count": 111
       },
       {
         "name": "Spring Blog",
-        "count": 107
+        "count": 108
       },
       {
         "name": "Krebs on Security",
-        "count": 32
+        "count": 33
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-11-10",
-      "high": 8,
-      "medium": 7,
-      "low": 0
-    },
     {
       "date": "2026-11-11",
       "high": 10,
@@ -247,9 +242,92 @@
       "high": 3,
       "medium": 6,
       "low": 4
+    },
+    {
+      "date": "2026-11-18",
+      "high": 7,
+      "medium": 6,
+      "low": 3
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-18",
+      "generatedAt": "2026-11-18T16:14:02.775Z",
+      "totalArticles": 16,
+      "highPriority": 7,
+      "mediumPriority": 6,
+      "lowPriority": 3,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 13
+        },
+        {
+          "name": "Herramientas de Desarrollo",
+          "count": 2
+        },
+        {
+          "name": "Spring Boot",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 12
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 2
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+          "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "La CISA alerta sobre una vulnerabilidad crítica en Java (CVE-2026-114938) que permite la ejecución remota de código y urge a aplicar parches de inmediato.",
+          "whyItMatters": "Esta vulnerabilidad de seguridad en Java tiene un alto impacto (CVSS 8.1) y puede ser explotada para ejecución remota de código, afectando directamente a aplicaciones y sistemas que dependen de Java.",
+          "recommendedAction": "Aplicar los parches de seguridad de Oracle para Java inmediatamente y monitorizar la actividad sospechosa."
+        },
+        {
+          "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+          "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Oracle lanzará parches para 11 vulnerabilidades en Java SE, incluyendo una crítica en OpenJDK (CVE-2026-114938) que permite ejecución remota de código sin autenticación.",
+          "whyItMatters": "La actualización aborda múltiples vulnerabilidades críticas en Java, algunas con severidad de hasta 8.1 CVSS, que podrían ser explotadas remotamente. La explotación de CVE-2026-114938 es una preocupación particular.",
+          "recommendedAction": "Instalar las actualizaciones de seguridad de Oracle para Java tan pronto como estén disponibles y evaluar el impacto de CVE-2026-114938 en la infraestructura."
+        },
+        {
+          "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+          "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "La vulnerabilidad Java4Shell (CVE-2026-114938) permite a atacantes sin credenciales ejecutar código remotamente en aplicaciones populares como Jira y Jenkins.",
+          "whyItMatters": "Esta falla afecta a versiones específicas de Java (17.0.6+) y se dirige a chips x86-64 con AVX-512 VBMI. La posibilidad de RCE sin autenticación en herramientas críticas es un riesgo significativo.",
+          "recommendedAction": "Verificar la versión de Java utilizada en Jira, Jenkins, Keycloak y otras aplicaciones críticas. Aplicar parches y considerar las restricciones de hardware si son aplicables."
+        }
+      ]
+    },
     {
       "date": "2026-11-17",
       "generatedAt": "2026-11-17T16:43:57.438Z",
