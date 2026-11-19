@@ -1,0 +1,216 @@
+{
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T16:21:31.863Z",
+  "totalArticles": 16,
+  "summary": {
+    "highPriority": 5,
+    "mediumPriority": 4,
+    "lowPriority": 7,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 13
+      },
+      {
+        "name": "Spring Boot",
+        "count": 2
+      },
+      {
+        "name": "Dev Tools",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 13
+      },
+      {
+        "name": "Spring Blog",
+        "count": 2
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+      "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 10,
+      "summary": "Se ha descubierto y está siendo explotada activamente una vulnerabilidad crítica de ejecución remota de código (RCE) en Apache Roller, una plataforma de blogs basada en Java. La vulnerabilidad, CVE-2026-129448, permite a un atacante ejecutar código de forma remota sin necesidad de autenticación a través de su endpoint XML-RPC.",
+      "whyItMatters": "Esta vulnerabilidad es crítica porque afecta a una aplicación Java y permite la ejecución remota de código sin autenticación. Los desarrolladores que utilicen o tengan expuesto Apache Roller deben ser conscientes de este riesgo de seguridad inmediato.",
+      "recommendedAction": "Actualiza inmediatamente Apache Roller a la última versión disponible y monitoriza los logs en busca de actividades sospechosas en el endpoint XML-RPC. Si no usas Roller, considera cómo la des-serialización insegura podría afectar a tus aplicaciones Java."
+    },
+    {
+      "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+      "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Un investigador ha demostrado cómo explotar vulnerabilidades de corrupción de memoria en el código de PostgreSQL, MySQL y Oracle para lograr la ejecución remota de código (RCE) en el servidor de base de datos, incluso con cuentas de baja privilegios.",
+      "whyItMatters": "Dado que PostgreSQL es una base de datos clave en el stack de muchos desarrolladores (incluyendo Spring Boot), conocer estas vulnerabilidades y cómo pueden ser explotadas es crucial para la seguridad de las aplicaciones. Permite que atacantes no autenticados o con permisos limitados tomen control del servidor de base de datos.",
+      "recommendedAction": "Mantén PostgreSQL (y otras bases de datos mencionadas) actualizadas a las últimas versiones parcheadas. Revisa las configuraciones de seguridad de tus bases de datos y las políticas de acceso para limitar los privilegios de las cuentas de usuario al mínimo necesario. Investiga las pruebas de concepto para entender mejor los vectores de ataque."
+    },
+    {
+      "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+      "url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Una vulnerabilidad de 10 años en el soporte HTTP/2 de NGINX (CVE-2026-123007) permite a atacantes no autenticados ejecutar código en servidores con HTTP/2 habilitado. Las versiones parcheadas ya están disponibles.",
+      "whyItMatters": "NGINX es un componente de infraestructura común. Esta vulnerabilidad, aunque antigua, podría afectar a muchas instalaciones que no se han actualizado. La ejecución remota de código sin autenticación es un riesgo de seguridad muy alto.",
+      "recommendedAction": "Verifica si usas NGINX y actualiza a las versiones 1.31.9 o 1.30.7 o posteriores. Si no puedes actualizar inmediatamente, considera deshabilitar HTTP/2 temporalmente hasta que puedas aplicar el parche."
+    },
+    {
+      "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+      "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Una vulnerabilidad crítica (CVSS 9.8) en VMware vCenter permite a atacantes con acceso de red eludir la autenticación y obtener acceso no autorizado. No existen soluciones alternativas conocidas y las versiones parcheadas ya han sido lanzadas.",
+      "whyItMatters": "Aunque no es directamente Java o Angular, vCenter es una pieza fundamental en la infraestructura de muchas empresas. Comprometer vCenter puede dar a los atacantes acceso a todo el entorno virtualizado, lo que representa un riesgo significativo para la seguridad general.",
+      "recommendedAction": "Si administras o utilizas entornos VMware vCenter, aplica las actualizaciones de seguridad correspondientes de Broadcom inmediatamente. Prioriza la aplicación de este parche dado su alto puntaje CVSS y la falta de workarounds."
+    },
+    {
+      "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+      "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "La CISA ha añadido cuatro vulnerabilidades explotadas activamente a su catálogo de Vulnerabilidades Explotadas Conocidas (KEV). Estas afectan a Synology DSM, LiteLLM (usado en IA), Apache Axis y REDCap, y están vinculadas a ataques de ransomware, criptominería y 'LLMjacking'.",
+      "whyItMatters": "Una de las vulnerabilidades afecta a Apache Axis, que puede ser utilizado en entornos Java. La mención de 'LLMjacking' también es relevante para los desarrolladores interesados en IA, ya que señala un nuevo vector de ataque en este campo emergente. Las vulnerabilidades en el catálogo KEV indican un riesgo inmediato.",
+      "recommendedAction": "Revisa si utilizas Synology DSM, LiteLLM, Apache Axis o REDCap. Si es así, aplica las actualizaciones de seguridad recomendadas por los proveedores de inmediato. Presta especial atención a la seguridad de las aplicaciones de IA y los modelos de lenguaje grandes."
+    },
+    {
+      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+      "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "La Fundación PHP ha lanzado actualizaciones de seguridad para corregir siete vulnerabilidades críticas, incluyendo algunas que podrían permitir la ejecución remota de código (RCE) como la CVE-2026-115560.",
+      "whyItMatters": "Aunque el usuario principal se enfoca en Java y Spring Boot, PHP sigue siendo un lenguaje muy utilizado en el desarrollo web. Las vulnerabilidades RCE son siempre de alta prioridad, y es bueno estar al tanto de las amenazas en ecosistemas de lenguajes adyacentes, especialmente si se trabaja en entornos mixtos o se tiene alguna interacción con aplicaciones PHP.",
+      "recommendedAction": "Si utilizas PHP en tus proyectos o en la infraestructura del servidor, asegúrate de actualizar a las versiones más recientes y parcheadas. Mantente informado sobre las últimas versiones de seguridad de los lenguajes que utilizas o con los que interactúas."
+    },
+    {
+      "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
+      "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Los mantenedores del lenguaje PHP han emitido una advertencia sobre vulnerabilidades de seguridad críticas que afectan a todas las versiones soportadas. Se planea un lanzamiento de seguridad para el 19 de noviembre de 2026.",
+      "whyItMatters": "Similar a la noticia anterior, aunque PHP no es el foco principal, estas advertencias de seguridad para un lenguaje tan extendido son importantes. Indica un período de riesgo antes de que se lancen los parches, lo cual puede ser relevante para arquitectos de sistemas o desarrolladores que trabajan en entornos PHP.",
+      "recommendedAction": "Mantente atento al lanzamiento de seguridad de PHP del 19 de noviembre y aplica las actualizaciones tan pronto como sea posible si trabajas con PHP. Considera las implicaciones de seguridad si tus aplicaciones dependen de versiones no actualizadas de PHP."
+    },
+    {
+      "title": "The best things in open source are built together",
+      "url": "https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/",
+      "source": "GitHub Blog",
+      "category": "Dev Tools",
+      "priority": "medium",
+      "score": 6,
+      "summary": "El blog de GitHub presenta Replica y el Open Source Accessibility Framework, dos nuevos proyectos de código abierto centrados en la colaboración y la inclusión.",
+      "whyItMatters": "Como desarrollador de software, entender la importancia de la colaboración y las herramientas que la facilitan es fundamental. Aunque no sea directamente sobre Java o Spring Boot, promueve las buenas prácticas en el desarrollo de código abierto y la mejora de la accesibilidad, temas relevantes para cualquier profesional.",
+      "recommendedAction": "Explora los nuevos proyectos mencionados, Replica y el Open Source Accessibility Framework. Reflexiona sobre cómo puedes mejorar la colaboración y la inclusión en tus propios proyectos de código abierto o en tu entorno de trabajo."
+    },
+    {
+      "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+      "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 4,
+      "summary": "Ruby ha lanzado correcciones para siete fallos de seguridad en su motor de expresiones regulares y código de conversión de cadenas. Cinco de estas vulnerabilidades tienen pruebas de concepto (PoC) que demuestran la posibilidad de ejecución remota de código (RCE).",
+      "whyItMatters": "Aunque Ruby no está en el stack principal del usuario, las vulnerabilidades RCE son siempre importantes. La noticia también menciona IA en sus palabras clave, lo que podría ser una conexión tangencial. Sin embargo, la relevancia directa para Java/Spring/Angular/Postgres es baja.",
+      "recommendedAction": "Si trabajas con Ruby, aplica las actualizaciones de seguridad correspondientes. Para el resto, es una noticia de interés general sobre seguridad en lenguajes de programación."
+    },
+    {
+      "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+      "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 4,
+      "summary": "Drupal ha corregido una vulnerabilidad crítica en su instalador que, bajo ciertas condiciones, podría permitir a atacantes sin credenciales tomar el control de un sitio o ejecutar código de forma remota.",
+      "whyItMatters": "Esta noticia se centra en Drupal, un CMS. Aunque la ejecución remota de código es un riesgo grave, la vulnerabilidad está confinada a Drupal. Es menos relevante para desarrolladores que trabajan con Java/Spring Boot/Angular, a menos que gestionen sitios Drupal.",
+      "recommendedAction": "Si administras sitios web construidos con Drupal, asegúrate de aplicar los parches de seguridad disponibles para el instalador. Evalúa si tus configuraciones de Drupal son susceptibles a este tipo de ataque."
+    },
+    {
+      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+      "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 3,
+      "summary": "Actores de amenazas no identificados accedieron a un servidor en la nube de N-able, interrumpiendo la gestión de seguridad de correo electrónico. N-able está tomando medidas para mitigar la amenaza y fortalecer sus servicios.",
+      "whyItMatters": "Si bien se menciona 'API' y 'Cloud' (y 'AI' en las keywords), el incidente en sí parece estar más centrado en un proveedor de servicios de seguridad de correo electrónico y no afecta directamente a la pila tecnológica principal del desarrollador (Java, Spring Boot, Angular, PostgreSQL).",
+      "recommendedAction": "Considera cómo los proveedores de servicios en la nube y de seguridad manejan tus datos y qué planes de contingencia tienen. Revisa la seguridad de tus propias APIs si interactúas con servicios de terceros."
+    },
+    {
+      "title": "Everything Is a Web Application, Including Your Firewall",
+      "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 3,
+      "summary": "El artículo discute cómo las interfaces de administración de firewalls, como las de Palo Alto Networks que usan PAN-OS, pueden ser vulnerables a ataques de ejecución de código si están expuestas a internet, citando vulnerabilidades como CVE-2026-109618 y CVE-2026-109619.",
+      "whyItMatters": "La noticia resalta la importancia de asegurar las interfaces de administración, incluso las de dispositivos de red. Aunque no es directamente sobre desarrollo de aplicaciones, subraya la necesidad de una perspectiva de seguridad holística. La mención de 'AI' en las keywords es tangencial.",
+      "recommendedAction": "Asegúrate de que las interfaces de administración de todos los dispositivos de red y firewalls no estén expuestas directamente a internet, o que estén adecuadamente protegidas. Aplica parches de seguridad tan pronto como estén disponibles."
+    },
+    {
+      "title": "A Bootiful Podcast: JobRunr founder Ronald Dehuysser",
+      "url": "https://spring.io/blog/2026/11/19/a-bootiful-podcast-november-19th-2026",
+      "source": "Spring Blog",
+      "category": "Spring Boot",
+      "priority": "low",
+      "score": 3,
+      "summary": "Episodio del podcast 'A Bootiful Podcast' que entrevista a Ronald Dehuysser, fundador de JobRunr, una solución de 'background jobs' para Java y Spring Boot.",
+      "whyItMatters": "Aunque es relevante para Spring Boot y Java, el formato de podcast y la entrevista a un fundador puede ser menos técnico y más enfocado en la visión general o el negocio, en lugar de detalles de implementación profundos. El valor práctico inmediato para un desarrollador intermedio puede ser limitado.",
+      "recommendedAction": "Si eres un entusiasta de Spring Boot y te interesa conocer herramientas del ecosistema, puedes escuchar el podcast para obtener una visión general de JobRunr y su caso de uso."
+    },
+    {
+      "title": "This Week in Spring - November 17th, 2026",
+      "url": "https://spring.io/blog/2026/11/17/this-week-in-spring-november-17th-2026",
+      "source": "Spring Blog",
+      "category": "Spring Boot",
+      "priority": "low",
+      "score": 3,
+      "summary": "Resumen semanal de noticias y actualizaciones relacionadas con el ecosistema Spring.",
+      "whyItMatters": "Las noticias de 'This Week in Spring' suelen ser un buen resumen, pero a menudo incluyen anuncios de versiones o características que pueden no ser inmediatamente aplicables o de alta urgencia para todos los desarrolladores. El contenido puede variar en relevancia práctica.",
+      "recommendedAction": "Revisa el resumen para estar al tanto de las últimas novedades en el ecosistema Spring. Identifica si alguna de las actualizaciones o anuncios presentados es relevante para tus proyectos actuales."
+    },
+    {
+      "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+      "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Una vulnerabilidad crítica en VMware vCenter permite a atacantes con acceso de red eludir la autenticación y obtener acceso no autorizado. No existen soluciones alternativas conocidas y las versiones parcheadas ya han sido lanzadas.",
+      "whyItMatters": "Aunque no es directamente Java o Angular, vCenter es una pieza fundamental en la infraestructura de muchas empresas. Comprometer vCenter puede dar a los atacantes acceso a todo el entorno virtualizado, lo que representa un riesgo significativo para la seguridad general de la infraestructura donde pueden correr aplicaciones.",
+      "recommendedAction": "Si administras o utilizas entornos VMware vCenter, aplica las actualizaciones de seguridad correspondientes de Broadcom inmediatamente. Prioriza la aplicación de este parche dado su alto puntaje CVSS y la falta de workarounds."
+    },
+    {
+      "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
+      "url": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 3,
+      "summary": "Seis vulnerabilidades críticas en F5 BIG-IP pueden causar la caída del tráfico y potencialmente permitir la ejecución remota de código (RCE) bajo configuraciones específicas. Requieren que el atacante no necesite iniciar sesión.",
+      "whyItMatters": "Estas vulnerabilidades afectan a dispositivos de red (F5 BIG-IP), no directamente a la pila de desarrollo del usuario. Si bien la ejecución remota de código es seria, el impacto directo en el desarrollo con Java/Spring Boot/Angular/PostgreSQL es limitado, a menos que el desarrollador sea responsable de la infraestructura de red.",
+      "recommendedAction": "Si tu organización utiliza F5 BIG-IP, revisa si las configuraciones afectadas están en uso y aplica los parches de seguridad recomendados por F5 lo antes posible para mitigar el riesgo de interrupción del tráfico y posible RCE."
+    }
+  ]
+}

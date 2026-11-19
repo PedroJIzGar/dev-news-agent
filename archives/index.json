@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-18T16:14:02.787Z",
+  "generatedAt": "2026-11-19T16:21:31.875Z",
   "availableDates": [
+    "2026-11-19",
     "2026-11-18",
     "2026-11-17",
     "2026-11-16",
@@ -151,20 +152,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 148,
-    "totalArticles": 1733,
-    "highPriority": 910,
-    "mediumPriority": 638,
-    "lowPriority": 185,
+    "totalReports": 149,
+    "totalArticles": 1749,
+    "highPriority": 915,
+    "mediumPriority": 642,
+    "lowPriority": 192,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-18",
+    "latestReportDate": "2026-11-19",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
     "topCategories": [
       {
         "name": "Security",
-        "count": 782
+        "count": 795
       },
       {
         "name": "Seguridad",
@@ -186,7 +187,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1317
+        "count": 1330
       },
       {
         "name": "Stack Overflow Blog",
@@ -194,11 +195,11 @@
       },
       {
         "name": "GitHub Blog",
-        "count": 111
+        "count": 112
       },
       {
         "name": "Spring Blog",
-        "count": 108
+        "count": 110
       },
       {
         "name": "Krebs on Security",
@@ -207,12 +208,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-11-11",
-      "high": 10,
-      "medium": 5,
-      "low": 0
-    },
     {
       "date": "2026-11-13",
       "high": 11,
@@ -248,9 +243,88 @@
       "high": 7,
       "medium": 6,
       "low": 3
+    },
+    {
+      "date": "2026-11-19",
+      "high": 5,
+      "medium": 4,
+      "low": 7
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-19",
+      "generatedAt": "2026-11-19T16:21:31.863Z",
+      "totalArticles": 16,
+      "highPriority": 5,
+      "mediumPriority": 4,
+      "lowPriority": 7,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 13
+        },
+        {
+          "name": "Spring Boot",
+          "count": 2
+        },
+        {
+          "name": "Dev Tools",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 13
+        },
+        {
+          "name": "Spring Blog",
+          "count": 2
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+          "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Se ha descubierto y está siendo explotada activamente una vulnerabilidad crítica de ejecución remota de código (RCE) en Apache Roller, una plataforma de blogs basada en Java. La vulnerabilidad, CVE-2026-129448, permite a un atacante ejecutar código de forma remota sin necesidad de autenticación a través de su endpoint XML-RPC.",
+          "whyItMatters": "Esta vulnerabilidad es crítica porque afecta a una aplicación Java y permite la ejecución remota de código sin autenticación. Los desarrolladores que utilicen o tengan expuesto Apache Roller deben ser conscientes de este riesgo de seguridad inmediato.",
+          "recommendedAction": "Actualiza inmediatamente Apache Roller a la última versión disponible y monitoriza los logs en busca de actividades sospechosas en el endpoint XML-RPC. Si no usas Roller, considera cómo la des-serialización insegura podría afectar a tus aplicaciones Java."
+        },
+        {
+          "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+          "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un investigador ha demostrado cómo explotar vulnerabilidades de corrupción de memoria en el código de PostgreSQL, MySQL y Oracle para lograr la ejecución remota de código (RCE) en el servidor de base de datos, incluso con cuentas de baja privilegios.",
+          "whyItMatters": "Dado que PostgreSQL es una base de datos clave en el stack de muchos desarrolladores (incluyendo Spring Boot), conocer estas vulnerabilidades y cómo pueden ser explotadas es crucial para la seguridad de las aplicaciones. Permite que atacantes no autenticados o con permisos limitados tomen control del servidor de base de datos.",
+          "recommendedAction": "Mantén PostgreSQL (y otras bases de datos mencionadas) actualizadas a las últimas versiones parcheadas. Revisa las configuraciones de seguridad de tus bases de datos y las políticas de acceso para limitar los privilegios de las cuentas de usuario al mínimo necesario. Investiga las pruebas de concepto para entender mejor los vectores de ataque."
+        },
+        {
+          "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+          "url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 8,
+          "summary": "Una vulnerabilidad de 10 años en el soporte HTTP/2 de NGINX (CVE-2026-123007) permite a atacantes no autenticados ejecutar código en servidores con HTTP/2 habilitado. Las versiones parcheadas ya están disponibles.",
+          "whyItMatters": "NGINX es un componente de infraestructura común. Esta vulnerabilidad, aunque antigua, podría afectar a muchas instalaciones que no se han actualizado. La ejecución remota de código sin autenticación es un riesgo de seguridad muy alto.",
+          "recommendedAction": "Verifica si usas NGINX y actualiza a las versiones 1.31.9 o 1.30.7 o posteriores. Si no puedes actualizar inmediatamente, considera deshabilitar HTTP/2 temporalmente hasta que puedas aplicar el parche."
+        }
+      ]
+    },
     {
       "date": "2026-11-18",
       "generatedAt": "2026-11-18T16:14:02.775Z",
