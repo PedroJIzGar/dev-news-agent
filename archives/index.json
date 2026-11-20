@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-19T16:21:31.875Z",
+  "generatedAt": "2026-11-20T15:55:54.429Z",
   "availableDates": [
+    "2026-11-20",
     "2026-11-19",
     "2026-11-18",
     "2026-11-17",
@@ -152,13 +153,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 149,
-    "totalArticles": 1749,
-    "highPriority": 915,
-    "mediumPriority": 642,
-    "lowPriority": 192,
+    "totalReports": 150,
+    "totalArticles": 1764,
+    "highPriority": 919,
+    "mediumPriority": 645,
+    "lowPriority": 200,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-19",
+    "latestReportDate": "2026-11-20",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
@@ -169,7 +170,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 406
+        "count": 414
       },
       {
         "name": "AI for Developers",
@@ -180,26 +181,26 @@
         "count": 33
       },
       {
-        "name": "Java/Spring Boot",
-        "count": 30
+        "name": "Spring Boot",
+        "count": 32
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1330
+        "count": 1339
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 145
+        "count": 146
+      },
+      {
+        "name": "Spring Blog",
+        "count": 114
       },
       {
         "name": "GitHub Blog",
         "count": 112
-      },
-      {
-        "name": "Spring Blog",
-        "count": 110
       },
       {
         "name": "Krebs on Security",
@@ -208,12 +209,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-11-13",
-      "high": 11,
-      "medium": 4,
-      "low": 0
-    },
     {
       "date": "2026-11-14",
       "high": 4,
@@ -249,9 +244,96 @@
       "high": 5,
       "medium": 4,
       "low": 7
+    },
+    {
+      "date": "2026-11-20",
+      "high": 4,
+      "medium": 3,
+      "low": 8
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-20",
+      "generatedAt": "2026-11-20T15:55:54.420Z",
+      "totalArticles": 15,
+      "highPriority": 4,
+      "mediumPriority": 3,
+      "lowPriority": 8,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 8
+        },
+        {
+          "name": "Spring Boot",
+          "count": 4
+        },
+        {
+          "name": "AI para Desarrolladores",
+          "count": 2
+        },
+        {
+          "name": "Angular",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 9
+        },
+        {
+          "name": "Spring Blog",
+          "count": 4
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        },
+        {
+          "name": "Angular Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+          "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un grupo de hackers vinculado a China ha explotado una vulnerabilidad crítica de día cero en VMware vCenter Server para obtener acceso de administrador y robar datos. La vulnerabilidad (CVE-2026-123890) permite la elusión de autenticación y tiene una puntuación CVSS de 9.8.",
+          "whyItMatters": "Esta noticia es crucial ya que una explotación exitosa de una vulnerabilidad de alta severidad en una infraestructura común como VMware vCenter puede tener implicaciones significativas para la seguridad de los datos y la continuidad del negocio. Los desarrolladores deben estar al tanto de estas amenazas para proteger sus propios sistemas.",
+          "recommendedAction": "Revisar y aplicar parches de seguridad en todas las instancias de VMware vCenter. Mantenerse informado sobre las últimas vulnerabilidades de día cero y las tácticas de los atacantes, especialmente aquellas relacionadas con la inteligencia artificial."
+        },
+        {
+          "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+          "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 8,
+          "summary": "Una falla en KVM (el hipervisor del kernel de Linux) permite que las máquinas virtuales invitadas accedan a la memoria del host en sistemas con procesadores AMD y virtualización anidada habilitada. La vulnerabilidad está rastreada como CVE-2026-99312.",
+          "whyItMatters": "Esta vulnerabilidad afecta a la seguridad y el aislamiento de las máquinas virtuales en entornos Linux que utilizan KVM, especialmente en la nube. El acceso a la memoria del host podría exponer datos sensibles de otros clientes o del propio sistema operativo host.",
+          "recommendedAction": "Aplicar las actualizaciones del kernel de Linux que corrigen la CVE-2026-99312. Evaluar la configuración de virtualización en sistemas AMD y considerar la desactivación de la virtualización anidada si no es estrictamente necesaria y el parche no está disponible inmediatamente."
+        },
+        {
+          "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 8,
+          "summary": "Actores maliciosos están explotando una vulnerabilidad crítica de seguridad en Cisco Expressway (CVE-2026-76466) para acceder a redes internas. La falla permite a un atacante remoto no autenticado con acceso a la red comprometer dispositivos.",
+          "whyItMatters": "La explotación de esta falla en un dispositivo de comunicación empresarial como Cisco Expressway puede tener graves consecuencias, permitiendo el acceso no autorizado a la red interna y la posible exfiltración de datos o interrupción de servicios.",
+          "recommendedAction": "Verificar el estado de los parches en los dispositivos Cisco Expressway y aplicar las actualizaciones de seguridad correspondientes. Implementar medidas de seguridad de red para monitorear y mitigar accesos no autorizados, especialmente a través de dispositivos de comunicación."
+        }
+      ]
+    },
     {
       "date": "2026-11-19",
       "generatedAt": "2026-11-19T16:21:31.863Z",
