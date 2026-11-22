@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-20T15:55:54.429Z",
+  "generatedAt": "2026-11-22T15:04:56.659Z",
   "availableDates": [
+    "2026-11-22",
     "2026-11-20",
     "2026-11-19",
     "2026-11-18",
@@ -153,13 +154,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 150,
-    "totalArticles": 1764,
-    "highPriority": 919,
-    "mediumPriority": 645,
-    "lowPriority": 200,
+    "totalReports": 151,
+    "totalArticles": 1779,
+    "highPriority": 927,
+    "mediumPriority": 651,
+    "lowPriority": 201,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-20",
+    "latestReportDate": "2026-11-22",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
@@ -170,7 +171,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 414
+        "count": 423
       },
       {
         "name": "AI for Developers",
@@ -178,7 +179,7 @@
       },
       {
         "name": "IA para Desarrolladores",
-        "count": 33
+        "count": 36
       },
       {
         "name": "Spring Boot",
@@ -188,15 +189,15 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1339
+        "count": 1349
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 146
+        "count": 148
       },
       {
         "name": "Spring Blog",
-        "count": 114
+        "count": 116
       },
       {
         "name": "GitHub Blog",
@@ -204,17 +205,11 @@
       },
       {
         "name": "Krebs on Security",
-        "count": 33
+        "count": 34
       }
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-11-14",
-      "high": 4,
-      "medium": 5,
-      "low": 10
-    },
     {
       "date": "2026-11-15",
       "high": 5,
@@ -250,9 +245,96 @@
       "high": 4,
       "medium": 3,
       "low": 8
+    },
+    {
+      "date": "2026-11-22",
+      "high": 8,
+      "medium": 6,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-22",
+      "generatedAt": "2026-11-22T15:04:56.646Z",
+      "totalArticles": 15,
+      "highPriority": 8,
+      "mediumPriority": 6,
+      "lowPriority": 1,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 9
+        },
+        {
+          "name": "IA para Desarrolladores",
+          "count": 3
+        },
+        {
+          "name": "Seguridad/IA para Desarrolladores",
+          "count": 2
+        },
+        {
+          "name": "Java/Spring Boot",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 10
+        },
+        {
+          "name": "Spring Blog",
+          "count": 2
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 2
+        },
+        {
+          "name": "Krebs on Security",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Spring AI 2.1.0 GA and 2.0.3 GA Available Now",
+          "url": "https://spring.io/blog/2026/11/20/spring-ai-2-1-0-GA-available-now",
+          "source": "Spring Blog",
+          "category": "IA para Desarrolladores",
+          "priority": "high",
+          "score": 10,
+          "summary": "Se han lanzado las versiones generales disponibles (GA) 2.1.0 y 2.0.3 de Spring AI. Estas actualizaciones traen mejoras y nuevas funcionalidades para integrar IA en aplicaciones Spring.",
+          "whyItMatters": "Para los desarrolladores que usan Spring Boot, esta es una actualización significativa. Spring AI facilita la integración de modelos de lenguaje grandes (LLMs) y otras herramientas de IA en sus aplicaciones Java, lo que les permite construir funcionalidades impulsadas por IA de manera más eficiente.",
+          "recommendedAction": "Actualizar a la última versión de Spring AI si ya se está utilizando. Explorar las nuevas características para integrarlas en proyectos existentes o nuevos."
+        },
+        {
+          "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+          "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Signal está implementando restricciones de captura de pantalla por defecto para impedir que agentes de IA accedan a chats privados en Android e iOS. Aunque la protección se considera \"incompleta\", busca mitigar el acceso no autorizado a conversaciones sensibles.",
+          "whyItMatters": "Esta noticia es importante porque aborda directamente la privacidad en la comunicación digital frente a las crecientes capacidades de la IA. Para desarrolladores que trabajan con datos sensibles o aplicaciones de mensajería, entender estas medidas de seguridad y sus limitaciones es crucial.",
+          "recommendedAction": "Revisar cómo las aplicaciones de mensajería manejan la privacidad y la seguridad frente a la IA. Considerar la implementación de medidas similares en proyectos que manejen información confidencial."
+        },
+        {
+          "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "CISA ha añadido cuatro vulnerabilidades críticas en VMware, Cisco y Apache a su lista de vulnerabilidades explotadas activamente. Estas fallas están siendo utilizadas en ataques de espionaje.",
+          "whyItMatters": "La explotación activa de vulnerabilidades en software ampliamente utilizado como VMware, Cisco y Apache representa un riesgo significativo. Los desarrolladores deben estar al tanto de estas fallas para asegurar que sus entornos y aplicaciones no se vean comprometidos, especialmente si usan estas tecnologías.",
+          "recommendedAction": "Verificar si se utilizan las versiones afectadas de VMware, Cisco o Apache y aplicar los parches correspondientes de inmediato. Monitorear las alertas de seguridad de CISA."
+        }
+      ]
+    },
     {
       "date": "2026-11-20",
       "generatedAt": "2026-11-20T15:55:54.420Z",
