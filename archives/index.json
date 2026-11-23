@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-22T15:04:56.659Z",
+  "generatedAt": "2026-11-23T19:00:23.939Z",
   "availableDates": [
+    "2026-11-23",
     "2026-11-22",
     "2026-11-20",
     "2026-11-19",
@@ -154,20 +155,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 151,
-    "totalArticles": 1779,
-    "highPriority": 927,
-    "mediumPriority": 651,
-    "lowPriority": 201,
+    "totalReports": 152,
+    "totalArticles": 1788,
+    "highPriority": 934,
+    "mediumPriority": 652,
+    "lowPriority": 202,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-22",
+    "latestReportDate": "2026-11-23",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
     "topCategories": [
       {
         "name": "Security",
-        "count": 795
+        "count": 802
       },
       {
         "name": "Seguridad",
@@ -175,7 +176,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 131
+        "count": 132
       },
       {
         "name": "IA para Desarrolladores",
@@ -183,13 +184,13 @@
       },
       {
         "name": "Spring Boot",
-        "count": 32
+        "count": 33
       }
     ],
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1349
+        "count": 1357
       },
       {
         "name": "Stack Overflow Blog",
@@ -197,7 +198,7 @@
       },
       {
         "name": "Spring Blog",
-        "count": 116
+        "count": 117
       },
       {
         "name": "GitHub Blog",
@@ -210,12 +211,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-11-15",
-      "high": 5,
-      "medium": 3,
-      "low": 2
-    },
     {
       "date": "2026-11-16",
       "high": 3,
@@ -251,9 +246,84 @@
       "high": 8,
       "medium": 6,
       "low": 1
+    },
+    {
+      "date": "2026-11-23",
+      "high": 7,
+      "medium": 1,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-23",
+      "generatedAt": "2026-11-23T19:00:23.931Z",
+      "totalArticles": 9,
+      "highPriority": 7,
+      "mediumPriority": 1,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 7
+        },
+        {
+          "name": "Spring Boot",
+          "count": 1
+        },
+        {
+          "name": "AI for Developers",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 8
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+          "url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha descubierto una vulnerabilidad crítica en la librería binary-parser que permite la inyección de código JavaScript a través de definiciones de parser maliciosas. La falla, CVE-2026-134814, tiene una puntuación CVSS de 9.2 y afecta a versiones anteriores a la 2.3.1.",
+          "whyItMatters": "Esta vulnerabilidad es importante porque permite a un atacante ejecutar código arbitrario en sistemas que utilizan la librería binary-parser. Dado que JavaScript es un lenguaje ampliamente utilizado, especialmente en el desarrollo web y en herramientas que procesan datos, esta falla representa un riesgo significativo.",
+          "recommendedAction": "Actualizar la librería binary-parser a la versión 2.3.1 o superior. Revisar y auditar las definiciones de parser utilizadas, especialmente si provienen de fuentes no confiables. Implementar medidas de validación y sanitización de entradas."
+        },
+        {
+          "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una librería anti-CSRF para ASP.NET llamada Idunno.AntiCsrf, en sus versiones 0.9.1.0 y 0.9.1 Beta, presenta una vulnerabilidad crítica (CVE-2026-131914) con una puntuación CVSS de 9.3, que permite la ejecución remota de código (RCE) sin autenticación.",
+          "whyItMatters": "Las vulnerabilidades de RCE sin autenticación son extremadamente peligrosas, ya que permiten a los atacantes tomar el control de un servidor sin necesidad de credenciales. El uso de librerías desactualizadas o vulnerables en frameworks como ASP.NET puede tener graves consecuencias.",
+          "recommendedAction": "Dejar de usar inmediatamente la librería Idunno.AntiCsrf en versiones afectadas. Migrar a soluciones anti-CSRF más modernas y seguras o implementar la protección CSRF nativa de ASP.NET Core. Auditar aplicaciones .NET en busca de dependencias vulnerables."
+        },
+        {
+          "title": "Spring Cloud 2026.0.0 (aka Paddington) Has Been Released",
+          "url": "https://spring.io/blog/2026/11/20/spring-cloud-2026-0-0-has-been-released",
+          "source": "Spring Blog",
+          "category": "Spring Boot",
+          "priority": "high",
+          "score": 9,
+          "summary": "Se ha lanzado la versión 2026.0.0 de Spring Cloud, también conocida como 'Paddington'. Esta nueva versión trae consigo actualizaciones y mejoras para el ecosistema de microservicios basado en Spring.",
+          "whyItMatters": "Spring Cloud es fundamental para construir arquitecturas de microservicios con Spring Boot. Mantenerse actualizado con las nuevas versiones asegura el acceso a nuevas funcionalidades, mejoras de rendimiento y correcciones de seguridad.",
+          "recommendedAction": "Revisar las notas de la versión de Spring Cloud 2026.0.0 (Paddington) y planificar la actualización de los proyectos que la utilizan. Evaluar las nuevas características y realizar pruebas de compatibilidad."
+        }
+      ]
+    },
     {
       "date": "2026-11-22",
       "generatedAt": "2026-11-22T15:04:56.646Z",

@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T19:00:23.931Z",
+  "totalArticles": 9,
+  "summary": {
+    "highPriority": 7,
+    "mediumPriority": 1,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 7
+      },
+      {
+        "name": "Spring Boot",
+        "count": 1
+      },
+      {
+        "name": "AI for Developers",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 8
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+      "url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se ha descubierto una vulnerabilidad crítica en la librería binary-parser que permite la inyección de código JavaScript a través de definiciones de parser maliciosas. La falla, CVE-2026-134814, tiene una puntuación CVSS de 9.2 y afecta a versiones anteriores a la 2.3.1.",
+      "whyItMatters": "Esta vulnerabilidad es importante porque permite a un atacante ejecutar código arbitrario en sistemas que utilizan la librería binary-parser. Dado que JavaScript es un lenguaje ampliamente utilizado, especialmente en el desarrollo web y en herramientas que procesan datos, esta falla representa un riesgo significativo.",
+      "recommendedAction": "Actualizar la librería binary-parser a la versión 2.3.1 o superior. Revisar y auditar las definiciones de parser utilizadas, especialmente si provienen de fuentes no confiables. Implementar medidas de validación y sanitización de entradas."
+    },
+    {
+      "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+      "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "N-able ha revelado una vulnerabilidad crítica de tipo Server-Side Request Forgery (SSRF) en su servicio Mail Assure y SpamExperts Hosted Cloud. La falla, CVE-2026-134624, permite a un atacante con acceso API de alto nivel abrir conexiones a sistemas internos del usuario.",
+      "whyItMatters": "Las vulnerabilidades SSRF son peligrosas porque permiten a los atacantes interactuar con sistemas internos que de otro modo no serían accesibles desde el exterior, lo que puede llevar a la exposición de datos sensibles o al control de sistemas internos.",
+      "recommendedAction": "Asegurarse de que el servicio Mail Assure de N-able esté actualizado. Restringir el acceso API y revisar los permisos. Implementar firewalls y segmentación de red para limitar el alcance de posibles ataques SSRF."
+    },
+    {
+      "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Se ha descubierto una vulnerabilidad en el servicio de gestión remota GoodCloud de GL.iNet que fue explotada por hackers para instalar malware en routers y dispositivos KVM de clientes.",
+      "whyItMatters": "Aunque la vulnerabilidad ha sido parcheada, este incidente subraya los riesgos asociados con la gestión remota de dispositivos de red y la seguridad de las plataformas en la nube, afectando la integridad de dispositivos de hardware.",
+      "recommendedAction": "Asegurarse de que los dispositivos GL.iNet y el servicio GoodCloud estén actualizados. Revisar la seguridad de todos los dispositivos de red y sistemas de gestión remota. Implementar buenas prácticas de seguridad en la nube."
+    },
+    {
+      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una librería anti-CSRF para ASP.NET llamada Idunno.AntiCsrf, en sus versiones 0.9.1.0 y 0.9.1 Beta, presenta una vulnerabilidad crítica (CVE-2026-131914) con una puntuación CVSS de 9.3, que permite la ejecución remota de código (RCE) sin autenticación.",
+      "whyItMatters": "Las vulnerabilidades de RCE sin autenticación son extremadamente peligrosas, ya que permiten a los atacantes tomar el control de un servidor sin necesidad de credenciales. El uso de librerías desactualizadas o vulnerables en frameworks como ASP.NET puede tener graves consecuencias.",
+      "recommendedAction": "Dejar de usar inmediatamente la librería Idunno.AntiCsrf en versiones afectadas. Migrar a soluciones anti-CSRF más modernas y seguras o implementar la protección CSRF nativa de ASP.NET Core. Auditar aplicaciones .NET en busca de dependencias vulnerables."
+    },
+    {
+      "title": "Spring Cloud 2026.0.0 (aka Paddington) Has Been Released",
+      "url": "https://spring.io/blog/2026/11/20/spring-cloud-2026-0-0-has-been-released",
+      "source": "Spring Blog",
+      "category": "Spring Boot",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se ha lanzado la versión 2026.0.0 de Spring Cloud, también conocida como 'Paddington'. Esta nueva versión trae consigo actualizaciones y mejoras para el ecosistema de microservicios basado en Spring.",
+      "whyItMatters": "Spring Cloud es fundamental para construir arquitecturas de microservicios con Spring Boot. Mantenerse actualizado con las nuevas versiones asegura el acceso a nuevas funcionalidades, mejoras de rendimiento y correcciones de seguridad.",
+      "recommendedAction": "Revisar las notas de la versión de Spring Cloud 2026.0.0 (Paddington) y planificar la actualización de los proyectos que la utilizan. Evaluar las nuevas características y realizar pruebas de compatibilidad."
+    },
+    {
+      "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+      "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+      "source": "The Hacker News",
+      "category": "AI for Developers",
+      "priority": "high",
+      "score": 8,
+      "summary": "El CERT-In de la India ha emitido una advertencia sobre ataques cibernéticos asistidos por inteligencia artificial (IA) que resultan en transacciones financieras no autorizadas en bancos y empresas fintech.",
+      "whyItMatters": "Este artículo destaca cómo la IA se está utilizando cada vez más en ciberataques sofisticados, lo que requiere que los desarrolladores y profesionales de la seguridad comprendan y se preparen para estas nuevas amenazas. Es un vistazo a la evolución del panorama de seguridad.",
+      "recommendedAction": "Mantenerse informado sobre las últimas técnicas de ataque asistidas por IA. Implementar medidas de seguridad robustas, incluyendo autenticación multifactor y monitoreo avanzado de transacciones. Considerar el uso de herramientas de seguridad basadas en IA para la defensa."
+    },
+    {
+      "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+      "url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 7,
+      "summary": "Recopilación semanal de noticias de seguridad que incluye vulnerabilidades 0-day en VMware, fallos como 'Java4Shell', 'NGINX2Root', 'Ruby2Shell' y otros problemas de seguridad.",
+      "whyItMatters": "Este tipo de resúmenes son útiles para obtener una visión general rápida de las amenazas de seguridad más importantes de la semana, incluyendo aquellas que podrían afectar a entornos Java, algo relevante para desarrolladores backend.",
+      "recommendedAction": "Revisar los detalles de las vulnerabilidades mencionadas, especialmente si afectan a tecnologías que utilizas (como Java). Aplicar parches y actualizaciones tan pronto como estén disponibles. Mantener un canal de noticias de seguridad para estar al día."
+    },
+    {
+      "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Los atacantes están explotando una vulnerabilidad crítica en ConnectWise ScreenConnect (CVE-2026-84869, CVSS 9.9) para tomar el control de los PCs de los técnicos de proveedores de servicios gestionados (MSPs), permitiendo la ejecución de payloads maliciosos.",
+      "whyItMatters": "Este incidente destaca la importancia de la seguridad en las herramientas de acceso remoto y la cadena de suministro de software. Un compromiso en una herramienta utilizada por MSPs puede tener un efecto dominó y comprometer a múltiples clientes.",
+      "recommendedAction": "Asegurarse de que todas las instancias de ConnectWise ScreenConnect estén actualizadas a la última versión. Implementar autenticación multifactor para accesos remotos. Revisar registros de auditoría en busca de actividad sospechosa."
+    },
+    {
+      "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+      "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 3,
+      "summary": "Se sospecha que el grupo de amenazas 'Webworm' está utilizando una versión modificada de SoftEther VPN Bridge para evadir la detección y establecer acceso remoto encubierto en redes comprometidas.",
+      "whyItMatters": "Este artículo es interesante desde el punto de vista de las tácticas de actores de amenazas avanzados, pero tiene un impacto práctico limitado para la mayoría de los desarrolladores, a menos que estén directamente involucrados en la seguridad de redes complejas.",
+      "recommendedAction": "Estar al tanto de las técnicas avanzadas de evasión utilizadas por actores de amenazas. Fortalecer las defensas de red y los sistemas de detección de intrusiones. Mantenerse informado sobre las herramientas de VPN y sus posibles usos maliciosos."
+    }
+  ]
+}
