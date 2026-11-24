@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-23T19:00:23.939Z",
+  "generatedAt": "2026-11-24T18:40:36.813Z",
   "availableDates": [
+    "2026-11-24",
     "2026-11-23",
     "2026-11-22",
     "2026-11-20",
@@ -155,20 +156,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 152,
-    "totalArticles": 1788,
-    "highPriority": 934,
-    "mediumPriority": 652,
-    "lowPriority": 202,
+    "totalReports": 153,
+    "totalArticles": 1802,
+    "highPriority": 941,
+    "mediumPriority": 657,
+    "lowPriority": 204,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-23",
+    "latestReportDate": "2026-11-24",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
     "topCategories": [
       {
         "name": "Security",
-        "count": 802
+        "count": 810
       },
       {
         "name": "Seguridad",
@@ -176,7 +177,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 132
+        "count": 136
       },
       {
         "name": "IA para Desarrolladores",
@@ -190,19 +191,19 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1357
+        "count": 1366
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 148
+        "count": 151
       },
       {
         "name": "Spring Blog",
-        "count": 117
+        "count": 118
       },
       {
         "name": "GitHub Blog",
-        "count": 112
+        "count": 113
       },
       {
         "name": "Krebs on Security",
@@ -211,12 +212,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-11-16",
-      "high": 3,
-      "medium": 2,
-      "low": 0
-    },
     {
       "date": "2026-11-17",
       "high": 3,
@@ -252,9 +247,96 @@
       "high": 7,
       "medium": 1,
       "low": 1
+    },
+    {
+      "date": "2026-11-24",
+      "high": 7,
+      "medium": 5,
+      "low": 2
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-24",
+      "generatedAt": "2026-11-24T18:40:36.804Z",
+      "totalArticles": 14,
+      "highPriority": 7,
+      "mediumPriority": 5,
+      "lowPriority": 2,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 8
+        },
+        {
+          "name": "AI for Developers",
+          "count": 4
+        },
+        {
+          "name": "Developer Tools",
+          "count": 1
+        },
+        {
+          "name": "Software Development",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 9
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 3
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
+          "url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 10,
+          "summary": "Microsoft ha corregido una vulnerabilidad crítica en Azure API Management (APIM) que permitía a actores maliciosos acceder a tokens de acceso y secretos de clientes.",
+          "whyItMatters": "Esta noticia es vital para cualquier desarrollador que utilice Azure y APIM. La exposición de secretos de clientes puede tener consecuencias graves, por lo que estar al tanto de estas vulnerabilidades y sus correcciones es fundamental para la seguridad de las aplicaciones y los datos.",
+          "recommendedAction": "Verificar si tus implementaciones de Azure API Management se vieron afectadas y aplicar las actualizaciones de seguridad proporcionadas por Microsoft. Revisar las políticas de acceso y la gestión de secretos."
+        },
+        {
+          "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+          "url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+          "source": "The Hacker News",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 10,
+          "summary": "OpenAI y Cisco han lanzado Shirudo, una herramienta de seguridad de Linux de código abierto que utiliza IA para detectar y bloquear exploits en tiempo real, incluso antes de que se apliquen parches.",
+          "whyItMatters": "Esta colaboración pionera entre OpenAI y Cisco presenta una forma innovadora de usar la IA para la seguridad. Permite a los desarrolladores y administradores de sistemas proteger sus entornos Linux de manera proactiva, reduciendo la ventana de vulnerabilidad y el tiempo de inactividad.",
+          "recommendedAction": "Explorar el proyecto Shirudo en GitHub. Considerar su implementación en entornos Linux para mejorar la postura de seguridad, especialmente en sistemas que no pueden ser parcheados inmediatamente."
+        },
+        {
+          "title": "Human in the Loop with Spring AI 2.1: Tool Calls That Survive a Restart",
+          "url": "https://spring.io/blog/2026/11/24/spring-ai-tool-call-confirmation-park-resume",
+          "source": "Spring Blog",
+          "category": "AI for Developers",
+          "priority": "high",
+          "score": 9,
+          "summary": "La versión 2.1 de Spring AI introduce la capacidad de manejar llamadas a herramientas en aplicaciones de IA que pueden sobrevivir a reinicios, mejorando la resiliencia y la experiencia del usuario.",
+          "whyItMatters": "Para desarrolladores que usan Spring Boot y exploran la integración de IA, esta actualización es crucial para construir aplicaciones de IA más robustas que pueden recuperarse de interrupciones sin perder el estado de las operaciones.",
+          "recommendedAction": "Revisar las notas de la versión de Spring AI 2.1 y experimentar con la funcionalidad de 'Human in the Loop' y las llamadas a herramientas persistentes en proyectos de prueba."
+        }
+      ]
+    },
     {
       "date": "2026-11-23",
       "generatedAt": "2026-11-23T19:00:23.931Z",

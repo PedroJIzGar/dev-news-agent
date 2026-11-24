@@ -1,0 +1,202 @@
+{
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T18:40:36.804Z",
+  "totalArticles": 14,
+  "summary": {
+    "highPriority": 7,
+    "mediumPriority": 5,
+    "lowPriority": 2,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 8
+      },
+      {
+        "name": "AI for Developers",
+        "count": 4
+      },
+      {
+        "name": "Developer Tools",
+        "count": 1
+      },
+      {
+        "name": "Software Development",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 9
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "count": 3
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Human in the Loop with Spring AI 2.1: Tool Calls That Survive a Restart",
+      "url": "https://spring.io/blog/2026/11/24/spring-ai-tool-call-confirmation-park-resume",
+      "source": "Spring Blog",
+      "category": "AI for Developers",
+      "priority": "high",
+      "score": 9,
+      "summary": "La versión 2.1 de Spring AI introduce la capacidad de manejar llamadas a herramientas en aplicaciones de IA que pueden sobrevivir a reinicios, mejorando la resiliencia y la experiencia del usuario.",
+      "whyItMatters": "Para desarrolladores que usan Spring Boot y exploran la integración de IA, esta actualización es crucial para construir aplicaciones de IA más robustas que pueden recuperarse de interrupciones sin perder el estado de las operaciones.",
+      "recommendedAction": "Revisar las notas de la versión de Spring AI 2.1 y experimentar con la funcionalidad de 'Human in the Loop' y las llamadas a herramientas persistentes en proyectos de prueba."
+    },
+    {
+      "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
+      "url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 10,
+      "summary": "Microsoft ha corregido una vulnerabilidad crítica en Azure API Management (APIM) que permitía a actores maliciosos acceder a tokens de acceso y secretos de clientes.",
+      "whyItMatters": "Esta noticia es vital para cualquier desarrollador que utilice Azure y APIM. La exposición de secretos de clientes puede tener consecuencias graves, por lo que estar al tanto de estas vulnerabilidades y sus correcciones es fundamental para la seguridad de las aplicaciones y los datos.",
+      "recommendedAction": "Verificar si tus implementaciones de Azure API Management se vieron afectadas y aplicar las actualizaciones de seguridad proporcionadas por Microsoft. Revisar las políticas de acceso y la gestión de secretos."
+    },
+    {
+      "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se han descubierto y explotado activamente dos vulnerabilidades críticas: una SSRF en N-able MailAssure y una vulnerabilidad zero-day en MONAI Label, esta última explotada por agentes de IA.",
+      "whyItMatters": "La noticia destaca la creciente amenaza de vulnerabilidades zero-day y su explotación activa, incluso por parte de agentes de IA. Para los desarrolladores, esto subraya la importancia de mantener el software actualizado y estar atentos a las alertas de seguridad sobre productos que puedan estar utilizando.",
+      "recommendedAction": "Evaluar el uso de N-able MailAssure y MONAI Label en tu entorno. Aplicar parches tan pronto como estén disponibles y seguir las recomendaciones de CISA para mitigar riesgos."
+    },
+    {
+      "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+      "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Se ha descubierto una nueva vulnerabilidad crítica (CVSS 9.8) en VMware vCenter que permite la elusión de autenticación, sumándose a una serie de exploits recientes.",
+      "whyItMatters": "Las vulnerabilidades en plataformas de virtualización como VMware vCenter son de alto impacto. Un bypass de autenticación podría permitir acceso no autorizado a entornos críticos. Es esencial para administradores y desarrolladores que trabajan con VMware estar al tanto y aplicar parches de inmediato.",
+      "recommendedAction": "Asegurarse de que todos los sistemas VMware vCenter estén actualizados con los últimos parches de Broadcom. Revisar los logs de auditoría en busca de actividades sospechosas."
+    },
+    {
+      "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+      "url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+      "source": "The Hacker News",
+      "category": "AI for Developers",
+      "priority": "high",
+      "score": 10,
+      "summary": "OpenAI y Cisco han lanzado Shirudo, una herramienta de seguridad de Linux de código abierto que utiliza IA para detectar y bloquear exploits en tiempo real, incluso antes de que se apliquen parches.",
+      "whyItMatters": "Esta colaboración pionera entre OpenAI y Cisco presenta una forma innovadora de usar la IA para la seguridad. Permite a los desarrolladores y administradores de sistemas proteger sus entornos Linux de manera proactiva, reduciendo la ventana de vulnerabilidad y el tiempo de inactividad.",
+      "recommendedAction": "Explorar el proyecto Shirudo en GitHub. Considerar su implementación en entornos Linux para mejorar la postura de seguridad, especialmente en sistemas que no pueden ser parcheados inmediatamente."
+    },
+    {
+      "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+      "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Un grupo de ciberespionaje alineado con Irán, llamado Volant Manticore, está utilizando una puerta trasera (backdoor) llamada KuboShell, la cual emplea IPFS para su comunicación C2.",
+      "whyItMatters": "La noticia muestra la evolución de las tácticas de los actores de amenazas, utilizando tecnologías como IPFS para C2, lo que puede dificultar su detección y bloqueo. Entender estas nuevas técnicas es importante para desarrollar defensas más efectivas.",
+      "recommendedAction": "Mantenerse informado sobre las últimas TTPs (Tácticas, Técnicas y Procedimientos) de grupos de amenazas. Revisar las configuraciones de red para detectar tráfico inusual relacionado con IPFS."
+    },
+    {
+      "title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
+      "url": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Un investigador de Google Project Zero demostró cómo un cambio de un solo bit en archivos .NET puede eludir las protecciones de Integridad de Código de Windows y el hardening de procesos en Oracle VirtualBox.",
+      "whyItMatters": "Esta es una vulnerabilidad técnica profunda que afecta a desarrolladores .NET y a la seguridad general de Windows. Demuestra cómo fallos sutiles en la carga de programas pueden ser explotados para ejecutar código no confiable, lo que requiere atención por parte de la comunidad de desarrollo.",
+      "recommendedAction": "Los desarrolladores .NET deben revisar cómo sus aplicaciones manejan la carga de ensamblados. Estar atentos a las actualizaciones de seguridad de Microsoft y Oracle que aborden esta debilidad específica."
+    },
+    {
+      "title": "These are the gifts developers will actually want",
+      "url": "https://github.blog/news-insights/company-news/these-are-the-gifts-developers-will-actually-want/",
+      "source": "GitHub Blog",
+      "category": "Developer Tools",
+      "priority": "low",
+      "score": 2,
+      "summary": "Una publicación del blog de GitHub sugiere ideas de regalos para desarrolladores, con un enfoque en artículos prácticos y deseables.",
+      "whyItMatters": "Si bien no es una noticia técnica profunda, puede ofrecer algunas ideas útiles para regalos, especialmente en el contexto de la comunidad de desarrolladores.",
+      "recommendedAction": "Revisar la lista si estás buscando ideas para regalos de desarrolladores."
+    },
+    {
+      "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
+      "url": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 8,
+      "summary": "El artículo discute cinco prioridades para los presupuestos de SOC (Security Operations Center) en 2027, enfocándose en reducir costos y el riesgo cibernético, sugiriendo que la eficiencia del tiempo del analista es clave.",
+      "whyItMatters": "Para desarrolladores que trabajan en entornos empresariales o que interactúan con equipos de seguridad, comprender las prioridades de los SOC puede ayudar a alinear el desarrollo con las necesidades de seguridad. La mención de la IA para acelerar el análisis de amenazas es particularmente relevante.",
+      "recommendedAction": "Considerar cómo las herramientas y prácticas de desarrollo pueden mejorar la eficiencia del análisis de amenazas y reducir la carga de trabajo de los equipos de SOC. Investigar el uso de IA en la automatización de tareas de seguridad."
+    },
+    {
+      "title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
+      "url": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una vulnerabilidad de inyección SQL en WHMCS, una plataforma de facturación y automatización utilizada por muchas empresas de hosting, podría exponer datos de clientes y hashes de contraseñas de administradores sin necesidad de inicio de sesión.",
+      "whyItMatters": "Esta vulnerabilidad es crítica para cualquier negocio que utilice WHMCS, exponiendo datos sensibles y credenciales de administración. Para los desarrolladores de PostgreSQL o aquellos que trabajan con bases de datos, resalta la importancia continua de prevenir ataques de inyección SQL.",
+      "recommendedAction": "Si utilizas WHMCS, aplica las actualizaciones de seguridad proporcionadas por la compañía inmediatamente. Revisa tus bases de datos y aplica prácticas seguras de validación de entradas para prevenir inyecciones SQL en tus propias aplicaciones."
+    },
+    {
+      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+      "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Okta ha identificado una posible reorientación del grupo de extorsión ShinyHunters bajo el nombre INCEPTION, que utiliza ataques de vishing (phishing por voz) para obtener credenciales.",
+      "whyItMatters": "El phishing y el vishing siguen siendo vectores de ataque efectivos. Entender cómo operan estos grupos y sus tácticas puede ayudar a los desarrolladores a crear aplicaciones y flujos de autenticación más resistentes a este tipo de ataques.",
+      "recommendedAction": "Educarse y educar a los equipos sobre las tácticas de vishing. Implementar autenticación multifactor (MFA) robusta y políticas de seguridad para mitigar el riesgo de compromiso de credenciales."
+    },
+    {
+      "title": "Prompt Injection Fixes Need Regression Tests",
+      "url": "https://stackoverflow.blog/2026/11/24/prompt-injection-fixes-need-regression-tests/",
+      "source": "Stack Overflow Blog",
+      "category": "AI for Developers",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Este artículo de Stack Overflow Blog argumenta que las correcciones para la inyección de prompts en sistemas de IA deben ir acompañadas de pruebas de regresión para asegurar que las vulnerabilidades no reaparezcan.",
+      "whyItMatters": "A medida que la IA se integra más en las aplicaciones, la seguridad de los prompts se vuelve crucial. La necesidad de pruebas de regresión destaca la importancia de un ciclo de desarrollo de software seguro y robusto, incluso para las interacciones con modelos de IA.",
+      "recommendedAction": "Implementar pruebas de regresión específicas para la inyección de prompts al desarrollar o mantener aplicaciones que interactúan con modelos de lenguaje grandes (LLMs)."
+    },
+    {
+      "title": "A Reboot Is Still a Deployment",
+      "url": "https://stackoverflow.blog/2026/11/24/a-reboot-is-still-a-deployment/",
+      "source": "Stack Overflow Blog",
+      "category": "Software Development",
+      "priority": "low",
+      "score": 3,
+      "summary": "Una reflexión breve en el blog de Stack Overflow sobre la naturaleza de los despliegues y cómo un simple reinicio puede considerarse una forma de despliegue.",
+      "whyItMatters": "Ofrece una perspectiva diferente sobre conceptos operativos básicos, que puede ser interesante para la reflexión, pero tiene un impacto práctico limitado.",
+      "recommendedAction": "Considerar esta perspectiva al documentar o planificar procesos de actualización y mantenimiento de sistemas."
+    },
+    {
+      "title": "Agent swarms need more than a message board",
+      "url": "https://stackoverflow.blog/2026/11/24/agent-swarms-need-more-than-a-message-board/",
+      "source": "Stack Overflow Blog",
+      "category": "AI for Developers",
+      "priority": "medium",
+      "score": 7,
+      "summary": "El artículo plantea que los 'enjambres de agentes' (agent swarms) son fundamentalmente problemas de sistemas distribuidos, requiriendo más que una simple infraestructura de mensajería.",
+      "whyItMatters": "Con el auge de los agentes de IA y sistemas multi-agente, entender los desafíos subyacentes de los sistemas distribuidos es clave para construir soluciones escalables y robustas. Esto es relevante para desarrolladores que trabajan con IA avanzada.",
+      "recommendedAction": "Profundizar en los principios de sistemas distribuidos al diseñar e implementar arquitecturas de 'agent swarms' o sistemas multi-agente."
+    }
+  ]
+}
