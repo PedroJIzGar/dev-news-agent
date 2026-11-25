@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-24T18:40:36.813Z",
+  "generatedAt": "2026-11-25T17:49:48.953Z",
   "availableDates": [
+    "2026-11-25",
     "2026-11-24",
     "2026-11-23",
     "2026-11-22",
@@ -156,20 +157,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 153,
-    "totalArticles": 1802,
-    "highPriority": 941,
-    "mediumPriority": 657,
-    "lowPriority": 204,
+    "totalReports": 154,
+    "totalArticles": 1815,
+    "highPriority": 951,
+    "mediumPriority": 659,
+    "lowPriority": 205,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-24",
+    "latestReportDate": "2026-11-25",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
     "topCategories": [
       {
         "name": "Security",
-        "count": 810
+        "count": 819
       },
       {
         "name": "Seguridad",
@@ -177,7 +178,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 136
+        "count": 137
       },
       {
         "name": "IA para Desarrolladores",
@@ -191,19 +192,19 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1366
+        "count": 1375
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 151
+        "count": 153
       },
       {
         "name": "Spring Blog",
-        "count": 118
+        "count": 119
       },
       {
         "name": "GitHub Blog",
-        "count": 113
+        "count": 114
       },
       {
         "name": "Krebs on Security",
@@ -212,12 +213,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-11-17",
-      "high": 3,
-      "medium": 6,
-      "low": 4
-    },
     {
       "date": "2026-11-18",
       "high": 7,
@@ -253,9 +248,100 @@
       "high": 7,
       "medium": 5,
       "low": 2
+    },
+    {
+      "date": "2026-11-25",
+      "high": 10,
+      "medium": 2,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-25",
+      "generatedAt": "2026-11-25T17:49:48.938Z",
+      "totalArticles": 13,
+      "highPriority": 10,
+      "mediumPriority": 2,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 9
+        },
+        {
+          "name": "Developer Tools",
+          "count": 1
+        },
+        {
+          "name": "Java/Spring Boot",
+          "count": 1
+        },
+        {
+          "name": "AI for Developers",
+          "count": 1
+        },
+        {
+          "name": "Backend/Architecture",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 9
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 2
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "This Week in Spring - November 24th, 2026 ",
+          "url": "https://spring.io/blog/2026/11/24/this-week-in-spring-november-24-2026",
+          "source": "Spring Blog",
+          "category": "Java/Spring Boot",
+          "priority": "high",
+          "score": 10,
+          "summary": "Resumen semanal de noticias y actualizaciones relacionadas con el ecosistema de Spring, incluyendo Spring Boot, Spring Framework y otros proyectos.",
+          "whyItMatters": "Mantenerse al día con las novedades de Spring es crucial para los desarrolladores que utilizan este framework. Incluye información sobre nuevas características, correcciones de errores y mejoras de rendimiento.",
+          "recommendedAction": "Revisa las actualizaciones y notas de la versión para estar al tanto de las últimas mejoras y cambios en Spring Boot y sus componentes."
+        },
+        {
+          "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
+          "url": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Un ex-empleado de OpenAI, acusado de instalar dispositivos de escucha en las oficinas de la compañía, ha sido liberado bajo una fianza de 1 millón de dólares.",
+          "whyItMatters": "Este incidente pone de manifiesto las vulnerabilidades de seguridad dentro de empresas de tecnología punteras, incluso en el sector de la IA. La confidencialidad y la seguridad de la información son cruciales, especialmente cuando se manejan datos sensibles de IA.",
+          "recommendedAction": "Estar al tanto de las noticias sobre seguridad en el sector de la IA y considerar las implicaciones para la seguridad de la información en tu propio entorno de desarrollo."
+        },
+        {
+          "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+          "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Los atacantes están explotando activamente dos vulnerabilidades críticas en GeoServer (CVE-2026-120705 y CVE-2026-129243), permitiendo la lectura arbitraria de archivos y la ejecución remota de código.",
+          "whyItMatters": "GeoServer es una herramienta común para compartir datos geoespaciales. Las vulnerabilidades no parcheadas pueden ser un punto de entrada para atacantes, comprometiendo la integridad y disponibilidad de los datos. Esto es relevante para desarrolladores que trabajan con sistemas que manejan datos espaciales o que dependen de servicios similares.",
+          "recommendedAction": "Verificar si utilizas GeoServer y aplicar los parches de seguridad más recientes. Considerar la seguridad de las dependencias de tus aplicaciones."
+        }
+      ]
+    },
     {
       "date": "2026-11-24",
       "generatedAt": "2026-11-24T18:40:36.804Z",

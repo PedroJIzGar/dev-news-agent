@@ -1,0 +1,195 @@
+{
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-25T17:49:48.938Z",
+  "totalArticles": 13,
+  "summary": {
+    "highPriority": 10,
+    "mediumPriority": 2,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 9
+      },
+      {
+        "name": "Developer Tools",
+        "count": 1
+      },
+      {
+        "name": "Java/Spring Boot",
+        "count": 1
+      },
+      {
+        "name": "AI for Developers",
+        "count": 1
+      },
+      {
+        "name": "Backend/Architecture",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 9
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "count": 2
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 1
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
+      "url": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Un ex-empleado de OpenAI, acusado de instalar dispositivos de escucha en las oficinas de la compañía, ha sido liberado bajo una fianza de 1 millón de dólares.",
+      "whyItMatters": "Este incidente pone de manifiesto las vulnerabilidades de seguridad dentro de empresas de tecnología punteras, incluso en el sector de la IA. La confidencialidad y la seguridad de la información son cruciales, especialmente cuando se manejan datos sensibles de IA.",
+      "recommendedAction": "Estar al tanto de las noticias sobre seguridad en el sector de la IA y considerar las implicaciones para la seguridad de la información en tu propio entorno de desarrollo."
+    },
+    {
+      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Los atacantes están explotando activamente dos vulnerabilidades críticas en GeoServer (CVE-2026-120705 y CVE-2026-129243), permitiendo la lectura arbitraria de archivos y la ejecución remota de código.",
+      "whyItMatters": "GeoServer es una herramienta común para compartir datos geoespaciales. Las vulnerabilidades no parcheadas pueden ser un punto de entrada para atacantes, comprometiendo la integridad y disponibilidad de los datos. Esto es relevante para desarrolladores que trabajan con sistemas que manejan datos espaciales o que dependen de servicios similares.",
+      "recommendedAction": "Verificar si utilizas GeoServer y aplicar los parches de seguridad más recientes. Considerar la seguridad de las dependencias de tus aplicaciones."
+    },
+    {
+      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+      "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una vulnerabilidad crítica de ejecución remota de código (RCE) en Drupal core (CVE-2026-132165, Fail2Install) está siendo activamente explotada y ha sido añadida al catálogo de vulnerabilidades explotadas conocidas de CISA.",
+      "whyItMatters": "Drupal es un sistema de gestión de contenido ampliamente utilizado. Una vulnerabilidad RCE crítica representa un riesgo significativo si no se aplica el parche, permitiendo a los atacantes tomar el control total del servidor.",
+      "recommendedAction": "Si tu aplicación utiliza Drupal, asegúrate de aplicar el parche para CVE-2026-132165 inmediatamente. Mantén tus sistemas actualizados."
+    },
+    {
+      "title": "Art of play in the age of AI",
+      "url": "https://github.blog/news-insights/company-news/art-of-play-in-the-age-of-ai/",
+      "source": "GitHub Blog",
+      "category": "Developer Tools",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Este artículo del blog de GitHub reflexiona sobre cómo la velocidad a la que se envía el código, potenciada por herramientas como la IA, permite a los desarrolladores dedicar más tiempo a proyectos por el simple placer de crearlos.",
+      "whyItMatters": "Explora el lado humano y creativo del desarrollo de software en la era de la IA, sugiriendo que las herramientas de automatización pueden liberar tiempo para la exploración y la innovación personal, lo cual es beneficioso para el crecimiento profesional y la satisfacción.",
+      "recommendedAction": "Considera cómo puedes usar la IA y otras herramientas para automatizar tareas repetitivas y liberar tiempo para proyectos personales o de aprendizaje que te inspiren."
+    },
+    {
+      "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+      "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Un actor de amenazas desconocido está utilizando herramientas ofensivas impulsadas por IA para atacar servidores de gestión de Check Point, comprometiendo 24 servidores en 22 organizaciones.",
+      "whyItMatters": "Este ataque demuestra el creciente uso de la IA en ciberataques sofisticados. Destaca la necesidad de que las defensas de seguridad también evolucionen, especialmente en infraestructuras críticas y de seguridad.",
+      "recommendedAction": "Mantente informado sobre las tácticas de ataque impulsadas por IA y evalúa la seguridad de tus sistemas de gestión y la infraestructura de red."
+    },
+    {
+      "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
+      "url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "El informe 'State of Secrets Sprawl 2026' de GitGuardian revela que el 64% de los secretos válidos descubiertos en 2022 seguían funcionando en 2026 debido a la lentitud en la remediación. Priorizar por impacto en lugar de solo por validez puede mejorar la seguridad.",
+      "whyItMatters": "La gestión de secretos y credenciales es fundamental para la seguridad. Este artículo subraya la importancia de un proceso eficiente de remediación y priorización para mitigar riesgos, especialmente en repositorios de código como Git.",
+      "recommendedAction": "Implementa una estrategia robusta para la gestión de secretos y credenciales. Revisa y automatiza tus procesos de remediación, priorizando los secretos más críticos."
+    },
+    {
+      "title": "This Week in Spring - November 24th, 2026 ",
+      "url": "https://spring.io/blog/2026/11/24/this-week-in-spring-november-24-2026",
+      "source": "Spring Blog",
+      "category": "Java/Spring Boot",
+      "priority": "high",
+      "score": 10,
+      "summary": "Resumen semanal de noticias y actualizaciones relacionadas con el ecosistema de Spring, incluyendo Spring Boot, Spring Framework y otros proyectos.",
+      "whyItMatters": "Mantenerse al día con las novedades de Spring es crucial para los desarrolladores que utilizan este framework. Incluye información sobre nuevas características, correcciones de errores y mejoras de rendimiento.",
+      "recommendedAction": "Revisa las actualizaciones y notas de la versión para estar al tanto de las últimas mejoras y cambios en Spring Boot y sus componentes."
+    },
+    {
+      "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+      "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "La Red de Ejecución de Delitos Financieros (FinCEN) del Departamento del Tesoro de EE. UU. ha sufrido una intrusión de ciberseguridad, lo que ha llevado a la desconexión de algunos de sus sistemas como medida de precaución.",
+      "whyItMatters": "Este incidente en una agencia gubernamental crítica subraya la persistencia de las amenazas de ciberseguridad y la importancia de la resiliencia y la respuesta a incidentes, incluso en organizaciones con recursos significativos.",
+      "recommendedAction": "Considera las lecciones aprendidas de incidentes de seguridad en entidades gubernamentales y evalúa la robustez de tus planes de respuesta a incidentes."
+    },
+    {
+      "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Los atacantes explotaron una vulnerabilidad crítica de RCE (CVSS 10.0) en Hex.pm, el registro de paquetes para desarrolladores de Elixir y Erlang, para comprometer seis servidores.",
+      "whyItMatters": "Los registros de paquetes son infraestructuras críticas para los ecosistemas de desarrollo. Una vulnerabilidad grave en uno de ellos puede tener un impacto significativo en la cadena de suministro de software, afectando a muchos desarrolladores y proyectos.",
+      "recommendedAction": "Presta atención a la seguridad de los registros de paquetes que utilizas. Asegúrate de que tus procesos de desarrollo y despliegue incluyan escaneos de dependencias y validación de fuentes."
+    },
+    {
+      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+      "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Actores de amenazas vinculados a 'Com' están utilizando ataques de vishing (suplantación de identidad por voz) para secuestrar cuentas en la nube, resultando en robo de datos y extorsión.",
+      "whyItMatters": "Este informe destaca la continua amenaza del vishing y su eficacia para comprometer cuentas, incluso en entornos de nube. La ingeniería social sigue siendo un vector de ataque importante.",
+      "recommendedAction": "Refuerza las medidas de autenticación y seguridad para tus cuentas en la nube. Educa a los usuarios sobre los riesgos del vishing y otras tácticas de ingeniería social."
+    },
+    {
+      "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+      "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "WordPress ha bloqueado seis plugins de WP Connect que contenían puertas traseras ('backdoors'), impidiendo su liberación maliciosa tras un posible compromiso de la cuenta del desarrollador.",
+      "whyItMatters": "Este es un ejemplo positivo de detección y bloqueo proactivo de software malicioso en un ecosistema popular. Subraya la importancia de la vigilancia y los mecanismos de seguridad en las plataformas de distribución de software.",
+      "recommendedAction": "Mantén tus instalaciones de WordPress y sus plugins actualizados. Sé cauteloso al instalar plugins de desarrolladores menos conocidos."
+    },
+    {
+      "title": "When AI Writes the Code, What Counts as Evidence?",
+      "url": "https://stackoverflow.blog/2026/11/25/when-ai-writes-the-code-what-counts-as-evidence/",
+      "source": "Stack Overflow Blog",
+      "category": "AI for Developers",
+      "priority": "medium",
+      "score": 8,
+      "summary": "Este artículo de Stack Overflow explora las implicaciones legales y éticas de la autoría del código generado por IA, cuestionando qué se considera evidencia cuando la IA participa en la creación de software.",
+      "whyItMatters": "A medida que las herramientas de IA se vuelven más comunes en el desarrollo, surgen preguntas importantes sobre la propiedad intelectual, la responsabilidad y la validación del código. Entender estas cuestiones es crucial para la práctica profesional.",
+      "recommendedAction": "Considera las implicaciones de usar IA para generar código en tus proyectos. Familiarízate con las políticas de tu empresa y las directrices sobre el uso de estas herramientas."
+    },
+    {
+      "title": "Idempotency when you don't control the other end",
+      "url": "https://stackoverflow.blog/2026/11/24/idempotency-when-you-don-t-control-the-other-end/",
+      "source": "Stack Overflow Blog",
+      "category": "Backend/Architecture",
+      "priority": "low",
+      "score": 3,
+      "summary": "El artículo discute el concepto de idempotencia en sistemas distribuidos, particularmente cuando no se tiene control total sobre el punto final de la operación, lo cual es un desafío común en el desarrollo de APIs y microservicios.",
+      "whyItMatters": "La idempotencia es un principio importante en el diseño de sistemas distribuidos para garantizar la fiabilidad. Comprender cómo manejarla cuando no se controlan todos los componentes es valioso para construir APIs robustas.",
+      "recommendedAction": "Revisa tus implementaciones de API y servicios para asegurar que manejan correctamente la idempotencia, especialmente en interacciones con sistemas de terceros."
+    }
+  ]
+}
