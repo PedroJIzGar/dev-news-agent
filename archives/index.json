@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-25T17:49:48.953Z",
+  "generatedAt": "2026-11-26T17:33:18.316Z",
   "availableDates": [
+    "2026-11-26",
     "2026-11-25",
     "2026-11-24",
     "2026-11-23",
@@ -157,13 +158,13 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 154,
-    "totalArticles": 1815,
-    "highPriority": 951,
-    "mediumPriority": 659,
+    "totalReports": 155,
+    "totalArticles": 1823,
+    "highPriority": 956,
+    "mediumPriority": 662,
     "lowPriority": 205,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-25",
+    "latestReportDate": "2026-11-26",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
@@ -174,7 +175,7 @@
       },
       {
         "name": "Seguridad",
-        "count": 423
+        "count": 429
       },
       {
         "name": "AI for Developers",
@@ -192,7 +193,7 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1375
+        "count": 1381
       },
       {
         "name": "Stack Overflow Blog",
@@ -200,11 +201,11 @@
       },
       {
         "name": "Spring Blog",
-        "count": 119
+        "count": 120
       },
       {
         "name": "GitHub Blog",
-        "count": 114
+        "count": 115
       },
       {
         "name": "Krebs on Security",
@@ -213,12 +214,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-11-18",
-      "high": 7,
-      "medium": 6,
-      "low": 3
-    },
     {
       "date": "2026-11-19",
       "high": 5,
@@ -254,9 +249,88 @@
       "high": 10,
       "medium": 2,
       "low": 1
+    },
+    {
+      "date": "2026-11-26",
+      "high": 5,
+      "medium": 3,
+      "low": 0
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-26",
+      "generatedAt": "2026-11-26T17:33:18.307Z",
+      "totalArticles": 8,
+      "highPriority": 5,
+      "mediumPriority": 3,
+      "lowPriority": 0,
+      "topCategory": "Seguridad",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Seguridad",
+          "count": 6
+        },
+        {
+          "name": "AI para Desarrolladores",
+          "count": 1
+        },
+        {
+          "name": "Herramientas para Desarrolladores",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 6
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "GitHub Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Decision Models in Spring AI 2.1: Yes, No, and How Sure",
+          "url": "https://spring.io/blog/2026/11/26/spring-ai-decision-models-guardrails-judges",
+          "source": "Spring Blog",
+          "category": "AI para Desarrolladores",
+          "priority": "high",
+          "score": 10,
+          "summary": "La versión 2.1 de Spring AI introduce modelos de decisión que permiten a las aplicaciones de IA determinar respuestas binarias (sí/no) y el nivel de confianza asociado.",
+          "whyItMatters": "Para los desarrolladores que trabajan con Java y Spring Boot, y que están explorando la integración de IA, esta actualización es muy relevante. Permite implementar lógica de decisión más robusta y controlada dentro de las aplicaciones impulsadas por IA, mejorando la fiabilidad y la interpretabilidad de las respuestas.",
+          "recommendedAction": "Actualizar a Spring AI 2.1 si se utiliza Spring Boot y se integran capacidades de IA. Explorar la implementación de modelos de decisión para casos de uso que requieran respuestas condicionales o evaluaciones de confianza."
+        },
+        {
+          "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+          "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "1Password, un popular gestor de contraseñas, ha sufrido una brecha de seguridad que resultó en el robo de datos de algunos clientes y código fuente. Sin embargo, las bóvedas de contraseñas de los clientes y otros secretos no fueron accedidos.",
+          "whyItMatters": "Este incidente es crucial para los desarrolladores ya que afecta a una herramienta de seguridad ampliamente utilizada y subraya los riesgos asociados con la seguridad de las cuentas de GitHub y los sistemas backend. Demuestra la importancia de proteger rigurosamente tanto el código fuente como los datos de los clientes.",
+          "recommendedAction": "Revisar y reforzar las medidas de seguridad de las cuentas de GitHub, incluyendo la autenticación multifactor y las auditorías de acceso. Evaluar las prácticas de seguridad internas y las de los proveedores externos."
+        },
+        {
+          "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+          "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+          "source": "The Hacker News",
+          "category": "Seguridad",
+          "priority": "high",
+          "score": 9,
+          "summary": "Actores maliciosos vinculados a Corea del Norte han comprometido más de 7,600 repositorios en GitHub, inyectando código malicioso que se propaga a través de paquetes de Python.",
+          "whyItMatters": "Esta noticia es de alta prioridad para los desarrolladores que usan GitHub, ya que expone una amenaza sofisticada que afecta directamente a los repositorios de código. La implantación de malware en la cadena de suministro de software puede tener consecuencias devastadoras, afectando a todos los que utilizan código vulnerable.",
+          "recommendedAction": "Implementar escaneos de seguridad en los repositorios de GitHub y en las dependencias de software. Utilizar herramientas de análisis estático y dinámico para detectar código malicioso y mantener las políticas de seguridad de la plataforma actualizadas."
+        }
+      ]
+    },
     {
       "date": "2026-11-25",
       "generatedAt": "2026-11-25T17:49:48.938Z",

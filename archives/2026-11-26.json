@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-26T17:33:18.307Z",
+  "totalArticles": 8,
+  "summary": {
+    "highPriority": 5,
+    "mediumPriority": 3,
+    "lowPriority": 0,
+    "topCategories": [
+      {
+        "name": "Seguridad",
+        "count": 6
+      },
+      {
+        "name": "AI para Desarrolladores",
+        "count": 1
+      },
+      {
+        "name": "Herramientas para Desarrolladores",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 6
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      },
+      {
+        "name": "GitHub Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "1Password, un popular gestor de contraseñas, ha sufrido una brecha de seguridad que resultó en el robo de datos de algunos clientes y código fuente. Sin embargo, las bóvedas de contraseñas de los clientes y otros secretos no fueron accedidos.",
+      "whyItMatters": "Este incidente es crucial para los desarrolladores ya que afecta a una herramienta de seguridad ampliamente utilizada y subraya los riesgos asociados con la seguridad de las cuentas de GitHub y los sistemas backend. Demuestra la importancia de proteger rigurosamente tanto el código fuente como los datos de los clientes.",
+      "recommendedAction": "Revisar y reforzar las medidas de seguridad de las cuentas de GitHub, incluyendo la autenticación multifactor y las auditorías de acceso. Evaluar las prácticas de seguridad internas y las de los proveedores externos."
+    },
+    {
+      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+      "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 9,
+      "summary": "Actores maliciosos vinculados a Corea del Norte han comprometido más de 7,600 repositorios en GitHub, inyectando código malicioso que se propaga a través de paquetes de Python.",
+      "whyItMatters": "Esta noticia es de alta prioridad para los desarrolladores que usan GitHub, ya que expone una amenaza sofisticada que afecta directamente a los repositorios de código. La implantación de malware en la cadena de suministro de software puede tener consecuencias devastadoras, afectando a todos los que utilizan código vulnerable.",
+      "recommendedAction": "Implementar escaneos de seguridad en los repositorios de GitHub y en las dependencias de software. Utilizar herramientas de análisis estático y dinámico para detectar código malicioso y mantener las políticas de seguridad de la plataforma actualizadas."
+    },
+    {
+      "title": "Decision Models in Spring AI 2.1: Yes, No, and How Sure",
+      "url": "https://spring.io/blog/2026/11/26/spring-ai-decision-models-guardrails-judges",
+      "source": "Spring Blog",
+      "category": "AI para Desarrolladores",
+      "priority": "high",
+      "score": 10,
+      "summary": "La versión 2.1 de Spring AI introduce modelos de decisión que permiten a las aplicaciones de IA determinar respuestas binarias (sí/no) y el nivel de confianza asociado.",
+      "whyItMatters": "Para los desarrolladores que trabajan con Java y Spring Boot, y que están explorando la integración de IA, esta actualización es muy relevante. Permite implementar lógica de decisión más robusta y controlada dentro de las aplicaciones impulsadas por IA, mejorando la fiabilidad y la interpretabilidad de las respuestas.",
+      "recommendedAction": "Actualizar a Spring AI 2.1 si se utiliza Spring Boot y se integran capacidades de IA. Explorar la implementación de modelos de decisión para casos de uso que requieran respuestas condicionales o evaluaciones de confianza."
+    },
+    {
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 7,
+      "summary": "Drupal ha emitido una advertencia sobre una vulnerabilidad crítica en su núcleo que permite la toma de control de sitios y que ya está siendo explotada activamente.",
+      "whyItMatters": "Aunque Drupal no es parte directa del stack del usuario, una vulnerabilidad crítica de 'toma de control de sitio' es un recordatorio importante de la necesidad de aplicar parches de seguridad de manera proactiva en cualquier sistema web. Las lecciones aprendidas aquí son aplicables a la gestión de seguridad de cualquier aplicación.",
+      "recommendedAction": "Mantener actualizados todos los sistemas web, incluidos CMS como Drupal, tan pronto como se publiquen parches de seguridad críticos. Revisar las prácticas de gestión de vulnerabilidades y la aplicación de parches."
+    },
+    {
+      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 5,
+      "summary": "La CISA ha añadido 10 nuevas vulnerabilidades a su catálogo de Vulnerabilidades Explotadas Conocidas (KEV), incluyendo fallos en productos de Mitel, Juniper, Vates y Danfoss.",
+      "whyItMatters": "Este informe destaca la importancia de estar al tanto de las vulnerabilidades activamente explotadas por actores maliciosos. Aunque los productos mencionados no sean directamente parte del stack del usuario, la metodología de alerta y el impacto de estas vulnerabilidades son relevantes para la concienciación general sobre seguridad.",
+      "recommendedAction": "Consultar regularmente el catálogo KEV de CISA y priorizar la aplicación de parches para las vulnerabilidades que afecten a la infraestructura crítica o a componentes utilizados en el entorno de desarrollo y producción."
+    },
+    {
+      "title": "How to choose the next safe step in application modernization",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+      "source": "GitHub Blog",
+      "category": "Herramientas para Desarrolladores",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Este artículo de GitHub explora cómo evaluar aplicaciones legacy y seleccionar pasos seguros para su modernización, utilizando herramientas como GitHub Copilot.",
+      "whyItMatters": "La modernización de aplicaciones es un tema crucial en el desarrollo de software. La guía sobre cómo abordar este proceso de forma segura y eficiente, especialmente con la ayuda de herramientas como GitHub Copilot, es valiosa para mantener y mejorar las bases de código existentes.",
+      "recommendedAction": "Evaluar las estrategias de modernización de aplicaciones existentes. Investigar cómo GitHub Copilot y otras herramientas de IA pueden facilitar y asegurar el proceso de refactorización y actualización de código."
+    },
+    {
+      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+      "url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "medium",
+      "score": 6,
+      "summary": "Se detallan los kits y técnicas de phishing más efectivos para evadir los controles de seguridad actuales, analizando su tasa de 'éxito' en llegar al usuario.",
+      "whyItMatters": "Comprender las tácticas más comunes utilizadas por los atacantes de phishing es fundamental para implementar defensas más robustas. Este conocimiento ayuda a los desarrolladores y equipos de seguridad a anticipar y mitigar mejor estas amenazas.",
+      "recommendedAction": "Revisar las medidas de seguridad de correo electrónico y web. Educar a los equipos sobre las técnicas de phishing más recientes y cómo identificarlas. Considerar el uso de herramientas de seguridad que empleen IA para detectar patrones de phishing avanzados."
+    },
+    {
+      "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+      "url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+      "source": "The Hacker News",
+      "category": "Seguridad",
+      "priority": "high",
+      "score": 8,
+      "summary": "Investigadores han descubierto 13 paquetes maliciosos en NuGet diseñados para atacar a desarrolladores de .NET, disfrazándose de evaluaciones de trabajo falsas.",
+      "whyItMatters": "Este es un ataque directo a la cadena de suministro de software, afectando a desarrolladores de .NET, un ecosistema común. La distribución de malware a través de repositorios de paquetes legítimos como NuGet es una amenaza significativa que requiere vigilancia constante.",
+      "recommendedAction": "Implementar escaneos de seguridad para las dependencias de paquetes, especialmente NuGet. Adoptar una política de 'mínimo privilegio' al incorporar nuevas bibliotecas y verificar la reputación de los paquetes antes de su uso."
+    }
+  ]
+}
