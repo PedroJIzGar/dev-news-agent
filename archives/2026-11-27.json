@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T17:16:08.398Z",
+  "totalArticles": 9,
+  "summary": {
+    "highPriority": 5,
+    "mediumPriority": 3,
+    "lowPriority": 1,
+    "topCategories": [
+      {
+        "name": "Security",
+        "count": 7
+      },
+      {
+        "name": "Backend",
+        "count": 1
+      },
+      {
+        "name": "AI for Developers",
+        "count": 1
+      }
+    ],
+    "topSources": [
+      {
+        "name": "The Hacker News",
+        "count": 7
+      },
+      {
+        "name": "Spring Blog",
+        "count": 1
+      },
+      {
+        "name": "Stack Overflow Blog",
+        "count": 1
+      }
+    ]
+  },
+  "articles": [
+    {
+      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Una vulnerabilidad día cero recién descubierta en Cacti, una herramienta de monitoreo de red de código abierto, permite la ejecución remota de código (RCE) con solo cuatro solicitudes HTTP, incluso a través de acceso de invitado no autenticado.",
+      "whyItMatters": "Esta vulnerabilidad es crítica ya que afecta a una herramienta de monitoreo de red comúnmente utilizada, y la facilidad de explotación (solo 4 peticiones HTTP y acceso de invitado) la convierte en un objetivo de alto valor para los atacantes. La falta de un parche la hace aún más peligrosa.",
+      "recommendedAction": "Asegúrate de que Cacti esté actualizado a la última versión tan pronto como haya un parche disponible y monitoriza activamente los registros en busca de actividades sospechosas relacionadas con solicitudes HTTP inusuales."
+    },
+    {
+      "title": "A Bootiful Podcast: Cora Iberkleid on AI, Microservices, and the Future of Software Upgrades",
+      "url": "https://spring.io/blog/2026/11/26/a-bootiful-podcast-cora-iberkleid",
+      "source": "Spring Blog",
+      "category": "Backend",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Un episodio del podcast Bootiful de Spring.io presenta una conversación con Cora Iberkleid sobre inteligencia artificial, microservicios y las tendencias futuras en las actualizaciones de software.",
+      "whyItMatters": "Este episodio ofrece perspectivas sobre la intersección de la IA y la arquitectura de microservicios, que son temas relevantes para el desarrollo backend moderno. También aborda la evolución de las actualizaciones de software, un aspecto práctico del ciclo de vida del desarrollo.",
+      "recommendedAction": "Escucha este podcast para obtener información sobre cómo la IA podría influir en las arquitecturas de microservicios y las estrategias de actualización de software."
+    },
+    {
+      "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+      "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Este artículo discute cómo las métricas de seguridad tradicionales a menudo no son prácticas ni informativas, y cómo la velocidad de los atacantes, impulsada por la IA, exige un enfoque más dinámico y efectivo para mantener una imagen de seguridad actualizada.",
+      "whyItMatters": "Aborda un desafío fundamental en ciberseguridad: la brecha entre las métricas de seguridad estáticas y la naturaleza evolutiva y rápida de las amenazas, especialmente con el auge de la IA. Es crucial para mantener la postura de seguridad.",
+      "recommendedAction": "Evalúa tus métricas de seguridad actuales y considera adoptar enfoques más dinámicos y basados en el contexto para reflejar mejor el panorama de amenazas en tiempo real, especialmente ante el avance de la IA."
+    },
+    {
+      "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+      "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Los atacantes han comprometido los archivos de instalación de Q-Dir y DesktopOK distribuidos desde sus sitios web oficiales, troyanizándolos para entregar malware de acceso remoto (RAT). El ataque afecta tanto a las descargas nuevas como a los procesos de actualización.",
+      "whyItMatters": "Este es un ataque de cadena de suministro que afecta a software legítimo y de fuentes oficiales, lo que lo hace particularmente insidioso. Comprometer las descargas y actualizaciones oficiales puede llevar a una amplia infección de usuarios.",
+      "recommendedAction": "Sé extremadamente cauteloso al descargar o actualizar software, incluso de fuentes oficiales. Considera verificar las firmas de archivos y utiliza soluciones de seguridad actualizadas para detectar malware."
+    },
+    {
+      "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+      "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 8,
+      "summary": "Se ha descubierto una aplicación en la Microsoft Store que, a través de un sitio web falso, distribuye el troyano de acceso remoto (RAT) Vinci, permitiendo a los atacantes controlar sistemas de forma remota.",
+      "whyItMatters": "Demuestra que incluso las tiendas de aplicaciones oficiales pueden ser vectores de ataque. La distribución de RATs como Vinci a través de una aplicación firmada por Microsoft representa un riesgo significativo para los usuarios que confían en la plataforma.",
+      "recommendedAction": "Verifica la legitimidad de las aplicaciones antes de instalarlas, incluso desde tiendas oficiales. Investiga la reputación del desarrollador y ten cuidado con las aplicaciones que solicitan permisos excesivos o parecen sospechosas."
+    },
+    {
+      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+      "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "high",
+      "score": 9,
+      "summary": "Suiza ha confirmado los primeros casos de ciberataques asistidos por IA que han logrado penetrar operadores de infraestructura crítica. Tres de los cinco ataques confirmados se dirigieron a infraestructura crítica, con dos de ellos exitosos.",
+      "whyItMatters": "Marca un hito preocupante en el uso de IA para ciberataques, especialmente contra infraestructuras críticas. Subraya la necesidad de que las defensas de seguridad evolucionen rápidamente para contrarrestar las capacidades de los atacantes potenciados por IA.",
+      "recommendedAction": "Mantente informado sobre las tácticas de ataque asistidas por IA y refuerza las defensas de seguridad, especialmente para sistemas críticos. Considera la implementación de herramientas de detección y respuesta que puedan manejar amenazas avanzadas."
+    },
+    {
+      "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+      "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "medium",
+      "score": 8,
+      "summary": "Un resumen de noticias de seguridad que incluye vulnerabilidades en servicios NGINX, extensiones de navegador maliciosas, secuestro de servidores con IA y otras amenazas relevantes.",
+      "whyItMatters": "Proporciona una visión general de múltiples amenazas de seguridad emergentes, incluidas aquellas relacionadas con la IA y la infraestructura web común como NGINX. Estar al tanto de estas amenazas ayuda a priorizar los esfuerzos de seguridad.",
+      "recommendedAction": "Revisa las noticias destacadas en este artículo y evalúa si alguna de las amenazas mencionadas (como las extensiones maliciosas o el secuestro de servidores con IA) podría afectar tus sistemas. Toma medidas preventivas si es necesario."
+    },
+    {
+      "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+      "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+      "source": "The Hacker News",
+      "category": "Security",
+      "priority": "low",
+      "score": 5,
+      "summary": "Se atribuye a un grupo de hackers vinculado a Vietnam una campaña de ciberespionaje dirigida a organizaciones militares, gubernamentales y legislativas en el Sudeste Asiático, con el objetivo de obtener inteligencia sobre el Mar de China Meridional.",
+      "whyItMatters": "Si bien se trata de un ataque dirigido a una región geográfica y sector específicos, ilustra la continua amenaza de ciberespionaje patrocinado por estados, que puede tener implicaciones más amplias en la geopolítica y la seguridad de la información.",
+      "recommendedAction": "Para organizaciones que operan en el Sudeste Asiático o que manejan información sensible relacionada con disputas territoriales, es importante revisar las defensas contra ataques de espionaje dirigidos."
+    },
+    {
+      "title": "Sandboxes, secure inference, and keeping agents from going rogue",
+      "url": "https://stackoverflow.blog/2026/11/27/sandboxes-secure-inference-and-rogue-agents/",
+      "source": "Stack Overflow Blog",
+      "category": "AI for Developers",
+      "priority": "medium",
+      "score": 7,
+      "summary": "Este artículo de Stack Overflow Blog cubre las discusiones sobre sandboxing de agentes de IA, inferencia segura y cómo prevenir comportamientos no deseados de los agentes de IA, basándose en conversaciones con expertos de la industria.",
+      "whyItMatters": "A medida que los desarrolladores integran cada vez más IA en sus aplicaciones, la seguridad y el control de estos agentes son primordiales. Los conceptos de sandboxing e inferencia segura son fundamentales para construir sistemas de IA confiables y seguros.",
+      "recommendedAction": "Familiarízate con los conceptos de sandboxing y técnicas de inferencia segura al trabajar con modelos de IA, especialmente en entornos de producción. Explora herramientas y marcos que faciliten estas prácticas."
+    }
+  ]
+}

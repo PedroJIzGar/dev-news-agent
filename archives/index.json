@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-11-26T17:33:18.316Z",
+  "generatedAt": "2026-11-27T17:16:08.409Z",
   "availableDates": [
+    "2026-11-27",
     "2026-11-26",
     "2026-11-25",
     "2026-11-24",
@@ -158,20 +159,20 @@
     "2026-06-01"
   ],
   "summary": {
-    "totalReports": 155,
-    "totalArticles": 1823,
-    "highPriority": 956,
-    "mediumPriority": 662,
-    "lowPriority": 205,
+    "totalReports": 156,
+    "totalArticles": 1832,
+    "highPriority": 961,
+    "mediumPriority": 665,
+    "lowPriority": 206,
     "averageArticlesPerReport": 12,
-    "latestReportDate": "2026-11-26",
+    "latestReportDate": "2026-11-27",
     "dominantCategory": "Security",
     "mostActiveSource": "The Hacker News",
     "highestRiskDay": "2026-10-23",
     "topCategories": [
       {
         "name": "Security",
-        "count": 819
+        "count": 826
       },
       {
         "name": "Seguridad",
@@ -179,7 +180,7 @@
       },
       {
         "name": "AI for Developers",
-        "count": 137
+        "count": 138
       },
       {
         "name": "IA para Desarrolladores",
@@ -193,15 +194,15 @@
     "topSources": [
       {
         "name": "The Hacker News",
-        "count": 1381
+        "count": 1388
       },
       {
         "name": "Stack Overflow Blog",
-        "count": 153
+        "count": 154
       },
       {
         "name": "Spring Blog",
-        "count": 120
+        "count": 121
       },
       {
         "name": "GitHub Blog",
@@ -214,12 +215,6 @@
     ]
   },
   "priorityTrend": [
-    {
-      "date": "2026-11-19",
-      "high": 5,
-      "medium": 4,
-      "low": 7
-    },
     {
       "date": "2026-11-20",
       "high": 4,
@@ -255,9 +250,88 @@
       "high": 5,
       "medium": 3,
       "low": 0
+    },
+    {
+      "date": "2026-11-27",
+      "high": 5,
+      "medium": 3,
+      "low": 1
     }
   ],
   "reports": [
+    {
+      "date": "2026-11-27",
+      "generatedAt": "2026-11-27T17:16:08.398Z",
+      "totalArticles": 9,
+      "highPriority": 5,
+      "mediumPriority": 3,
+      "lowPriority": 1,
+      "topCategory": "Security",
+      "topSource": "The Hacker News",
+      "topCategories": [
+        {
+          "name": "Security",
+          "count": 7
+        },
+        {
+          "name": "Backend",
+          "count": 1
+        },
+        {
+          "name": "AI for Developers",
+          "count": 1
+        }
+      ],
+      "topSources": [
+        {
+          "name": "The Hacker News",
+          "count": 7
+        },
+        {
+          "name": "Spring Blog",
+          "count": 1
+        },
+        {
+          "name": "Stack Overflow Blog",
+          "count": 1
+        }
+      ],
+      "topArticles": [
+        {
+          "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+          "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Una vulnerabilidad día cero recién descubierta en Cacti, una herramienta de monitoreo de red de código abierto, permite la ejecución remota de código (RCE) con solo cuatro solicitudes HTTP, incluso a través de acceso de invitado no autenticado.",
+          "whyItMatters": "Esta vulnerabilidad es crítica ya que afecta a una herramienta de monitoreo de red comúnmente utilizada, y la facilidad de explotación (solo 4 peticiones HTTP y acceso de invitado) la convierte en un objetivo de alto valor para los atacantes. La falta de un parche la hace aún más peligrosa.",
+          "recommendedAction": "Asegúrate de que Cacti esté actualizado a la última versión tan pronto como haya un parche disponible y monitoriza activamente los registros en busca de actividades sospechosas relacionadas con solicitudes HTTP inusuales."
+        },
+        {
+          "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+          "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Este artículo discute cómo las métricas de seguridad tradicionales a menudo no son prácticas ni informativas, y cómo la velocidad de los atacantes, impulsada por la IA, exige un enfoque más dinámico y efectivo para mantener una imagen de seguridad actualizada.",
+          "whyItMatters": "Aborda un desafío fundamental en ciberseguridad: la brecha entre las métricas de seguridad estáticas y la naturaleza evolutiva y rápida de las amenazas, especialmente con el auge de la IA. Es crucial para mantener la postura de seguridad.",
+          "recommendedAction": "Evalúa tus métricas de seguridad actuales y considera adoptar enfoques más dinámicos y basados en el contexto para reflejar mejor el panorama de amenazas en tiempo real, especialmente ante el avance de la IA."
+        },
+        {
+          "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+          "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+          "source": "The Hacker News",
+          "category": "Security",
+          "priority": "high",
+          "score": 9,
+          "summary": "Los atacantes han comprometido los archivos de instalación de Q-Dir y DesktopOK distribuidos desde sus sitios web oficiales, troyanizándolos para entregar malware de acceso remoto (RAT). El ataque afecta tanto a las descargas nuevas como a los procesos de actualización.",
+          "whyItMatters": "Este es un ataque de cadena de suministro que afecta a software legítimo y de fuentes oficiales, lo que lo hace particularmente insidioso. Comprometer las descargas y actualizaciones oficiales puede llevar a una amplia infección de usuarios.",
+          "recommendedAction": "Sé extremadamente cauteloso al descargar o actualizar software, incluso de fuentes oficiales. Considera verificar las firmas de archivos y utiliza soluciones de seguridad actualizadas para detectar malware."
+        }
+      ]
+    },
     {
       "date": "2026-11-26",
       "generatedAt": "2026-11-26T17:33:18.307Z",
